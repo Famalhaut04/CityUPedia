@@ -94,7 +94,7 @@
 
 ### 导航新增
 
-- **GitHub 仓库入口**：中英文切换按钮下方新增「GitHub 仓库」菜单项，点击在新标签页打开项目 GitHub 页面（`github.com/Famalhaut04/Cityu-course-selection`），文案支持中英文切换
+- **GitHub 仓库入口**：中英文切换按钮下方新增「GitHub 仓库」菜单项，点击在新标签页打开项目 GitHub 页面（`github.com/Famalhaut04/CityUPedia`），文案支持中英文切换
 
 ### 更新推送通知
 
