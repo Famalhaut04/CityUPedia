@@ -111,6 +111,24 @@
     return [data?.programme || DEFAULT_PROGRAMME];
   }
 
+  // 课程学期列表：semester_tag 支持 "SemB+Summer" 形式，表示同一门课在多个学期开设
+  function courseTerms(course) {
+    const raw = course?.semester_tag;
+    if (!raw) return [];
+    return String(raw).split("+").map((term) => term.trim()).filter(Boolean);
+  }
+
+  // 课程详情页加入课表时使用的主学期（双学期课程取第一个，即常规学期）
+  function primarySemester(course) {
+    const terms = courseTerms(course);
+    return terms.length ? terms[0] : "SemA";
+  }
+
+  // 学期标签的 CSS 修饰类
+  function termBadgeClass(term) {
+    return term === "SemA" ? "term-a" : term === "SemB" ? "term-b" : term === "Summer" ? "term-summer" : "";
+  }
+
   function getStoredProgramme() {
     try {
       return localStorage.getItem(PROGRAMME_KEY) || DEFAULT_PROGRAMME;
@@ -1060,6 +1078,9 @@
     clearSelections,
     cloudReviewsEnabled,
     courseProgrammes,
+    courseTerms,
+    primarySemester,
+    termBadgeClass,
     currentAdmin,
     deleteCloudReview,
     escapeHtml,

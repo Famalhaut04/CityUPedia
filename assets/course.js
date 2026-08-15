@@ -40,7 +40,7 @@
     const displayProgramme = belongsToCurrent ? currentProgramme : (courseProgrammes[0] || MSDS.DEFAULT_PROGRAMME);
     const displayRequirementType = MSDS.getRequirementType(course, displayProgramme);
     const displayGroupInfo = MSDS.getElectiveGroupInfo(MSDS.getProgramme(data, displayProgramme), MSDS.getElectiveGroup(course, displayProgramme));
-    const selections = MSDS.getStoredSelections(currentProgramme, course.semester_tag);
+    const selections = MSDS.getStoredSelections(currentProgramme, MSDS.primarySemester(course));
     const isAdded = Boolean(selections[course.code]);
     const myReview = MSDS.getCourseReview(course.code);
     let added = isAdded;
@@ -71,7 +71,7 @@
           <div class="detail-code-row">
             <span class="detail-code">${MSDS.escapeHtml(course.code)}</span>
             ${displayRequirementType === "core" ? '<span class="verdict-badge core">核心课</span>' : MSDS.recommendationBadge(rec)}
-            ${course.semester_tag ? `<span class="mini-badge term ${course.semester_tag === "SemA" ? "term-a" : course.semester_tag === "SemB" ? "term-b" : course.semester_tag === "Summer" ? "term-summer" : ""}">${MSDS.escapeHtml(course.semester_tag)}</span>` : ""}
+            ${MSDS.courseTerms(course).map((term) => `<span class="mini-badge term ${MSDS.termBadgeClass(term)}">${MSDS.escapeHtml(term)}</span>`).join("")}
           </div>
           <h1>${MSDS.escapeHtml(course.programme_title)}</h1>
           <p>${course.credits} 学分 · ${MSDS.escapeHtml(course.remarks)} · ${MSDS.escapeHtml(titleNote)}</p>
@@ -210,11 +210,11 @@
         MSDS.showToast("该课程暂无归属项目");
         return;
       }
-      const current = MSDS.getStoredSelections(programme, course.semester_tag);
+      const current = MSDS.getStoredSelections(programme, MSDS.primarySemester(course));
       if (current[course.code]) {
         // 已加入：再次点击取消选择
         delete current[course.code];
-        MSDS.saveSelections(current, programme, course.semester_tag);
+        MSDS.saveSelections(current, programme, MSDS.primarySemester(course));
         added = false;
         const button = document.getElementById("detail-add");
         button.textContent = "加入课表";
@@ -226,7 +226,7 @@
       if (chosenTutorialCrn) {
         current[course.code].tutorialCrn = chosenTutorialCrn;
       }
-      MSDS.saveSelections(current, programme, course.semester_tag);
+      MSDS.saveSelections(current, programme, MSDS.primarySemester(course));
       if (!belongsToCurrent) {
         MSDS.saveProgramme(programme);
       }
@@ -362,10 +362,10 @@
         chosenTutorialCrn = event.target.value;
         if (!added) return;
         const programme = belongsToCurrent ? currentProgramme : courseProgrammes[0];
-        const current = MSDS.getStoredSelections(programme, course.semester_tag);
+        const current = MSDS.getStoredSelections(programme, MSDS.primarySemester(course));
         if (!current[course.code]) return;
         current[course.code].tutorialCrn = chosenTutorialCrn;
-        MSDS.saveSelections(current, programme, course.semester_tag);
+        MSDS.saveSelections(current, programme, MSDS.primarySemester(course));
         const section = MSDS.findSection(course, chosenTutorialCrn);
         MSDS.showToast(section ? `已切换到 ${section.section}` : "已切换 Tutorial");
       });
