@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "14020",
+    "section": "SA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "15:00 - 17:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3508",
+    "instructor": "Junming LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14021",
+    "section": "SA2",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "12:00 - 14:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Junming LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14022",
+    "section": "SP1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M8051",
+    "instructor": "Junming LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

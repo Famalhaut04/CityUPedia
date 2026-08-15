@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15418",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "88",
+    "capacity": "300",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "LT-501",
+    "instructor": "Ning MIAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc AI for Sciences"
+    ]
+  }
+]

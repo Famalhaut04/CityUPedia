@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5222",
+  "level": "strong",
+  "verdict": "优先考虑",
+  "summary": "计算机网络，内容与本科计算机网络重合度高，作业和 Wireshark 实验工作量可控；期末开卷，复习重点在 tutorial 与作业。老师讲得清晰，有 Zoom 直播。",
+  "tags": ["难度适中", "期末开卷", "无考勤", "有回放"],
+  "source_ids": ["ec_review", "cs_review", "ec_sharp", "cs_ec_sema_review_2"],
+  "last_updated": "2026-08-13"
+}

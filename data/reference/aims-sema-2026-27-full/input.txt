@@ -1,0 +1,842 @@
+Accountancy
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Accountancy	AC	5511	Financial and Management Accounting	3	Y	P	477	480	N	English
+Accountancy	AC	5603	Corporate Financial Reporting	3	Y	P	156	160	N	English
+Accountancy	AC	5690	Corporate Governance	3	Y	P	468	800	N	English
+Accountancy	AC	5710	Advanced International Financial Accounting	3	N	P	1	320	N	English
+Accountancy	AC	5711	International Financial Statement Analysis	3	N	P	1	320	N	English
+Accountancy	AC	5720	Management Accounting Issues in Multinational Enterprises	3	N	P	1	320	N	English
+Accountancy	AC	5722P	Strategic Management Accounting and Internal Control	1.5	N	P	50	50	N	English & Putonghua
+Accountancy	AC	5752P	Tax Planning and Control	1.5	N	P	50	50	N	English & Putonghua
+Accountancy	AC	5794P	Corporate Finance	1.5	N	P	50	50	N	Putonghua
+Accountancy	AC	5803	Financial Statement Analysis in Global Context	3	Y	P	154	255	N	English
+Accountancy	AC	5813	Financial and Management Accounting	3	Y	P	160	160	N	English
+Accountancy	AC	6531	Financial Management	3	Y	P	231	240	N	English
+Accountancy	AC	6691	Companies and Securities Regulations and Practice	3	Y	P	147	160	N	English
+Accountancy	AC	6692	Risk Management	3	Y	P	147	160	N	English
+Accountancy	AC	6761	Artificial Intelligence Accounting	3	Y	P	100	100	N	English
+Accountancy	AC	6761P	Artificial Intelligence Accounting	1.5	N	P	53	53	N	Putonghua
+Accountancy	AC	6790P	CFO and Strategic Business Leaders	1.5	N	P	50	50	N	Putonghua
+ 
+Biomedical Engineering
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Biomedical Engineering	BME	5110	Biomedical Engineering Design	3	Y	P R	125	125	N	English
+Biomedical Engineering	BME	6101	Manufacturing of Biomedical Devices	3	Y	P R	125	125	N	English
+Biomedical Engineering	BME	6111	Biomedical Instrumentation	3	Y	P R	185	185	N	English
+Biomedical Engineering	BME	6115	Biorobotics	3	N	P	125	125	N	English
+Biomedical Engineering	BME	6123	Flexible Bioelectronics for Medical Applications	3	Y	P R	175	175	N	English
+Biomedical Engineering	BME	6136	Advanced Biomaterials for Healthcare and Biomedical Applications	3	Y	P	175	175	N	English
+Biomedical Engineering	BME	6141	Fundamentals and Applications of Single-molecule Biophysics in Rapid Diagnostics	3	Y	P	125	125	N	English
+Biomedical Engineering	BME	6145	Applied Artificial Intelligence for Biomedical and Healthcare Applications	3	Y	P	200	200	N	English
+ 
+Biomedical Sciences
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Biomedical Sciences	BMS	5002	Infectious Disease Management	3	Y	P	140	140	N	English
+Biomedical Sciences	BMS	5007	Pharmacology Principles in Drug Discovery and Development	3	Y	P	139	140	N	English
+Biomedical Sciences	BMS	5010	Artificial Intelligence in Health Science Research and Management	3	Y	P	100	101	N	English
+Biomedical Sciences	BMS	5011	Wearable Technologies and Digital Medicine	3	Y	P	146	146	N	English
+Biomedical Sciences	BMS	5100	Research Project Study in Biomedical Sciences, Life Sciences and Relevant Disciplines	5	N	P	20	20	N	English
+Biomedical Sciences	BMS	5101	Project Study in Management and Relevant Disciplines	3	N	P	10	10	N	English
+Biomedical Sciences	BMS	8001	Research Ethics and Methodology	2	Y	P R	45	45	N	English
+Biomedical Sciences	BMS	8101A	Guided Studies for Postgraduate Students (A)	1	Y	R	40	40	N	English
+Biomedical Sciences	BMS	8101C	Guided Studies for Postgraduate Students (C)	1	Y	R	20	20	N	English
+Biomedical Sciences	BMS	8101E	Guided Studies for Postgraduate Students (E)	1	Y	R	20	20	N	English
+Biomedical Sciences	BMS	8103	Cell and Molecular Biology Research	3	Y	R	84	85	N	English
+Biomedical Sciences	BMS	8105	Biotherapy and Nanomedicine	3	Y	P R	84	85	N	English
+Biomedical Sciences	BMS	8106	Stem Cell and Regenerative Medicine	3	Y	P R	100	100	N	English
+Biomedical Sciences	BMS	8110	Genomics and Bioinformatics	3	Y	P R	53	53	N	English
+Biomedical Sciences	BMS	8112	Viruses, Immunity and Ageing	3	Y	P R	50	50	N	English
+Biomedical Sciences	BMS	8113	Advanced Biomedical Materials and Devices	3	Y	P R	59	60	N	English
+ 
+Biostatistics
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Biostatistics	BIOS	5800	Probability	3	Y	P	5	155	N	English
+Biostatistics	BIOS	5801	Statistical Computing	3	Y	P	14	165	N	English
+Biostatistics	BIOS	6902	Statistical Inference	3	Y	P	5	155	N	English
+ 
+Chemistry
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Chemistry	CHEM	6118	Advanced Chemical Instrumentation	3	N	P	70	250	N	English
+Chemistry	CHEM	6119	Frontiers in Chemical Biology	3	Y	P	40	220	N	English
+Chemistry	CHEM	6121	Academic and Industrial Research, Development and Innovation	3	Y	P	40	220	N	English
+Chemistry	CHEM	6125	Selected Topics in Chemistry & Molecular Sciences	3	N	P	20	200	N	English
+Chemistry	CHEM	6126	Advanced Seminar Series	1.5	N	P	20	200	N	English
+Chemistry	CHEM	6127	Dissertation	7	N	P	10	11	N	English
+Chemistry	CHEM	6129	Advanced Directed Studies	3	N	P	60	60	N	English
+ 
+Chinese and History
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Chinese and History	CAH	5701	Classical Chinese Literature	3	Y	P	280	280	N	Putonghua
+Chinese and History	CAH	5707	Classical Chinese Philology	3	Y	P	70	70	N	Putonghua
+Chinese and History	CAH	5711	Chinese Written Characters, Literary Chinese, and East Asian History	3	Y	P	65	65	N	Putonghua
+Chinese and History	CAH	5713	Essential Concepts in Chinese Culture	3	Y	P	390	390	N	Putonghua
+Chinese and History	CAH	5719	Chinese for the Media	3	Y	P	70	70	N	Putonghua
+Chinese and History	CAH	5722	Chinese Creative Writing	3	Y	P	140	140	N	Putonghua
+Chinese and History	CAH	5731	Special Topics in Hong Kong Literature and Culture	3	Y	P	140	140	N	Putonghua
+Chinese and History	CAH	5732	Gender Perspective on Chinese Literature	3	Y	P	70	70	N	Putonghua
+Chinese and History	CAH	5733	Special Topics in Chinese Literature and Religion	3	Y	P	70	70	N	Putonghua
+Chinese and History	CAH	5734	Writing for Museum Professionals	3	Y	P	65	65	N	Putonghua
+Chinese and History	CAH	5736	Chinese Literature and Fine Arts	3	Y	P	70	70	N	Putonghua
+Chinese and History	CAH	5738	Historical Narrative in Chinese Literature and History Writing	3	Y	P	70	70	N	Putonghua
+Chinese and History	CAH	5739	Special Topics in Chinese-language Film and Fiction	3	Y	P	140	140	N	Putonghua
+Chinese and History	CAH	5740	History and Historical Sources in a Changing World	3	Y	P	130	130	N	Putonghua
+Chinese and History	CAH	5744	Museum Studies in China	3	Y	P	65	65	N	Putonghua
+Chinese and History	CAH	5745	Archaeology and Civilization of Early China	3	Y	P	65	65	N	Putonghua
+Chinese and History	CAH	5750	Cultural History of Medicine in China	3	Y	P	65	65	N	Chinese
+Chinese and History	CAH	5752	From Lingnan to the Greater Bay Area	3	Y	P	65	65	N	Putonghua
+Chinese and History	CAH	5754	Cultural and Creative Industries in Greater China	3	Y	P	65	65	N	Putonghua
+Chinese and History	CAH	6507	Master's Dissertation	3	N	P	40	40	N	Chinese
+ 
+CityU Academy of Innovation
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+CityUHK Academy of Innovation	CAI	6001	GRIT (Graduate Research and Innovation Trek) Integrated Study	3	N	P	180	180	N	English
+CityUHK Academy of Innovation	CAI	6003	Innovation Project	6	N	P	180	180	N	English
+ 
+Civil & Architectural Engg -CA
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Architecture and Civil Engg	CA	5104	Management Workshops	3	Y	P	210	335	N	English
+Architecture and Civil Engg	CA	5136	Foundation Studio for Values and Fundamentals in Design and Planning	6	N	P	19	70	N	English
+Architecture and Civil Engg	CA	5148	Architecture and Urbanism	3	Y	P	49	60	N	English
+Architecture and Civil Engg	CA	5159	Design Representation and Building Information Management	3	Y	P	69	80	N	English
+Architecture and Civil Engg	CA	5201	Advanced Architectural Design Studio: Digital Architecture	6	Y	P	40	40	N	English
+Architecture and Civil Engg	CA	5217	Environmental Economics, Planning and Policy	3	Y	P	249	300	N	English
+Architecture and Civil Engg	CA	5236	Transportation and Land Planning	3	Y	P	235	300	N	English
+Architecture and Civil Engg	CA	5244	Geotechnics & Civil Engineering Infrastructures	3	N	P R	87	180	N	English
+Architecture and Civil Engg	CA	5248	Indoor Environmental Quality	3	N	P	FULL	60	N	English
+Architecture and Civil Engg	CA	5250	Renewable Energy for a Sustainable Building Performance	3	Y	P	90	90	N	English
+Architecture and Civil Engg	CA	5251	Sustainable Building Development	3	Y	P	90	90	N	English
+Architecture and Civil Engg	CA	5252	Building Environment Modelling for Sustainability Analysis	3	Y	P	80	80	N	English
+Architecture and Civil Engg	CA	5563	Advanced Digital Construction	3	Y	P	20	80	N	English
+Architecture and Civil Engg	CA	5603	Professional Research Methods	3	Y	P R	270	270	N	English
+Architecture and Civil Engg	CA	6138	Urban Design Charrette	6	Y	P	90	90	N	English
+Architecture and Civil Engg	CA	6164	Architecture Thesis Studio - Part 1	6	N	P	39	70	N	English
+Architecture and Civil Engg	CA	6200	Thesis Writing Skills	1	N	P	62	62	N	English
+Architecture and Civil Engg	CA	6241	Geographic Data Management and Planning Analysis	3	Y	P R	47	112	N	English
+Architecture and Civil Engg	CA	6247	Water Resources Assessment and Management	3	Y	P	90	90	N	English
+Architecture and Civil Engg	CA	6302	Theory and Criticism of Architecture	3	Y	P	51	82	N	English
+Architecture and Civil Engg	CA	6533	Thesis Studio for Design and Planning	3	Y	P	57	57	N	English
+Architecture and Civil Engg	CA	6535	Dissertation - Civil Infrastructure Engineering	3	N	P	74	161	N	English
+Architecture and Civil Engg	CA	6536	Dissertation - Building Environment and Sustainability	3	N	P	55	115	N	English
+Architecture and Civil Engg	CA	6537	Dissertation	3	N	P	29	154	N	English
+Architecture and Civil Engg	CA	6538	Dissertation – Digital Construction Management	3	N	P	54	115	N	English
+Architecture and Civil Engg	CA	6694	Geomechanics	3	Y	P R	80	80	N	English
+ 
+Col. of Business - FB
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Information Systems	FB	5003	Information Systems for Managers	2	Y	P	120	120	N	English
+Col of Business	FB	5560	FinTech and Cryptocurrency	2	Y	P	60	60	N	English
+Col of Business	FB	5601	Principles of Marketing	2	Y	P	58	60	N	English
+Col of Business	FB	5700	MBA Orientation	1	Y	P	10	10	N	English
+Decision Analytics &Operations	FB	5731	Business Analytics and Decision Modelling	2	Y	P	120	120	N	English
+Col of Business	FB	5771	Sustainability in Business	2	Y	P	60	60	N	English
+Col of Business	FB	5800P	Leadership Positioning (Orientation)	1	N	P	120	120	N	Putonghua
+Col of Business	FB	5801P	Organizational Behaviour	2	N	P	35	35	N	Putonghua
+Col of Business	FB	5802P	Managerial Economics	2	N	P	120	120	N	Putonghua
+Col of Business	FB	5803P	Financial Reporting and Analysis for Decision Making	2	N	P	120	120	N	Putonghua
+Col of Business	FB	5804P	Corporate Finance	2	N	P	60	60	N	Putonghua
+Col of Business	FB	5805P	Managing Operations for Competitive Advantage	2	N	P	20	20	N	Putonghua
+Col of Business	FB	5806P	Challenges in Marketing	2	N	P	120	120	N	Putonghua
+Col of Business	FB	5807P	Management Information Systems	2	N	P	80	80	N	Putonghua
+Col of Business	FB	5808P	Interdisciplinary Discovery	1	N	P	60	60	N	Putonghua
+Col of Business	FB	5809P	Leadership Positioning (Orientation)	1	N	P	20	20	N	Putonghua
+Accountancy	FB	5810	Financial Reporting Analysis for Business Decisions	2	Y	P	120	120	N	English
+Col of Business	FB	5810P	Strategic Management and Organizational Behaviour	2	N	P	15	15	N	Putonghua
+Col of Business	FB	5813P	Business Strategy and Valuation	2	N	P	15	15	N	Putonghua
+Col of Business	FB	5816P	Contemporary Marketing	2	N	P	20	20	N	Putonghua
+Col of Business	FB	5818P	Capital Markets and Corporate Finance	2	N	P	15	15	N	Putonghua
+Col of Business	FB	6776C	Special Topics in Business I	3	Y	P	50	50	N	English
+Col of Business	FB	6778A	AI-Driven Analytics and Business Intelligence	2	Y	P	60	60	N	 
+Col of Business	FB	6779B	Special Topics in Business II	2	Y	P	60	60	N	English
+Col of Business	FB	6810P	Technologies, Innovation and Business	2	N	P	20	20	N	Putonghua
+Col of Business	FB	6811P	Strategic Management	2	N	P	120	120	N	Putonghua
+Col of Business	FB	6812	EMBA Consulting Project	4	N	P	40	40	N	English
+Col of Business	FB	6815P	Leadership in Action Workshop	1	N	P	140	140	N	Putonghua
+Col of Business	FB	6816P	Innovation and Entrepreneurship Management	3	N	P	60	60	N	Putonghua
+Col of Business	FB	6838P	Current Challenges in Leadership	2	N	P	60	60	N	Putonghua
+Col of Business	FB	6840P	Customer Experience Management	2	N	P	60	60	N	Putonghua
+Col of Business	FB	6843P	Global Organizations Benchmarking Field Study	3	N	P	120	120	N	English & Putonghua
+Col of Business	FB	6844P	Contemporary Business Topics / Issues	1	N	P	30	30	N	Putonghua
+Col of Business	FB	6850P	Big Data Technologies and Business Applications	2	N	P	60	60	N	Putonghua
+Col of Business	FB	6853P	IPO, and Mergers & Acquisitions	2	N	P	120	120	N	Putonghua
+Col of Business	FB	6854P	Social Media Marketing	2	N	P	60	60	N	Putonghua
+Col of Business	FB	6855P	Business Intelligence and Strategic Decision Making	2	N	P	60	60	N	Putonghua
+Col of Business	FB	6856P	Global Business	2	N	P	60	60	N	Putonghua
+Col of Business	FB	6857P	Topics in Business Law	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6858P	Strategic Transformation and Corporate Entrepreneurship	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6862P	Derivatives and Applications	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6865P	Compensation Management and High-performance Team Development	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6867P	Consumer Behavior	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6869P	Stress and Emotion Management	1	N	P	15	15	N	Putonghua
+Col of Business	FB	6870P	Strategic Marketing in China	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6875P	Strategic Management and Innovation	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6876P	Thinking & Practice of Sustainable Business	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6880P	Global Marketing	1	N	P	60	60	N	Putonghua
+Col of Business	FB	6882P	Psychology: Insight into the People’s Heart	1	N	P	50	50	N	Chinese
+Col of Business	FB	6885P	PPP Theory and Policy	2	N	P	60	60	N	Chinese
+Col of Business	FB	6886P	Public Management	3	N	P	10	10	N	Putonghua
+Col of Business	FB	6887P	Public Policy Analysis	3	N	P	20	20	N	Putonghua
+Col of Business	FB	6890	Management, Strategy and Leadership	4	N	P	40	40	N	English
+Col of Business	FB	6893P	Creativity for Business Executives	1	N	P	60	60	N	Chinese
+Col of Business	FB	6896P	Strategies for Building Resilient Enterprises	1	N	P	60	60	N	Chinese
+Col of Business	FB	6898	Modern Logistics and Supply Chain Management	4	N	P	40	40	N	English
+Col of Business	FB	6899P	Innovative Development of New Quality Productivity and Digital Economy	1	N	P	120	120	N	Putonghua
+Col of Business	FB	6913P	Understanding China's Governance	2	N	P	25	25	N	Putonghua
+Col of Business	FB	6914P	Leadership Forum	1	N	P	20	20	N	Putonghua
+Col of Business	FB	6916P	The Emerging Trend of Public Administration	1	N	P	20	20	N	Putonghua
+Col of Business	FB	6918P	Politics (International)	3	N	P	25	25	N	Putonghua
+Col of Business	FB	6920P	PPP Legal Systems and Contract Management	2	N	P	35	35	N	Putonghua
+Col of Business	FB	6921P	PPP Global Benchmarking	2	N	P	20	20	N	Chinese
+Col of Business	FB	6922P	PPP Consulting Project Research	2	N	P	5	5	N	Putonghua
+Col of Business	FB	6924P	Leadership in Public and Business Administrations	2	N	P	15	15	N	Putonghua
+Col of Business	FB	6926P	Development Strategy and Planning	2	N	P	20	20	N	Putonghua
+Col of Business	FB	6931	Corporate Financial Strategy	2	N	P	30	30	N	English
+Col of Business	FB	8004D	Residential Workshop I	2	N	D	30	30	N	English
+Col of Business	FB	8010D	Research Development Workshop	2	N	D	120	120	N	English
+ 
+Col. of Lib. Arts & Soc. Sci.
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Col of Liberal Arts & Soc Sci	CLA	5001	Cross Sectoral Leadership	3	N	P	FULL	204	N	Chinese
+Col of Liberal Arts & Soc Sci	CLA	5002	Research Design and Methods	3	N	P	204	204	N	Chinese
+Col of Liberal Arts & Soc Sci	CLA	5005	Marketing for Social Impact	3	N	P	FULL	204	N	Chinese
+Col of Liberal Arts & Soc Sci	CLA	5006	Technology for Social Transformation	3	N	P	FULL	204	N	Chinese
+Col of Liberal Arts & Soc Sci	CLA	5007	Project Management and Capstone	3	N	P	FULL	204	N	Chinese
+ 
+Computer Science
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Computer Science	CS	5187	Vision and Image	3	Y	P R	345	345	N	English
+Computer Science	CS	5222	Computer Networks and Internets	3	Y	P R	250	505	N	English
+Computer Science	CS	5285	Introduction to Cybersecurity	3	Y	P R	228	550	N	English
+Computer Science	CS	5292	Cybersecurity Audits and Compliance	3	Y	P	112	112	N	English
+Computer Science	CS	5294	Information Security Technology Management	3	Y	P R	110	224	N	English
+Computer Science	CS	5295	Network and Cloud Security	3	Y	P	120	120	N	English
+Computer Science	CS	5298	Blockchain and Web3.0 Security	3	Y	P	112	112	N	English
+Computer Science	CS	5351	Software Engineering	3	Y	P R	145	400	N	English
+Computer Science	CS	5481	Data Engineering	3	Y	P R	45	300	N	English
+Computer Science	CS	5486	Intelligent Systems	3	Y	P R	260	260	N	English
+Computer Science	CS	5488	Big Data Algorithms and Techniques	3	Y	P R	156	156	N	English
+Computer Science	CS	5489	Machine Learning: Algorithms and Applications	3	Y	P R	202	376	N	English
+Computer Science	CS	5494	Topics in Generative AI	3	Y	P	156	156	N	English
+Computer Science	CS	5495	Explainable AI	3	Y	P	160	160	N	English
+Computer Science	CS	6382	Algorithm Analysis and Game Theory	3	Y	P R	190	190	N	English
+Computer Science	CS	6520	Project	3	N	P	20	20	N	English
+Computer Science	CS	6521	Research/Internship Project	3	N	P	20	20	N	English
+Computer Science	CS	6522	Project in Autonomous Driving	3	N	P	5	5	N	English
+Computer Science	CS	6523	Internship in Autonomous Driving	3	N	P	20	20	N	English
+Computer Science	CS	6524	Project in Generative AI	3	N	P	5	5	N	English
+Computer Science	CS	6525	Internship in Generative AI	3	N	P	20	20	N	English
+Computer Science	CS	6526	Project in Trustworthy AI	3	N	P	5	5	N	English
+Computer Science	CS	6527	Internship in Trustworthy AI	3	N	P	20	20	N	English
+Computer Science	CS	6528	Internship in Artificial Intelligence	3	N	P	20	20	N	English
+Computer Science	CS	6529	Project in Artificial Intelligence	3	N	P	25	25	N	English
+ 
+Data Science
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Data Science	DSC	5001	Statistical Machine Learning I	3	Y	P	125	800	N	English
+Data Science	DSC	5002	Exploratory Data Analysis and Visualization	3	Y	P	54	516	N	English
+Data Science	DSC	5003	Storing and Retrieving Data	3	Y	P	38	500	N	English
+Data Science	DSC	6004	Topics of Artificial Intelligence for Smart Cities	3	Y	P	300	300	N	English
+Data Science	DSC	6006	Dissertation	3	N	P	150	150	N	English
+Data Science	DSC	6008	Design of Experiments	3	Y	P	87	300	N	English
+Data Science	DSC	6011	Optimization for Data Science	3	Y	P	190	190	N	English
+Data Science	DSC	6012	Time Series and Recurrent Neural Networks	3	Y	P	250	250	N	English
+Data Science	DSC	6013	Topics in Financial Engineering and Technology	3	Y	P	250	250	N	English
+Data Science	DSC	6016	Predictive Analytics and Financial Applications	3	Y	P	190	190	N	English
+Data Science	DSC	6017	Internship Project	3	N	P	150	150	N	English
+Data Science	DSC	6018	Health Data Analytics	3	Y	P	200	200	N	English
+Data Science	DSC	6020	Artificial Intelligence for Scientific Knowledge Discovery	3	Y	P	87	300	N	English
+Data Science	DSC	6021	Generative Artificial Intelligence	3	Y	P	87	300	N	English
+Data Science	DSC	6026	Social Network Analysis	3	Y	P	250	250	N	English
+Data Science	DSC	8004	Advanced Statistics	3	Y	B P D R	5	5	N	English
+Data Science	DSC	8005	Optimization	3	Y	B P D R	10	10	N	English
+ 
+Decision Analytics &Operations
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Decision Analytics &Operations	MS	5215	AI-Enhanced Business Analytics with Excel and Python	3	Y	P	425	430	N	English
+Decision Analytics &Operations	MS	5216	Decision Analytics	3	Y	P	165	165	N	English
+Decision Analytics &Operations	MS	5217	Statistical Data Analysis	3	Y	P	505	505	N	English
+Decision Analytics &Operations	MS	5218	Applied Linear Statistical Models	3	Y	P	300	300	N	English
+Decision Analytics &Operations	MS	5225	Business Process Modeling and Simulation	3	Y	P	209	211	N	English
+Decision Analytics &Operations	MS	5313	Managerial Decision Modeling	3	Y	P	280	284	N	English
+Decision Analytics &Operations	MS	6211	Statistical Modelling in Risk Management	3	Y	P R	202	204	N	English
+Decision Analytics &Operations	MS	6322	Transportation Logistics	3	Y	P	220	223	N	English
+Decision Analytics &Operations	MS	6324	Internship Project	3	N	P	10	10	N	English
+Decision Analytics &Operations	MS	6325	Operations Management	3	Y	P	290	292	N	English
+ 
+Economics & Finance
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Economics & Finance	EF	5010	Economics for Business	3	Y	P	97	100	N	English
+Economics & Finance	EF	5042	Corporate Finance	3	Y	P	67	472	N	English
+Economics & Finance	EF	5050	Derivatives and Risk Management	3	N	P	23	426	N	English
+Economics & Finance	EF	5052	Investments	3	Y	P	66	469	N	English
+Economics & Finance	EF	5063	Professional Seminars in Finance	3	N	P	18	420	N	English
+Economics & Finance	EF	5070	Financial Econometrics	3	Y	P	45	307	N	English
+Economics & Finance	EF	5250	Stochastic Calculus for Finance	3	N	P	15	155	N	English
+Economics & Finance	EF	5342	Financial Systems, Markets and Instruments	3	Y	P	240	240	N	English
+Economics & Finance	EF	5470	Advanced Econometrics	3	Y	P	13	260	N	English
+Economics & Finance	EF	5471	Advanced Microeconomics	3	Y	P	13	260	N	English
+Economics & Finance	EF	5472	Advanced Macroeconomics	3	Y	P	12	260	N	English
+Economics & Finance	EF	5473	Professional Seminars in Applied Economics	3	N	P	53	300	N	English
+Economics & Finance	EF	5474	Quantitative Methods in Economics	3	Y	P	13	260	N	English
+Economics & Finance	EF	5550P	Portfolio Management and Security Analysis	1.5	N	P	50	50	N	Putonghua
+Economics & Finance	EF	5551P	Financial Instruments and Risk Management	1.5	N	P	50	50	N	Putonghua
+Economics & Finance	EF	5560	Fintech and AI in Finance	3	Y	P	260	260	N	English
+ 
+Electrical Engineering
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Electrical Engineering	EE	5415	Mobile Applications Design and Development	3	Y	P R	200	200	N	English
+Electrical Engineering	EE	5425	Fundamentals of Radio Frequency (RF) Circuit Engineering	3	Y	P R	166	166	N	English
+Electrical Engineering	EE	5436	Fundamentals and Applications of Photonics	3	Y	P R	180	180	N	English
+Electrical Engineering	EE	5438	Applied Deep Learning	3	Y	P R	175	175	N	English
+Electrical Engineering	EE	5606	Artificial Intelligence for Antennas in Wireless Communications	3	Y	P	160	160	N	English
+Electrical Engineering	EE	5607	Advanced Computer Architecture	3	Y	P	160	160	N	English
+Electrical Engineering	EE	5609	Computer Networks: Architecture, Protocols, and Applications	3	Y	P	151	151	N	English
+Electrical Engineering	EE	5808	Topics in Computer Graphics	3	Y	B P R	155	155	N	English
+Electrical Engineering	EE	6603	Wireless Communication Technologies	3	Y	P R	160	160	N	English
+Electrical Engineering	EE	6605	Complex Networks: Modeling, Dynamics and Control	3	Y	P R	250	250	N	English
+Electrical Engineering	EE	6623	Sustainable Energy Systems	3	Y	P	200	200	N	English
+Electrical Engineering	EE	6626	AI-enabled Autonomous Driving	3	Y	P	129	129	N	English
+Electrical Engineering	EE	6680	Dissertation	9	N	P	FULL	1	N	English
+Electrical Engineering	EE	6680D	Dissertation	6	N	P	FULL	0	N	English
+Electrical Engineering	EE	6691	Applied Research Internship Scheme in Electrical Engineering	9	N	P	2	2	N	English
+Electrical Engineering	EE	8401	Advanced Topics in Applied Electromagnetics	3	Y	R	150	150	N	English
+Electrical Engineering	EE	8403	Machine Learning for Signal Processing Applications	3	Y	R	220	220	N	English
+Electrical Engineering	EE	8405	Queueing Theory with Telecommunications Applications	3	Y	R	220	220	N	English
+ 
+Electronic Commerce (CS & IS)
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Computer Science	EC	5001	Introduction to eCommerce	3	Y	P	92	300	N	English
+ 
+English
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+English	EN	5315	Analysing Specialised Texts for Applied Purposes	3	Y	P	160	160	N	English
+English	EN	5450	Survey of Literary Genres	3	Y	P	200	200	N	English
+English	EN	5461	Language in Its Social Context	3	Y	P R	200	200	N	English
+English	EN	5465	Second Language Acquisition	3	Y	P R	200	200	N	English
+English	EN	5491	Discourse Analysis	3	Y	P	100	100	N	English
+English	EN	6471	Research Methods in English Studies	3	Y	P R	200	200	N	English
+English	EN	6483	Modern and Contemporary Drama	3	Y	P R	60	60	N	English
+English	EN	6508	Critical Approaches to Literature	3	Y	P	60	60	N	English
+English	EN	6519	Studies in Literature and Film	3	Y	P	60	60	N	English
+ 
+Infectious Diseases & Pub Hlth
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Infectious Diseases & Pub Hlth	PH	5101	Introduction to Health Economics and Outcomes Research	3	Y	P	135	135	N	English
+Infectious Diseases & Pub Hlth	PH	5102	Introduction to Biostatistics in One Health	3	Y	P	160	160	N	English
+Infectious Diseases & Pub Hlth	PH	5103	Principles of Epidemiology and One Health	3	Y	P	10	160	N	English
+Infectious Diseases & Pub Hlth	PH	5105	Basic Biostatistics in Public Health	3	Y	P	210	210	N	English
+Infectious Diseases & Pub Hlth	PH	5106	Fundamentals of Epidemiology in Public Health	3	Y	P	170	170	N	English
+Infectious Diseases & Pub Hlth	PH	6203	Applied Public Health Projects	3	N	P	50	50	N	English
+Infectious Diseases & Pub Hlth	PH	6206	Practicum	3	N	P	80	80	N	English
+Infectious Diseases & Pub Hlth	PH	6207	Global Scholars Training	3	N	P	15	15	N	English
+Infectious Diseases & Pub Hlth	PH	6208	Public Health Insights: Global Perspectives from Research and Practice	1.5	Y	P	130	130	N	English
+Infectious Diseases & Pub Hlth	PH	6209	Global Practicum	3	N	B P D R	20	20	N	English
+Infectious Diseases & Pub Hlth	PH	8004	Animal Welfare and Research Ethics	2	Y	R	25	25	N	English
+ 
+Information Systems
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Information Systems	IS	5113	AI Ethics and Regulations	3	Y	P	262	262	N	English
+Information Systems	IS	5312	Analytical Programming with Python	3	Y	P	452	452	N	English
+Information Systems	IS	5313	Foundations of Information and Electronic Business Systems	3	Y	P	440	440	N	English
+Information Systems	IS	5336P	Data Visualization and Image Analysis	1.5	N	P	50	50	N	English & Putonghua
+Information Systems	IS	5411	Systems Analysis and Design	3	Y	P	300	300	N	English
+Information Systems	IS	5413	Database Management Systems	3	Y	P	250	250	N	English
+Information Systems	IS	5414	Analysis and Design of ecommerce Systems	3	N	P	28	236	N	English
+Information Systems	IS	5540	Project Management and Quality Assurance	3	Y	P	310	313	N	English
+Information Systems	IS	5542	Generative Artificial Intelligence for Business	3	Y	P	207	207	N	English
+Information Systems	IS	5740	Management Support and Business Intelligence Systems	3	Y	P	530	530	N	English
+Information Systems	IS	5940	Innovation and Technology Entrepreneurship	3	Y	P	597	600	N	English
+Information Systems	IS	6000	Research Methods for the IS Manager	3	Y	P	110	110	N	English
+Information Systems	IS	6201P	Blockchain Technology and Artificial Intelligence	1.5	N	P	50	50	N	English & Putonghua
+Information Systems	IS	6335	Data Visualization	3	Y	P	700	700	N	English
+Information Systems	IS	6400	Business Data Analytics	3	Y	P	510	510	N	English
+Information Systems	IS	6523	Information Systems Infrastructure and Security Management	3	Y	P	220	220	N	English
+Information Systems	IS	6526P	Information Systems Security Management	1.5	N	P	50	50	N	English & Putonghua
+Information Systems	IS	6620	Large Language Model with Prompt Engineering for Business	3	Y	P	120	120	N	English
+Information Systems	IS	6911	Dissertation	4.5	N	P	3	3	N	English
+Information Systems	IS	6912	Information Systems Project	3	N	P	20	20	N	English
+Information Systems	IS	6912B	Information Systems Project	6	N	B P D R	5	5	N	English
+Information Systems	IS	6914	Information Analytics Management Project	3	N	P	3	3	N	English
+ 
+Law
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+School of Law	LW	5303	Commercial Contracts	3	Y	P	200	200	N	English
+School of Law	LW	5400	Legal Concepts	3	Y	P	200	200	N	English
+School of Law	LW	5552	Independent Research	3	N	P	50	50	N	English
+School of Law	LW	5600	Law School Survival Skills Workshop	1.5	N	P	40	40	N	English
+School of Law	LW	5601	Hong Kong Legal System	3	Y	P	130	130	N	English
+School of Law	LW	5602A	Law of Contract I	3	Y	P	130	130	N	English
+School of Law	LW	5603A	Law of Tort I	3	Y	P	130	130	N	English
+School of Law	LW	5606A	Criminal Law I	3	Y	P	135	135	N	English
+School of Law	LW	5607A	Land Law I	3	Y	P	108	108	N	English
+School of Law	LW	5610	Administrative Law	3	Y	P D	100	100	N	English
+School of Law	LW	5611	Private Law of the PRC	3	Y	P	30	30	N	English
+School of Law	LW	5612	Legal Placement	3	N	P	50	50	N	English
+School of Law	LW	5614	Dispute Resolution	3	Y	P	20	20	N	English
+School of Law	LW	5615	Principles of Insurance Law (Marine and General)	3	Y	P	20	20	N	English
+School of Law	LW	5617	Family Law in Hong Kong	3	Y	P	20	20	N	English
+School of Law	LW	5622	Legal Methods, Research and Writing	3	Y	P	130	130	N	English
+School of Law	LW	5624	Law of Human Rights and Civil Liberties of Hong Kong	3	Y	P	20	20	N	English
+School of Law	LW	5630A	Equity and Trusts I	3	Y	P	110	110	N	English
+School of Law	LW	5634	Public International Law	3	Y	P	10	10	N	English
+School of Law	LW	5637	Criminology	3	Y	P	30	30	N	English
+School of Law	LW	5641	Intellectual Property: Theory, Copyright and Design	3	Y	P	20	20	N	English
+School of Law	LW	5649	International Mooting & Advocacy	3	N	P	80	80	N	English
+School of Law	LW	5649B	International Mooting & Advocacy	6	N	P	80	80	N	English
+School of Law	LW	5656	Company Law I	3	Y	P	110	110	N	English
+School of Law	LW	5658	Commercial Law	3	Y	P	100	100	N	English
+School of Law	LW	5663D	Dispute Resolution in a Global World	1.5	Y	P	80	80	N	English
+School of Law	LW	5667	City University Law Review	3	N	P	80	80	N	English
+School of Law	LW	566AB	Current Issues in Criminal Law and Practice	1.5	Y	P	80	80	N	English
+School of Law	LW	566AC	IPO and Listed Company Compliance in Hong Kong	1.5	Y	P	80	80	N	English
+School of Law	LW	5680	Principles of Maritime Law and Governance for Sustainable Shipping	3	Y	P	20	20	N	English
+School of Law	LW	5957	Legal Studies for the Built Environment	3	Y	P	55	100	N	English
+School of Law	LW	5962	Law Relating to Business and Companies	3	Y	P	411	735	N	English
+School of Law	LW	6100E	Advanced Legal Research Methodology	3	Y	P D R	70	70	N	English
+School of Law	LW	6102E	Introduction to Common Law System and Methodology	3	N	P	520	520	N	English
+School of Law	LW	6103E	Company Law	3	Y	P D	130	130	N	English
+School of Law	LW	6108E	International Finance: Law and Regulation	3	Y	P	110	110	N	English
+School of Law	LW	6115E	Selected Issues on Chinese IP Law	3	Y	P	180	180	N	English
+School of Law	LW	6126E	Dispute Resolution in Theory and Practice	3	Y	P D	50	50	N	English
+School of Law	LW	6132E	Theory and Practice of Comparative Law	3	Y	P R	110	110	N	English
+School of Law	LW	6134E	Chinese and Comparative Company Law	3	Y	P	170	170	N	English
+School of Law	LW	6137E	Dissertation	6	N	P	80	80	N	English
+School of Law	LW	6142E	International Investment Law	3	Y	P	140	140	N	English
+School of Law	LW	6146E	Principles of Maritime Law and Governance for Sustainable Shipping	3	Y	P	90	90	N	English
+School of Law	LW	6149E	Energy and Environmental Law	3	Y	P	140	140	N	English
+School of Law	LW	6152E	Cyber Governance and Law	3	Y	P	160	160	N	English
+School of Law	LW	6163E	International Commercial Law	3	Y	P	120	120	N	English
+School of Law	LW	6164E	Law of Contract	3	N	P	100	100	N	English
+School of Law	LW	6170E	Principles of Insurance Law (Marine and General)	3	Y	P	80	80	N	English
+School of Law	LW	6172E	Law and Society in China	3	Y	P	100	100	N	English
+School of Law	LW	6177E	Commercial Application of Equity and Trusts	3	Y	P	90	90	N	English
+School of Law	LW	6195E	International and Comparative Law of Copyright, Designs and Allied Rights	3	Y	P D	100	100	N	English
+School of Law	LW	6207E	Comparative Arbitration in Asia	3	Y	P	100	100	N	English
+School of Law	LW	6208E	Patent Drafting and Litigation	1.5	Y	P	80	80	N	English
+School of Law	LW	6209E	Patent Procedures	1.5	Y	P	107	107	N	English
+School of Law	LW	6216E	China Patent Litigation and Adjudication Rules	1.5	Y	P	110	110	N	English
+School of Law	LW	6401	Dispute Resolution in Theory and Practice	3	Y	P	190	190	N	English
+School of Law	LW	6405	Arbitration Law	3	Y	P D	220	220	N	English
+School of Law	LW	6406	Mediation Practice	3	N	P	540	540	N	English
+School of Law	LW	6409A	Dissertation	6	N	P	80	80	N	English
+School of Law	LW	6423	Construction Law and Dispute Resolution	3	Y	P	60	60	N	English
+School of Law	LW	6959	Energy and Environmental Law	3	Y	P	50	50	N	English
+ 
+Linguistics and Translation
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Linguistics and Translation	LT	5401	Phonetics and Phonology	3	Y	P	220	220	N	English
+Linguistics and Translation	LT	5402	Syntax and Morphology	3	Y	P	220	220	N	English
+Linguistics and Translation	LT	5406	Psycholinguistics	3	Y	P	110	110	N	English
+Linguistics and Translation	LT	5407	Research Methodology for Applied Linguistics	3	Y	P	333	333	N	English
+Linguistics and Translation	LT	5412	English Language Teaching	3	Y	P	120	120	N	English
+Linguistics and Translation	LT	5413	Philosophy of Language	3	Y	P	120	120	N	English
+Linguistics and Translation	LT	5421	Corpus Linguistics	3	Y	P	120	120	N	English
+Linguistics and Translation	LT	5422	Neurocognition of Language	3	Y	P	100	100	N	English
+Linguistics and Translation	LT	5425	Contrastive Studies of the Sounds of English, Mandarin, and Cantonese	3	Y	P	120	120	N	English
+Linguistics and Translation	LT	5431	Functional Approaches to Syntax	3	Y	P	140	140	N	English
+Linguistics and Translation	LT	5451	Pedagogical Grammar: Chinese and English	3	Y	P	316	316	N	English & Putonghua
+Linguistics and Translation	LT	5461	Cognition and Language Differences	3	Y	P	115	115	N	English
+Linguistics and Translation	LT	5603	Translation Studies	3	Y	P	125	125	N	English & Chinese
+Linguistics and Translation	LT	5604	Translation Methodology	3	Y	P	120	120	N	English & Chinese
+Linguistics and Translation	LT	5605	Interpretation Methodology	3	Y	P	96	96	N	English & Chinese
+Linguistics and Translation	LT	5621	Language and Literature in Translation	3	Y	P	120	120	N	English & Chinese
+Linguistics and Translation	LT	5903	Language and its Applications	3	Y	P	280	280	N	English
+Linguistics and Translation	LT	5904	Language and Culture in Society	3	Y	P	400	400	N	English
+ 
+Management
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Management	MGT	5204	Management and Organizations	3	N	P	39	240	N	English
+Management	MGT	5205	Strategic Management	3	Y	P	54	255	N	English
+Management	MGT	5313	International Organizational Behavior	3	Y	P	33	148	N	English
+Management	MGT	5507	Managerial Decision Making	3	Y	P	155	160	N	English
+Management	MGT	6209	Innovation Collaboration	3	Y	P	160	160	N	English
+Management	MGT	6323	Cross-Cultural Negotiation	3	N	P	26	140	N	English
+Management	MGT	6325	Entrepreneurship	3	Y	P	272	394	N	English
+Management	MGT	6326	Managing International Business	3	Y	P	32	148	N	English
+Management	MGT	6534	Transforming Organizations in the Age of AI	3	Y	P	160	160	N	English
+ 
+Marketing
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Marketing	MKT	5610	Marketing Strategy and Planning	3	Y	P	300	300	N	English
+Marketing	MKT	5611	Consumer/Buyer Behaviour	3	Y	P	300	300	N	English
+Marketing	MKT	5612	Applied Marketing Research	3	Y	P	300	300	N	English
+Marketing	MKT	5644	Digital Marketing	3	Y	P	240	240	N	English
+Marketing	MKT	5646	Advertising and Integrated Marketing Communications	3	Y	P	80	80	N	English
+Marketing	MKT	5648	Social Media Marketing	3	Y	P	78	80	N	English
+Marketing	MKT	5652	Artificial Intelligence for Marketing	3	Y	P	160	160	N	English
+ 
+Materials Science & Engg
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Materials Sci & Engineering	MSE	5301	Instrumentation for Materials Characterization	3	Y	P	240	240	N	English
+Materials Sci & Engineering	MSE	5303	Structure and Deformation of Materials	3	Y	P	232	232	N	English
+Materials Sci & Engineering	MSE	6121	Thin Film Technology and Nanocrystalline Coatings	3	Y	P	119	120	N	English
+Materials Sci & Engineering	MSE	6176	Nanomaterials Design for Energy Applications	3	Y	P	120	120	N	English
+Materials Sci & Engineering	MSE	6181	Photonics in Nanomaterial Systems and Devices	3	Y	P	119	120	N	English
+Materials Sci & Engineering	MSE	6182	Polymers and Composites and Nano-applications	3	Y	P	120	120	N	English
+Materials Sci & Engineering	MSE	6265	Quantum Theory of Semiconductors	3	Y	P	240	240	N	English
+Materials Sci & Engineering	MSE	6309	Advanced Research	4.5	N	P	65	65	N	English
+Materials Sci & Engineering	MSE	8020	Structural Properties of Materials	3	Y	R	85	85	N	English
+ 
+Mathematics
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Mathematics	MA	5616	Financial Mathematics in Derivative Markets	3	Y	P	FULL	190	N	English
+Mathematics	MA	5617	Statistical Data Analysis	3	Y	P	19	216	N	English
+Mathematics	MA	5618	Stochastic Analysis in Finance	3	Y	P	3	200	N	English
+Mathematics	MA	6617	Dissertation	6	N	P	40	40	N	English
+Mathematics	MA	6628	Programming and Computing in Financial Engineering	3	Y	P	200	200	N	English
+Mathematics	MA	6635	Mathematical Foundations of Data Science	3	Y	P	200	200	N	English
+ 
+Mechanical Engineering
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Mechanical Engineering	MNE	5103	Risk and Reliability Engineering	3	Y	P	300	300	N	English
+Mechanical Engineering	MNE	5112	Mechanical Design with Advanced Material and Additive Manufacturing	3	Y	P	60	60	N	English
+Mechanical Engineering	MNE	6007	Advanced Automation Technology	3	N	P	189	190	N	English
+Mechanical Engineering	MNE	6113	Advanced Thermo-fluid	3	N	P	180	180	N	English
+Mechanical Engineering	MNE	6116	Applied Engineering Mechanics	3	N	P	266	267	N	English
+Mechanical Engineering	MNE	6125	Engineering Methods	3	N	P	190	190	N	English
+Mechanical Engineering	MNE	6127	Microfluidics: From Fundamentals to Applications	3	Y	P	190	190	N	English
+Mechanical Engineering	MNE	6131	Nuclear Reactor Systems, Safety and Waste Management	3	N	P	280	280	N	English
+Mechanical Engineering	MNE	6132	Materials in Nuclear Engineering	3	N	P	40	40	N	English
+Mechanical Engineering	MNE	6138	Fundamentals of Nuclear Engineering	3	N	P	80	80	N	English
+Mechanical Engineering	MNE	6140	Thermodynamics and Kinetics	3	Y	P	190	190	N	English
+ 
+Media & Communication
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Media and Communication	COM	5101	Communication Fundamentals	3	Y	P	225	225	N	English
+Media and Communication	COM	5103	Policy and Regulations of New Media	3	Y	P	120	120	N	English
+Media and Communication	COM	5104	Research Methods for Communication and New Media	3	Y	P R	420	420	N	English
+Media and Communication	COM	5106	Integrated Marketing Communication	3	Y	P	205	205	N	English
+Media and Communication	COM	5401	Advertising Production and Management	3	Y	P	270	270	N	English
+Media and Communication	COM	5402	Public Relations Strategies	3	Y	P	290	290	N	English
+Media and Communication	COM	5408	Global Promotion and Branding	3	Y	P	140	140	N	English
+Media and Communication	COM	5501	Internet Communication	3	Y	P	220	220	N	English
+Media and Communication	COM	5507	Social Media Data Acquisition and Processing	3	Y	P	110	110	N	English
+Media and Communication	COM	5509	Digital Visual Media	3	Y	P	114	114	N	English
+Media and Communication	COM	5510	Introduction to Artificial Intelligence	3	Y	P	130	130	N	English
+Media and Communication	COM	6601	Capstone Project	1	N	P	420	420	N	English
+ 
+Neuroscience
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Neuroscience	NS	5001	Research Methodology and Ethics	3	Y	P	90	90	N	English
+Neuroscience	NS	5004	Molecular and Cellular Neuroscience	3	Y	P	100	100	N	English
+Neuroscience	NS	5007	Human and Artificial Intelligence	3	Y	P	70	70	N	English
+Neuroscience	NS	5008	Neuropharmacology	3	Y	P	55	55	N	English
+Neuroscience	NS	6001	Research Project in Neuroscience	3	N	P	60	60	N	English
+Neuroscience	NS	8002	Advanced Neuroscience	3	Y	P R	100	100	N	English
+ 
+Physics
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Physics	PHY	5501	Modern Characterization Techniques for Experimental Physics	3	Y	P	60	60	N	English
+Physics	PHY	5503	Introduction to Quantum Technology	3	Y	P	25	110	N	English
+Physics	PHY	5504	Data Acquisition and Processing Skills for Physicists I	3	Y	P	25	110	N	English
+Physics	PHY	6251	Advanced Quantum Mechanics	3	Y	P	5	5	N	English
+Physics	PHY	6252	Statistical Mechanics	3	Y	P	20	20	N	English
+Physics	PHY	6253	Introduction to Biophysics	3	Y	P	30	30	N	English
+Physics	PHY	6503	Mathematical Methods for Scientists and Engineers	3	Y	P	60	60	N	English
+Physics	PHY	6526	Energy Materials: Physics and Applications	3	Y	P	50	50	N	English
+Physics	PHY	6528	Advanced Research in Physics	4.5	N	P	25	25	N	English
+ 
+Professional Legal Education
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+School of Law	PLE	5012	Conveyancing Practice	2	N	P	645	645	N	English
+School of Law	PLE	5013	Corporate and Commercial Practice	3	N	P	645	645	N	English
+School of Law	PLE	5015	Professional Conduct and Practice	3	N	P	685	685	N	English
+School of Law	PLE	5016	Wills and Probate Practice	2	N	P	810	810	N	English
+School of Law	PLE	5018	Civil Litigation Practice	3	N	P	645	645	N	English
+School of Law	PLE	5019	Criminal Litigation Practice	3	N	P	645	645	N	English
+School of Law	PLE	5051	Mediation and Negotiation	2	N	P	645	645	N	English
+ 
+Public & International Affairs
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Public & International Affairs	PIA	5001	Theories and Approaches in Development Studies	3	Y	P	185	185	N	English
+Public & International Affairs	PIA	5003	Project Planning and Management for Development	3	Y	P	105	105	N	English
+Public & International Affairs	PIA	5021	Asian Regional Governance	3	Y	P	180	180	N	English
+Public & International Affairs	PIA	5025	Theory in International Studies	3	Y	P	180	180	N	English
+Public & International Affairs	PIA	5026	Research Design for the Social Sciences	3	Y	P	100	100	N	English
+Public & International Affairs	PIA	5032	Authoritarian Resilience and Democratic Change in East Asia	3	Y	P	140	140	N	English
+Public & International Affairs	PIA	5045	International Relations of Northeast Asia	3	Y	P R	180	180	N	English
+Public & International Affairs	PIA	5101	Theories of Government and Public Administration	3	Y	P	300	300	N	English
+Public & International Affairs	PIA	5300	Politics and Social Movements in Developing Asia	3	Y	P R	80	80	N	English
+Public & International Affairs	PIA	5401	Values and Choice in Public Policy	3	Y	P	250	250	N	English
+Public & International Affairs	PIA	5504	The Asian Metropolis: Issues in Urban Management	3	Y	P	257	260	N	English
+Public & International Affairs	PIA	5701	Comparative and International Housing and Urban Policy	3	Y	P	274	275	N	English
+Public & International Affairs	PIA	5704	Building Services Systems and Maintenance for Housing Managers	3	Y	P	80	80	N	English
+Public & International Affairs	PIA	5710	State and Market in China	3	Y	P	50	55	N	English
+Public & International Affairs	PIA	5716	Governance in the Greater China Region	3	Y	P	51	55	N	English
+Public & International Affairs	PIA	6020	SSP Capstone Project	1	Y	P	150	150	N	English
+Public & International Affairs	PIA	6202	Evidence-based Policy and Practice	3	Y	P	166	170	N	English
+Public & International Affairs	PIA	6302	Public Budgeting and the Management of Financial Resources	3	Y	P	167	180	N	English
+Public & International Affairs	PIA	6501	Urban Development and Sustainable Cities	3	Y	P	318	320	N	English
+Public & International Affairs	PIA	6502	Sustainable Development: Theory and Policy	3	Y	P	205	205	N	English
+Public & International Affairs	PIA	6505	Financing Sustainability: Policy and Mechanisms	3	Y	P	135	135	N	English
+Public & International Affairs	PIA	6603	Research Methods in Public Policy and Management	3	Y	P	260	260	N	English
+Public & International Affairs	PIA	6604	MAPPM Capstone Project	1	N	P	5	30	N	English
+Public & International Affairs	PIA	6803	Research Methods for Housing and Urban Management	2	Y	P	208	210	N	English
+Public & International Affairs	PIA	6804	MAHUM Capstone Project	2	N	P	212	260	N	English
+ 
+SDS Physical Education
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Student Development Services	PED	1101	Canoeing - Elementary	0	Y	B P D R	10	10	N	English
+Student Development Services	PED	1102	Snorkel Diving - Elementary	0	Y	B P D R	10	10	N	English
+Student Development Services	PED	1103	Swimming - Elementary	0	Y	B P D R	48	48	N	English
+Student Development Services	PED	1204	Hip Hop - Elementary	0	Y	B P D R	36	36	N	English
+Student Development Services	PED	1205	Jazz Funk - Elementary	0	Y	B P D R	36	36	N	English
+Student Development Services	PED	1305	Physical Fitness - Elementary	0	Y	B P D R	2704	2704	N	English
+Student Development Services	PED	1308	Fitball - Elementary	0	Y	B P D R	48	48	N	English
+Student Development Services	PED	1309	Pilates Mat - Elementary	0	Y	B P D R	42	42	N	English
+Student Development Services	PED	1310	Refreshing Yoga - Elementary	0	Y	B P D R	42	42	N	English
+Student Development Services	PED	1314	Chi Running - Elementary	0	Y	B P D R	10	10	N	English
+Student Development Services	PED	1315	Tabata - Elementary	0	Y	B P D R	56	56	N	English
+Student Development Services	PED	1316	Body Combat - Elementary	0	Y	B P D R	24	24	N	English
+Student Development Services	PED	1317	High Intensity Interval Training (HIIT)	0	Y	B P D R	70	70	N	English
+Student Development Services	PED	1402	Golf - Elementary	0	Y	B P D R	40	40	N	English
+Student Development Services	PED	1404	Archery - Elementary	0	Y	B P D R	56	56	N	English
+Student Development Services	PED	1405	Rope Skipping for Fun	0	Y	B P D R	24	24	N	English
+Student Development Services	PED	1406	Woodball - Elementary	0	Y	B P D R	12	12	N	English
+Student Development Services	PED	1502	Tai Chi Chuan (24 Forms) - Elementary	0	Y	B P D R	12	12	N	English
+Student Development Services	PED	1503	Tai Chi Sword (32 Forms) - Elementary	0	Y	B P D R	12	12	N	English
+Student Development Services	PED	1504	Karate -Elementary	0	Y	B P D R	24	24	N	English
+Student Development Services	PED	1601	Badminton - Elementary	0	Y	B P D R	80	80	N	English
+Student Development Services	PED	1602	Squash - Elementary	0	Y	B P D R	56	56	N	English
+Student Development Services	PED	1603	Table Tennis - Elementary	0	Y	B P D R	32	32	N	English
+Student Development Services	PED	1605	Tennis - Elementary	0	Y	B P D R	64	64	N	English
+Student Development Services	PED	1606	Pickleball - Elementary	0	Y	B P D R	96	96	N	English
+Student Development Services	PED	1701	Basketball (Men) - Elementary	0	Y	B P D R	40	40	N	English
+Student Development Services	PED	1706	Soccer - Elementary	0	Y	B P D R	20	20	N	English
+Student Development Services	PED	1707	Softball - Elementary	0	Y	B P D R	20	20	N	English
+Student Development Services	PED	1708	Volleyball - Elementary	0	Y	B P D R	40	40	N	English
+Student Development Services	PED	1712	Floorball - Elementary	0	Y	B P D R	12	12	N	English
+Student Development Services	PED	2103	Swimming - Intermediate	0	Y	B P D R	16	16	N	English
+Student Development Services	PED	2312	Running - Improver	0	Y	B P D R	14	14	N	English
+Student Development Services	PED	2402	Golf - Improver	0	Y	B P D R	10	10	N	English
+Student Development Services	PED	2601	Badminton - Intermediate	0	Y	B P D R	16	16	N	English
+ 
+School of Creative Media
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+School of Creative Media	SM	5301	Studio I	3	Y	P	36	36	N	English
+School of Creative Media	SM	5301A	Studio I (Games)	3	Y	P	27	27	N	English
+School of Creative Media	SM	5301B	Studio I (Human-Computer Interaction)	3	Y	P	27	27	N	English
+School of Creative Media	SM	5303	Technofutures: Critical Approaches to the Metaverse, AI, and Blockchain	3	Y	P R	162	162	N	English
+School of Creative Media	SM	5306	Cinematic Arts Workshop	3	Y	P R	34	34	N	English
+School of Creative Media	SM	5313	Interactive Media II	3	Y	P R	38	38	N	English
+School of Creative Media	SM	5315	Independent Study I	3	Y	P R	25	25	N	English
+School of Creative Media	SM	5318	Topics in Media History and Theory I	3	Y	P R	210	210	N	English
+School of Creative Media	SM	5323	Topics in Media History and Theory II	3	Y	P R	70	70	N	English
+School of Creative Media	SM	5325	Introduction to Media and Cultural Studies	3	Y	P	162	162	N	English
+School of Creative Media	SM	5326	Gender in Popular Media	3	Y	P R	140	140	N	English
+School of Creative Media	SM	5327	Chinese Cinema	3	Y	P R	70	70	N	English
+School of Creative Media	SM	5331	Topics in Media History and Theory III	3	Y	P R	180	180	N	English
+School of Creative Media	SM	5332	Making Things Blip, Blink and Move: Introduction to Physical Computing	3	Y	P R	34	34	N	English
+School of Creative Media	SM	5334	Navigating Social Media: Culture, Aesthetics, and Technology	3	Y	P R	70	70	N	English
+School of Creative Media	SM	5335	Archaeology of New Media Art	3	Y	P R	70	70	N	English
+School of Creative Media	SM	5343	Law, Policies and Global Media Platforms	3	Y	P R	70	70	N	English
+School of Creative Media	SM	5345	Introduction to Digital Processes: From Creative Computation to Fabrication	3	Y	P	37	37	N	English
+School of Creative Media	SM	5348	Curating Creative Media	3	Y	P	62	62	N	English
+School of Creative Media	SM	5350	Game Design Fundamentals	3	Y	P	27	27	N	English
+School of Creative Media	SM	5351	Introduction to Influencer Studies	3	Y	P	162	162	N	English
+School of Creative Media	SM	5354	Design Thinking and Innovation in Media	3	Y	P	32	32	N	English
+School of Creative Media	SM	5355	Korean Cinema	3	Y	P R	70	70	N	English
+School of Creative Media	SM	5358	Qualitative Research in Social Computing and Art Technology	3	Y	P R	60	60	N	English
+School of Creative Media	SM	5360	"Making" Interactive Things	3	Y	P R	40	40	N	English
+School of Creative Media	SM	6300	Thesis Project - Studio I	3	Y	P	42	42	N	English
+School of Creative Media	SM	6300A	Thesis Project - Studio I (Games)	3	Y	P	22	22	N	English
+School of Creative Media	SM	6300B	Thesis Project - Studio I (Human-Computer Interaction)	3	Y	P	16	16	N	English
+School of Creative Media	SM	6302	Thesis Project - Studio II	6	N	P	FULL	1	N	English
+School of Creative Media	SM	6310	Independent Study II	3	Y	P R	20	20	N	English
+School of Creative Media	SM	6316	Media Art: Theory and Practice II	3	Y	P R	70	70	N	English
+School of Creative Media	SM	6317	Research Project in Media Studies	3	Y	P R	25	25	N	English
+School of Creative Media	SM	6323	Critical Ludology: Games, Playability and New Media Art	3	Y	P R	140	140	N	English
+School of Creative Media	SM	6329	History and Making of Exhibitions	3	Y	P R	70	70	N	English
+School of Creative Media	SM	6331	Digital Media for Curating	3	Y	P R	70	70	N	English
+School of Creative Media	SM	6342	Transcultural Collaboration—A Hong Kong-Swiss International Exchange Project	6	N	P	10	10	N	English
+School of Creative Media	SM	6346	Social Media, Aesthetics, and Curation	3	Y	P	62	62	N	English
+School of Creative Media	SM	6350	Videographic Criticism	3	Y	P	162	162	N	English
+School of Creative Media	SM	6351	Information Visualization	3	Y	P R	40	40	N	English
+ 
+School of Energy & Environment
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Sch of Energy and Environment	SEE	5114	Energy, Environment and Sustainable Development	3	Y	P	270	270	N	English
+Sch of Energy and Environment	SEE	6101	Energy Generation and Storage Systems	3	Y	P	110	110	N	English
+Sch of Energy and Environment	SEE	6115	Carbon Audit and Management	3	Y	P	130	130	N	English
+Sch of Energy and Environment	SEE	6118	Emerging Energy Technologies	3	Y	P	110	110	N	English
+Sch of Energy and Environment	SEE	6123	Electrochemical Energy Storage	3	Y	P	80	80	N	English
+Sch of Energy and Environment	SEE	6124	Fuel Processing	3	Y	P	80	80	Y	English
+Sch of Energy and Environment	SEE	6201	Environmental and Energy Policy	3	Y	P	263	265	N	English
+Sch of Energy and Environment	SEE	6203	Environmental Impact Assessment: Principles and Practice	3	Y	P	75	75	N	English
+Sch of Energy and Environment	SEE	6214	Solid Waste Treatment and Management	3	Y	P	105	105	N	English
+Sch of Energy and Environment	SEE	6224	Environmental Engineering Science	3	N	P	50	50	N	English
+Sch of Energy and Environment	SEE	6999	Dissertation	3	N	P	105	105	N	English
+ 
+Social and Behavioural Sci
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Social and Behavioural Sci	SS	5115	Social Sciences Theories for Social Work	0	N	P	12	60	N	English
+Social and Behavioural Sci	SS	5117	Social Work as a Profession	3	N	P	3	80	N	English & Chinese
+Social and Behavioural Sci	SS	5208	Cognitive-Behavioural Interventions	3	Y	P	140	140	N	English & Chinese
+Social and Behavioural Sci	SS	5209	Social Work Theories and Practice I: Working with Individuals and Families	3	N	P	FULL	80	N	English & Chinese
+Social and Behavioural Sci	SS	5212	Human Behaviour and Diversity	3	N	P	2	80	N	English
+Social and Behavioural Sci	SS	5213	Social Work Research Methods	3	N	P	37	100	N	English
+Social and Behavioural Sci	SS	5215	Diversity and the Helping Professions	3	Y	P	50	50	N	English & Chinese
+Social and Behavioural Sci	SS	5301	Advanced Theories in Criminology	3	Y	P	FULL	60	N	English
+Social and Behavioural Sci	SS	5302	Research Methods in Social Sciences	3	Y	P	70	330	N	English
+Social and Behavioural Sci	SS	5304	Psychology and Crime	3	Y	P	100	160	N	English
+Social and Behavioural Sci	SS	5316	Aggressive Behaviour and Homicide	3	Y	P	170	170	N	English & Chinese
+Social and Behavioural Sci	SS	5400	Applied Sociology	3	Y	P	FULL	200	N	English
+Social and Behavioural Sci	SS	5426	Social Problems	3	Y	P	FULL	260	N	English
+Social and Behavioural Sci	SS	5427	Special Topics in Applied Sociology	3	Y	P	130	130	N	English
+Social and Behavioural Sci	SS	5753	Advanced Social Psychology	3	Y	P	27	240	N	English
+Social and Behavioural Sci	SS	5755	Applying Psychology to Contemporary Issues	3	Y	P	150	150	N	English
+Social and Behavioural Sci	SS	5757	Personality Theories and Assessment	3	Y	P	17	230	N	English
+Social and Behavioural Sci	SS	5758	Educational Psychology	3	Y	P R	80	80	N	English
+Social and Behavioural Sci	SS	5763	Special Topics in Psychology of Education	3	Y	P	80	80	N	English
+Social and Behavioural Sci	SS	5783	Psychological Research Design and Analysis	3	Y	P	17	230	N	English
+Social and Behavioural Sci	SS	5791	Advanced Health Psychology	3	Y	P	150	150	N	English
+Social and Behavioural Sci	SS	5798B	Dissertation	3	N	P	5	5	N	English
+Social and Behavioural Sci	SS	5800	Counselling Theories and Practice	3	N	P	2	141	N	English & Chinese
+Social and Behavioural Sci	SS	5803	Psychopathology	3	Y	P	95	232	N	English
+Social and Behavioural Sci	SS	5825	Marital Preparation, Enrichment and Therapy	3	Y	P	80	80	N	English & Chinese
+Social and Behavioural Sci	SS	5836	Evidence-based Assessment and Management of Mental Disorders	3	Y	P	18	80	N	English & Chinese
+Social and Behavioural Sci	SS	5837	Community Mental Health: Theory and Practice	3	Y	P	18	80	N	English & Chinese
+Social and Behavioural Sci	SS	5841	Counselling Skills Laboratory and Ethics	3	N	P	142	142	N	English & Chinese
+Social and Behavioural Sci	SS	6221	Practicum Related Workshop III	.5	N	P	2	25	N	English & Chinese
+Social and Behavioural Sci	SS	6221A	Practicum Related Workshop III	1	N	P	FULL	49	N	English & Chinese
+Social and Behavioural Sci	SS	6291	Fieldwork I	8	N	P	31	163	N	English & Others
+Social and Behavioural Sci	SS	6292	Fieldwork II	4	N	P	16	86	N	English & Others
+Social and Behavioural Sci	SS	6308	Master's Thesis in Criminology	3	N	P	5	5	N	English
+Social and Behavioural Sci	SS	6805	Project	3	N	P	1	5	N	English
+Social and Behavioural Sci	SS	6806	Counselling Practicum	3	N	P	78	78	N	English & Chinese
+ 
+Systems Engineering
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Systems Engineering	SYE	5006	Operations Management	3	Y	P D R	250	255	N	English
+Systems Engineering	SYE	5010	Engineering Management Principles and Concepts	3	Y	P	260	265	N	English
+Systems Engineering	SYE	6014	Asset and Maintenance Management	3	Y	P R	180	180	N	English
+Systems Engineering	SYE	6043	Quality and Reliability Engineering	3	Y	P R	120	120	N	English
+Systems Engineering	SYE	6047	Quality Improvement: Systems and Methodologies	3	Y	P	150	150	N	English
+Systems Engineering	SYE	6103	Financial Engineering for Engineering Managers	3	Y	P D	185	185	N	English
+Systems Engineering	SYE	6106	Intelligent Manufacturing for Engineering Managers	3	Y	P	240	240	N	English
+Systems Engineering	SYE	6111	Transportation and Logistics Management	3	Y	P	140	140	N	English
+Systems Engineering	SYE	6201	3D IC Stacking and Advanced Packaging Technology	3	Y	P	120	120	N	English
+Systems Engineering	SYE	6207	Characterization Techniques for Semiconductor Manufacturing	3	Y	P	100	100	N	English
+Systems Engineering	SYE	6303	Multiscale Decision Making for Industrial Enterprise	3	Y	P	120	120	N	English
+Systems Engineering	SYE	6308	Statistical Learning in Manufacturing Quality Control	3	Y	P	170	170	N	English
+Systems Engineering	SYE	6601	Introduction to Artificial Intelligence: Concepts and Applications	3	Y	P	122	122	N	English
+Systems Engineering	SYE	6602	AI-Driven Innovation: Seminars and Projects	3	Y	P	110	110	N	English
+Systems Engineering	SYE	6612	The Fourth Industrial Revolution	3	Y	P	60	60	N	English
+Systems Engineering	SYE	8204	Process Modelling and Control	3	Y	R	15	15	N	English
+ 
+Veterinary Clinical Sciences
+Offering
+Academic Unit	Subject	Course	Title	Credit	WEB	Level	Avail	Cap	Waitlist
+Avail	Medium of
+Instruction
+Veterinary Clinical Sciences	VCS	5001	Integrated Small Animal Medicine: Part I	3	N	P	35	35	N	English
+Veterinary Clinical Sciences	VCS	5002	Integrated Small Animal Medicine: Part II	3	N	P	35	35	N	English
+Veterinary Clinical Sciences	VCS	5005	Clinical Practice and Professional Skills	3	N	P	35	35	N	English
+Veterinary Clinical Sciences	VCS	8003B	Frontiers in Veterinary Medical Research (B)	1	Y	B P D R	50	50	N	English

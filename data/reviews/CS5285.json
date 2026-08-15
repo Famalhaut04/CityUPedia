@@ -1,0 +1,27 @@
+{
+  "course_code": "CS5285",
+  "level": "caution",
+  "verdict": "谨慎选择",
+  "summary": "网络安全导论（原课程名称：Information Security for eCommerce）。密码学与安全协议内容较硬，无密码学基础慎选；但汉克老师（Gerhard Hancke）教了这门课多年，课程体系成熟、带批注的课件与笔记详尽、期末复习课会给重点、通过压力友好（“只要你写了，我会想象它是对的”）。常见考核为两次 problem set 约 20%、开卷期中约 20%，以及可带双面 cheat sheet 的期末约 60%。",
+  "tags": [
+    "难度较高",
+    "期中开卷",
+    "期末 cheat sheet",
+    "无小组项目",
+    "考勤宽松",
+    "有回放"
+  ],
+  "source_ids": [
+    "ec_summary",
+    "ec_review",
+    "ec_sharp",
+    "ec_update",
+    "ec_sema_course_review",
+    "cs_ec_sema_review_2",
+    "cs5285_info_sec",
+    "cs5285_ds_settle",
+    "cs5285_4A",
+    "cs5285_blood_3"
+  ],
+  "last_updated": "2026-08-05"
+}

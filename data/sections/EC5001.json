@@ -1,0 +1,21 @@
+[
+  {
+    "crn": "10239",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "93",
+    "capacity": "300",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "LT401",
+    "instructor": "Ka Chun Kenneth LEE , R. BANDYOPADHYAY",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

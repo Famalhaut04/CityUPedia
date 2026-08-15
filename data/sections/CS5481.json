@@ -1,0 +1,90 @@
+[
+  {
+    "crn": "10802",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "45",
+    "capacity": "300",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "12:00 - 13:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3505",
+    "instructor": "Linqi SONG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "10823",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "25",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "15:00 - 15:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "G7510",
+    "instructor": "Linqi SONG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "10810",
+    "section": "T02",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 16:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "G7510",
+    "instructor": "Linqi SONG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "13416",
+    "section": "T03",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "17:00 - 17:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "G7510",
+    "instructor": "Linqi SONG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

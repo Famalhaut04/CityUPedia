@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CityU Pedia · 问题反馈">
+  <title>问题反馈 · CityU Pedia</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+  <link rel="stylesheet" href="assets/styles.css?v=20260815a">
+  <style>
+    /* 问题反馈专用样式 */
+    .feedback-page { max-width: 720px; margin: 0 auto; padding: 32px 24px 80px; }
+
+    .feedback-hero {
+      text-align: center;
+      margin-bottom: 28px;
+      padding: 30px 24px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--card);
+      box-shadow: var(--shadow-card);
+    }
+    .feedback-hero h1 {
+      font-family: var(--font-serif);
+      font-size: 24px; font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .feedback-hero p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .feedback-card {
+      margin-bottom: 20px;
+      padding: 24px 22px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: var(--card);
+      box-shadow: var(--shadow-card);
+    }
+    .feedback-card-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--primary-soft);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .feedback-card-title svg { flex-shrink: 0; }
+
+    .feedback-field { margin-bottom: 16px; }
+    .feedback-field:last-child { margin-bottom: 0; }
+    .feedback-label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .feedback-label .required { color: var(--danger); margin-left: 2px; }
+
+    .feedback-input,
+    .feedback-textarea {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      color: var(--ink);
+      font-size: 14px;
+      font-family: inherit;
+      transition: border-color 200ms, box-shadow 200ms;
+      box-sizing: border-box;
+    }
+    .feedback-input:focus,
+    .feedback-textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px var(--primary-soft);
+    }
+    .feedback-textarea { resize: vertical; min-height: 140px; line-height: 1.6; }
+
+    .feedback-name-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .feedback-submit-bar {
+      position: sticky;
+      bottom: 0;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      padding: 20px;
+      background: linear-gradient(to top, var(--bg) 60%, transparent);
+    }
+    .feedback-btn {
+      padding: 12px 32px;
+      border: none;
+      border-radius: var(--radius-md);
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 200ms;
+      font-family: inherit;
+    }
+    .feedback-btn-primary {
+      background: var(--accent-gradient);
+      color: #fff;
+      box-shadow: 0 6px 18px rgba(217,119,87,0.35);
+    }
+    .feedback-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(217,119,87,0.45); }
+    .feedback-btn-secondary {
+      background: var(--card);
+      color: var(--primary);
+      border: 1.5px solid var(--primary-border);
+    }
+    .feedback-btn-secondary:hover { background: var(--primary-soft); }
+
+    .feedback-result-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .feedback-result-overlay.show { display: flex; }
+    .feedback-result-card {
+      width: 100%;
+      max-width: 520px;
+      padding: 28px 24px;
+      border-radius: var(--radius-lg);
+      background: var(--card);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    .feedback-result-card h3 {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .feedback-result-card p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+    .feedback-result-box {
+      width: 100%;
+      min-height: 140px;
+      max-height: 260px;
+      padding: 14px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      color: var(--ink);
+      font-size: 12px;
+      line-height: 1.6;
+      resize: vertical;
+      box-sizing: border-box;
+      font-family: 'Cascadia Code', 'Consolas', monospace;
+    }
+    .feedback-result-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 14px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 640px) {
+      .feedback-page { padding: 20px 14px 60px; }
+      .feedback-card { padding: 18px 14px; }
+      .feedback-name-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body data-page="feedback">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <a class="brand" href="index.html" aria-label="CityU Pedia 首页">
+        <img class="brand-mark" src="assets/cssa-logo.png" alt="CSSA Logo">
+        <span class="brand-text"><strong>CityU Pedia</strong><small>城大课程百科 · Course Pedia</small></span>
+      </a>
+    </div>
+    <nav class="sidebar-menu" aria-label="主导航">
+        <div class="menu-group">
+          <span class="menu-group-title" data-i18n="nav.group.main">主要功能</span>
+          <a class="menu-item" href="index.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /></svg>
+            <span data-i18n="nav.courses">排课系统</span>
+          </a>
+          <a class="menu-item" href="reviews.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69l1.519-4.674z"/></svg>
+            <span data-i18n="nav.reviews">课程评价</span>
+          </a>
+          <a class="menu-item" href="https://www.cityu.edu.hk" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <span data-i18n="nav.cityu">城大官网</span>
+          </a>
+          <button class="menu-item" type="button" id="lang-toggle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>
+            <span data-i18n="nav.lang">中英文切换</span>
+            <em class="lang-badge" id="lang-label">EN</em>
+          </button>
+          <a class="menu-item" href="https://github.com/Famalhaut04/CityUPedia" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            <span data-i18n="nav.github">GitHub 仓库</span>
+          </a>
+          <a class="menu-item" href="login.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <span data-i18n="nav.account">登录 / 注册</span>
+          </a>
+        </div>
+        <div class="menu-group">
+          <span class="menu-group-title" data-i18n="nav.group.more">更多</span>
+          <a class="menu-item" href="about.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            <span data-i18n="nav.about">关于我们</span>
+          </a>
+          <a class="menu-item active" href="feedback.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            <span data-i18n="nav.feedback">问题反馈</span>
+          </a>
+        </div>
+      </nav>
+
+  </aside>
+
+  <main class="main-content">
+    <div class="feedback-page">
+      <div class="feedback-hero">
+        <h1 data-i18n="feedback.hero.title">问题反馈</h1>
+        <p data-i18n="feedback.hero.line1">发现 Bug、课程数据有误或有任何建议？</p>
+        <p data-i18n="feedback.hero.line2">留下你的信息与问题描述，我们会尽快跟进处理。</p>
+      </div>
+
+      <form id="feedback-form">
+        <!-- 窗口一：姓名 + 专业 -->
+        <div class="feedback-card">
+          <div class="feedback-card-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+            <span data-i18n="feedback.section.info">你的信息</span>
+          </div>
+          <div class="feedback-name-row">
+            <div class="feedback-field">
+              <label class="feedback-label" for="fb-name"><span data-i18n="feedback.label.name">姓名</span><span class="required">*</span></label>
+              <input class="feedback-input" type="text" id="fb-name" name="name" data-i18n="feedback.placeholder.name" placeholder="请输入你的姓名或昵称" autocomplete="name">
+            </div>
+            <div class="feedback-field">
+              <label class="feedback-label" for="fb-programme"><span data-i18n="feedback.label.programme">专业</span><span class="required">*</span></label>
+              <input class="feedback-input" type="text" id="fb-programme" name="programme" data-i18n="feedback.placeholder.programme" placeholder="例如：数据科学硕士 / MSc Data Science" autocomplete="organization-title">
+            </div>
+          </div>
+        </div>
+
+        <!-- 窗口二：问题描述 -->
+        <div class="feedback-card">
+          <div class="feedback-card-title">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            <span data-i18n="feedback.section.description">问题描述</span>
+          </div>
+          <div class="feedback-field">
+            <label class="feedback-label" for="fb-desc"><span data-i18n="feedback.label.description">请描述你遇到的问题或建议</span><span class="required">*</span></label>
+            <textarea class="feedback-textarea" id="fb-desc" name="description" rows="6" data-i18n="feedback.placeholder.description" placeholder="请详细描述问题现象、出现的页面和操作步骤，或写下你的建议…"></textarea>
+          </div>
+        </div>
+
+        <div class="feedback-submit-bar">
+          <button type="button" class="feedback-btn feedback-btn-secondary" data-i18n="feedback.btn.reset" onclick="document.getElementById('feedback-form').reset()">重置</button>
+          <button type="submit" class="feedback-btn feedback-btn-primary" data-i18n="feedback.btn.submit">提交反馈</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- 结果弹窗 -->
+  <div class="feedback-result-overlay" id="result-overlay">
+    <div class="feedback-result-card">
+      <h3 data-i18n="feedback.result.title">反馈已生成</h3>
+      <p data-i18n="feedback.result.desc">请复制以下内容，发送给管理员或提交到 GitHub Issues：</p>
+      <textarea class="feedback-result-box" id="result-text" readonly></textarea>
+      <div class="feedback-result-actions">
+        <button class="feedback-btn feedback-btn-primary" data-i18n="feedback.result.copy" onclick="copyResult()">复制内容</button>
+        <a class="feedback-btn feedback-btn-secondary" data-i18n="feedback.result.github" href="https://github.com/Famalhaut04/CityUPedia/issues/new" target="_blank" rel="noopener noreferrer" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;">提交到 GitHub</a>
+        <button class="feedback-btn feedback-btn-secondary" data-i18n="feedback.result.close" onclick="closeResult()">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/cloud-config.js?v=20260812f"></script>
+  <script src="assets/shared.js?v=20260815a"></script>
+  <script>
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      if (!toast) return;
+      toast.textContent = msg;
+      toast.classList.add('show');
+      clearTimeout(showToast.timer);
+      showToast.timer = setTimeout(() => toast.classList.remove('show'), 2200);
+    }
+
+    document.getElementById('feedback-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('fb-name').value.trim();
+      const programme = document.getElementById('fb-programme').value.trim();
+      const description = document.getElementById('fb-desc').value.trim();
+
+      if (!name) { showToast('请填写姓名'); return; }
+      if (!programme) { showToast('请填写专业'); return; }
+      if (!description) { showToast('请描述你遇到的问题'); return; }
+
+      const lines = [];
+      lines.push('═════════════════════════════════');
+      lines.push('  CityU Pedia · 问题反馈');
+      lines.push('  提交时间：' + new Date().toLocaleString('zh-CN'));
+      lines.push('═════════════════════════════════');
+      lines.push('');
+      lines.push('【姓名】' + name);
+      lines.push('【专业】' + programme);
+      lines.push('');
+      lines.push('【问题描述】');
+      lines.push(description);
+      lines.push('');
+      lines.push('═════════════════════════════════');
+
+      document.getElementById('result-text').value = lines.join('\n');
+      document.getElementById('result-overlay').classList.add('show');
+    });
+
+    function copyResult() {
+      const text = document.getElementById('result-text');
+      text.select();
+      text.setSelectionRange(0, 99999);
+      try {
+        document.execCommand('copy');
+        showToast('已复制到剪贴板');
+      } catch (err) {
+        showToast('复制失败，请手动选择复制');
+      }
+    }
+
+    function closeResult() {
+      document.getElementById('result-overlay').classList.remove('show');
+    }
+  </script>
+</body>
+</html>

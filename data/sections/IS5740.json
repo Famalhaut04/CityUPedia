@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "11212",
+    "section": "SA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "15:00 - 17:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3508",
+    "instructor": "Juhee KWON",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

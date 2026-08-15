@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "15441",
+    "section": "C63",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "107",
+    "capacity": "300",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3505",
+    "instructor": "Li ZENG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc AI for Sciences"
+    ]
+  },
+  {
+    "crn": "11599",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "12",
+    "capacity": "250",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Max YIN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Data Science"
+    ]
+  },
+  {
+    "crn": "13470",
+    "section": "C62",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "11",
+    "capacity": "250",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "LT-501",
+    "instructor": "Zhenling MO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Data Science"
+    ]
+  }
+]

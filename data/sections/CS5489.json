@@ -1,0 +1,188 @@
+[
+  {
+    "crn": "14272",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "148",
+    "capacity": "148",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "12:00 - 13:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "Jiawei MA , Zhisong ZHANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14164",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "55",
+    "capacity": "228",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 20:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "Jiawei MA , Zhisong ZHANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14165",
+    "section": "CA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "12:00 - 13:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "Zhisong ZHANG , Jiawei MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  },
+  {
+    "crn": "14273",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "74",
+    "capacity": "74",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "14:00 - 14:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7701",
+    "instructor": "Jiawei MA , Zhisong ZHANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "15456",
+    "section": "T02",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "74",
+    "capacity": "74",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "15:00 - 15:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7701",
+    "instructor": "Jiawei MA , Zhisong ZHANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14166",
+    "section": "T61",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "36",
+    "capacity": "114",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "18:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7701",
+    "instructor": "Jiawei MA , Zhisong ZHANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14277",
+    "section": "T62",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "19",
+    "capacity": "114",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "21:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7701",
+    "instructor": "Jiawei MA , Zhisong ZHANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14341",
+    "section": "TA1",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "14:00 - 14:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7701",
+    "instructor": "Zhisong ZHANG , Jiawei MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  },
+  {
+    "crn": "15458",
+    "section": "TA2",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "15:00 - 15:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7701",
+    "instructor": "Zhisong ZHANG , Jiawei MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  }
+]

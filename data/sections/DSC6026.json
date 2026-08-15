@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15830",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "250",
+    "capacity": "250",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "Inter-Continental Plaza",
+    "room": "B-101",
+    "instructor": "Qing KE",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc AI for Sciences"
+    ]
+  }
+]

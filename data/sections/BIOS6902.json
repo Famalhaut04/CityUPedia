@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15063",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "150",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1507",
+    "instructor": "Jinfeng XU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Biostatistics"
+    ]
+  }
+]

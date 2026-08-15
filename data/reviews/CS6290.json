@@ -1,0 +1,9 @@
+{
+  "course_code": "CS6290",
+  "level": "recommended",
+  "verdict": "推荐",
+  "summary": "隐私增强技术，以区块链与 DeFi 为主，考试开卷（两页 A4）、给分友好；每三周阅读作业 + 课堂 quiz + 4 人小组项目；无回放、考勤较严（每三周需露面）。适合对 Web3 感兴趣。",
+  "tags": ["区块链/DeFi", "开卷期末", "阅读作业与 quiz", "小组项目", "考勤较严"],
+  "source_ids": ["cs6290_st_eval", "cs6290_blood_6", "cs6290_semb_4A", "cs6290_summary"],
+  "last_updated": "2026-08-13"
+}

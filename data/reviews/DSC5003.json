@@ -1,0 +1,17 @@
+{
+  "course_code": "DSC5003",
+  "level": "recommended",
+  "verdict": "基础友好",
+  "summary": "跟本科数据库内容一致，多了 MapReduce 概念，不需搭环境。本科学过数据库则无压力。老师严格按原始分给分，不 curve。开卷考试。",
+  "tags": [
+    "难度简单",
+    "给分一般",
+    "开卷考试",
+    "数据库基础",
+    "不curve"
+  ],
+  "source_ids": [
+    "xhs_ds_sema_gawin"
+  ],
+  "last_updated": "2026-08-03"
+}

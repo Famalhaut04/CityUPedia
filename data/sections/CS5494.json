@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "14311",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "156",
+    "capacity": "156",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "20:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Jianyuan GUO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence"
+    ]
+  },
+  {
+    "crn": "14312",
+    "section": "T61",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "78",
+    "capacity": "78",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "18:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7520",
+    "instructor": "Jianyuan GUO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence"
+    ]
+  },
+  {
+    "crn": "14313",
+    "section": "T62",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "78",
+    "capacity": "78",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 19:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7520",
+    "instructor": "Jianyuan GUO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5182",
+  "level": "caution",
+  "verdict": "谨慎选择",
+  "summary": "经典计算机图形学，期中 15%、Project 25%、考试 60%；Project 涉及点云 Neural Rendering，需自备训练资源；考前划重点，需掌握线代与矩阵变换；闭卷无 cheat paper，平时无作业。",
+  "tags": ["经典图形学", "Project", "闭卷", "无回放", "线代要求"],
+  "source_ids": [],
+  "last_updated": "2026-08-13"
+}

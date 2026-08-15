@@ -1,0 +1,1162 @@
+{
+  "schema_version": 1,
+  "generated_from": "wechat/generated/pdf-pages-manifest.json",
+  "course_count": 84,
+  "page_count": 566,
+  "courses": {
+    "CS5285": {
+      "page_count": 7,
+      "source_pdf": "docs/CS5285.pdf",
+      "source_sha256": "d7db22b50f34dcea8812b4a44e619f21448127d93cdc2a10df2b27695dfcda0a",
+      "pages": [
+        "assets/course-pages/CS5285/page-001.jpg",
+        "assets/course-pages/CS5285/page-002.jpg",
+        "assets/course-pages/CS5285/page-003.jpg",
+        "assets/course-pages/CS5285/page-004.jpg",
+        "assets/course-pages/CS5285/page-005.jpg",
+        "assets/course-pages/CS5285/page-006.jpg",
+        "assets/course-pages/CS5285/page-007.jpg"
+      ]
+    },
+    "CS5487": {
+      "page_count": 9,
+      "source_pdf": "docs/CS5487.pdf",
+      "source_sha256": "60e620b94dee935bc9633e42dc0e9ee057bd3bbeefd7e505a5e9cc9959da63ea",
+      "pages": [
+        "assets/course-pages/CS5487/page-001.jpg",
+        "assets/course-pages/CS5487/page-002.jpg",
+        "assets/course-pages/CS5487/page-003.jpg",
+        "assets/course-pages/CS5487/page-004.jpg",
+        "assets/course-pages/CS5487/page-005.jpg",
+        "assets/course-pages/CS5487/page-006.jpg",
+        "assets/course-pages/CS5487/page-007.jpg",
+        "assets/course-pages/CS5487/page-008.jpg",
+        "assets/course-pages/CS5487/page-009.jpg"
+      ]
+    },
+    "CS6290": {
+      "page_count": 7,
+      "source_pdf": "docs/CS6290.pdf",
+      "source_sha256": "a0e35b91bb3edb6bd8ccb7f3908abbdcc764975f3c6ec5901c55c4446fb0c48b",
+      "pages": [
+        "assets/course-pages/CS6290/page-001.jpg",
+        "assets/course-pages/CS6290/page-002.jpg",
+        "assets/course-pages/CS6290/page-003.jpg",
+        "assets/course-pages/CS6290/page-004.jpg",
+        "assets/course-pages/CS6290/page-005.jpg",
+        "assets/course-pages/CS6290/page-006.jpg",
+        "assets/course-pages/CS6290/page-007.jpg"
+      ]
+    },
+    "CS6493": {
+      "page_count": 7,
+      "source_pdf": "docs/CS6493.pdf",
+      "source_sha256": "419ed0ba7e10173c696bc4542250fe13c51719f48fa0ccf2003a4532c3ffb4a7",
+      "pages": [
+        "assets/course-pages/CS6493/page-001.jpg",
+        "assets/course-pages/CS6493/page-002.jpg",
+        "assets/course-pages/CS6493/page-003.jpg",
+        "assets/course-pages/CS6493/page-004.jpg",
+        "assets/course-pages/CS6493/page-005.jpg",
+        "assets/course-pages/CS6493/page-006.jpg",
+        "assets/course-pages/CS6493/page-007.jpg"
+      ]
+    },
+    "DSC5001": {
+      "page_count": 6,
+      "source_pdf": "docs/DSC5001.pdf",
+      "source_sha256": "f9a125b3f497218dae5d4cfd51909b904e8cfc6e2a6d208bbf1e37d2b8cd09d8",
+      "pages": [
+        "assets/course-pages/DSC5001/page-001.jpg",
+        "assets/course-pages/DSC5001/page-002.jpg",
+        "assets/course-pages/DSC5001/page-003.jpg",
+        "assets/course-pages/DSC5001/page-004.jpg",
+        "assets/course-pages/DSC5001/page-005.jpg",
+        "assets/course-pages/DSC5001/page-006.jpg"
+      ]
+    },
+    "DSC5002": {
+      "page_count": 7,
+      "source_pdf": "docs/DSC5002.pdf",
+      "source_sha256": "5104b58959e9f053c0a517c8665da264ba49ea3283ecb3b93e6b41f072d27a65",
+      "pages": [
+        "assets/course-pages/DSC5002/page-001.jpg",
+        "assets/course-pages/DSC5002/page-002.jpg",
+        "assets/course-pages/DSC5002/page-003.jpg",
+        "assets/course-pages/DSC5002/page-004.jpg",
+        "assets/course-pages/DSC5002/page-005.jpg",
+        "assets/course-pages/DSC5002/page-006.jpg",
+        "assets/course-pages/DSC5002/page-007.jpg"
+      ]
+    },
+    "DSC5003": {
+      "page_count": 6,
+      "source_pdf": "docs/DSC5003.pdf",
+      "source_sha256": "0a60739e7d8b30fc7bfb4a7f167628cd2d19ce7fbdbc0953cc26400711e6e7fc",
+      "pages": [
+        "assets/course-pages/DSC5003/page-001.jpg",
+        "assets/course-pages/DSC5003/page-002.jpg",
+        "assets/course-pages/DSC5003/page-003.jpg",
+        "assets/course-pages/DSC5003/page-004.jpg",
+        "assets/course-pages/DSC5003/page-005.jpg",
+        "assets/course-pages/DSC5003/page-006.jpg"
+      ]
+    },
+    "DSC6004": {
+      "page_count": 6,
+      "source_pdf": "docs/DSC6004.pdf",
+      "source_sha256": "1c99fb1d98a2a4df2d1c0985c76d96b870b25342b43cfe25ff71183f7303bfb8",
+      "pages": [
+        "assets/course-pages/DSC6004/page-001.jpg",
+        "assets/course-pages/DSC6004/page-002.jpg",
+        "assets/course-pages/DSC6004/page-003.jpg",
+        "assets/course-pages/DSC6004/page-004.jpg",
+        "assets/course-pages/DSC6004/page-005.jpg",
+        "assets/course-pages/DSC6004/page-006.jpg"
+      ]
+    },
+    "DSC6006": {
+      "page_count": 6,
+      "source_pdf": "docs/SDSC6006.pdf",
+      "source_sha256": "fb739a5966e78f603090ae2bf7e00342d50592ad38ad2f989366ff84b853a9ea",
+      "pages": [
+        "assets/course-pages/DSC6006/page-001.jpg",
+        "assets/course-pages/DSC6006/page-002.jpg",
+        "assets/course-pages/DSC6006/page-003.jpg",
+        "assets/course-pages/DSC6006/page-004.jpg",
+        "assets/course-pages/DSC6006/page-005.jpg",
+        "assets/course-pages/DSC6006/page-006.jpg"
+      ]
+    },
+    "DSC6008": {
+      "page_count": 7,
+      "source_pdf": "docs/DSC6008.pdf",
+      "source_sha256": "864ae8f20514e21da64b83e9b6a6a714e9d69e5dbc5a2074d326ad5a4ad975bf",
+      "pages": [
+        "assets/course-pages/DSC6008/page-001.jpg",
+        "assets/course-pages/DSC6008/page-002.jpg",
+        "assets/course-pages/DSC6008/page-003.jpg",
+        "assets/course-pages/DSC6008/page-004.jpg",
+        "assets/course-pages/DSC6008/page-005.jpg",
+        "assets/course-pages/DSC6008/page-006.jpg",
+        "assets/course-pages/DSC6008/page-007.jpg"
+      ]
+    },
+    "DSC6011": {
+      "page_count": 5,
+      "source_pdf": "docs/DSC6011.pdf",
+      "source_sha256": "e5c941fd8bc4a7bafcecda237e46e5716b25c57f8543a4c14ef7c9d4447e9b43",
+      "pages": [
+        "assets/course-pages/DSC6011/page-001.jpg",
+        "assets/course-pages/DSC6011/page-002.jpg",
+        "assets/course-pages/DSC6011/page-003.jpg",
+        "assets/course-pages/DSC6011/page-004.jpg",
+        "assets/course-pages/DSC6011/page-005.jpg"
+      ]
+    },
+    "DSC6012": {
+      "page_count": 6,
+      "source_pdf": "docs/DSC6012.pdf",
+      "source_sha256": "2e90a7dbd977140f5d3443a0c0f65a9525fb57deb1b1909a4b363a9f8a9defd1",
+      "pages": [
+        "assets/course-pages/DSC6012/page-001.jpg",
+        "assets/course-pages/DSC6012/page-002.jpg",
+        "assets/course-pages/DSC6012/page-003.jpg",
+        "assets/course-pages/DSC6012/page-004.jpg",
+        "assets/course-pages/DSC6012/page-005.jpg",
+        "assets/course-pages/DSC6012/page-006.jpg"
+      ]
+    },
+    "DSC6013": {
+      "page_count": 8,
+      "source_pdf": "docs/DSC6013.pdf",
+      "source_sha256": "329c3e9ce4c1bfb23f3ee3b1a0beb81078820cb7bc238db9138b5bd53d173b70",
+      "pages": [
+        "assets/course-pages/DSC6013/page-001.jpg",
+        "assets/course-pages/DSC6013/page-002.jpg",
+        "assets/course-pages/DSC6013/page-003.jpg",
+        "assets/course-pages/DSC6013/page-004.jpg",
+        "assets/course-pages/DSC6013/page-005.jpg",
+        "assets/course-pages/DSC6013/page-006.jpg",
+        "assets/course-pages/DSC6013/page-007.jpg",
+        "assets/course-pages/DSC6013/page-008.jpg"
+      ]
+    },
+    "DSC6016": {
+      "page_count": 6,
+      "source_pdf": "docs/DSC6016.pdf",
+      "source_sha256": "9bddde8ea2d2222e25e2215dedfc85ad422acfe80f2247e3219d1ba3ffa9930a",
+      "pages": [
+        "assets/course-pages/DSC6016/page-001.jpg",
+        "assets/course-pages/DSC6016/page-002.jpg",
+        "assets/course-pages/DSC6016/page-003.jpg",
+        "assets/course-pages/DSC6016/page-004.jpg",
+        "assets/course-pages/DSC6016/page-005.jpg",
+        "assets/course-pages/DSC6016/page-006.jpg"
+      ]
+    },
+    "DSC6017": {
+      "page_count": 5,
+      "source_pdf": "docs/SDSC6017.pdf",
+      "source_sha256": "8b13aa38e2bdfa4ea1e7f3a2b7b87dfc06641d986863aa44f0f6e6f11404b2e7",
+      "pages": [
+        "assets/course-pages/DSC6017/page-001.jpg",
+        "assets/course-pages/DSC6017/page-002.jpg",
+        "assets/course-pages/DSC6017/page-003.jpg",
+        "assets/course-pages/DSC6017/page-004.jpg",
+        "assets/course-pages/DSC6017/page-005.jpg"
+      ]
+    },
+    "DSC6018": {
+      "page_count": 8,
+      "source_pdf": "docs/DSC6018.pdf",
+      "source_sha256": "fc952def366a3244b70d76c4793bf0579ed2d936b84cfd05598ef8ea9c7ce041",
+      "pages": [
+        "assets/course-pages/DSC6018/page-001.jpg",
+        "assets/course-pages/DSC6018/page-002.jpg",
+        "assets/course-pages/DSC6018/page-003.jpg",
+        "assets/course-pages/DSC6018/page-004.jpg",
+        "assets/course-pages/DSC6018/page-005.jpg",
+        "assets/course-pages/DSC6018/page-006.jpg",
+        "assets/course-pages/DSC6018/page-007.jpg",
+        "assets/course-pages/DSC6018/page-008.jpg"
+      ]
+    },
+    "CS5187": {
+      "page_count": 6,
+      "source_pdf": "docs/CS5187.pdf",
+      "source_sha256": "5a6567f414be45cba7a985a391a23fb7ed09ccba662fb79fab1eb1852c69478b",
+      "pages": [
+        "assets/course-pages/CS5187/page-001.jpg",
+        "assets/course-pages/CS5187/page-002.jpg",
+        "assets/course-pages/CS5187/page-003.jpg",
+        "assets/course-pages/CS5187/page-004.jpg",
+        "assets/course-pages/CS5187/page-005.jpg",
+        "assets/course-pages/CS5187/page-006.jpg"
+      ]
+    },
+    "CS5222": {
+      "page_count": 8,
+      "source_pdf": "docs/CS5222.pdf",
+      "source_sha256": "9420edba93afeb7cd4261ba585010987e96903404451ebe825f1e6db93d44ec5",
+      "pages": [
+        "assets/course-pages/CS5222/page-001.jpg",
+        "assets/course-pages/CS5222/page-002.jpg",
+        "assets/course-pages/CS5222/page-003.jpg",
+        "assets/course-pages/CS5222/page-004.jpg",
+        "assets/course-pages/CS5222/page-005.jpg",
+        "assets/course-pages/CS5222/page-006.jpg",
+        "assets/course-pages/CS5222/page-007.jpg",
+        "assets/course-pages/CS5222/page-008.jpg"
+      ]
+    },
+    "CS5294": {
+      "page_count": 7,
+      "source_pdf": "docs/CS5294.pdf",
+      "source_sha256": "c11cd6728bfa38aba82c2841d64a989e112c1d42df0bbff7df7b815c5323e7fb",
+      "pages": [
+        "assets/course-pages/CS5294/page-001.jpg",
+        "assets/course-pages/CS5294/page-002.jpg",
+        "assets/course-pages/CS5294/page-003.jpg",
+        "assets/course-pages/CS5294/page-004.jpg",
+        "assets/course-pages/CS5294/page-005.jpg",
+        "assets/course-pages/CS5294/page-006.jpg",
+        "assets/course-pages/CS5294/page-007.jpg"
+      ]
+    },
+    "CS5481": {
+      "page_count": 6,
+      "source_pdf": "docs/CS5481.pdf",
+      "source_sha256": "dd390c504c766eeeedd1746f849039011798eed62f2290057d7d9cabe0e1b65d",
+      "pages": [
+        "assets/course-pages/CS5481/page-001.jpg",
+        "assets/course-pages/CS5481/page-002.jpg",
+        "assets/course-pages/CS5481/page-003.jpg",
+        "assets/course-pages/CS5481/page-004.jpg",
+        "assets/course-pages/CS5481/page-005.jpg",
+        "assets/course-pages/CS5481/page-006.jpg"
+      ]
+    },
+    "CS5486": {
+      "page_count": 6,
+      "source_pdf": "docs/CS5486.pdf",
+      "source_sha256": "2cdef750a542e330829687f9315cdcfcf2b7841dd0c2a2a74dd8628a28182535",
+      "pages": [
+        "assets/course-pages/CS5486/page-001.jpg",
+        "assets/course-pages/CS5486/page-002.jpg",
+        "assets/course-pages/CS5486/page-003.jpg",
+        "assets/course-pages/CS5486/page-004.jpg",
+        "assets/course-pages/CS5486/page-005.jpg",
+        "assets/course-pages/CS5486/page-006.jpg"
+      ]
+    },
+    "CS5488": {
+      "page_count": 6,
+      "source_pdf": "docs/CS5488.pdf",
+      "source_sha256": "23628b7de953e9a557169e0e792869c1945c676a912692c119833c6d98ac026a",
+      "pages": [
+        "assets/course-pages/CS5488/page-001.jpg",
+        "assets/course-pages/CS5488/page-002.jpg",
+        "assets/course-pages/CS5488/page-003.jpg",
+        "assets/course-pages/CS5488/page-004.jpg",
+        "assets/course-pages/CS5488/page-005.jpg",
+        "assets/course-pages/CS5488/page-006.jpg"
+      ]
+    },
+    "CS5489": {
+      "page_count": 9,
+      "source_pdf": "docs/CS5489.pdf",
+      "source_sha256": "b88c783ef82a9de63749008d4e7a15a438559b7d6a341c0759433d22dd5c1e96",
+      "pages": [
+        "assets/course-pages/CS5489/page-001.jpg",
+        "assets/course-pages/CS5489/page-002.jpg",
+        "assets/course-pages/CS5489/page-003.jpg",
+        "assets/course-pages/CS5489/page-004.jpg",
+        "assets/course-pages/CS5489/page-005.jpg",
+        "assets/course-pages/CS5489/page-006.jpg",
+        "assets/course-pages/CS5489/page-007.jpg",
+        "assets/course-pages/CS5489/page-008.jpg",
+        "assets/course-pages/CS5489/page-009.jpg"
+      ]
+    },
+    "CS6382": {
+      "page_count": 8,
+      "source_pdf": "docs/CS6382.pdf",
+      "source_sha256": "18fdb9a57d6fe043c53d3d099da09b2de1f5e92366681a2d0e1adc1d4e878833",
+      "pages": [
+        "assets/course-pages/CS6382/page-001.jpg",
+        "assets/course-pages/CS6382/page-002.jpg",
+        "assets/course-pages/CS6382/page-003.jpg",
+        "assets/course-pages/CS6382/page-004.jpg",
+        "assets/course-pages/CS6382/page-005.jpg",
+        "assets/course-pages/CS6382/page-006.jpg",
+        "assets/course-pages/CS6382/page-007.jpg",
+        "assets/course-pages/CS6382/page-008.jpg"
+      ]
+    },
+    "CS5281": {
+      "page_count": 6,
+      "source_pdf": "docs/CS5281.pdf",
+      "source_sha256": "586f0daf6d7c857a109c9af2df13e9466cd03ae6872ab753ef51a728585c92c9",
+      "pages": [
+        "assets/course-pages/CS5281/page-001.jpg",
+        "assets/course-pages/CS5281/page-002.jpg",
+        "assets/course-pages/CS5281/page-003.jpg",
+        "assets/course-pages/CS5281/page-004.jpg",
+        "assets/course-pages/CS5281/page-005.jpg",
+        "assets/course-pages/CS5281/page-006.jpg"
+      ]
+    },
+    "CS6521": {
+      "page_count": 3,
+      "source_pdf": "docs/CS6521.pdf",
+      "source_sha256": "a37989c8c3b032b3de9faeba194ffb319aa8b3b949119d5fab6c5ae54edac7fb",
+      "pages": [
+        "assets/course-pages/CS6521/page-001.jpg",
+        "assets/course-pages/CS6521/page-002.jpg",
+        "assets/course-pages/CS6521/page-003.jpg"
+      ]
+    },
+    "AC5511": {
+      "page_count": 8,
+      "source_pdf": "docs/AC5511.pdf",
+      "source_sha256": "c1fa61419c97fd9296fd1c35a2620a34dab76ab2631f668d3a22c6ebe071bf87",
+      "pages": [
+        "assets/course-pages/AC5511/page-001.jpg",
+        "assets/course-pages/AC5511/page-002.jpg",
+        "assets/course-pages/AC5511/page-003.jpg",
+        "assets/course-pages/AC5511/page-004.jpg",
+        "assets/course-pages/AC5511/page-005.jpg",
+        "assets/course-pages/AC5511/page-006.jpg",
+        "assets/course-pages/AC5511/page-007.jpg",
+        "assets/course-pages/AC5511/page-008.jpg"
+      ]
+    },
+    "AC5803": {
+      "page_count": 6,
+      "source_pdf": "docs/AC5803.pdf",
+      "source_sha256": "3f78b27c5add2baab8e3783978738b86779ee230473ea0b4b9992b814abb0800",
+      "pages": [
+        "assets/course-pages/AC5803/page-001.jpg",
+        "assets/course-pages/AC5803/page-002.jpg",
+        "assets/course-pages/AC5803/page-003.jpg",
+        "assets/course-pages/AC5803/page-004.jpg",
+        "assets/course-pages/AC5803/page-005.jpg",
+        "assets/course-pages/AC5803/page-006.jpg"
+      ]
+    },
+    "EF5010": {
+      "page_count": 6,
+      "source_pdf": "docs/EF5010.pdf",
+      "source_sha256": "74658b24f17793b3bd04638011f49f295b3d27ae485875d6ca161858a9aed6f3",
+      "pages": [
+        "assets/course-pages/EF5010/page-001.jpg",
+        "assets/course-pages/EF5010/page-002.jpg",
+        "assets/course-pages/EF5010/page-003.jpg",
+        "assets/course-pages/EF5010/page-004.jpg",
+        "assets/course-pages/EF5010/page-005.jpg",
+        "assets/course-pages/EF5010/page-006.jpg"
+      ]
+    },
+    "EF5042": {
+      "page_count": 6,
+      "source_pdf": "docs/EF5042.pdf",
+      "source_sha256": "ca12aeda1b66143e772428b124bc68963b0bef3603b8da63d7bf29a871a30513",
+      "pages": [
+        "assets/course-pages/EF5042/page-001.jpg",
+        "assets/course-pages/EF5042/page-002.jpg",
+        "assets/course-pages/EF5042/page-003.jpg",
+        "assets/course-pages/EF5042/page-004.jpg",
+        "assets/course-pages/EF5042/page-005.jpg",
+        "assets/course-pages/EF5042/page-006.jpg"
+      ]
+    },
+    "LW5962": {
+      "page_count": 6,
+      "source_pdf": "docs/LW5962.pdf",
+      "source_sha256": "8a7911d4254e94494540ac0a61ed67c79ed4c7fdc8e41ebf7fd757b12a30ac4f",
+      "pages": [
+        "assets/course-pages/LW5962/page-001.jpg",
+        "assets/course-pages/LW5962/page-002.jpg",
+        "assets/course-pages/LW5962/page-003.jpg",
+        "assets/course-pages/LW5962/page-004.jpg",
+        "assets/course-pages/LW5962/page-005.jpg",
+        "assets/course-pages/LW5962/page-006.jpg"
+      ]
+    },
+    "MKT5644": {
+      "page_count": 15,
+      "source_pdf": "docs/MKT5644.pdf",
+      "source_sha256": "8cb4d4785adb8be7c7c844ec1efb5e3dc63797d0ed486f6130f4412a63d39f54",
+      "pages": [
+        "assets/course-pages/MKT5644/page-001.jpg",
+        "assets/course-pages/MKT5644/page-002.jpg",
+        "assets/course-pages/MKT5644/page-003.jpg",
+        "assets/course-pages/MKT5644/page-004.jpg",
+        "assets/course-pages/MKT5644/page-005.jpg",
+        "assets/course-pages/MKT5644/page-006.jpg",
+        "assets/course-pages/MKT5644/page-007.jpg",
+        "assets/course-pages/MKT5644/page-008.jpg",
+        "assets/course-pages/MKT5644/page-009.jpg",
+        "assets/course-pages/MKT5644/page-010.jpg",
+        "assets/course-pages/MKT5644/page-011.jpg",
+        "assets/course-pages/MKT5644/page-012.jpg",
+        "assets/course-pages/MKT5644/page-013.jpg",
+        "assets/course-pages/MKT5644/page-014.jpg",
+        "assets/course-pages/MKT5644/page-015.jpg"
+      ]
+    },
+    "IS5540": {
+      "page_count": 12,
+      "source_pdf": "docs/IS5540.pdf",
+      "source_sha256": "74948601110bae7edecf5ec147aa2406040958fa22ce4f3b6e1c786b01e36570",
+      "pages": [
+        "assets/course-pages/IS5540/page-001.jpg",
+        "assets/course-pages/IS5540/page-002.jpg",
+        "assets/course-pages/IS5540/page-003.jpg",
+        "assets/course-pages/IS5540/page-004.jpg",
+        "assets/course-pages/IS5540/page-005.jpg",
+        "assets/course-pages/IS5540/page-006.jpg",
+        "assets/course-pages/IS5540/page-007.jpg",
+        "assets/course-pages/IS5540/page-008.jpg",
+        "assets/course-pages/IS5540/page-009.jpg",
+        "assets/course-pages/IS5540/page-010.jpg",
+        "assets/course-pages/IS5540/page-011.jpg",
+        "assets/course-pages/IS5540/page-012.jpg"
+      ]
+    },
+    "IS5740": {
+      "page_count": 18,
+      "source_pdf": "docs/IS5740.pdf",
+      "source_sha256": "e987ac3647531ffb4567665fd220e12ba5ebba18eee5740871ef3284acb3eb13",
+      "pages": [
+        "assets/course-pages/IS5740/page-001.jpg",
+        "assets/course-pages/IS5740/page-002.jpg",
+        "assets/course-pages/IS5740/page-003.jpg",
+        "assets/course-pages/IS5740/page-004.jpg",
+        "assets/course-pages/IS5740/page-005.jpg",
+        "assets/course-pages/IS5740/page-006.jpg",
+        "assets/course-pages/IS5740/page-007.jpg",
+        "assets/course-pages/IS5740/page-008.jpg",
+        "assets/course-pages/IS5740/page-009.jpg",
+        "assets/course-pages/IS5740/page-010.jpg",
+        "assets/course-pages/IS5740/page-011.jpg",
+        "assets/course-pages/IS5740/page-012.jpg",
+        "assets/course-pages/IS5740/page-013.jpg",
+        "assets/course-pages/IS5740/page-014.jpg",
+        "assets/course-pages/IS5740/page-015.jpg",
+        "assets/course-pages/IS5740/page-016.jpg",
+        "assets/course-pages/IS5740/page-017.jpg",
+        "assets/course-pages/IS5740/page-018.jpg"
+      ]
+    },
+    "IS6523": {
+      "page_count": 21,
+      "source_pdf": "docs/IS6523.pdf",
+      "source_sha256": "cc0c0921739709561030885f4d4aba6eccc9da117377af8f5f5570ac7e38340c",
+      "pages": [
+        "assets/course-pages/IS6523/page-001.jpg",
+        "assets/course-pages/IS6523/page-002.jpg",
+        "assets/course-pages/IS6523/page-003.jpg",
+        "assets/course-pages/IS6523/page-004.jpg",
+        "assets/course-pages/IS6523/page-005.jpg",
+        "assets/course-pages/IS6523/page-006.jpg",
+        "assets/course-pages/IS6523/page-007.jpg",
+        "assets/course-pages/IS6523/page-008.jpg",
+        "assets/course-pages/IS6523/page-009.jpg",
+        "assets/course-pages/IS6523/page-010.jpg",
+        "assets/course-pages/IS6523/page-011.jpg",
+        "assets/course-pages/IS6523/page-012.jpg",
+        "assets/course-pages/IS6523/page-013.jpg",
+        "assets/course-pages/IS6523/page-014.jpg",
+        "assets/course-pages/IS6523/page-015.jpg",
+        "assets/course-pages/IS6523/page-016.jpg",
+        "assets/course-pages/IS6523/page-017.jpg",
+        "assets/course-pages/IS6523/page-018.jpg",
+        "assets/course-pages/IS6523/page-019.jpg",
+        "assets/course-pages/IS6523/page-020.jpg",
+        "assets/course-pages/IS6523/page-021.jpg"
+      ]
+    },
+    "IS6400": {
+      "page_count": 9,
+      "source_pdf": "docs/IS6400.pdf",
+      "source_sha256": "c928e8b7f799559cb473c473eda226bcd725f8bc0d71efd41d5c61a0a7c2aa55",
+      "pages": [
+        "assets/course-pages/IS6400/page-001.jpg",
+        "assets/course-pages/IS6400/page-002.jpg",
+        "assets/course-pages/IS6400/page-003.jpg",
+        "assets/course-pages/IS6400/page-004.jpg",
+        "assets/course-pages/IS6400/page-005.jpg",
+        "assets/course-pages/IS6400/page-006.jpg",
+        "assets/course-pages/IS6400/page-007.jpg",
+        "assets/course-pages/IS6400/page-008.jpg",
+        "assets/course-pages/IS6400/page-009.jpg"
+      ]
+    },
+    "IS6335": {
+      "page_count": 8,
+      "source_pdf": "docs/IS6335.pdf",
+      "source_sha256": "8bd3532da7333e065c5e775780ddd7c959be9cb5fb2d426e802b1bdcd61e86d0",
+      "pages": [
+        "assets/course-pages/IS6335/page-001.jpg",
+        "assets/course-pages/IS6335/page-002.jpg",
+        "assets/course-pages/IS6335/page-003.jpg",
+        "assets/course-pages/IS6335/page-004.jpg",
+        "assets/course-pages/IS6335/page-005.jpg",
+        "assets/course-pages/IS6335/page-006.jpg",
+        "assets/course-pages/IS6335/page-007.jpg",
+        "assets/course-pages/IS6335/page-008.jpg"
+      ]
+    },
+    "CHEM6134": {
+      "page_count": 7,
+      "source_pdf": "docs/CHEM6134.pdf",
+      "source_sha256": "d8c82bb919f7423927ef4bc256f72b2a13ab00966a3f76608b4871bb55ed8c61",
+      "pages": [
+        "assets/course-pages/CHEM6134/page-001.jpg",
+        "assets/course-pages/CHEM6134/page-002.jpg",
+        "assets/course-pages/CHEM6134/page-003.jpg",
+        "assets/course-pages/CHEM6134/page-004.jpg",
+        "assets/course-pages/CHEM6134/page-005.jpg",
+        "assets/course-pages/CHEM6134/page-006.jpg",
+        "assets/course-pages/CHEM6134/page-007.jpg"
+      ]
+    },
+    "PHY5503": {
+      "page_count": 5,
+      "source_pdf": "docs/PHY5503.pdf",
+      "source_sha256": "e210142d0c51c034dbc8005196848c3cea8222fd68145339b2b5b4ef244487d5",
+      "pages": [
+        "assets/course-pages/PHY5503/page-001.jpg",
+        "assets/course-pages/PHY5503/page-002.jpg",
+        "assets/course-pages/PHY5503/page-003.jpg",
+        "assets/course-pages/PHY5503/page-004.jpg",
+        "assets/course-pages/PHY5503/page-005.jpg"
+      ]
+    },
+    "PHY5504": {
+      "page_count": 3,
+      "source_pdf": "docs/PHY5504.pdf",
+      "source_sha256": "b5773f509e88cb27e870a1118d808b5b1d9b900ce80d1ac8aa82a434b0037d40",
+      "pages": [
+        "assets/course-pages/PHY5504/page-001.jpg",
+        "assets/course-pages/PHY5504/page-002.jpg",
+        "assets/course-pages/PHY5504/page-003.jpg"
+      ]
+    },
+    "PHY5505": {
+      "page_count": 3,
+      "source_pdf": "docs/PHY5505.pdf",
+      "source_sha256": "487e88010541ac74ed029b852e61670fe7dc19b1436aec3c25696c7c88826ba2",
+      "pages": [
+        "assets/course-pages/PHY5505/page-001.jpg",
+        "assets/course-pages/PHY5505/page-002.jpg",
+        "assets/course-pages/PHY5505/page-003.jpg"
+      ]
+    },
+    "PHY5506": {
+      "page_count": 5,
+      "source_pdf": "docs/PHY5506.pdf",
+      "source_sha256": "810c08181cadc1d6f411a06e2f0ac8d2d83462b81df9624fb72b72c29163e412",
+      "pages": [
+        "assets/course-pages/PHY5506/page-001.jpg",
+        "assets/course-pages/PHY5506/page-002.jpg",
+        "assets/course-pages/PHY5506/page-003.jpg",
+        "assets/course-pages/PHY5506/page-004.jpg",
+        "assets/course-pages/PHY5506/page-005.jpg"
+      ]
+    },
+    "PHY6502": {
+      "page_count": 5,
+      "source_pdf": "docs/PHY6502.pdf",
+      "source_sha256": "e1927f4cdc1dddfab95aaf370f59be322a0b430ab5a97e8354362152831c5ca4",
+      "pages": [
+        "assets/course-pages/PHY6502/page-001.jpg",
+        "assets/course-pages/PHY6502/page-002.jpg",
+        "assets/course-pages/PHY6502/page-003.jpg",
+        "assets/course-pages/PHY6502/page-004.jpg",
+        "assets/course-pages/PHY6502/page-005.jpg"
+      ]
+    },
+    "PHY6603": {
+      "page_count": 4,
+      "source_pdf": "docs/PHY6603.pdf",
+      "source_sha256": "7a2ee8b0212d4ca69416d7284ed1f01860ffca843db81933917eade3f37d785e",
+      "pages": [
+        "assets/course-pages/PHY6603/page-001.jpg",
+        "assets/course-pages/PHY6603/page-002.jpg",
+        "assets/course-pages/PHY6603/page-003.jpg",
+        "assets/course-pages/PHY6603/page-004.jpg"
+      ]
+    },
+    "PHY6604": {
+      "page_count": 4,
+      "source_pdf": "docs/PHY6604.pdf",
+      "source_sha256": "f92df60132788f88a3111292d3b5ffe5d85547a7b32efa0e4c384de796b3e518",
+      "pages": [
+        "assets/course-pages/PHY6604/page-001.jpg",
+        "assets/course-pages/PHY6604/page-002.jpg",
+        "assets/course-pages/PHY6604/page-003.jpg",
+        "assets/course-pages/PHY6604/page-004.jpg"
+      ]
+    },
+    "DSC6025": {
+      "page_count": 4,
+      "source_pdf": "docs/DSC6025.pdf",
+      "source_sha256": "501f8ca5a6542b911ce5d45d2407f585e4d806d184e1edd8eea7683e9a1cc048",
+      "pages": [
+        "assets/course-pages/DSC6025/page-001.jpg",
+        "assets/course-pages/DSC6025/page-002.jpg",
+        "assets/course-pages/DSC6025/page-003.jpg",
+        "assets/course-pages/DSC6025/page-004.jpg"
+      ]
+    },
+    "MSE5301": {
+      "page_count": 6,
+      "source_pdf": "docs/MSE5301.pdf",
+      "source_sha256": "13c5535f3458e9f59702f7b50af8bb3398d7c8a903223222c138e76724d17178",
+      "pages": [
+        "assets/course-pages/MSE5301/page-001.jpg",
+        "assets/course-pages/MSE5301/page-002.jpg",
+        "assets/course-pages/MSE5301/page-003.jpg",
+        "assets/course-pages/MSE5301/page-004.jpg",
+        "assets/course-pages/MSE5301/page-005.jpg",
+        "assets/course-pages/MSE5301/page-006.jpg"
+      ]
+    },
+    "MSE5303": {
+      "page_count": 7,
+      "source_pdf": "docs/MSE5303.pdf",
+      "source_sha256": "6776b624d734810cbcdeb0cb6c713d5e289b87303559e6ac04b80fae1fc27f1d",
+      "pages": [
+        "assets/course-pages/MSE5303/page-001.jpg",
+        "assets/course-pages/MSE5303/page-002.jpg",
+        "assets/course-pages/MSE5303/page-003.jpg",
+        "assets/course-pages/MSE5303/page-004.jpg",
+        "assets/course-pages/MSE5303/page-005.jpg",
+        "assets/course-pages/MSE5303/page-006.jpg",
+        "assets/course-pages/MSE5303/page-007.jpg"
+      ]
+    },
+    "MSE6181": {
+      "page_count": 6,
+      "source_pdf": "docs/MSE6181.pdf",
+      "source_sha256": "0502579bcb3311e19dec5efeaff6afbc0387c80c98d7b6fbf88fe1619e82c32d",
+      "pages": [
+        "assets/course-pages/MSE6181/page-001.jpg",
+        "assets/course-pages/MSE6181/page-002.jpg",
+        "assets/course-pages/MSE6181/page-003.jpg",
+        "assets/course-pages/MSE6181/page-004.jpg",
+        "assets/course-pages/MSE6181/page-005.jpg",
+        "assets/course-pages/MSE6181/page-006.jpg"
+      ]
+    },
+    "MSE6265": {
+      "page_count": 5,
+      "source_pdf": "docs/MSE6265.pdf",
+      "source_sha256": "ce0088c9b6620a8b239c0dfdefefccd27f6b6fcb864a9b8d2f0b105f5f56656d",
+      "pages": [
+        "assets/course-pages/MSE6265/page-001.jpg",
+        "assets/course-pages/MSE6265/page-002.jpg",
+        "assets/course-pages/MSE6265/page-003.jpg",
+        "assets/course-pages/MSE6265/page-004.jpg",
+        "assets/course-pages/MSE6265/page-005.jpg"
+      ]
+    },
+    "BMS5001": {
+      "page_count": 5,
+      "source_pdf": "docs/BMS5001.pdf",
+      "source_sha256": "be5a78864993a97fd2943fd73d3d880470ad9b3d2eb3a137a37ff1f4b8e0cb07",
+      "pages": [
+        "assets/course-pages/BMS5001/page-001.jpg",
+        "assets/course-pages/BMS5001/page-002.jpg",
+        "assets/course-pages/BMS5001/page-003.jpg",
+        "assets/course-pages/BMS5001/page-004.jpg",
+        "assets/course-pages/BMS5001/page-005.jpg"
+      ]
+    },
+    "BMS5002": {
+      "page_count": 8,
+      "source_pdf": "docs/BMS5002.pdf",
+      "source_sha256": "efb2a8742143198e9d7a2e8378290aca6a820152f0bdcc1e73ab180855029a54",
+      "pages": [
+        "assets/course-pages/BMS5002/page-001.jpg",
+        "assets/course-pages/BMS5002/page-002.jpg",
+        "assets/course-pages/BMS5002/page-003.jpg",
+        "assets/course-pages/BMS5002/page-004.jpg",
+        "assets/course-pages/BMS5002/page-005.jpg",
+        "assets/course-pages/BMS5002/page-006.jpg",
+        "assets/course-pages/BMS5002/page-007.jpg",
+        "assets/course-pages/BMS5002/page-008.jpg"
+      ]
+    },
+    "BMS5007": {
+      "page_count": 5,
+      "source_pdf": "docs/BMS5007.pdf",
+      "source_sha256": "b9f3bf75359c736b7f193004d77566569a072493ec13395e3faccf293339284d",
+      "pages": [
+        "assets/course-pages/BMS5007/page-001.jpg",
+        "assets/course-pages/BMS5007/page-002.jpg",
+        "assets/course-pages/BMS5007/page-003.jpg",
+        "assets/course-pages/BMS5007/page-004.jpg",
+        "assets/course-pages/BMS5007/page-005.jpg"
+      ]
+    },
+    "BMS5008": {
+      "page_count": 5,
+      "source_pdf": "docs/BMS5008.pdf",
+      "source_sha256": "0f56875aa8916f6e1aaf29c0fcfb392d77910c8fedd5d582c4f588c604b1c2ab",
+      "pages": [
+        "assets/course-pages/BMS5008/page-001.jpg",
+        "assets/course-pages/BMS5008/page-002.jpg",
+        "assets/course-pages/BMS5008/page-003.jpg",
+        "assets/course-pages/BMS5008/page-004.jpg",
+        "assets/course-pages/BMS5008/page-005.jpg"
+      ]
+    },
+    "BMS5009": {
+      "page_count": 7,
+      "source_pdf": "docs/BMS5009.pdf",
+      "source_sha256": "bf7e9b8b97fc1cfcd60fe885276f510f25bc9bfe46056f4ecd1c587ea6c8aa66",
+      "pages": [
+        "assets/course-pages/BMS5009/page-001.jpg",
+        "assets/course-pages/BMS5009/page-002.jpg",
+        "assets/course-pages/BMS5009/page-003.jpg",
+        "assets/course-pages/BMS5009/page-004.jpg",
+        "assets/course-pages/BMS5009/page-005.jpg",
+        "assets/course-pages/BMS5009/page-006.jpg",
+        "assets/course-pages/BMS5009/page-007.jpg"
+      ]
+    },
+    "BMS5010": {
+      "page_count": 10,
+      "source_pdf": "docs/BMS5010.pdf",
+      "source_sha256": "00baab6779e7bd1d194651dc844e4b65a59774b9ed74469f3523b9d22f336ef2",
+      "pages": [
+        "assets/course-pages/BMS5010/page-001.jpg",
+        "assets/course-pages/BMS5010/page-002.jpg",
+        "assets/course-pages/BMS5010/page-003.jpg",
+        "assets/course-pages/BMS5010/page-004.jpg",
+        "assets/course-pages/BMS5010/page-005.jpg",
+        "assets/course-pages/BMS5010/page-006.jpg",
+        "assets/course-pages/BMS5010/page-007.jpg",
+        "assets/course-pages/BMS5010/page-008.jpg",
+        "assets/course-pages/BMS5010/page-009.jpg",
+        "assets/course-pages/BMS5010/page-010.jpg"
+      ]
+    },
+    "BMS5011": {
+      "page_count": 5,
+      "source_pdf": "docs/BMS5011.pdf",
+      "source_sha256": "b8589627c7661eb2f8487984fac4d92225cf2930b1d1335b4129fb984b96a0a0",
+      "pages": [
+        "assets/course-pages/BMS5011/page-001.jpg",
+        "assets/course-pages/BMS5011/page-002.jpg",
+        "assets/course-pages/BMS5011/page-003.jpg",
+        "assets/course-pages/BMS5011/page-004.jpg",
+        "assets/course-pages/BMS5011/page-005.jpg"
+      ]
+    },
+    "BMS5012": {
+      "page_count": 6,
+      "source_pdf": "docs/BMS5012.pdf",
+      "source_sha256": "d3ca401d6da7e6bc875d919fa2233e9d7b33e66f5215be1b80ef252e2a45e862",
+      "pages": [
+        "assets/course-pages/BMS5012/page-001.jpg",
+        "assets/course-pages/BMS5012/page-002.jpg",
+        "assets/course-pages/BMS5012/page-003.jpg",
+        "assets/course-pages/BMS5012/page-004.jpg",
+        "assets/course-pages/BMS5012/page-005.jpg",
+        "assets/course-pages/BMS5012/page-006.jpg"
+      ]
+    },
+    "BMS5013": {
+      "page_count": 9,
+      "source_pdf": "docs/BMS5013.pdf",
+      "source_sha256": "adaa6fd613cab2abb4522a78da81d81fd00ea26ac7b770591ff4457ea6371e8a",
+      "pages": [
+        "assets/course-pages/BMS5013/page-001.jpg",
+        "assets/course-pages/BMS5013/page-002.jpg",
+        "assets/course-pages/BMS5013/page-003.jpg",
+        "assets/course-pages/BMS5013/page-004.jpg",
+        "assets/course-pages/BMS5013/page-005.jpg",
+        "assets/course-pages/BMS5013/page-006.jpg",
+        "assets/course-pages/BMS5013/page-007.jpg",
+        "assets/course-pages/BMS5013/page-008.jpg",
+        "assets/course-pages/BMS5013/page-009.jpg"
+      ]
+    },
+    "BMS8111": {
+      "page_count": 5,
+      "source_pdf": "docs/BMS8111.pdf",
+      "source_sha256": "44a4a0402b3c58c9e8a67f123ce857d5b022c011781d317ebb919dbd02fb6739",
+      "pages": [
+        "assets/course-pages/BMS8111/page-001.jpg",
+        "assets/course-pages/BMS8111/page-002.jpg",
+        "assets/course-pages/BMS8111/page-003.jpg",
+        "assets/course-pages/BMS8111/page-004.jpg",
+        "assets/course-pages/BMS8111/page-005.jpg"
+      ]
+    },
+    "BMS8112": {
+      "page_count": 6,
+      "source_pdf": "docs/BMS8112.pdf",
+      "source_sha256": "861c540fab6231ebe2fae75486032f8839b4694ce17f3459706f1808e142db7a",
+      "pages": [
+        "assets/course-pages/BMS8112/page-001.jpg",
+        "assets/course-pages/BMS8112/page-002.jpg",
+        "assets/course-pages/BMS8112/page-003.jpg",
+        "assets/course-pages/BMS8112/page-004.jpg",
+        "assets/course-pages/BMS8112/page-005.jpg",
+        "assets/course-pages/BMS8112/page-006.jpg"
+      ]
+    },
+    "SEE5201": {
+      "page_count": 6,
+      "source_pdf": "docs/SEE5201.pdf",
+      "source_sha256": "2f6c2ad1e8f9ce87982d16bd70e10f621e632d31130eea6b0955341b9385128f",
+      "pages": [
+        "assets/course-pages/SEE5201/page-001.jpg",
+        "assets/course-pages/SEE5201/page-002.jpg",
+        "assets/course-pages/SEE5201/page-003.jpg",
+        "assets/course-pages/SEE5201/page-004.jpg",
+        "assets/course-pages/SEE5201/page-005.jpg",
+        "assets/course-pages/SEE5201/page-006.jpg"
+      ]
+    },
+    "SEE5202": {
+      "page_count": 6,
+      "source_pdf": "docs/SEE5202.pdf",
+      "source_sha256": "9a120cc4e4655f11b517bcc00c89f17c547149269f04e26431470b25dad8e65d",
+      "pages": [
+        "assets/course-pages/SEE5202/page-001.jpg",
+        "assets/course-pages/SEE5202/page-002.jpg",
+        "assets/course-pages/SEE5202/page-003.jpg",
+        "assets/course-pages/SEE5202/page-004.jpg",
+        "assets/course-pages/SEE5202/page-005.jpg",
+        "assets/course-pages/SEE5202/page-006.jpg"
+      ]
+    },
+    "SEE5211": {
+      "page_count": 7,
+      "source_pdf": "docs/SEE5211.pdf",
+      "source_sha256": "5ce0fd297e0baad4e489e44cd2894816fea701e10de02d7c2641bfc004a34523",
+      "pages": [
+        "assets/course-pages/SEE5211/page-001.jpg",
+        "assets/course-pages/SEE5211/page-002.jpg",
+        "assets/course-pages/SEE5211/page-003.jpg",
+        "assets/course-pages/SEE5211/page-004.jpg",
+        "assets/course-pages/SEE5211/page-005.jpg",
+        "assets/course-pages/SEE5211/page-006.jpg",
+        "assets/course-pages/SEE5211/page-007.jpg"
+      ]
+    },
+    "SEE5212": {
+      "page_count": 5,
+      "source_pdf": "docs/SEE5212.pdf",
+      "source_sha256": "3c908182dc569ace5cda427b4a030df76256f6692e0abd68f537a8718565018a",
+      "pages": [
+        "assets/course-pages/SEE5212/page-001.jpg",
+        "assets/course-pages/SEE5212/page-002.jpg",
+        "assets/course-pages/SEE5212/page-003.jpg",
+        "assets/course-pages/SEE5212/page-004.jpg",
+        "assets/course-pages/SEE5212/page-005.jpg"
+      ]
+    },
+    "SEE6101": {
+      "page_count": 6,
+      "source_pdf": "docs/SEE6101.pdf",
+      "source_sha256": "9656cc502f0341bafbe86ed2e596f1e94a037949071bb9f015b7e0493b702fed",
+      "pages": [
+        "assets/course-pages/SEE6101/page-001.jpg",
+        "assets/course-pages/SEE6101/page-002.jpg",
+        "assets/course-pages/SEE6101/page-003.jpg",
+        "assets/course-pages/SEE6101/page-004.jpg",
+        "assets/course-pages/SEE6101/page-005.jpg",
+        "assets/course-pages/SEE6101/page-006.jpg"
+      ]
+    },
+    "SEE6103": {
+      "page_count": 8,
+      "source_pdf": "docs/SEE6103.pdf",
+      "source_sha256": "895b3412c6992cb01816a06e196048ae707fc4ed772aa60cd481ed53faad45be",
+      "pages": [
+        "assets/course-pages/SEE6103/page-001.jpg",
+        "assets/course-pages/SEE6103/page-002.jpg",
+        "assets/course-pages/SEE6103/page-003.jpg",
+        "assets/course-pages/SEE6103/page-004.jpg",
+        "assets/course-pages/SEE6103/page-005.jpg",
+        "assets/course-pages/SEE6103/page-006.jpg",
+        "assets/course-pages/SEE6103/page-007.jpg",
+        "assets/course-pages/SEE6103/page-008.jpg"
+      ]
+    },
+    "SEE6104": {
+      "page_count": 7,
+      "source_pdf": "docs/SEE6104.pdf",
+      "source_sha256": "4a2f5fec7d61250752298b4dcb01218a9a4f4cfb07cc7d3b8271134632886502",
+      "pages": [
+        "assets/course-pages/SEE6104/page-001.jpg",
+        "assets/course-pages/SEE6104/page-002.jpg",
+        "assets/course-pages/SEE6104/page-003.jpg",
+        "assets/course-pages/SEE6104/page-004.jpg",
+        "assets/course-pages/SEE6104/page-005.jpg",
+        "assets/course-pages/SEE6104/page-006.jpg",
+        "assets/course-pages/SEE6104/page-007.jpg"
+      ]
+    },
+    "SEE6115": {
+      "page_count": 7,
+      "source_pdf": "docs/SEE6115.pdf",
+      "source_sha256": "4c6b64ab14c42fb74d7a41a3baab174fd6167e26440d425b397804c30c85751f",
+      "pages": [
+        "assets/course-pages/SEE6115/page-001.jpg",
+        "assets/course-pages/SEE6115/page-002.jpg",
+        "assets/course-pages/SEE6115/page-003.jpg",
+        "assets/course-pages/SEE6115/page-004.jpg",
+        "assets/course-pages/SEE6115/page-005.jpg",
+        "assets/course-pages/SEE6115/page-006.jpg",
+        "assets/course-pages/SEE6115/page-007.jpg"
+      ]
+    },
+    "SEE6118": {
+      "page_count": 5,
+      "source_pdf": "docs/SEE6118.pdf",
+      "source_sha256": "f6ff6fbda31472cec9d97887d45030d02df6c01ce7a5a16ebe63d5ae0d01451b",
+      "pages": [
+        "assets/course-pages/SEE6118/page-001.jpg",
+        "assets/course-pages/SEE6118/page-002.jpg",
+        "assets/course-pages/SEE6118/page-003.jpg",
+        "assets/course-pages/SEE6118/page-004.jpg",
+        "assets/course-pages/SEE6118/page-005.jpg"
+      ]
+    },
+    "SEE6122": {
+      "page_count": 6,
+      "source_pdf": "docs/SEE6122.pdf",
+      "source_sha256": "d6ac870a1e265d7c63740d5730c24b94b6e1f23ded3bbb779a3dc8316e127afe",
+      "pages": [
+        "assets/course-pages/SEE6122/page-001.jpg",
+        "assets/course-pages/SEE6122/page-002.jpg",
+        "assets/course-pages/SEE6122/page-003.jpg",
+        "assets/course-pages/SEE6122/page-004.jpg",
+        "assets/course-pages/SEE6122/page-005.jpg",
+        "assets/course-pages/SEE6122/page-006.jpg"
+      ]
+    },
+    "SEE6124": {
+      "page_count": 7,
+      "source_pdf": "docs/SEE6124.pdf",
+      "source_sha256": "3419212e5b44a3b228ddf7693dfaab5140641e50091126926d03f2a371f694b9",
+      "pages": [
+        "assets/course-pages/SEE6124/page-001.jpg",
+        "assets/course-pages/SEE6124/page-002.jpg",
+        "assets/course-pages/SEE6124/page-003.jpg",
+        "assets/course-pages/SEE6124/page-004.jpg",
+        "assets/course-pages/SEE6124/page-005.jpg",
+        "assets/course-pages/SEE6124/page-006.jpg",
+        "assets/course-pages/SEE6124/page-007.jpg"
+      ]
+    },
+    "SEE6125": {
+      "page_count": 6,
+      "source_pdf": "docs/SEE6125.pdf",
+      "source_sha256": "6aaf967343b744c162ea50830abcb3c7842446a6a2db19e0607a396353d18584",
+      "pages": [
+        "assets/course-pages/SEE6125/page-001.jpg",
+        "assets/course-pages/SEE6125/page-002.jpg",
+        "assets/course-pages/SEE6125/page-003.jpg",
+        "assets/course-pages/SEE6125/page-004.jpg",
+        "assets/course-pages/SEE6125/page-005.jpg",
+        "assets/course-pages/SEE6125/page-006.jpg"
+      ]
+    },
+    "SEE6212": {
+      "page_count": 6,
+      "source_pdf": "docs/SEE6212.pdf",
+      "source_sha256": "fc6ff8704078d12aac9dbec9084d981afb9ec8bba2d303456a15ca8d119ea8b2",
+      "pages": [
+        "assets/course-pages/SEE6212/page-001.jpg",
+        "assets/course-pages/SEE6212/page-002.jpg",
+        "assets/course-pages/SEE6212/page-003.jpg",
+        "assets/course-pages/SEE6212/page-004.jpg",
+        "assets/course-pages/SEE6212/page-005.jpg",
+        "assets/course-pages/SEE6212/page-006.jpg"
+      ]
+    },
+    "SEE6213": {
+      "page_count": 6,
+      "source_pdf": "docs/SEE6213.pdf",
+      "source_sha256": "9c9d9dfcfe60f4b37897a87bddc4a425e4add4bc40382a06ed6d1a0cb7dcda22",
+      "pages": [
+        "assets/course-pages/SEE6213/page-001.jpg",
+        "assets/course-pages/SEE6213/page-002.jpg",
+        "assets/course-pages/SEE6213/page-003.jpg",
+        "assets/course-pages/SEE6213/page-004.jpg",
+        "assets/course-pages/SEE6213/page-005.jpg",
+        "assets/course-pages/SEE6213/page-006.jpg"
+      ]
+    },
+    "SEE6214": {
+      "page_count": 7,
+      "source_pdf": "docs/SEE6214.pdf",
+      "source_sha256": "a244fa9bf7179a428531e3c941af3cdd24e48b862f3384c16740853a38b25c7b",
+      "pages": [
+        "assets/course-pages/SEE6214/page-001.jpg",
+        "assets/course-pages/SEE6214/page-002.jpg",
+        "assets/course-pages/SEE6214/page-003.jpg",
+        "assets/course-pages/SEE6214/page-004.jpg",
+        "assets/course-pages/SEE6214/page-005.jpg",
+        "assets/course-pages/SEE6214/page-006.jpg",
+        "assets/course-pages/SEE6214/page-007.jpg"
+      ]
+    },
+    "SEE6224": {
+      "page_count": 10,
+      "source_pdf": "docs/SEE6224.pdf",
+      "source_sha256": "bf8a2e301070812b185d11ec4fe63c5045e2dff4b3d0e5a9b5bd4f8ac06a5c14",
+      "pages": [
+        "assets/course-pages/SEE6224/page-001.jpg",
+        "assets/course-pages/SEE6224/page-002.jpg",
+        "assets/course-pages/SEE6224/page-003.jpg",
+        "assets/course-pages/SEE6224/page-004.jpg",
+        "assets/course-pages/SEE6224/page-005.jpg",
+        "assets/course-pages/SEE6224/page-006.jpg",
+        "assets/course-pages/SEE6224/page-007.jpg",
+        "assets/course-pages/SEE6224/page-008.jpg",
+        "assets/course-pages/SEE6224/page-009.jpg",
+        "assets/course-pages/SEE6224/page-010.jpg"
+      ]
+    },
+    "SEE6225": {
+      "page_count": 7,
+      "source_pdf": "docs/SEE6225.pdf",
+      "source_sha256": "b0cd2c7b49020ff4565b2e8f6d463fd6e245142896295e2b35b4e427ad74ecfa",
+      "pages": [
+        "assets/course-pages/SEE6225/page-001.jpg",
+        "assets/course-pages/SEE6225/page-002.jpg",
+        "assets/course-pages/SEE6225/page-003.jpg",
+        "assets/course-pages/SEE6225/page-004.jpg",
+        "assets/course-pages/SEE6225/page-005.jpg",
+        "assets/course-pages/SEE6225/page-006.jpg",
+        "assets/course-pages/SEE6225/page-007.jpg"
+      ]
+    },
+    "DSC6023": {
+      "page_count": 5,
+      "source_pdf": "docs/DSC6023.pdf",
+      "source_sha256": "c24a47daec30b62941ef1dd68417d3ceecc21c9642ceca95c2e2d2a3a68cbeff",
+      "pages": [
+        "assets/course-pages/DSC6023/page-001.jpg",
+        "assets/course-pages/DSC6023/page-002.jpg",
+        "assets/course-pages/DSC6023/page-003.jpg",
+        "assets/course-pages/DSC6023/page-004.jpg",
+        "assets/course-pages/DSC6023/page-005.jpg"
+      ]
+    },
+    "DSC6024": {
+      "page_count": 5,
+      "source_pdf": "docs/DSC6024.pdf",
+      "source_sha256": "86233b0736f85d58f7d83041cb517227aab654a7350c8dd02b4f8e8cf262f788",
+      "pages": [
+        "assets/course-pages/DSC6024/page-001.jpg",
+        "assets/course-pages/DSC6024/page-002.jpg",
+        "assets/course-pages/DSC6024/page-003.jpg",
+        "assets/course-pages/DSC6024/page-004.jpg",
+        "assets/course-pages/DSC6024/page-005.jpg"
+      ]
+    },
+    "DSC6027": {
+      "page_count": 5,
+      "source_pdf": "docs/DSC6027.pdf",
+      "source_sha256": "cacab18a5f043e4c3009e6c66cfde46a42ccf1891a52f211668549623866c238",
+      "pages": [
+        "assets/course-pages/DSC6027/page-001.jpg",
+        "assets/course-pages/DSC6027/page-002.jpg",
+        "assets/course-pages/DSC6027/page-003.jpg",
+        "assets/course-pages/DSC6027/page-004.jpg",
+        "assets/course-pages/DSC6027/page-005.jpg"
+      ]
+    },
+    "DSC6028": {
+      "page_count": 6,
+      "source_pdf": "docs/DSC6028.pdf",
+      "source_sha256": "2f2449db8098d1a80adba0500267f81328efdd1f928cd2b408c6ddc7581c75ee",
+      "pages": [
+        "assets/course-pages/DSC6028/page-001.jpg",
+        "assets/course-pages/DSC6028/page-002.jpg",
+        "assets/course-pages/DSC6028/page-003.jpg",
+        "assets/course-pages/DSC6028/page-004.jpg",
+        "assets/course-pages/DSC6028/page-005.jpg",
+        "assets/course-pages/DSC6028/page-006.jpg"
+      ]
+    },
+    "DSC6029": {
+      "page_count": 7,
+      "source_pdf": "docs/DSC6029.pdf",
+      "source_sha256": "88725abb8864abd3b851147731098b0427b108d184b03fa1af8d3073726103e3",
+      "pages": [
+        "assets/course-pages/DSC6029/page-001.jpg",
+        "assets/course-pages/DSC6029/page-002.jpg",
+        "assets/course-pages/DSC6029/page-003.jpg",
+        "assets/course-pages/DSC6029/page-004.jpg",
+        "assets/course-pages/DSC6029/page-005.jpg",
+        "assets/course-pages/DSC6029/page-006.jpg",
+        "assets/course-pages/DSC6029/page-007.jpg"
+      ]
+    },
+    "DSC6030": {
+      "page_count": 5,
+      "source_pdf": "docs/DSC6030.pdf",
+      "source_sha256": "2ee3b9562e1609126679419965533e43ab099b0f6528881b5eefffb56441197d",
+      "pages": [
+        "assets/course-pages/DSC6030/page-001.jpg",
+        "assets/course-pages/DSC6030/page-002.jpg",
+        "assets/course-pages/DSC6030/page-003.jpg",
+        "assets/course-pages/DSC6030/page-004.jpg",
+        "assets/course-pages/DSC6030/page-005.jpg"
+      ]
+    }
+  }
+}

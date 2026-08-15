@@ -1,0 +1,9 @@
+{
+  "course_code": "EC5001",
+  "level": "good",
+  "verdict": "核心课 · 压力较低",
+  "summary": "电子商务基础，普遍认为难度不高、知识较杂；每周小作业、小组展示报告，平时约 50%，期末闭卷约 50%，前半学期可能考勤。",
+  "tags": ["难度较低", "核心课", "前半学期考勤", "期末闭卷", "小组展示与报告"],
+  "source_ids": ["ec_summary", "ec_review", "cs_review", "ec_update", "fall_review", "ec_sema_course_review", "cs_ec_sema_review_2"],
+  "last_updated": "2026-08-13"
+}

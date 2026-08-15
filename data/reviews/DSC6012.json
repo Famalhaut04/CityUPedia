@@ -1,0 +1,18 @@
+{
+  "course_code": "DSC6012",
+  "level": "recommended",
+  "verdict": "给分友好",
+  "summary": "比王燕老师讲的时间序列简单，统计专业无压力。神经网络部分讲 RNN/LSTM/GRU，难度不大。作者数学一般也拿了 B+，给分友好。闭卷考试。",
+  "tags": [
+    "难度适中",
+    "给分大方",
+    "闭卷考试",
+    "时间序列",
+    "RNN/LSTM"
+  ],
+  "source_ids": [
+    "xhs_ds_sema_gawin",
+    "xhs_ds_qiu_zhu"
+  ],
+  "last_updated": "2026-08-03"
+}

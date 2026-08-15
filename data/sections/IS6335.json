@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "14026",
+    "section": "SA2",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 14:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-14",
+    "instructor": "Wai Yu Zach LEE",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14028",
+    "section": "SB1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-10",
+    "instructor": "Zhiyin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14027",
+    "section": "SY1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-10",
+    "instructor": "Joseph KONG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

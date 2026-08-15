@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5481",
+  "level": "strong",
+  "verdict": "优先考虑",
+  "summary": "数据工程，老师（清华毕业、内地人）语速适中；内容涉及数据抓取/处理/可视化、大模型、索引（B 树/B+ 树）、SQL/NoSQL 与推荐系统。作业与小组项目难度可控，历史两至三次作业；期末通常闭卷。",
+  "tags": ["难度适中", "期末闭卷", "小组项目", "无考勤", "给分友好"],
+  "source_ids": ["cs_review", "ec_sharp", "fall_review", "cs_ec_sema_review_2"],
+  "last_updated": "2026-08-13"
+}

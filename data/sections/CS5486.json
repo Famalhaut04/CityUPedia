@@ -1,0 +1,48 @@
+[
+  {
+    "crn": "14064",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "260",
+    "capacity": "260",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Jun WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "14065",
+    "section": "T61",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "260",
+    "capacity": "260",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "21:00 - 21:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Jun WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

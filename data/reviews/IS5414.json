@@ -1,0 +1,9 @@
+{
+  "course_code": "IS5414",
+  "level": "neutral",
+  "verdict": "核心课 · 注意课堂互动",
+  "summary": "以 UML 图为主，常有每周小组作业和展示，期末闭卷，教师可能频繁点人；2025 SemA 期末为四类画图题，案例正文长、时间压力明显。",
+  "tags": ["核心课", "小组项目", "课堂互动", "UML", "期末闭卷"],
+  "source_ids": ["ec_summary", "ec_review", "ec_sema_course_review", "ee_mit_24fall_review", "is5414_2025_sema_exam"],
+  "last_updated": "2026-08-13"
+}

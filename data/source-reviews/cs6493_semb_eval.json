@@ -1,0 +1,6 @@
+{
+  "source_id": "cs6493_semb_eval",
+  "course_reviews": {
+    "CS6493": "2*assignment30%+group project30%+final40%\n考试闭卷，只看review PPT就差不多了，五道大题，第一道概念题30分，比如prompt类型，skip-gram和CBOW，RAG中的optimizing indexing和when to retrieve等，一道补全代码题12分，想冲a以上的同学需要复习tutorial中的代码，tensor parallelism的row和column实现，PEFT的adapter和lora，llm agents，ppo,dpo和drpo异同，BELU和cross-entropy计算等，竟然没考transformer。"
+  }
+}

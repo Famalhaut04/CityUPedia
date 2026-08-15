@@ -1,0 +1,162 @@
+[
+  {
+    "crn": "14558",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "170",
+    "capacity": "170",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 13:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3508",
+    "instructor": "Dapeng WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "13030",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "170",
+    "capacity": "170",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 20:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Dapeng WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "15329",
+    "section": "CA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "8",
+    "capacity": "8",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 13:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3508",
+    "instructor": "Dapeng WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  },
+  {
+    "crn": "13566",
+    "section": "CP1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "7",
+    "capacity": "7",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 20:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Dapeng WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  },
+  {
+    "crn": "14559",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "170",
+    "capacity": "170",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "14:00 - 14:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3508",
+    "instructor": "Dapeng WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "13316",
+    "section": "T61",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "170",
+    "capacity": "170",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "21:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Dapeng WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "15330",
+    "section": "TA1",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "8",
+    "capacity": "8",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "14:00 - 14:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3508",
+    "instructor": "Dapeng WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  },
+  {
+    "crn": "13567",
+    "section": "TP1",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "7",
+    "capacity": "7",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "21:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Dapeng WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  }
+]

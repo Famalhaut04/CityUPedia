@@ -1,0 +1,67 @@
+[
+  {
+    "crn": "14560",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "64",
+    "capacity": "200",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "15:00 - 17:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2505",
+    "instructor": "Wing Kwong CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity"
+    ]
+  },
+  {
+    "crn": "10003",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "76",
+    "capacity": "195",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-5",
+    "instructor": "Wing Kwong CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity"
+    ]
+  },
+  {
+    "crn": "15442",
+    "section": "CP2",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-5",
+    "instructor": "Wing Kwong CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Elec & Electronic Eng",
+      "only for Programme: MSc Elec & Electr'ic Eng w/ BM",
+      "only for Programme: MSc Electronic Info Engg",
+      "only for Programme: MSc Elect Info Engg with BM"
+    ]
+  }
+]

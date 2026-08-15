@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5486",
+  "level": "caution",
+  "verdict": "谨慎选择",
+  "summary": "智能系统，数学推导较多、课件体量大，考试重点不够明确；作业要求用 MATLAB，无 project，考试为神经网络相关数学推导大题与特点对比。神经网络基础和线代不熟时压力较高。",
+  "tags": ["难度较高", "数学推导", "MATLAB", "无项目"],
+  "source_ids": ["overview", "sem_b_review", "cs5486_guide"],
+  "last_updated": "2026-08-13"
+}

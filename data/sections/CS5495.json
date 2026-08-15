@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "14314",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 20:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2505",
+    "instructor": "Antoni Bert CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence"
+    ]
+  },
+  {
+    "crn": "14315",
+    "section": "T61",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "4412",
+    "instructor": "Antoni Bert CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence"
+    ]
+  },
+  {
+    "crn": "14316",
+    "section": "T62",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "4307",
+    "instructor": "CS010 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Artificial Intelligence"
+    ]
+  }
+]

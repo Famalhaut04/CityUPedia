@@ -1,0 +1,38 @@
+[
+    {
+        "crn":  "13998",
+        "section":  "C01",
+        "credits":  3,
+        "web":  "Y",
+        "available":  "170",
+        "capacity":  "170",
+        "date":  "11/01/2027 - 17/04/2027",
+        "day":  "R",
+        "time":  "15:00 - 17:50",
+        "building":  "LI",
+        "room":  "6606",
+        "instructor":  "CHAN Antoni Bert",
+        "medium":  "English",
+        "notes":  [
+
+                  ]
+    },
+    {
+        "crn":  "14003",
+        "section":  "C61",
+        "credits":  3,
+        "web":  "Y",
+        "available":  "170",
+        "capacity":  "170",
+        "date":  "11/01/2027 - 17/04/2027",
+        "day":  "R",
+        "time":  "19:00 - 21:50",
+        "building":  "YEUNG",
+        "room":  "LT-6",
+        "instructor":  "CHAN Antoni Bert",
+        "medium":  "English",
+        "notes":  [
+
+                  ]
+    }
+]

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CityU Pedia · 香港城市大学授课式硕士排课与课程评价综合平台，支持计算学院七大硕士项目">
+    <title>CityU Pedia · 城大课程百科</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+    <link rel="stylesheet" href="assets/styles.css?v=20260815a">
+  </head>
+  <body data-page="planner">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <a class="brand" href="index.html" aria-label="CityU Pedia 首页">
+          <img class="brand-mark" src="assets/cssa-logo.png" alt="CSSA Logo">
+          <span class="brand-text"><strong>CityU Pedia</strong><small>城大课程百科 · Course Pedia</small></span>
+        </a>
+      </div>
+      <nav class="sidebar-menu" aria-label="主导航">
+        <div class="menu-group">
+          <span class="menu-group-title" data-i18n="nav.group.main">主要功能</span>
+          <a class="menu-item active" href="index.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /><rect x="3" y="14" width="7" height="7" /></svg>
+            <span data-i18n="nav.courses">排课系统</span>
+          </a>
+          <a class="menu-item" href="reviews.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 0 0 .95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 0 0-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 0 0-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 0 0-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 0 0 .951-.69l1.519-4.674z"/></svg>
+            <span data-i18n="nav.reviews">课程评价</span>
+          </a>
+          <a class="menu-item" href="https://www.cityu.edu.hk" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <span data-i18n="nav.cityu">城大官网</span>
+          </a>
+          <button class="menu-item" type="button" id="lang-toggle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>
+            <span data-i18n="nav.lang">中英文切换</span>
+            <em class="lang-badge" id="lang-label">EN</em>
+          </button>
+          <a class="menu-item" href="https://github.com/Famalhaut04/CityUPedia" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.7 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12 0 1.53-.01 2.76-.01 3.14 0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            <span data-i18n="nav.github">GitHub 仓库</span>
+          </a>
+          <a class="menu-item" href="login.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <span data-i18n="nav.account">登录 / 注册</span>
+          </a>
+        </div>
+        <div class="menu-group">
+          <span class="menu-group-title" data-i18n="nav.group.more">更多</span>
+          <a class="menu-item" href="about.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            <span data-i18n="nav.about">关于我们</span>
+          </a>
+          <a class="menu-item" href="feedback.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            <span data-i18n="nav.feedback">问题反馈</span>
+          </a>
+        </div>
+      </nav>
+
+    </aside>
+
+    <main class="main-content">
+      <header class="top-bar">
+        <div class="page-title-wrap">
+          <h1 class="top-title" data-i18n="intro.title">自助排课台</h1>
+          <p class="top-subtitle" data-i18n="intro.desc">先选择学院，再选择院系与硕士项目，即可按对应培养方案浏览课程、比较班次并规划每周课表；左侧悬停可预览课程评价与时段。</p>
+        </div>
+        <div class="top-bar-right">
+          <div class="intro-stats" aria-label="当前项目学分要求">
+            <div><strong id="stat-graduation">—</strong><span id="stat-graduation-label" data-i18n="stat.graduation">毕业学分</span></div>
+            <div><strong id="stat-requirement">—</strong><span id="stat-requirement-label" data-i18n="stat.requirement">核心 + 选修</span></div>
+          </div>
+        </div>
+      </header>
+
+      <section class="programme-bar" aria-label="学院与硕士项目选择">
+        <div class="programme-bar-inner">
+          <div class="cascade-row" id="college-row" aria-label="选择学院">
+            <span class="cascade-label" data-i18n="college.label">学院</span>
+            <div id="college-pills" class="cascade-pills" role="tablist" aria-label="选择学院"></div>
+          </div>
+          <div class="cascade-row" id="department-row" aria-label="选择系">
+            <span class="cascade-label" data-i18n="department.label">院系</span>
+            <div id="department-pills" class="cascade-pills" role="tablist" aria-label="选择系"></div>
+          </div>
+          <div class="cascade-row" id="programme-row" aria-label="选择硕士项目">
+            <span class="cascade-label" data-i18n="prog.label">硕士项目</span>
+            <div id="programme-pills" class="cascade-pills" role="tablist" aria-label="选择硕士项目"></div>
+            <span id="programme-bar-hint" class="programme-bar-hint"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="planner-shell" aria-label="课程表规划器">
+        <aside class="course-sidebar">
+          <div class="sidebar-head">
+            <div class="segmented-control" role="tablist" aria-label="课程面板">
+              <button class="segment active" type="button" data-panel="browse" role="tab" aria-selected="true" data-i18n="tab.browse">浏览课程</button>
+              <button class="segment" type="button" data-panel="selected" role="tab" aria-selected="false"><span data-i18n="tab.selected">已选</span> <span id="selected-tab-count">0</span></button>
+            </div>
+          </div>
+
+          <div id="browse-panel" class="sidebar-panel">
+            <label class="search-box">
+              <span class="sr-only">搜索课程</span>
+              <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input id="course-search" type="search" placeholder="搜索课号或课程名" data-i18n="search.placeholder" autocomplete="off">
+            </label>
+            <div class="filter-row" aria-label="课程类型筛选">
+              <button class="filter-pill active" type="button" data-filter="all" data-i18n="filter.all">全部</button>
+              <button class="filter-pill" type="button" data-filter="core" data-i18n="filter.core">核心</button>
+              <button class="filter-pill" type="button" data-filter="elective" data-i18n="filter.elective">选修</button>
+            </div>
+            <div class="day-filter" aria-label="按上课星期筛选">
+              <span data-i18n="day.label">上课日</span>
+              <div class="day-filter-row">
+                <button class="day-filter-pill active" type="button" data-day-filter="all" data-i18n="day.all">全部</button>
+                <button class="day-filter-pill" type="button" data-day-filter="M">一</button>
+                <button class="day-filter-pill" type="button" data-day-filter="T">二</button>
+                <button class="day-filter-pill" type="button" data-day-filter="W">三</button>
+                <button class="day-filter-pill" type="button" data-day-filter="R">四</button>
+                <button class="day-filter-pill" type="button" data-day-filter="F">五</button>
+                <button class="day-filter-pill" type="button" data-day-filter="S">六</button>
+              </div>
+            </div>
+            <div id="term-filter" class="day-filter" aria-label="按学期筛选" hidden>
+              <span>学期</span>
+              <div id="term-filter-row" class="day-filter-row"></div>
+            </div>
+            <div id="course-list" class="course-list" aria-live="polite"></div>
+          </div>
+
+          <div id="selected-panel" class="sidebar-panel" hidden>
+            <div id="selected-list" class="selected-list"></div>
+          </div>
+        </aside>
+
+        <div class="timetable-panel">
+          <div class="timetable-toolbar">
+            <div>
+              <p class="eyebrow"><span data-i18n="intro.eyebrow">我的课表</span> · <span id="programme-summary-name">—</span> <a id="programme-info-link" class="programme-info-link" href="#" target="_blank" rel="noopener noreferrer" hidden>项目介绍 ↗</a></p>
+              <div class="semester-switch" role="tablist" aria-label="课表学期切换">
+                <button type="button" data-semester-switch="SemA" role="tab" aria-selected="true"><strong>Sem A</strong><span>第一学期</span></button>
+                <button type="button" data-semester-switch="SemB" role="tab" aria-selected="false"><strong>Sem B</strong><span>第二学期</span></button>
+                <button type="button" data-semester-switch="Summer" role="tab" aria-selected="false"><strong>Summer</strong><span>暑期</span></button>
+              </div>
+              <h2 class="selection-summary">
+                <span class="selection-summary-part">必修 <strong id="core-count">0</strong>门 <strong id="core-credit-count">0</strong>分</span>
+                <span class="selection-summary-plus" aria-hidden="true">+</span>
+                <span class="selection-summary-part">选修 <strong id="elective-count">0</strong>门 <strong id="elective-credit-count">0</strong>分</span>
+                <span class="selection-summary-plus" aria-hidden="true">+</span>
+                <span class="selection-summary-part">总 <strong id="selected-count">0</strong>门 <strong id="credit-count">0</strong>分</span>
+              </h2>
+              <div id="elective-group-summary" class="elective-group-summary" hidden></div>
+            </div>
+            <div class="toolbar-actions">
+              <span id="conflict-status" class="conflict-status is-clear" data-i18n="conflict.clear">暂无冲突</span>
+              <button id="export-pdf" class="button button-quiet" type="button" title="将课表导出为图片型 PDF 文件">导出 PDF</button>
+              <button id="clear-selection" class="button button-quiet" type="button" data-i18n="toolbar.clear">清空</button>
+            </div>
+          </div>
+          <div id="selected-chips" class="selected-chips" aria-label="已加入课程快捷操作"></div>
+
+          <div class="timetable-scroll">
+            <div class="timetable" id="timetable">
+              <div class="timetable-corner">GMT+8</div>
+              <div class="day-heading" data-day="M"><strong>周一</strong><span>MON</span></div>
+              <div class="day-heading" data-day="T"><strong>周二</strong><span>TUE</span></div>
+              <div class="day-heading" data-day="W"><strong>周三</strong><span>WED</span></div>
+              <div class="day-heading" data-day="R"><strong>周四</strong><span>THU</span></div>
+              <div class="day-heading" data-day="F"><strong>周五</strong><span>FRI</span></div>
+              <div class="day-heading" data-day="S"><strong>周六</strong><span>SAT</span></div>
+              <div id="time-axis" class="time-axis" aria-hidden="true"></div>
+              <div id="day-columns" class="day-columns"></div>
+              <div id="empty-timetable" class="empty-timetable">
+                <span class="empty-plus">+</span>
+                <strong data-i18n="empty.timetable.title">从左侧加入课程</strong>
+                <p data-i18n="empty.timetable.desc">班次可在「已选」中切换</p>
+              </div>
+            </div>
+          </div>
+          <p id="data-note" class="data-note"></p>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="assets/cloud-config.js?v=20260812f"></script>
+    <script src="assets/shared.js?v=20260815a"></script>
+    <script src="assets/planner.js?v=20260815a"></script>
+  </body>
+</html>

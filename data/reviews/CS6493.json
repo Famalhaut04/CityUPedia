@@ -1,0 +1,9 @@
+{
+  "course_code": "CS6493",
+  "level": "strong",
+  "verdict": "优先考虑",
+  "summary": "自然语言处理，SemB 一致推荐（NLP 必选），覆盖 Transformer/BERT/GPT/RAG；宋老师授课有条理、给分慷慨。两次作业 + 小组项目 + 闭卷期末，适合有 AI 背景者系统学 NLP。",
+  "tags": ["大模型入门", "闭卷考试", "两次作业", "小组项目", "给分友好", "考勤宽松"],
+  "source_ids": ["cs6493_semb_lower", "cs6493_semb_eval", "cs6493_cs_semb", "cs6493_selection_3", "cs6493_hunzi"],
+  "last_updated": "2026-08-13"
+}

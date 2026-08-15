@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "11211",
+    "section": "SA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 15:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "G600",
+    "instructor": "Chia Min FUNG HONG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "13424",
+    "section": "SP2",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "G600",
+    "instructor": "Chia Min FUNG HONG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

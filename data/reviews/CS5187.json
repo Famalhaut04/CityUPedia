@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5187",
+  "level": "strong",
+  "verdict": "优先考虑",
+  "summary": "计算机视觉与图像处理课程。多份本地经验一致推荐：通常两次作业加个人项目，期末开卷；多数评价认为考试友好、给分不错。Dapeng 老师为内地人、有留美经历，用最基础的英语授课、无口音，课堂生动有趣；前半学期内容简单，后半段从 Stereo Vision 起难度上升。",
+  "tags": ["难度较低", "期末开卷", "无考勤", "个人项目", "给分友好"],
+  "source_ids": ["ec_summary", "ec_review", "cs_review", "ec_update", "vision_review", "cs5187_guide", "cs_ec_sema_review_2"],
+  "last_updated": "2026-08-13"
+}

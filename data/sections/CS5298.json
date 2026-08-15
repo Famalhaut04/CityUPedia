@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15473",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "112",
+    "capacity": "112",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 14:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "5012",
+    "instructor": "Chenyuan WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Cybersecurity"
+    ]
+  },
+  {
+    "crn": "15474",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "112",
+    "capacity": "112",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 12:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "G600",
+    "instructor": "Chenyuan WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Cybersecurity"
+    ]
+  }
+]

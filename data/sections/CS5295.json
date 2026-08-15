@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15471",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "15:00 - 16:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Guangdong BAI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Cybersecurity"
+    ]
+  },
+  {
+    "crn": "15472",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "17:00 - 17:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Guangdong BAI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Cybersecurity"
+    ]
+  }
+]

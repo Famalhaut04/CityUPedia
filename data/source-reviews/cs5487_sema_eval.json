@@ -1,0 +1,6 @@
+{
+  "source_id": "cs5487_sema_eval",
+  "course_reviews": {
+    "CS5487": "9*theory assignment10%+2*programming assignment20%+midterm10%（一张单面手写）+project30%+final30%（一张手写双面a4cheatpaper）\n作业都可以迟交，而且答案github上都有，project题目自拟，也可以自己一个人不用合作。midterm考的是MLE,MAP,Bayesian estimation三道大题，final考的是EM,BDR,Adaptive SVM,Kernel perceptron四道大题，看了往年题好像翻来覆去都是这几个考点，我就考前花了一天把这几个考点的problem set的解法流程全写在cheat paper上了，考试都用上了，这门课虽然没有完全学懂，但是拿分还是挺简单的。\n总结：cs5187必选，cs5487没想象的难，三门必修考前突击拿B还是没问题的。多多利用github，coursehero，gpt。"
+  }
+}

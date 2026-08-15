@@ -1,0 +1,75 @@
+[
+  {
+    "crn": "15821",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "165",
+    "capacity": "165",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "13:00 - 15:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Jiaman WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc AI for Sciences",
+      "only for Programme: MSc Data Science"
+    ]
+  },
+  {
+    "crn": "15832",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "13:00 - 15:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Jiaman WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Engineering Management"
+    ]
+  },
+  {
+    "crn": "15833",
+    "section": "C04",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "13:00 - 15:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Jiaman WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc AI-Driven Innovation"
+    ]
+  },
+  {
+    "crn": "15834",
+    "section": "C05",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "13:00 - 15:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Jiaman WU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Data Science"
+    ]
+  }
+]

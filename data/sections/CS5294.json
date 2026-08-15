@@ -1,0 +1,71 @@
+[
+  {
+    "crn": "15405",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "111",
+    "capacity": "224",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "20:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "Qingchuan ZHAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "15406",
+    "section": "T61",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "64",
+    "capacity": "112",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "18:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7701",
+    "instructor": "Qingchuan ZHAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "15407",
+    "section": "T62",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "47",
+    "capacity": "112",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 19:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "B7701",
+    "instructor": "Qingchuan ZHAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "course_code": "CS6382",
+  "level": "research",
+  "verdict": "学术向",
+  "summary": "算法分析与博弈论，先修要求明确；有期中 quiz（较难）、final 开卷；3 个 assignment 难度渐增，题量小但有一定难度。适合有算法数学基础、偏学术的同学。",
+  "tags": ["难度较高", "算法", "博弈论", "开卷期末"],
+  "source_ids": ["overview", "cs6382_guide"],
+  "last_updated": "2026-08-13"
+}

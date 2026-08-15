@@ -1,0 +1,122 @@
+[
+  {
+    "crn": "14046",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "45",
+    "capacity": "300",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "11:00 - 12:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-1",
+    "instructor": "Man Hon Michael CHEUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "10439",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "205",
+    "capacity": "205",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 20:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-1",
+    "instructor": "Man Hon Michael CHEUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "13564",
+    "section": "CP1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "50",
+    "capacity": "50",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 20:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-1",
+    "instructor": "Man Hon Michael CHEUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  },
+  {
+    "crn": "14047",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "45",
+    "capacity": "300",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "13:00 - 13:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-1",
+    "instructor": "CS015 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "10002",
+    "section": "T61",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "205",
+    "capacity": "205",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "21:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-1",
+    "instructor": "CS015 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "13565",
+    "section": "TP1",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "50",
+    "capacity": "50",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "21:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-1",
+    "instructor": "CS015 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science"
+    ]
+  }
+]

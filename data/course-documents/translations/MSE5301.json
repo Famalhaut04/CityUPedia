@@ -1,0 +1,32 @@
+{
+  "course_code": "MSE5301",
+  "source_pdf": "docs/MSE5301.pdf",
+  "title_en": "Instrumentation for Materials Characterization",
+  "title_zh": "材料表征仪器",
+  "pages": [
+    {
+      "page": 1,
+      "text": "MSE5301：材料表征仪器\n\nMSE5301：材料表征仪器\n\n生效学期\n2025/26 学年 A 学期\n\n第一部分 课程概览\n\n课程名称\n材料表征仪器\n\n科目代码\nMSE - 材料科学与工程\n\n课程编号\n5301\n\n学术单位\n材料科学与工程（MSE）\n\n学院/学校\n工程学院（EG）\n\n课程时长\n一个学期\n\n学分\n3\n\n程度\nP5、P6 - 研究生学位\n\n授课语言\n英语\n\n评核语言\n英语\n\n先修课程\n无\n\n前置课程\n无\n\n等同课程\nAP5301 仪器分析方法与实验（旧课程）\n\n互斥课程\nAP8301 仪器分析方法与实验（旧课程）\n\n第二部分 课程详情\n\n摘要\n"
+    },
+    {
+      "page": 2,
+      "text": "本课程介绍用于表征材料结构、成分与表面性质的仪器技术的基本理论框架。课程旨在提供有关材料性质及其相应物理、仪器考量、优势与局限等方面的表征知识，帮助学生根据所需的材料结构、成分、形貌与化学信息选择合适的表征技术与仪器。课程还将为若干选定的分析技术提供实验室实际操作经验。\n\n涵盖主题：X 射线、电子与中子的产生原理与比较；X 射线、电子与中子的衍射；晶体结构表示；傅里叶分析；倒易空间；扫描探针显微镜（包括原子力显微镜与扫描隧道显微镜）；X 射线光电子能谱与 X 射线能量色散能谱；以及扫描电子显微镜。\n\n课程预期学习成果（CILO）\n\nCILO\n权重（如适用）\nDEC-A1\nDEC-A2\nDEC-A3\n\n1\n解释各种分析仪器中表征技术的理论框架。\n30\nx\nx\n\n2\n描述基于各种表征技术对结构、成分、形貌与化学信息进行定量分析的方法。\n30\nx\nx\n\n3\n解释 X 射线、电子与中子等探测源的仪器设计与产生原理。\n20\nx\nx\n\n4\n根据各种仪器的优势与局限选择合适的表征技术。\n20\nx\n\nA1：态度\n培养发现/创新/创造的态度，表现为学生具有强烈的好奇心，主动提问，挑战假设，或与教师一同开展探究。\n\nA2：能力\n培养发现/创新/创造所需的能力/技能，表现为学生具有评估想法的批判性思维技能，习得研究技能，跨学科综合知识，或将学术知识应用于现实问题。\n\nA3：成就\n通过产出/构建创造性作品/新人工制品、为现实问题提供有效解决方案或新流程，来展现发现/创新/创造的成果。\n\n学习与教学活动（LTA）\n\nLTA\n简要说明\nCILO 编号\n每周学时（如适用）\n\n1\n讲授\n学生将参加正式讲座，以了解材料表征的仪器与技术知识\n1、2、3、4\n26 小时 / 13 周\n"
+    },
+    {
+      "page": 3,
+      "text": "2\n导修\n学生将就表征技术与仪器的主题进行深入讨论，并进行作业答疑环节。\n1、2、3、4\n13 小时 / 13 周\n\n3\n实验\n学生将进行相关实验并撰写报告，以获得实践性理解\n1、2、3、4\n2 小时 / 6 周\n\n评核任务/活动（AT）\n\nAT\nCILO 编号\n权重（%）\n备注（“-”表示无）\n是否允许使用生成式人工智能？\n\n1\n实验\n1、2、3、4\n10\n-\n否\n\n2\n课后作业\n1、2、3、4\n10\n-\n否\n\n3\n期中测验与小测\n1、2、3、4\n30\n-\n否\n\n持续评核（%）\n50\n\n考试（%）\n50\n\n考试时长（小时）\n2\n\n评核准则（AR）\n\n评核任务\n实验与课后作业（适用于 2022/23 学年 A 学期之前入学，以及 2024/25 学年 A 学期及以后入学的学生）\n\n准则\n理解与解释相关材料的能力\n\n优秀\n（A+、A、A-）高\n\n良好\n（B+、B、B-）显著\n\n合格\n（C+、C、C-）中等\n\n及格\n（D）基本\n\n不及格\n（F）甚至未达到及格水平\n"
+    },
+    {
+      "page": 4,
+      "text": "评核任务\n期中测验与小测（适用于 2022/23 学年 A 学期之前入学，以及 2024/25 学年 A 学期及以后入学的学生）\n\n准则\n理解与解释相关材料的能力\n\n优秀\n（A+、A、A-）高\n\n良好\n（B+、B、B-）显著\n\n合格\n（C+、C、C-）中等\n\n及格\n（D）基本\n\n不及格\n（F）甚至未达到及格水平\n\n评核任务\n期末考试（适用于 2022/23 学年 A 学期之前入学，以及 2024/25 学年 A 学期及以后入学的学生）\n\n准则\n理解与解释相关材料的能力\n\n优秀\n（A+、A、A-）高\n\n良好\n（B+、B、B-）显著\n\n合格\n（C+、C、C-）中等\n\n及格\n（D）基本\n\n不及格\n（F）甚至未达到及格水平\n\n评核任务\n实验与课后作业（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n\n准则\n理解与解释相关材料的能力\n\n优秀\n（A+、A、A-）高\n"
+    },
+    {
+      "page": 5,
+      "text": "良好\n（B+、B）中等\n\n及格\n（B-、C+、C）基本\n\n不及格\n（F）甚至未达到及格水平\n\n评核任务\n期中测验与小测（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n\n准则\n理解与解释相关材料的能力\n\n优秀\n（A+、A、A-）高\n\n良好\n（B+、B）中等\n\n及格\n（B-、C+、C）基本\n\n不及格\n（F）甚至未达到及格水平\n\n评核任务\n期末考试（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n\n准则\n理解与解释相关材料的能力\n\n优秀\n（A+、A、A-）高\n\n良好\n（B+、B）中等\n\n及格\n（B-、C+、C）基本\n\n不及格\n（F）甚至未达到及格水平\n\n第三部分 其他信息\n\n关键词大纲\n\n- 概述 X 射线、电子与中子的探测源。\n- 晶体结构与材料成分\n"
+    },
+    {
+      "page": 6,
+      "text": "- 光学显微镜\n- 扫描电子显微镜\n- X 射线光电子能谱\n- X 射线、电子与中子的衍射技术\n- 扫描探针显微镜：扫描隧道显微镜与原子力显微镜\n- 表面技术：俄歇电子能谱\n- 表征技术的先进发展\n\n阅读清单\n\n必读书目\n\n书名\n\n1\n无\n\n补充书目\n\n书名\n\n1\n《X-Ray Diffraction for Materials Research: From Fundamentals to Applications》，Myeongkyu Lee 著（2017）\n\n2\n《Transmission Electron Microscopy: A Textbook for Materials Science》，David B. Williams、C. Barry Carter 著（2009）\n\n3\n《Transmission Electron Microscopy and Diffractometry of Materials》，Brent Fultz、James How 著（2008）\n\n4\n《Magnetic neutron diffraction》（第 1 版），Plenum Press, New York，Yurii A. Izyumov、Ruslan P. Ozerov 著（1970）\n\n5\n《A Beginners' Guide to Scanning Electron Microscopy》，Anwar UI-Hamid 著（2018）\n\n6\n《Scanning Electron Microscopy: Physics of Image Formation and Microanalysis》，Ludwig Reimer 著（1998）\n\n7\n《Auger Electron Microscopy: Practical Application to Materials Analysis and Characterization of Surface, Interfaces, and Thin Films》，John Wolstenholme 著（2015）\n\n8\n《Advanced Transmission Electron Microscopy: Imaging and Diffraction in Nanoscience》，Jian Min Zuo、John C.H. 著（2017）\n\n9\n《Scanning Probe Microscopy: Atomic Force Microscopy and Scanning Tunneling Microscopy》，Bert Voigtländer 著（2016）\n"
+    }
+  ]
+}

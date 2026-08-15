@@ -1,0 +1,105 @@
+[
+  {
+    "crn": "11151",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "83",
+    "capacity": "220",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "15:00 - 17:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "Gerhard Petrus HANCKE , Zhenliang LU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "10097",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "54",
+    "capacity": "235",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Gerhard Petrus HANCKE , Zhenliang LU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Cybersecurity",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "13297",
+    "section": "CA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "30",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "15:00 - 17:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "Gerhard Petrus HANCKE , Zhenliang LU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Data Science"
+    ]
+  },
+  {
+    "crn": "15358",
+    "section": "CA2",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "30",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Gerhard Petrus HANCKE , Zhenliang LU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Data Science"
+    ]
+  },
+  {
+    "crn": "14053",
+    "section": "CB2",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "35",
+    "capacity": "35",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Gerhard Petrus HANCKE , Zhenliang LU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Computer & Information Eng",
+      "only for Programme: MSc Computer & info Eng w/ BM",
+      "only for Programme: MSc Multimedia Info Technology",
+      "only for Programme: MSc Multimedia Info Tech w BM"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "course_code": "DSC6011",
+  "source_pdf": "docs/SDSC6011.pdf",
+  "title_en": "Optimization for Data Science",
+  "title_zh": "数据科学优化方法",
+  "pages": [
+    {
+      "page": 1,
+      "text": "SDSC6011：数据科学优化方法\n\n生效学期：2025/26 学年 A 学期\n\n第一部分 课程概览\n课程名称：数据科学优化方法\n学科代码：SDSC - 数据科学\n课程编号：6011\n开课学术单位：数据科学（DS）\n学院：计算学院（CC）\n课程时长：一学期\n学分：3\n程度：P5、P6 - 研究生学位课程\n授课语言：英语\n考核语言：英语\n先修课程：无\n预备课程：无\n同等课程：无\n互斥课程：无\n\n第二部分 课程详情\n摘要\n本课程介绍优化方法及其在数据科学中的应用，并假定学生具备微积分和线性代数的基础知识。课程将介绍优化的理论基础与基本算法（正文续见第 2 页）。"
+    },
+    {
+      "page": 2,
+      "text": "摘要（续）\n以及面向数据科学和机器学习应用中实际问题的高级优化方法。课程内容包括凸分析、拉格朗日对偶理论、线性与非线性规划、锥规划等。\n\n课程预期学习成果（CILOs）\n1. 解释优化方法及其底层数学结构。权重：20；DEC-A1：x；DEC-A2：x。\n2. 运用数学基本概念构建优化问题。权重：25；DEC-A1：x；DEC-A2：x。\n3. 推导优化模型的最优解。权重：25；DEC-A1：x；DEC-A2：x。\n4. 应用常用优化算法。权重：20；DEC-A1：x；DEC-A2：x。\n5. 编写优化程序以解决实际问题。权重：10；DEC-A1：x；DEC-A2：x；DEC-A3：x。\n\nA1 - 态度（Attitude）：培养发现、创新与创造的态度。其表现包括学生拥有强烈的好奇心、积极提问、挑战既有假设，或与教师共同开展探究。\nA2 - 能力（Ability）：培养发现、创新与创造所需的能力或技能。其表现包括学生具备评估观点的批判性思维能力、掌握研究技能、综合不同学科的知识，或将学术知识应用于现实问题。\nA3 - 成果（Accomplishments）：通过创作或构建有创意的作品与新成果、为现实问题提出有效解决方案或建立新流程，展示发现、创新与创造方面的成就。\n\n学习与教学活动（LTAs）\n1. 讲课（Lecture）\n- 简要说明：学生将学习本课程所涵盖的优化方法知识点。\n- 对应 CILO：1、2、3、4。\n- 学时：每学期 39 小时。\n\n考核任务/活动（ATs）\n1. 测验（Test）：对应 CILO 2、3、4、5；权重 40%；备注：无；允许使用生成式人工智能（GenAI）：否。\n2. 作业（Assignments）：对应 CILO 1、2、3、4；权重 20%；备注：无；允许使用 GenAI：是。\n\n持续评估：60%。\n考试：40%。\n考试时长：2 小时。"
+    },
+    {
+      "page": 3,
+      "text": "考试最低及格要求：30%。\n\n考核评分标准（AR）\n考核任务：测验（适用于 2022/23 学年 A 学期之前入学的学生，以及 2024/25 学年 A 学期及之后入学的学生）\n评分准则：40%。\n- 优秀 Excellent（A+、A、A-）：高。\n- 良好 Good（B+、B、B-）：显著。\n- 尚可 Fair（C+、C、C-）：中等。\n- 及格边缘 Marginal（D）：基本。\n- 不及格 Failure（F）：未达到及格边缘水平。\n\n考核任务：作业（适用于 2022/23 学年 A 学期之前入学的学生，以及 2024/25 学年 A 学期及之后入学的学生）\n评分准则：20%。\n- 优秀 Excellent（A+、A、A-）：高。\n- 良好 Good（B+、B、B-）：显著。\n- 尚可 Fair（C+、C、C-）：中等。\n- 及格边缘 Marginal（D）：基本。\n- 不及格 Failure（F）：未达到及格边缘水平。\n\n考核任务：考试（适用于 2022/23 学年 A 学期之前入学的学生，以及 2024/25 学年 A 学期及之后入学的学生）\n评分准则：40%。\n等级说明续见第 4 页。"
+    },
+    {
+      "page": 4,
+      "text": "考试评分标准（适用于 2022/23 学年 A 学期之前入学的学生，以及 2024/25 学年 A 学期及之后入学的学生，续）\n- 优秀 Excellent（A+、A、A-）：高。\n- 良好 Good（B+、B、B-）：显著。\n- 尚可 Fair（C+、C、C-）：中等。\n- 及格边缘 Marginal（D）：基本。\n- 不及格 Failure（F）：未达到及格边缘水平。\n\n考核任务：测验（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n评分准则：40%。\n- 优秀 Excellent（A+、A、A-）：高。\n- 良好 Good（B+、B）：显著。\n- 及格边缘 Marginal（B-、C+、C）：中等/基本。\n- 不及格 Failure（F）：未达到及格边缘水平。\n\n考核任务：作业（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n评分准则：20%。\n- 优秀 Excellent（A+、A、A-）：高。\n- 良好 Good（B+、B）：显著。\n- 及格边缘 Marginal（B-、C+、C）：中等/基本。\n- 不及格 Failure（F）：未达到及格边缘水平。"
+    },
+    {
+      "page": 5,
+      "text": "考核任务：考试（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n评分准则：40%。\n- 优秀 Excellent（A+、A、A-）：高。\n- 良好 Good（B+、B）：显著。\n- 及格边缘 Marginal（B-、C+、C）：中等/基本。\n- 不及格 Failure（F）：未达到及格边缘水平。\n\n第三部分 其他信息\n关键词教学大纲\n- 凸分析。\n- 拉格朗日对偶理论。\n- 线性规划与锥规划。\n- 非线性规划。\n- 梯度下降、次梯度下降、近端梯度下降。\n- 障碍方法。\n- 内点法。\n\n阅读清单\n必读材料\n1. Stephen Boyd and Lieven Vandenberghe，《Convex Optimization》（第 3 版），© 2004 Cambridge University Press。\n2. 讲义。\n\n补充阅读\n1. Aharon Ben-Tal, Arkadi Nemirovski，《Lectures on Modern Convex Optimization: Analysis, Algorithms, and Engineering Applications》，© 2001 SIAM Press。\n2. David G. Luenberger and Yinyu Ye，《Linear and Nonlinear Programming》（第 3 版），© 2008 Springer。"
+    }
+  ]
+}

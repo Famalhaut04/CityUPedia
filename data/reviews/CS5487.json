@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5487",
+  "level": "research",
+  "verdict": "学术向 · 难度较高",
+  "summary": "机器学习原理与实践，数学推导最多的课程之一，需概率论与线代基础，workload 极大（约 10 个 ps + 2 编程作业 + 项目 + 期中期末）；考试开卷、给分友好，被称「最值学费」。适合读博或 AI 研究，但投入大。",
+  "tags": ["难度较高", "数学推导", "作业繁重", "期末开卷", "有回放", "给分友好"],
+  "source_ids": ["cs5487_phd_eval", "cs5487_sema_eval", "cs5487_blood_1", "cs5487_ee_eval"],
+  "last_updated": "2026-08-13"
+}

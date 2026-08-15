@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5491",
+  "level": "recommended",
+  "verdict": "评价较好",
+  "summary": "人工智能，平时作业 20%、期中 20%、Project 30%、期末 30%；覆盖 Search、CSP、Optimization、MDP、强化学习、Bayesian Networks；小组 Project 用 GPT API 在 Colab 完成，给分较好。",
+  "tags": ["AI", "Search", "强化学习", "小组 Project", "给分友好"],
+  "source_ids": [],
+  "last_updated": "2026-08-13"
+}

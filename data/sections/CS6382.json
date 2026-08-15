@@ -1,0 +1,48 @@
+[
+  {
+    "crn": "13186",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "190",
+    "capacity": "190",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "15:00 - 16:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-5",
+    "instructor": "Minming LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  },
+  {
+    "crn": "13187",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "190",
+    "capacity": "190",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "17:00 - 17:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-5",
+    "instructor": "Minming LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD (joint Mainland U) in CS",
+      "only for Programme: MPhil Computer Science",
+      "only for Programme: PhD Computer Science",
+      "only for Programme: MSc Artificial Intelligence",
+      "only for Programme: MSc Computer Science",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

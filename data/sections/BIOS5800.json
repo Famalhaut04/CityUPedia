@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "12974",
+    "section": "CP1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Wen SU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Health Sci & Biomedicine"
+    ]
+  }
+]

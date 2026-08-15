@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5188",
+  "level": "caution",
+  "verdict": "谨慎选择",
+  "summary": "虚拟现实，VR 方向用 UE5，可能需借 Oculus Rift/HoloLens；期中 20%、Project 30%、期末 50%，期末不考数学、闭卷但难度不高；与 CS5182 部分重叠。",
+  "tags": ["VR", "UE5", "Project", "闭卷"],
+  "source_ids": [],
+  "last_updated": "2026-08-13"
+}

@@ -1,0 +1,36 @@
+{
+  "course_code": "CS6290",
+  "source_pdf": "docs/CS6290.pdf",
+  "title_en": "Privacy-enhancing Technologies",
+  "title_zh": "隐私增强技术",
+  "pages": [
+    {
+      "page": 1,
+      "text": "CS6290：隐私增强技术\n\n生效学期：2025/26 学年 A 学期\n\n第一部分 课程概览\n课程名称：隐私增强技术\n学科代码：CS - 计算机科学\n课程编号：6290\n开课学术单位：计算机科学（CS）\n学院：计算学院（CC）\n课程时长：一学期\n学分：3\n程度：P5、P6 - 研究生学位课程\n授课语言：英语\n考核语言：英语\n先修课程：CS5285 电子商务信息安全（Information Security for eCommerce）\n预备课程：无\n同等课程：无\n互斥课程：无\n\n第二部分 课程详情\n摘要\n在当今数字化世界中，大量含有敏感个人信息的数据正被持续收集，例如医疗系统中的电子健康记录，以及无处不在的移动应用中的位置数据。我们如何（正文续见第 2 页）"
+    },
+    {
+      "page": 2,
+      "text": "摘要（续）\n保证所收集的用户数据不被滥用、隐私政策不被违反？如何在实现有效数据共享和利用的同时保护用户隐私？当服务器并非完全可信时，我们又如何在尊重用户隐私的同时继续提供理想的服务？\n\n本课程旨在向学生介绍信息安全与隐私领域新兴技术的高级概念和最新进展。课程主题会根据最新趋势和学生兴趣作出调整。示例主题包括但不限于云安全、加密货币和去中心化账本技术、机器学习与安全、数据匿名化，以及加密数据库。学习活动包括讲课、小组项目、案例研究和导修课。\n\n课程预期学习成果（CILOs）\n1. 识别并分析现代应用中的常见隐私问题，并提出应对措施。权重：20；DEC-A1：x；DEC-A2：x。\n2. 解释隐私增强机制的概念与设计原则，并评估其优点。权重：20；DEC-A1：x；DEC-A2：x。\n3. 描述并分析在真实世界环境中应用隐私增强技术的指导原则。权重：20；DEC-A1：x；DEC-A2：x；DEC-A3：x。\n4. 讨论不同隐私增强设计的约束，并找出弥补其不足的方向。权重：20；DEC-A1：x；DEC-A2：x。\n5. 通过书面报告和口头演示，分析并评估隐私增强设计的有效性。权重：20；DEC-A1：x；DEC-A2：x；DEC-A3：x。\n\nA1 - 态度（Attitude）：培养发现、创新与创造的态度。其表现包括学生拥有强烈的好奇心、积极提问、挑战既有假设，或与教师共同开展探究。\nA2 - 能力（Ability）：培养发现、创新与创造所需的能力或技能。其表现包括学生具备评估观点的批判性思维能力、掌握研究技能、综合不同学科的知识，或将学术知识应用于现实问题。\nA3 - 成果（Accomplishments）：通过创作或构建有创意的作品与新成果、为现实问题提出有效解决方案或建立新流程，展示发现、创新与创造方面的成就。\n\n学习与教学活动（LTAs）\n1. 讲课（Lectures）\n- 简要说明：学生将通过案例研究识别数字化世界中的安全与隐私问题，并探索能够支持隐私保障型应用的应对措施。\n- 对应 CILO：1、2、3、4、5。\n- 学时：2 小时。"
+    },
+    {
+      "page": 3,
+      "text": "学习与教学活动（LTAs，续）\n2. 研讨课（Seminars）\n- 简要说明：学生将讨论并澄清各知识点的概念，进一步深入理解相关设计原则，随后开展评论与讨论。\n- 对应 CILO：2、5。\n- 学时：2 小时。\n\n3. 导修课（Tutorials）\n- 简要说明：学生将在导修课中处理给定的具体案例或带有问题的指定阅读材料，以加强对讲课内容的理解。\n- 对应 CILO：3、4。\n- 学时：1 小时。\n\n4. 课程项目（Course Project）\n- 简要说明：学生将参与课程项目，跟进最先进的主题，从而拓展并深化知识。\n- 对应 CILO：1、2、3、4、5。\n- 学时：原文件未注明。\n\n考核任务/活动（ATs）\n1. 作业（Assignments）\n- 对应 CILO：1、2、3、4、5。\n- 权重：40%。\n- 说明：将布置个人作业，内容可能包括技术问题，和/或就本课程涵盖的安全与隐私主题开展研究并撰写短报告。\n- 允许使用生成式人工智能（GenAI）：是。"
+    },
+    {
+      "page": 4,
+      "text": "考核任务/活动（ATs，续）\n2. 项目，包括书面报告与演示（Project with written report and presentation）\n- 对应 CILO：1、2、3、4、5。\n- 权重：20%。\n- 说明：学生将在课程负责人的指导下，对与本课程相关的技术进行批判性、深入的研究并汇报发现。可能的成果包括软件原型、内容充实的案例研究，或具有理论价值的技术报告。\n- 允许使用生成式人工智能（GenAI）：是。\n\n持续评估：60%。\n考试：40%。\n考试时长：2 小时。\n考试最低及格要求：30%。\n\n考核任务补充信息\n学生若要通过本课程，考试所得分数必须至少达到考试最高分的 30%。\n\n考核评分标准（AR）\n考核任务：作业（适用于 2022/23 学年 A 学期之前入学的学生，以及 2024/25 学年 A 学期及之后入学的学生）\n评分准则：识别当今技术中的各种隐私风险，并指出相应对策的能力。\n- 优秀 Excellent（A+、A、A-）：充分展现分析与综合能力。\n- 良好 Good（B+、B、B-）：展现分析与综合能力。\n- 尚可 Fair（C+、C、C-）：能够分析并解决材料中的简单问题。\n- 及格边缘 Marginal（D）：熟悉课程内容。\n- 不及格 Failure（F）：几乎没有证据表明其熟悉课程内容。"
+    },
+    {
+      "page": 5,
+      "text": "考核评分标准（AR，续）\n\n考核任务：项目（适用于 2022/23 学年 A 学期之前入学的学生，以及 2024/25 学年 A 学期及之后入学的学生）\n评分准则：就隐私增强主题开展批判性、实质性研究的能力。\n- 优秀 Excellent（A+、A、A-）：充分展现原创思维；组织良好；具备广泛的知识基础。\n- 良好 Good（B+、B、B-）：展现对文献的熟悉、批判能力和分析能力。\n- 尚可 Fair（C+、C、C-）：有限地展现对文献的熟悉、批判能力和分析能力。\n- 及格边缘 Marginal（D）：熟悉项目主题。\n- 不及格 Failure（F）：批判和分析技能薄弱；对文献的使用有限或不相关。\n\n考核任务：考试（适用于 2022/23 学年 A 学期之前入学的学生，以及 2024/25 学年 A 学期及之后入学的学生）\n评分准则：描述并分析隐私增强技术方法，并评估隐私、性能与效用之间权衡的能力。\n- 优秀 Excellent（A+、A、A-）：充分展现对课程内容的掌握与对相关问题的理解。\n- 良好 Good（B+、B、B-）：展现对课程内容的掌握与对相关问题的理解。\n- 尚可 Fair（C+、C、C-）：有限地展现对课程内容的掌握与对相关问题的理解。\n- 及格边缘 Marginal（D）：熟悉课程内容。\n- 不及格 Failure（F）：几乎没有证据表明其掌握课程内容。\n\n考核任务：作业（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n评分准则：识别当今技术中的各种隐私风险，并指出相应对策的能力。\n优秀等级说明续见第 6 页。"
+    },
+    {
+      "page": 6,
+      "text": "作业评分标准（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生，续）\n- 优秀 Excellent（A+、A、A-）：充分展现分析与综合能力。\n- 良好 Good（B+、B）：展现分析与综合能力。\n- 及格边缘 Marginal（B-、C+、C）：分析和解决材料中简单问题的能力有限。\n- 不及格 Failure（F）：未达到及格边缘水平。\n\n考核任务：项目（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n评分准则：就隐私增强主题开展批判性、实质性研究的能力。\n- 优秀 Excellent（A+、A、A-）：充分展现原创思维；组织良好；具备广泛的知识基础。\n- 良好 Good（B+、B）：展现对文献的熟悉、批判能力和分析能力。\n- 及格边缘 Marginal（B-、C+、C）：有限地展现对文献的熟悉、批判能力和分析能力。\n- 不及格 Failure（F）：未达到及格边缘水平。\n\n考核任务：考试（适用于 2022/23 学年 A 学期至 2024 年夏季学期入学的学生）\n评分准则：描述并分析隐私增强技术方法，并评估隐私、性能与效用之间权衡的能力。\n- 优秀 Excellent（A+、A、A-）：充分展现对课程内容的掌握与对相关问题的理解。\n- 良好 Good（B+、B）：展现对课程内容的掌握与对相关问题的理解。\n- 及格边缘 Marginal（B-、C+、C）：有限地展现对课程内容的掌握与对相关问题的理解。\n- 不及格 Failure（F）：未达到及格边缘水平。"
+    },
+    {
+      "page": 7,
+      "text": "第三部分 其他信息\n关键词教学大纲\n课程主题将根据最新趋势和学生兴趣选择。可能的主题包括：云安全、加密数据搜索、加密货币与区块链、机器学习与安全、数据匿名化与去匿名化技术、不经意远程存储（oblivious remote storage）、加密数据库。其他主题还可能包括移动计算中的隐私问题、网页追踪、定向广告和社交网络。\n\n阅读清单\n必读材料\n1. Ari Juels and Alina Oprea, “New Approaches to Security and Availability for Cloud Data,” Communications of the ACM, Vol. 56 No. 2, Pages 64-73, 2013.\n2. Raluca Ada Popa and Nickolai Zeldovich, “How to Compute With Data You Can’t See,” IEEE Spectrum, July 23, 2015.\n3. Dawn Song, Elaine Shi, Ian Fischer, Umesh Shankar, “Cloud Data Protection for the Masses,” IEEE Computer, vol. 45, no. 1, page(s): 39-45, January 2012.\n4. Joseph Bonneau, Andrew Miller, Jeremy Clark, Arvind Narayanan, Joshua A. Kroll, Edward W. Felten, “SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies,” in Proc. of IEEE Symposium on Security and Privacy, 2015.\n5. Benjamin Fuller, Mayank Varia, Arkady Yerukhimovich, Emily Shen, Ariel Hamlin, Vijay Gadepally, Richard Shay, John Darby Mitchell, Robert K. Cunningham, “SoK: Cryptographically Protected Database Search,” in Proc. of IEEE Symposium on Security and Privacy, 2017.\n6. Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, Steven Goldfeder, “Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction Hardcover,” Princeton University Press, July 19, 2016.\n7. 必要时将进一步提供选自 IEEE/ACM 杂志、期刊和会议论文集的文章。\n\n补充阅读\n1. Kui Ren, Cong Wang, and Qian Wang, “Security challenges for the public cloud,” IEEE Internet Computing, vol. 16, no. 1, 2012.\n2. Cong Wang, Kui Ren, Wenjing Lou, and Jin Li, “Toward publicly auditable secure cloud data storage services,” IEEE Network, vol. 24, no. 4, 2010.\n3. 必要时将进一步提供选自 IEEE/ACM 杂志、期刊和会议论文集的文章。"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "12946",
+    "section": "SP1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "30",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Woon Kwan Daniel TSE",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

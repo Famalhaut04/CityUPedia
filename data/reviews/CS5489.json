@@ -1,0 +1,9 @@
+{
+  "course_code": "CS5489",
+  "level": "research",
+  "verdict": "学术向",
+  "summary": "机器学习算法与应用，覆盖广、偏应用但工作量大；分数构成含 tutorial、assignment、midterm、final、project，作业频繁、考试较难；适合准备科研或想系统学 ML 的同学。",
+  "tags": ["难度较高", "工作量较大", "有回放", "ML/DL"],
+  "source_ids": ["overview", "cs5489_guide", "cs_ec_sema_review_2"],
+  "last_updated": "2026-08-13"
+}

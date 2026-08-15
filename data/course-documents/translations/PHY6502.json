@@ -1,0 +1,28 @@
+{
+  "course_code": "PHY6502",
+  "source_pdf": "docs/PHY6502.pdf",
+  "title_en": "Advanced Computational Methods for Simulation and Modelling",
+  "title_zh": "模拟与建模高级计算方法",
+  "pages": [
+    {
+      "page": 1,
+      "text": "PHY6502：模拟与建模高级计算方法\n\n生效学期：2026/27 学年 A 学期\n\n第一部分 课程概览\n课程名称：模拟与建模高级计算方法\n学科代码：PHY - 物理学\n课程编号：6502\n开课学术单位：物理学系（PHY）\n学院／学校：理学院（SI）\n课程时长：一学期\n学分：3\n级别：P5、P6 - 研究生学位课程\n授课语言：英语\n考核语言：英语\n先修课程：无\n前置课程（Precursors）：无\n等同课程：AP6172 多学科科学中的模拟与建模\n互斥课程：AP8172 多学科科学中的模拟与建模；PHY8502 模拟与建模高级计算方法"
+    },
+    {
+      "page": 2,
+      "text": "第二部分 课程详情\n课程简介\n本课程涵盖涉及模拟与建模的多学科科学中的一系列主题和方法。其核心目标是：（1）描述基本理论及其数值计算；（2）介绍可用于解决多学科科学问题的现有软件；以及（3）引导来自材料科学、物理学、化学、生命科学和金融领域的学生开展以发现为导向的多学科项目，例如新材料设计、新物理探索、DNA 修复、药物设计或金融市场预测。\n\n课程预期学习成果（CILOs）\n1. 认识模拟与建模在多学科科学中的重要性。权重：10%；DEC-A1：是。\n2. 使用模拟与建模工具演示多学科科学中的若干问题。权重：20%；DEC-A1：是。\n3. 识别决定模拟与建模质量和可靠性的关键变量。权重：10%；DEC-A1：是。\n4. 应用基本模拟与建模工具解决以下领域之一的简单问题：材料科学、物理学、化学、生命科学和金融。权重：25%；DEC-A1：是。\n5. 将基本概念、理论和工具应用于学生本学科中以发现为导向的项目，例如新材料设计、新物理探索、DNA 修复、药物设计、金融市场预测等。权重：25%；DEC-A1：是。\n6. 识别相关领域的最新发展，就具体问题形成观点，并展示独立解决问题的能力。权重：10%；DEC-A1：是。\n\nA1 态度：培养探索、创新与创造的态度；其表现包括具备强烈好奇心、主动提问、挑战假设，或与教师共同开展探究。\nA2 能力：培养探索、创新与创造所需的能力或技能；其表现包括运用批判性思维评估观点、掌握研究技能、跨学科综合知识，或把学术知识应用于现实问题。\nA3 成果：通过创作或构建有创意的作品或新成果、为现实问题提出有效解决方案，或形成新流程，展示探索、创新与创造方面的成就。\n\n学习与教学活动（LTAs）"
+    },
+    {
+      "page": 3,
+      "text": "学习与教学活动（LTAs）\n1. 讲课（Lectures）：对应 CILO：1、2、3、4。14 小时／7 周（第 1-7 周）。\n2. 辅导课（Tutorials）：对应 CILO：1、2、3、4。6 小时／6 周（第 2-7 周）。\n3. 项目（Projects）：对应 CILO：5、6。21 小时／6 周（最后 6 周）。\n\n考核任务／活动（ATs）\n1. 作业（Assignments）：对应 CILO：1、2、3、4。权重：20%。备注：用于表现评估目的。是否允许使用 GenAI：是。\n2. 期中测验（Mid-term Test）：对应 CILO：1、2、3、4。权重：30%。备注：用于表现评估目的（第 7 周）。是否允许使用 GenAI：否。\n3. 项目（Project）：对应 CILO：5、6。权重：50%。备注：含项目报告与展示。是否允许使用 GenAI：否。\n\n持续评估（%）：100\n\n考核评分准则（AR）\n考核任务：作业\n标准：学生完成所有考核任务／活动，且作品展示出对科学原理和工作机制的出色理解。\n\n优秀（A+、A、A-）- 高水平（表现优异，具有创造力且理解正确）\n良好（B+、B、B-）- 显著水平（表现良好，理解大体正确）\n尚可（C+、C、C-）- 中等水平（表现尚可，理解部分正确）\n仅达边缘（D）- 基础水平（达到基本要求且具备基本理解）\n不及格（F）- 未达到边缘水平\n\n考核任务：期中测验\n标准：学生能够全面识别并解释这些原理如何应用于科学与技术，以解决多学科科学问题。"
+    },
+    {
+      "page": 4,
+      "text": "优秀（A+、A、A-）- 高水平（表现优异，具有创造力且理解正确）\n良好（B+、B、B-）- 显著水平（表现良好，理解大体正确）\n尚可（C+、C、C-）- 中等水平（表现尚可，理解部分正确）\n仅达边缘（D）- 基础水平（达到基本要求且具备基本理解）\n不及格（F）- 未达到边缘水平\n\n考核任务：项目\n标准：学生的作品显示出原创思维的强有力证据，并以除授课材料之外的各种有据可查的信息来源为支撑。学生能够通过书面文本和／或口头报告有效且有说服力地传达想法。\n\n优秀（A+、A、A-）- 高水平（表现优异，具有创造力且理解正确）\n良好（B+、B、B-）- 显著水平（表现良好，理解大体正确）\n尚可（C+、C、C-）- 中等水平（表现尚可，理解部分正确）\n仅达边缘（D）- 基础水平（达到基本要求且具备基本理解）\n不及格（F）- 未达到边缘水平\n\n第三部分 其他信息\n关键词大纲\n• 导论：计算方法与工具的进展；在材料科学、物理学、化学、生命科学和金融等多学科领域的计算机辅助设计与模拟。\n• 蒙特卡罗方法：历史；应用领域；在数学中的用途；蒙特卡罗与随机数。\n• 分子动力学模拟：应用领域；设计约束；势能；分子动力学算法。\n• 数值优化方法：共轭梯度法；模拟退火；遗传算法。"
+    },
+    {
+      "page": 5,
+      "text": "• 机器学习方法：监督学习；无监督学习；强化学习。\n• 项目：以发现为导向的多学科项目，例如新材料设计、新物理探索、DNA 修复、药物设计或金融市场预测。\n\n阅读书目\n必读书目\n1. \"Monte Carlo method\"，http://en.wikipedia.org/wiki/Monte_Carlo_method\n2. \"Molecular dynamics\"，http://en.wikipedia.org/wiki/Molecular_dynamics\n3. \"Mathematical optimization\"，http://en.wikipedia.org/wiki/Mathematical_optimization\n4. \"Finite element method\"，https://en.wikipedia.org/wiki/Finite_element_method\n5. \"Finite difference Methods\"，https://en.wikipedia.org/wiki/Finite_difference_method\n\n补充阅读书目\n1. K. Binder、D. W. Heermann，《统计物理学中的蒙特卡罗模拟：导论》（Monte Carlo Simulation in Statistical Physics: An Introduction），Berlin：Springer-Verlag，1988。（C0092255）\n2. Daan Frenkel、Berend Smit，《理解分子模拟：从算法到应用》（Understanding Molecular Simulation: From Algorithms to Applications），San Diego：Academic Press，1996。（QD461 .F86 1996）\n3. Alexander K. Hartmann、Heiko Rieger，《物理学中的优化算法》（Optimization Algorithms in Physics），Berlin：Wiley-VCH，2002。（QC20.7.C58 H37 2002）\n4. David P. Landau、Kurt Binder，《统计物理学蒙特卡罗模拟指南》（A Guide to Monte Carlo Simulations in Statistical Physics），Cambridge, UK；New York：Cambridge University Press，2005。（QC174.85.M64 L36 2005）\n5. Kurt Binder，《聚合物科学中的蒙特卡罗与分子动力学模拟》（Monte Carlo and Molecular Dynamics Simulations in Polymer Science [electronic resource]），New York：Oxford University Press，1995。（QD381.9.E4 M66 1995eb）\n6. 《有限元方法：MATLAB、MAPLE 和 COMSOL 的基本概念与应用》（The Finite Element Method: Basic Concepts and Applications with MATLAB, MAPLE, and COMSOL），D. W. Pepper、J. C. Heinrich，CRC Press，2017。\n7. 《常微分方程与偏微分方程的有限差分方法：稳态与时变问题》（Finite Difference Methods for Ordinary and Partial Differential Equations: Steady-State and Time-Dependent Problems），R. LeVeque，SIAM，2007。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "crn":  "15357",
+        "section":  "CA1",
+        "credits":  3,
+        "web":  "Y",
+        "available":  "20",
+        "capacity":  "20",
+        "date":  "11/01/2027 - 17/04/2027",
+        "day":  "W",
+        "time":  "11:00 - 12:50",
+        "building":  "YEUNG",
+        "room":  "LT-2",
+        "instructor":  "SONG Linqi, MA Chen",
+        "medium":  "English",
+        "notes":  [
+
+                  ]
+    },
+    {
+        "crn":  "12006",
+        "section":  "CP1",
+        "credits":  3,
+        "web":  "Y",
+        "available":  "20",
+        "capacity":  "20",
+        "date":  "11/01/2027 - 17/04/2027",
+        "day":  "W",
+        "time":  "19:00 - 20:50",
+        "building":  "LI",
+        "room":  "3505",
+        "instructor":  "SONG Linqi, MA Chen",
+        "medium":  "English",
+        "notes":  [
+
+                  ]
+    }
+]

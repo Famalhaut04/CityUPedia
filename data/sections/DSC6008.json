@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15420",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "38",
+    "capacity": "250",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "DS002 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc AI for Sciences"
+    ]
+  },
+  {
+    "crn": "15799",
+    "section": "C62",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "50",
+    "capacity": "50",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "DS002 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Data Science"
+    ]
+  }
+]

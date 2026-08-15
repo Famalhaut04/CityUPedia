@@ -1,0 +1,9 @@
+{
+  "course_code": "IS6400",
+  "level": "good",
+  "verdict": "机器学习入门友好",
+  "summary": "以商业数据处理流程串联 ML，数学代码门槛不高，tutorial、每周练习和项目对零基础友好；与 CS5489 内容重合较多。",
+  "tags": ["机器学习入门", "手把手 tutorial", "小组项目", "期末 cheat paper"],
+  "source_ids": ["overview", "is6400_review"],
+  "last_updated": "2026-08-13"
+}
