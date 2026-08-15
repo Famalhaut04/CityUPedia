@@ -12,7 +12,7 @@ CityU Pedia（城大课程百科）是一个为**香港城市大学（CityU）�
 
 ## 在线访问
 
-**https://Famalhaut04.github.io/Cityu-course-selection/**
+**https://famalhaut04.github.io/CityUPedia/**
 
 ## 测试版 4.5 更新内容
 
@@ -160,7 +160,7 @@ CityU Pedia（城大课程百科）是一个为**香港城市大学（CityU）�
 
 ```powershell
 git clone https://github.com/Famalhaut04/CityUPedia.git
-cd Cityu-course-selection
+cd CityUPedia
 python -m http.server 8090
 ```
 
