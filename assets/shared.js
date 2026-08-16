@@ -1039,7 +1039,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-update-notice-v47") === "dismissed") return;
+      if (localStorage.getItem("cityu-update-notice-pdffix") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1047,13 +1047,13 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "CityU Pedia updated to v4.7" : "CityU Pedia 已更新至 v4.7") + '</strong>' +
-        '<span>' + (isEn ? "Complete MSCS curriculum (41 courses) · Summer term support added" : "补全 MSCS 全部课程（41 门）· 新增 Summer 暑期学期支持") + '</span>' +
+        '<strong>' + (isEn ? "Mobile PDF display issue fixed" : "移动端 PDF 显示问题已修复") + '</strong>' +
+        '<span>' + (isEn ? "Some course PDFs appeared blank on mobile after download — now they display correctly." : "修复了部分课程 PDF 在手机端下载后白屏无法正常显示的问题，现可正常查看。") + '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-update-notice-v47", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-update-notice-pdffix", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }
