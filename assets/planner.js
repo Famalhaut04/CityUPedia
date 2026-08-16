@@ -724,14 +724,20 @@
     const pdfBytes = jpegImageToPdf(jpegBase64, canvas.width, canvas.height);
 
     const blob = new Blob([pdfBytes], { type: "application/pdf" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = `cityu-timetable-${activeProgramme}-${activeSemester}-${new Date().toISOString().slice(0, 10)}.pdf`;
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    const fileName = `cityu-timetable-${activeProgramme}-${activeSemester}-${new Date().toISOString().slice(0, 10)}.pdf`;
+    const file = new File([blob], fileName, { type: "application/pdf" });
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      navigator.share({ files: [file], title: "CityU 课表 PDF" }).catch(() => {});
+    } else {
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 10000);
+    }
     MSDS.showToast("已导出课表 PDF（图片型）");
   }
 
@@ -779,7 +785,6 @@
       offsets[i] = pos;
       write(enc(`${i} 0 obj\n`));
       write(enc(objects[i]));
-      write(enc("\n"));
       if (i === 5) {
         write(imgData);
         write(enc("\nendstream"));

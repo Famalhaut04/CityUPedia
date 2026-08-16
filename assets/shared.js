@@ -1039,7 +1039,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-update-notice-pdffix") === "dismissed") return;
+      if (localStorage.getItem("cityu-update-notice-pdffix2") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1048,12 +1048,12 @@
     notice.innerHTML =
       '<div class="update-notice-body">' +
         '<strong>' + (isEn ? "Mobile PDF display issue fixed" : "移动端 PDF 显示问题已修复") + '</strong>' +
-        '<span>' + (isEn ? "Some course PDFs appeared blank on mobile after download — now they display correctly." : "修复了部分课程 PDF 在手机端下载后白屏无法正常显示的问题，现可正常查看。") + '</span>' +
+        '<span>' + (isEn ? "Fixed blank PDFs on mobile: course document PDFs and exported timetable PDFs now display correctly after download." : "修复了课程 PDF 与排课台导出 PDF 在手机端下载后白屏无法查看的问题，现均可正常打开。") + '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-update-notice-pdffix", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-update-notice-pdffix2", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }
