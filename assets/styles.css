@@ -1203,10 +1203,26 @@ body {
 }
 
 .rating-stars {
+  position: relative;
+  display: inline-block;
   color: #f59e0b;
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 1;
+  white-space: nowrap;
+}
+
+/* 底层空心星决定整体宽度，上层实心星按评分百分比裁切，半星不依赖特殊字符 */
+.rating-stars-empty {
+  color: rgba(245, 158, 11, 0.28);
+}
+
+.rating-stars-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: #f59e0b;
 }
 
 .rating-score {
@@ -3109,6 +3125,11 @@ body {
   white-space: pre-line;
 }
 
+.source-review > p.source-review-pending {
+  color: var(--faint);
+  font-style: italic;
+}
+
 .source-notice,
 .source-empty {
   margin-top: 14px;
@@ -3659,14 +3680,38 @@ body {
     flex: none;
   }
 
+  /* 窄屏下工具栏改为换行布局：原先左侧摘要挤占全部宽度，
+     右侧「冲突状态 / 导出 PDF / 清空」被压成 55px 并溢出到屏幕外 */
   .timetable-toolbar {
     align-items: flex-start;
+    flex-wrap: wrap;
     padding: 14px;
   }
 
+  .timetable-toolbar > *:first-child {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
   .toolbar-actions {
-    align-items: flex-end;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .toolbar-actions > * {
+    white-space: nowrap;
+  }
+
+  .semester-switch {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .semester-switch button {
+    padding: 0 10px;
+    white-space: nowrap;
   }
 
   .course-detail {
@@ -3761,7 +3806,6 @@ body {
   }
 
   .conflict-status {
-    max-width: 104px;
     text-align: center;
   }
 

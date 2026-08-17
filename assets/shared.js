@@ -743,17 +743,15 @@
   }
 
   // 渲染星级口碑分（含分数与来源数）
+  // 半星用「实心星叠加在空心星上并按百分比裁切」实现：早期版本用 ⯨（U+2BE8）表示半星，
+  // 但该字符不在常见中英文字体内，Chrome / Safari 上会渲染成方框「豆腐块」。
   function ratingStars(rec, options = {}) {
     const score = ratingFor(rec);
     if (score == null) return "";
-    const full = Math.floor(score);
-    const half = score - full >= 0.25 && score - full < 0.75;
-    const empty = 5 - full - (half ? 1 : 0);
-    const stars =
-      "★".repeat(full) + (half ? "⯨" : "") + "☆".repeat(empty);
+    const percent = Math.max(0, Math.min(100, (score / 5) * 100));
     const count = rec?.source_ids?.length || rec?.sourceIds?.length || 0;
     const meta = options.withMeta === false ? "" : `<span class="rating-meta">${count ? `${count} 条评价来源` : "学生评价"}</span>`;
-    return `<span class="rating-line" aria-label="口碑评分 ${score} 分（满分 5 分）"><span class="rating-stars" aria-hidden="true">${stars}</span><strong class="rating-score">${score.toFixed(1)}</strong>${meta}</span>`;
+    return `<span class="rating-line" aria-label="口碑评分 ${score} 分（满分 5 分）"><span class="rating-stars" aria-hidden="true"><span class="rating-stars-empty">★★★★★</span><span class="rating-stars-fill" style="width:${percent}%">★★★★★</span></span><strong class="rating-score">${score.toFixed(1)}</strong>${meta}</span>`;
   }
 
   // ==================== 语言切换 ====================
