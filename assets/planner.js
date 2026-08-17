@@ -149,14 +149,16 @@
       const available = programme.data_ready !== false
         && courses.some((course) => MSDS.courseProgrammes(course, data).includes(programme.code));
       const active = programme.code === activeProgramme;
+      // 保留原始文本供 textContent 使用，写进 title 属性时再转义，
+      // 否则 hints[0] 进 textContent 会把 & < > 显示成 &amp; &lt; &gt;
       const hint = available
-        ? `${MSDS.escapeHtml(programme.name_zh)}（${MSDS.escapeHtml(programme.name_en)}）`
-        : `${MSDS.escapeHtml(programme.name_zh)}：课程数据待补充`;
+        ? `${programme.name_zh}（${programme.name_en}）`
+        : `${programme.name_zh}：课程数据待补充`;
       if (active) hints.push(hint);
       if (!available) {
         return `<span class="programme-pill is-pending" role="tab" aria-selected="false" title="课程数据待补充，敬请期待">${MSDS.escapeHtml(programme.code)}<small>筹备中</small></span>`;
       }
-      return `<button class="programme-pill ${active ? "active" : ""}" type="button" role="tab" aria-selected="${active ? "true" : "false"}" data-programme="${MSDS.escapeHtml(programme.code)}" title="${hint}">${MSDS.escapeHtml(programme.code)}<small>${MSDS.escapeHtml(programme.name_zh.replace(/硕士$/, ""))}</small></button>`;
+      return `<button class="programme-pill ${active ? "active" : ""}" type="button" role="tab" aria-selected="${active ? "true" : "false"}" data-programme="${MSDS.escapeHtml(programme.code)}" title="${MSDS.escapeHtml(hint)}">${MSDS.escapeHtml(programme.code)}<small>${MSDS.escapeHtml(programme.name_zh.replace(/硕士$/, ""))}</small></button>`;
     }).join("");
     const hint = document.getElementById("programme-bar-hint");
     if (hint) hint.textContent = hints[0] || "";

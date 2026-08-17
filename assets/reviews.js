@@ -159,6 +159,17 @@
     if (a) a.textContent = stats.avg ? stats.avg.toFixed(1) : "—";
   }
 
+  // 三个统计项统一描述“当前列出的课程”：此前课程总数是全站数字，
+  // 而评价总数/平均分只统计当前院系，切换院系时两者对不上。
+  function applyStats(courses, grouped) {
+    const rows = courses.flatMap((course) => grouped[String(course.code)] || []);
+    const sum = rows.reduce((total, row) => total + (Number(row.rating) || 0), 0);
+    stats.courses = courses.length;
+    stats.reviews = rows.length;
+    stats.avg = rows.length ? sum / rows.length : 0;
+    refreshStats();
+  }
+
   // 加载某院系课程列表 + 批量云端评价
   function loadDepartment(dept, force) {
     const courses = currentCourses;
@@ -166,21 +177,18 @@
     if (!container) return;
     if (!MSDS.cloudReviewsEnabled()) {
       renderCourseList(courses, {});
+      applyStats(courses, {});
       return;
     }
     container.innerHTML = `<div class="cloud-reviews-loading">${MSDS.escapeHtml(t("reviews.loading"))}</div>`;
     MSDS.fetchCloudReviewsBatch(courses.map((c) => c.code))
       .then((grouped) => {
         renderCourseList(courses, grouped);
-        // 更新评价总数与全站平均分统计
-        const all = Object.values(grouped).reduce((s, rows) => s + rows.length, 0);
-        const sum = Object.values(grouped).reduce((s, rows) => s + rows.reduce((x, row) => x + (Number(row.rating) || 0), 0), 0);
-        stats.reviews = all;
-        stats.avg = all ? sum / all : 0;
-        refreshStats();
+        applyStats(courses, grouped);
       })
       .catch(() => {
         renderCourseList(courses, {});
+        applyStats(courses, {});
       });
   }
 
@@ -209,19 +217,31 @@
     );
     if (!matched.length) {
       empty.hidden = false;
-      empty.textContent = `未找到与「${MSDS.escapeHtml(query)}」匹配的课程`;
+      // textContent 已经不会解析 HTML，再转义会让 & < > 等字符原样显示成实体
+      empty.textContent = `未找到与「${query}」匹配的课程`;
       container.innerHTML = "";
+      stats.courses = 0;
+      stats.reviews = 0;
+      stats.avg = 0;
+      refreshStats();
       return;
     }
     empty.hidden = true;
     if (!MSDS.cloudReviewsEnabled()) {
       renderCourseList(matched, {});
+      applyStats(matched, {});
       return;
     }
     container.innerHTML = `<div class="cloud-reviews-loading">${MSDS.escapeHtml(t("reviews.loading"))}</div>`;
     MSDS.fetchCloudReviewsBatch(matched.map((c) => c.code))
-      .then((grouped) => renderCourseList(matched, grouped))
-      .catch(() => renderCourseList(matched, {}));
+      .then((grouped) => {
+        renderCourseList(matched, grouped);
+        applyStats(matched, grouped);
+      })
+      .catch(() => {
+        renderCourseList(matched, {});
+        applyStats(matched, {});
+      });
   }
 
   // ============ 初始化 ============
@@ -237,8 +257,6 @@
       allData = data;
       allCourses = data.courses || [];
       const hierarchy = buildHierarchy(data);
-      stats.courses = (data.courses || []).length;
-      refreshStats();
 
       fillCollegeSelect(hierarchy);
       const collegeSelect = document.getElementById("college-select");
