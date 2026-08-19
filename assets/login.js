@@ -18,9 +18,11 @@
   }
 
   // 登录成功后的跳转目标（支持 ?next=xxx 回跳）
+  // 只允许回跳到站内白名单页面；页面名后必须紧跟 ? # 或结束，
+  // 避免 next=index.html.example.com/... 这类拼接串被当成合法回跳目标
   function getNextUrl() {
     const next = new URLSearchParams(window.location.search).get("next");
-    if (next && /^(course|reviews|index|about|feedback)\.html/.test(next)) {
+    if (next && /^(course|reviews|index|about|feedback)\.html([?#][^\s]*)?$/.test(next)) {
       return next;
     }
     return "reviews.html";

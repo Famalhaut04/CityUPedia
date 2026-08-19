@@ -31,9 +31,11 @@
       return {
         ...source,
         id,
-        review: sourceReviewStore[id]?.course_reviews?.[course.code] || ""
+        review: String(sourceReviewStore[id]?.course_reviews?.[course.code] || "").trim()
       };
     }).filter(Boolean);
+    // 有原文摘录的来源排在前面：部分来源尚未逐课整理原文，此时只展示标题与原文链接
+    sources.sort((a, b) => Number(Boolean(b.review)) - Number(Boolean(a.review)));
     const currentProgramme = MSDS.getStoredProgramme() || MSDS.DEFAULT_PROGRAMME;
     const courseProgrammes = MSDS.courseProgrammes(course, data);
     const belongsToCurrent = courseProgrammes.includes(currentProgramme);
@@ -115,7 +117,7 @@
               <textarea id="my-review-comment" class="my-review-comment" rows="4" maxlength="500" placeholder="写下你的课程感受、上课体验或避坑建议…">${myReview ? MSDS.escapeHtml(myReview.comment) : ""}</textarea>
               <div class="my-review-actions">
                 <button id="my-review-save" class="button button-primary" type="button">${myReview ? "更新评价" : "保存评价"}</button>
-                ${myReview ? `<button id="my-review-remove" class="button button-quiet" type="button">删除评价</button>` : ""}
+                <button id="my-review-remove" class="button button-quiet" type="button" ${myReview ? "" : "hidden"}>删除评价</button>
                 <span class="my-review-saved" id="my-review-saved" hidden></span>
               </div>
             </div>
@@ -197,7 +199,9 @@
                   </div>
                   <a class="source-review-link" href="${MSDS.escapeHtml(source.url)}" target="_blank" rel="noreferrer">查看原文</a>
                 </div>
-                <p>${MSDS.escapeHtml(source.review)}</p>
+                ${source.review
+                  ? `<p>${MSDS.escapeHtml(source.review)}</p>`
+                  : '<p class="source-review-pending">本站尚未整理这条来源中与本课程相关的原文摘录，可点击「查看原文」阅读原帖。</p>'}
               </article>`).join("")}</div>` : '<div class="notice source-empty">本地资料暂未找到可核对的学生评价来源。</div>'}
             <div class="notice source-notice"><strong>阅读提示：</strong>学生经验对应往届课程，考核方式、教师与难度可能变化。当前班次事实来自 ${MSDS.escapeHtml(data.schedule_as_of || "课表快照")} 的 AIMS 课表快照。</div>
           </section>
@@ -320,6 +324,9 @@
       const savedEl = document.getElementById("my-review-saved");
       savedEl.textContent = `已保存于 ${new Date().toLocaleString("zh-CN", { hour12: false })}`;
       savedEl.hidden = false;
+      // 首次保存后立即切换成“已有评价”状态，无需刷新页面才能看到删除按钮
+      document.getElementById("my-review-save").textContent = "更新评价";
+      document.getElementById("my-review-remove").hidden = false;
       MSDS.showToast(`已保存 ${course.code} 的评价`);
       // 云端共享：若已启用 Supabase，同步提交到云端并刷新“课程评价”
       if (MSDS.cloudReviewsEnabled()) {
@@ -348,7 +355,7 @@
       chosenRating = 0;
       document.getElementById("my-review-comment").value = "";
       refreshStarState();
-      document.getElementById("my-review-remove").remove();
+      document.getElementById("my-review-remove").hidden = true;
       const saveButton = document.getElementById("my-review-save");
       saveButton.textContent = "保存评价";
       const savedEl = document.getElementById("my-review-saved");
@@ -434,8 +441,10 @@
         button.addEventListener("click", async () => {
           const id = button.getAttribute("data-delete");
           if (!id) return;
-          const label = MSDS.isAdminLoggedIn() && button.textContent.includes("管理员") ? "删除这条评价" : "删除你提交的这条评价";
-          if (!window.confirm(`确定${label}吗？该操作不可恢复。`)) return;
+          // 按钮原文案（“删除” / “管理员删除”）要留存，失败后需要原样还原
+          const originalLabel = button.textContent;
+          const confirmText = MSDS.isAdminLoggedIn() && originalLabel.includes("管理员") ? "删除这条评价" : "删除你提交的这条评价";
+          if (!window.confirm(`确定${confirmText}吗？该操作不可恢复。`)) return;
           button.disabled = true;
           button.textContent = "删除中…";
           try {
@@ -444,7 +453,7 @@
             loadCloudReviews(true);
           } catch (error) {
             button.disabled = false;
-            button.textContent = label;
+            button.textContent = originalLabel;
             MSDS.showToast(`删除失败：${error.message}`);
           }
         });
