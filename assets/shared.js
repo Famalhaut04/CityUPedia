@@ -284,13 +284,32 @@
   const USER_SESSION = "CITYU-user-session"; // 学生登录会话（access_token 与过期时间）
   const USER_NICKNAME = "CITYU-user-nickname"; // 学生昵称（登录/注册时填写，评价默认显示）
 
+  function larkReviewsEnabled() {
+    try {
+      return Boolean(window.LARK_CONFIG && window.LARK_CONFIG.formUrl);
+    } catch {
+      return false;
+    }
+  }
+
   function cloudReviewsEnabled() {
+    if (larkReviewsEnabled()) return true;
     try {
       const config = window.CLOUD_CONFIG;
       return Boolean(config && config.supabaseUrl && config.supabaseAnonKey);
     } catch {
       return false;
     }
+  }
+
+  let larkReviewsCache = null;
+  async function getLarkReviews() {
+    if (larkReviewsCache) return larkReviewsCache;
+    const response = await fetch("data/lark-reviews.json");
+    if (!response.ok) return [];
+    const all = await response.json();
+    larkReviewsCache = Array.isArray(all) ? all : [];
+    return larkReviewsCache;
   }
 
   // 生成或读取本机唯一的 user_key（localStorage 持久化）
@@ -551,6 +570,10 @@
   // 读取某门课程的最新云端评价（按时间倒序，最多 20 条；配合 5 分钟会话缓存控制流量）
   async function fetchCloudReviews(code, options = {}) {
     if (!cloudReviewsEnabled()) return [];
+    if (larkReviewsEnabled()) {
+      const all = await getLarkReviews();
+      return all.filter((r) => String(r.course_code).toUpperCase() === String(code).toUpperCase());
+    }
     const force = Boolean(options.force);
     if (!force) {
       const cached = readCloudCache(code);
@@ -646,6 +669,17 @@
   async function fetchCloudReviewsBatch(codes) {
     const list = Array.isArray(codes) ? codes.map((c) => String(c).trim()).filter(Boolean) : [];
     if (!cloudReviewsEnabled() || !list.length) return {};
+    if (larkReviewsEnabled()) {
+      const all = await getLarkReviews();
+      const grouped = {};
+      all.forEach((r) => {
+        const code = String(r.course_code || "").toUpperCase();
+        if (!list.map((c) => c.toUpperCase()).includes(code)) return;
+        if (!grouped[code]) grouped[code] = [];
+        grouped[code].push(r);
+      });
+      return grouped;
+    }
     const config = window.CLOUD_CONFIG;
     const url = `${config.supabaseUrl}/rest/v1/course_reviews?course_code=in.(${list.map((c) => encodeURIComponent(c)).join(",")})&limit=1000`;
     const response = await fetch(url, {
@@ -1075,6 +1109,7 @@
     PROGRAMME_KEY,
     clearSelections,
     cloudReviewsEnabled,
+    larkReviewsEnabled,
     courseProgrammes,
     courseTerms,
     primarySemester,

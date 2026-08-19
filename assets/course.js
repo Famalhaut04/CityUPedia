@@ -101,18 +101,18 @@
           </section>
 
           <section class="detail-section my-review-section">
-            <h2>我的评价</h2>
-            <div class="auth-banner" id="course-auth-banner"></div>
-            <p class="my-review-hint">${MSDS.cloudReviewsEnabled() ? "评分与评语会保存到云端共享给所有使用者，也会保留在当前浏览器本地。" : "评分与评语仅保存在当前浏览器本地，仅供自己参考（云端共享未启用）。"}</p>
+            <h2>提交评价</h2>
+            <p class="my-review-hint">${MSDS.larkReviewsEnabled() ? "填写下方表单提交你的课程评价，提交后由 CSSA 管理员审核通过后展示。" : "评分与评语仅保存在当前浏览器本地，仅供自己参考（云端共享未启用）。"}</p>
+            ${MSDS.larkReviewsEnabled() ? `
+            <iframe src="${MSDS.escapeHtml(window.LARK_CONFIG.formUrl)}" style="width:100%;height:680px;border:none;min-height:480px;" title="课程评价表单" allow="clipboard-read;clipboard-write"></iframe>
+            <p class="my-review-hint" style="margin-top:0.5rem;">表单由飞书提供，填写后数据进入审核流程。</p>
+            ` : `
             <div class="my-review-form">
               <div class="my-review-stars">
                 <span class="my-review-label">课程评分</span>
                 ${ratingPickerHTML(myReview?.rating || 0, false)}
                 <span class="my-review-score" id="my-review-score">${myReview?.rating ? `${myReview.rating} 星` : "未评分"}</span>
               </div>
-              ${MSDS.cloudReviewsEnabled() ? `
-              <label class="my-review-comment-label" for="my-review-nickname">昵称（选填）</label>
-              <input id="my-review-nickname" class="my-review-comment" type="text" maxlength="30" placeholder="不填则使用登录账号默认昵称">` : ""}
               <label class="my-review-comment-label" for="my-review-comment">课程评语（选填）</label>
               <textarea id="my-review-comment" class="my-review-comment" rows="4" maxlength="500" placeholder="写下你的课程感受、上课体验或避坑建议…">${myReview ? MSDS.escapeHtml(myReview.comment) : ""}</textarea>
               <div class="my-review-actions">
@@ -120,13 +120,13 @@
                 <button id="my-review-remove" class="button button-quiet" type="button" ${myReview ? "" : "hidden"}>删除评价</button>
                 <span class="my-review-saved" id="my-review-saved" hidden></span>
               </div>
-            </div>
+            </div>`}
           </section>
 
           <section class="detail-section cloud-reviews-section" id="course-reviews">
             <h2>课程评价</h2>
-            <p class="my-review-hint">${MSDS.cloudReviewsEnabled() ? "所有使用者的共享评价，实时同步自云端数据库。你可以删除自己提交的评价。" : "云端共享未启用，暂无法查看其他使用者的评价。"}</p>
-            ${MSDS.cloudReviewsEnabled() ? `
+            <p class="my-review-hint">${MSDS.cloudReviewsEnabled() ? "所有使用者的共享评价，定期同步自审核数据库。" : "云端共享未启用，暂无法查看其他使用者的评价。"}</p>
+            ${MSDS.cloudReviewsEnabled() && !MSDS.larkReviewsEnabled() ? `
             <div class="admin-panel" id="admin-panel">
               <form class="admin-login-form" id="admin-login-form">
                 <strong class="admin-panel-title">管理员登录</strong>
@@ -242,12 +242,15 @@
     });
 
     // ============ 我的评价：星级选择、保存、删除 ============
+    // Lark 模式下评价表单改为 iframe，以下逻辑跳过
+    const larkMode = MSDS.larkReviewsEnabled();
     let chosenRating = myReview?.rating || 0;
     const scoreEl = document.getElementById("my-review-score");
     const starsContainer = document.querySelector(".rating-picker");
 
     // 登录状态横幅：未登录提示去登录；已登录显示账号与退出按钮
     function renderAuthBanner() {
+      if (larkMode) return;
       const banner = document.getElementById("course-auth-banner");
       if (!banner) return;
       const student = MSDS.currentStudent ? MSDS.currentStudent() : null;
@@ -295,7 +298,7 @@
       scoreEl.textContent = chosenRating ? `${chosenRating} 星` : "未评分";
     }
 
-    if (starsContainer) {
+    if (starsContainer && !larkMode) {
       starsContainer.addEventListener("click", (event) => {
         const star = event.target.closest(".rate-star");
         if (!star || star.disabled) return;
@@ -314,7 +317,9 @@
       });
     }
 
-    document.getElementById("my-review-save").addEventListener("click", () => {
+    const saveBtn = document.getElementById("my-review-save");
+    if (saveBtn && !larkMode) {
+    saveBtn.addEventListener("click", () => {
       if (!chosenRating) {
         MSDS.showToast("请先选择星级评分");
         return;
@@ -348,8 +353,11 @@
           });
       }
     });
+    }
 
-    document.getElementById("my-review-remove")?.addEventListener("click", () => {
+    const removeBtn = document.getElementById("my-review-remove");
+    if (removeBtn && !larkMode) {
+    removeBtn.addEventListener("click", () => {
       if (!window.confirm(`确定删除 ${course.code} 的个人评价吗？`)) return;
       MSDS.removeCourseReview(course.code);
       chosenRating = 0;
@@ -363,6 +371,7 @@
       savedEl.textContent = "";
       MSDS.showToast("已删除评价");
     });
+    }
 
     document.querySelectorAll(".tutorial-pick").forEach((radio) => {
       radio.addEventListener("change", (event) => {
@@ -384,9 +393,9 @@
       const stars = "★".repeat(Math.max(0, Math.min(5, Number(item.rating) || 0))) + "☆".repeat(Math.max(0, 5 - Math.min(5, Number(item.rating) || 0)));
       const when = new Date(item.created_at).toLocaleString("zh-CN", { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
       const student = MSDS.currentStudent ? MSDS.currentStudent() : null;
-      const isMine = (student && student.userId && item.user_id && String(item.user_id) === String(student.userId))
-        || (MSDS.getUserKey() && item.user_key && item.user_key === MSDS.getUserKey());
-      const isAdmin = MSDS.isAdminLoggedIn();
+      const isMine = !larkMode && ((student && student.userId && item.user_id && String(item.user_id) === String(student.userId))
+        || (MSDS.getUserKey() && item.user_key && item.user_key === MSDS.getUserKey()));
+      const isAdmin = !larkMode && MSDS.isAdminLoggedIn();
       const canDelete = isMine || isAdmin;
       const deleteLabel = isAdmin && !isMine ? "管理员删除" : "删除";
       return `
@@ -435,6 +444,7 @@
     }
 
     function bindCloudReviewDelete() {
+      if (larkMode) return;
       const container = document.getElementById("cloud-reviews");
       if (!container) return;
       container.querySelectorAll("[data-delete]").forEach((button) => {
@@ -478,9 +488,9 @@
         });
     }
 
-    // 管理员登录 / 退出
+    // 管理员登录 / 退出（Lark 模式下跳过）
     const adminPanel = document.getElementById("admin-panel");
-    if (adminPanel) {
+    if (adminPanel && !larkMode) {
       const loginForm = document.getElementById("admin-login-form");
       const statusEl = document.getElementById("admin-status");
       loginForm.addEventListener("submit", async (event) => {
