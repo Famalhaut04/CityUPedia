@@ -117,7 +117,7 @@
     const backUrl = `course.html?code=${encodeURIComponent(course.code)}`;
     const pageCount = translationPages.length;
 
-    document.title = `${course.code} 详细课程介绍 · CityUpedia测试版`;
+    document.title = `${course.code} 详细课程介绍 · CityU Pedia`;
     detail.innerHTML = `
       <a class="back-link" href="${backUrl}">← 返回 ${MSDS.escapeHtml(course.code)} 课程详情</a>
 
