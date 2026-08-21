@@ -24,7 +24,7 @@
   let searchTerm = "";
   let activeFilter = "all";
   let activeDay = "all";
-  let activeSemesterFilter = "all";
+  let activeSemesterFilter = activeSemester;
 
   const listElement = document.getElementById("course-list");
   const selectedListElement = document.getElementById("selected-list");
@@ -62,7 +62,7 @@
         .filter((section) => Number(section.credits) > 0)
         .map((section) => section.day);
       const matchesDay = activeDay === "all" || primaryDays.includes(activeDay);
-      const matchesSemester = activeSemesterFilter === "all" || MSDS.courseTerms(course).includes(activeSemesterFilter);
+      const matchesSemester = activeSemesterFilter === "all" || MSDS.courseOfferedInSemester(course, activeSemesterFilter);
       return matchesSearch && matchesFilter && matchesDay && matchesSemester;
     });
   }
@@ -577,6 +577,12 @@
       delete selections[code];
       MSDS.showToast(`已移除 ${code}`);
     } else {
+      // 学期隔离：a 学期的课不能在 b 学期选上
+      if (!MSDS.courseOfferedInSemester(course, activeSemester)) {
+        const terms = MSDS.courseTerms(course);
+        MSDS.showToast(`该课程在 ${terms.join(" / ") || "其他"} 学期开设，请切换到对应学期`);
+        return;
+      }
       selections[code] = selectionForPrimary(course, primaryCrn, tutorialCrn);
       MSDS.showToast(`已加入 ${code}`);
     }
