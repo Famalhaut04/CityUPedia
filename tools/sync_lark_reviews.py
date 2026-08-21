@@ -65,7 +65,6 @@ def fetch_approved_reviews(token, base_token, table_id):
                     {"field_name": REVIEW_STATUS_FIELD, "operator": "is", "value": [APPROVED_VALUE]}
                 ],
             },
-            "sort": {"field_name": "提交时间", "order": "desc"},
         }
         if page_token:
             body["page_token"] = page_token
@@ -137,13 +136,13 @@ def transform_record(record):
 
 
 def main():
-    app_id = os.environ.get("LARK_APP_ID")
+    app_id = os.environ.get("LARK_APP_ID", "cli_aa0f06a2f5789e15")
     app_secret = os.environ.get("LARK_APP_SECRET")
     base_token = os.environ.get("LARK_BASE_TOKEN", "Jed0b6XV3aZPXwsjsD6jlf1apwd")
     table_id = os.environ.get("LARK_TABLE_ID", "tblru0J5s8x7j5Fd")
 
-    if not app_id or not app_secret:
-        print("Error: LARK_APP_ID and LARK_APP_SECRET must be set", file=sys.stderr)
+    if not app_secret:
+        print("Error: LARK_APP_SECRET must be set", file=sys.stderr)
         sys.exit(1)
 
     print("Fetching tenant_access_token...")
@@ -155,6 +154,8 @@ def main():
 
     reviews = [transform_record(r) for r in raw_records]
     reviews = [r for r in reviews if r["course_code"]]
+    # 按提交时间倒序（新评价在前），无时间戳的排在最后
+    reviews.sort(key=lambda r: r.get("created_at") or "", reverse=True)
 
     output_path = Path(__file__).parent.parent / "data" / "lark-reviews.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
