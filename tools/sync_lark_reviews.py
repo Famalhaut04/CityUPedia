@@ -116,7 +116,7 @@ def extract_datetime(field_value):
         return None
     if isinstance(field_value, (int, float)):
         import datetime
-        return datetime.datetime.fromtimestamp(field_value / 1000).strftime("%Y-%m-%dT%H:%M:%SZ")
+        return datetime.datetime.fromtimestamp(field_value / 1000, tz=datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     if isinstance(field_value, str):
         return field_value
     return None
