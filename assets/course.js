@@ -417,6 +417,7 @@
             <span class="cloud-review-time">${MSDS.escapeHtml(when)}</span>
             ${canDelete ? `<button class="cloud-review-delete" type="button" data-delete="${MSDS.escapeHtml(String(item.id))}">${deleteLabel}</button>` : ""}
           </div>
+          ${item.course_professor ? `<p class="cloud-review-professor">授课教师：${MSDS.escapeHtml(item.course_professor)}</p>` : ""}
           ${item.comment ? `<p class="cloud-review-comment">${MSDS.escapeHtml(item.comment)}</p>` : '<p class="cloud-review-comment is-empty">（未填写评语）</p>'}
         </article>`;
     }

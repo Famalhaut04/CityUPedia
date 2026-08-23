@@ -124,13 +124,16 @@ def extract_datetime(field_value):
 
 def transform_record(record):
     fields = record.get("fields", {})
+    rating_raw = extract_number(fields.get("评分"))
+    # 评分保留一位小数，同时限定在 0-5 之间
+    rating = round(max(0, min(5, float(rating_raw))), 1) if rating_raw else 0
     return {
         "id": record.get("record_id", ""),
         "course_code": extract_text(fields.get("课程代码")),
         "nickname": extract_text(fields.get("昵称")) or "城大同学",
         "course_professor": extract_text(fields.get("课程/教授")),
         "comment": extract_text(fields.get("评价内容")),
-        "rating": int(extract_number(fields.get("评分"))),
+        "rating": rating,
         "created_at": extract_datetime(fields.get("提交时间")),
     }
 
@@ -153,7 +156,7 @@ def main():
     print(f"Retrieved {len(raw_records)} approved records.")
 
     reviews = [transform_record(r) for r in raw_records]
-    reviews = [r for r in reviews if r["course_code"]]
+    reviews = [r for r in reviews if r["course_code"] and r["rating"] > 0]
     # 按提交时间倒序（新评价在前），无时间戳的排在最后
     reviews.sort(key=lambda r: r.get("created_at") or "", reverse=True)
 
