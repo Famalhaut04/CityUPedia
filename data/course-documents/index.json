@@ -170,6 +170,10 @@
     "pdf": "docs/CS6290.pdf",
     "translation": "data/course-documents/translations/CS6290.json"
   },
+  "CS6480": {
+    "pdf": "docs/CS6480.pdf",
+    "translation": "data/course-documents/translations/CS6480.json"
+  },
   "CS6487": {
     "pdf": "docs/CS6487.pdf"
   },

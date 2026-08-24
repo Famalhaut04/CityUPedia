@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "generated_from": "wechat/generated/pdf-pages-manifest.json",
-  "course_count": 84,
-  "page_count": 566,
+  "course_count": 85,
+  "page_count": 574,
   "courses": {
     "CS5285": {
       "page_count": 7,
@@ -332,6 +332,21 @@
         "assets/course-pages/CS6382/page-006.jpg",
         "assets/course-pages/CS6382/page-007.jpg",
         "assets/course-pages/CS6382/page-008.jpg"
+      ]
+    },
+    "CS6480": {
+      "page_count": 8,
+      "source_pdf": "docs/CS6480.pdf",
+      "source_sha256": "dd5fa7b5b8c71b1793748c0426b0d76b3ff786b159f4e5ed1110d148956e9fb0",
+      "pages": [
+        "assets/course-pages/CS6480/page-001.jpg",
+        "assets/course-pages/CS6480/page-002.jpg",
+        "assets/course-pages/CS6480/page-003.jpg",
+        "assets/course-pages/CS6480/page-004.jpg",
+        "assets/course-pages/CS6480/page-005.jpg",
+        "assets/course-pages/CS6480/page-006.jpg",
+        "assets/course-pages/CS6480/page-007.jpg",
+        "assets/course-pages/CS6480/page-008.jpg"
       ]
     },
     "CS5281": {
