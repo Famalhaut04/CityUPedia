@@ -329,7 +329,9 @@
             <div><a href="course.html?code=${encodeURIComponent(course.code)}">${MSDS.escapeHtml(course.code)}</a><small>${MSDS.escapeHtml(course.programme_title)}</small></div>
           </div>
           <div class="section-selects">
-            <label>主课<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="primary">${sectionOptions(primaries, selected.primaryCrn)}</select></label>
+            ${primaries.length
+              ? `<label>主课<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="primary">${sectionOptions(primaries, selected.primaryCrn)}</select></label>`
+              : `<p class="selected-course-note">${MSDS.escapeHtml(MSDS.t("selected.nosection"))}</p>`}
             ${tutorials.length ? `<label>Tutorial<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="tutorial"><option value="">不选择</option>${sectionOptions(tutorials, selected.tutorialCrn)}</select></label>` : ""}
           </div>
         </article>`;
@@ -456,7 +458,25 @@
       return `<div class="day-column" data-day-column="${day}">${blocks}</div>`;
     }).join("");
 
-    document.getElementById("empty-timetable").hidden = events.length > 0;
+    // 有些课程没有固定上课时段（如 MSVC 的 CAI6001/CAI6003 这类跨学期课程，
+    // 以及 AIMS 快照里暂无班次的跨院系选修课）。它们可以加入并计入学分，但排不进课表，
+    // 需要和“还没加课”区分开，否则课表会误报成空的。
+    const scheduled = new Set(events.map((event) => event.course.code));
+    const unscheduled = programmeCourses().filter((course) => selections[course.code] && !scheduled.has(course.code));
+    const unscheduledCodes = unscheduled.map((course) => course.code).join(MSDS.getStoredLang() === "en" ? ", " : "、");
+    document.getElementById("empty-timetable").hidden = scheduled.size > 0 || unscheduled.length > 0;
+    const unscheduledEmpty = document.getElementById("unscheduled-timetable");
+    if (unscheduledEmpty) {
+      unscheduledEmpty.hidden = events.length > 0 || !unscheduled.length;
+      const codes = document.getElementById("unscheduled-empty-codes");
+      if (codes) codes.textContent = unscheduledCodes;
+    }
+    // 课表里已经有别的课时，改用底部提示，避免遮住课表内容
+    const unscheduledNote = document.getElementById("unscheduled-note");
+    if (unscheduledNote) {
+      unscheduledNote.hidden = !events.length || !unscheduled.length;
+      unscheduledNote.textContent = unscheduled.length ? MSDS.t("timetable.unscheduled.note") + unscheduledCodes : "";
+    }
     const conflicts = events.filter((event) => event.conflict);
     const status = document.getElementById("conflict-status");
     if (conflicts.length) {

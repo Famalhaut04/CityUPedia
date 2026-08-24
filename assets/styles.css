@@ -1905,6 +1905,25 @@ body {
   font-size: 24px;
 }
 
+.unscheduled-note {
+  margin: 0;
+  padding: 10px 20px;
+  border-top: 1px solid var(--hairline);
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.unscheduled-note[hidden] {
+  display: none;
+}
+
+.selected-course-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
 .data-note {
   margin: 0;
   padding: 12px 20px;
