@@ -1,5 +1,14 @@
 # 更新日志 / Changelog
 
+## 未发布（Unreleased）
+
+### 数据更新：新增 CS6480 AI Oracles for Multiagent Economic Systems
+
+- **新增课程**：CS6480「AI Oracles for Multiagent Economic Systems」（3 学分，Sem A），授课教师 DENG Xiaotie
+- **开课专业**：MSCS（Group I）、MSAI（Group I）、MSCY（Group II）、MSEC（选修）
+- **排课信息**：C01（CRN 15930）周四 15:00–16:50 李达三楼 3614；T01（CRN 15931）辅导课周四 17:00–17:50，分李达三楼 3614 与杨建文学术楼 G7510 两班平行授课
+- **时间冲突**：CS6480 主课与 CS5292（网络安全审计与合规）周四 15:00–16:50 时段完全重叠，辅导课 17:00–17:50 也冲突，选课器将自动检测并标红提示
+
 ## 1.2.1（CityUPedia 1.2.1）· 2026-08-24
 
 ### 修复：没有固定时段的课程会把课表显示成空的

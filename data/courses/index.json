@@ -2871,6 +2871,42 @@
       "semester_tag": "SemB"
     },
     {
+      "code": "CS6480",
+      "programmes": [
+        "MSCS",
+        "MSAI",
+        "MSCY",
+        "MSEC"
+      ],
+      "programme_requirement_types": {
+        "MSCS": "elective",
+        "MSAI": "elective",
+        "MSCY": "elective",
+        "MSEC": "elective"
+      },
+      "programme_elective_groups": {
+        "MSCS": "group1",
+        "MSAI": "group1",
+        "MSCY": "group2"
+      },
+      "requirement_type": "elective",
+      "programme_title": "AI Oracles for Multiagent Economic Systems",
+      "schedule_title": "AI Oracles for Multiagent Economic Systems",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "CC",
+      "prerequisites": "CS2402 and CS3334 and CS4487",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "100",
+        "capacity": "100",
+        "medium": "English"
+      },
+      "section_count": 2,
+      "semester_tag": "SemA"
+    },
+    {
       "code": "CS6487",
       "programmes": [
         "MSCS",

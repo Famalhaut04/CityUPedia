@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "15930",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 16:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3614",
+    "instructor": "DENG Xiaotie",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "15931",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "17:00 - 17:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3614",
+    "instructor": "DENG Xiaotie",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "15931",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "17:00 - 17:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "G7510",
+    "instructor": "DENG Xiaotie",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  }
+]
