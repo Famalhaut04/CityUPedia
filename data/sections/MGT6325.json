@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "13401",
+    "section": "SB4",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "09:00 - 11:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "G4302",
+    "instructor": "Andy NIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Management and Innovation"
+    ]
+  },
+  {
+    "crn": "15000",
+    "section": "SP2",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "8",
+    "capacity": "8",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "G4302",
+    "instructor": "Andy NIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Engineering Management"
+    ]
+  },
+  {
+    "crn": "13988",
+    "section": "SA5",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "14:00 - 16:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Kyeonggook PARK",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  },
+  {
+    "crn": "14997",
+    "section": "S63",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "G4702",
+    "instructor": "Dong Hyun SHIN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Management and Innovation"
+    ]
+  }
+]

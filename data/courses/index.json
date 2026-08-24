@@ -217,6 +217,46 @@
       "college_en": "College of Computing",
       "department_en": "Department of Data Science",
       "programme_url": "https://www.cityu.edu.hk/pg/programme/p79"
+    },
+    {
+      "code": "MSVC",
+      "name_en": "MSc Venture Creation",
+      "name_zh": "创新创业理学硕士",
+      "department": "创新学院",
+      "graduation_credit_units": 36,
+      "requirement_credit_units": {
+        "core": 24,
+        "electives": 12,
+        "elective_groups": [
+          {
+            "key": "core_elective",
+            "label_zh": "核心选修",
+            "label_en": "Core Electives",
+            "min_credits": 6,
+            "max_credits": 6
+          },
+          {
+            "key": "free_elective",
+            "label_zh": "自由选修",
+            "label_en": "Electives",
+            "min_credits": 6
+          }
+        ]
+      },
+      "default_selections": [],
+      "data_ready": true,
+      "notes": [
+        "核心 24 学分 + 核心选修 6 学分 + 选修 6 学分，毕业共 36 学分。",
+        "核心课：CAI6001 GRIT 综合研修（6 学分）、CAI6002 创业研讨（3 学分）、CAI6003 创新项目（12 学分）、AC5813 财务与管理会计（3 学分）。",
+        "核心选修须从 MGT6325、IS5940、MKT5610、COM5406 中选两门。",
+        "选修 6 学分为自由选修：官方允许选任意课程，须经课程主任与开课院系批准；此处收录的是官方推荐清单。",
+        "CAI6001 与 CAI6003 为跨 Semester A/B 的两学期课程，AIMS 中不可网页注册，也没有独立班次。",
+        "官方中文名为「理學碩士 (創新創業)」；创新学院暂未公布官方中文名称。"
+      ],
+      "college": "创新学院",
+      "college_en": "CityUHK Academy of Innovation",
+      "department_en": "CityUHK Academy of Innovation",
+      "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
     }
   ],
   "semester": "Semester A 2026/27",
@@ -4217,10 +4257,12 @@
     {
       "code": "SEE6115",
       "programmes": [
-        "MSAIFS"
+        "MSAIFS",
+        "MSVC"
       ],
       "programme_requirement_types": {
-        "MSAIFS": "elective"
+        "MSAIFS": "elective",
+        "MSVC": "elective"
       },
       "requirement_type": "elective",
       "programme_title": "Carbon Audit and Management",
@@ -4239,7 +4281,8 @@
       "section_count": 0,
       "semester_tag": "SemA",
       "programme_elective_groups": {
-        "MSAIFS": "track3"
+        "MSAIFS": "track3",
+        "MSVC": "free_elective"
       }
     },
     {
@@ -4329,10 +4372,12 @@
     {
       "code": "SEE6125",
       "programmes": [
-        "MSAIFS"
+        "MSAIFS",
+        "MSVC"
       ],
       "programme_requirement_types": {
-        "MSAIFS": "elective"
+        "MSAIFS": "elective",
+        "MSVC": "elective"
       },
       "requirement_type": "elective",
       "programme_title": "Carbon Capture Use and Storage",
@@ -4351,7 +4396,8 @@
       "section_count": 0,
       "semester_tag": "SemB",
       "programme_elective_groups": {
-        "MSAIFS": "track3"
+        "MSAIFS": "track3",
+        "MSVC": "free_elective"
       }
     },
     {
@@ -4469,10 +4515,12 @@
     {
       "code": "SEE6225",
       "programmes": [
-        "MSAIFS"
+        "MSAIFS",
+        "MSVC"
       ],
       "programme_requirement_types": {
-        "MSAIFS": "elective"
+        "MSAIFS": "elective",
+        "MSVC": "elective"
       },
       "requirement_type": "elective",
       "programme_title": "Environmental Assessment",
@@ -4491,7 +4539,8 @@
       "section_count": 0,
       "semester_tag": "SemB",
       "programme_elective_groups": {
-        "MSAIFS": "track3"
+        "MSAIFS": "track3",
+        "MSVC": "free_elective"
       }
     },
     {
@@ -4655,6 +4704,1254 @@
       },
       "section_count": 0,
       "semester_tag": "SemB+Summer"
+    },
+    {
+      "code": "CAI6001",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "core"
+      },
+      "requirement_type": "core",
+      "programme_title": "GRIT (Graduate Research and Innovation Trek) Integrated Study",
+      "schedule_title": "GRIT (Graduate Research and Innovation Trek) Integrated Study",
+      "title_changed": false,
+      "credits": 6,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "180",
+        "capacity": "180",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemA+SemB"
+    },
+    {
+      "code": "CAI6002",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "core"
+      },
+      "requirement_type": "core",
+      "programme_title": "Venture Creation Seminar",
+      "schedule_title": "Venture Creation Seminar",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB"
+    },
+    {
+      "code": "CAI6003",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "core"
+      },
+      "requirement_type": "core",
+      "programme_title": "Innovation Project",
+      "schedule_title": "Innovation Project",
+      "title_changed": false,
+      "credits": 12,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "180",
+        "capacity": "180",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemA+SemB"
+    },
+    {
+      "code": "AC5813",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "core"
+      },
+      "requirement_type": "core",
+      "programme_title": "Financial and Management Accounting",
+      "schedule_title": "Financial and Management Accounting",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "160",
+        "capacity": "160",
+        "medium": "English"
+      },
+      "section_count": 2,
+      "semester_tag": "SemA"
+    },
+    {
+      "code": "MGT6325",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Entrepreneurship",
+      "schedule_title": "Entrepreneurship",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "272",
+        "capacity": "394",
+        "medium": "English"
+      },
+      "section_count": 4,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "core_elective"
+      }
+    },
+    {
+      "code": "IS5940",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Innovation and Technology Entrepreneurship",
+      "schedule_title": "Innovation and Technology Entrepreneurship",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "597",
+        "capacity": "600",
+        "medium": "English"
+      },
+      "section_count": 5,
+      "semester_tag": "SemA+Summer",
+      "programme_elective_groups": {
+        "MSVC": "core_elective"
+      }
+    },
+    {
+      "code": "MKT5610",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Marketing Strategy and Planning",
+      "schedule_title": "Marketing Strategy and Planning",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "FB5601 Principles of Marketing, MKT5601 Principles of Marketing",
+      "summary": {
+        "web": "Y",
+        "available": "300",
+        "capacity": "300",
+        "medium": "English"
+      },
+      "section_count": 3,
+      "semester_tag": "SemA+SemB",
+      "programme_elective_groups": {
+        "MSVC": "core_elective"
+      }
+    },
+    {
+      "code": "COM5406",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Entrepreneurship and Business Planning",
+      "schedule_title": "Entrepreneurship and Business Planning",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "core_elective"
+      }
+    },
+    {
+      "code": "MGT5507",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Managerial Decision Making",
+      "schedule_title": "Managerial Decision Making",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "MGT4216 Behavioural Decision Making",
+      "summary": {
+        "web": "Y",
+        "available": "155",
+        "capacity": "160",
+        "medium": "English"
+      },
+      "section_count": 3,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MGT6066",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Business Ethics & Social Responsibility",
+      "schedule_title": "Business Ethics & Social Responsibility",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MGT5205",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Strategic Management",
+      "schedule_title": "Strategic Management",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "FB6811 Strategic Management MGT6514 Strategic Management and Business Policy FB6502 Strategic Management",
+      "summary": {
+        "web": "Y",
+        "available": "54",
+        "capacity": "255",
+        "medium": "English"
+      },
+      "section_count": 1,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MGT6202",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Global Business Leadership",
+      "schedule_title": "Global Business Leadership",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MGT6324",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Business Intelligence in Asia",
+      "schedule_title": "Business Intelligence in Asia",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MGT6310",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "People Analytics",
+      "schedule_title": "People Analytics",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MGT6314",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Global Human Resources Management",
+      "schedule_title": "Global Human Resources Management",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "AC5690",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Corporate Governance",
+      "schedule_title": "Corporate Governance",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "468",
+        "capacity": "800",
+        "medium": "English"
+      },
+      "section_count": 4,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "AC6533",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Corporate Finance and Policies",
+      "schedule_title": "Corporate Finance and Policies",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MKT5648",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Social Media Marketing",
+      "schedule_title": "Social Media Marketing",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "FB5601 Principles of Marketing (for MBA student only)",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "78",
+        "capacity": "80",
+        "medium": "English"
+      },
+      "section_count": 2,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MKT5645",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Customer Relationship Management",
+      "schedule_title": "Customer Relationship Management",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MKT5646",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Advertising and Integrated Marketing Communications",
+      "schedule_title": "Advertising and Integrated Marketing Communications",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "80",
+        "capacity": "80",
+        "medium": "English"
+      },
+      "section_count": 2,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MKT5641",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Chinese Business Culture and Marketing",
+      "schedule_title": "Chinese Business Culture and Marketing",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "MKT5643",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Global Marketing",
+      "schedule_title": "Global Marketing",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "IS5010",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Introduction to Financial Technologies",
+      "schedule_title": "Introduction to Financial Technologies",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "IS6200",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Blockchain Technology and Business Applications",
+      "schedule_title": "Blockchain Technology and Business Applications",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "IS6620",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Large Language Model with Prompt Engineering for Business",
+      "schedule_title": "Large Language Model with Prompt Engineering for Business",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "120",
+        "capacity": "120",
+        "medium": "English"
+      },
+      "section_count": 2,
+      "semester_tag": "SemA+SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SEE5114",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Energy, Environment and Sustainable Development",
+      "schedule_title": "Energy, Environment and Sustainable Development",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "270",
+        "capacity": "270",
+        "medium": "English"
+      },
+      "section_count": 4,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SEE6116",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Building Performance Assessment",
+      "schedule_title": "Building Performance Assessment",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "PIA5057",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Collaborative Governance for Sustainability",
+      "schedule_title": "Collaborative Governance for Sustainability",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "PIA6505",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Financing Sustainability: Policy and Mechanisms",
+      "schedule_title": "Financing Sustainability: Policy and Mechanisms",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "135",
+        "capacity": "135",
+        "medium": "English"
+      },
+      "section_count": 2,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SS5753",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Advanced Social Psychology",
+      "schedule_title": "Advanced Social Psychology",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "MSSPSY Students: Nil Non-MSSPSY Students : SS1101 Basic Psychology or its equivalent",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "27",
+        "capacity": "240",
+        "medium": "English"
+      },
+      "section_count": 1,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SYE5009",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Industrial Marketing Management for Engineers",
+      "schedule_title": "Industrial Marketing Management for Engineers",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SYE6047",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Quality Improvement: Systems and Methodologies",
+      "schedule_title": "Quality Improvement: Systems and Methodologies",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "150",
+        "capacity": "150",
+        "medium": "English"
+      },
+      "section_count": 3,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SYE6053",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Business Process Improvement and Innovation",
+      "schedule_title": "Business Process Improvement and Innovation",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SYE6103",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Financial Engineering for Engineering Managers",
+      "schedule_title": "Financial Engineering for Engineering Managers",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "185",
+        "capacity": "185",
+        "medium": "English"
+      },
+      "section_count": 3,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SYE6110",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Data Analysis and Artificial Intelligence for Systems Engineering",
+      "schedule_title": "Data Analysis and Artificial Intelligence for Systems Engineering",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "SYE4003 Artificial Intelligence and Advanced Technology in Manufacturing and Operations or SYE6106 Intelligent Manufacturing for Engineering Managers",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "SYE6012",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Technological Innovation and Entrepreneurship",
+      "schedule_title": "Technological Innovation and Entrepreneurship",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5106",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Integrated Marketing Communication",
+      "schedule_title": "Integrated Marketing Communication",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "205",
+        "capacity": "205",
+        "medium": "English"
+      },
+      "section_count": 3,
+      "semester_tag": "SemA+SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5408",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Global Promotion and Branding",
+      "schedule_title": "Global Promotion and Branding",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "140",
+        "capacity": "140",
+        "medium": "English"
+      },
+      "section_count": 2,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5104",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Research Methods for Communication and New Media",
+      "schedule_title": "Research Methods for Communication and New Media",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "420",
+        "capacity": "420",
+        "medium": "English"
+      },
+      "section_count": 4,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5105",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Media Economics and Financial Markets",
+      "schedule_title": "Media Economics and Financial Markets",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5111",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Generative AI for Digital Marketing",
+      "schedule_title": "Generative AI for Digital Marketing",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5402",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Public Relations Strategies",
+      "schedule_title": "Public Relations Strategies",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "290",
+        "capacity": "290",
+        "medium": "English"
+      },
+      "section_count": 4,
+      "semester_tag": "SemA+SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5405",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Consumer Behavior Insight",
+      "schedule_title": "Consumer Behavior Insight",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5506",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Social Network Analysis for Communication",
+      "schedule_title": "Social Network Analysis for Communication",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "N",
+        "available": "0",
+        "capacity": "0",
+        "medium": "English"
+      },
+      "section_count": 0,
+      "semester_tag": "SemB",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
+    },
+    {
+      "code": "COM5510",
+      "programmes": [
+        "MSVC"
+      ],
+      "programme_requirement_types": {
+        "MSVC": "elective"
+      },
+      "requirement_type": "elective",
+      "programme_title": "Introduction to Artificial Intelligence",
+      "schedule_title": "Introduction to Artificial Intelligence",
+      "title_changed": false,
+      "credits": 3,
+      "remarks": "Nil",
+      "prerequisites": "Nil",
+      "exclusive_course": "Nil",
+      "summary": {
+        "web": "Y",
+        "available": "130",
+        "capacity": "130",
+        "medium": "English"
+      },
+      "section_count": 3,
+      "semester_tag": "SemA",
+      "programme_elective_groups": {
+        "MSVC": "free_elective"
+      }
     }
   ]
 }

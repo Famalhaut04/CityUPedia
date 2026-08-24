@@ -1,0 +1,110 @@
+[
+  {
+    "crn": "10671",
+    "section": "S01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 10/10/2026",
+    "day": "T",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2610",
+    "instructor": "Zhilin YANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Marketing"
+    ]
+  },
+  {
+    "crn": "10671",
+    "section": "S01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 10/10/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3614",
+    "instructor": "Zhilin YANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Marketing"
+    ]
+  },
+  {
+    "crn": "13918",
+    "section": "S02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 10/10/2026",
+    "day": "M",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Zhilin YANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Marketing"
+    ]
+  },
+  {
+    "crn": "13918",
+    "section": "S02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 10/10/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Zhilin YANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Marketing"
+    ]
+  },
+  {
+    "crn": "10672",
+    "section": "S61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 10/10/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3614",
+    "instructor": "Zhilin YANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Marketing"
+    ]
+  },
+  {
+    "crn": "10672",
+    "section": "S61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 10/10/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2610",
+    "instructor": "Zhilin YANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Marketing"
+    ]
+  }
+]

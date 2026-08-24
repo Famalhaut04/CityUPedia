@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "14991",
+    "section": "S01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 14:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Long WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Management and Innovation"
+    ]
+  },
+  {
+    "crn": "13979",
+    "section": "S61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Jason KEI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Management and Innovation"
+    ]
+  },
+  {
+    "crn": "14992",
+    "section": "SA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 14:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Long WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  }
+]

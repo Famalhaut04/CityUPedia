@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "15427",
+    "section": "C62",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "23",
+    "capacity": "165",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M3017",
+    "instructor": "Sai Kishore RAVI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Energy and Environment"
+    ]
+  },
+  {
+    "crn": "13435",
+    "section": "CP3",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M3017",
+    "instructor": "Sai Kishore RAVI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  },
+  {
+    "crn": "13433",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "G4702",
+    "instructor": "Sai Kishore RAVI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Energy and Environment"
+    ]
+  },
+  {
+    "crn": "15477",
+    "section": "CP4",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M3017",
+    "instructor": "Sai Kishore RAVI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Civil & Arch Engg"
+    ]
+  }
+]

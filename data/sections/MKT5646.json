@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "10941",
+    "section": "S01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "70",
+    "capacity": "70",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 17:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Sau Lan Fanny CHEUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Marketing"
+    ]
+  },
+  {
+    "crn": "14091",
+    "section": "SA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 17:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Sau Lan Fanny CHEUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  }
+]
