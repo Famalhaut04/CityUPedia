@@ -124,6 +124,14 @@
     return terms.length ? terms[0] : "SemA";
   }
 
+  // 课程是否在指定学期开设：无学期标签视为不限制（任意学期可选）；
+  // 有标签（如 "SemA" / "SemB+Summer"）则必须包含该学期，用于学期隔离。
+  function courseOfferedInSemester(course, semester) {
+    const terms = courseTerms(course);
+    if (!terms.length) return true;
+    return terms.includes(normalizeSemester(semester));
+  }
+
   // 学期标签的 CSS 修饰类
   function termBadgeClass(term) {
     return term === "SemA" ? "term-a" : term === "SemB" ? "term-b" : term === "Summer" ? "term-summer" : "";
@@ -284,13 +292,32 @@
   const USER_SESSION = "CITYU-user-session"; // 学生登录会话（access_token 与过期时间）
   const USER_NICKNAME = "CITYU-user-nickname"; // 学生昵称（登录/注册时填写，评价默认显示）
 
+  function larkReviewsEnabled() {
+    try {
+      return Boolean(window.LARK_CONFIG && window.LARK_CONFIG.formUrl);
+    } catch {
+      return false;
+    }
+  }
+
   function cloudReviewsEnabled() {
+    if (larkReviewsEnabled()) return true;
     try {
       const config = window.CLOUD_CONFIG;
       return Boolean(config && config.supabaseUrl && config.supabaseAnonKey);
     } catch {
       return false;
     }
+  }
+
+  let larkReviewsCache = null;
+  async function getLarkReviews() {
+    if (larkReviewsCache) return larkReviewsCache;
+    const response = await fetch("data/lark-reviews.json");
+    if (!response.ok) return [];
+    const all = await response.json();
+    larkReviewsCache = Array.isArray(all) ? all : [];
+    return larkReviewsCache;
   }
 
   // 生成或读取本机唯一的 user_key（localStorage 持久化）
@@ -551,6 +578,10 @@
   // 读取某门课程的最新云端评价（按时间倒序，最多 20 条；配合 5 分钟会话缓存控制流量）
   async function fetchCloudReviews(code, options = {}) {
     if (!cloudReviewsEnabled()) return [];
+    if (larkReviewsEnabled()) {
+      const all = await getLarkReviews();
+      return all.filter((r) => String(r.course_code).toUpperCase() === String(code).toUpperCase());
+    }
     const force = Boolean(options.force);
     if (!force) {
       const cached = readCloudCache(code);
@@ -646,6 +677,17 @@
   async function fetchCloudReviewsBatch(codes) {
     const list = Array.isArray(codes) ? codes.map((c) => String(c).trim()).filter(Boolean) : [];
     if (!cloudReviewsEnabled() || !list.length) return {};
+    if (larkReviewsEnabled()) {
+      const all = await getLarkReviews();
+      const grouped = {};
+      all.forEach((r) => {
+        const code = String(r.course_code || "").toUpperCase();
+        if (!list.map((c) => c.toUpperCase()).includes(code)) return;
+        if (!grouped[code]) grouped[code] = [];
+        grouped[code].push(r);
+      });
+      return grouped;
+    }
     const config = window.CLOUD_CONFIG;
     const url = `${config.supabaseUrl}/rest/v1/course_reviews?course_code=in.(${list.map((c) => encodeURIComponent(c)).join(",")})&limit=1000`;
     const response = await fetch(url, {
@@ -1037,7 +1079,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-update-notice-pdffix2") === "dismissed") return;
+      if (localStorage.getItem("cityu-update-notice-v1.1.0") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1045,13 +1087,13 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "Mobile PDF display issue fixed" : "移动端 PDF 显示问题已修复") + '</strong>' +
-        '<span>' + (isEn ? "Fixed blank PDFs on mobile: course document PDFs and exported timetable PDFs now display correctly after download." : "修复了课程 PDF 与排课台导出 PDF 在手机端下载后白屏无法查看的问题，现均可正常打开。") + '</span>' +
+        '<strong>' + (isEn ? "Updated to v1.1.0" : "已更新至 v1.1.0") + '</strong>' +
+        '<span>' + (isEn ? "Selection logic improved: courses are now locked to their semester, and switching semesters resets the timetable. The course review module is now live — share your experience." : "选课逻辑优化：a 学期的课程不再能在 b 学期选上，切换学期时课表自动归零；课程评价模块正式上线，欢迎分享你的课程体验。") + '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-update-notice-pdffix2", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-update-notice-v1.1.0", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }
@@ -1075,8 +1117,10 @@
     PROGRAMME_KEY,
     clearSelections,
     cloudReviewsEnabled,
+    larkReviewsEnabled,
     courseProgrammes,
     courseTerms,
+    courseOfferedInSemester,
     primarySemester,
     termBadgeClass,
     currentAdmin,

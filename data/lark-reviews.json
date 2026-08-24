@@ -1,0 +1,11 @@
+[
+  {
+    "id": "recvsTULXygiDQ",
+    "course_code": "CS1102",
+    "nickname": "测试同学",
+    "course_professor": "计算机科学导论",
+    "comment": "这是一条测试评价，用于验证从多维表格同步到网站的完整流程。",
+    "rating": 5,
+    "created_at": "2026-08-21T04:07:31Z"
+  }
+]
