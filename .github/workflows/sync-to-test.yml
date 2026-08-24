@@ -1,6 +1,6 @@
 name: Sync to Test (CityUPediaTest)
 
-# 正式版更新/修复同步到测试版：手动触发，把正式版 v1.0 的内容同步到测试版 main
+# 正式版更新/修复同步到测试版：手动触发，把正式版 main 的内容同步到测试版 main
 on:
   workflow_dispatch:
 
@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Sync CityUPedia v1.0 -> CityUPediaTest main
+      - name: Sync CityUPedia main -> CityUPediaTest main
         env:
           SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
-        run: python tools/cross_repo_sync.py --src CityUPedia --src-ref v1.0 --dst CityUPediaTest --dst-ref main --direction prod_to_test
+        run: python tools/cross_repo_sync.py --src CityUPedia --src-ref main --dst CityUPediaTest --dst-ref main --direction prod_to_test
