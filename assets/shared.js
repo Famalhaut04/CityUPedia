@@ -1079,7 +1079,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-update-notice-v1.1.0") === "dismissed") return;
+      if (localStorage.getItem("cityu-update-notice-v1.2.0") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1087,13 +1087,13 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "Updated to v1.1.0" : "已更新至 v1.1.0") + '</strong>' +
-        '<span>' + (isEn ? "Selection logic improved: courses are now locked to their semester, and switching semesters resets the timetable. The course review module is now live — share your experience." : "选课逻辑优化：a 学期的课程不再能在 b 学期选上，切换学期时课表自动归零；课程评价模块正式上线，欢迎分享你的课程体验。") + '</span>' +
+        '<strong>' + (isEn ? "Updated to v1.2.0" : "已更新至 v1.2.0") + '</strong>' +
+        '<span>' + (isEn ? "New: CityUHK Academy of Innovation and MSc Venture Creation (MSVC) programme — now 206 courses in total. The course review module is live, share your experience." : "新增城大创新学院（Academy of Innovation）与创新创业理学硕士（MSVC）项目，课程总数增至 206 门；课程评价模块持续开放，欢迎分享你的课程体验。") + '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-update-notice-v1.1.0", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-update-notice-v1.2.0", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }

@@ -1,6 +1,8 @@
 # 更新日志 / Changelog
 
-## 未发布（Unreleased）
+## 1.2.0（CityUPedia 1.2.0）· 2026-08-24
+
+> 新增城大创新学院（Academy of Innovation）与创新创业理学硕士（MSVC）项目。
 
 ### 新增创新学院与 MSVC 项目
 
