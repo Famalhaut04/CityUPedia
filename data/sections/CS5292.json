@@ -7,65 +7,11 @@
     "available": "112",
     "capacity": "112",
     "date": "31/08/2026 - 28/11/2026",
-    "day": "R",
-    "time": "15:00 - 16:50",
-    "building": "Li Dak Sum Yip Yio Chin A Bldg",
-    "room": "3614",
-    "instructor": "CS009 TBA",
-    "medium": "English",
-    "notes": [
-      "only for Programme: MSc Cybersecurity"
-    ]
-  },
-  {
-    "crn": "15391",
-    "section": "C61",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "112",
-    "capacity": "112",
-    "date": "31/08/2026 - 28/11/2026",
     "day": "W",
     "time": "19:00 - 20:50",
     "building": "Yeung Kin Man Acad Building",
     "room": "LT-11",
-    "instructor": "CS009 TBA",
-    "medium": "English",
-    "notes": [
-      "only for Programme: MSc Cybersecurity"
-    ]
-  },
-  {
-    "crn": "15392",
-    "section": "T61",
-    "credits": 0.0,
-    "web": "Y",
-    "available": "112",
-    "capacity": "112",
-    "date": "31/08/2026 - 28/11/2026",
-    "day": "R",
-    "time": "17:00 - 17:50",
-    "building": "Li Dak Sum Yip Yio Chin A Bldg",
-    "room": "3614",
-    "instructor": "CS009 TBA",
-    "medium": "English",
-    "notes": [
-      "only for Programme: MSc Cybersecurity"
-    ]
-  },
-  {
-    "crn": "15392",
-    "section": "T61",
-    "credits": 0.0,
-    "web": "Y",
-    "available": "112",
-    "capacity": "112",
-    "date": "31/08/2026 - 28/11/2026",
-    "day": "R",
-    "time": "17:00 - 17:50",
-    "building": "Yeung Kin Man Acad Building",
-    "room": "G7510",
-    "instructor": "CS009 TBA",
+    "instructor": "TBA CS009",
     "medium": "English",
     "notes": [
       "only for Programme: MSc Cybersecurity"
@@ -83,7 +29,7 @@
     "time": "21:00 - 21:50",
     "building": "Li Dak Sum Yip Yio Chin A Bldg",
     "room": "G600",
-    "instructor": "CS009 TBA",
+    "instructor": "TBA CS009",
     "medium": "English",
     "notes": [
       "only for Programme: MSc Cybersecurity"
@@ -101,7 +47,7 @@
     "time": "21:00 - 21:50",
     "building": "Yeung Kin Man Acad Building",
     "room": "LT-11",
-    "instructor": "CS009 TBA",
+    "instructor": "TBA CS009",
     "medium": "English",
     "notes": [
       "only for Programme: MSc Cybersecurity"

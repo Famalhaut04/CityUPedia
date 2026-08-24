@@ -1085,7 +1085,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-update-notice-v1.2.1") === "dismissed") return;
+      if (localStorage.getItem("cityu-schedule-update-20260825") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1093,13 +1093,16 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "Updated to v1.2.1" : "已更新至 v1.2.1") + '</strong>' +
-        '<span>' + (isEn ? "Fixed: courses without fixed time slots (e.g. CAI6001/CAI6003) no longer make the timetable appear empty; the Selected list no longer shows empty dropdowns." : "修复：CAI6001、CAI6003 等无固定上课时段的课程加入课表后，课表不再误显示为空；「已选」列表也不再出现空下拉框。") + '</span>' +
+        '<strong>' + (isEn ? "Schedule Updated (Aug 25)" : "课表数据已更新（8/25）") + '</strong>' +
+        '<span>' + (isEn
+          ? "CS5292 moved to Wed-only (no longer conflicts with CS6480); CS5222 C61 moved from Tue to Mon; added CS6480 AI Oracles for Multiagent Economic Systems."
+          : "CS5292 改为仅周三上课（与 CS6480 不再冲突）；CS5222 C61 从周二调整至周一；新增 CS6480 多智能体经济系统中的 AI 预言机。") +
+        '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-update-notice-v1.2.1", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-schedule-update-20260825", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }
