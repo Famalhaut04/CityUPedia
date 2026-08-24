@@ -1095,8 +1095,8 @@
       '<div class="update-notice-body">' +
         '<strong>' + (isEn ? "Schedule Updated (Aug 25)" : "课表数据已更新（8/25）") + '</strong>' +
         '<span>' + (isEn
-          ? "CS5292 moved to Wed-only (no longer conflicts with CS6480); added CS6480 AI Oracles for Multiagent Economic Systems with syllabus."
-          : "CS5292 改为仅周三上课（与 CS6480 不再冲突）；新增 CS6480 多智能体经济系统中的 AI 预言机，并附课程介绍。") +
+          ? "CS5292 moved to Wed-only (no longer conflicts with CS6480); CS5489 tutorials moved to Thu; added CS6480 AI Oracles for Multiagent Economic Systems with syllabus."
+          : "CS5292 改为仅周三上课（与 CS6480 不再冲突）；CS5489 本科辅导课改至周四；新增 CS6480 多智能体经济系统中的 AI 预言机（附课程介绍）。") +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
