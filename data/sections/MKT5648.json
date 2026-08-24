@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "14092",
+    "section": "SA1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "14:00 - 16:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3614",
+    "instructor": "Huazhong ZHAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  },
+  {
+    "crn": "13249",
+    "section": "S01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "53",
+    "capacity": "53",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "14:00 - 16:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3614",
+    "instructor": "Huazhong ZHAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Marketing"
+    ]
+  }
+]

@@ -25,6 +25,9 @@ CityU Pedia（城大百科）是一个为**香港城市大学（CityU）授课�
 | MSEC | 电子商贸理学硕士（MSc Electronic Commerce） | Department of Computer Science |
 | MSDS | 数据科学理学硕士（MSc Data Science） | Department of Data Science |
 | MSAIFS | 人工智能与科学理学硕士（MSc AI for Sciences） | Department of Data Science |
+| MSVC | 创新创业理学硕士（MSc Venture Creation） | CityUHK Academy of Innovation |
+
+> 创新学院（CityUHK Academy of Innovation）为计算学院以外的第一个学院，其 MSVC 项目的选修课来自会计、管理、市场营销、信息系统、传播、能源环境、公共政策、社会科学与系统工程等多个院系。
 
 ## 网页版主要功能
 

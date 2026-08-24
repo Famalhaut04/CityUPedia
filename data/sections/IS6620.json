@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15293",
+    "section": "S02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 11:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "6-213",
+    "instructor": "Man Kit LAU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Management and Innovation"
+    ]
+  },
+  {
+    "crn": "15292",
+    "section": "S01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 11:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "6-213",
+    "instructor": "Man Kit LAU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Management and Innovation"
+    ]
+  }
+]

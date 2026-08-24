@@ -1,0 +1,57 @@
+[
+  {
+    "crn": "12964",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "104",
+    "capacity": "104",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "11:00 - 13:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M5050",
+    "instructor": "King Pui Louis LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Engineering Doctorate",
+      "only for Programme: MSc Engineering Management"
+    ]
+  },
+  {
+    "crn": "12965",
+    "section": "C62",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "11:00 - 13:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M5050",
+    "instructor": "King Pui Louis LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Intelligent Semicon Mfg"
+    ]
+  },
+  {
+    "crn": "13291",
+    "section": "CP1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "11:00 - 13:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M5050",
+    "instructor": "King Pui Louis LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  }
+]

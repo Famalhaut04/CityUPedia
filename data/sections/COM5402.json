@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "14902",
+    "section": "CM1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M8051",
+    "instructor": "Tenniel TAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Integrated Mktg Communicatn"
+    ]
+  },
+  {
+    "crn": "14464",
+    "section": "CV1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "50",
+    "capacity": "50",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "15:00 - 17:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M8051",
+    "instructor": "COM08 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  },
+  {
+    "crn": "11165",
+    "section": "CX1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "15:00 - 17:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M8051",
+    "instructor": "COM08 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Communication & New Media"
+    ]
+  },
+  {
+    "crn": "10195",
+    "section": "CY1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M5050",
+    "instructor": "Tenniel TAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Integrated Mktg Communicatn"
+    ]
+  }
+]

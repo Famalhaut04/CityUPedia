@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "11284",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "230",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Inter-Continental Plaza",
+    "room": "B-101",
+    "instructor": "Xijing WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSocSc Psychology"
+    ]
+  }
+]

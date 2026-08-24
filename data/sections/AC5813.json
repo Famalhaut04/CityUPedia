@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "13942",
+    "section": "S61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1507",
+    "instructor": "Liu ZHENG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  },
+  {
+    "crn": "13941",
+    "section": "S01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2610",
+    "instructor": "Liu ZHENG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  }
+]

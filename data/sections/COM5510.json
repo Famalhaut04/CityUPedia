@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "15043",
+    "section": "CB1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M8051",
+    "instructor": "Jingyi PU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  },
+  {
+    "crn": "14255",
+    "section": "CM1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M8051",
+    "instructor": "Jingyi PU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Integrated Mktg Communicatn"
+    ]
+  },
+  {
+    "crn": "14254",
+    "section": "CN1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M8051",
+    "instructor": "Jingyi PU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Communication & New Media"
+    ]
+  }
+]

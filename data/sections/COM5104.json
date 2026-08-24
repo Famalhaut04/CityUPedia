@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "13176",
+    "section": "CN1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "140",
+    "capacity": "140",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "15:00 - 17:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M3017",
+    "instructor": "Edmund LEE",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Communication & New Media"
+    ]
+  },
+  {
+    "crn": "10155",
+    "section": "CM1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "140",
+    "capacity": "140",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 14:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M9001",
+    "instructor": "Muhammad MASOOD",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Integrated Mktg Communicatn"
+    ]
+  },
+  {
+    "crn": "10154",
+    "section": "CX1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M9001",
+    "instructor": "Guanxiong HUANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Communication & New Media"
+    ]
+  },
+  {
+    "crn": "14325",
+    "section": "CY1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M9001",
+    "instructor": "Guanxiong HUANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Integrated Mktg Communicatn"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15074",
+    "section": "CY1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M9001",
+    "instructor": "COM17 TBA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Integrated Mktg Communicatn"
+    ]
+  },
+  {
+    "crn": "14903",
+    "section": "CV1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M8061",
+    "instructor": "David CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  }
+]

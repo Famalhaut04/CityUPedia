@@ -1,0 +1,97 @@
+[
+  {
+    "crn": "15954",
+    "section": "S04",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "76",
+    "capacity": "76",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "15:00 - 17:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2505",
+    "instructor": "Chi Wai Ron KWOK",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc AI in Business",
+      "only for Programme: MSc Bus Info Sys",
+      "only for Programme: MSc Business & Data Analytics"
+    ]
+  },
+  {
+    "crn": "13411",
+    "section": "S02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "6-213",
+    "instructor": "Chi Wai Ron KWOK",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Management and Innovation"
+    ]
+  },
+  {
+    "crn": "14017",
+    "section": "S62",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2610",
+    "instructor": "Chi Wai Ron KWOK",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  },
+  {
+    "crn": "13428",
+    "section": "S03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "12:00 - 14:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "6-213",
+    "instructor": "Chi Wai Ron KWOK",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Management and Innovation"
+    ]
+  },
+  {
+    "crn": "12951",
+    "section": "S61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "134",
+    "capacity": "190",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "R R S Creative Media Centre",
+    "room": "M3017",
+    "instructor": "Chi Wai Ron KWOK",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc AI in Business",
+      "only for Programme: MSc Bus Info Sys",
+      "only for Programme: MSc Business & Data Analytics",
+      "only for Programme: MSc Dig Trnsfm'n & Tech'l Inno"
+    ]
+  }
+]

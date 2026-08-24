@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "12301",
+    "section": "S02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "72",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 14:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2614",
+    "instructor": "Zhongwen FAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Prof Actg &Corp Governance"
+    ]
+  },
+  {
+    "crn": "10630",
+    "section": "S01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "2",
+    "capacity": "72",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2510",
+    "instructor": "Yangyang CHEN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Prof Actg &Corp Governance"
+    ]
+  },
+  {
+    "crn": "10631",
+    "section": "S61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "72",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-8",
+    "instructor": "Zhongwen FAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Prof Actg &Corp Governance"
+    ]
+  },
+  {
+    "crn": "13947",
+    "section": "SP1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "P4302",
+    "instructor": "Zhongwen FAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  }
+]

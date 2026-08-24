@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15106",
+    "section": "CQ1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "21",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1503",
+    "instructor": "Huanhuan ZHENG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSocSc Sustainability & Dev St"
+    ]
+  },
+  {
+    "crn": "15107",
+    "section": "CV1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1503",
+    "instructor": "Huanhuan ZHENG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSc Venture Creation"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "10156",
+    "section": "CY2",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-13",
+    "instructor": "Sing Lai CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Integrated Mktg Communicatn"
+    ]
+  },
+  {
+    "crn": "13177",
+    "section": "CY1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-4",
+    "instructor": "Sing Lai CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Integrated Mktg Communicatn"
+    ]
+  },
+  {
+    "crn": "14898",
+    "section": "CW1",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-13",
+    "instructor": "Sing Lai CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA Housing & Urban Management"
+    ]
+  }
+]
