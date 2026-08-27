@@ -345,7 +345,7 @@
    "credits": 3,
    "remarks": "AC",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "AC5815 / AC5870",
    "summary": {
     "web": "Y",
     "available": "0",
@@ -698,7 +698,7 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "BMS5001A",
    "summary": {
     "web": "N",
     "available": "0",
@@ -781,7 +781,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
+   "prerequisites": "分子生物学或基因组学（Molecular biology or genomics）",
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
@@ -837,7 +837,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
+   "prerequisites": "建议具备 Python 编程与数据可视化背景（preferred, 非强制）",
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
@@ -977,7 +977,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
+   "prerequisites": "需先修生物化学/分子生物学及细胞生物学课程（Completed course(s) in Biochemistry/Molecular Biology and Cell Biology）",
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
@@ -3980,7 +3980,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
+   "prerequisites": "材料科学基础知识；微积分；线性代数；Python 基础",
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
@@ -4484,7 +4484,7 @@
    "credits": 6,
    "remarks": "CC",
    "prerequisites": "完成至少 15 个 MSEC 学分",
-   "exclusive_course": "Nil",
+   "exclusive_course": "CS6521 Research/Internship Project 或 CS6538 Research/Internship Project",
    "summary": {
     "web": "N",
     "available": "0",
@@ -4509,7 +4509,7 @@
    "credits": 3,
    "remarks": "EF",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "FB5001",
    "summary": {
     "web": "Y",
     "available": "0",
@@ -5004,7 +5004,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
+   "prerequisites": "LW5601 Hong Kong Legal System 及 LW5622 Legal Methods, Research and Writing 及 LW5602A Law of Contract I（2026/27 学年不开设）",
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
@@ -5081,7 +5081,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
+   "prerequisites": "MA5617 Statistical Data Analysis，或通过 PH5102 且 BIOS5800 且 BIOS5801",
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
@@ -5525,7 +5525,7 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "FB6721",
    "summary": {
     "web": "N",
     "available": "0",
@@ -5550,7 +5550,7 @@
    "credits": 3,
    "remarks": "需批准",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "AP8301 Instrumental Methods of Analysis and Laboratory",
    "summary": {
     "web": "N",
     "available": "0",
@@ -5606,7 +5606,7 @@
    "credits": 3,
    "remarks": "需批准",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "AP8181",
    "summary": {
     "web": "N",
     "available": "0",
@@ -5618,6 +5618,34 @@
    "programme_elective_groups": {
     "MSAIFS": "track1"
    }
+  },
+  {
+   "code": "MSE6183",
+   "programmes": [
+    "MSAIFS"
+   ],
+   "programme_requirement_types": {
+    "MSAIFS": "elective"
+   },
+   "programme_elective_groups": {
+    "MSAIFS": "track1"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Computational Methods for Materials Science",
+   "schedule_title": "Computational Methods for Materials Science",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "N",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
   },
   {
    "code": "MSE6265",
@@ -5634,7 +5662,7 @@
    "credits": 3,
    "remarks": "需批准",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "AP5265 / AP8265",
    "summary": {
     "web": "N",
     "available": "0",
@@ -5928,7 +5956,7 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "AP8172 / PHY8502",
    "summary": {
     "web": "N",
     "available": "0",
@@ -5956,7 +5984,7 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "PHY8603",
    "summary": {
     "web": "N",
     "available": "0",
@@ -5983,8 +6011,8 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "建议先学习 Python 编程（建议先修 PHY5504 Data Acquisition and Processing Skills for Physicists I）",
+   "exclusive_course": "PHY8604",
    "summary": {
     "web": "N",
     "available": "0",
