@@ -1085,7 +1085,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-schedule-update-20260825") === "dismissed") return;
+      if (localStorage.getItem("cityu-schedule-update-20260827") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1093,16 +1093,16 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "Schedule Updated (Aug 25)" : "课表数据已更新（8/25）") + '</strong>' +
+        '<strong>' + (isEn ? "Course Library Expanded (Aug 27)" : "课程库已扩充（8/27）") + '</strong>' +
         '<span>' + (isEn
-          ? "CS5292 moved to Wed-only (no longer conflicts with CS6480); CS5489 tutorials moved to Thu; added CS6480 AI Oracles for Multiagent Economic Systems with syllabus."
-          : "CS5292 改为仅周三上课（与 CS6480 不再冲突）；CS5489 本科辅导课改至周四；新增 CS6480 多智能体经济系统中的 AI 预言机（附课程介绍）。") +
+          ? "28 new courses added (MSAI projects/internships & streams, MSEC cross-department electives, MSBIOS electives); CS6480 is now an MSCY Group I elective; prerequisites completed for major courses."
+          : "新增 28 门课程（MSAI 项目/实习与分流课、MSEC 跨院系选修、MSBIOS 选修等）；CS6480 调整为网安 Group I 选修；补全主要课程的前置要求。") +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-schedule-update-20260825", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-schedule-update-20260827", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }
