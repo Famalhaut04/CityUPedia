@@ -17,6 +17,7 @@
 - **其他学院课程覆盖核对**：确认计算学院各专业涉及的其他学院课程已全覆盖——MSEC 非 CS/IS 选修 10 门（AC5511/AC5803、EF5010/EF5042、LW5643/LW5962/LW6113E、MKT5644、MS6721、SYE6012）无遗漏；MSAIFS 四方向课程（BMS/CHEM/PHY/MSE/SEE/DSC）核对无遗漏，新增 **MSE6183 Computational Methods for Materials Science**（Track 1）；MSDS/MSAI/MSCY 官方清单不涉及外学院课程
 - **跨学院课程前置标注**：补全 7 门课程前置要求（BMS5008 分子生物学/基因组学、BMS8112 生化与细胞生物学、BMS5010 Python 与数据可视化背景、PHY6604 Python 先修建议、DSC6025 材料/微积分/线性代数/Python、LW5643 三门法学课前置、MA6630 统计先修），并为 11 门课标注互斥课程（EC6001、PHY6502/6603/6604、MSE5301/6181/6265、BMS5001、AC5803、EF5010、MS6721）
 - **课程总数**：207 → **236**，新增课程均已建立空班次与评价数据文件
+- **PDF 与页图覆盖率 100%**：补全 29 门缺失的官方课程大纲 PDF（CS6288、MSAI 项目/实习系列 13 门、IS 系 6 门、LW/MS/MA/MSE/PH 系课程），并为全部 236 门课程生成 150 DPI 页图（assets/course-pages/<CODE>/page-NNN.jpg），更新 data/course-documents/images.json（236 门 / 1641 页）和 index.json
 
 ## 1.2.2（CityUPedia 1.2.2）· 2026-08-25
 
