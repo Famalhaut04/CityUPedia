@@ -1596,6 +1596,39 @@ body {
   60% { transform: translateX(2px); }
 }
 
+.conflict-detail {
+  margin: 8px 0 4px;
+  padding: 10px 14px;
+  border: 1px solid rgba(220, 38, 38, 0.18);
+  border-radius: 10px;
+  background: rgba(220, 38, 38, 0.04);
+  font-size: 12px;
+  color: var(--danger);
+}
+
+.conflict-detail[hidden] {
+  display: none;
+}
+
+.conflict-detail-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+
+.conflict-detail-list li {
+  display: inline-block;
+  padding: 3px 9px;
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  border-radius: 999px;
+  background: #fff;
+  font-size: 11.5px;
+  font-weight: 600;
+}
+
 .timetable-scroll {
   width: 100%;
   overflow-x: auto;
@@ -1688,6 +1721,14 @@ body {
   border-right: 1px solid var(--hairline);
   background-image: linear-gradient(to bottom, transparent calc(100% - 1px), var(--hairline) 1px);
   background-size: 100% var(--hour-height);
+}
+
+.day-column.has-stack {
+  background-color: rgba(43, 108, 176, 0.04);
+}
+
+.day-column.has-conflict {
+  background-color: rgba(220, 38, 38, 0.05);
 }
 
 .day-column::after {
@@ -3017,6 +3058,27 @@ body {
   margin-top: 7px;
   font-size: 12px;
   line-height: 1.55;
+}
+
+.fact strong .course-mention {
+  display: inline-block;
+  margin: 1px 2px;
+  padding: 1px 7px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 11.5px;
+  transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.fact strong .course-mention:hover,
+.fact strong .course-mention:focus {
+  background: var(--accent);
+  color: #fff;
+  transform: translateY(-1px);
 }
 
 .section-table-wrap {

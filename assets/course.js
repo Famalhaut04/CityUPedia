@@ -8,7 +8,7 @@
   const backLabel = fromReviews ? "← 返回课程评价" : "← 返回课程表";
 
   function fact(label, value) {
-    return `<div class="fact"><span>${MSDS.escapeHtml(label)}</span><strong>${MSDS.escapeHtml(value || "无")}</strong></div>`;
+    return `<div class="fact"><span>${MSDS.escapeHtml(label)}</span><strong>${value || "无"}</strong></div>`;
   }
 
   // 评价星级选择器：5 个可点击的星，支持悬停预览与点击选择
@@ -22,6 +22,7 @@
   }
 
   function renderCourse(data, course, courseDocument) {
+    const coursesByCode = Object.fromEntries(data.courses.map((c) => [c.code, c]));
     const rec = MSDS.getRecommendation(course);
     const sourceStore = data.sources || {};
     const sourceReviewStore = data.sourceReviews || {};
@@ -157,8 +158,8 @@
                 ? "核心课"
                 : (displayGroupInfo ? `选修课（${displayGroupInfo.label_zh}）` : "选修课"))}
               ${fact("所属项目", courseProgrammes.map((pCode) => MSDS.getProgramme(data, pCode).code).join("、"))}
-              ${fact("先修要求", course.prerequisites === "Nil" ? "无" : course.prerequisites)}
-              ${fact("互斥课程", course.exclusive_course === "Nil" ? "无" : course.exclusive_course)}
+              ${fact("先修要求", MSDS.renderCourseMentions(course.prerequisites === "Nil" ? "无" : course.prerequisites, coursesByCode))}
+              ${fact("互斥课程", MSDS.renderCourseMentions(course.exclusive_course === "Nil" ? "无" : course.exclusive_course, coursesByCode))}
               ${fact("授课语言", course.summary?.medium)}
               ${fact("授课教师", instructors)}
               ${fact("注册状态", webStatus)}

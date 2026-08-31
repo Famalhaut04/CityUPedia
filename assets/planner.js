@@ -433,7 +433,10 @@
     const events = selectedEvents();
     const columns = document.getElementById("day-columns");
     columns.innerHTML = DAYS.map((day) => {
-      const blocks = events.filter((event) => event.section.day === day).map((event) => {
+      const dayEvents = events.filter((event) => event.section.day === day);
+      const dayMaxLane = dayEvents.reduce((max, event) => Math.max(max, event.laneCount), 1);
+      const dayHasConflict = dayEvents.some((event) => event.conflict);
+      const blocks = dayEvents.map((event) => {
         const top = ((event.start - START_HOUR * 60) / 60) * 60;
         const height = Math.max(34, ((event.end - event.start) / 60) * 60);
         const width = 100 / event.laneCount;
@@ -455,7 +458,10 @@
           </span>
         </div>`;
       }).join("");
-      return `<div class="day-column" data-day-column="${day}">${blocks}</div>`;
+      const dayClasses = ["day-column"];
+      if (dayMaxLane > 1) dayClasses.push("has-stack");
+      if (dayHasConflict) dayClasses.push("has-conflict");
+      return `<div class="${dayClasses.join(' ')}" data-day-column="${day}" data-lane-max="${dayMaxLane}">${blocks}</div>`;
     }).join("");
 
     // 有些课程没有固定上课时段（如 MSVC 的 CAI6001/CAI6003 这类跨学期课程，
@@ -481,11 +487,53 @@
     const status = document.getElementById("conflict-status");
     if (conflicts.length) {
       status.className = "conflict-status has-conflict";
+      // 按天聚合冲突对，输出「周一 19:00-20:50：CS5292 与 CS6480」之类明细
+      const summary = summarizeConflicts(events);
       status.textContent = `${new Set(conflicts.map((event) => event.course.code)).size} 门课程冲突`;
+      status.title = summary;
+      renderConflictDetailList(summary);
     } else {
       status.className = "conflict-status is-clear";
       status.textContent = "暂无冲突";
+      status.title = "";
+      renderConflictDetailList("");
     }
+  }
+
+  // 把冲突按（day, 时间区间）分组，输出易读的明细，例：
+  // "周一 19:00 - 20:50：CS5292、CS6480"
+  function summarizeConflicts(events) {
+    // key = day|start-end；value = course codes
+    const groups = new Map();
+    events.forEach((event) => {
+      if (!event.conflict) return;
+      const day = MSDS.DAY_NAMES[event.section.day] || event.section.day;
+      const start = event.section.time.split(" - ")[0];
+      const end = event.section.time.split(" - ")[1];
+      const key = `${day}|${start}-${end}`;
+      if (!groups.has(key)) groups.set(key, { day, start, end, codes: new Set() });
+      groups.get(key).codes.add(event.course.code);
+    });
+    const lines = [];
+    groups.forEach((g) => {
+      if (g.codes.size > 1) {
+        lines.push(`${g.day} ${g.start} - ${g.end}：${[...g.codes].join("、")}`);
+      }
+    });
+    return lines.join("\n");
+  }
+
+  // 渲染冲突明细列表（独立 DOM 节点，紧跟在状态徽章后）
+  function renderConflictDetailList(summary) {
+    const host = document.getElementById("conflict-detail");
+    if (!host) return;
+    if (!summary) { host.hidden = true; host.innerHTML = ""; return; }
+    const lines = summary.split("\n");
+    host.hidden = false;
+    host.innerHTML =
+      '<ul class="conflict-detail-list">' +
+      lines.map((line) => `<li>${MSDS.escapeHtml(line)}</li>`).join("") +
+      "</ul>";
   }
 
   function updateSummary() {

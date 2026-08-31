@@ -30,6 +30,27 @@
       .replaceAll("'", "&#039;");
   }
 
+  // 把文本里识别到的课程代码（CSDSCISMS… + 4 位数字 + 可选字母后缀）转成可点击链接。
+  // 已知课程代码列表用于消歧（不会链接到不存在的课程）。
+  // 例：输入 "CS3334 Data Structures and CS5487 Machine Learning: Principles and Practice"
+  //   输出 "<a href='course.html?code=CS3334'>CS3334</a> Data Structures and <a href='course.html?code=CS5487'>CS5487</a> Machine Learning: ..."
+  function renderCourseMentions(text, coursesByCode) {
+    if (text == null) return "";
+    const raw = String(text);
+    if (!raw) return "";
+    const known = coursesByCode && typeof coursesByCode === "object"
+      ? new Set(Object.keys(coursesByCode))
+      : null;
+    const esc = escapeHtml(raw);
+    const pattern = /\b([A-Z]{2,5})(?:\s|-)?(\d{4}[A-Z]?)\b/g;
+    return esc.replace(pattern, (match, prefix, num) => {
+      const code = `${prefix}${num}`;
+      // 已知的课程代码才生成链接，避免误把无关文本当课程码
+      if (known && !known.has(code)) return match;
+      return `<a class="course-mention" href="course.html?code=${encodeURIComponent(code)}" data-code="${code}">${match}</a>`;
+    });
+  }
+
   function loadCourseData() {
     if (!courseDataPromise) {
       const getJson = (url) => fetch(url).then((response) => {
@@ -1085,7 +1106,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-schedule-update-20260827") === "dismissed") return;
+      if (localStorage.getItem("cityu-schedule-update-20260831") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1093,16 +1114,16 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "Course Library Expanded (Aug 27)" : "课程库已扩充（8/27）") + '</strong>' +
+        '<strong>' + (isEn ? "Timetable & Course Pages Upgraded (Aug 31)" : "课表与课程页体验升级（8/31）") + '</strong>' +
         '<span>' + (isEn
-          ? "28 new courses added (MSAI projects/internships & streams, MSEC cross-department electives, MSBIOS electives); CS6480 is now an MSCY Group I elective; prerequisites completed for major courses."
-          : "新增 28 门课程（MSAI 项目/实习与分流课、MSEC 跨院系选修、MSBIOS 选修等）；CS6480 调整为网安 Group I 选修；补全主要课程的前置要求。") +
+          ? "Stacked layout now visible when courses overlap; conflict summary shows exact time slots; prerequisite and exclusive course references in detail pages are now clickable."
+          : "课表冲突时段已自动垂直堆叠并展示「冲突时段 + 课程」明细；课程详情页「先修要求」「互斥课程」里的课程代码现已可点击跳转。") +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-schedule-update-20260827", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-schedule-update-20260831", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }
@@ -1135,6 +1156,7 @@
     currentAdmin,
     deleteCloudReview,
     escapeHtml,
+    renderCourseMentions,
     fetchCloudReviews,
     fetchCloudReviewsBatch,
     findSection,
