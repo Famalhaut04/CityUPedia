@@ -916,6 +916,40 @@ body {
   box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
 }
 
+.course-row.has-prereq-warning {
+  border-color: #d97706;
+  background: linear-gradient(180deg, rgba(217, 119, 87, 0.06), transparent);
+}
+
+.course-row.has-core-conflict {
+  border-color: #dc2626;
+  background: linear-gradient(180deg, rgba(220, 38, 38, 0.06), transparent);
+}
+
+.course-row.has-prereq-warning.has-core-conflict {
+  border-color: #dc2626;
+  background: linear-gradient(180deg, rgba(220, 38, 38, 0.10), rgba(217, 119, 87, 0.04));
+}
+
+.course-block-warning {
+  grid-column: 1 / -1;
+  padding: 6px 10px;
+  margin: 0 0 6px;
+  border-radius: 8px;
+  background: rgba(220, 38, 38, 0.08);
+  border: 1px solid rgba(220, 38, 38, 0.25);
+  color: var(--danger);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.course-row.has-prereq-warning .course-block-warning {
+  background: rgba(217, 119, 87, 0.10);
+  border-color: rgba(217, 119, 87, 0.4);
+  color: #b45309;
+}
+
 .course-row-main {
   min-width: 0;
 }

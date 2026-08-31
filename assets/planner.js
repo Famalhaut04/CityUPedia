@@ -46,8 +46,69 @@
     return courses.find((course) => course.code === code);
   }
 
+  // 从课程的 prerequisites 字段里提取出所有有效课程代码（必须是课程库中存在的）
+  function prereqCodes(course) {
+    const text = course?.prerequisites;
+    if (!text || text === "Nil") return [];
+    const known = new Set(courses.map((c) => c.code));
+    const matches = String(text).match(/\b[A-Z]{2,5}\s?-?\d{4}[A-Z]?\b/g) || [];
+    return [...new Set(matches.map((m) => m.replace(/\s|-/g, "")))].filter((code) => known.has(code));
+  }
+
+  // 该课程若加入课表，前置要求中有哪些课程尚未选（返回未满足的代码列表）
+  function unmetPrereqs(course) {
+    if (!course || course.prerequisites === "Nil" || !course.prerequisites) return [];
+    return prereqCodes(course).filter((code) => !selections[code]);
+  }
+
+  // 把所有"已选且为核心课"的事件提取出来，用来检测候选课是否与核心课冲突
+  function coreEvents() {
+    const out = [];
+    programmeCourses().forEach((course) => {
+      if (!selections[course.code]) return;
+      if (requirementTypeOf(course) !== "core") return;
+      const selected = selections[course.code];
+      [selected.primaryCrn, selected.tutorialCrn].filter(Boolean).forEach((key) => {
+        const meetings = course.eligible_sections.filter((item) => MSDS.sectionKey(item) === String(key));
+        const byDayTime = new Map();
+        meetings.forEach((item) => {
+          if (!item.time || !DAYS.includes(item.day)) return;
+          const dtKey = `${item.day}|${item.time}`;
+          if (!byDayTime.has(dtKey)) byDayTime.set(dtKey, item);
+        });
+        byDayTime.forEach((section) => {
+          const [s, e] = section.time.split(" - ");
+          out.push({ day: section.day, start: minutes(s), end: minutes(e), code: course.code });
+        });
+      });
+    });
+    return out;
+  }
+
+  // 候选课程加入后是否会与"已选核心课"时间冲突（任一时段重叠即视为冲突）
+  function conflictsWithCore(course, primaryCrn, tutorialCrn) {
+    const cores = coreEvents();
+    if (!cores.length) return false;
+    const sections = [];
+    [primaryCrn, tutorialCrn].filter(Boolean).forEach((key) => {
+      course.eligible_sections.filter((s) => MSDS.sectionKey(s) === String(key)).forEach((s) => {
+        if (!s.time || !DAYS.includes(s.day)) return;
+        const [st, et] = s.time.split(" - ");
+        sections.push({ day: s.day, start: minutes(st), end: minutes(et) });
+      });
+    });
+    if (!sections.length) return false;
+    return sections.some((s) => cores.some((c) => c.day === s.day && s.start < c.end && c.start < s.end));
+  }
+
   function reloadSelections() {
     selections = MSDS.getStoredSelections(activeProgramme, activeSemester);
+  }
+
+  // 把 "HH:MM" 转为分钟数（用于时间区间计算）
+  function minutes(time) {
+    const [hours, mins] = String(time || "").split(":").map(Number);
+    return (hours || 0) * 60 + (mins || 0);
   }
 
   function filterCourses() {
@@ -271,8 +332,34 @@
       const termBadge = MSDS.courseTerms(course).map((term) => `<span class="mini-badge term ${MSDS.termBadgeClass(term)}">${MSDS.escapeHtml(term)}</span>`).join("");
       const myReview = MSDS.getCourseReview(course.code);
       const reviewBadge = myReview ? `<span class="mini-badge review" title="我的评价：${Number(myReview.rating)} 星${myReview.comment ? " · " + MSDS.escapeHtml(myReview.comment) : ""}">已评 ${Number(myReview.rating)}★</span>` : "";
+
+      // 前置课未满足 / 与核心课冲突的提示（仅在用户已加入至少一门课时才有意义）
+      const hasAnySelection = Object.keys(selections).length > 0;
+      const unmet = hasAnySelection ? unmetPrereqs(course) : [];
+      const coreConflict = hasAnySelection
+        && !isAdded
+        && requirementTypeOf(course) !== "core"
+        && primaryOptions.some((opt) => conflictsWithCore(course, MSDS.sectionKey(opt), null));
+      const blockedClasses = [];
+      if (unmet.length) blockedClasses.push("has-prereq-warning");
+      if (coreConflict) blockedClasses.push("has-core-conflict");
+      const blockMsgZh = [
+        unmet.length ? `先修课程未加入：${unmet.join("、")}` : "",
+        coreConflict ? "与核心课时间冲突" : ""
+      ].filter(Boolean).join(" · ");
+      const blockMsgEn = [
+        unmet.length ? `Prerequisites not added: ${unmet.join(", ")}` : "",
+        coreConflict ? "Time conflict with core course" : ""
+      ].filter(Boolean).join(" · ");
+      const isEn = MSDS.getStoredLang() === "en";
+      const blockMsg = isEn ? blockMsgEn : blockMsgZh;
+      const blockHtml = blockMsg
+        ? `<div class="course-block-warning" role="status">⚠️ ${MSDS.escapeHtml(blockMsg)}</div>`
+        : "";
+
       return `
-        <article class="course-row">
+        <article class="course-row ${blockedClasses.join(" ")}">
+          ${blockHtml}
           <div class="course-row-main">
             <div class="course-code-line">
               <span class="course-code">${MSDS.escapeHtml(course.code)}</span>
@@ -352,11 +439,6 @@
       </span>`).join("");
   }
 
-  function minutes(time) {
-    const [hours, mins] = time.split(":").map(Number);
-    return hours * 60 + mins;
-  }
-
   function selectedEvents() {
     const events = [];
     programmeCourses().forEach((course, courseIndex) => {
@@ -395,15 +477,35 @@
       });
     });
 
-    events.forEach((event, index) => {
-      events.slice(index + 1).forEach((other) => {
-        if (event.section.day === other.section.day && event.start < other.end && other.start < event.end) {
-          event.conflict = true;
-          other.conflict = true;
+    // 冲突检测：先按天分组，按起点排序后用扫描线算法
+    // (原本是 O(n²) 的两两比较，30+ 门课时开始卡顿)
+    DAYS.forEach((day) => {
+      const dayEvents = events.filter((event) => event.section.day === day);
+      // 排序：起点小的在前；起点相同则结束早的在前（更可能与其他区间重叠）
+      dayEvents.sort((a, b) => a.start - b.start || a.end - b.end);
+      // 扫描线：用最小堆（end 升序）保存"目前还与候选区间有交集"的活跃事件
+      // 当前事件与堆中所有 end > current.start 的元素都冲突
+      const active = []; // {event, end} 数组，按 end 升序
+      let cursor = 0;
+      dayEvents.forEach((event) => {
+        // 弹出已结束的事件（end <= 当前 event.start）
+        while (cursor < active.length && active[cursor].end <= event.start) cursor++;
+        // 堆中剩下的都是与当前事件冲突的，全部标 conflict
+        for (let i = cursor; i < active.length; i++) {
+          if (active[i].end > event.start && active[i].event.start < event.end) {
+            event.conflict = true;
+            active[i].event.conflict = true;
+          }
         }
+        // 把当前事件插入到堆中正确位置（按 end 升序）
+        const entry = { event, end: event.end };
+        let j = active.length;
+        while (j > 0 && active[j - 1].end > entry.end) j--;
+        active.splice(j, 0, entry);
       });
     });
 
+    // 按 lane 分列（用于视觉堆叠）：同一天的事件按起点排序后贪心分配车道
     DAYS.forEach((day) => {
       const dayEvents = events.filter((event) => event.section.day === day).sort((a, b) => a.start - b.start || a.end - b.end);
       const laneEnds = [];

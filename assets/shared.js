@@ -1106,7 +1106,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-schedule-update-20260831") === "dismissed") return;
+      if (localStorage.getItem("cityu-schedule-update-20260901") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1114,16 +1114,16 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "Timetable & Course Pages Upgraded (Aug 31)" : "课表与课程页体验升级（8/31）") + '</strong>' +
+        '<strong>' + (isEn ? "Planner Rules & Validation (Sep 1)" : "选课逻辑与规则校验（9/1）") + '</strong>' +
         '<span>' + (isEn
-          ? "Stacked layout now visible when courses overlap; conflict summary shows exact time slots; prerequisite and exclusive course references in detail pages are now clickable."
-          : "课表冲突时段已自动垂直堆叠并展示「冲突时段 + 课程」明细；课程详情页「先修要求」「互斥课程」里的课程代码现已可点击跳转。") +
+          ? "Conflict detection upgraded (faster on 30+ classes); course cards warn when prerequisites are missing or when an elective collides with a core course in time."
+          : "冲突检测算法升级（30+ 门课时更流畅）；课程卡片新增「先修未加入」「与核心课时间冲突」红/橙警告。") +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-schedule-update-20260831", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-schedule-update-20260901", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }
