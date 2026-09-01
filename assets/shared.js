@@ -817,6 +817,173 @@
     return `<span class="rating-line" aria-label="口碑评分 ${score} 分（满分 5 分）"><span class="rating-stars" aria-hidden="true"><span class="rating-stars-empty">★★★★★</span><span class="rating-stars-fill" style="width:${percent}%">★★★★★</span></span><strong class="rating-score">${score.toFixed(1)}</strong>${meta}</span>`;
   }
 
+  // ==================== 可搜索下拉选择组件 ====================
+  // 生成一个带搜索过滤的下拉选择器，支持键盘操作（↑/↓ 移动、Enter 确认、Esc 关闭）。
+  // 返回 { getValue, setValue, setOptions, destroy }。
+  function createSearchSelect(container, config = {}) {
+    const placeholder = config.placeholder || "请选择";
+    const searchPlaceholder = config.searchPlaceholder || "搜索…";
+    const emptyText = config.emptyText || "没有匹配项";
+
+    const root = document.createElement("div");
+    root.className = "select-search";
+    root.innerHTML = `
+      <button class="select-search-trigger" type="button" aria-haspopup="listbox" aria-expanded="false">
+        <span class="select-search-value"></span>
+        <svg class="select-search-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </button>
+      <div class="select-search-menu" hidden>
+        <div class="select-search-inputwrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input class="select-search-input" type="text" autocomplete="off" spellcheck="false">
+        </div>
+        <ul class="select-search-list" role="listbox"></ul>
+      </div>`;
+    container.appendChild(root);
+
+    const trigger = root.querySelector(".select-search-trigger");
+    const valueEl = root.querySelector(".select-search-value");
+    const menu = root.querySelector(".select-search-menu");
+    const input = root.querySelector(".select-search-input");
+    const list = root.querySelector(".select-search-list");
+    input.placeholder = searchPlaceholder;
+
+    let items = [];
+    let visible = [];
+    let value = null;
+    let activeIndex = -1;
+    let open = false;
+
+    function labelOf(item) {
+      return item ? (item.sub ? `${item.label}（${item.sub}）` : item.label) : placeholder;
+    }
+
+    function renderValue() {
+      const current = items.find((item) => item.value === value);
+      valueEl.textContent = labelOf(current);
+      valueEl.classList.toggle("is-placeholder", !current);
+    }
+
+    function renderList() {
+      if (!visible.length) {
+        list.innerHTML = `<li class="select-search-empty">${escapeHtml(emptyText)}</li>`;
+        return;
+      }
+      list.innerHTML = visible.map((item, index) => `
+        <li class="select-search-option ${item.disabled ? "is-disabled" : ""} ${index === activeIndex ? "is-active" : ""} ${item.value === value ? "is-selected" : ""}"
+            role="option" aria-selected="${item.value === value ? "true" : "false"}" aria-disabled="${item.disabled ? "true" : "false"}"
+            data-index="${index}">
+          <span class="select-search-option-label">${escapeHtml(item.label)}</span>
+          ${item.sub ? `<small>${escapeHtml(item.sub)}</small>` : ""}
+        </li>`).join("");
+    }
+
+    function applyFilter() {
+      const query = input.value.trim().toLowerCase();
+      visible = !query ? items.slice() : items.filter((item) =>
+        `${item.label} ${item.sub || ""} ${item.value}`.toLowerCase().includes(query));
+      activeIndex = visible.findIndex((item) => !item.disabled);
+      renderList();
+    }
+
+    function setOpen(next) {
+      if (open === next) return;
+      open = next;
+      menu.hidden = !open;
+      root.classList.toggle("is-open", open);
+      trigger.setAttribute("aria-expanded", String(open));
+      if (open) {
+        input.value = "";
+        applyFilter();
+        input.focus();
+        input.select();
+      }
+    }
+
+    function choose(item) {
+      if (!item || item.disabled) return;
+      value = item.value;
+      renderValue();
+      setOpen(false);
+      trigger.focus();
+      if (config.onChange) config.onChange(value);
+    }
+
+    function moveActive(step) {
+      if (!visible.length) return;
+      let index = activeIndex;
+      for (let i = 0; i < visible.length; i += 1) {
+        index = (index + step + visible.length) % visible.length;
+        if (!visible[index].disabled) break;
+      }
+      activeIndex = index;
+      renderList();
+      const node = list.children[activeIndex];
+      if (node) node.scrollIntoView({ block: "nearest" });
+    }
+
+    trigger.addEventListener("click", () => setOpen(!open));
+    trigger.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+        event.preventDefault();
+        setOpen(true);
+      }
+    });
+    input.addEventListener("input", applyFilter);
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowDown") {
+        event.preventDefault();
+        moveActive(1);
+      } else if (event.key === "ArrowUp") {
+        event.preventDefault();
+        moveActive(-1);
+      } else if (event.key === "Enter") {
+        event.preventDefault();
+        choose(visible[activeIndex]);
+      } else if (event.key === "Escape") {
+        event.preventDefault();
+        setOpen(false);
+        trigger.focus();
+      }
+    });
+    list.addEventListener("click", (event) => {
+      const option = event.target.closest("[data-index]");
+      if (option) choose(visible[Number(option.dataset.index)]);
+    });
+    list.addEventListener("mousemove", (event) => {
+      const option = event.target.closest("[data-index]");
+      if (option && Number(option.dataset.index) !== activeIndex) {
+        activeIndex = Number(option.dataset.index);
+        renderList();
+      }
+    });
+    function onDocumentClick(event) {
+      if (!root.contains(event.target)) setOpen(false);
+    }
+    document.addEventListener("click", onDocumentClick);
+
+    renderValue();
+
+    return {
+      getValue: () => value,
+      setValue(next) {
+        value = next;
+        renderValue();
+      },
+      // nextValue 不在选项中时，自动落到第一个可用选项
+      setOptions(nextItems, nextValue) {
+        items = Array.isArray(nextItems) ? nextItems : [];
+        const current = items.find((item) => item.value === nextValue);
+        value = current ? current.value : (items.find((item) => !item.disabled)?.value ?? null);
+        renderValue();
+      },
+      destroy() {
+        document.removeEventListener("click", onDocumentClick);
+        root.remove();
+      }
+    };
+  }
+
   // ==================== 语言切换 ====================
   const LANG_KEY = "CITYU-lang";
 
@@ -854,6 +1021,12 @@
       "prog.label": "硕士项目",
       "college.label": "学院",
       "department.label": "院系",
+      "college.placeholder": "选择学院",
+      "college.search": "搜索学院",
+      "department.placeholder": "选择院系",
+      "department.search": "搜索院系",
+      "prog.placeholder": "选择硕士项目",
+      "prog.search": "搜索项目代码或名称",
       "tab.browse": "浏览课程",
       "tab.selected": "已选",
       "search.placeholder": "搜索课号或课程名",
@@ -963,6 +1136,12 @@
       "prog.label": "Programme",
       "college.label": "College",
       "department.label": "Department",
+      "college.placeholder": "Select college",
+      "college.search": "Search colleges",
+      "department.placeholder": "Select department",
+      "department.search": "Search departments",
+      "prog.placeholder": "Select programme",
+      "prog.search": "Search programme code or name",
       "tab.browse": "Browse",
       "tab.selected": "Selected",
       "search.placeholder": "Search course code or name",
@@ -1205,6 +1384,7 @@
     getStoredLang,
     saveLang,
     t,
-    applyLang
+    applyLang,
+    createSearchSelect
   };
 })();

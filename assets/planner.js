@@ -129,10 +129,42 @@
   }
 
   function renderProgrammePills() {
-    // 三级级联：学院 → 系 → 硕士项目；三行始终可见，默认展开当前项目所在的学院与院系
-    renderCollegePills();
-    renderDepartmentPills();
-    renderProgrammeLevelPills();
+    // 三级级联（可搜索下拉）：学院 → 系 → 硕士项目；默认展开当前项目所在的学院与院系
+    ensureCascadeSelects();
+    renderCollegeSelect();
+    renderDepartmentSelect();
+    renderProgrammeLevelSelect();
+  }
+
+  // 三个下拉组件的懒初始化（shared.js 提供的 createSearchSelect）
+  let collegeSelect = null;
+  let departmentSelect = null;
+  let programmeSelect = null;
+
+  function ensureCascadeSelects() {
+    if (collegeSelect) return;
+    const collegeSlot = document.getElementById("college-select");
+    const departmentSlot = document.getElementById("department-select");
+    const programmeSlot = document.getElementById("programme-select");
+    if (!collegeSlot || !departmentSlot || !programmeSlot) return;
+    collegeSelect = MSDS.createSearchSelect(collegeSlot, {
+      placeholder: MSDS.t("college.placeholder"),
+      searchPlaceholder: MSDS.t("college.search"),
+      emptyText: "没有匹配的学院",
+      onChange: (key) => switchCollege(key)
+    });
+    departmentSelect = MSDS.createSearchSelect(departmentSlot, {
+      placeholder: MSDS.t("department.placeholder"),
+      searchPlaceholder: MSDS.t("department.search"),
+      emptyText: "没有匹配的院系",
+      onChange: (key) => switchDepartment(key)
+    });
+    programmeSelect = MSDS.createSearchSelect(programmeSlot, {
+      placeholder: MSDS.t("prog.placeholder"),
+      searchPlaceholder: MSDS.t("prog.search"),
+      emptyText: "没有匹配的项目",
+      onChange: (code) => switchProgramme(code)
+    });
   }
 
   // 一级：学院
@@ -153,16 +185,21 @@
     return programmes.filter((p) => (p.college_en || "College of Computing") === collegeKey);
   }
 
-  function renderCollegePills() {
-    const container = document.getElementById("college-pills");
-    if (!container) return;
+  function programmeAvailable(programme) {
+    return programme.data_ready !== false
+      && courses.some((course) => MSDS.courseProgrammes(course, data).includes(programme.code));
+  }
+
+  function renderCollegeSelect() {
+    if (!collegeSelect) return;
     const list = colleges();
     const row = document.getElementById("college-row");
     if (row) row.hidden = list.length === 0;
-    container.innerHTML = list.map((c) => {
-      const active = c.key === activeCollege;
-      return `<button class="programme-pill college-pill ${active ? "active" : ""}" type="button" role="tab" aria-selected="${active ? "true" : "false"}" data-college="${MSDS.escapeHtml(c.key)}" title="${MSDS.escapeHtml(c.name_zh)}（${MSDS.escapeHtml(c.name_en)}）">${MSDS.escapeHtml(c.name_zh)}<small>${MSDS.escapeHtml(c.name_en)}</small></button>`;
-    }).join("");
+    collegeSelect.setOptions(list.map((c) => ({
+      value: c.key,
+      label: c.name_zh,
+      sub: c.name_en
+    })), activeCollege);
   }
 
   // 二级：系
@@ -179,17 +216,17 @@
     return list;
   }
 
-  function renderDepartmentPills() {
-    const container = document.getElementById("department-pills");
-    if (!container) return;
+  function renderDepartmentSelect() {
+    if (!departmentSelect) return;
     const list = departments();
     if (!list.some((d) => d.key === activeDepartment)) activeDepartment = list.length ? list[0].key : "";
     const row = document.getElementById("department-row");
     if (row) row.hidden = list.length === 0;
-    container.innerHTML = list.map((d) => {
-      const active = d.key === activeDepartment;
-      return `<button class="programme-pill department-pill ${active ? "active" : ""}" type="button" role="tab" aria-selected="${active ? "true" : "false"}" data-department="${MSDS.escapeHtml(d.key)}" title="${MSDS.escapeHtml(d.name_en)}">${MSDS.escapeHtml(d.name_zh)}<small>${MSDS.escapeHtml(d.name_en.replace(/^Department of /, ""))}</small></button>`;
-    }).join("");
+    departmentSelect.setOptions(list.map((d) => ({
+      value: d.key,
+      label: d.name_zh,
+      sub: d.name_en.replace(/^Department of /, "")
+    })), activeDepartment);
   }
 
   // 三级：硕士项目
@@ -199,30 +236,23 @@
     );
   }
 
-  function renderProgrammeLevelPills() {
-    const container = document.getElementById("programme-pills");
-    if (!container) return;
+  function renderProgrammeLevelSelect() {
+    if (!programmeSelect) return;
     const list = departmentProgrammes();
     const row = document.getElementById("programme-row");
     if (row) row.hidden = list.length === 0;
-    const hints = [];
-    container.innerHTML = list.map((programme) => {
-      const available = programme.data_ready !== false
-        && courses.some((course) => MSDS.courseProgrammes(course, data).includes(programme.code));
-      const active = programme.code === activeProgramme;
-      // 保留原始文本供 textContent 使用，写进 title 属性时再转义，
-      // 否则 hints[0] 进 textContent 会把 & < > 显示成 &amp; &lt; &gt;
-      const hint = available
-        ? `${programme.name_zh}（${programme.name_en}）`
-        : `${programme.name_zh}：课程数据待补充`;
-      if (active) hints.push(hint);
-      if (!available) {
-        return `<span class="programme-pill is-pending" role="tab" aria-selected="false" title="课程数据待补充，敬请期待">${MSDS.escapeHtml(programme.code)}<small>筹备中</small></span>`;
-      }
-      return `<button class="programme-pill ${active ? "active" : ""}" type="button" role="tab" aria-selected="${active ? "true" : "false"}" data-programme="${MSDS.escapeHtml(programme.code)}" title="${MSDS.escapeHtml(hint)}">${MSDS.escapeHtml(programme.code)}<small>${MSDS.escapeHtml(programme.name_zh.replace(/硕士$/, ""))}</small></button>`;
-    }).join("");
+    programmeSelect.setOptions(list.map((programme) => {
+      const available = programmeAvailable(programme);
+      return {
+        value: programme.code,
+        label: `${programme.code} · ${programme.name_zh}`,
+        sub: available ? programme.name_en : "课程数据待补充",
+        disabled: !available
+      };
+    }), activeProgramme);
+    const current = list.find((p) => p.code === activeProgramme);
     const hint = document.getElementById("programme-bar-hint");
-    if (hint) hint.textContent = hints[0] || "";
+    if (hint) hint.textContent = current ? `${current.name_zh}（${current.name_en}）` : "";
   }
 
   function renderProgrammeStats() {
@@ -980,9 +1010,9 @@
 
   function switchProgramme(code) {
     if (code === activeProgramme) return;
-    const available = programmes.find((p) => p.code === code);
-    const hasCourses = courses.some((course) => MSDS.courseProgrammes(course, data).includes(code));
-    if (!available || !hasCourses) {
+    const programme = programmes.find((p) => p.code === code);
+    if (!programme || !programmeAvailable(programme)) {
+      programmeSelect?.setValue(activeProgramme);
       MSDS.showToast("该项目的课程数据待补充");
       return;
     }
@@ -1037,23 +1067,6 @@
         document.getElementById("browse-panel").hidden = selectedPanel !== "browse";
         document.getElementById("selected-panel").hidden = selectedPanel !== "selected";
       });
-    });
-
-    document.getElementById("programme-pills").addEventListener("click", (event) => {
-      const pill = event.target.closest("[data-programme]");
-      if (pill) switchProgramme(pill.dataset.programme);
-    });
-
-    const collegePills = document.getElementById("college-pills");
-    if (collegePills) collegePills.addEventListener("click", (event) => {
-      const pill = event.target.closest("[data-college]");
-      if (pill) switchCollege(pill.dataset.college);
-    });
-
-    const departmentPills = document.getElementById("department-pills");
-    if (departmentPills) departmentPills.addEventListener("click", (event) => {
-      const pill = event.target.closest("[data-department]");
-      if (pill) switchDepartment(pill.dataset.department);
     });
 
     listElement.addEventListener("click", (event) => {

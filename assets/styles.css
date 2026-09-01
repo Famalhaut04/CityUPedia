@@ -476,6 +476,166 @@ body {
   flex-wrap: wrap;
 }
 
+/* ---------------- 学院 / 院系 / 项目可搜索下拉 ---------------- */
+
+.cascade-select-slot {
+  position: relative;
+  min-width: 230px;
+  flex: 1;
+  max-width: 340px;
+}
+
+.select-search {
+  position: relative;
+}
+
+.select-search-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  min-height: 38px;
+  padding: 6px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--card);
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.select-search-trigger:hover {
+  border-color: var(--primary);
+  box-shadow: 0 4px 12px rgba(217, 119, 87, 0.18);
+}
+
+.select-search.is-open .select-search-trigger,
+.select-search-trigger:focus-visible {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-soft);
+}
+
+.select-search-value {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.select-search-value.is-placeholder {
+  color: var(--faint);
+  font-weight: 600;
+}
+
+.select-search-caret {
+  flex: 0 0 auto;
+  width: 15px;
+  height: 15px;
+  color: var(--faint);
+  transition: transform 160ms ease;
+}
+
+.select-search.is-open .select-search-caret {
+  transform: rotate(180deg);
+}
+
+.select-search-menu {
+  position: absolute;
+  z-index: 80;
+  top: calc(100% + 6px);
+  left: 0;
+  width: max(100%, 300px);
+  padding: 8px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--card);
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.16);
+}
+
+.select-search-inputwrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card-soft);
+}
+
+.select-search-inputwrap svg {
+  flex: 0 0 auto;
+  width: 14px;
+  height: 14px;
+  color: var(--faint);
+}
+
+.select-search-input {
+  flex: 1;
+  min-width: 0;
+  min-height: 34px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.select-search-input:focus {
+  outline: none;
+}
+
+.select-search-list {
+  max-height: 264px;
+  margin: 6px 0 0;
+  padding: 0;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.select-search-option {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.select-search-option small {
+  color: var(--faint);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.select-search-option.is-active {
+  background: var(--primary-soft);
+}
+
+.select-search-option.is-selected {
+  color: var(--primary-strong);
+}
+
+.select-search-option.is-disabled {
+  cursor: not-allowed;
+  color: var(--faint);
+  font-weight: 600;
+}
+
+.select-search-option.is-disabled small {
+  color: var(--warning);
+}
+
+.select-search-empty {
+  padding: 14px 10px;
+  color: var(--faint);
+  font-size: 12px;
+  text-align: center;
+}
+
 .programme-pill {
   display: inline-flex;
   align-items: baseline;
