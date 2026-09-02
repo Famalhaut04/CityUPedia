@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "crn": "15301",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "69",
+    "capacity": "69",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "19:00 - 20:50",
+    "building": "LI",
+    "room": "4109",
+    "instructor": "HUANG Heqing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCYBE"
+    ]
+  },
+  {
+    "crn": "15302",
+    "section": "T61",
+    "credits": 0,
+    "web": "Y",
+    "available": "69",
+    "capacity": "69",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "21:00 - 21:50",
+    "building": "LI",
+    "room": "4109",
+    "instructor": "HUANG Heqing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCYBE"
+    ]
+  }
+]

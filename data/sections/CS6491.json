@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "crn": "12772",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "90",
+    "capacity": "90",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "F",
+    "time": "12:00 - 13:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "ZHANG Qingfu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P"
+    ]
+  },
+  {
+    "crn": "14385",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "12:00 - 13:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "ZHANG Qingfu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "12773",
+    "section": "T01",
+    "credits": 0,
+    "web": "Y",
+    "available": "90",
+    "capacity": "90",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "F",
+    "time": "14:00 - 14:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "ZHANG Qingfu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P"
+    ]
+  },
+  {
+    "crn": "14386",
+    "section": "TA1",
+    "credits": 0,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "14:00 - 14:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "ZHANG Qingfu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  }
+]

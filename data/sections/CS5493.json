@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "crn": "14152",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "156",
+    "capacity": "156",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "M",
+    "time": "20:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-17",
+    "instructor": "GUAN Nan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAI"
+    ]
+  },
+  {
+    "crn": "14153",
+    "section": "T61",
+    "credits": 0,
+    "web": "Y",
+    "available": "78",
+    "capacity": "78",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "M",
+    "time": "18:00 - 18:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "GUAN Nan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAI"
+    ]
+  },
+  {
+    "crn": "14154",
+    "section": "T62",
+    "credits": 0,
+    "web": "Y",
+    "available": "78",
+    "capacity": "78",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "M",
+    "time": "19:00 - 19:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "GUAN Nan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAI"
+    ]
+  }
+]

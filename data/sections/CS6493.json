@@ -1,38 +1,218 @@
 [
-    {
-        "crn":  "15357",
-        "section":  "CA1",
-        "credits":  3,
-        "web":  "Y",
-        "available":  "20",
-        "capacity":  "20",
-        "date":  "11/01/2027 - 17/04/2027",
-        "day":  "W",
-        "time":  "11:00 - 12:50",
-        "building":  "YEUNG",
-        "room":  "LT-2",
-        "instructor":  "SONG Linqi, MA Chen",
-        "medium":  "English",
-        "notes":  [
-
-                  ]
-    },
-    {
-        "crn":  "12006",
-        "section":  "CP1",
-        "credits":  3,
-        "web":  "Y",
-        "available":  "20",
-        "capacity":  "20",
-        "date":  "11/01/2027 - 17/04/2027",
-        "day":  "W",
-        "time":  "19:00 - 20:50",
-        "building":  "LI",
-        "room":  "3505",
-        "instructor":  "SONG Linqi, MA Chen",
-        "medium":  "English",
-        "notes":  [
-
-                  ]
-    }
+  {
+    "crn": "15350",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "208",
+    "capacity": "208",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "11:00 - 12:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "SONG Linqi, MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "12005",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "182",
+    "capacity": "182",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "19:00 - 20:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "SONG Linqi, MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "15357",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "11:00 - 12:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "SONG Linqi, MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "12006",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "19:00 - 20:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "SONG Linqi, MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "14004",
+    "section": "T01",
+    "credits": 0,
+    "web": "Y",
+    "available": "104",
+    "capacity": "104",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "13:00 - 13:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "SONG Linqi, MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "15355",
+    "section": "T02",
+    "credits": 0,
+    "web": "Y",
+    "available": "104",
+    "capacity": "104",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "17:00 - 17:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "SONG Linqi, MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "12050",
+    "section": "T61",
+    "credits": 0,
+    "web": "Y",
+    "available": "102",
+    "capacity": "102",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "LI",
+    "room": "G600",
+    "instructor": "SONG Linqi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "12942",
+    "section": "T62",
+    "credits": 0,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "LI",
+    "room": "4412",
+    "instructor": "MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "14005",
+    "section": "TA1",
+    "credits": 0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "13:00 - 13:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "SONG Linqi, MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "15360",
+    "section": "TA2",
+    "credits": 0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "17:00 - 17:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "SONG Linqi, MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "12052",
+    "section": "TP1",
+    "credits": 0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "LI",
+    "room": "G600",
+    "instructor": "SONG Linqi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "12943",
+    "section": "TP2",
+    "credits": 0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "LI",
+    "room": "4412",
+    "instructor": "MA Chen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  }
 ]
