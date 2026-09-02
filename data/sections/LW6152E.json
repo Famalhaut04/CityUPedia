@@ -1,0 +1,39 @@
+[
+  {
+    "crn": "13296",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "1",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2510",
+    "instructor": "Tao HUANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14788",
+    "section": "C06",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "2",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2510",
+    "instructor": "Tao HUANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  }
+]

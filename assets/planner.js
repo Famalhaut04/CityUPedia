@@ -780,7 +780,7 @@
       // 学期隔离：a 学期的课不能在 b 学期选上
       if (!MSDS.courseOfferedInSemester(course, activeSemester)) {
         const terms = MSDS.courseTerms(course);
-        MSDS.showToast(`该课程在 ${terms.join(" / ") || "其他"} 学期开设，请切换到对应学期`);
+        MSDS.showToast(terms.includes("Not offered") ? "该课程在 2026/27 学年未开设" : `该课程在 ${terms.join(" / ") || "其他"} 学期开设，请切换到对应学期`);
         return;
       }
       selections[code] = selectionForPrimary(course, primaryCrn, tutorialCrn);

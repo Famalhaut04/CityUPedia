@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "11965",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "110",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "10:00 - 11:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Mark Wen-hu HSIAO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "13912",
+    "section": "T04",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "27",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "17:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1310",
+    "instructor": "Tin Lun Felix TANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  }
+]

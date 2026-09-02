@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "crn": "15550",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "50",
+    "capacity": "245",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "3505",
+    "instructor": "Hok Yan WONG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MA International Accounting",
+      "only for Programme: MSc Electronic Commerce"
+    ]
+  }
+]

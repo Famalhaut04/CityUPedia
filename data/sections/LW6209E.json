@@ -1,0 +1,93 @@
+[
+  {
+    "crn": "15741",
+    "section": "C61",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "57",
+    "capacity": "60",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "15742",
+    "section": "C62",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "2",
+    "capacity": "10",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PGC Patent Law"
+    ]
+  },
+  {
+    "crn": "15744",
+    "section": "C64",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "9",
+    "capacity": "10",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "15745",
+    "section": "C65",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "15746",
+    "section": "C66",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "2",
+    "capacity": "2",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  }
+]

@@ -150,7 +150,8 @@
   function courseOfferedInSemester(course, semester) {
     const terms = courseTerms(course);
     if (!terms.length) return true;
-    return terms.includes(normalizeSemester(semester));
+    const target = ["SemA", "SemB", "Summer"].includes(semester) ? normalizeSemester(semester) : String(semester || "");
+    return terms.includes(target);
   }
 
   // 学期标签的 CSS 修饰类

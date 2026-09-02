@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "12318",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "2",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 15:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Chi Hin Peter CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  }
+]

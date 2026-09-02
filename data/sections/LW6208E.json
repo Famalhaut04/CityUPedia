@@ -1,0 +1,75 @@
+[
+  {
+    "crn": "15736",
+    "section": "C61",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "33",
+    "capacity": "40",
+    "date": "31/08/2026 - 31/10/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Mun Thoh MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "15737",
+    "section": "C62",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "4",
+    "capacity": "10",
+    "date": "31/08/2026 - 31/10/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Mun Thoh MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PGC Patent Law"
+    ]
+  },
+  {
+    "crn": "15739",
+    "section": "C64",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "9",
+    "capacity": "10",
+    "date": "31/08/2026 - 31/10/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Mun Thoh MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "15740",
+    "section": "C65",
+    "credits": 1.5,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 31/10/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Mun Thoh MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  }
+]

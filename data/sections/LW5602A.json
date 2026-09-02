@@ -1,0 +1,59 @@
+[
+  {
+    "crn": "11953",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "8",
+    "capacity": "162",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "09:00 - 10:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "LT-501",
+    "instructor": "Qiao LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "11959",
+    "section": "T02",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "33",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "18:00 - 19:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1306",
+    "instructor": "Warren Lampson SUEN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "12929",
+    "section": "T05",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "33",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 20:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1306",
+    "instructor": "Albert WAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "10086",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "1",
+    "capacity": "110",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "10:00 - 11:50",
+    "building": "Mong Man Wai Building",
+    "room": "2450",
+    "instructor": "Virginia HARPER HO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "10373",
+    "section": "T02",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "1",
+    "capacity": "27",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 16:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1306",
+    "instructor": "Lavesh KIRPALANI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  }
+]

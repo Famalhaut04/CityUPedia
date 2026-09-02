@@ -1,0 +1,298 @@
+[
+  {
+    "crn": "14448",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "12",
+    "capacity": "25",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14448",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "12",
+    "capacity": "25",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14448",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "12",
+    "capacity": "25",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14448",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "12",
+    "capacity": "25",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "S",
+    "time": "14:00 - 16:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14784",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "35",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14784",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "35",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14784",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "35",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14784",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "35",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "S",
+    "time": "14:00 - 16:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "14449",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "10",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14449",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "10",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14449",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "10",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14449",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "10",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "S",
+    "time": "14:00 - 16:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14785",
+    "section": "C04",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "4",
+    "capacity": "5",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  },
+  {
+    "crn": "14785",
+    "section": "C04",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "4",
+    "capacity": "5",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  },
+  {
+    "crn": "14785",
+    "section": "C04",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "4",
+    "capacity": "5",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  },
+  {
+    "crn": "14785",
+    "section": "C04",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "4",
+    "capacity": "5",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "S",
+    "time": "14:00 - 16:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  }
+]

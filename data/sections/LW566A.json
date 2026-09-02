@@ -1,0 +1,483 @@
+[
+  {
+    "crn": "15890",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "44",
+    "capacity": "50",
+    "date": "01/11/2026 - 14/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Lok Fung LAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "15890",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "44",
+    "capacity": "50",
+    "date": "01/11/2026 - 14/11/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Lok Fung LAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "15890",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "44",
+    "capacity": "50",
+    "date": "01/11/2026 - 14/11/2026",
+    "day": "F",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Lok Fung LAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "15890",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "44",
+    "capacity": "50",
+    "date": "01/11/2026 - 14/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Lok Fung LAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "15891",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "11",
+    "capacity": "30",
+    "date": "01/11/2026 - 14/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Lok Fung LAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "15891",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "11",
+    "capacity": "30",
+    "date": "01/11/2026 - 14/11/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Lok Fung LAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "15891",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "11",
+    "capacity": "30",
+    "date": "01/11/2026 - 14/11/2026",
+    "day": "F",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Lok Fung LAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "15891",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "11",
+    "capacity": "30",
+    "date": "01/11/2026 - 14/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Lok Fung LAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14544",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "42",
+    "capacity": "50",
+    "date": "20/09/2026 - 03/10/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1511",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14544",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "42",
+    "capacity": "50",
+    "date": "20/09/2026 - 03/10/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1511",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14544",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "42",
+    "capacity": "50",
+    "date": "20/09/2026 - 03/10/2026",
+    "day": "F",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1511",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14544",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "42",
+    "capacity": "50",
+    "date": "20/09/2026 - 03/10/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1511",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14544",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "42",
+    "capacity": "50",
+    "date": "27/09/2026 - 03/10/2026",
+    "day": "W",
+    "time": "17:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14545",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "25",
+    "capacity": "30",
+    "date": "20/09/2026 - 03/10/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1511",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14545",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "25",
+    "capacity": "30",
+    "date": "20/09/2026 - 03/10/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1511",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14545",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "25",
+    "capacity": "30",
+    "date": "20/09/2026 - 03/10/2026",
+    "day": "F",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1511",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14545",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "25",
+    "capacity": "30",
+    "date": "20/09/2026 - 03/10/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1511",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14545",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "25",
+    "capacity": "30",
+    "date": "27/09/2026 - 03/10/2026",
+    "day": "W",
+    "time": "17:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14546",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "36",
+    "capacity": "50",
+    "date": "31/08/2026 - 12/09/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Ching MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14546",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "36",
+    "capacity": "50",
+    "date": "31/08/2026 - 12/09/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Ching MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14546",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "36",
+    "capacity": "50",
+    "date": "31/08/2026 - 12/09/2026",
+    "day": "F",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Ching MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14546",
+    "section": "S01",
+    "credits": 1.5,
+    "web": "N",
+    "available": "36",
+    "capacity": "50",
+    "date": "31/08/2026 - 12/09/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Ching MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14547",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "16",
+    "capacity": "30",
+    "date": "31/08/2026 - 12/09/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Ching MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14547",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "16",
+    "capacity": "30",
+    "date": "31/08/2026 - 12/09/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Ching MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14547",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "16",
+    "capacity": "30",
+    "date": "31/08/2026 - 12/09/2026",
+    "day": "F",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Ching MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14547",
+    "section": "S02",
+    "credits": 1.5,
+    "web": "N",
+    "available": "16",
+    "capacity": "30",
+    "date": "31/08/2026 - 12/09/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2301",
+    "instructor": "Ching MA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  }
+]

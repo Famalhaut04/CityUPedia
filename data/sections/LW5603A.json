@@ -1,0 +1,97 @@
+[
+  {
+    "crn": "11961",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "11",
+    "capacity": "164",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 13:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "LT-501",
+    "instructor": "Chunyan DING",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "11962",
+    "section": "T01",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "1",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "12:00 - 13:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Hoi Yan Anna LUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "11963",
+    "section": "T02",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "2",
+    "capacity": "33",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "15:00 - 16:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2409",
+    "instructor": "Dan Priel",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "11964",
+    "section": "T03",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "6",
+    "capacity": "34",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "17:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Dan Priel",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "12931",
+    "section": "T04",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "2",
+    "capacity": "34",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "10:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2409",
+    "instructor": "Hoi Yan Anna LUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  }
+]

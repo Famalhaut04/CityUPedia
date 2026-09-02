@@ -1,0 +1,78 @@
+[
+  {
+    "crn": "14446",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "18",
+    "capacity": "20",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "14446",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "18",
+    "capacity": "20",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "14446",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "18",
+    "capacity": "20",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "R",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-18",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "14446",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "18",
+    "capacity": "20",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "S",
+    "time": "14:00 - 16:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  }
+]

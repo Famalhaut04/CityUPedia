@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "13293",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "14",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "15:00 - 17:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2610",
+    "instructor": "Daniel Charles PASCOE",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  }
+]

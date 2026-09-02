@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "13536",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "17",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Samuel BECHER",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14774",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "1",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Samuel BECHER",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "15964",
+    "section": "C04",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2513",
+    "instructor": "Samuel BECHER",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD Law"
+    ]
+  }
+]

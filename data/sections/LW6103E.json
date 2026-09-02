@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "13915",
+    "section": "C63",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "8",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "5012",
+    "instructor": "Charles CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  }
+]

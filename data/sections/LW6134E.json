@@ -1,0 +1,39 @@
+[
+  {
+    "crn": "15071",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "86",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "6606",
+    "instructor": "Jiangyu WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "15079",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "2",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "6606",
+    "instructor": "Jiangyu WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  }
+]

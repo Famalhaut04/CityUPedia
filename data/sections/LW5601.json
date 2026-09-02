@@ -1,0 +1,40 @@
+[
+  {
+    "crn": "11890",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "162",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "10:00 - 11:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-1",
+    "instructor": "Sin Chit Martin LAI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "11893",
+    "section": "T03",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "9",
+    "capacity": "33",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "20:00 - 20:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1306",
+    "instructor": "Ian YY LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  }
+]

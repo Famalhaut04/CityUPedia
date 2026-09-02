@@ -1,14 +1,14 @@
 # CityU Pedia · 城大百科
 
-> **当前版本：1.2.1（CityUPedia 1.2.1）**
-> 修复无固定上课时段的课程加入课表后课表误显示为空的问题；新增城大创新学院（Academy of Innovation）与创新创业理学硕士（MSVC）项目，课程总数增至 206 门，欢迎分享你的课程体验。
+> **当前发布版本：1.2.3（CityUPedia 1.2.3）**
+> 当前数据集收录 13 个授课型研究生项目、418 门课程；本次新增法学院 5 个项目及其 2026/27 公开课程资料。
 > 完整的版本变更记录请查看 [更新日志（CHANGELOG.md）](CHANGELOG.md)。
 
 CityU Pedia（城大百科）是一个为**香港城市大学（CityU）授课型硕士生**打造的一站式课程综合平台，涵盖排课规划与课程评价两大核心功能。整合课程时间表查询、班次选择与学生评价汇总，帮你做出更明智的决定。
 
 > ⚠️ **免责声明：** 课程评价内容均整理自公开社交平台（小红书、知乎、Reddit 等），仅供参考，不构成建议。请以学校官方信息为准。
 >
-> 当前数据覆盖 **Semester A 2026/27**、**Semester B** 和 **Summer** 三个学期。课表快照时间为 **2026-08-05 12:00（Asia/Beijing）**，名额、教师、教室及注册状态可能随时变化，请以 CityU AIMS 的最新信息为准。
+> 当前数据覆盖 **Semester A 2026/27**、**Semester B** 和 **Summer** 三个学期。原有项目的课表快照时间为 **2026-08-06 12:00（Asia/Beijing）**，法学院 Semester A 班次快照时间为 **2026-09-02**；名额、教师、教室及注册状态可能随时变化，请以 CityU AIMS 的最新信息为准。
 
 ## 在线访问
 
@@ -26,8 +26,15 @@ CityU Pedia（城大百科）是一个为**香港城市大学（CityU）授课�
 | MSDS | 数据科学理学硕士（MSc Data Science） | Department of Data Science |
 | MSAIFS | 人工智能与科学理学硕士（MSc AI for Sciences） | Department of Data Science |
 | MSVC | 创新创业理学硕士（MSc Venture Creation） | CityUHK Academy of Innovation |
+| PCLL | 法律专业证书（Postgraduate Certificate in Laws） | School of Law |
+| JD | 法律博士（Juris Doctor） | School of Law |
+| LLM | 法学硕士（Master of Laws） | School of Law |
+| LLMARBDR | 仲裁及争议解决学法学硕士（Master of Laws in Arbitration and Dispute Resolution） | School of Law |
+| PGCPL | 专利法研究生证书（Postgraduate Certificate in Patent Law） | School of Law |
 
 > 创新学院（CityUHK Academy of Innovation）为计算学院以外的第一个学院，其 MSVC 项目的选修课来自会计、管理、市场营销、信息系统、传播、能源环境、公共政策、社会科学与系统工程等多个院系。
+>
+> 法学院项目的方向、豁免和轨道规则不能完全压缩为单一的「核心/选修」标签，请在选课前查看项目说明与官方课程目录。
 
 ## 网页版主要功能
 

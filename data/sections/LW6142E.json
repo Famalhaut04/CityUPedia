@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "12172",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "1",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "09:00 - 11:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-14",
+    "instructor": "Noam ZAMIR",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "14783",
+    "section": "C05",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "7",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "09:00 - 11:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-14",
+    "instructor": "Noam ZAMIR",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  }
+]

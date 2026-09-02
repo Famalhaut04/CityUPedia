@@ -1,0 +1,39 @@
+[
+  {
+    "crn": "15143",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "13:00 - 15:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-15",
+    "instructor": "Meng FANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1"
+    ]
+  },
+  {
+    "crn": "15147",
+    "section": "C05",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "2",
+    "capacity": "13",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "13:00 - 15:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-15",
+    "instructor": "Meng FANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  }
+]

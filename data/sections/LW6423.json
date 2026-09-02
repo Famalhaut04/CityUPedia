@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "11162",
+    "section": "C61",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "12",
+    "capacity": "55",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "15:00 - 17:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "5-205",
+    "instructor": "Wing Christopher TO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  }
+]

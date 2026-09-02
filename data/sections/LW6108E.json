@@ -1,0 +1,57 @@
+[
+  {
+    "crn": "13365",
+    "section": "C64",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "4",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-3",
+    "instructor": "Sijuade Thakib ANIMASHAUN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1"
+    ]
+  },
+  {
+    "crn": "13484",
+    "section": "C65",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-3",
+    "instructor": "Sijuade Thakib ANIMASHAUN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14777",
+    "section": "C66",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "8",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-3",
+    "instructor": "Sijuade Thakib ANIMASHAUN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  }
+]

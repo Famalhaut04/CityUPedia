@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15880",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "N",
+    "available": "5",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "P4704",
+    "instructor": "Yige Zu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  }
+]

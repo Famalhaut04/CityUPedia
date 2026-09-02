@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "11646",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "7",
+    "capacity": "150",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "18:00 - 19:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "Daniel Charles PASCOE",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "10165",
+    "section": "T02",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "1",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "17:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Chin Kiu FUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "12189",
+    "section": "T03",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 20:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Chin Kiu FUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "15062",
+    "section": "T05",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 20:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Wai Hei NG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  }
+]

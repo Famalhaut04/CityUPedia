@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "12390",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "4",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "6603",
+    "instructor": "Chi Hin Peter CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "12391",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "5",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "6603",
+    "instructor": "Chi Hin Peter CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution"
+    ]
+  },
+  {
+    "crn": "14782",
+    "section": "C04",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "2",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "6603",
+    "instructor": "Chi Hin Peter CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  },
+  {
+    "crn": "15965",
+    "section": "C05",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "6603",
+    "instructor": "Chi Hin Peter CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD Law"
+    ]
+  }
+]

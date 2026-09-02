@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "10207",
+    "section": "C01",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "125",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 13:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Sara TSUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "13914",
+    "section": "T04",
+    "credits": 0.0,
+    "web": "Y",
+    "available": "10",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "10:00 - 10:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1400",
+    "instructor": "Sara TSUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  }
+]

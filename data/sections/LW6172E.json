@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "13305",
+    "section": "C02",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "14",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Peter WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor"
+    ]
+  },
+  {
+    "crn": "15068",
+    "section": "C03",
+    "credits": 3.0,
+    "web": "Y",
+    "available": "3",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Peter WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student"
+    ]
+  }
+]
