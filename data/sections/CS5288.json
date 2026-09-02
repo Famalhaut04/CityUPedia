@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "crn": "15294",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "280",
+    "capacity": "280",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "11:00 - 12:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "LU Zhenliang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "15294",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "280",
+    "capacity": "280",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "F",
+    "time": "12:00 - 13:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "LU Zhenliang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "15295",
+    "section": "T01",
+    "credits": 0,
+    "web": "Y",
+    "available": "280",
+    "capacity": "280",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "13:00 - 13:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "LU Zhenliang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "15295",
+    "section": "T01",
+    "credits": 0,
+    "web": "Y",
+    "available": "280",
+    "capacity": "280",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "F",
+    "time": "14:00 - 14:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "LU Zhenliang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  }
+]

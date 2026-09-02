@@ -274,7 +274,8 @@
   "Zero-credit section components are retained because some courses require registration in both lecture and tutorial components.",
   "CS 系列课程班次含 Programmes 限制说明，请在课程详情查看；部分班次仅面向指定项目开放。",
   "MSEC 的 IS 系列课程仅收录允许 MSc Electronic Commerce 注册的班次。",
-  "夏季学期（Summer Term 2026）：2026-06-08 至 2026-07-25 上课，计算学院授课式硕士的暑期以「项目 / 论文 / 实习延续」为主，不含常规授课班。6 学分的 capstone 课程（CS6520/CS6531/EC6001/DSC6024）在 SemB 与 Summer 均开设，故 semester_tag 记为 SemB+Summer；3 学分课程（DSC6006/BIOS6903/CS6535）仅 Summer 开设。官方 sample study plan 已确认 MSCS 的 CS6520 Project（暑期延续）；班次时间以 AIMS Master Class Schedule 为准，暑期班次时间为空。"
+  "夏季学期（Summer Term 2026）：2026-06-08 至 2026-07-25 上课，计算学院授课式硕士的暑期以「项目 / 论文 / 实习延续」为主，不含常规授课班。6 学分的 capstone 课程（CS6520/CS6531/EC6001/DSC6024）在 SemB 与 Summer 均开设，故 semester_tag 记为 SemB+Summer；3 学分课程（DSC6006/BIOS6903/CS6535）仅 Summer 开设。官方 sample study plan 已确认 MSCS 的 CS6520 Project（暑期延续）；班次时间以 AIMS Master Class Schedule 为准，暑期班次时间为空。",
+  "Semester B 2026/27 快照更新：CS5293、CS5182、CS5281、CS5288、CS5296、CS5483、CS5487、CS5491 八门课的班次时间已对照 AIMS 更新至 2026-09-03 00:14（Asia/Beijing）；其余课程班次仍为 2026-08-05/06 快照。"
  ],
  "courses": [
   {
@@ -1394,12 +1395,12 @@
    "prerequisites": "CS2303 Data Structures for Media or CS3334 Data Structures or EE3206 Java Programming and Applications",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 4,
    "semester_tag": "SemB"
   },
   {
@@ -1544,12 +1545,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "240",
+    "capacity": "240",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB"
   },
   {
@@ -1671,12 +1672,12 @@
    "prerequisites": "CS5222 Computer Networks and Internets or equivalent; and MA2144 Discrete Mathematics or equivalent",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "280",
+    "capacity": "280",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 2,
    "semester_tag": "SemB"
   },
   {
@@ -1756,15 +1757,15 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "Nil",
+   "prerequisites": "CS5285 Introduction to Cybersecurity",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "218",
+    "capacity": "218",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 3,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSCS": "group1"
@@ -1858,12 +1859,12 @@
    "prerequisites": "CS5222 Computer Networks and Internets",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "228",
+    "capacity": "228",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 3,
    "semester_tag": "SemB"
   },
   {
@@ -2066,12 +2067,12 @@
    "prerequisites": "CS3402 Database Systems or CS5481 Data Engineering or equivalent",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB"
   },
   {
@@ -2227,12 +2228,12 @@
    "prerequisites": "CS3334 Data Structures or CS4335 Design and Analysis of Algorithms",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "500",
+    "capacity": "500",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 4,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSCS": "group2"

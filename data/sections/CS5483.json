@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "crn": "11660",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "CHAN Chung",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "11660",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "CHAN Chung",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "11660",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "BOC",
+    "room": "R4057",
+    "instructor": "CHAN Chung",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  }
+]

@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "crn": "12003",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "228",
+    "capacity": "228",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "15:00 - 16:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "LIANG Weifa, FANG Yuguang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "12004",
+    "section": "T01",
+    "credits": 0,
+    "web": "Y",
+    "available": "114",
+    "capacity": "114",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "17:00 - 17:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "LIANG Weifa",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "15297",
+    "section": "T02",
+    "credits": 0,
+    "web": "Y",
+    "available": "114",
+    "capacity": "114",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "18:00 - 18:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "LIANG Weifa",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  }
+]
