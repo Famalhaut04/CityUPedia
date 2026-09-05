@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "crn": "12356",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "215",
+    "capacity": "215",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "12356",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "215",
+    "capacity": "215",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "12937",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "12937",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "12939",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSMIT1, MSMITBM2"
+    ]
+  },
+  {
+    "crn": "12939",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSMIT1, MSMITBM2"
+    ]
+  },
+  {
+    "crn": "12771",
+    "section": "T61",
+    "credits": 0,
+    "web": "Y",
+    "available": "215",
+    "capacity": "215",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "21:00 - 21:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "12771",
+    "section": "T61",
+    "credits": 0,
+    "web": "Y",
+    "available": "215",
+    "capacity": "215",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "12938",
+    "section": "TP1",
+    "credits": 0,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "21:00 - 21:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "12938",
+    "section": "TP1",
+    "credits": 0,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSDS1"
+    ]
+  },
+  {
+    "crn": "12940",
+    "section": "TQ1",
+    "credits": 0,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "21:00 - 21:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSMIT1, MSMITBM2"
+    ]
+  },
+  {
+    "crn": "12940",
+    "section": "TQ1",
+    "credits": 0,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "CHEN Yufei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSMIT1, MSMITBM2"
+    ]
+  }
+]

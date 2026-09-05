@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "crn": "15299",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "110",
+    "capacity": "110",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "12:00 - 13:50",
+    "building": "LI",
+    "room": "1610",
+    "instructor": "XU Weitao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCYBE"
+    ]
+  },
+  {
+    "crn": "15300",
+    "section": "T01",
+    "credits": 0,
+    "web": "Y",
+    "available": "110",
+    "capacity": "110",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "R",
+    "time": "14:00 - 14:50",
+    "building": "LI",
+    "room": "G600",
+    "instructor": "XU Weitao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCYBE"
+    ]
+  }
+]

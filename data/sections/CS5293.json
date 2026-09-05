@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "crn": "12768",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "218",
+    "capacity": "218",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "ZHAO Qingchuan, WU Chenyuan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "12769",
+    "section": "T61",
+    "credits": 0,
+    "web": "Y",
+    "available": "114",
+    "capacity": "114",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "ZHAO Qingchuan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  },
+  {
+    "crn": "15296",
+    "section": "T62",
+    "credits": 0,
+    "web": "Y",
+    "available": "104",
+    "capacity": "104",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "G7510",
+    "instructor": "WU Chenyuan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSCYBE, MSEC4"
+    ]
+  }
+]

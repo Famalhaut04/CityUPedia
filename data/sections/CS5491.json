@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "crn": "14143",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "12:00 - 13:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "LU Zhichao, GUO Jianyuan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "12881",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "19:00 - 20:50",
+    "building": "BOC",
+    "room": "R4057",
+    "instructor": "LU Zhichao, GUO Jianyuan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "14144",
+    "section": "T01",
+    "credits": 0,
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "14:00 - 14:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "LU Zhichao, GUO Jianyuan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  },
+  {
+    "crn": "12941",
+    "section": "T61",
+    "credits": 0,
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
+    "date": "11/01/2027 - 17/04/2027",
+    "day": "T",
+    "time": "21:00 - 21:50",
+    "building": "BOC",
+    "room": "R4057",
+    "instructor": "LU Zhichao, GUO Jianyuan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
+    ]
+  }
+]
