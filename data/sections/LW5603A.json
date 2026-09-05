@@ -1,0 +1,142 @@
+[
+  {
+    "crn": "11961",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "11",
+    "capacity": "164",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 13:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "LT-501",
+    "instructor": "Chunyan DING",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5603A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=11961"
+  },
+  {
+    "crn": "11962",
+    "section": "T01",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "2",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "12:00 - 13:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Hoi Yan Anna LUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5603A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=11962"
+  },
+  {
+    "crn": "11963",
+    "section": "T02",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "0",
+    "capacity": "33",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "15:00 - 16:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2409",
+    "instructor": "Dan Priel",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-02",
+    "course_code": "LW5603A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=11963"
+  },
+  {
+    "crn": "11964",
+    "section": "T03",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "8",
+    "capacity": "34",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "17:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Dan Priel",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5603A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=11964"
+  },
+  {
+    "crn": "12931",
+    "section": "T04",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "1",
+    "capacity": "34",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "10:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "2409",
+    "instructor": "Hoi Yan Anna LUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5603A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=12931"
+  }
+]

@@ -935,6 +935,19 @@ body {
   transition: all 200ms ease;
 }
 
+/* Offering-status filters can be longer than the seven weekday labels. */
+#term-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 14px;
+}
+
+#term-filter-row .term-filter-pill {
+  flex: 1 0 auto;
+  padding-inline: 7px;
+  white-space: nowrap;
+}
+
 .day-filter-pill:hover,
 .term-filter-pill:hover {
   color: var(--primary);

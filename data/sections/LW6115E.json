@@ -1,0 +1,29 @@
+[
+  {
+    "crn": "14778",
+    "section": "C05",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "0",
+    "capacity": "0",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 15:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "6606",
+    "instructor": "Tianxiang HE",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PGC Patent Law",
+      "Must be enrolled in one of the following Programs: PGC Patent Law Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-02",
+    "course_code": "LW6115E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "PGCPL"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14778"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "crn": "14443",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "10",
+    "capacity": "20",
+    "date": "04/10/2026 - 10/10/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "LT401",
+    "instructor": "Ozlem GURSES",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5615",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14443"
+  },
+  {
+    "crn": "14443",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "10",
+    "capacity": "20",
+    "date": "04/10/2026 - 21/11/2026",
+    "day": "S",
+    "time": "09:30 - 12:20",
+    "building": "TBA",
+    "room": "",
+    "instructor": "Ozlem GURSES",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5615",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14443"
+  },
+  {
+    "crn": "14443",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "10",
+    "capacity": "20",
+    "date": "27/09/2026 - 03/10/2026",
+    "day": "F",
+    "time": "16:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "5012",
+    "instructor": "Ozlem GURSES",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5615",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14443"
+  },
+  {
+    "crn": "14443",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "10",
+    "capacity": "20",
+    "date": "27/09/2026 - 03/10/2026",
+    "day": "S",
+    "time": "14:00 - 16:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Ozlem GURSES",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5615",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14443"
+  },
+  {
+    "crn": "14443",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "10",
+    "capacity": "20",
+    "date": "27/09/2026 - 03/10/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Ozlem GURSES",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5615",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14443"
+  },
+  {
+    "crn": "14443",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "10",
+    "capacity": "20",
+    "date": "27/09/2026 - 10/10/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-17",
+    "instructor": "Ozlem GURSES",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5615",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14443"
+  }
+]

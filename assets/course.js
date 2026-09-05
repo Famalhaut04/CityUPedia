@@ -44,6 +44,7 @@
     const displayRequirementType = MSDS.getRequirementType(course, displayProgramme);
     const displayGroupInfo = MSDS.getElectiveGroupInfo(MSDS.getProgramme(data, displayProgramme), MSDS.getElectiveGroup(course, displayProgramme));
     const activeSemester = MSDS.getStoredSemester ? MSDS.getStoredSemester() : "SemA";
+    course = MSDS.courseForContext(course, displayProgramme, activeSemester);
     const offeredHere = MSDS.courseOfferedInSemester ? MSDS.courseOfferedInSemester(course, activeSemester) : true;
     const selections = MSDS.getStoredSelections(currentProgramme, activeSemester);
     const isAdded = Boolean(selections[course.code]);
@@ -54,12 +55,12 @@
     const tutorials = course.eligible_sections.filter((section) => Number(section.credits) === 0);
     // 去重后的 tutorial 列表：用于挑选默认值（同一 tutorial 的多次上课时间不算多个选项）
     const tutorialOptions = MSDS.uniqueByKey(tutorials);
-    const defaultPrimary = MSDS.uniqueByKey(primaries)[0] || course.eligible_sections[0];
-    const defaultTutorial = MSDS.pickTutorial(defaultPrimary, tutorialOptions);
+    const defaultPrimary = MSDS.uniqueByKey(primaries)[0];
+    const defaultTutorial = defaultPrimary ? MSDS.pickTutorial(defaultPrimary, tutorialOptions) : null;
     let chosenTutorialCrn = selections[course.code]?.tutorialCrn
       ?? (defaultTutorial ? MSDS.sectionKey(defaultTutorial) : null);
     const instructors = [...new Set(course.eligible_sections.map((section) => section.instructor).filter(Boolean))].join("；");
-    const webStatus = course.eligible_sections.some((section) => section.web === "Y") ? "有班次可网页注册" : "不可正常网页注册，请联系课程单位";
+    const webStatus = course.eligible_sections.some((section) => section.web === "Y") ? "有班次可网页注册" : (course.eligible_sections.length && course.eligible_sections.every((section) => section.web === "N") ? "非网页注册，请联系课程单位" : "网页注册状态待核实");
     const titleNote = course.title_changed ? `本学期课表名称：${course.schedule_title}` : "课程名称与课表一致";
     const rating = MSDS.ratingStars(rec);
     const programmeBadges = courseProgrammes.map((pCode) => {
@@ -76,7 +77,7 @@
           <div class="detail-code-row">
             <span class="detail-code">${MSDS.escapeHtml(course.code)}</span>
             ${displayRequirementType === "core" ? '<span class="verdict-badge core">核心课</span>' : MSDS.recommendationBadge(rec)}
-            ${MSDS.courseTerms(course).map((term) => `<span class="mini-badge term ${MSDS.termBadgeClass(term)}">${MSDS.escapeHtml(term)}</span>`).join("")}
+            ${MSDS.courseTerms(course).map((term) => `<span class="mini-badge term ${MSDS.termBadgeClass(term)}">${MSDS.escapeHtml(MSDS.termLabel(term))}</span>`).join("")}
           </div>
           <h1>${MSDS.escapeHtml(course.programme_title)}</h1>
           <p>${course.credits} 学分 · ${MSDS.escapeHtml(course.remarks)} · ${MSDS.escapeHtml(titleNote)}</p>
@@ -85,7 +86,7 @@
         <div class="detail-actions">
           ${offeredHere
             ? `<button id="detail-add" class="button ${isAdded ? "button-quiet" : "button-primary"}" type="button">${isAdded ? "已加入课表" : "加入课表"}</button>`
-            : `<button id="detail-add" class="button button-quiet" type="button" disabled>本学期未开设</button>`}
+            : `<button id="detail-add" class="button button-quiet" type="button" disabled title="${MSDS.escapeHtml(MSDS.offeringMessage(course))}">${MSDS.courseTerms(course).includes("Unconfirmed") ? "开课学期待核实" : "本学期未开设"}</button>`}
           <a class="button button-quiet" href="index.html">查看课表</a>
           <a class="button button-reviews" href="#course-reviews">课程评价</a>
           ${courseDocument?.translation ? `<a class="button button-document" href="syllabus.html?code=${encodeURIComponent(course.code)}">查看详细课程介绍</a>` : ""}
@@ -160,6 +161,7 @@
               ${fact("所属项目", courseProgrammes.map((pCode) => MSDS.getProgramme(data, pCode).code).join("、"))}
               ${fact("先修要求", MSDS.renderCourseMentions(course.prerequisites === "Nil" ? "无" : course.prerequisites, coursesByCode))}
               ${fact("互斥课程", MSDS.renderCourseMentions(course.exclusive_course === "Nil" ? "无" : course.exclusive_course, coursesByCode))}
+              ${course.provenance?.syllabus_effective_term ? fact("大纲内载生效学期", MSDS.escapeHtml(course.provenance.syllabus_effective_term)) : ""}
               ${fact("授课语言", course.summary?.medium)}
               ${fact("授课教师", instructors)}
               ${fact("注册状态", webStatus)}
@@ -167,7 +169,8 @@
           </section>
 
           <section class="detail-section">
-            <h2>可选班次</h2>
+            <h2>可选班次 · ${MSDS.escapeHtml(displayProgramme)} · ${MSDS.escapeHtml(activeSemester)}</h2>
+            ${course.eligible_sections.length ? "" : '<p class="notice">当前项目及学期未有已核实班次；不代表不开课。加入课表仅记录选课意向，不代表已注册。</p>'}
             <div class="section-table-wrap">
               <table class="section-table">
                 <thead><tr>${tutorials.length ? "<th>选择</th>" : ""}<th>班次</th><th>时间</th><th>地点</th><th>教师</th><th>CRN / 注册</th></tr></thead>
@@ -184,7 +187,7 @@
                     <td><strong>${MSDS.escapeHtml(MSDS.DAY_NAMES[section.day] || section.day)} ${MSDS.escapeHtml(section.time)}</strong><span>${MSDS.escapeHtml(section.date)}</span></td>
                     <td><strong>${MSDS.escapeHtml([section.building, section.room].filter(Boolean).join(" "))}</strong></td>
                     <td><strong>${MSDS.escapeHtml(section.instructor)}</strong></td>
-                    <td><strong>${MSDS.escapeHtml(section.crn)}</strong><span>${section.web === "Y" ? "可网页注册" : "WEB=N"}</span></td>
+                    <td><strong>${section.source_url ? `<a href="${MSDS.escapeHtml(section.source_url)}" target="_blank" rel="noreferrer">${MSDS.escapeHtml(section.crn)} ↗</a>` : MSDS.escapeHtml(section.crn)}</strong><span>${MSDS.registrationLabel(section.web)}</span>${section.schedule_as_of ? `<span>时间快照：${MSDS.escapeHtml(section.schedule_as_of)}</span>` : ""}</td>
                   </tr>`;
                   }).join("");
                 })()}</tbody>
@@ -208,7 +211,8 @@
                   ? `<p>${MSDS.escapeHtml(source.review)}</p>`
                   : '<p class="source-review-pending">本站尚未整理这条来源中与本课程相关的原文摘录，可点击「查看原文」阅读原帖。</p>'}
               </article>`).join("")}</div>` : '<div class="notice source-empty">本地资料暂未找到可核对的学生评价来源。</div>'}
-            <div class="notice source-notice"><strong>阅读提示：</strong>学生经验对应往届课程，考核方式、教师与难度可能变化。当前班次事实来自 ${MSDS.escapeHtml(data.schedule_as_of || "课表快照")} 的 AIMS 课表快照。</div>
+            <div class="notice source-notice"><strong>阅读提示：</strong>学生经验对应往届课程，考核方式、教师与难度可能变化。班次核对时间：${MSDS.escapeHtml(course.schedule_as_of || data.schedule_as_of || "课表快照")}；各班次时间的实际采集日期见表格。</div>
+            ${course.provenance ? `<div class="notice"><strong>公开资料核对：</strong>${MSDS.escapeHtml(course.provenance.note)} <a href="${MSDS.escapeHtml(course.provenance.catalogue_url)}" target="_blank" rel="noreferrer">官方课程目录 ↗</a></div>` : ""}
           </section>
         </div>
       </div>`;
@@ -216,8 +220,7 @@
     document.getElementById("detail-add").addEventListener("click", () => {
       // 学期隔离：不在当前学期开设的课程禁止加入
       if (!offeredHere) {
-        const terms = MSDS.courseTerms(course);
-        MSDS.showToast(`该课程在 ${terms.join(" / ") || "其他"} 学期开设，请切换到对应学期`);
+        MSDS.showToast(MSDS.offeringMessage(course));
         return;
       }
       const programme = belongsToCurrent ? currentProgramme : courseProgrammes[0];

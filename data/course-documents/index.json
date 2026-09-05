@@ -791,5 +791,530 @@
   },
   "PH8001": {
     "pdf": "docs/PH8001.pdf"
+  },
+  "EF5143": {
+    "pdf": "docs/EF5143.pdf"
+  },
+  "FB5040": {
+    "pdf": "docs/FB5040.pdf"
+  },
+  "FB5690": {
+    "pdf": "docs/FB5690.pdf"
+  },
+  "FB6508": {
+    "pdf": "docs/FB6508.pdf"
+  },
+  "FB6603": {
+    "pdf": "docs/FB6603.pdf"
+  },
+  "FB6700": {
+    "pdf": "docs/FB6700.pdf"
+  },
+  "LW5303": {
+    "pdf": "docs/LW5303.pdf"
+  },
+  "LW5400": {
+    "pdf": "docs/LW5400.pdf"
+  },
+  "LW5552": {
+    "pdf": "docs/LW5552.pdf"
+  },
+  "LW5568": {
+    "pdf": "docs/LW5568.pdf"
+  },
+  "LW5600": {
+    "pdf": "docs/LW5600.pdf"
+  },
+  "LW5601": {
+    "pdf": "docs/LW5601.pdf"
+  },
+  "LW5602A": {
+    "pdf": "docs/LW5602A.pdf"
+  },
+  "LW5602B": {
+    "pdf": "docs/LW5602B.pdf"
+  },
+  "LW5603A": {
+    "pdf": "docs/LW5603A.pdf"
+  },
+  "LW5603B": {
+    "pdf": "docs/LW5603B.pdf"
+  },
+  "LW5606A": {
+    "pdf": "docs/LW5606A.pdf"
+  },
+  "LW5606B": {
+    "pdf": "docs/LW5606B.pdf"
+  },
+  "LW5607A": {
+    "pdf": "docs/LW5607A.pdf"
+  },
+  "LW5607B": {
+    "pdf": "docs/LW5607B.pdf"
+  },
+  "LW5608": {
+    "pdf": "docs/LW5608.pdf"
+  },
+  "LW5610": {
+    "pdf": "docs/LW5610.pdf"
+  },
+  "LW5611": {
+    "pdf": "docs/LW5611.pdf"
+  },
+  "LW5612": {
+    "pdf": "docs/LW5612.pdf"
+  },
+  "LW5613": {
+    "pdf": "docs/LW5613.pdf"
+  },
+  "LW5614": {
+    "pdf": "docs/LW5614.pdf"
+  },
+  "LW5615": {
+    "pdf": "docs/LW5615.pdf"
+  },
+  "LW5616": {
+    "pdf": "docs/LW5616.pdf"
+  },
+  "LW5617": {
+    "pdf": "docs/LW5617.pdf"
+  },
+  "LW5618": {
+    "pdf": "docs/LW5618.pdf"
+  },
+  "LW5620": {
+    "pdf": "docs/LW5620.pdf"
+  },
+  "LW5622": {
+    "pdf": "docs/LW5622.pdf"
+  },
+  "LW5623": {
+    "pdf": "docs/LW5623.pdf"
+  },
+  "LW5624": {
+    "pdf": "docs/LW5624.pdf"
+  },
+  "LW5625": {
+    "pdf": "docs/LW5625.pdf"
+  },
+  "LW5630A": {
+    "pdf": "docs/LW5630A.pdf"
+  },
+  "LW5630B": {
+    "pdf": "docs/LW5630B.pdf"
+  },
+  "LW5631": {
+    "pdf": "docs/LW5631.pdf"
+  },
+  "LW5632": {
+    "pdf": "docs/LW5632.pdf"
+  },
+  "LW5634": {
+    "pdf": "docs/LW5634.pdf"
+  },
+  "LW5637": {
+    "pdf": "docs/LW5637.pdf"
+  },
+  "LW5638": {
+    "pdf": "docs/LW5638.pdf"
+  },
+  "LW5641": {
+    "pdf": "docs/LW5641.pdf"
+  },
+  "LW5642": {
+    "pdf": "docs/LW5642.pdf"
+  },
+  "LW5647": {
+    "pdf": "docs/LW5647.pdf"
+  },
+  "LW5649": {
+    "pdf": "docs/LW5649.pdf"
+  },
+  "LW5649B": {
+    "pdf": "docs/LW5649B.pdf"
+  },
+  "LW5656": {
+    "pdf": "docs/LW5656.pdf"
+  },
+  "LW5657": {
+    "pdf": "docs/LW5657.pdf"
+  },
+  "LW5658": {
+    "pdf": "docs/LW5658.pdf"
+  },
+  "LW566": {
+    "pdf": "docs/LW566.pdf"
+  },
+  "LW5661": {
+    "pdf": "docs/LW5661.pdf"
+  },
+  "LW5662": {
+    "pdf": "docs/LW5662.pdf"
+  },
+  "LW5663": {
+    "pdf": "docs/LW5663.pdf"
+  },
+  "LW5663Y": {
+    "pdf": "docs/LW5663Y.pdf"
+  },
+  "LW5664": {
+    "pdf": "docs/LW5664.pdf"
+  },
+  "LW5665": {
+    "pdf": "docs/LW5665.pdf"
+  },
+  "LW5666": {
+    "pdf": "docs/LW5666.pdf"
+  },
+  "LW5667": {
+    "pdf": "docs/LW5667.pdf"
+  },
+  "LW5669": {
+    "pdf": "docs/LW5669.pdf"
+  },
+  "LW566A": {
+    "pdf": "docs/LW566A.pdf"
+  },
+  "LW566B": {
+    "pdf": "docs/LW566B.pdf"
+  },
+  "LW566C": {
+    "pdf": "docs/LW566C.pdf"
+  },
+  "LW566D": {
+    "pdf": "docs/LW566D.pdf"
+  },
+  "LW566E": {
+    "pdf": "docs/LW566E.pdf"
+  },
+  "LW566X": {
+    "pdf": "docs/LW566X.pdf"
+  },
+  "LW5670": {
+    "pdf": "docs/LW5670.pdf"
+  },
+  "LW5671": {
+    "pdf": "docs/LW5671.pdf"
+  },
+  "LW5672": {
+    "pdf": "docs/LW5672.pdf"
+  },
+  "LW5673": {
+    "pdf": "docs/LW5673.pdf"
+  },
+  "LW5674": {
+    "pdf": "docs/LW5674.pdf"
+  },
+  "LW5678": {
+    "pdf": "docs/LW5678.pdf"
+  },
+  "LW5680": {
+    "pdf": "docs/LW5680.pdf"
+  },
+  "LW5681": {
+    "pdf": "docs/LW5681.pdf"
+  },
+  "LW5683": {
+    "pdf": "docs/LW5683.pdf"
+  },
+  "LW5684": {
+    "pdf": "docs/LW5684.pdf"
+  },
+  "LW5685": {
+    "pdf": "docs/LW5685.pdf"
+  },
+  "LW6100E": {
+    "pdf": "docs/LW6100E.pdf"
+  },
+  "LW6102E": {
+    "pdf": "docs/LW6102E.pdf"
+  },
+  "LW6103E": {
+    "pdf": "docs/LW6103E.pdf"
+  },
+  "LW6105E": {
+    "pdf": "docs/LW6105E.pdf"
+  },
+  "LW6106E": {
+    "pdf": "docs/LW6106E.pdf"
+  },
+  "LW6107E": {
+    "pdf": "docs/LW6107E.pdf"
+  },
+  "LW6108E": {
+    "pdf": "docs/LW6108E.pdf"
+  },
+  "LW6109E": {
+    "pdf": "docs/LW6109E.pdf"
+  },
+  "LW6115E": {
+    "pdf": "docs/LW6115E.pdf"
+  },
+  "LW6116E": {
+    "pdf": "docs/LW6116E.pdf"
+  },
+  "LW6117E": {
+    "pdf": "docs/LW6117E.pdf"
+  },
+  "LW6118E": {
+    "pdf": "docs/LW6118E.pdf"
+  },
+  "LW6119E": {
+    "pdf": "docs/LW6119E.pdf"
+  },
+  "LW6121C": {
+    "pdf": "docs/LW6121C.pdf"
+  },
+  "LW6121E": {
+    "pdf": "docs/LW6121E.pdf"
+  },
+  "LW6122C": {
+    "pdf": "docs/LW6122C.pdf"
+  },
+  "LW6126E": {
+    "pdf": "docs/LW6126E.pdf"
+  },
+  "LW6128E": {
+    "pdf": "docs/LW6128E.pdf"
+  },
+  "LW6129C": {
+    "pdf": "docs/LW6129C.pdf"
+  },
+  "LW6129E": {
+    "pdf": "docs/LW6129E.pdf"
+  },
+  "LW6131C": {
+    "pdf": "docs/LW6131C.pdf"
+  },
+  "LW6132E": {
+    "pdf": "docs/LW6132E.pdf"
+  },
+  "LW6134E": {
+    "pdf": "docs/LW6134E.pdf"
+  },
+  "LW6136C": {
+    "pdf": "docs/LW6136C.pdf"
+  },
+  "LW6137E": {
+    "pdf": "docs/LW6137E.pdf"
+  },
+  "LW6138C": {
+    "pdf": "docs/LW6138C.pdf"
+  },
+  "LW6138E": {
+    "pdf": "docs/LW6138E.pdf"
+  },
+  "LW6141E": {
+    "pdf": "docs/LW6141E.pdf"
+  },
+  "LW6142E": {
+    "pdf": "docs/LW6142E.pdf"
+  },
+  "LW6143C": {
+    "pdf": "docs/LW6143C.pdf"
+  },
+  "LW6143E": {
+    "pdf": "docs/LW6143E.pdf"
+  },
+  "LW6144C": {
+    "pdf": "docs/LW6144C.pdf"
+  },
+  "LW6144E": {
+    "pdf": "docs/LW6144E.pdf"
+  },
+  "LW6145E": {
+    "pdf": "docs/LW6145E.pdf"
+  },
+  "LW6146C": {
+    "pdf": "docs/LW6146C.pdf"
+  },
+  "LW6146E": {
+    "pdf": "docs/LW6146E.pdf"
+  },
+  "LW6147E": {
+    "pdf": "docs/LW6147E.pdf"
+  },
+  "LW6148E": {
+    "pdf": "docs/LW6148E.pdf"
+  },
+  "LW6149E": {
+    "pdf": "docs/LW6149E.pdf"
+  },
+  "LW6150E": {
+    "pdf": "docs/LW6150E.pdf"
+  },
+  "LW6152E": {
+    "pdf": "docs/LW6152E.pdf"
+  },
+  "LW6153E": {
+    "pdf": "docs/LW6153E.pdf"
+  },
+  "LW6157E": {
+    "pdf": "docs/LW6157E.pdf"
+  },
+  "LW6160C": {
+    "pdf": "docs/LW6160C.pdf"
+  },
+  "LW6160E": {
+    "pdf": "docs/LW6160E.pdf"
+  },
+  "LW6161C": {
+    "pdf": "docs/LW6161C.pdf"
+  },
+  "LW6161E": {
+    "pdf": "docs/LW6161E.pdf"
+  },
+  "LW6162E": {
+    "pdf": "docs/LW6162E.pdf"
+  },
+  "LW6163E": {
+    "pdf": "docs/LW6163E.pdf"
+  },
+  "LW6164E": {
+    "pdf": "docs/LW6164E.pdf"
+  },
+  "LW6165E": {
+    "pdf": "docs/LW6165E.pdf"
+  },
+  "LW6167E": {
+    "pdf": "docs/LW6167E.pdf"
+  },
+  "LW6170E": {
+    "pdf": "docs/LW6170E.pdf"
+  },
+  "LW6172E": {
+    "pdf": "docs/LW6172E.pdf"
+  },
+  "LW6173C": {
+    "pdf": "docs/LW6173C.pdf"
+  },
+  "LW6173E": {
+    "pdf": "docs/LW6173E.pdf"
+  },
+  "LW6177E": {
+    "pdf": "docs/LW6177E.pdf"
+  },
+  "LW6188E": {
+    "pdf": "docs/LW6188E.pdf"
+  },
+  "LW6195E": {
+    "pdf": "docs/LW6195E.pdf"
+  },
+  "LW6196E": {
+    "pdf": "docs/LW6196E.pdf"
+  },
+  "LW6198E": {
+    "pdf": "docs/LW6198E.pdf"
+  },
+  "LW6201E": {
+    "pdf": "docs/LW6201E.pdf"
+  },
+  "LW6207E": {
+    "pdf": "docs/LW6207E.pdf"
+  },
+  "LW6208E": {
+    "pdf": "docs/LW6208E.pdf"
+  },
+  "LW6209E": {
+    "pdf": "docs/LW6209E.pdf"
+  },
+  "LW6216E": {
+    "pdf": "docs/LW6216E.pdf"
+  },
+  "LW6217E": {
+    "pdf": "docs/LW6217E.pdf"
+  },
+  "LW6401": {
+    "pdf": "docs/LW6401.pdf"
+  },
+  "LW6402": {
+    "pdf": "docs/LW6402.pdf"
+  },
+  "LW6405": {
+    "pdf": "docs/LW6405.pdf"
+  },
+  "LW6406": {
+    "pdf": "docs/LW6406.pdf"
+  },
+  "LW6407": {
+    "pdf": "docs/LW6407.pdf"
+  },
+  "LW6408": {
+    "pdf": "docs/LW6408.pdf"
+  },
+  "LW6409A": {
+    "pdf": "docs/LW6409A.pdf"
+  },
+  "LW6409B": {
+    "pdf": "docs/LW6409B.pdf"
+  },
+  "LW6415": {
+    "pdf": "docs/LW6415.pdf"
+  },
+  "LW6418": {
+    "pdf": "docs/LW6418.pdf"
+  },
+  "LW6420": {
+    "pdf": "docs/LW6420.pdf"
+  },
+  "LW6423": {
+    "pdf": "docs/LW6423.pdf"
+  },
+  "LW6959": {
+    "pdf": "docs/LW6959.pdf"
+  },
+  "PLE5012": {
+    "pdf": "docs/PLE5012.pdf"
+  },
+  "PLE5013": {
+    "pdf": "docs/PLE5013.pdf"
+  },
+  "PLE5015": {
+    "pdf": "docs/PLE5015.pdf"
+  },
+  "PLE5016": {
+    "pdf": "docs/PLE5016.pdf"
+  },
+  "PLE5018": {
+    "pdf": "docs/PLE5018.pdf"
+  },
+  "PLE5019": {
+    "pdf": "docs/PLE5019.pdf"
+  },
+  "PLE5020": {
+    "pdf": "docs/PLE5020.pdf"
+  },
+  "PLE5022": {
+    "pdf": "docs/PLE5022.pdf"
+  },
+  "PLE5026": {
+    "pdf": "docs/PLE5026.pdf"
+  },
+  "PLE5027": {
+    "pdf": "docs/PLE5027.pdf"
+  },
+  "PLE5028": {
+    "pdf": "docs/PLE5028.pdf"
+  },
+  "PLE5029": {
+    "pdf": "docs/PLE5029.pdf"
+  },
+  "PLE5031": {
+    "pdf": "docs/PLE5031.pdf"
+  },
+  "PLE5032": {
+    "pdf": "docs/PLE5032.pdf"
+  },
+  "PLE5050": {
+    "pdf": "docs/PLE5050.pdf"
+  },
+  "PLE5051": {
+    "pdf": "docs/PLE5051.pdf"
+  },
+  "PLE5052": {
+    "pdf": "docs/PLE5052.pdf"
+  },
+  "PLE5054": {
+    "pdf": "docs/PLE5054.pdf"
   }
 }

@@ -1,14 +1,14 @@
 # CityU Pedia · 城大百科
 
-> **当前版本：1.2.4（CityUPedia 1.2.4）**
-> Semester B 2026/27 快照同步：CS5293、CS5182、CS5281、CS5288、CS5296、CS5483、CS5487、CS5491、CS6493、CS6491、CS6487、CS6290、CS6284、CS5493、CS6283 十五门课的班次时间已对照 AIMS（2026-09-03）更新，欢迎分享你的课程体验。
+> **最近已发布版本：1.2.4（CityUPedia 1.2.4）**
+> 本分支尚未发布：收录 13 个授课型研究生项目、418 门课程；新增法学院 5 个项目及其 2026-09-05 公开课程资料，不代表线上版本已经包含这些内容。
 > 完整的版本变更记录请查看 [更新日志（CHANGELOG.md）](CHANGELOG.md)。
 
 CityU Pedia（城大百科）是一个为**香港城市大学（CityU）授课型硕士生**打造的一站式课程综合平台，涵盖排课规划与课程评价两大核心功能。整合课程时间表查询、班次选择与学生评价汇总，帮你做出更明智的决定。
 
 > ⚠️ **免责声明：** 课程评价内容均整理自公开社交平台（小红书、知乎、Reddit 等），仅供参考，不构成建议。请以学校官方信息为准。
 >
-> 当前数据覆盖 **Semester A 2026/27**、**Semester B** 和 **Summer** 三个学期。课表快照时间为 **2026-08-05 12:00（Asia/Beijing）**，名额、教师、教室及注册状态可能随时变化，请以 CityU AIMS 的最新信息为准。
+> 网站支持 **SemA、SemB、Summer** 三个课表，但不代表每个项目都已取得三个学期的班次。原有项目保留仓库原快照日期；法学院公开班次于 **2026-09-05** 复核，其中 11 个已知满员班次的时间沿用 **2026-09-02**，逐条注明。官网目录本轮遇验证码，项目映射仍为 2026-09-02 快照，不能视为已完成最新目录核验。
 
 ## 在线访问
 
@@ -26,8 +26,24 @@ CityU Pedia（城大百科）是一个为**香港城市大学（CityU）授课�
 | MSDS | 数据科学理学硕士（MSc Data Science） | Department of Data Science |
 | MSAIFS | 人工智能与科学理学硕士（MSc AI for Sciences） | Department of Data Science |
 | MSVC | 创新创业理学硕士（MSc Venture Creation） | CityUHK Academy of Innovation |
+| PCLL | 法律专业证书（Postgraduate Certificate in Laws） | School of Law |
+| JD | 法律博士（Juris Doctor） | School of Law |
+| LLM | 法学硕士（Master of Laws） | School of Law |
+| LLMARBDR | 仲裁及争议解决学法学硕士（Master of Laws in Arbitration and Dispute Resolution） | School of Law |
+| PGCPL | 专利法研究生证书（Postgraduate Certificate in Patent Law） | School of Law |
 
 > 创新学院（CityUHK Academy of Innovation）为计算学院以外的第一个学院，其 MSVC 项目的选修课来自会计、管理、市场营销、信息系统、传播、能源环境、公共政策、社会科学与系统工程等多个院系。
+>
+> 法学院项目的方向、豁免和轨道规则不能完全压缩为单一的「核心/选修」标签，请在选课前查看项目说明与官方课程目录。
+
+### 法学院数据的审核边界
+
+- 班次按完整课程代码匹配；`LW566` 等总类与带后缀专题不能混用。当前保留 46 门课程、120 个不同 CRN、174 条上课记录（含已有 MSEC 的 LW5962）。公共检索清单不保证完整，满员不能当作不开课。
+- 班次带 `course_code`、`semester`、`schedule_as_of`、`seats_as_of`；明确的项目限制单独保存并用于筛选。未核实的 WEB 状态为 `Unknown`，不从旧课程级数据推断。
+- `Not offered` 仅表示前次官方目录明确不开课；缺少学期证据的 16 门课用 `Unconfirmed`。缺少先修/互斥说明不能填“无”，必须保留待核实提示。
+- 项目备注现在显示在排课页。LLM、LLMARBDR、PGCPL 不再显示单一的核心/选修学分组合；这不是毕业资格或注册资格检查器。
+- 175 份新增 PDF 保留原文件，本轮重新读取课程要求。7 门未取得 PDF 的课程仍不造文件；不包含登录后的课表、学生评价、中文翻译或 Excel。
+- 核心回归校验：`node tools/check-law-data.cjs`。最新目录与 PGCPL 官方来源冲突仍需人工确认；具体差异见 [未发布更新日志](CHANGELOG.md)。
 
 ## 网页版主要功能
 
