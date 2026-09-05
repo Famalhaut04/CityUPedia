@@ -102,6 +102,7 @@
   }
 
   function reloadSelections() {
+    courses = data.courses.map((course) => MSDS.courseForContext(course, activeProgramme, activeSemester));
     selections = MSDS.getStoredSelections(activeProgramme, activeSemester);
   }
 
@@ -258,7 +259,7 @@
   function renderProgrammeStats() {
     const programme = currentProgramme();
     document.getElementById("stat-graduation").textContent = programme.graduation_credit_units
-      ? `${programme.graduation_credit_units}`
+      ? (programme.graduation_credit_units_display || `${programme.graduation_credit_units}`)
       : "—";
     document.getElementById("stat-graduation-label").textContent = "毕业学分";
     const requirement = programme.requirement_credit_units;
@@ -266,7 +267,7 @@
       document.getElementById("stat-requirement").textContent = `${requirement.core} + ${requirement.electives}`;
       document.getElementById("stat-requirement-label").textContent = "核心 + 选修";
     } else {
-      document.getElementById("stat-requirement").textContent = "以学院为准";
+      document.getElementById("stat-requirement").textContent = programme.requirement_summary || "以学院为准";
       document.getElementById("stat-requirement-label").textContent = "核心 + 选修学分";
     }
     document.getElementById("programme-summary-name").textContent = `${programme.code} · ${programme.name_zh}`;
@@ -284,7 +285,9 @@
         infoLink.hidden = true;
       }
     }
-    document.getElementById("data-note").textContent = `课表快照：${data.schedule_as_of || ""}（Asia/Beijing），数据采集自 CityU AIMS 系统。名额和注册状态会变化，请以 CityU 系统为准。`;
+    const notes = document.getElementById("programme-notes");
+    if (notes) notes.innerHTML = (programme.notes || []).map((note) => `<p>${MSDS.escapeHtml(note)}</p>`).join("");
+    document.getElementById("data-note").textContent = `课表快照：${programme.schedule_as_of || data.schedule_as_of || ""}（Asia/Beijing）。${programme.schedule_note || "数据采集自 CityU AIMS 系统。"}名额和注册状态会变化，请以 CityU 系统为准。`;
   }
 
   // 若当前项目配置了选修分组（如 MSCY 的 Group I / Group II），在“选修”后追加对应筛选按钮
@@ -330,7 +333,7 @@
     container.hidden = false;
     if (!["all", ...terms].includes(activeSemesterFilter)) activeSemesterFilter = "all";
     row.innerHTML = [`<button class="term-filter-pill ${activeSemesterFilter === "all" ? "active" : ""}" type="button" data-term-filter="all">全部</button>`]
-      .concat(terms.map((term) => `<button class="term-filter-pill ${MSDS.termBadgeClass(term)} ${activeSemesterFilter === term ? "active" : ""}" type="button" data-term-filter="${MSDS.escapeHtml(term)}">${MSDS.escapeHtml(term)}</button>`))
+      .concat(terms.map((term) => `<button class="term-filter-pill ${MSDS.termBadgeClass(term)} ${activeSemesterFilter === term ? "active" : ""}" type="button" data-term-filter="${MSDS.escapeHtml(term)}">${MSDS.escapeHtml(MSDS.termLabel(term))}</button>`))
       .join("");
   }
 
@@ -350,7 +353,7 @@
       // 去重后的班次列表：用于“共几个班次”计数与“选择时间”下拉框（同一班次的多次上课时间不算多个选项）
       const primaryOptions = MSDS.uniqueByKey(primaries);
       const tutorialOptions = MSDS.uniqueByKey(tutorials);
-      const scheduleText = primaries.map((item) => `${MSDS.DAY_NAMES[item.day]} ${item.time}`).join(" / ");
+      const scheduleText = primaries.map((item) => `${MSDS.DAY_NAMES[item.day] || item.day || "时间待定"} ${item.time}`).join(" / ") || "当前项目及学期未有已核实班次（不代表不开课）";
       const selectedPrimary = selections[course.code]?.primaryCrn;
       const selectedTutorial = selections[course.code]?.tutorialCrn
         || (tutorialOptions.length ? MSDS.sectionKey(MSDS.pickTutorial(MSDS.findSection(course, selectedPrimary) || primaryOptions[0], tutorialOptions)) : null);
@@ -359,7 +362,7 @@
         : MSDS.recommendationBadge(rec, true);
       const groupInfo = MSDS.getElectiveGroupInfo(currentProgramme(), MSDS.getElectiveGroup(course, activeProgramme));
       const groupBadge = groupInfo ? `<span class="mini-badge group">${MSDS.escapeHtml(groupInfo.label_zh)}</span>` : "";
-      const termBadge = MSDS.courseTerms(course).map((term) => `<span class="mini-badge term ${MSDS.termBadgeClass(term)}">${MSDS.escapeHtml(term)}</span>`).join("");
+      const termBadge = MSDS.courseTerms(course).map((term) => `<span class="mini-badge term ${MSDS.termBadgeClass(term)}">${MSDS.escapeHtml(MSDS.termLabel(term))}</span>`).join("");
       const myReview = MSDS.getCourseReview(course.code);
       const reviewBadge = myReview ? `<span class="mini-badge review" title="我的评价：${Number(myReview.rating)} 星${myReview.comment ? " · " + MSDS.escapeHtml(myReview.comment) : ""}">已评 ${Number(myReview.rating)}★</span>` : "";
 
@@ -420,9 +423,10 @@
   }
 
   function sectionOptions(sections, selectedKey) {
-    return sections.map((section) => {
+    const stale = selectedKey && !sections.some((section) => MSDS.sectionKey(section) === String(selectedKey));
+    return (stale ? '<option value="" selected disabled>原班次不适用，请重新选择</option>' : "") + sections.map((section) => {
       const key = MSDS.sectionKey(section);
-      const webNote = section.web === "N" ? " · 非网页注册" : "";
+      const webNote = section.web === "Y" ? "" : ` · ${MSDS.registrationLabel(section.web)}`;
       const restricted = MSDS.sectionRestrictedProgrammes(section);
       const restrictionNote = restricted.length ? ` · 仅限：${restricted.join("、")}` : "";
       return `<option value="${MSDS.escapeHtml(key)}" ${String(selectedKey) === key ? "selected" : ""}>${MSDS.escapeHtml(MSDS.formatSection(section) + webNote + restrictionNote)}</option>`;
@@ -779,8 +783,7 @@
     } else {
       // 学期隔离：a 学期的课不能在 b 学期选上
       if (!MSDS.courseOfferedInSemester(course, activeSemester)) {
-        const terms = MSDS.courseTerms(course);
-        MSDS.showToast(terms.includes("Not offered") ? "该课程在 2026/27 学年未开设" : `该课程在 ${terms.join(" / ") || "其他"} 学期开设，请切换到对应学期`);
+        MSDS.showToast(MSDS.offeringMessage(course));
         return;
       }
       selections[code] = selectionForPrimary(course, primaryCrn, tutorialCrn);

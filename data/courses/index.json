@@ -272,12 +272,15 @@
    "data_ready": true,
    "notes": [
     "核心课 24 学分 + 选修课 6 学分，共 30 学分。",
-    "课程以 2026/27 Programme and Course Catalogue 为准。"
+    "课程以 2026/27 Programme and Course Catalogue 为准。",
+    "本页课程分类是项目课程集合，不是个人毕业资格核验；方向、豁免、先修和注册资格须由学院确认。"
    ],
    "college": "法学院",
    "college_en": "School of Law",
    "department_en": "School of Law",
-   "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-law/school-of-law/p45"
+   "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-law/school-of-law/p45",
+   "schedule_as_of": "2026-09-05",
+   "schedule_note": "仅 Semester A 2026/27 公开班次；部分满员班次时间沿用 2026-09-02。SemB/Summer 尚无本轮核实班次。 密集课按不同日期汇总在周视图中，不代表每周开课；跨周冲突须结合详情日期人工确认。"
   },
   {
    "code": "JD",
@@ -293,12 +296,15 @@
    "data_ready": true,
    "notes": [
     "核心课 6 学分 + 选修课 66 学分，共 72 学分。",
-    "课程以 2026/27 Programme and Course Catalogue 为准。"
+    "课程以 2026/27 Programme and Course Catalogue 为准。",
+    "本页课程分类是项目课程集合，不是个人毕业资格核验；方向、豁免、先修和注册资格须由学院确认。"
    ],
    "college": "法学院",
    "college_en": "School of Law",
    "department_en": "School of Law",
-   "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-law/school-of-law/p43"
+   "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-law/school-of-law/p43",
+   "schedule_as_of": "2026-09-05",
+   "schedule_note": "仅 Semester A 2026/27 公开班次；部分满员班次时间沿用 2026-09-02。SemB/Summer 尚无本轮核实班次。 密集课按不同日期汇总在周视图中，不代表每周开课；跨周冲突须结合详情日期人工确认。"
   },
   {
    "code": "LLM",
@@ -307,20 +313,25 @@
    "department": "法学院",
    "graduation_credit_units": 24,
    "requirement_credit_units": {
-    "core": 0,
-    "electives": 24
+    "core": null,
+    "electives": null
    },
    "default_selections": [],
    "data_ready": true,
    "notes": [
     "一般路径须修满 24 学分；知识产权及科技法、海事与运输法方向的非法律学位入学者须另修 6 学分基础课，共 30 学分。",
     "项目设 7 个方向，必修/选修组合按方向而异；课程列表同时收录 2026/27 项目要求与 Annex I 当年开课清单。",
-    "现有数据模型不能表示一门课在不同方向中的不同属性，因此课程统一标为 LLM 选修；选课时请以官方方向要求为准。"
+    "现有数据模型不能表示一门课在不同方向中的不同属性，因此课程统一标为 LLM 选修；选课时请以官方方向要求为准。",
+    "本页课程分类是项目课程集合，不是个人毕业资格核验；方向、豁免、先修和注册资格须由学院确认。"
    ],
    "college": "法学院",
    "college_en": "School of Law",
    "department_en": "School of Law",
-   "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-law/school-of-law/p46"
+   "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-law/school-of-law/p46",
+   "schedule_as_of": "2026-09-05",
+   "schedule_note": "仅 Semester A 2026/27 公开班次；部分满员班次时间沿用 2026-09-02。SemB/Summer 尚无本轮核实班次。 密集课按不同日期汇总在周视图中，不代表每周开课；跨周冲突须结合详情日期人工确认。",
+   "requirement_summary": "按方向核定",
+   "graduation_credit_units_display": "24 / 30"
   },
   {
    "code": "LLMARBDR",
@@ -329,19 +340,24 @@
    "department": "法学院",
    "graduation_credit_units": 30,
    "requirement_credit_units": {
-    "core": 24,
-    "electives": 6
+    "core": null,
+    "electives": null
    },
    "default_selections": [],
    "data_ready": true,
    "notes": [
     "符合 LW5303、LW5400 豁免条件者修核心课 24 学分 + 选修课 6 学分，共 30 学分。",
-    "不符合豁免条件者须修核心课 30 学分 + 选修课 3 学分，共 33 学分。"
+    "不符合豁免条件者须修核心课 30 学分 + 选修课 3 学分，共 33 学分。",
+    "本页课程分类是项目课程集合，不是个人毕业资格核验；方向、豁免、先修和注册资格须由学院确认。"
    ],
    "college": "法学院",
    "college_en": "School of Law",
    "department_en": "School of Law",
-   "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-law/school-of-law/p41"
+   "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/school-of-law/school-of-law/p41",
+   "schedule_as_of": "2026-09-05",
+   "schedule_note": "仅 Semester A 2026/27 公开班次；部分满员班次时间沿用 2026-09-02。SemB/Summer 尚无本轮核实班次。 密集课按不同日期汇总在周视图中，不代表每周开课；跨周冲突须结合详情日期人工确认。",
+   "requirement_summary": "按豁免核定",
+   "graduation_credit_units_display": "30 / 33"
   },
   {
    "code": "PGCPL",
@@ -350,23 +366,27 @@
    "department": "法学院",
    "graduation_credit_units": 12,
    "requirement_credit_units": {
-    "core": 9,
-    "electives": 3
+    "core": null,
+    "electives": null
    },
    "default_selections": [],
    "data_ready": true,
    "notes": [
     "Track A 修核心课 9 学分 + 选修课 3 学分；Track B 修核心课 6 学分 + 选修课 3 学分 + 衔接课 3 学分，共 12 学分。",
-    "课程以法学院 2026/27 PGC Patent Law 页面为准；该页与中央 P93 页面存在课程清单差异，详见变更记录。"
+    "课程以法学院 2026/27 PGC Patent Law 页面为准；该页与中央 P93 页面存在课程清单差异，详见变更记录。",
+    "本页课程分类是项目课程集合，不是个人毕业资格核验；方向、豁免、先修和注册资格须由学院确认。"
    ],
    "college": "法学院",
    "college_en": "School of Law",
    "department_en": "School of Law",
-   "programme_url": "https://www.cityu.edu.hk/slw/prospective-students/postgraduate-programmes/pgc-patent-law"
+   "programme_url": "https://www.cityu.edu.hk/slw/prospective-students/postgraduate-programmes/pgc-patent-law",
+   "schedule_as_of": "2026-09-05",
+   "schedule_note": "仅 Semester A 2026/27 公开班次；部分满员班次时间沿用 2026-09-02。SemB/Summer 尚无本轮核实班次。 密集课按不同日期汇总在周视图中，不代表每周开课；跨周冲突须结合详情日期人工确认。",
+   "requirement_summary": "按 Track 核定"
   }
  ],
  "semester": "Semester A 2026/27",
- "schedule_as_of": "法学院 2026-09-02；其他项目 2026-08-06 12:00",
+ "schedule_as_of": "2026-08-06 12:00",
  "graduation_credit_units": 30,
  "requirement_credit_units": {
   "core": 15,
@@ -381,8 +401,8 @@
   "CS 系列课程班次含 Programmes 限制说明，请在课程详情查看；部分班次仅面向指定项目开放。",
   "MSEC 的 IS 系列课程仅收录允许 MSc Electronic Commerce 注册的班次。",
   "夏季学期（Summer Term 2026）：2026-06-08 至 2026-07-25 上课，计算学院授课式硕士的暑期以「项目 / 论文 / 实习延续」为主，不含常规授课班。6 学分的 capstone 课程（CS6520/CS6531/EC6001/DSC6024）在 SemB 与 Summer 均开设，故 semester_tag 记为 SemB+Summer；3 学分课程（DSC6006/BIOS6903/CS6535）仅 Summer 开设。官方 sample study plan 已确认 MSCS 的 CS6520 Project（暑期延续）；班次时间以 AIMS Master Class Schedule 为准，暑期班次时间为空。",
-  "法学院 5 个项目课程取自 2026/27 公开课程目录；Semester A 班次为 2026-09-02 AIMS 快照，方向、豁免及轨道条件以各项目官方说明为准。",
-  "法学院课程标记为 Not offered 时，表示 2026/27 公开目录和当前 AIMS 均未提供可用开课学期；网站会保留课程资料但阻止加入 SemA、SemB 或 Summer 课表。"
+  "法学院项目和目录沿用 2026-09-02 快照；AIMS 于 2026-09-05 本地复核。班次时间与名额分别标注日期，不保证公开清单完整。",
+  "法学院 Not offered 仅用于目录明确标为不开课的课程；缺少公开证据记为 Unconfirmed。公开检索返回空白不等于不开课。"
  ],
  "courses": [
   {
@@ -4669,13 +4689,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/EF5143.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/EF5143.pdf"
+   }
   },
   {
    "code": "FB5040",
@@ -4694,13 +4721,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "EF5042 Corporate Finance",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/FB5040.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/FB5040.pdf"
+   }
   },
   {
    "code": "FB5690",
@@ -4719,13 +4753,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/FB5690.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/FB5690.pdf"
+   }
   },
   {
    "code": "FB6508",
@@ -4742,15 +4783,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "MGT6508 International Business Management",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/FB6508.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/FB6508.pdf"
+   }
   },
   {
    "code": "FB6603",
@@ -4769,13 +4817,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "MKT6603 Consumer Behaviour; MKT5611 Consumer/Buyer Behaviour",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/FB6603.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/FB6603.pdf"
+   }
   },
   {
    "code": "FB6700",
@@ -4794,13 +4849,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Summer"
+   "semester_tag": "Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/FB6700.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/FB6700.pdf"
+   }
   },
   {
    "code": "IS5010",
@@ -5266,13 +5328,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "30",
     "capacity": "200",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5303.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5303.pdf"
+   }
   },
   {
    "code": "LW5400",
@@ -5293,13 +5362,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "25",
     "capacity": "200",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5400.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5400.pdf"
+   }
   },
   {
    "code": "LW5552",
@@ -5318,13 +5394,20 @@
    "prerequisites": "#LW5622 Legal methods, Research and Writing (this requirement applies to JD student only)",
    "exclusive_course": "LW6537C/E and LW6137C/E Dissertation (Students who have completed or are taking any of these Dissertation courses are not allowed to take LW5552 Independent Research.)",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB+Summer"
+   "semester_tag": "SemA+SemB+Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5552.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5552.pdf"
+   }
   },
   {
    "code": "LW5568",
@@ -5341,15 +5424,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6142E/ LW6543C/ LW6542E International Investment Law (stduents who completed LW6142E/ LW6543C/ LW6542E are not allowed to take LW5568)",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5568.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5568.pdf"
+   }
   },
   {
    "code": "LW5600",
@@ -5368,13 +5458,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5600.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5600.pdf"
+   }
   },
   {
    "code": "LW5601",
@@ -5393,13 +5490,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "18",
-    "capacity": "195",
+    "capacity": "228",
     "medium": "English"
    },
-   "section_count": 2,
-   "semester_tag": "SemA"
+   "section_count": 3,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5601.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5601.pdf"
+   }
   },
   {
    "code": "LW5602A",
@@ -5418,13 +5522,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6564E Law of Contract",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "16",
     "capacity": "228",
     "medium": "English"
    },
    "section_count": 3,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5602A.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5602A.pdf"
+   }
   },
   {
    "code": "LW5602B",
@@ -5443,13 +5554,20 @@
    "prerequisites": "LW5602A Law of Contract I",
    "exclusive_course": "LW6564E Law of Contract",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5602B.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5602B.pdf"
+   }
   },
   {
    "code": "LW5603A",
@@ -5468,13 +5586,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6565E Law of Tort (LLM)",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "22",
     "capacity": "295",
     "medium": "English"
    },
    "section_count": 5,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5603A.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5603A.pdf"
+   }
   },
   {
    "code": "LW5603B",
@@ -5493,13 +5618,20 @@
    "prerequisites": "LW5603A Law of Tort I",
    "exclusive_course": "LW6565E Law of Tort",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5603B.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5603B.pdf"
+   }
   },
   {
    "code": "LW5606A",
@@ -5518,13 +5650,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "14",
+    "web": "Unknown",
+    "available": "24",
     "capacity": "240",
     "medium": "English"
    },
    "section_count": 4,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5606A.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5606A.pdf"
+   }
   },
   {
    "code": "LW5606B",
@@ -5543,13 +5682,20 @@
    "prerequisites": "LW5606A Criminal Law I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5606B.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5606B.pdf"
+   }
   },
   {
    "code": "LW5607A",
@@ -5568,13 +5714,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System; and LW5622 Legal Methods, Research and Writing; and LW5602A Law of Contract I and LW5602B Law of Contract II",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "4",
+    "capacity": "140",
     "medium": "English"
    },
-   "section_count": 0,
-   "semester_tag": "SemA"
+   "section_count": 2,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5607A.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5607A.pdf"
+   }
   },
   {
    "code": "LW5607B",
@@ -5593,13 +5746,20 @@
    "prerequisites": "LW5607A Land Law I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5607B.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5607B.pdf"
+   }
   },
   {
    "code": "LW5608",
@@ -5618,13 +5778,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6119E Constitutional Law",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5608.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5608.pdf"
+   }
   },
   {
    "code": "LW5610",
@@ -5643,13 +5810,20 @@
    "prerequisites": "LW5608 Constitutional Law",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "4",
     "capacity": "125",
     "medium": "English"
    },
    "section_count": 2,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5610.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5610.pdf"
+   }
   },
   {
    "code": "LW5611",
@@ -5665,16 +5839,23 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "NIL",
-   "exclusive_course": "NIL",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "2",
+    "capacity": "24",
     "medium": "English"
    },
-   "section_count": 0,
-   "semester_tag": "SemA"
+   "section_count": 2,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5611.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5611.pdf"
+   }
   },
   {
    "code": "LW5612",
@@ -5690,16 +5871,23 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
+   "prerequisites": "For all cohorts: Only JD students with a CGPA of 2.85 or above immediately prior to undertaking the placement are allowed to take this course. In order to complete this course, students must have their application for internship approved by the Course Leader prior to commencement of the placement. The approval of the Course Leader is required for all internships whether arranged through the SLW or Join-in (Self-Solicited). Only an application approved by the Course Leader prior to commencement of the placement will be considered as an eligible basis for this course. LW5601 Hong Kong Legal Systems LW5622 Legal Methods, Research and Writing, and LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Other Languages Other Languages for Medium of Instruction A combination of English and Chinese"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB+Summer"
+   "semester_tag": "SemA+SemB+Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5612.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5612.pdf"
+   }
   },
   {
    "code": "LW5613",
@@ -5715,16 +5903,23 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "NIL",
-   "exclusive_course": "NIL",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5613.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5613.pdf"
+   }
   },
   {
    "code": "LW5614",
@@ -5743,13 +5938,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "2",
+    "web": "Unknown",
+    "available": "7",
     "capacity": "20",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5614.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5614.pdf"
+   }
   },
   {
    "code": "LW5615",
@@ -5768,13 +5970,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "10",
     "capacity": "20",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5615.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5615.pdf"
+   }
   },
   {
    "code": "LW5616",
@@ -5793,13 +6002,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System, LW5622 Legal Methods, Research and Writing, LW5602A Law of Contract I and LW5602B Law of Contract, and LW5606A Criminal Law I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5616.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5616.pdf"
+   }
   },
   {
    "code": "LW5617",
@@ -5818,13 +6034,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System; and LW5622 Legal Methods, Research and Writing; and LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "14",
+    "capacity": "40",
     "medium": "English"
    },
-   "section_count": 0,
-   "semester_tag": "SemA"
+   "section_count": 3,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5617.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5617.pdf"
+   }
   },
   {
    "code": "LW5618",
@@ -5843,13 +6066,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5618.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5618.pdf"
+   }
   },
   {
    "code": "LW5620",
@@ -5868,13 +6098,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6144E World Trade Law",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5620.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5620.pdf"
+   }
   },
   {
    "code": "LW5622",
@@ -5893,13 +6130,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "20",
-    "capacity": "264",
+    "web": "Unknown",
+    "available": "22",
+    "capacity": "330",
     "medium": "English"
    },
-   "section_count": 4,
-   "semester_tag": "SemA"
+   "section_count": 6,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5622.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5622.pdf"
+   }
   },
   {
    "code": "LW5623",
@@ -5918,13 +6162,20 @@
    "prerequisites": "LW5621 Legal Systems of Hong Kong and Mainland China or LW5601 Hong Kong Legal System, LW5622 Legal Methods, Research and Writing, and LW5602 Law of Contract or LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5623.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5623.pdf"
+   }
   },
   {
    "code": "LW5624",
@@ -5943,13 +6194,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5624.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5624.pdf"
+   }
   },
   {
    "code": "LW5625",
@@ -5968,13 +6226,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5625.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5625.pdf"
+   }
   },
   {
    "code": "LW5626",
@@ -5990,16 +6255,21 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5626.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。"
+   }
   },
   {
    "code": "LW5630A",
@@ -6018,13 +6288,20 @@
    "prerequisites": "LW5601 Hong Kong Legal; and LW5622 Legal Methods, Research and Writing; and LW5602A Law of Contract I and LW5602B Law of Contact II; and LW5603A Law of Tort I and LW5603B Law of Tort II",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "10",
+    "web": "Unknown",
+    "available": "8",
     "capacity": "137",
     "medium": "English"
    },
    "section_count": 2,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5630A.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5630A.pdf"
+   }
   },
   {
    "code": "LW5630B",
@@ -6043,13 +6320,20 @@
    "prerequisites": "LW5630A Equity & Trusts I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5630B.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5630B.pdf"
+   }
   },
   {
    "code": "LW5631",
@@ -6068,13 +6352,20 @@
    "prerequisites": "LW5621 Legal Systems of Hong Kong and Mainland China or LW5601 Hong Kong Legal System, LW5622 Legal Methods, Research and Writing, and LW5602 Law of Contract or LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5631.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5631.pdf"
+   }
   },
   {
    "code": "LW5632",
@@ -6093,13 +6384,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5632.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5632.pdf"
+   }
   },
   {
    "code": "LW5634",
@@ -6118,13 +6416,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5634.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5634.pdf"
+   }
   },
   {
    "code": "LW5637",
@@ -6143,13 +6448,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "14",
+    "web": "Unknown",
+    "available": "13",
     "capacity": "20",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5637.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5637.pdf"
+   }
   },
   {
    "code": "LW5638",
@@ -6168,13 +6480,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5638.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5638.pdf"
+   }
   },
   {
    "code": "LW5641",
@@ -6193,13 +6512,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6195E International and Comparative Law of Copyright, Designs and Allied Rights",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5641.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5641.pdf"
+   }
   },
   {
    "code": "LW5642",
@@ -6218,13 +6544,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6196E International and Comparative Law of Trade Marks and Patents",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5642.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5642.pdf"
+   }
   },
   {
    "code": "LW5643",
@@ -6246,13 +6579,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System 及 LW5622 Legal Methods, Research and Writing 及 LW5602A Law of Contract I（2026/27 学年不开设）",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5643.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5643.pdf"
+   }
   },
   {
    "code": "LW5647",
@@ -6271,13 +6611,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System, LW5622 Legal Methods, Research and Writing, LW5602A Law of Contract I, LW5607A Land Law I, and LW5630A Equity and Trusts I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5647.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5647.pdf"
+   }
   },
   {
    "code": "LW5649",
@@ -6296,13 +6643,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5649.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5649.pdf"
+   }
   },
   {
    "code": "LW5649B",
@@ -6321,13 +6675,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5649B.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5649B.pdf"
+   }
   },
   {
    "code": "LW5656",
@@ -6346,13 +6707,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System and LW5622 Legal Methods, Research and Writing, and LW5602A Law of Contract I and LW5602B Law of Contract II",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "2",
-    "capacity": "137",
+    "web": "Unknown",
+    "available": "8",
+    "capacity": "165",
     "medium": "English"
    },
-   "section_count": 2,
-   "semester_tag": "SemA"
+   "section_count": 3,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5656.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5656.pdf"
+   }
   },
   {
    "code": "LW5657",
@@ -6371,13 +6739,20 @@
    "prerequisites": "LW5656 Company Law I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5657.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5657.pdf"
+   }
   },
   {
    "code": "LW5658",
@@ -6396,13 +6771,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System, and LW5622 Legal Methods, Research and Writing, and LW5602A Law of Contract I and LW5602B Law of Contract II",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "20",
-    "capacity": "150",
+    "web": "Unknown",
+    "available": "22",
+    "capacity": "200",
     "medium": "English"
    },
-   "section_count": 2,
-   "semester_tag": "SemA"
+   "section_count": 4,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5658.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5658.pdf"
+   }
   },
   {
    "code": "LW566",
@@ -6421,13 +6803,20 @@
    "prerequisites": "LW5602A Law of Contact I or equivalent. Some courses under this intensive seminar may have specific pre-requisite. Students should refer to the individual course information for details.",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "499",
-    "capacity": "640",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
-   "section_count": 16,
-   "semester_tag": "SemA"
+   "section_count": 0,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW566.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 这是 Intensive Seminar 总类代码；不得把带后缀的专题班次直接挂在总类代码下。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW566.pdf"
+   }
   },
   {
    "code": "LW5661",
@@ -6446,13 +6835,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System; LW5622 Legal Methods, Research and Writing; and LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5661.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5661.pdf"
+   }
   },
   {
    "code": "LW5662",
@@ -6471,13 +6867,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "37",
-    "capacity": "80",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
-   "section_count": 2,
-   "semester_tag": "SemA"
+   "section_count": 0,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5662.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 这是 Intensive Seminar 总类代码；不得把带后缀的专题班次直接挂在总类代码下。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5662.pdf"
+   }
   },
   {
    "code": "LW5663",
@@ -6496,13 +6899,20 @@
    "prerequisites": "LW5602A Law of Contract I or equivalent. Some courses under this intensive seminar may have specific pre-requisite. Students should refer to the individual course information for details.",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "288",
-    "capacity": "320",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
-   "section_count": 8,
-   "semester_tag": "SemA"
+   "section_count": 0,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5663.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 这是 Intensive Seminar 总类代码；不得把带后缀的专题班次直接挂在总类代码下。",
+    "syllabus_effective_term": "Summer Term 2026",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5663.pdf"
+   }
   },
   {
    "code": "LW5663Y",
@@ -6518,16 +6928,23 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "74",
+    "web": "Unknown",
+    "available": "73",
     "capacity": "80",
     "medium": "English"
    },
    "section_count": 2,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5663Y.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5663Y.pdf"
+   }
   },
   {
    "code": "LW5664",
@@ -6546,13 +6963,20 @@
    "prerequisites": "LW5621 Legal Systems of Hong Kong and Mainland China or LW5601 Hong Kong Legal System, LW5622 Legal Methods, Research and Writing, and LW5602 Law of Contract or LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Summer"
+   "semester_tag": "Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5664.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5664.pdf"
+   }
   },
   {
    "code": "LW5665",
@@ -6571,13 +6995,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System, LW5622 Legal Methods, Research and Writing, and LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5665.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5665.pdf"
+   }
   },
   {
    "code": "LW5666",
@@ -6596,13 +7027,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5666.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5666.pdf"
+   }
   },
   {
    "code": "LW5667",
@@ -6621,13 +7059,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System and LW5602A Law of Contract I and LW5602B Law of Contract II. Only students selected to the Editorial Board of the City University of Hong Kong Law Review are eligible to enrol in this course.",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5667.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5667.pdf"
+   }
   },
   {
    "code": "LW5669",
@@ -6646,13 +7091,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5669.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5669.pdf"
+   }
   },
   {
    "code": "LW566A",
@@ -6668,16 +7120,23 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "LW5602A Law of Contact I or equivalent. Some courses under this intensive seminar may have specific pre-requisite. Students should refer to the individual course information for details.",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "174",
-    "capacity": "240",
+    "web": "Unknown",
+    "available": "52",
+    "capacity": "80",
     "medium": "English"
    },
-   "section_count": 6,
-   "semester_tag": "SemA+SemB"
+   "section_count": 2,
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW566A.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW566A.pdf"
+   }
   },
   {
    "code": "LW566B",
@@ -6693,16 +7152,23 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW566B.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW566B.pdf"
+   }
   },
   {
    "code": "LW566C",
@@ -6721,13 +7187,20 @@
    "prerequisites": "LW5602A Law of Contact I or equivalent. Some courses under this intensive seminar may have specific pre-requisite. Students should refer to the individual course information for details.",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW566C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW566C.pdf"
+   }
   },
   {
    "code": "LW566D",
@@ -6743,16 +7216,23 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW566D.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW566D.pdf"
+   }
   },
   {
    "code": "LW566E",
@@ -6771,13 +7251,20 @@
    "prerequisites": "LW5602A Law of Contact I or equivalent. Some courses under this intensive seminar may have specific pre-requisite. Students should refer to the individual course information for details.",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW566E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW566E.pdf"
+   }
   },
   {
    "code": "LW566X",
@@ -6793,16 +7280,23 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW566X.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW566X.pdf"
+   }
   },
   {
    "code": "LW5670",
@@ -6821,13 +7315,20 @@
    "prerequisites": "LW5601 Hong Kong Legal System, LW5622 Legal Methods, Research and Writing, and LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5670.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5670.pdf"
+   }
   },
   {
    "code": "LW5671",
@@ -6846,13 +7347,20 @@
    "prerequisites": "LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5671.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5671.pdf"
+   }
   },
   {
    "code": "LW5672",
@@ -6871,13 +7379,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5672.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5672.pdf"
+   }
   },
   {
    "code": "LW5673",
@@ -6896,13 +7411,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5673.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5673.pdf"
+   }
   },
   {
    "code": "LW5674",
@@ -6921,13 +7443,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5674.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5674.pdf"
+   }
   },
   {
    "code": "LW5678",
@@ -6946,13 +7475,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5678.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5678.pdf"
+   }
   },
   {
    "code": "LW5680",
@@ -6971,13 +7507,20 @@
    "prerequisites": "LW5602A Law of Contract I",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "18",
     "capacity": "20",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5680.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5680.pdf"
+   }
   },
   {
    "code": "LW5681",
@@ -6996,13 +7539,20 @@
    "prerequisites": "LW5602A Law of Contract I & LW5602B Law of Contract II",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5681.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5681.pdf"
+   }
   },
   {
    "code": "LW5683",
@@ -7021,13 +7571,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5683.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5683.pdf"
+   }
   },
   {
    "code": "LW5684",
@@ -7043,16 +7600,23 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5684.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5684.pdf"
+   }
   },
   {
    "code": "LW5685",
@@ -7071,13 +7635,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
+    "web": "Unknown",
     "available": "5",
     "capacity": "20",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW5685.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW5685.pdf"
+   }
   },
   {
    "code": "LW5962",
@@ -7096,13 +7667,14 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "50",
+    "web": "Unknown",
+    "available": "37",
     "capacity": "245",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05"
   },
   {
    "code": "LW6100E",
@@ -7119,15 +7691,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6703 Globalisation and Legal Research Methodology",
    "summary": {
-    "web": "Y",
-    "available": "21",
-    "capacity": "40",
+    "web": "Unknown",
+    "available": "2",
+    "capacity": "23",
     "medium": "English"
    },
    "section_count": 3,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6100E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6100E.pdf"
+   }
   },
   {
    "code": "LW6102E",
@@ -7148,13 +7727,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6102E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6102E.pdf"
+   }
   },
   {
    "code": "LW6103E",
@@ -7173,13 +7759,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "8",
-    "capacity": "10",
+    "web": "Unknown",
+    "available": "1",
+    "capacity": "79",
     "medium": "English"
    },
-   "section_count": 1,
-   "semester_tag": "SemA"
+   "section_count": 2,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6103E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6103E.pdf"
+   }
   },
   {
    "code": "LW6105E",
@@ -7198,13 +7791,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6105E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2024/25",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6105E.pdf"
+   }
   },
   {
    "code": "LW6106E",
@@ -7223,13 +7823,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6106E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6106E.pdf"
+   }
   },
   {
    "code": "LW6107E",
@@ -7248,13 +7855,20 @@
    "prerequisites": "LW5656 or LW6103E",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6107E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6107E.pdf"
+   }
   },
   {
    "code": "LW6108E",
@@ -7270,16 +7884,23 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "NIL",
-   "exclusive_course": "NIL",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "22",
-    "capacity": "40",
+    "web": "Unknown",
+    "available": "19",
+    "capacity": "93",
     "medium": "English"
    },
-   "section_count": 3,
-   "semester_tag": "SemA"
+   "section_count": 5,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6108E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6108E.pdf"
+   }
   },
   {
    "code": "LW6109E",
@@ -7298,13 +7919,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6109E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6109E.pdf"
+   }
   },
   {
    "code": "LW6113E",
@@ -7328,13 +7956,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6113E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6113E.pdf"
+   }
   },
   {
    "code": "LW6115E",
@@ -7355,13 +7990,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "10",
-    "capacity": "10",
+    "web": "Unknown",
+    "available": "0",
+    "capacity": "0",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6115E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6115E.pdf"
+   }
   },
   {
    "code": "LW6116E",
@@ -7380,13 +8022,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6116E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6116E.pdf"
+   }
   },
   {
    "code": "LW6117E",
@@ -7405,13 +8054,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6117E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6117E.pdf"
+   }
   },
   {
    "code": "LW6118E",
@@ -7430,13 +8086,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6118E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6118E.pdf"
+   }
   },
   {
    "code": "LW6119E",
@@ -7453,15 +8116,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW5608",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6119E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6119E.pdf"
+   }
   },
   {
    "code": "LW6121C",
@@ -7480,13 +8150,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6121C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester A 2019/20",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6121C.pdf"
+   }
   },
   {
    "code": "LW6121E",
@@ -7505,13 +8182,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6121E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester A 2024/25",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6121E.pdf"
+   }
   },
   {
    "code": "LW6122C",
@@ -7530,13 +8214,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6122C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester B 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6122C.pdf"
+   }
   },
   {
    "code": "LW6126E",
@@ -7555,13 +8246,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6526C, LW6526E Dispute Resolution in Theory and Practice",
    "summary": {
-    "web": "Y",
-    "available": "2",
-    "capacity": "5",
+    "web": "Unknown",
+    "available": "24",
+    "capacity": "70",
     "medium": "English"
    },
-   "section_count": 1,
-   "semester_tag": "SemA"
+   "section_count": 2,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6126E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6126E.pdf"
+   }
   },
   {
    "code": "LW6128E",
@@ -7580,13 +8278,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6128E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6128E.pdf"
+   }
   },
   {
    "code": "LW6129C",
@@ -7605,13 +8310,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6129C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester B 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6129C.pdf"
+   }
   },
   {
    "code": "LW6129E",
@@ -7630,13 +8342,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6129E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2024/25",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6129E.pdf"
+   }
   },
   {
    "code": "LW6131C",
@@ -7655,13 +8374,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6131C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester B 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6131C.pdf"
+   }
   },
   {
    "code": "LW6132E",
@@ -7680,13 +8406,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "14",
-    "capacity": "40",
+    "web": "Unknown",
+    "available": "56",
+    "capacity": "110",
     "medium": "English"
    },
-   "section_count": 4,
-   "semester_tag": "SemA"
+   "section_count": 5,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6132E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6132E.pdf"
+   }
   },
   {
    "code": "LW6134E",
@@ -7703,15 +8436,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6534E",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "5",
     "capacity": "91",
     "medium": "English"
    },
    "section_count": 2,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6134E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6134E.pdf"
+   }
   },
   {
    "code": "LW6136C",
@@ -7730,13 +8470,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6136C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester B 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6136C.pdf"
+   }
   },
   {
    "code": "LW6137E",
@@ -7755,15 +8502,22 @@
    "credits": 6,
    "remarks": "Nil",
    "prerequisites": "Dissertation Coordinator's approval of a research proposal submitted by the student",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6537E, LW6551E, LW5551 & LW5552 (Students who have completed or are taking LW6551E /LW5551/LW5552 are not allowed to take LW6137E)",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB+Summer"
+   "semester_tag": "SemA+SemB+Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6137E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6137E.pdf"
+   }
   },
   {
    "code": "LW6138C",
@@ -7782,13 +8536,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6138C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester A 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6138C.pdf"
+   }
   },
   {
    "code": "LW6138E",
@@ -7807,13 +8568,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6138E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6138E.pdf"
+   }
   },
   {
    "code": "LW6141E",
@@ -7832,13 +8600,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6541E Chinese Foreign Trade and Investment Law",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6141E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2024/25",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6141E.pdf"
+   }
   },
   {
    "code": "LW6142E",
@@ -7855,15 +8630,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6168E Selected Problems in International Investment Law (Students who have completed LW6143C/LW6142E are not allowed to take LW6168E. Also, students who have completed LW6168E are not allowed to take LW6143C/LW6142E.) LW6543C/LW6542E International Investment Law",
    "summary": {
-    "web": "Y",
-    "available": "8",
-    "capacity": "30",
+    "web": "Unknown",
+    "available": "7",
+    "capacity": "97",
     "medium": "English"
    },
-   "section_count": 2,
-   "semester_tag": "SemA"
+   "section_count": 3,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6142E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6142E.pdf"
+   }
   },
   {
    "code": "LW6143C",
@@ -7880,15 +8662,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6168E Selected Problems in International Investment Law (Students who have completed LW6143C/LW6142E are not allowed to take LW6168E. Also, students w ho have completed LW6168E are not allowed to take LW6143C/LW6142E.) LW6543C/LW6542E International Investment Law",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6143C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester B 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6143C.pdf"
+   }
   },
   {
    "code": "LW6143E",
@@ -7907,13 +8696,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6143E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6143E.pdf"
+   }
   },
   {
    "code": "LW6144C",
@@ -7930,15 +8726,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6544C and LW6544E",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6144C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester A 2018/19",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6144C.pdf"
+   }
   },
   {
    "code": "LW6144E",
@@ -7957,13 +8760,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6544C, LW6544E and LW5620",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6144E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2024/25",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6144E.pdf"
+   }
   },
   {
    "code": "LW6145E",
@@ -7980,15 +8790,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6545E Transnational Legal Problems",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6145E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6145E.pdf"
+   }
   },
   {
    "code": "LW6146C",
@@ -8007,13 +8824,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6146C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester B 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6146C.pdf"
+   }
   },
   {
    "code": "LW6146E",
@@ -8032,13 +8856,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "34",
+    "web": "Unknown",
+    "available": "46",
     "capacity": "75",
     "medium": "English"
    },
    "section_count": 4,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6146E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6146E.pdf"
+   }
   },
   {
    "code": "LW6147E",
@@ -8057,13 +8888,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6147E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6147E.pdf"
+   }
   },
   {
    "code": "LW6148E",
@@ -8082,13 +8920,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6148E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6148E.pdf"
+   }
   },
   {
    "code": "LW6149E",
@@ -8107,13 +8952,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "9",
-    "capacity": "10",
+    "web": "Unknown",
+    "available": "0",
+    "capacity": "2",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6149E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6149E.pdf"
+   }
   },
   {
    "code": "LW6150E",
@@ -8132,13 +8984,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6150E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6150E.pdf"
+   }
   },
   {
    "code": "LW6152E",
@@ -8157,13 +9016,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "3",
     "capacity": "90",
     "medium": "English"
    },
    "section_count": 2,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6152E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6152E.pdf"
+   }
   },
   {
    "code": "LW6153E",
@@ -8182,13 +9048,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6153E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6153E.pdf"
+   }
   },
   {
    "code": "LW6157E",
@@ -8207,13 +9080,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6157E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2024/25",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6157E.pdf"
+   }
   },
   {
    "code": "LW6160C",
@@ -8232,13 +9112,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6160C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester B 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6160C.pdf"
+   }
   },
   {
    "code": "LW6160E",
@@ -8257,13 +9144,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6160E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2024/25",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6160E.pdf"
+   }
   },
   {
    "code": "LW6161C",
@@ -8280,15 +9174,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6561C and LW6561E Competition Law",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6161C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester A 2017/18",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6161C.pdf"
+   }
   },
   {
    "code": "LW6161E",
@@ -8305,15 +9206,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6561C and LW6561E Competition Law; LW5664 European Competition Law and Policy",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6161E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6161E.pdf"
+   }
   },
   {
    "code": "LW6162E",
@@ -8332,13 +9240,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6162E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6162E.pdf"
+   }
   },
   {
    "code": "LW6163E",
@@ -8357,13 +9272,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "7",
-    "capacity": "33",
+    "web": "Unknown",
+    "available": "2",
+    "capacity": "28",
     "medium": "English"
    },
    "section_count": 2,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6163E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6163E.pdf"
+   }
   },
   {
    "code": "LW6164E",
@@ -8380,15 +9302,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6564E, LW5602",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6164E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6164E.pdf"
+   }
   },
   {
    "code": "LW6165E",
@@ -8405,15 +9334,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW5603A, LW5603B, LW2103, LW2103A, LW2603, LW2603A & LW2603B",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6165E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6165E.pdf"
+   }
   },
   {
    "code": "LW6167E",
@@ -8432,13 +9368,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6167E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6167E.pdf"
+   }
   },
   {
    "code": "LW6170E",
@@ -8457,13 +9400,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "18",
-    "capacity": "45",
+    "web": "Unknown",
+    "available": "15",
+    "capacity": "80",
     "medium": "English"
    },
-   "section_count": 3,
-   "semester_tag": "SemA"
+   "section_count": 4,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6170E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6170E.pdf"
+   }
   },
   {
    "code": "LW6172E",
@@ -8482,13 +9432,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "17",
-    "capacity": "30",
+    "web": "Unknown",
+    "available": "5",
+    "capacity": "100",
     "medium": "English"
    },
-   "section_count": 2,
-   "semester_tag": "SemA"
+   "section_count": 3,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6172E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6172E.pdf"
+   }
   },
   {
    "code": "LW6173C",
@@ -8507,13 +9464,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Putonghua)"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6173C.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。",
+    "syllabus_effective_term": "Semester B 2018/19",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6173C.pdf"
+   }
   },
   {
    "code": "LW6173E",
@@ -8532,13 +9496,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6173E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6173E.pdf"
+   }
   },
   {
    "code": "LW6177E",
@@ -8557,13 +9528,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "2",
     "capacity": "80",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6177E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6177E.pdf"
+   }
   },
   {
    "code": "LW6188E",
@@ -8580,15 +9558,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6588E Chinese Maritime Law",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6188E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6188E.pdf"
+   }
   },
   {
    "code": "LW6195E",
@@ -8605,15 +9590,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW4641, LW5641",
    "summary": {
-    "web": "Y",
-    "available": "27",
-    "capacity": "40",
+    "web": "Unknown",
+    "available": "25",
+    "capacity": "85",
     "medium": "English"
    },
-   "section_count": 3,
-   "semester_tag": "SemA"
+   "section_count": 4,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6195E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6195E.pdf"
+   }
   },
   {
    "code": "LW6196E",
@@ -8632,15 +9624,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW4642, LW5642",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6196E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6196E.pdf"
+   }
   },
   {
    "code": "LW6198E",
@@ -8659,13 +9658,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6198E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2024/25",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6198E.pdf"
+   }
   },
   {
    "code": "LW6199E",
@@ -8683,16 +9689,21 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6199E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。"
+   }
   },
   {
    "code": "LW6201E",
@@ -8711,13 +9722,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Summer"
+   "semester_tag": "Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6201E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6201E.pdf"
+   }
   },
   {
    "code": "LW6207E",
@@ -8736,13 +9754,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "4",
-    "capacity": "10",
+    "web": "Unknown",
+    "available": "3",
+    "capacity": "8",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6207E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6207E.pdf"
+   }
   },
   {
    "code": "LW6208E",
@@ -8763,13 +9788,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "56",
-    "capacity": "70",
+    "web": "Unknown",
+    "available": "63",
+    "capacity": "80",
     "medium": "English"
    },
-   "section_count": 4,
-   "semester_tag": "SemA"
+   "section_count": 5,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6208E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6208E.pdf"
+   }
   },
   {
    "code": "LW6209E",
@@ -8790,13 +9822,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "80",
-    "capacity": "92",
+    "web": "Unknown",
+    "available": "90",
+    "capacity": "107",
     "medium": "English"
    },
-   "section_count": 5,
-   "semester_tag": "SemA"
+   "section_count": 6,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6209E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6209E.pdf"
+   }
   },
   {
    "code": "LW6210E",
@@ -8812,16 +9851,21 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6210E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。"
+   }
   },
   {
    "code": "LW6211E",
@@ -8837,16 +9881,21 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Unconfirmed",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6211E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。"
+   }
   },
   {
    "code": "LW6213E",
@@ -8862,16 +9911,21 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6213E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。"
+   }
   },
   {
    "code": "LW6214E",
@@ -8887,16 +9941,21 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6214E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。"
+   }
   },
   {
    "code": "LW6215E",
@@ -8912,16 +9971,21 @@
    "title_changed": false,
    "credits": 1.5,
    "remarks": "Nil",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "prerequisites": "公开资料未明确；待向学院核实",
+   "exclusive_course": "公开资料未明确；待向学院核实",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6215E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。 此课程详情页在前次采集未取得；无学期证据时标为 Unconfirmed，而非不开课。"
+   }
   },
   {
    "code": "LW6216E",
@@ -8942,13 +10006,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "82",
-    "capacity": "95",
+    "web": "Unknown",
+    "available": "78",
+    "capacity": "110",
     "medium": "English"
    },
-   "section_count": 5,
-   "semester_tag": "SemA"
+   "section_count": 6,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6216E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6216E.pdf"
+   }
   },
   {
    "code": "LW6217E",
@@ -8969,13 +10040,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6217E.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6217E.pdf"
+   }
   },
   {
    "code": "LW6401",
@@ -8994,13 +10072,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6526C, LW6526E Dispute Resolution in Theory and Practice",
    "summary": {
-    "web": "Y",
+    "web": "Unknown",
     "available": "15",
     "capacity": "190",
     "medium": "English"
    },
    "section_count": 2,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6401.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6401.pdf"
+   }
   },
   {
    "code": "LW6402",
@@ -9019,13 +10104,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6402.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6402.pdf"
+   }
   },
   {
    "code": "LW6405",
@@ -9046,13 +10138,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "37",
-    "capacity": "223",
+    "web": "Unknown",
+    "available": "34",
+    "capacity": "219",
     "medium": "English"
    },
    "section_count": 2,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6405.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6405.pdf"
+   }
   },
   {
    "code": "LW6406",
@@ -9071,13 +10170,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "LW6135E Mediation Practice",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB+Summer"
+   "semester_tag": "SemA+SemB+Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6406.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6406.pdf"
+   }
   },
   {
    "code": "LW6407",
@@ -9096,13 +10202,20 @@
    "prerequisites": "LW6405 Arbitration Law",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6407.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6407.pdf"
+   }
   },
   {
    "code": "LW6408",
@@ -9121,13 +10234,20 @@
    "prerequisites": "LW6405 Arbitration Law",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6408.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6408.pdf"
+   }
   },
   {
    "code": "LW6409A",
@@ -9144,15 +10264,22 @@
    "credits": 6,
    "remarks": "Nil",
    "prerequisites": "Subject to the approval of the Programme Director/Associate Programme Director students are required to pass the following core courses and obtain a CGPA of 3.3 or above before taking LW6409A Dissertation: 1)LW5400 Legal Concepts (except for students who have been granted exemption) 2)LW6401 Dispute Resolution in Theory & Practice 3)LW6405 Arbitration Law",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6409B Advanced Award Writing (Students are required to take either LW6409A Dissertation or LW6409B Advanced Award Writing, subject to fulfillment of the respective prerequisites.)",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB+Summer"
+   "semester_tag": "SemA+SemB+Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6409A.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6409A.pdf"
+   }
   },
   {
    "code": "LW6409B",
@@ -9169,15 +10296,22 @@
    "credits": 6,
    "remarks": "Nil",
    "prerequisites": "Subject to the approval of the Programme Director/Associate Programme Director students are required to pass the following core courses before taking LW6409B Advanced Award Writing: 1) LW5400 Legal Concepts (except for students who have been granted exemption), 2) LW6402 Procedure and Proof (except for students who have been granted credit transfer for this course), 3) LW6405 Arbitration Law, 4) LW6407 Arbitration Practice and Award Writing, 5) LW6408 International Arbitration",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6409A Dissertation (Students are required to take either LW6409A Dissertation or LW6409B Advanced Award Writing, subject to fulfillment of the respective prerequisites.)",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Summer"
+   "semester_tag": "Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6409B.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Summer Term 2026",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6409B.pdf"
+   }
   },
   {
    "code": "LW6415",
@@ -9196,13 +10330,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6415.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6415.pdf"
+   }
   },
   {
    "code": "LW6418",
@@ -9221,13 +10362,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Summer"
+   "semester_tag": "Summer",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6418.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6418.pdf"
+   }
   },
   {
    "code": "LW6420",
@@ -9244,15 +10392,22 @@
    "credits": 3,
    "remarks": "Nil",
    "prerequisites": "1. LW5400 Legal Concepts; OR 2. LW5622 Legal Methods, Research and Writing AND 3. LW6401 Dispute Resolution in Theory and Practice or its equivalent courses",
-   "exclusive_course": "Nil",
+   "exclusive_course": "LW6419 International Conflict Analysis, Prevention and Resolution",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "Not offered"
+   "semester_tag": "Not offered",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6420.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6420.pdf"
+   }
   },
   {
    "code": "LW6423",
@@ -9271,13 +10426,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "12",
+    "web": "Unknown",
+    "available": "20",
     "capacity": "55",
     "medium": "English"
    },
-   "section_count": 1,
-   "semester_tag": "SemA"
+   "section_count": 2,
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6423.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6423.pdf"
+   }
   },
   {
    "code": "LW6959",
@@ -9296,13 +10458,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "Y",
-    "available": "26",
+    "web": "Unknown",
+    "available": "21",
     "capacity": "50",
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/LW6959.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/LW6959.pdf"
+   }
   },
   {
    "code": "MA6630",
@@ -10336,13 +11505,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA+SemB"
+   "semester_tag": "SemA+SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5012.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5012.pdf"
+   }
   },
   {
    "code": "PLE5013",
@@ -10361,13 +11537,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5013.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5013.pdf"
+   }
   },
   {
    "code": "PLE5015",
@@ -10386,13 +11569,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5015.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5015.pdf"
+   }
   },
   {
    "code": "PLE5016",
@@ -10411,13 +11601,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5016.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5016.pdf"
+   }
   },
   {
    "code": "PLE5018",
@@ -10436,13 +11633,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5018.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5018.pdf"
+   }
   },
   {
    "code": "PLE5019",
@@ -10461,13 +11665,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5019.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5019.pdf"
+   }
   },
   {
    "code": "PLE5020",
@@ -10486,13 +11697,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5020.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5020.pdf"
+   }
   },
   {
    "code": "PLE5022",
@@ -10511,13 +11729,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5022.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5022.pdf"
+   }
   },
   {
    "code": "PLE5026",
@@ -10536,13 +11761,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5026.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5026.pdf"
+   }
   },
   {
    "code": "PLE5027",
@@ -10561,13 +11793,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5027.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5027.pdf"
+   }
   },
   {
    "code": "PLE5028",
@@ -10586,13 +11825,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5028.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5028.pdf"
+   }
   },
   {
    "code": "PLE5029",
@@ -10611,13 +11857,20 @@
    "prerequisites": "Basic proficiency in spoken Cantonese and written Chinese",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "Chinese (Cantonese)"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5029.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5029.pdf"
+   }
   },
   {
    "code": "PLE5031",
@@ -10636,13 +11889,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5031.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5031.pdf"
+   }
   },
   {
    "code": "PLE5032",
@@ -10661,13 +11921,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5032.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2026/27",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5032.pdf"
+   }
   },
   {
    "code": "PLE5050",
@@ -10686,13 +11953,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5050.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5050.pdf"
+   }
   },
   {
    "code": "PLE5051",
@@ -10711,13 +11985,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemA"
+   "semester_tag": "SemA",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5051.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5051.pdf"
+   }
   },
   {
    "code": "PLE5052",
@@ -10736,13 +12017,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5052.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester B 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5052.pdf"
+   }
   },
   {
    "code": "PLE5054",
@@ -10761,13 +12049,20 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Unknown",
+    "available": "",
+    "capacity": "",
     "medium": "English"
    },
    "section_count": 0,
-   "semester_tag": "SemB"
+   "semester_tag": "SemB",
+   "schedule_as_of": "2026-09-05",
+   "provenance": {
+    "catalogue_url": "https://www.cityu.edu.hk/catalogue/pg/202627/course/PLE5054.htm",
+    "note": "目录及项目映射沿用 2026-09-02 采集；2026-09-05 官网验证码阻断，未完成实时目录复核。PDF 要求已在本地重新读取。AIMS 公开检索不是完整班次清单；保留已知且可核对身份的满员班次，时间日期逐条标注。网页注册状态未重新核实，不由旧课程级 WEB 值推断。",
+    "syllabus_effective_term": "Semester A 2025/26",
+    "syllabus_url": "https://www.cityu.edu.hk/pg/202627/course/PLE5054.pdf"
+   }
   },
   {
    "code": "SEE5114",

@@ -2,10 +2,10 @@
   {
     "crn": "13058",
     "section": "C63",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "9",
-    "capacity": "10",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "0",
+    "capacity": "2",
     "date": "31/08/2026 - 28/11/2026",
     "day": "W",
     "time": "19:00 - 21:50",
@@ -14,7 +14,16 @@
     "instructor": "Meng FANG",
     "medium": "English",
     "notes": [
-      "only for Programme: LLM Arb & Dispute Resolution"
-    ]
+      "only for Programme: LLM Arb & Dispute Resolution",
+      "Must be enrolled in one of the following Programs: LLM Arb & Dispute Resolution Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-02",
+    "course_code": "LW6149E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLMARBDR"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=13058"
   }
 ]

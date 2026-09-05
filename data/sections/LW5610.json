@@ -2,8 +2,8 @@
   {
     "crn": "13283",
     "section": "C01",
-    "credits": 3.0,
-    "web": "Y",
+    "credits": 3,
+    "web": "Unknown",
     "available": "2",
     "capacity": "100",
     "date": "31/08/2026 - 28/11/2026",
@@ -11,17 +11,26 @@
     "time": "10:00 - 11:50",
     "building": "Bank of China (HK) Complex",
     "room": "R4057",
-    "instructor": "Mei Fun Priscilla LEUNG",
+    "instructor": "Mei Fun Priscilla LEUNG, Chen YU",
     "medium": "English",
     "notes": [
-      "only for Programme: Juris Doctor"
-    ]
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5608 Minimum Grade of D"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5610",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=13283"
   },
   {
     "crn": "13322",
     "section": "T04",
-    "credits": 0.0,
-    "web": "Y",
+    "credits": 0,
+    "web": "Unknown",
     "available": "2",
     "capacity": "25",
     "date": "31/08/2026 - 28/11/2026",
@@ -32,7 +41,16 @@
     "instructor": "Mei Fun Priscilla LEUNG",
     "medium": "English",
     "notes": [
-      "only for Programme: Juris Doctor"
-    ]
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5608 Minimum Grade of D"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5610",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=13322"
   }
 ]

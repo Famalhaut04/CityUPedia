@@ -2,10 +2,10 @@
   {
     "crn": "11162",
     "section": "C61",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "12",
-    "capacity": "55",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "17",
+    "capacity": "50",
     "date": "31/08/2026 - 28/11/2026",
     "day": "F",
     "time": "15:00 - 17:50",
@@ -14,7 +14,44 @@
     "instructor": "Wing Christopher TO",
     "medium": "English",
     "notes": [
-      "only for Programme: LLM Arb & Dispute Resolution"
-    ]
+      "only for Programme: LLM Arb & Dispute Resolution",
+      "Must be enrolled in one of the following Programs: LLM Arb & Dispute Resolution Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6423",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLMARBDR"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=11162"
+  },
+  {
+    "crn": "15987",
+    "section": "C62",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "3",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "15:00 - 17:50",
+    "building": "Lau Ming Wai Academic Building",
+    "room": "5-205",
+    "instructor": "Wing Christopher TO",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1",
+      "Must be enrolled in one of the following Programs: Master of Laws Master of Laws - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6423",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLM"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15987"
   }
 ]

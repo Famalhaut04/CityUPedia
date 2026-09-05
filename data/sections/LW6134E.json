@@ -2,9 +2,9 @@
   {
     "crn": "15071",
     "section": "C01",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "3",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "4",
     "capacity": "86",
     "date": "31/08/2026 - 28/11/2026",
     "day": "W",
@@ -15,15 +15,24 @@
     "medium": "English",
     "notes": [
       "only for Programme: Master of Laws",
-      "only for Programme: Master of Laws - Paris 1"
-    ]
+      "only for Programme: Master of Laws - Paris 1",
+      "Must be enrolled in one of the following Programs: Master of Laws Master of Laws - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Majors: Chinese & Comparative Law Corporate and Financial Law Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6134E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLM"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15071"
   },
   {
     "crn": "15079",
     "section": "C03",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "2",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "1",
     "capacity": "5",
     "date": "31/08/2026 - 28/11/2026",
     "day": "W",
@@ -33,7 +42,14 @@
     "instructor": "Jiangyu WANG",
     "medium": "English",
     "notes": [
-      "only for Programme: Exchange Student"
-    ]
+      "only for Programme: Exchange Student",
+      "Must be enrolled in one of the following Programs: Exchange Student Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6134E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15079"
   }
 ]

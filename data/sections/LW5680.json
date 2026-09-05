@@ -2,8 +2,8 @@
   {
     "crn": "14446",
     "section": "C01",
-    "credits": 3.0,
-    "web": "Y",
+    "credits": 3,
+    "web": "Unknown",
     "available": "18",
     "capacity": "20",
     "date": "31/08/2026 - 26/09/2026",
@@ -15,33 +15,23 @@
     "medium": "English",
     "notes": [
       "only for Programme: Juris Doctor",
-      "only for Programme: Juris Doctor - Paris 1"
-    ]
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5602A Minimum Grade of D"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5680",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14446"
   },
   {
     "crn": "14446",
     "section": "C01",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "18",
-    "capacity": "20",
-    "date": "31/08/2026 - 26/09/2026",
-    "day": "W",
-    "time": "16:00 - 18:50",
-    "building": "Mong Man Wai Building",
-    "room": "3420",
-    "instructor": "Kyriaki Pipitsa NOUSIA",
-    "medium": "English",
-    "notes": [
-      "only for Programme: Juris Doctor",
-      "only for Programme: Juris Doctor - Paris 1"
-    ]
-  },
-  {
-    "crn": "14446",
-    "section": "C01",
-    "credits": 3.0,
-    "web": "Y",
+    "credits": 3,
+    "web": "Unknown",
     "available": "18",
     "capacity": "20",
     "date": "31/08/2026 - 26/09/2026",
@@ -53,14 +43,23 @@
     "medium": "English",
     "notes": [
       "only for Programme: Juris Doctor",
-      "only for Programme: Juris Doctor - Paris 1"
-    ]
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5602A Minimum Grade of D"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5680",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14446"
   },
   {
     "crn": "14446",
     "section": "C01",
-    "credits": 3.0,
-    "web": "Y",
+    "credits": 3,
+    "web": "Unknown",
     "available": "18",
     "capacity": "20",
     "date": "31/08/2026 - 26/09/2026",
@@ -72,7 +71,44 @@
     "medium": "English",
     "notes": [
       "only for Programme: Juris Doctor",
-      "only for Programme: Juris Doctor - Paris 1"
-    ]
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5602A Minimum Grade of D"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5680",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14446"
+  },
+  {
+    "crn": "14446",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "18",
+    "capacity": "20",
+    "date": "31/08/2026 - 26/09/2026",
+    "day": "W",
+    "time": "16:00 - 18:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Kyriaki Pipitsa NOUSIA",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "only for Programme: Juris Doctor - Paris 1",
+      "Must be enrolled in one of the following Programs: Juris Doctor Juris Doctor - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5602A Minimum Grade of D"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5680",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14446"
   }
 ]

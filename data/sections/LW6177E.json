@@ -2,8 +2,8 @@
   {
     "crn": "13301",
     "section": "C01",
-    "credits": 3.0,
-    "web": "Y",
+    "credits": 3,
+    "web": "Unknown",
     "available": "2",
     "capacity": "80",
     "date": "31/08/2026 - 28/11/2026",
@@ -15,7 +15,16 @@
     "medium": "English",
     "notes": [
       "only for Programme: Master of Laws",
-      "only for Programme: Master of Laws - Paris 1"
-    ]
+      "only for Programme: Master of Laws - Paris 1",
+      "Must be enrolled in one of the following Programs: Master of Laws Master of Laws - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Majors: Corporate and Financial Law Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6177E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLM"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=13301"
   }
 ]

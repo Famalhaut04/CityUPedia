@@ -2,9 +2,9 @@
   {
     "crn": "10086",
     "section": "C01",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "1",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "4",
     "capacity": "110",
     "date": "31/08/2026 - 28/11/2026",
     "day": "T",
@@ -14,14 +14,23 @@
     "instructor": "Virginia HARPER HO",
     "medium": "English",
     "notes": [
-      "only for Programme: Juris Doctor"
-    ]
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5656",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=10086"
   },
   {
     "crn": "10373",
     "section": "T02",
-    "credits": 0.0,
-    "web": "Y",
+    "credits": 0,
+    "web": "Unknown",
     "available": "1",
     "capacity": "27",
     "date": "31/08/2026 - 28/11/2026",
@@ -32,7 +41,43 @@
     "instructor": "Lavesh KIRPALANI",
     "medium": "English",
     "notes": [
-      "only for Programme: Juris Doctor"
-    ]
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5656",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=10373"
+  },
+  {
+    "crn": "10374",
+    "section": "T03",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "3",
+    "capacity": "28",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "16:00 - 16:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Martin LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5656",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=10374"
   }
 ]

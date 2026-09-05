@@ -154,6 +154,33 @@
     return terms.includes(target);
   }
 
+  // Only filter explicitly scoped snapshots; legacy untagged sections retain their behaviour.
+  // Catalogue offering terms and the semester of a particular timetable are different facts.
+  function courseForContext(course, programme, semester) {
+    return {
+      ...course,
+      eligible_sections: (course.eligible_sections || []).filter((section) =>
+        (!section.semester || section.semester === semester)
+        && (!Array.isArray(section.allowed_programmes) || section.allowed_programmes.includes(programme)))
+    };
+  }
+
+  function offeringMessage(course) {
+    const terms = courseTerms(course);
+    if (terms.includes("Unconfirmed")) return "开课学期待核实；资料缺失不代表不开课";
+    if (terms.includes("Not offered")) return "该课程在所收录学年的官方目录中标为未开设";
+    return `该课程在 ${terms.join(" / ") || "其他"} 学期开设，请切换到对应学期`;
+  }
+
+  function registrationLabel(web) {
+    return web === "Y" ? "可网页注册" : web === "N" ? "非网页注册" : "网页注册状态待核实";
+  }
+
+  function termLabel(term) {
+    if (getStoredLang() === "en") return term;
+    return term === "Unconfirmed" ? "待核实" : term === "Not offered" ? "未开设" : term;
+  }
+
   // 学期标签的 CSS 修饰类
   function termBadgeClass(term) {
     return term === "SemA" ? "term-a" : term === "SemB" ? "term-b" : term === "Summer" ? "term-summer" : "";
@@ -760,8 +787,8 @@
   function makeDefaultSelection(course) {
     const primaries = uniqueByKey(course.eligible_sections.filter((section) => Number(section.credits) > 0));
     const tutorials = uniqueByKey(course.eligible_sections.filter((section) => Number(section.credits) === 0));
-    const primary = primaries[0] || course.eligible_sections[0];
-    const tutorial = pickTutorial(primary, tutorials);
+    const primary = primaries[0];
+    const tutorial = primary ? pickTutorial(primary, tutorials) : null;
     return {
       primaryCrn: primary ? sectionKey(primary) : null,
       tutorialCrn: tutorial ? sectionKey(tutorial) : null
@@ -1331,6 +1358,10 @@
     courseProgrammes,
     courseTerms,
     courseOfferedInSemester,
+    courseForContext,
+    offeringMessage,
+    registrationLabel,
+    termLabel,
     primarySemester,
     termBadgeClass,
     currentAdmin,

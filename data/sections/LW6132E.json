@@ -1,10 +1,39 @@
 [
   {
+    "crn": "12389",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "35",
+    "capacity": "70",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "6603",
+    "instructor": "Chi Hin Peter CHAN",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PhD Law",
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1",
+      "Must be enrolled in one of the following Programs: PhD Law Master of Laws Master of Laws - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Research Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6132E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLM"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=12389"
+  },
+  {
     "crn": "12390",
     "section": "C02",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "4",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "5",
     "capacity": "15",
     "date": "31/08/2026 - 28/11/2026",
     "day": "R",
@@ -14,15 +43,24 @@
     "instructor": "Chi Hin Peter CHAN",
     "medium": "English",
     "notes": [
-      "only for Programme: Juris Doctor"
-    ]
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6132E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=12390"
   },
   {
     "crn": "12391",
     "section": "C03",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "5",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "9",
     "capacity": "10",
     "date": "31/08/2026 - 28/11/2026",
     "day": "R",
@@ -32,15 +70,24 @@
     "instructor": "Chi Hin Peter CHAN",
     "medium": "English",
     "notes": [
-      "only for Programme: LLM Arb & Dispute Resolution"
-    ]
+      "only for Programme: LLM Arb & Dispute Resolution",
+      "Must be enrolled in one of the following Programs: LLM Arb & Dispute Resolution Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6132E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLMARBDR"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=12391"
   },
   {
     "crn": "14782",
     "section": "C04",
-    "credits": 3.0,
-    "web": "Y",
-    "available": "2",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "4",
     "capacity": "5",
     "date": "31/08/2026 - 28/11/2026",
     "day": "R",
@@ -50,14 +97,21 @@
     "instructor": "Chi Hin Peter CHAN",
     "medium": "English",
     "notes": [
-      "only for Programme: Exchange Student"
-    ]
+      "only for Programme: Exchange Student",
+      "Must be enrolled in one of the following Programs: Exchange Student Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6132E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=14782"
   },
   {
     "crn": "15965",
     "section": "C05",
-    "credits": 3.0,
-    "web": "Y",
+    "credits": 3,
+    "web": "Unknown",
     "available": "3",
     "capacity": "10",
     "date": "31/08/2026 - 28/11/2026",
@@ -68,7 +122,14 @@
     "instructor": "Chi Hin Peter CHAN",
     "medium": "English",
     "notes": [
-      "only for Programme: PhD Law"
-    ]
+      "only for Programme: PhD Law",
+      "Must be enrolled in one of the following Programs: PhD Law Must be enrolled in one of the following Levels: Postgraduate Degree Research Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6132E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15965"
   }
 ]
