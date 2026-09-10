@@ -5078,3 +5078,181 @@ body {
     padding: 16px;
   }
 }
+
+/* ---------------- 移动端体验优化（2026-09-10） ---------------- */
+/* 目标：手机上一屏能看到更多课表天数、课程评价摘要不再依赖悬停、
+   触控目标加大、iOS 聚焦输入框不触发页面缩放、更新公告不压住顶栏 */
+
+@media (max-width: 780px) {
+  /* 压缩课表每小时高度：13 小时的网格从 780px 降到 624px，配合收窄列宽，
+     390px 宽的手机可以从"只能看到约 2 天"提升到"约 3 天半" */
+  :root {
+    --hour-height: 48px;
+  }
+
+  /* 顶栏品牌文字不换行（窄屏下 "CityU Pedia" 会被挤成两行） */
+  .sidebar-header .brand {
+    gap: 9px;
+  }
+
+  .sidebar-header .brand strong {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  /* 课程/已选列表取消 380px 内嵌滚动，交给页面自然滚动，避免双层滚动条互相抢手势 */
+  .course-list,
+  .selected-list {
+    max-height: none;
+  }
+
+  /* 顶部图标导航条的横向滚动条太占视觉，隐藏后仍可滑动 */
+  .sidebar-menu {
+    scrollbar-width: none;
+  }
+
+  .sidebar-menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* 学期筛选的 SemA/SemB/Summer 是拉丁字词，固定 7 列网格放不下会互相叠字；
+     改为弹性换行，胶囊按内容自适应宽度 */
+  .day-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .day-filter-pill,
+  .term-filter-pill {
+    padding: 3px 9px;
+  }
+
+  /* 课程卡里的评价摘要（推荐理由 + 标签）原本是悬停才出现的浮层，
+     触屏上无法触达；改为常驻内联展示，选课前就能看到参考信息 */
+  .course-row {
+    grid-template-columns: 1fr 38px;
+  }
+
+  .course-preview {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    margin-top: 9px;
+    padding: 9px 11px;
+    border: 1px dashed var(--border);
+    background: var(--card-soft);
+    box-shadow: none;
+  }
+
+  .course-preview p {
+    font-size: 11px;
+  }
+
+  .course-preview-tags span {
+    font-size: 10px;
+  }
+
+  /* 触控目标加大到约 38px 以上 */
+  .add-course,
+  .remove-course {
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+  }
+
+  .segment {
+    min-height: 40px;
+  }
+
+  .filter-pill {
+    min-height: 34px;
+  }
+
+  .day-filter-pill,
+  .term-filter-pill {
+    min-height: 34px;
+    font-size: 12px;
+  }
+
+  .quick-section-picker select {
+    height: 36px;
+    font-size: 12px;
+  }
+
+  .section-selects select {
+    height: 38px;
+    font-size: 13px;
+  }
+
+  /* 收窄课表：时间轴 60px→44px，列最小宽 132px→86px，事件块字号同步缩小 */
+  .timetable {
+    grid-template-columns: 44px repeat(6, minmax(86px, 1fr));
+    min-width: 580px;
+  }
+
+  .day-columns {
+    grid-template-columns: repeat(6, minmax(86px, 1fr));
+  }
+
+  .course-event {
+    padding: 5px 6px 4px;
+    border-left-width: 3px;
+    border-radius: 8px;
+  }
+
+  .event-label strong {
+    font-size: 10px;
+  }
+
+  .event-label span {
+    margin-top: 2px;
+    font-size: 8px;
+  }
+
+  /* 更新公告改到屏幕底部，不再盖住置顶导航和标题；关闭按钮加大便于点按 */
+  .update-notice {
+    top: auto;
+    bottom: 12px;
+    right: 10px;
+    left: 10px;
+    max-width: none;
+    transform: none;
+    animation: notice-in-mobile 320ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .update-notice-close {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* 公告驻留底部时，toast 抬高避免被遮住 */
+  body:has(.update-notice) .toast {
+    bottom: 96px;
+  }
+}
+
+@keyframes notice-in-mobile {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 640px) {
+  /* iOS Safari：输入框字号达到 16px 才不会在聚焦时强制放大页面 */
+  .search-box input,
+  .select-search-input {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* 长课程名允许换行显示两行，不用省略号截断 */
+  .course-title-link {
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}

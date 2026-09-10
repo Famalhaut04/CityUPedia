@@ -111,6 +111,13 @@
     return (hours || 0) * 60 + (mins || 0);
   }
 
+  // 课表每小时对应的像素高度，与 CSS 的 --hour-height 保持一致
+  // （移动端媒体查询会把变量压小，事件块的定位/高度必须跟着变）
+  function hourPx() {
+    const value = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hour-height"));
+    return Number.isFinite(value) && value > 0 ? value : 60;
+  }
+
   function filterCourses() {
     return programmeCourses().filter((course) => {
       const haystack = `${course.code} ${course.programme_title}`.toLowerCase();
@@ -553,24 +560,26 @@
 
   function renderTimeAxis() {
     const axis = document.getElementById("time-axis");
+    const H = hourPx();
     axis.innerHTML = Array.from({ length: END_HOUR - START_HOUR + 1 }, (_, index) => {
       const hour = START_HOUR + index;
       // 首个标签（09:00）不下移，避免被表头 sticky 背景遮挡而显示不全
       const shift = index === 0 ? "0" : "-6px";
-      return `<span class="time-label" style="top:${index * 60}px;transform:translateY(${shift})">${String(hour).padStart(2, "0")}:00</span>`;
+      return `<span class="time-label" style="top:${index * H}px;transform:translateY(${shift})">${String(hour).padStart(2, "0")}:00</span>`;
     }).join("");
   }
 
   function renderTimetable() {
     const events = selectedEvents();
+    const H = hourPx();
     const columns = document.getElementById("day-columns");
     columns.innerHTML = DAYS.map((day) => {
       const dayEvents = events.filter((event) => event.section.day === day);
       const dayMaxLane = dayEvents.reduce((max, event) => Math.max(max, event.laneCount), 1);
       const dayHasConflict = dayEvents.some((event) => event.conflict);
       const blocks = dayEvents.map((event) => {
-        const top = ((event.start - START_HOUR * 60) / 60) * 60;
-        const height = Math.max(34, ((event.end - event.start) / 60) * 60);
+        const top = ((event.start - START_HOUR * 60) / 60) * H;
+        const height = Math.max(34, ((event.end - event.start) / 60) * H);
         const width = 100 / event.laneCount;
         const left = event.lane * width;
         const room = [event.section.building, event.section.room].filter(Boolean).join(" ");
@@ -1140,6 +1149,16 @@
     });
 
     document.getElementById("export-pdf").addEventListener("click", exportTimetableAsPdf);
+
+    // 响应式断点切换（手机旋转、拖动窗口）会改变 --hour-height，事件块位置需要重算
+    let lastHourPx = hourPx();
+    window.addEventListener("resize", () => {
+      const now = hourPx();
+      if (now === lastHourPx) return;
+      lastHourPx = now;
+      renderTimeAxis();
+      renderTimetable();
+    });
   }
 
   MSDS.loadCourseData().then((loadedData) => {
