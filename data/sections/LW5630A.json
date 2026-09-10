@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "11965",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "4",
+    "capacity": "110",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "10:00 - 11:50",
+    "building": "Bank of China (HK) Complex",
+    "room": "R4057",
+    "instructor": "Mark Wen-hu HSIAO, Alvin Hoi-Chun HUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5603A Minimum Grade of D and Postgraduate Degree level LW 5603B Minimum Grade of D) and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5630A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=11965"
+  },
+  {
+    "crn": "13912",
+    "section": "T04",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "4",
+    "capacity": "27",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "17:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1310",
+    "instructor": "Tin Lun Felix TANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5603A Minimum Grade of D and Postgraduate Degree level LW 5603B Minimum Grade of D) and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5630A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=13912"
+  }
+]

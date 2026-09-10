@@ -1,0 +1,110 @@
+[
+  {
+    "crn": "10165",
+    "section": "T02",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "2",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "17:00 - 18:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Chin Kiu FUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5606A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=10165"
+  },
+  {
+    "crn": "11646",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "12",
+    "capacity": "150",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "18:00 - 19:50",
+    "building": "Yeung Kin Man Acad Building",
+    "room": "LT-2",
+    "instructor": "Daniel Charles PASCOE, Enshen LI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5606A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=11646"
+  },
+  {
+    "crn": "12189",
+    "section": "T03",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "9",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 20:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Chin Kiu FUNG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5606A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=12189"
+  },
+  {
+    "crn": "15062",
+    "section": "T05",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "1",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 20:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Wai Hei NG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5606A",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15062"
+  }
+]

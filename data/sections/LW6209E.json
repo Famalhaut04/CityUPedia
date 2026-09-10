@@ -1,0 +1,164 @@
+[
+  {
+    "crn": "15741",
+    "section": "C61",
+    "credits": 1.5,
+    "web": "Unknown",
+    "available": "47",
+    "capacity": "50",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1",
+      "Must be enrolled in one of the following Programs: Master of Laws Master of Laws - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Majors: Intellct Property & Tech'y Law Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6209E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLM"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15741"
+  },
+  {
+    "crn": "15742",
+    "section": "C62",
+    "credits": 1.5,
+    "web": "Unknown",
+    "available": "3",
+    "capacity": "10",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PGC Patent Law",
+      "Must be enrolled in one of the following Programs: PGC Patent Law Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6209E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "PGCPL"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15742"
+  },
+  {
+    "crn": "15743",
+    "section": "C63",
+    "credits": 1.5,
+    "web": "Unknown",
+    "available": "19",
+    "capacity": "25",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1",
+      "Must be enrolled in one of the following Programs: Master of Laws Master of Laws - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6209E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLM"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15743"
+  },
+  {
+    "crn": "15744",
+    "section": "C64",
+    "credits": 1.5,
+    "web": "Unknown",
+    "available": "9",
+    "capacity": "10",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6209E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15744"
+  },
+  {
+    "crn": "15745",
+    "section": "C65",
+    "credits": 1.5,
+    "web": "Unknown",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: LLM Arb & Dispute Resolution",
+      "Must be enrolled in one of the following Programs: LLM Arb & Dispute Resolution Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6209E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLMARBDR"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15745"
+  },
+  {
+    "crn": "15746",
+    "section": "C66",
+    "credits": 1.5,
+    "web": "Unknown",
+    "available": "2",
+    "capacity": "2",
+    "date": "31/08/2026 - 17/10/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1614",
+    "instructor": "Li LIU",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student",
+      "Must be enrolled in one of the following Programs: Exchange Student Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6209E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15746"
+  }
+]

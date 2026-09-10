@@ -1,0 +1,82 @@
+[
+  {
+    "crn": "13304",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "1",
+    "capacity": "84",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Peter WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Master of Laws",
+      "only for Programme: Master of Laws - Paris 1",
+      "Must be enrolled in one of the following Programs: Master of Laws Master of Laws - Paris 1 Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6172E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "LLM"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=13304"
+  },
+  {
+    "crn": "13305",
+    "section": "C02",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "0",
+    "capacity": "6",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Peter WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-02",
+    "course_code": "LW6172E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=13305"
+  },
+  {
+    "crn": "15068",
+    "section": "C03",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "4",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 11:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1610",
+    "instructor": "Peter WANG",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Exchange Student",
+      "Must be enrolled in one of the following Programs: Exchange Student Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW6172E",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15068"
+  }
+]

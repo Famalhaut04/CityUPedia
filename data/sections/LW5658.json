@@ -1,0 +1,110 @@
+[
+  {
+    "crn": "10207",
+    "section": "C01",
+    "credits": 3,
+    "web": "Unknown",
+    "available": "11",
+    "capacity": "125",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 13:50",
+    "building": "Mong Man Wai Building",
+    "room": "3420",
+    "instructor": "Sara TSUI, Jerry TAM",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5658",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=10207"
+  },
+  {
+    "crn": "10209",
+    "section": "T02",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "2",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "10:00 - 10:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Sara TSUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5658",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=10209"
+  },
+  {
+    "crn": "13914",
+    "section": "T04",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "6",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "10:00 - 10:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1400",
+    "instructor": "Sara TSUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5658",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=13914"
+  },
+  {
+    "crn": "15971",
+    "section": "T05",
+    "credits": 0,
+    "web": "Unknown",
+    "available": "3",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 12:50",
+    "building": "Li Dak Sum Yip Yio Chin A Bldg",
+    "room": "1305",
+    "instructor": "Sara TSUI",
+    "medium": "English",
+    "notes": [
+      "only for Programme: Juris Doctor",
+      "Must be enrolled in one of the following Programs: Juris Doctor Must be enrolled in one of the following Levels: Postgraduate Degree Must be enrolled in one of the following Campuses: Main Campus Prerequisites: Postgraduate Degree level LW 5601 Minimum Grade of D and Postgraduate Degree level LW 5622 Minimum Grade of D and (Postgraduate Degree level LW 5602A Minimum Grade of D and Postgraduate Degree level LW 5602B Minimum Grade of D)"
+    ],
+    "schedule_as_of": "2026-09-05",
+    "course_code": "LW5658",
+    "semester": "SemA",
+    "seats_as_of": "2026-09-05",
+    "allowed_programmes": [
+      "JD"
+    ],
+    "source_url": "https://banweb.cityu.edu.hk/pls/PROD/bwckschd.p_disp_detail_sched?term_in=202609&crn_in=15971"
+  }
+]
