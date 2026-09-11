@@ -25,7 +25,7 @@ body:
       label: 身份核验渠道
       description: 你通过哪个渠道向维护者/开发组成员提交了核验信息
       options:
-        - 邮箱（fomalhautskywalker@gmail.com）
+        - 邮箱（fomalhautskywalker@gmail.com / lyeswork@proton.me）
         - 微信（联系开发组成员）
     validations:
       required: true

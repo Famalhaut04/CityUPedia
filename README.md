@@ -108,7 +108,7 @@ python -m http.server 8090
 
 本项目面向香港城市大学学生开放共建。想加入并参与贡献（数据更新、课程评价、前端开发等），请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 了解**加入流程**（身份验证 → 联系维护者 → GitHub 提交申请）与开发约定。
 
-如遇到任何问题、建议和合作意向，欢迎在 issue 中提交或联系 fomalhautskywalker@gmail.com，我们会尽快回复并且修复问题。
+如遇到任何问题、建议和合作意向，欢迎在 issue 中提交或联系 fomalhautskywalker@gmail.com 或 lyeswork@proton.me，我们会尽快回复并且修复问题。
 
 ### 资料致谢
 

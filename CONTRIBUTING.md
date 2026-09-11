@@ -18,7 +18,7 @@
 
 将上述验证信息通过以下任一渠道发送给维护者：
 
-- **邮箱**：[fomalhautskywalker@gmail.com](mailto:fomalhautskywalker@gmail.com)（推荐，处理最快）
+- **邮箱**：[fomalhautskywalker@gmail.com](mailto:fomalhautskywalker@gmail.com) 或 [lyeswork@proton.me](mailto:lyeswork@proton.me)（推荐，处理最快）
 - **微信**：联系开发组成员（任意成员均可代为转交验证信息）
 
 > 🔒 **隐私说明**：实名与学生 ID **仅用于身份核验**，不会被提交到任何 Git 仓库、不会出现在网站或 Issue 中。核验通过后即不再保留；你在项目中的公开身份就是你的 GitHub 账号。
