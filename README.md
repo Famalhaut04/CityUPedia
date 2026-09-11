@@ -1,6 +1,6 @@
 # CityU Pedia · 城大百科
 
-> **当前版本：1.2.4（CityUPedia 1.2.4）**
+> **当前版本：1.2.5（CityUPedia 1.2.5）**
 > Semester B 2026/27 快照同步：CS5293、CS5182、CS5281、CS5288、CS5296、CS5483、CS5487、CS5491、CS6493、CS6491、CS6487、CS6290、CS6284、CS5493、CS6283 十五门课的班次时间已对照 AIMS（2026-09-03）更新，欢迎分享你的课程体验。
 > 完整的版本变更记录请查看 [更新日志（CHANGELOG.md）](CHANGELOG.md)。
 
