@@ -30,7 +30,9 @@
 | 方式 | 适合人群 | 做法 |
 |------|----------|------|
 | **A. Pull Request** | 想直接提交改动 | Fork 本仓库 → 新建分支开发 → 提交 PR，并在 PR 描述中注明核验时分配给你的确认标记 |
-| **B. 申请 Collaborator** | 长期参与、需要直接提交分支 | 新建 Issue，标题使用「贡献者申请」，附上核验确认标记与 GitHub 用户名，维护者审核后会发送 Collaborator 邀请 |
+| **B. 申请 Collaborator** | 长期参与、需要直接提交分支 | 通过「贡献者申请」Issue 模板提交（填写 GitHub 用户名、核验渠道与参与方向），维护者审核后发送 Collaborator 邀请 |
+
+> 申请入口：[新建贡献者申请 Issue](https://github.com/Famalhaut04/CityUPediaTest/issues/new?template=contributor-application.yml)。模板**不会**要求填写实名或学生 ID，只需 GitHub 用户名与核验渠道；实名信息请只走第 2 步的私密渠道。
 
 ## 贡献方向
 

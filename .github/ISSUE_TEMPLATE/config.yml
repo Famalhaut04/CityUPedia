@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 参与贡献 / 加入共建
+    url: https://github.com/Famalhaut04/CityUPediaTest/blob/main/CONTRIBUTING.md
+    about: 查看加入流程（身份核验 → 联系维护者 → GitHub 提交申请）、贡献方向与开发约定
+  - name: 课程数据与评价说明
+    url: https://github.com/Famalhaut04/CityUPediaTest#readme
+    about: 了解数据结构、数据来源与免责声明

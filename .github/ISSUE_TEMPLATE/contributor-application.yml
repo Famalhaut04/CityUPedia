@@ -1,0 +1,82 @@
+name: 贡献者申请
+description: 申请参与 CityUPediaTest 共建（需先通过私密渠道完成城大学生身份核验）
+title: "[贡献者申请] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 提交前请确认
+        本申请面向**已完成身份核验**的香港城市大学学生。核验需通过私密渠道完成，流程见 [CONTRIBUTING.md](https://github.com/Famalhaut04/CityUPediaTest/blob/main/CONTRIBUTING.md)。
+
+        > 🔒 **请勿在本 Issue 中填写实名、学生 ID（学号）或其他证件信息。** 这些信息仅通过邮箱或微信私下核验，公开 Issue 中只需要你的 GitHub 用户名。
+
+  - type: input
+    id: github-username
+    attributes:
+      label: GitHub 用户名
+      description: 用于发送 Collaborator 邀请或核对 Pull Request
+      placeholder: 例如：Famalhaut04
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verify-channel
+    attributes:
+      label: 身份核验渠道
+      description: 你通过哪个渠道向维护者/开发组成员提交了核验信息
+      options:
+        - 邮箱（fomalhautskywalker@gmail.com）
+        - 微信（联系开发组成员）
+    validations:
+      required: true
+
+  - type: input
+    id: verify-time
+    attributes:
+      label: 核验时间
+      description: 大致日期即可，便于核对记录
+      placeholder: 例如：2026-09-12
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution-areas
+    attributes:
+      label: 希望参与的方向
+      description: 可多选，便于维护者分派任务
+      options:
+        - label: 班次数据（对照 AIMS 更新 data/sections/）
+        - label: 课程评价（整理 data/sources.json 与 data/source-reviews/）
+        - label: 课程资料（官方 PDF 与逐页翻译）
+        - label: 前端开发与修复（planner.js / course.js / shared.js）
+        - label: 新学院与新项目扩展（data/courses/index.json）
+        - label: 文档与翻译
+        - label: 其他（请在下方补充说明）
+
+  - type: dropdown
+    id: access-level
+    attributes:
+      label: 申请权限
+      options:
+        - Pull Request（提交改动，由维护者 Review）
+        - Collaborator（长期参与，需要直接推送分支）
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充说明
+      description: 可选。例如你熟悉的课程、可投入的时间、想做的具体事情
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: declaration
+    attributes:
+      label: 声明
+      options:
+        - label: 我已通过私密渠道完成城大学生身份核验，并理解实名与学生 ID 不会被记录到本仓库或本 Issue
+          required: true
+        - label: 我同意遵守 [CONTRIBUTING.md](https://github.com/Famalhaut04/CityUPediaTest/blob/main/CONTRIBUTING.md) 中的数据与提交流程约定（评价须附原帖链接、不得编造）
+          required: true
