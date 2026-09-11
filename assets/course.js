@@ -35,8 +35,8 @@
         review: String(sourceReviewStore[id]?.course_reviews?.[course.code] || "").trim()
       };
     }).filter(Boolean);
-    // 有原文摘录的来源排在前面：部分来源尚未逐课整理原文，此时只展示标题与原文链接
-    sources.sort((a, b) => Number(Boolean(b.review)) - Number(Boolean(a.review)));
+    // 只展示已整理出原文摘录的来源；仅有链接、没有摘录的来源不再渲染空占位卡片
+    const quotedSources = sources.filter((source) => source.review);
     const currentProgramme = MSDS.getStoredProgramme() || MSDS.DEFAULT_PROGRAMME;
     const courseProgrammes = MSDS.courseProgrammes(course, data);
     const belongsToCurrent = courseProgrammes.includes(currentProgramme);
@@ -192,10 +192,11 @@
             </div>
           </section>
 
+          ${quotedSources.length ? `
           <section class="detail-section source-section">
             <h2>原始来源与评价原文</h2>
             <p class="source-section-intro">以下内容按课程从原始帖子中摘录，保留原作者信息与措辞，仅整理换行和标点；无关课程、话题标签和无关评论未收录。</p>
-            ${sources.length ? `<div class="source-list">${sources.map((source) => `
+            <div class="source-list">${quotedSources.map((source) => `
               <article class="source-review">
                 <div class="source-review-header">
                   <div>
@@ -204,12 +205,10 @@
                   </div>
                   <a class="source-review-link" href="${MSDS.escapeHtml(source.url)}" target="_blank" rel="noreferrer">查看原文</a>
                 </div>
-                ${source.review
-                  ? `<p>${MSDS.escapeHtml(source.review)}</p>`
-                  : '<p class="source-review-pending">本站尚未整理这条来源中与本课程相关的原文摘录，可点击「查看原文」阅读原帖。</p>'}
-              </article>`).join("")}</div>` : '<div class="notice source-empty">本地资料暂未找到可核对的学生评价来源。</div>'}
+                <p>${MSDS.escapeHtml(source.review)}</p>
+              </article>`).join("")}</div>
             <div class="notice source-notice"><strong>阅读提示：</strong>学生经验对应往届课程，考核方式、教师与难度可能变化。当前班次事实来自 ${MSDS.escapeHtml(data.schedule_as_of || "课表快照")} 的 AIMS 课表快照。</div>
-          </section>
+          </section>` : ""}
         </div>
       </div>`;
 
