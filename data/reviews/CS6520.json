@@ -1,13 +1,9 @@
 {
-    "course_code":  "CS6520",
-    "tags":  [
-
-             ],
-    "verdict":  "暂无评价",
-    "level": "unknown",
-    "summary":  "",
-    "last_updated":  "2026-08-12",
-    "source_ids":  [
-
-                   ]
+  "course_code": "CS6520",
+  "level": "good",
+  "verdict": "口碑不错",
+  "summary": "据多份社区选课笔记（经 CityU-CS-Guide 项目交叉核验）：难度适中。6 学分、跨两学期的小毕设，要求有实验、最好有一点创新，不能拿 Guided Study 旧内容充数。可从学院题目列表或直接找老师；多数老师不刁难，完全划水难拿 A。",
+  "tags": ["项目实践"],
+  "source_ids": ["cityu_cs_guide", "xhs_g66c2b41e"],
+  "last_updated": "2026-09-11"
 }

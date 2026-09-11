@@ -1,1 +1,9 @@
-{"course_code":"CS5351","level":"unknown","verdict":"暂无评价","summary":"软件工程课程：涵盖软件过程模型、需求工程、架构设计、测试与质量保证、项目管理与 DevOps 实践，通过团队项目完整走一遍软件开发流程。","tags":["软件工程","项目管理","DevOps"],"source_ids":[],"last_updated":"2026-08-05"}
+{
+  "course_code": "CS5351",
+  "level": "caution",
+  "verdict": "压分需谨慎",
+  "summary": "据多份社区选课笔记（经 CityU-CS-Guide 项目交叉核验）：难度偏难、给分偏严（压分）、工作量重；考试开卷、有回放。必修；本科有软件工程背景可尝试申请免修。6–8 人大组 project 占比较高，组队比个人努力更影响体验；期中期末多为 case 简答题，期末一般可带 3 张 A4。",
+  "tags": ["软件工程", "项目管理", "DevOps", "开卷", "小组项目", "项目实践"],
+  "source_ids": ["cityu_cs_guide", "xhs_g68ab30eb", "xhs_g68345b41", "xhs_g695c948d"],
+  "last_updated": "2026-09-11"
+}

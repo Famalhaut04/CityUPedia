@@ -1,5 +1,43 @@
 {
  "programme": "MSDS",
+ "colleges": [
+  {
+   "name_zh": "生物医学院",
+   "name_en": "College of Biomedicine"
+  },
+  {
+   "name_zh": "商学院",
+   "name_en": "College of Business"
+  },
+  {
+   "name_zh": "工学院",
+   "name_en": "College of Engineering"
+  },
+  {
+   "name_zh": "人文社会科学院",
+   "name_en": "College of Liberal Arts and Social Sciences"
+  },
+  {
+   "name_zh": "理学院",
+   "name_en": "College of Science"
+  },
+  {
+   "name_zh": "赛马会动物医学及生命科学院",
+   "name_en": "Jockey Club College of Veterinary Medicine and Life Sciences"
+  },
+  {
+   "name_zh": "创意媒体学院",
+   "name_en": "School of Creative Media"
+  },
+  {
+   "name_zh": "能源及环境学院",
+   "name_en": "School of Energy and Environment"
+  },
+  {
+   "name_zh": "法律学院",
+   "name_en": "School of Law"
+  }
+ ],
  "programmes": [
   {
    "code": "MSDS",

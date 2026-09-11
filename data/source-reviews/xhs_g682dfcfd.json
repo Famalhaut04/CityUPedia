@@ -1,0 +1,7 @@
+{
+  "source_id": "xhs_g682dfcfd",
+  "course_reviews": {
+    "CS5296": "偏开发，tutorial 有 AWS 实操。从 Linux、计网、OS 讲起，核心是云计算（调度、Mesos 等），末尾衔接一点机器学习。有小组作业、平时作业和 paper review。考试题量大，可带资料。偏开发的人相对觉得不难。",
+    "CS5489": "相对 CS5487 更偏应用与广度，数学推导少，但考试仍可能要写公式。有录播，tutorial 无录播。含期中、小组作业和个人 Kaggle 类作业。cheatsheet 常限一张。考试难度不低。"
+  }
+}

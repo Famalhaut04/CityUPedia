@@ -1,1 +1,9 @@
-{"course_code":"CS6537","level":"unknown","verdict":"暂无评价","summary":"Guided Study in Information Security。本学期 AIMS 未开设或暂未采集到班次数据，具体以开课学期为准。","tags":[],"source_ids":[]}
+{
+  "course_code": "CS6537",
+  "level": "neutral",
+  "verdict": "强度偏高",
+  "summary": "据多份社区选课笔记（经 CityU-CS-Guide 项目交叉核验）：难度偏难。自选题目跟导师做小研究再汇报；体验几乎完全取决于导师风格（放养或每周组会）。选题最好是自己有兴趣的，否则写报告会很耗。",
+  "tags": [],
+  "source_ids": ["cityu_cs_guide", "xhs_g6a0be121"],
+  "last_updated": "2026-09-11"
+}

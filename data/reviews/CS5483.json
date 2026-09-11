@@ -1,1 +1,9 @@
-{"course_code":"CS5483","level":"unknown","verdict":"暂无评价","summary":"","tags":[],"source_ids":[],"last_updated":"2026-09-03"}
+{
+  "course_code": "CS5483",
+  "level": "caution",
+  "verdict": "压分需谨慎",
+  "summary": "据多份社区选课笔记（经 CityU-CS-Guide 项目交叉核验）：难度适中、给分偏严（压分）、工作量重。名字带 data warehouse，实际大部分是数据挖掘；作业在 Jupyter/Weka 上完成，引导较细。期中期末线下机考，有 check 机制（查错会扣分、不查则错题零分）；工作量主要在后一个 project。",
+  "tags": ["机考", "小组项目", "项目实践", "有回放", "编程实践"],
+  "source_ids": ["cityu_cs_guide", "xhs_g68a5b6d5", "xhs_g682d5b26", "xhs_g682e95a7"],
+  "last_updated": "2026-09-11"
+}

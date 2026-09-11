@@ -5256,3 +5256,49 @@ body {
     -webkit-line-clamp: 2;
   }
 }
+
+/* ---------------- 学院数据筹备中占位（2026-09-11） ---------------- */
+.college-empty {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  margin: 26px auto 34px;
+  max-width: 560px;
+  padding: 38px 26px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  background: var(--card);
+  text-align: center;
+}
+
+.college-empty[hidden] {
+  display: none;
+}
+
+.college-empty-icon {
+  font-size: 34px;
+  line-height: 1;
+}
+
+.college-empty strong {
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 750;
+}
+
+.college-empty p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+/* 学院筹备中占位：侧栏/课表隐藏后容器退化为单列，占位卡占满内容区 */
+.course-sidebar[hidden],
+.timetable-panel[hidden] {
+  display: none;
+}
+
+.planner-shell.is-college-empty {
+  display: block;
+}

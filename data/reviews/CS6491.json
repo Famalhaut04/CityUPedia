@@ -1,13 +1,9 @@
 {
-    "course_code":  "CS6491",
-    "tags":  [
-
-             ],
-    "verdict": "暂无评价",
-    "level": "unknown",
-    "summary":  "",
-    "last_updated":  "2026-08-12",
-    "source_ids":  [
-
-                   ]
+  "course_code": "CS6491",
+  "level": "neutral",
+  "verdict": "强度偏高",
+  "summary": "据多份社区选课笔记（经 CityU-CS-Guide 项目交叉核验）：难度偏难；考试闭卷。纯数学优化，tutorial/作业/期中期末基本全闭卷；考前刷 past paper、复习微积分更有用。数学底子弱的人慎选；有人觉得比算法课更好上手。",
+  "tags": ["闭卷", "理论推导", "tutorial多"],
+  "source_ids": ["cityu_cs_guide", "xhs_g6a0be10c", "xhs_g6a0be121"],
+  "last_updated": "2026-09-11"
 }

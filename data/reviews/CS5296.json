@@ -1,1 +1,9 @@
-{"course_code":"CS5296","level":"unknown","verdict":"暂无评价","summary":"","tags":[],"source_ids":[],"last_updated":"2026-09-03"}
+{
+  "course_code": "CS5296",
+  "level": "caution",
+  "verdict": "压分需谨慎",
+  "summary": "据多份社区选课笔记（经 CityU-CS-Guide 项目交叉核验）：难度偏难、给分偏严（压分）、工作量重；考试开卷。作业、paper review 与小组项目都不少；开卷期末题量大，PPT 里的计算和画图几乎都会考。想混学分的不建议选；偏开发、能跟上调度/虚拟化内容的体会相对好一些。",
+  "tags": ["开卷", "小组项目", "项目实践", "tutorial多"],
+  "source_ids": ["cityu_cs_guide", "xhs_g682d5b26", "xhs_g682dfcfd", "xhs_g6878c023"],
+  "last_updated": "2026-09-11"
+}

@@ -1,0 +1,9 @@
+{
+  "source_id": "xhs_g682d5b26",
+  "course_reviews": {
+    "CS5296": "约三次 assignment 20%、两次 paper review 15%、project 25%、期末 40%。开卷，考前划的重点即考点。课件例题少，计算和画图几乎都会考（虚拟化、调度、Chord、WFQ、token bucket 等）。题量大，想混学分的不建议选。",
+    "CS5483": "约 10 次 tutorial 共 5%、个人 project 10%、小组 15%、期中 20%、期末 50%。tutorial 耗时、性价比低。期中期末有人觉得简单。某年期末考过 DBSCAN、BUC 排序、OPTICS、linkage/k-means、Apriori、FOIL/信息增益等，未考第十二章数据仓库。",
+    "CS5489": "约 tutorial 10%、两次 assignment 20%、project 30%、期中 10%、期末 30%。期末覆盖面广（核方法、朴素贝叶斯、GAN、RANSAC、Transformer 等），深度不一定大。有人觉得比 CS5487 题型更杂。",
+    "CS6493": "两次作业 30%、小组项目 30%、闭卷期末 40%。五道大题：概念、补全代码、并行/PEFT/agent、对齐算法比较、BLEU 与交叉熵等。想冲 A 需复习 tutorial 代码。某年没考 Transformer。"
+  }
+}

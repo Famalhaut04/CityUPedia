@@ -178,14 +178,26 @@
   function colleges() {
     const seen = new Set();
     const list = [];
+    // 有课程数据的学院排在前面（学院字段来自项目数据）
     programmes.forEach((p) => {
       const key = p.college_en || "College of Computing";
       if (!seen.has(key)) {
         seen.add(key);
-        list.push({ key, name_zh: p.college || "计算学院", name_en: key });
+        list.push({ key, name_zh: p.college || "计算学院", name_en: key, has_programmes: true });
       }
     });
+    // 其余学院（官方名称，来自数据文件 colleges 字段）：暂未收录课程，仅占位展示
+    const extras = Array.isArray(data.colleges) ? data.colleges : [];
+    extras.forEach((college) => {
+      if (!college.name_en || seen.has(college.name_en)) return;
+      seen.add(college.name_en);
+      list.push({ key: college.name_en, name_zh: college.name_zh || college.name_en, name_en: college.name_en, has_programmes: false });
+    });
     return list;
+  }
+
+  function collegeHasProgrammes() {
+    return collegeProgrammes(activeCollege).length > 0;
   }
 
   function collegeProgrammes(collegeKey) {
@@ -264,6 +276,16 @@
 
   function renderProgrammeStats() {
     const programme = currentProgramme();
+    // 学院暂无项目时：顶部学分统计展示占位，不渲染陈旧项目数据
+    if (!collegeHasProgrammes()) {
+      document.getElementById("stat-graduation").textContent = "—";
+      document.getElementById("stat-requirement").textContent = "—";
+      document.getElementById("programme-summary-name").textContent = "—";
+      const emptyInfoLink = document.getElementById("programme-info-link");
+      if (emptyInfoLink) emptyInfoLink.hidden = true;
+      document.getElementById("data-note").textContent = "";
+      return;
+    }
     document.getElementById("stat-graduation").textContent = programme.graduation_credit_units
       ? `${programme.graduation_credit_units}`
       : "—";
@@ -801,6 +823,17 @@
   function switchCollege(key) {
     if (key === activeCollege) return;
     activeCollege = key;
+    renderProgrammePills();
+    // 尚未收录课程的学院：不改动已存的项目选择，展示筹备中占位
+    if (!collegeHasProgrammes()) {
+      renderProgrammeStats();
+      updateCollegeEmptyState();
+      const college = colleges().find((item) => item.key === key);
+      MSDS.showToast(MSDS.getStoredLang() === "en"
+        ? `${college ? college.name_en : key}: programme data coming soon`
+        : `已切换至${college ? college.name_zh : key}（硕士项目数据筹备中）`);
+      return;
+    }
     const depts = departments();
     activeDepartment = depts.length ? depts[0].key : "";
     const progs = departmentProgrammes();
@@ -809,7 +842,6 @@
       if (first) activeProgramme = first.code;
     }
     MSDS.saveProgramme(activeProgramme);
-    renderProgrammePills();
     refreshAfterProgrammeChange();
   }
 
@@ -826,11 +858,29 @@
     refreshAfterProgrammeChange();
   }
 
+  // 学院暂无项目时的占位状态：隐藏选课面板与课表，显示筹备提示
+  function updateCollegeEmptyState() {
+    const empty = !collegeHasProgrammes();
+    document.querySelector(".course-sidebar").hidden = empty;
+    document.querySelector(".timetable-panel").hidden = empty;
+    document.querySelector(".planner-shell").classList.toggle("is-college-empty", empty);
+    const placeholder = document.getElementById("college-empty");
+    if (placeholder) placeholder.hidden = !empty;
+    const hint = document.getElementById("programme-bar-hint");
+    if (empty && hint) {
+      const college = colleges().find((item) => item.key === activeCollege);
+      hint.textContent = college
+        ? `${college.name_zh}（${college.name_en}）· 硕士项目数据筹备中`
+        : "硕士项目数据筹备中";
+    }
+  }
+
   function refreshAfterProgrammeChange() {
     reloadSelections();
     applyDefaultSelections();
     renderProgrammeStats();
     renderAll();
+    updateCollegeEmptyState();
     MSDS.showToast(`已切换至 ${currentProgramme().name_zh}`);
   }
 
@@ -1177,6 +1227,7 @@
     applyDefaultSelections();
     updateSemesterSwitchUI();
     renderAll();
+    updateCollegeEmptyState();
   }).catch((error) => {
     listElement.innerHTML = `<div class="empty-list">${MSDS.escapeHtml(error.message)}<br>请通过本地服务器打开网站。</div>`;
   });

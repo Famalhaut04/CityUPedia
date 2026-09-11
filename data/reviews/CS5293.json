@@ -1,1 +1,9 @@
-{"course_code":"CS5293","level":"unknown","verdict":"暂无评价","summary":"","tags":[],"source_ids":[],"last_updated":"2026-09-03"}
+{
+  "course_code": "CS5293",
+  "level": "good",
+  "verdict": "口碑不错",
+  "summary": "据多份社区选课笔记（经 CityU-CS-Guide 项目交叉核验）：难度适中、给分偏松、工作量重；考试闭卷。作业/实验报告量大，期末与本科同卷、完全闭卷，知识点杂、有代码分析题。多源劝退想平稳毕业的人选；平时分往往不低，压力主要在期末。",
+  "tags": ["闭卷", "项目实践", "编程实践", "tutorial多"],
+  "source_ids": ["cityu_cs_guide", "xhs_g68346d6e", "xhs_g6a0be121", "xhs_g6a772a61"],
+  "last_updated": "2026-09-11"
+}

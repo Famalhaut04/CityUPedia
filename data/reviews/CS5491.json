@@ -4,6 +4,6 @@
   "verdict": "评价较好",
   "summary": "人工智能，平时作业 20%、期中 20%、Project 30%、期末 30%；覆盖 Search、CSP、Optimization、MDP、强化学习、Bayesian Networks；小组 Project 用 GPT API 在 Colab 完成，给分较好。",
   "tags": ["AI", "Search", "强化学习", "小组 Project", "给分友好"],
-  "source_ids": [],
-  "last_updated": "2026-08-13"
+  "source_ids": ["cityu_cs_guide", "xhs_g683fdcb5", "xhs_g682e95a7", "xhs_g683476a7"],
+  "last_updated": "2026-09-11"
 }

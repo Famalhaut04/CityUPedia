@@ -1,13 +1,9 @@
 {
-    "course_code":  "CS6487",
-    "tags":  [
-
-             ],
-    "verdict": "暂无评价",
-    "level": "unknown",
-    "summary":  "",
-    "last_updated":  "2026-08-12",
-    "source_ids":  [
-
-                   ]
+  "course_code": "CS6487",
+  "level": "neutral",
+  "verdict": "强度偏高",
+  "summary": "据多份社区选课笔记（经 CityU-CS-Guide 项目交叉核验）：难度偏难。内容硬核（Transformer、图机器学习、凸优化等）；项目多为文献综述，演讲压力不大。期末综合题（尤其优化）评价很差，单源提到勉强 B-，求稳需谨慎。",
+  "tags": ["项目实践"],
+  "source_ids": ["cityu_cs_guide", "xhs_g6a0f8368"],
+  "last_updated": "2026-09-11"
 }
