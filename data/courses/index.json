@@ -201,7 +201,8 @@
    "data_ready": true,
    "notes": [
     "核心 15 学分 + 选修至少 18 学分。",
-    "核心课：互联网应用开发、电子商务信息安全、电子商务系统集成、电子商务系统分析与设计、电子商务概论（CS5281/CS5285/IS5314/IS5414/EC5001）。"
+    "核心课：互联网应用开发、电子商务信息安全、电子商务系统集成、电子商务系统分析与设计、电子商务概论（CS5281/CS5285/IS5314/IS5414/EC5001）。",
+   "2026/27 官方课程结构将核心课分为两组课程集：技术导向（CS5281、CS5285、CS5488、CS5489，加 EC5001）与商务导向（IS5314、IS5414、IS6321、IS6400、IS6640），任选一组修满 15 学分；本数据沿用原核心课标注，选课前请以院系最新说明为准。"
    ],
    "college": "计算学院",
    "college_en": "College of Computing",
@@ -1417,13 +1418,16 @@
   {
    "code": "CS5182",
    "programmes": [
-    "MSCS"
+    "MSCS",
+    "MSAI"
    ],
    "programme_requirement_types": {
-    "MSCS": "elective"
+    "MSCS": "elective",
+    "MSAI": "elective"
    },
    "programme_elective_groups": {
-    "MSCS": "group2"
+    "MSCS": "group2",
+    "MSAI": "group2"
    },
    "requirement_type": "elective",
    "programme_title": "Computer Graphics",
@@ -1509,14 +1513,17 @@
    "code": "CS5188",
    "programmes": [
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSAI"
    ],
    "programme_requirement_types": {
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSAI": "elective"
    },
    "programme_elective_groups": {
-    "MSCS": "group1"
+    "MSCS": "group1",
+    "MSAI": "group2"
    },
    "requirement_type": "elective",
    "programme_title": "Virtual Reality Technologies and Applications",
@@ -1909,10 +1916,12 @@
   {
    "code": "CS5297",
    "programmes": [
-    "MSCY"
+    "MSCY",
+    "MSAI"
    ],
    "programme_requirement_types": {
-    "MSCY": "elective"
+    "MSCY": "elective",
+    "MSAI": "elective"
    },
    "programme_elective_groups": {
     "MSCY": "group1",
@@ -2086,16 +2095,19 @@
    "programmes": [
     "MSCY",
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSAI"
    ],
    "programme_requirement_types": {
     "MSCY": "elective",
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSAI": "elective"
    },
    "programme_elective_groups": {
     "MSCY": "group2",
-    "MSCS": "group2"
+    "MSCS": "group2",
+    "MSAI": "group2"
    },
    "requirement_type": "elective",
    "programme_title": "Data Warehousing and Data Mining",
@@ -2185,11 +2197,13 @@
    "code": "CS5488",
    "programmes": [
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSAI"
    ],
    "programme_requirement_types": {
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSAI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Big Data Algorithms and Techniques",
@@ -2208,7 +2222,8 @@
    "section_count": 3,
    "semester_tag": "SemA",
    "programme_elective_groups": {
-    "MSCS": "group2"
+    "MSCS": "group2",
+    "MSAI": "group2"
    }
   },
   {
@@ -2600,11 +2615,13 @@
    "code": "CS6382",
    "programmes": [
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSAI"
    ],
    "programme_requirement_types": {
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSAI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Algorithm Analysis and Game Theory",
@@ -2623,7 +2640,8 @@
    "section_count": 2,
    "semester_tag": "SemA",
    "programme_elective_groups": {
-    "MSCS": "group1"
+    "MSCS": "group1",
+    "MSAI": "group2"
    }
   },
   {
@@ -2731,12 +2749,14 @@
    "programmes": [
     "MSDS",
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSAI"
    ],
    "programme_requirement_types": {
     "MSDS": "elective",
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSAI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Natural Language Processing",
@@ -2755,7 +2775,8 @@
    "section_count": 12,
    "semester_tag": "SemB",
    "programme_elective_groups": {
-    "MSCS": "group1"
+    "MSCS": "group1",
+    "MSAI": "group1"
    }
   },
   {
