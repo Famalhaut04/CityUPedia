@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "crn": "12196",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "127",
+    "capacity": "127",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2413",
+    "instructor": "HSU Sam H Y",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEGEV"
+    ]
+  },
+  {
+    "crn": "12196",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "127",
+    "capacity": "127",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2415",
+    "instructor": "HSU Sam H Y",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEGEV"
+    ]
+  },
+  {
+    "crn": "12196",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "127",
+    "capacity": "127",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "5012",
+    "instructor": "HSU Sam H Y",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEGEV"
+    ]
+  },
+  {
+    "crn": "15425",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2413",
+    "instructor": "HSU Sam H Y",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15425",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2415",
+    "instructor": "HSU Sam H Y",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15425",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "5012",
+    "instructor": "HSU Sam H Y",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  }
+]

@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "crn": "11069",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "41",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "6603",
+    "instructor": "WU Haibin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  },
+  {
+    "crn": "11843",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "1503",
+    "instructor": "WU Haibin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  },
+  {
+    "crn": "11844",
+    "section": "SA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "1503",
+    "instructor": "WU Haibin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEC4, MSF, MSFE"
+    ]
+  },
+  {
+    "crn": "13265",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "85",
+    "capacity": "85",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "WU Haibin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEC4, MSF, MSFE"
+    ]
+  },
+  {
+    "crn": "15580",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "6603",
+    "instructor": "WU Haibin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEC4, MSF, MSFE"
+    ]
+  }
+]

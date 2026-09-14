@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "crn": "14179",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 20:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "Yuan Gan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCBIOS1"
+    ]
+  },
+  {
+    "crn": "15489",
+    "section": "T01",
+    "credits": 3,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "13:00 - 13:50",
+    "building": "YEUNG",
+    "room": "P4703",
+    "instructor": "Yuan Gan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCBIOS1"
+    ]
+  },
+  {
+    "crn": "15490",
+    "section": "T02",
+    "credits": 3,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "14:00 - 14:50",
+    "building": "YEUNG",
+    "room": "P4703",
+    "instructor": "Yuan Gan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCBIOS1"
+    ]
+  }
+]

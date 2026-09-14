@@ -1,1 +1,113 @@
-[]
+[
+  {
+    "crn": "10627",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 11:50",
+    "building": "CMC",
+    "room": "M1080",
+    "instructor": "SOHN Sang Woo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSPACG",
+      "only for Stream: PA"
+    ]
+  },
+  {
+    "crn": "10628",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "8",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "SOHN Sang Woo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSPACG",
+      "only for Stream: PA"
+    ]
+  },
+  {
+    "crn": "10629",
+    "section": "SA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "1",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "12:00 - 14:50",
+    "building": "CMC",
+    "room": "M8061",
+    "instructor": "CHANG Wonjae",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSBISB"
+    ]
+  },
+  {
+    "crn": "13252",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "7",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "1406",
+    "instructor": "SOHN Sang Woo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSPACG",
+      "only for Stream: PA"
+    ]
+  },
+  {
+    "crn": "13925",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "30",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-7",
+    "instructor": "CHANG Wonjae",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSBISB, MSEC4"
+    ]
+  },
+  {
+    "crn": "15236",
+    "section": "SQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "30",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-12",
+    "instructor": "CHANG Wonjae",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSBISB, MSEC4"
+    ]
+  }
+]

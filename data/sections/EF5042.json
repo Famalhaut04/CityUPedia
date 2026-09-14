@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "crn": "10638",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "2",
+    "capacity": "76",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "MA Yue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSFE"
+    ]
+  },
+  {
+    "crn": "10639",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "4",
+    "capacity": "76",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "MA Yue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSFE"
+    ]
+  },
+  {
+    "crn": "10640",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "2",
+    "capacity": "94",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-15",
+    "instructor": "YU Wayne W.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF"
+    ]
+  },
+  {
+    "crn": "11144",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "1",
+    "capacity": "2",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-15",
+    "instructor": "YU Wayne W.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSFE"
+    ]
+  },
+  {
+    "crn": "11548",
+    "section": "S62",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P4701",
+    "instructor": "YU Wayne W.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF"
+    ]
+  },
+  {
+    "crn": "13362",
+    "section": "SA2",
+    "credits": 3,
+    "web": "Y",
+    "available": "19",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "MA Yue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAE"
+    ]
+  },
+  {
+    "crn": "15447",
+    "section": "S04",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "92",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "YU Wayne W.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF"
+    ]
+  },
+  {
+    "crn": "15835",
+    "section": "SA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "MA Yue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAE"
+    ]
+  }
+]

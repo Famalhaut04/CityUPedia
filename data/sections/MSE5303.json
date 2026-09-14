@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "crn": "10437",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "112",
+    "capacity": "112",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "1610",
+    "instructor": "YANG Tao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "10438",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "16:00 - 17:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "10438",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "16:00 - 17:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "10438",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "11:00 - 12:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "14996",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "14:00 - 16:50",
+    "building": "LI",
+    "room": "2510",
+    "instructor": "YANG Tao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15030",
+    "section": "L01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "16:00 - 17:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15030",
+    "section": "L01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "16:00 - 17:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15030",
+    "section": "L01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "11:00 - 12:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15625",
+    "section": "C02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "14:00 - 16:50",
+    "building": "LI",
+    "room": "2510",
+    "instructor": "YANG Tao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15626",
+    "section": "L02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "16:00 - 17:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15626",
+    "section": "L02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "16:00 - 17:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15626",
+    "section": "L02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "11:00 - 12:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "YANG Tao, XING Jianrui, ZHANG Miao, QIU Quanrun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  }
+]

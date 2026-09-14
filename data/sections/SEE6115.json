@@ -1,1 +1,278 @@
-[]
+[
+  {
+    "crn": "12812",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "95",
+    "capacity": "95",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEGEV"
+    ]
+  },
+  {
+    "crn": "12812",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "95",
+    "capacity": "95",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7540",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEGEV"
+    ]
+  },
+  {
+    "crn": "12812",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "95",
+    "capacity": "95",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-14",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEGEV"
+    ]
+  },
+  {
+    "crn": "12872",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2",
+      "not for Stream: CPM"
+    ]
+  },
+  {
+    "crn": "12872",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7540",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2",
+      "not for Stream: CPM"
+    ]
+  },
+  {
+    "crn": "12872",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-14",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2",
+      "not for Stream: CPM"
+    ]
+  },
+  {
+    "crn": "13430",
+    "section": "CP3",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSVC"
+    ]
+  },
+  {
+    "crn": "13430",
+    "section": "CP3",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7540",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSVC"
+    ]
+  },
+  {
+    "crn": "13430",
+    "section": "CP3",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-14",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSVC"
+    ]
+  },
+  {
+    "crn": "14461",
+    "section": "CP2",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1",
+      "not for Stream: CEG"
+    ]
+  },
+  {
+    "crn": "14461",
+    "section": "CP2",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7540",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1",
+      "not for Stream: CEG"
+    ]
+  },
+  {
+    "crn": "14461",
+    "section": "CP2",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-14",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1",
+      "not for Stream: CEG"
+    ]
+  },
+  {
+    "crn": "15437",
+    "section": "CP4",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15437",
+    "section": "CP4",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "date": "11/10/2026 - 07/11/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "B7540",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15437",
+    "section": "CP4",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-14",
+    "instructor": "WANG Xue",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  }
+]

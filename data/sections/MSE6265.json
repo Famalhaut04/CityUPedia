@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "crn": "13972",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "CMC",
+    "room": "M5050",
+    "instructor": "HE Qiyuan, YIN Zhuangzhuang, DING Haowen, MAO Xingchao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "14999",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "LT-10",
+    "instructor": "HE Qiyuan, YIN Zhuangzhuang, DING Haowen, MAO Xingchao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15628",
+    "section": "C02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "LT-10",
+    "instructor": "HE Qiyuan, YIN Zhuangzhuang, DING Haowen, MAO Xingchao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  }
+]

@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "crn": "10637",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "30",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "2610",
+    "instructor": "ZHOU Jin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF, MSFE"
+    ]
+  },
+  {
+    "crn": "12252",
+    "section": "SB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "37",
+    "capacity": "37",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "2610",
+    "instructor": "ZHOU Jin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSEEE, MSEEEBM, MSEIE2, MSEIEBM2, MSMIT1, MSMITBM2"
+    ]
+  },
+  {
+    "crn": "13465",
+    "section": "SA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "30",
+    "capacity": "33",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "2610",
+    "instructor": "ZHOU Jin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM, MAIA, MSCBDA2, MSCBDA3, MSCOSCM, MSEC4, MSPACG"
+    ]
+  }
+]

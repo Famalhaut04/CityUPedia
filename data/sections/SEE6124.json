@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "crn": "15827",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "75",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "G4302",
+    "instructor": "LIU Jiawei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEGEV"
+    ]
+  },
+  {
+    "crn": "15828",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "G4302",
+    "instructor": "LIU Jiawei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  }
+]

@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "crn": "12291",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "14:00 - 16:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "SZETO Ho Chin Irene",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMKT"
+    ]
+  },
+  {
+    "crn": "13489",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "75",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "6603",
+    "instructor": "SZETO Ho Chin Irene",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMKT"
+    ]
+  },
+  {
+    "crn": "13965",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "6603",
+    "instructor": "SZETO Ho Chin Irene",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEC4"
+    ]
+  },
+  {
+    "crn": "14087",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "14:00 - 16:50",
+    "building": "LI",
+    "room": "6603",
+    "instructor": "SZETO Ho Chin Irene",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMKT"
+    ]
+  }
+]

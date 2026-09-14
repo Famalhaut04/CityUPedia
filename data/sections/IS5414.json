@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "crn": "10801",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "19",
+    "capacity": "225",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "CHEUNG Bryan, TAN Li",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEC4"
+    ]
+  },
+  {
+    "crn": "10801",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "19",
+    "capacity": "225",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3610",
+    "instructor": "CHEUNG Bryan, TAN Li",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEC4"
+    ]
+  },
+  {
+    "crn": "10801",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "19",
+    "capacity": "225",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "4307",
+    "instructor": "CHEUNG Bryan, TAN Li",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEC4"
+    ]
+  },
+  {
+    "crn": "10801",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "19",
+    "capacity": "225",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "4412",
+    "instructor": "CHEUNG Bryan, TAN Li",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEC4"
+    ]
+  },
+  {
+    "crn": "12586",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "11",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "CHEUNG Bryan, LIU Rungen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSMIT1, MSMITBM2"
+    ]
+  },
+  {
+    "crn": "12586",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "11",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3610",
+    "instructor": "CHEUNG Bryan, LIU Rungen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSMIT1, MSMITBM2"
+    ]
+  },
+  {
+    "crn": "12586",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "11",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "4307",
+    "instructor": "CHEUNG Bryan, LIU Rungen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSMIT1, MSMITBM2"
+    ]
+  },
+  {
+    "crn": "12586",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "11",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "4412",
+    "instructor": "CHEUNG Bryan, LIU Rungen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSMIT1, MSMITBM2"
+    ]
+  }
+]

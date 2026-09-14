@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "crn": "15715",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "79",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "YUAN Hsiang-Yu Sean, CHEN Lingxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSHSB, MSHSM1"
+    ]
+  },
+  {
+    "crn": "15716",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "YUAN Hsiang-Yu Sean, CHEN Lingxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15717",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "7",
+    "capacity": "7",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "YUAN Hsiang-Yu Sean, CHEN Lingxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "15718",
+    "section": "CR1",
+    "credits": 3,
+    "web": "Y",
+    "available": "4",
+    "capacity": "4",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "YUAN Hsiang-Yu Sean, CHEN Lingxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCBIOS1"
+    ]
+  },
+  {
+    "crn": "15719",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "79",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "YUAN Hsiang-Yu Sean, CHEN Lingxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSHSB, MSHSM1"
+    ]
+  },
+  {
+    "crn": "15720",
+    "section": "LP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "YUAN Hsiang-Yu Sean, CHEN Lingxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15721",
+    "section": "LQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "7",
+    "capacity": "7",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "YUAN Hsiang-Yu Sean, CHEN Lingxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "15722",
+    "section": "LR1",
+    "credits": 3,
+    "web": "Y",
+    "available": "4",
+    "capacity": "4",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "YUAN Hsiang-Yu Sean, CHEN Lingxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCBIOS1"
+    ]
+  }
+]

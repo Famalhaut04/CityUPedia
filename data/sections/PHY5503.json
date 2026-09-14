@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "crn": "14045",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "85",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-15",
+    "instructor": "ZHANG Zhedong, ZHANG Dijia, RUN Chongxin, HOI Io Chun, DAHLSTEN Oscar Carl Olof",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSPDMQT"
+    ]
+  },
+  {
+    "crn": "14802",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-15",
+    "instructor": "ZHANG Zhedong, DAHLSTEN Oscar Carl Olof, HOI Io Chun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  }
+]

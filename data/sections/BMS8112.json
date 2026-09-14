@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "crn": "14733",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "11:00 - 13:50",
+    "building": "LAU",
+    "room": "6-213",
+    "instructor": "HE Mingliang, LIDSKY Peter V",
+    "medium": "English",
+    "notes": [
+      "only for Programme: BMS3/M, BMS3/P"
+    ]
+  },
+  {
+    "crn": "14734",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "11:00 - 13:50",
+    "building": "LAU",
+    "room": "6-213",
+    "instructor": "HE Mingliang, LIDSKY Peter V",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "14735",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "11:00 - 13:50",
+    "building": "LAU",
+    "room": "6-213",
+    "instructor": "HE Mingliang, LIDSKY Peter V",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSHSB"
+    ]
+  }
+]

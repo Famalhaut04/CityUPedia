@@ -15,6 +15,16 @@
 - **14 门已有评价课程补充原文摘录来源**：CS5182、CS5187、CS5188、CS5222、CS5285、CS5481、CS5486、CS5487、CS5488、CS5489、CS5491、CS6290、CS6382、EC5001（已有来源与结论一律保留）
 - 新增 37 条小红书帖子来源与 38 个摘录文件（data/source-reviews/），课程详情页「原始来源与评价原文」可直接阅读并跳转原帖
 
+### 数据：补全计算学院 25 门课程的上课时间（Semester A 2026/27）
+
+> 数据来源：AIMS Master Class Schedule（Semester A 2026/27）快照，抓取于 2026-08-23，经 GitHub 开源项目 [xamzar/cityu-schedule](https://github.com/xamzar/cityu-schedule) 发布；该仓库未声明开源许可证，此处仅引用其抓取的 AIMS 公开课表事实数据，班次信息以 CityU AIMS 为准。
+
+- **25 门课程由「无班次」补为完整班次**（含 CRN、星期、时段、教室、教师、名额、选课限制）：AC5511、AC5803、EF5010、EF5042、LW5962、MKT5644、IS5414、BMS5002/5007/5010/5011/8112、MSE5301/5303/6181/6265、PH5102/5103、PHY5503/5504、SEE6115/6118/6124/6214/6224
+- **14 门保持「无固定时段」**：CS6520–CS6529（Project）、DSC6006、DSC6017（Internship）、DSC8001/8002（Seminar）在 AIMS 中为 TBA，无固定上课时段，不写入班次以免课表误排
+- **90 门仍无班次数据**：多为 Semester B 开设或 2026/27 未开设的课程（如 CS5185、CS5291、IS5314、SEE5201 等），待后续 Semester B 快照补充
+- 字段处理说明：源数据不含 `web` 字段，按现有数据主流约定（计算学院 170 条中 168 条为 Y）填 `Y`；`available` 为 "Full" 时归一化为 `0`
+- 本轮补齐后，计算学院七个项目的 Semester A 可选班次覆盖率显著提升，上述课程已可在排课器中正常加入并渲染课表
+
 ### 核对：计算学院/创新学院课程清单对照官方（2026-09-11）
 
 - GitHub 检索同类排课与课程数据项目（CityU-Courses、CityU 手册、CityUDG-Course-Assistant、cityu-quick-course-adder 等）：未发现可导入的港城大本部 AIMS 班次数据；CityUDG 为东莞校区项目（含思政课、45 学分制），数据不可混用；班次时间仍以 AIMS 官方快照为唯一可靠来源

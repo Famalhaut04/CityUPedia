@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "crn": "12623",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "160",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-18",
+    "instructor": "XUE Haoran",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCBIOS1"
+    ]
+  }
+]

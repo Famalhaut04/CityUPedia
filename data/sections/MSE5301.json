@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "crn": "10049",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-9",
+    "instructor": "LI Yangyang, WANG Feng",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "10436",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "10436",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "10436",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "14990",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "13:00 - 15:50",
+    "building": "CMC",
+    "room": "M5050",
+    "instructor": "LI Yangyang, WANG Feng",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15029",
+    "section": "L01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15029",
+    "section": "L01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15029",
+    "section": "L01",
+    "credits": 3,
+    "web": "Y",
+    "available": "115",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "15623",
+    "section": "C02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "13:00 - 15:50",
+    "building": "CMC",
+    "room": "M5050",
+    "instructor": "LI Yangyang, WANG Feng",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15624",
+    "section": "L02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15624",
+    "section": "L02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  },
+  {
+    "crn": "15624",
+    "section": "L02",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "09:00 - 10:50",
+    "building": "YEUNG",
+    "room": "MSELAB",
+    "instructor": "LI Yangyang, LYU Linfeng, FAN Qimeng, LI Dedi, WANG Jiarong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIFS"
+    ]
+  }
+]
