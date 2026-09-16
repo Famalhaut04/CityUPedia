@@ -1285,7 +1285,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-schedule-update-20260901") === "dismissed") return;
+      if (localStorage.getItem("cityu-schedule-update-20260916") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1293,16 +1293,16 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "Planner Rules & Validation (Sep 1)" : "选课逻辑与规则校验（9/1）") + '</strong>' +
+        '<strong>' + (isEn ? "College of Engineering Added — v1.3.0 (Sep 16)" : "工学院课程全量接入 · v1.3.0（9/16）") + '</strong>' +
         '<span>' + (isEn
-          ? "Conflict detection upgraded (faster on 30+ classes); course cards warn when prerequisites are missing or when an elective collides with a core course in time."
-          : "冲突检测算法升级（30+ 门课时更流畅）；课程卡片新增「先修未加入」「与核心课时间冲突」红/橙警告。") +
+          ? "13 official master's programmes across the College of Engineering (Architecture & Civil, Electrical, Materials, Mechanical, Systems) with 246 new courses, all verified against the official 2026/27 catalogue; 96 courses include Semester A timetables. Cross-listed courses now show all affiliated programmes."
+          : "新增工学院 5 系 13 个官方硕士项目（建筑及土木、电机、材料、机械、系统）与 246 门课程，全部经城大官方 2026/27 目录核对，其中 96 门已带 Semester A 班次；跨院共用的课程现会显示全部所属项目。") +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-schedule-update-20260901", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-schedule-update-20260916", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }
