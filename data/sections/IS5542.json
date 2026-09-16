@@ -1,0 +1,75 @@
+[
+  {
+    "crn": "15312",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "1",
+    "capacity": "100",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "YU Miao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIB, MSBISA, MSCBDA2, MSDTTI"
+    ]
+  },
+  {
+    "crn": "15313",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "90",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "YU Miao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIB, MSBISA, MSCBDA2, MSDTTI"
+    ]
+  },
+  {
+    "crn": "15775",
+    "section": "SA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "7",
+    "capacity": "7",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "YU Miao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MVM"
+    ]
+  },
+  {
+    "crn": "15854",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "YU Miao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSBISB",
+      "only for Cohort: 2024, 2025"
+    ]
+  }
+]

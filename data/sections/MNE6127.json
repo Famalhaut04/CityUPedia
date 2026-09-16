@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "13134",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "180",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "10:00 - 11:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "ZHU Pingan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  },
+  {
+    "crn": "13135",
+    "section": "T01",
+    "credits": 3,
+    "web": "Y",
+    "available": "180",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "12:00 - 12:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "ZHU Pingan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  }
+]

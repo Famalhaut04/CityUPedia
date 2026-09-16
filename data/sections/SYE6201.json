@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "13551",
+    "section": "C62",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-14",
+    "instructor": "FENG Shien Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: ENGD, MSSM"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "crn": "13307",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "130",
+    "capacity": "130",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-18",
+    "instructor": "NEKOUEI JAHROMI Omid Ali",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MPH"
+    ]
+  },
+  {
+    "crn": "14114",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "30",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-18",
+    "instructor": "NEKOUEI JAHROMI Omid Ali",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PH/P, VCS/P, VM/P",
+      "only for Cohort: 2025, 2026"
+    ]
+  },
+  {
+    "crn": "15245",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-18",
+    "instructor": "NEKOUEI JAHROMI Omid Ali",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI",
+      "only for Cohort: 2026"
+    ]
+  },
+  {
+    "crn": "15509",
+    "section": "CR1",
+    "credits": 3,
+    "web": "Y",
+    "available": "35",
+    "capacity": "35",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-18",
+    "instructor": "NEKOUEI JAHROMI Omid Ali",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MVM",
+      "only for Cohort: 2026"
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "crn": "15192",
+    "section": "C63",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-13",
+    "instructor": "QIU Shuang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "15429",
+    "section": "CP4",
+    "credits": 3,
+    "web": "Y",
+    "available": "7",
+    "capacity": "7",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-13",
+    "instructor": "QIU Shuang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSBME1"
+    ]
+  },
+  {
+    "crn": "15814",
+    "section": "CP5",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-13",
+    "instructor": "QIU Shuang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MFACM",
+      "only for Cohort: 2026"
+    ]
+  },
+  {
+    "crn": "15869",
+    "section": "CP6",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-13",
+    "instructor": "QIU Shuang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MPH"
+    ]
+  }
+]

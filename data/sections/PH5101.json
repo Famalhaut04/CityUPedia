@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "12624",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "130",
+    "capacity": "130",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "5012",
+    "instructor": "LI Linyan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MPH"
+    ]
+  },
+  {
+    "crn": "12976",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "16",
+    "capacity": "16",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "5012",
+    "instructor": "LI Linyan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PH/P, VCS/P, VM/P"
+    ]
+  },
+  {
+    "crn": "15049",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "5012",
+    "instructor": "LI Linyan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  }
+]

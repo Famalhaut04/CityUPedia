@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "13990",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "3",
+    "capacity": "65",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "14:00 - 16:50",
+    "building": "LI",
+    "room": "1601",
+    "instructor": "WANG Amy",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  },
+  {
+    "crn": "13448",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "9",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3601",
+    "instructor": "WANG Amy",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  },
+  {
+    "crn": "13449",
+    "section": "SA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "8",
+    "capacity": "8",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "14:00 - 16:50",
+    "building": "LI",
+    "room": "1601",
+    "instructor": "WANG Amy",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEM1"
+    ]
+  }
+]

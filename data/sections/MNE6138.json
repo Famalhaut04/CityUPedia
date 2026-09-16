@@ -1,0 +1,21 @@
+[
+  {
+    "crn": "14683",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "73",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "14:00 - 16:50",
+    "building": "YEUNG",
+    "room": "LT-16",
+    "instructor": "ZHAO Shijun, ZHAO Jiyun, HAN Weizhong, HIBIKI Takashi, MA Kan, KAI Ji-jung, WANG Wei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: NCR"
+    ]
+  }
+]

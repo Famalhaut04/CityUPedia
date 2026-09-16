@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "11566",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "185",
+    "capacity": "185",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "ICP",
+    "room": "B-101",
+    "instructor": "CHEN Guanrong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "11996",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "ICP",
+    "room": "B-101",
+    "instructor": "CHEN Guanrong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "11997",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "25",
+    "capacity": "25",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "ICP",
+    "room": "B-101",
+    "instructor": "CHEN Guanrong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  }
+]

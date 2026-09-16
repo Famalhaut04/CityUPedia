@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "12839",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "65",
+    "capacity": "65",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "ZHU Xiaowei, LU Qihong, FUNG Chi Chung Alan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSN1"
+    ]
+  },
+  {
+    "crn": "14627",
+    "section": "C62",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-8",
+    "instructor": "ZHU Xiaowei, LU Qihong, FUNG Chi Chung Alan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "12840",
+    "section": "T61",
+    "credits": 3,
+    "web": "Y",
+    "available": "65",
+    "capacity": "65",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "ZHU Xiaowei, LU Qihong, FUNG Chi Chung Alan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSN1"
+    ]
+  },
+  {
+    "crn": "14646",
+    "section": "T62",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "ZHU Xiaowei, LU Qihong, FUNG Chi Chung Alan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  }
+]

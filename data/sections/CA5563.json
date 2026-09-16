@@ -1,0 +1,40 @@
+[
+  {
+    "crn": "12986",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "3",
+    "capacity": "92",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "ZHENG Hao, CHEN Long",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2",
+      "only for Stream: DCM"
+    ]
+  },
+  {
+    "crn": "15779",
+    "section": "C62",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "ZHENG Hao, CHEN Long",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2",
+      "only for Cohort: 2026"
+    ]
+  }
+]

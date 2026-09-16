@@ -1,0 +1,146 @@
+[
+  {
+    "crn": "10643",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "92",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "CHEN Zhiyao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF"
+    ]
+  },
+  {
+    "crn": "11146",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "4",
+    "capacity": "92",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "CHEN Zhiyao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF"
+    ]
+  },
+  {
+    "crn": "11555",
+    "section": "S03",
+    "credits": 3,
+    "web": "Y",
+    "available": "3",
+    "capacity": "75",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "XIAO Zhanbing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSFE"
+    ]
+  },
+  {
+    "crn": "13562",
+    "section": "S04",
+    "credits": 3,
+    "web": "Y",
+    "available": "2",
+    "capacity": "74",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "2610",
+    "instructor": "XIAO Zhanbing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSFE"
+    ]
+  },
+  {
+    "crn": "15459",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "1",
+    "capacity": "94",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "16:00 - 18:50",
+    "building": "YEUNG",
+    "room": "LT-15",
+    "instructor": "CHEN Zhiyao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF"
+    ]
+  },
+  {
+    "crn": "15836",
+    "section": "SA3",
+    "credits": 3,
+    "web": "Y",
+    "available": "19",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "1614",
+    "instructor": "XIAO Zhanbing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAE"
+    ]
+  },
+  {
+    "crn": "15452",
+    "section": "SA4",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "2610",
+    "instructor": "XIAO Zhanbing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAE"
+    ]
+  },
+  {
+    "crn": "15460",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "1",
+    "capacity": "2",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "16:00 - 18:50",
+    "building": "YEUNG",
+    "room": "LT-15",
+    "instructor": "CHEN Zhiyao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSFE"
+    ]
+  }
+]

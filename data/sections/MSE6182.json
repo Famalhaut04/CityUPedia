@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "13010",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 14:50",
+    "building": "YEUNG",
+    "room": "LT-15",
+    "instructor": "LI Jing, FAN Hejia, ZHANG Zhuqin, ZHANG Qichun, WANG Zetao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  }
+]

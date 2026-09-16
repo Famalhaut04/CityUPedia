@@ -1,0 +1,146 @@
+[
+  {
+    "crn": "15314",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "166",
+    "capacity": "166",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "S",
+    "time": "16:00 - 18:50",
+    "building": "LAU",
+    "room": "15-231",
+    "instructor": "WONG Hei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "15314",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "166",
+    "capacity": "166",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "S",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "WONG Hei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "15316",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "12",
+    "capacity": "14",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "S",
+    "time": "16:00 - 18:50",
+    "building": "LAU",
+    "room": "15-231",
+    "instructor": "WONG Hei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "15316",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "12",
+    "capacity": "14",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "S",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "WONG Hei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "15317",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "83",
+    "capacity": "83",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "15:00 - 17:50",
+    "building": "LAU",
+    "room": "15-231",
+    "instructor": "WONG Hei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "15318",
+    "section": "L62",
+    "credits": 3,
+    "web": "Y",
+    "available": "83",
+    "capacity": "83",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LAU",
+    "room": "15-231",
+    "instructor": "WONG Hei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "15320",
+    "section": "LQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "7",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "15:00 - 17:50",
+    "building": "LAU",
+    "room": "15-231",
+    "instructor": "WONG Hei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "15319",
+    "section": "LQ2",
+    "credits": 3,
+    "web": "Y",
+    "available": "7",
+    "capacity": "7",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LAU",
+    "room": "15-231",
+    "instructor": "WONG Hei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  }
+]

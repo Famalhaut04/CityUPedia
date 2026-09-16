@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "11742",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "5012",
+    "instructor": "HONG Guo, LIU Yongyu, YUAN Zhenjie, YUE Hong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  }
+]

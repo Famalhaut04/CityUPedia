@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "13773",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "1",
+    "capacity": "32",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "HWANG Iris",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MARCH2"
+    ]
+  },
+  {
+    "crn": "13860",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "50",
+    "capacity": "50",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "HWANG Iris",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "crn": "11433",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "185",
+    "capacity": "185",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "14:00 - 16:50",
+    "building": "LAU",
+    "room": "LT-501",
+    "instructor": "LUO Xiaowei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: CA2/M, CA2/P, MSCAE1, MSCM2",
+      "not for Major: CBES"
+    ]
+  },
+  {
+    "crn": "12652",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "85",
+    "capacity": "85",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "14:00 - 16:50",
+    "building": "LAU",
+    "room": "LT-501",
+    "instructor": "LUO Xiaowei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2"
+    ]
+  }
+]

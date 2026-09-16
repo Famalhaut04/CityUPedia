@@ -1,0 +1,110 @@
+[
+  {
+    "crn": "14127",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "111",
+    "capacity": "111",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-6",
+    "instructor": "PO Lai Man",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "14128",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "41",
+    "capacity": "41",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-6",
+    "instructor": "PO Lai Man",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "14129",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "12",
+    "capacity": "13",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-6",
+    "instructor": "PO Lai Man",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "14230",
+    "section": "CR1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-6",
+    "instructor": "PO Lai Man",
+    "medium": "English",
+    "notes": [
+      "only for Major: CDE, ELEL, INFE"
+    ]
+  },
+  {
+    "crn": "15323",
+    "section": "CS1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-6",
+    "instructor": "PO Lai Man",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MFACM"
+    ]
+  },
+  {
+    "crn": "15324",
+    "section": "CT1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-6",
+    "instructor": "PO Lai Man",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  }
+]

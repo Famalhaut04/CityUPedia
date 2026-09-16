@@ -1,0 +1,230 @@
+[
+  {
+    "crn": "11488",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "93",
+    "capacity": "190",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-18",
+    "instructor": "KANG Wenbin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "11489",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "13",
+    "capacity": "40",
+    "date": "20/09/2026 - 26/09/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, GUI Siwei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "11489",
+    "section": "L61",
+    "credits": 3,
+    "web": "Y",
+    "available": "13",
+    "capacity": "40",
+    "date": "15/11/2026 - 21/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, GUI Siwei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "11490",
+    "section": "L62",
+    "credits": 3,
+    "web": "Y",
+    "available": "14",
+    "capacity": "40",
+    "date": "20/09/2026 - 26/09/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, GUI Siwei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "11490",
+    "section": "L62",
+    "credits": 3,
+    "web": "Y",
+    "available": "14",
+    "capacity": "40",
+    "date": "15/11/2026 - 21/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, GUI Siwei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "12637",
+    "section": "L63",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "20/09/2026 - 26/09/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, GUI Siwei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "12637",
+    "section": "L63",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "15/11/2026 - 21/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, GUI Siwei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "13126",
+    "section": "L64",
+    "credits": 3,
+    "web": "Y",
+    "available": "13",
+    "capacity": "40",
+    "date": "20/09/2026 - 26/09/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, LIU Xinran",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "13126",
+    "section": "L64",
+    "credits": 3,
+    "web": "Y",
+    "available": "13",
+    "capacity": "40",
+    "date": "15/11/2026 - 21/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, LIU Xinran",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "14737",
+    "section": "L65",
+    "credits": 3,
+    "web": "Y",
+    "available": "13",
+    "capacity": "30",
+    "date": "20/09/2026 - 26/09/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, LIU Xinran",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "14737",
+    "section": "L65",
+    "credits": 3,
+    "web": "Y",
+    "available": "13",
+    "capacity": "30",
+    "date": "15/11/2026 - 21/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "P7540",
+    "instructor": "KANG Wenbin, LIU Xinran",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  },
+  {
+    "crn": "15003",
+    "section": "T61",
+    "credits": 3,
+    "web": "Y",
+    "available": "93",
+    "capacity": "190",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-18",
+    "instructor": "KANG Wenbin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: ROBS"
+    ]
+  }
+]

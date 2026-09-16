@@ -1,0 +1,21 @@
+[
+  {
+    "crn": "12982",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "9",
+    "capacity": "86",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "4412",
+    "instructor": "LAI Chi Keung A.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1",
+      "only for Stream: BES"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15257",
+    "section": "C01",
+    "credits": 6,
+    "web": "Y",
+    "available": "90",
+    "capacity": "90",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "10:00 - 15:50",
+    "building": "YEUNG",
+    "room": "P5711",
+    "instructor": "HU Yu, CIPRIANI Alberto",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2"
+    ]
+  }
+]

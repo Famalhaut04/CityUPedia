@@ -1,0 +1,57 @@
+[
+  {
+    "crn": "10822",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "105",
+    "capacity": "105",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "20:00 - 22:50",
+    "building": "LAU",
+    "room": "LT-501",
+    "instructor": "LI Xin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2",
+      "not for Major: CDCM"
+    ]
+  },
+  {
+    "crn": "12040",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "105",
+    "capacity": "105",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "20:00 - 22:50",
+    "building": "LAU",
+    "room": "LT-501",
+    "instructor": "LI Xin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1"
+    ]
+  },
+  {
+    "crn": "10546",
+    "section": "CR1",
+    "credits": 3,
+    "web": "Y",
+    "available": "39",
+    "capacity": "90",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "20:00 - 22:50",
+    "building": "LAU",
+    "room": "LT-501",
+    "instructor": "LI Xin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  }
+]

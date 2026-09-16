@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "14747",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "14:00 - 15:50",
+    "building": "LI",
+    "room": "1601",
+    "instructor": "LU Jian, ZHANG Jiong, WANG Bin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  },
+  {
+    "crn": "14748",
+    "section": "T01",
+    "credits": 3,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "16:00 - 16:50",
+    "building": "LI",
+    "room": "1601",
+    "instructor": "LU Jian, ZHANG Jiong, WANG Bin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  }
+]

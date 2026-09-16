@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "10114",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "107",
+    "capacity": "107",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "DAI Lin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "11994",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "DAI Lin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "11995",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "13",
+    "capacity": "13",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "DAI Lin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  }
+]

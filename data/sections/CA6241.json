@@ -1,0 +1,39 @@
+[
+  {
+    "crn": "15258",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "90",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "G600",
+    "instructor": "LU Yi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2"
+    ]
+  },
+  {
+    "crn": "15259",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "12",
+    "capacity": "12",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "LI",
+    "room": "G600",
+    "instructor": "LU Yi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2",
+      "not for Stream: CPM"
+    ]
+  }
+]

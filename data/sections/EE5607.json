@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15362",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "13:00 - 15:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "WONG Man Hon Alex, TAN Zhangxi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  }
+]

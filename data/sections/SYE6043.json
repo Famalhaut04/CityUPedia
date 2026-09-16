@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15928",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2510",
+    "instructor": "LI Hanxiong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEM1"
+    ]
+  },
+  {
+    "crn": "13502",
+    "section": "C62",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2510",
+    "instructor": "LI Hanxiong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSM"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "15467",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 14:50",
+    "building": "YEUNG",
+    "room": "LT-12",
+    "instructor": "WANG Junbo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF, MSFE"
+    ]
+  },
+  {
+    "crn": "11148",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-6",
+    "instructor": "WANG Junbo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSF, MSFE"
+    ]
+  },
+  {
+    "crn": "11404",
+    "section": "SA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 14:50",
+    "building": "YEUNG",
+    "room": "LT-12",
+    "instructor": "WANG Junbo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAE"
+    ]
+  }
+]

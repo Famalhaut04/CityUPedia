@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "13398",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "1",
+    "capacity": "70",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "14:00 - 17:50",
+    "building": "LI",
+    "room": "1601",
+    "instructor": "WANG Long",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  },
+  {
+    "crn": "11063",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "13",
+    "capacity": "70",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 22:50",
+    "building": "LI",
+    "room": "3601",
+    "instructor": "WANG Long",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  }
+]

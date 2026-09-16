@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "13838",
+    "section": "CA1",
+    "credits": 6,
+    "web": "Y",
+    "available": "9",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 17:50",
+    "building": "CMC",
+    "room": "M4053",
+    "instructor": "CHENG John Chiu Fong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MARCH2"
+    ]
+  },
+  {
+    "crn": "14324",
+    "section": "CB1",
+    "credits": 6,
+    "web": "Y",
+    "available": "30",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "12:00 - 17:50",
+    "building": "CMC",
+    "room": "M4053",
+    "instructor": "CHENG John Chiu Fong, HO Dennis, TSOU Jin Yeu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MARCH2"
+    ]
+  }
+]

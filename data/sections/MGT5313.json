@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "13395",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "74",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "14:00 - 16:50",
+    "building": "LI",
+    "room": "1601",
+    "instructor": "CHEUNG Tsz King E.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  },
+  {
+    "crn": "10670",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "2",
+    "capacity": "66",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "1406",
+    "instructor": "CHEUNG Tsz King E.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  },
+  {
+    "crn": "13394",
+    "section": "SP2",
+    "credits": 3,
+    "web": "Y",
+    "available": "8",
+    "capacity": "8",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "1406",
+    "instructor": "CHEUNG Tsz King E.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEM1"
+    ]
+  }
+]

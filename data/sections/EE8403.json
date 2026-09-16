@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15397",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "202",
+    "capacity": "202",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "SUN Yanni, LI Chaojie, ZHU Yue, SONG Qun, WU Gengbo, LI Haoliang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "15398",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "18",
+    "capacity": "18",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "09:00 - 11:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "SUN Yanni, LI Chaojie, ZHU Yue, SONG Qun, WU Gengbo, LI Haoliang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  }
+]

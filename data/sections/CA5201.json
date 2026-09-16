@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15810",
+    "section": "C01",
+    "credits": 6,
+    "web": "Y",
+    "available": "29",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "12:00 - 17:50",
+    "building": "CMC",
+    "room": "M8020",
+    "instructor": "ZHENG Hao",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MARCH2"
+    ]
+  }
+]

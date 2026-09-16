@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15193",
+    "section": "S63",
+    "credits": 3,
+    "web": "Y",
+    "available": "Ful 1 l",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-4",
+    "instructor": "JIANG Hongyi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "15870",
+    "section": "S66",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-4",
+    "instructor": "JIANG Hongyi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MPH"
+    ]
+  }
+]

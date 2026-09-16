@@ -1,0 +1,41 @@
+[
+  {
+    "crn": "12985",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "FONG Kwong Fai S.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1, MSCM2",
+      "not for Stream: CEG, CPM",
+      "only for Cohort: 2023, 2024, 2025, 2026"
+    ]
+  },
+  {
+    "crn": "15414",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "FONG Kwong Fai S.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2",
+      "only for Cohort: 2026"
+    ]
+  }
+]

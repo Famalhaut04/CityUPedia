@@ -1,0 +1,40 @@
+[
+  {
+    "crn": "11672",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "91",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 20:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "WANG Steven, HIBIKI Takashi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: MECL"
+    ]
+  },
+  {
+    "crn": "11673",
+    "section": "T61",
+    "credits": 3,
+    "web": "Y",
+    "available": "91",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "WANG Steven, HIBIKI Takashi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: MECL"
+    ]
+  }
+]

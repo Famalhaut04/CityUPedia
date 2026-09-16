@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "13358",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "143",
+    "capacity": "143",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "YUEN Shiu Yin K.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "13359",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "12",
+    "capacity": "12",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "YUEN Shiu Yin K.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "13360",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "09:00 - 11:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "YUEN Shiu Yin K.",
+    "medium": "English",
+    "notes": [
+      "only for Major: CDE, INFE"
+    ]
+  }
+]

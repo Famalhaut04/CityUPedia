@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "14150",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "POU Josep",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "14151",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "24",
+    "capacity": "24",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "POU Josep",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "14123",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "16",
+    "capacity": "16",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2505",
+    "instructor": "POU Josep",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  }
+]

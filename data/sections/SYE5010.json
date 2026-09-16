@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "13549",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "199",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "MENG Rainers",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEM1"
+    ]
+  },
+  {
+    "crn": "15191",
+    "section": "C63",
+    "credits": 3,
+    "web": "Y",
+    "available": "50",
+    "capacity": "50",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "MENG Rainers",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "13550",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "MENG Rainers",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSHSB, MSHSM1"
+    ]
+  },
+  {
+    "crn": "15117",
+    "section": "CP2",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "MENG Rainers",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSVC"
+    ]
+  }
+]

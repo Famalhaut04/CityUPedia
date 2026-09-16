@@ -1,0 +1,58 @@
+[
+  {
+    "crn": "12983",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "CHAN Lok Shun A., SUN Yongjun, FONG Kwong Fai S.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1",
+      "only for Stream: BES"
+    ]
+  },
+  {
+    "crn": "13797",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "CHAN Lok Shun A., SUN Yongjun, FONG Kwong Fai S.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSDS1"
+    ]
+  },
+  {
+    "crn": "15409",
+    "section": "CC1",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "CHAN Lok Shun A., SUN Yongjun, FONG Kwong Fai S.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2",
+      "only for Cohort: 2026"
+    ]
+  }
+]

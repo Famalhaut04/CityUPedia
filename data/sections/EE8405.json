@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "15402",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "143",
+    "capacity": "143",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 15:50",
+    "building": "BOC",
+    "room": "R4057",
+    "instructor": "ZUKERMAN Moshe",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "15403",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "51",
+    "capacity": "51",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 15:50",
+    "building": "BOC",
+    "room": "R4057",
+    "instructor": "ZUKERMAN Moshe",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "15404",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "26",
+    "capacity": "26",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 15:50",
+    "building": "BOC",
+    "room": "R4057",
+    "instructor": "ZUKERMAN Moshe",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  }
+]

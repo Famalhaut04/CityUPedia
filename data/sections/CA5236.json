@@ -1,0 +1,40 @@
+[
+  {
+    "crn": "13007",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "60",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "WANG Qian-Cheng, HU Songhua",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2"
+    ]
+  },
+  {
+    "crn": "13008",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "WANG Qian-Cheng, HU Songhua",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1, MSCM2",
+      "not for Stream: BES, DCM",
+      "not for Cohort: 2020, 2021"
+    ]
+  }
+]

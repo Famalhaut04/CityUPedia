@@ -1,0 +1,40 @@
+[
+  {
+    "crn": "13682",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "101",
+    "capacity": "190",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 20:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "HU Alice, WANG Mengze",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: MECL"
+    ]
+  },
+  {
+    "crn": "13683",
+    "section": "T61",
+    "credits": 3,
+    "web": "Y",
+    "available": "101",
+    "capacity": "190",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "21:00 - 21:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "HU Alice, WANG Mengze",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1",
+      "only for Stream: MECL"
+    ]
+  }
+]

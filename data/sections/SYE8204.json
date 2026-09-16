@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "12477",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "YEUNG",
+    "room": "B5-307",
+    "instructor": "LI Hanxiong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: ENGD, SYE/C, SYE/M, SYE/P"
+    ]
+  },
+  {
+    "crn": "12954",
+    "section": "C02",
+    "credits": 3,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "YEUNG",
+    "room": "B5-307",
+    "instructor": "LI Hanxiong",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSM"
+    ]
+  }
+]

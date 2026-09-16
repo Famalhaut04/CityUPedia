@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "13812",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "LT-14",
+    "instructor": "MA Jiaze",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEM1"
+    ]
+  },
+  {
+    "crn": "13813",
+    "section": "C02",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "13:00 - 15:50",
+    "building": "YEUNG",
+    "room": "LT-14",
+    "instructor": "MA Jiaze",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSM"
+    ]
+  },
+  {
+    "crn": "13814",
+    "section": "T01",
+    "credits": 3,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "17:00 - 17:50",
+    "building": "YEUNG",
+    "room": "LT-11",
+    "instructor": "MA Jiaze",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEM1"
+    ]
+  },
+  {
+    "crn": "13815",
+    "section": "T02",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "17:00 - 17:50",
+    "building": "YEUNG",
+    "room": "LT-11",
+    "instructor": "MA Jiaze",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSM"
+    ]
+  }
+]

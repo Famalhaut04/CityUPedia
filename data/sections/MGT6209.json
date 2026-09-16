@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "13985",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "10:00 - 12:50",
+    "building": "LI",
+    "room": "1406",
+    "instructor": "CHAN Chin To",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMI"
+    ]
+  },
+  {
+    "crn": "14995",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "70",
+    "capacity": "70",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "10:00 - 12:50",
+    "building": "LI",
+    "room": "1406",
+    "instructor": "CHOW Jimmy Yu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMI"
+    ]
+  },
+  {
+    "crn": "13486",
+    "section": "SA2",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "10:00 - 12:50",
+    "building": "LI",
+    "room": "1406",
+    "instructor": "CHOW Jimmy Yu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAGBM"
+    ]
+  }
+]

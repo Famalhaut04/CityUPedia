@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "12907",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "166",
+    "capacity": "166",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "WANG Cheng",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "12909",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "14",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "WANG Cheng",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "12910",
+    "section": "T61",
+    "credits": 3,
+    "web": "Y",
+    "available": "166",
+    "capacity": "166",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "22:00 - 22:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "WANG Cheng",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "12912",
+    "section": "TP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "12",
+    "capacity": "14",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "22:00 - 22:50",
+    "building": "LI",
+    "room": "6606",
+    "instructor": "WANG Cheng",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE/M, EE2/C, EE2/P"
+    ]
+  }
+]

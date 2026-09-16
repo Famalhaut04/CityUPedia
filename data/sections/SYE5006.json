@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "10347",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "0",
+    "capacity": "199",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "12:00 - 14:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "JIANG Hongyi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: ENGDEM, MSEM1, SYE/P"
+    ]
+  },
+  {
+    "crn": "15115",
+    "section": "C63",
+    "credits": 3,
+    "web": "Y",
+    "available": "50",
+    "capacity": "50",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "12:00 - 14:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "JIANG Hongyi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "12091",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "12:00 - 14:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "JIANG Hongyi",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSHSB, MSHSM1"
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "crn": "12984",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-3",
+    "instructor": "CHAN Lok Shun A.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1",
+      "only for Stream: BES"
+    ]
+  },
+  {
+    "crn": "13798",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-3",
+    "instructor": "CHAN Lok Shun A.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSDS1"
+    ]
+  },
+  {
+    "crn": "15410",
+    "section": "CR1",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-3",
+    "instructor": "CHAN Lok Shun A.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2",
+      "only for Cohort: 2026"
+    ]
+  }
+]

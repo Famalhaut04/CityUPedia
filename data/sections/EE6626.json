@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15326",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "94",
+    "capacity": "94",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "1507",
+    "instructor": "PANG Stella W., LAU Richard Chi Leung",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "15327",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "35",
+    "capacity": "35",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "1507",
+    "instructor": "PANG Stella W., LAU Richard Chi Leung",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  }
+]

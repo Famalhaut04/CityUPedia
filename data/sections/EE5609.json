@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15369",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "151",
+    "capacity": "151",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "CMC",
+    "room": "M5050",
+    "instructor": "SONG Qun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  }
+]

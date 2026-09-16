@@ -1,0 +1,110 @@
+[
+  {
+    "crn": "14710",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "74",
+    "capacity": "267",
+    "date": "31/08/2026 - 05/09/2026",
+    "day": "M",
+    "time": "19:00 - 20:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "JIN Lishuai",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  },
+  {
+    "crn": "14710",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "74",
+    "capacity": "267",
+    "date": "06/09/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 20:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "JIN Lishuai",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  },
+  {
+    "crn": "14713",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 05/09/2026",
+    "day": "M",
+    "time": "19:00 - 20:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "JIN Lishuai",
+    "medium": "English",
+    "notes": [
+      "only for Major: M.E., NRE"
+    ]
+  },
+  {
+    "crn": "14713",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "06/09/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 20:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "JIN Lishuai",
+    "medium": "English",
+    "notes": [
+      "only for Major: M.E., NRE"
+    ]
+  },
+  {
+    "crn": "14712",
+    "section": "T61",
+    "credits": 3,
+    "web": "Y",
+    "available": "74",
+    "capacity": "267",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "21:00 - 21:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "JIN Lishuai",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  },
+  {
+    "crn": "14714",
+    "section": "TP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "21:00 - 21:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "JIN Lishuai",
+    "medium": "English",
+    "notes": [
+      "only for Major: M.E., NRE"
+    ]
+  }
+]

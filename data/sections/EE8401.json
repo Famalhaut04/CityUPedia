@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "15393",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "132",
+    "capacity": "132",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "CMC",
+    "room": "M9001",
+    "instructor": "WU Gengbo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "15393",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "132",
+    "capacity": "132",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "LAU",
+    "room": "15-231",
+    "instructor": "WU Gengbo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "15395",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "18",
+    "capacity": "18",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "CMC",
+    "room": "M9001",
+    "instructor": "WU Gengbo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "15395",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "18",
+    "capacity": "18",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "09:00 - 11:50",
+    "building": "LAU",
+    "room": "15-231",
+    "instructor": "WU Gengbo",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  }
+]

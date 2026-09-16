@@ -1,0 +1,21 @@
+[
+  {
+    "crn": "12262",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "81",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-2",
+    "instructor": "SENETAKIS Kostas",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1",
+      "only for Stream: CEG"
+    ]
+  }
+]

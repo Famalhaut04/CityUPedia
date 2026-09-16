@@ -1,0 +1,22 @@
+[
+  {
+    "crn": "12987",
+    "section": "D01",
+    "credits": 3,
+    "web": "Y",
+    "available": "68",
+    "capacity": "161",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "",
+    "time": "",
+    "building": "",
+    "room": "",
+    "instructor": "YIN Xianfei",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1",
+      "only for Stream: CEG",
+      "only for Cohort: 2024, 2025, 2026"
+    ]
+  }
+]

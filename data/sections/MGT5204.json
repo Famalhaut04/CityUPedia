@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "13390",
+    "section": "S01",
+    "credits": 3,
+    "web": "Y",
+    "available": "3",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "14:00 - 16:50",
+    "building": "CMC",
+    "room": "M4001",
+    "instructor": "YIM Junhyok",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMI"
+    ]
+  },
+  {
+    "crn": "13976",
+    "section": "S02",
+    "credits": 3,
+    "web": "Y",
+    "available": "12",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "G4302",
+    "instructor": "YIM Junhyok",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMI"
+    ]
+  },
+  {
+    "crn": "14981",
+    "section": "S03",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "80",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "3601",
+    "instructor": "CHEUNG Tsz King E.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMI"
+    ]
+  }
+]

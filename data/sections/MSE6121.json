@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "12900",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "114",
+    "capacity": "115",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-16",
+    "instructor": "ZHANG Wenjun, YANG Qutong, ZHOU Yang, ZENG Zhiyuan, HU Honglu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSMEN2"
+    ]
+  },
+  {
+    "crn": "14998",
+    "section": "C62",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-16",
+    "instructor": "ZENG Zhiyuan, YANG Qutong, ZHOU Yang, ZHANG Wenjun, HU Honglu",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSM"
+    ]
+  }
+]

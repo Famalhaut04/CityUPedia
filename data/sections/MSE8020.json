@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "12895",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "85",
+    "capacity": "85",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "15:00 - 17:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "HAN Jian, XI Ya, YUAN Qisheng",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSE2/C, MSE2/M, MSE2/P, MSMEN2"
+    ]
+  }
+]

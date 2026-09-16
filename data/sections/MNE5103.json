@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "14678",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "14:00 - 16:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "WANG Wei, LUI Go Nam",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  }
+]

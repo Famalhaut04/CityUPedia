@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15428",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "19:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-11",
+    "instructor": "DU Xiaohan",
+    "medium": "English",
+    "notes": [
+      "only for Programme: ENGD, MSSM"
+    ]
+  }
+]

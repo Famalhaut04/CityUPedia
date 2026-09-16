@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "15365",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "27",
+    "capacity": "27",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "CMC",
+    "room": "M1080",
+    "instructor": "LIU Can",
+    "medium": "English",
+    "notes": [
+      "only for Major: CHCI"
+    ]
+  },
+  {
+    "crn": "15366",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "12:00 - 14:50",
+    "building": "CMC",
+    "room": "M1080",
+    "instructor": "LIU Can",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "crn": "10831",
+    "section": "CX1",
+    "credits": 3,
+    "web": "Y",
+    "available": "36",
+    "capacity": "240",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "18:30 - 20:20",
+    "building": "MMW",
+    "room": "2450",
+    "instructor": "WANG Jun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAHUM"
+    ]
+  },
+  {
+    "crn": "10080",
+    "section": "CY1",
+    "credits": 3,
+    "web": "Y",
+    "available": "35",
+    "capacity": "35",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "18:30 - 20:20",
+    "building": "MMW",
+    "room": "2450",
+    "instructor": "WANG Jun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  },
+  {
+    "crn": "12139",
+    "section": "TX1",
+    "credits": 3,
+    "web": "Y",
+    "available": "6",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "20:30 - 22:20",
+    "building": "LI",
+    "room": "1312",
+    "instructor": "DONG Liang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAHUM"
+    ]
+  },
+  {
+    "crn": "10081",
+    "section": "TX2",
+    "credits": 3,
+    "web": "Y",
+    "available": "6",
+    "capacity": "40",
+    "date": "06/09/2026 - 28/11/2026",
+    "day": "T",
+    "time": "20:30 - 22:20",
+    "building": "LI",
+    "room": "1312",
+    "instructor": "DONG Liang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAHUM"
+    ]
+  },
+  {
+    "crn": "10832",
+    "section": "TX3",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "11:00 - 12:50",
+    "building": "LI",
+    "room": "1312",
+    "instructor": "CHEN Chivalry",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAHUM"
+    ]
+  },
+  {
+    "crn": "12138",
+    "section": "TX4",
+    "credits": 3,
+    "web": "Y",
+    "available": "2",
+    "capacity": "40",
+    "date": "06/09/2026 - 28/11/2026",
+    "day": "R",
+    "time": "11:00 - 12:50",
+    "building": "LI",
+    "room": "1312",
+    "instructor": "CHEN Chivalry",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAHUM"
+    ]
+  },
+  {
+    "crn": "10082",
+    "section": "TX5",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 14:50",
+    "building": "LI",
+    "room": "2405",
+    "instructor": "CHEN Chivalry",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAHUM"
+    ]
+  },
+  {
+    "crn": "15088",
+    "section": "TX6",
+    "credits": 3,
+    "web": "Y",
+    "available": "7",
+    "capacity": "40",
+    "date": "06/09/2026 - 28/11/2026",
+    "day": "W",
+    "time": "16:00 - 17:50",
+    "building": "CMC",
+    "room": "M4004",
+    "instructor": "DONG Liang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAHUM"
+    ]
+  },
+  {
+    "crn": "12312",
+    "section": "TY1",
+    "credits": 3,
+    "web": "Y",
+    "available": "35",
+    "capacity": "35",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "20:30 - 22:20",
+    "building": "LI",
+    "room": "1306",
+    "instructor": "HU Wanyang",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  }
+]

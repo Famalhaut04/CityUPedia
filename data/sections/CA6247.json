@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "13005",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "90",
+    "capacity": "90",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "18:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-4",
+    "instructor": "TAN Giin Yu Amy",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP2"
+    ]
+  }
+]

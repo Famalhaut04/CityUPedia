@@ -1,0 +1,218 @@
+[
+  {
+    "crn": "10356",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "48",
+    "capacity": "180",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4302",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2"
+    ]
+  },
+  {
+    "crn": "10356",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "48",
+    "capacity": "180",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4701",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2"
+    ]
+  },
+  {
+    "crn": "10356",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "48",
+    "capacity": "180",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4703",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2"
+    ]
+  },
+  {
+    "crn": "10356",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "48",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "U",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4302",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2"
+    ]
+  },
+  {
+    "crn": "10356",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "48",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "U",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4701",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2"
+    ]
+  },
+  {
+    "crn": "10356",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "48",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "U",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4703",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2"
+    ]
+  },
+  {
+    "crn": "11608",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "155",
+    "capacity": "155",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4302",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  },
+  {
+    "crn": "11608",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "155",
+    "capacity": "155",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4701",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  },
+  {
+    "crn": "11608",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "155",
+    "capacity": "155",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4703",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  },
+  {
+    "crn": "11608",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "155",
+    "capacity": "155",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "U",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4302",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  },
+  {
+    "crn": "11608",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "155",
+    "capacity": "155",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "U",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4701",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  },
+  {
+    "crn": "11608",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "155",
+    "capacity": "155",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "U",
+    "time": "09:00 - 17:50",
+    "building": "YEUNG",
+    "room": "P4703",
+    "instructor": "LUO Xiaowei, LU Ping",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MUDP1, MUDP2"
+    ]
+  }
+]

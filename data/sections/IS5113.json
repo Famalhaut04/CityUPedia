@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "14029",
+    "section": "S61",
+    "credits": 3,
+    "web": "Y",
+    "available": "60",
+    "capacity": "237",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "LEE Kwok On M.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIB, MSCBDA2"
+    ]
+  },
+  {
+    "crn": "15277",
+    "section": "SP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "8",
+    "capacity": "8",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "LEE Kwok On M.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "15778",
+    "section": "SP2",
+    "credits": 3,
+    "web": "Y",
+    "available": "17",
+    "capacity": "17",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "T",
+    "time": "19:00 - 21:50",
+    "building": "BOC",
+    "room": "LT401",
+    "instructor": "LEE Kwok On M.",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MVM"
+    ]
+  }
+]

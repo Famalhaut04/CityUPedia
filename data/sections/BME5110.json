@@ -1,0 +1,38 @@
+[
+  {
+    "crn": "11188",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "125",
+    "capacity": "125",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "19:00 - 20:50",
+    "building": "YEUNG",
+    "room": "LT-13",
+    "instructor": "CHAN Wai Yan Kannie, LAU Ho Yuen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSBME1"
+    ]
+  },
+  {
+    "crn": "11189",
+    "section": "T61",
+    "credits": 3,
+    "web": "Y",
+    "available": "125",
+    "capacity": "125",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "W",
+    "time": "21:00 - 21:50",
+    "building": "YEUNG",
+    "room": "LT-13",
+    "instructor": "CHAN Wai Yan Kannie, LAU Ho Yuen",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSBME1"
+    ]
+  }
+]

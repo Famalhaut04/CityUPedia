@@ -1,0 +1,20 @@
+[
+  {
+    "crn": "15723",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "180",
+    "capacity": "180",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "14:00 - 16:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "ZHAO Shijun",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSME1"
+    ]
+  }
+]

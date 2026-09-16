@@ -1,0 +1,75 @@
+[
+  {
+    "crn": "15014",
+    "section": "CV1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "VANDERSMISSEN Laure",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EXGP, VSPS"
+    ]
+  },
+  {
+    "crn": "14566",
+    "section": "CX1",
+    "credits": 3,
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "VANDERSMISSEN Laure",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCM2",
+      "only for Stream: DCM"
+    ]
+  },
+  {
+    "crn": "13845",
+    "section": "CY1",
+    "credits": 3,
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "VANDERSMISSEN Laure",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAHUM"
+    ]
+  },
+  {
+    "crn": "15013",
+    "section": "CZ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "30",
+    "capacity": "30",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3614",
+    "instructor": "VANDERSMISSEN Laure",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSDS1"
+    ]
+  }
+]

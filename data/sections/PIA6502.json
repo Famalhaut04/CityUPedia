@@ -1,0 +1,56 @@
+[
+  {
+    "crn": "15938",
+    "section": "CP1",
+    "credits": 3,
+    "web": "Y",
+    "available": "35",
+    "capacity": "35",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "JUNG Minjung",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MAIS"
+    ]
+  },
+  {
+    "crn": "13642",
+    "section": "CQ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "3",
+    "capacity": "160",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "JUNG Minjung",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSSDS1"
+    ]
+  },
+  {
+    "crn": "13141",
+    "section": "CZ1",
+    "credits": 3,
+    "web": "Y",
+    "available": "20",
+    "capacity": "20",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "M",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "3508",
+    "instructor": "JUNG Minjung",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCAE1"
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "crn": "11468",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "27",
+    "capacity": "27",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 14:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "YAN Jian, ZHANG Jilin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: BIOS/P, BMS3/M, BMS3/P, VM/P"
+    ]
+  },
+  {
+    "crn": "13110",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 14:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "YAN Jian, ZHANG Jilin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSN1, NS2/M, NS2/P, PH/P, VCS/P"
+    ]
+  },
+  {
+    "crn": "14739",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "37",
+    "capacity": "37",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 14:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "YAN Jian, ZHANG Jilin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSHSB"
+    ]
+  },
+  {
+    "crn": "14745",
+    "section": "CC1",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "11",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "13:00 - 14:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "YAN Jian, ZHANG Jilin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  },
+  {
+    "crn": "11650",
+    "section": "T01",
+    "credits": 3,
+    "web": "Y",
+    "available": "27",
+    "capacity": "27",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 15:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "YAN Jian, ZHANG Jilin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: BIOS/P, BMS3/M, BMS3/P, VM/P"
+    ]
+  },
+  {
+    "crn": "13111",
+    "section": "TA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 15:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "YAN Jian, ZHANG Jilin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSN1, NS2/M, NS2/P, PH/P, VCS/P"
+    ]
+  },
+  {
+    "crn": "14740",
+    "section": "TB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "37",
+    "capacity": "37",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 15:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "YAN Jian, ZHANG Jilin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSHSB"
+    ]
+  },
+  {
+    "crn": "14746",
+    "section": "TC1",
+    "credits": 3,
+    "web": "Y",
+    "available": "11",
+    "capacity": "11",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "R",
+    "time": "15:00 - 15:50",
+    "building": "LI",
+    "room": "1301",
+    "instructor": "YAN Jian, ZHANG Jilin",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  }
+]

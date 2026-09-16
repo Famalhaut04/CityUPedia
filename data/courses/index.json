@@ -202,7 +202,7 @@
    "notes": [
     "核心 15 学分 + 选修至少 18 学分。",
     "核心课：互联网应用开发、电子商务信息安全、电子商务系统集成、电子商务系统分析与设计、电子商务概论（CS5281/CS5285/IS5314/IS5414/EC5001）。",
-   "2026/27 官方课程结构将核心课分为两组课程集：技术导向（CS5281、CS5285、CS5488、CS5489，加 EC5001）与商务导向（IS5314、IS5414、IS6321、IS6400、IS6640），任选一组修满 15 学分；本数据沿用原核心课标注，选课前请以院系最新说明为准。"
+    "2026/27 官方课程结构将核心课分为两组课程集：技术导向（CS5281、CS5285、CS5488、CS5489，加 EC5001）与商务导向（IS5314、IS5414、IS6321、IS6400、IS6640），任选一组修满 15 学分；本数据沿用原核心课标注，选课前请以院系最新说明为准。"
    ],
    "college": "计算学院",
    "college_en": "College of Computing",
@@ -296,6 +296,267 @@
    "college_en": "CityUHK Academy of Innovation",
    "department_en": "CityUHK Academy of Innovation",
    "programme_url": "https://www.cityu.edu.hk/pg/programme/program-list/2026/cityuhk-academy-of-innovation/cityuhk-academy-of-innovation/p88"
+  },
+  {
+   "code": "MARCH2",
+   "name_en": "Master of Architecture",
+   "name_zh": "建筑学硕士",
+   "department": "建筑及土木工程学系",
+   "graduation_credit_units": 55,
+   "requirement_credit_units": {
+    "core": 12,
+    "electives": 9
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 12 学分 + 选修 9 学分（毕业共 55 学分）。",
+    "核心课：CA5150 Advanced Architectural Design Studio: Urban Design、CA5152 Advanced Architectural Design Studio: Evidence-based Design、CA5160 Advanced Architectural Design Studio: ESG of Sustainable Development、CA5201 Advanced Architectural Design Studio: Digital Architecture、CA5148 Architecture and Urbanism、CA5159 Design Representation and Building Information Management、CA5203 Research Methods and Thesis Development Seminar in Architecture、CA5301 Professional Practice – Building Controls, Contract Administration and Ethics、CA6164 Architecture Thesis Studio - Part 1、CA6200 Thesis Writing Skills、CA6302 Theory and Criticism of Architecture、CA6304 Architecture Thesis Studio – Part 2、CA6609 Green Building, Architecture and People。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Architecture and Civil Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MARCH2.htm"
+  },
+  {
+   "code": "MSCAE1",
+   "name_en": "MSc Civil and Architectural Engineering",
+   "name_zh": "土木及建筑工程理学硕士",
+   "department": "建筑及土木工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {
+    "core": 15,
+    "electives": 15
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 15 学分 + 选修 15 学分（毕业共 30 学分）。",
+    "核心课：CA5018 Modelling and Computational Techniques for Built Environment、CA5244 Geotechnics & Civil Engineering Infrastructures、CA6535 Dissertation - Civil Engineering、CA5248 Indoor Environmental Quality、CA5249 Energy Management for Building Sustainability、CA6536 Dissertation - Building Environment and Sustainability。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Architecture and Civil Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSCAE1.htm"
+  },
+  {
+   "code": "MSCM2",
+   "name_en": "MSc Construction Management",
+   "name_zh": "建造管理理学硕士",
+   "department": "建筑及土木工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {
+    "core": 15,
+    "electives": 15
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 15 学分 + 选修 15 学分（毕业共 30 学分）。",
+    "核心课：CA5104 Management Workshops、CA5106 Project Management、CA6537 Dissertation – Construction Project Management、CA5108 Virtual Design and Construction、CA5563 Advanced Digital Construction、CA6538 Dissertation – Digital Construction Management。",
+    "选修说明：Ø Electives (15 CUs for FT students, 24 CUs for PT students) FT and PT students are required to select 15 and 24 CUs of electives from their own stream respectively. Students not taking CA6537 Dissertation – Construction Project Management must select CA5603 Professional Research Methods."
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Architecture and Civil Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSCM2.htm"
+  },
+  {
+   "code": "MUDP2",
+   "name_en": "Master of Urban Design and Regional Planning",
+   "name_zh": "城市设计与规划学硕士",
+   "department": "建筑及土木工程学系",
+   "graduation_credit_units": 60,
+   "requirement_credit_units": {
+    "core": 33,
+    "electives": 27
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 33 学分 + 选修 27 学分（毕业共 60 学分）。",
+    "核心课：CA5136 Foundation Studio for Values and Fundamentals in Design and Planning、CA5137A Urban Design Studio、CA5137B Urban Design Studio、CA5137C Urban Design Studio、CA5137D Urban Design Studio、CA5217 Environmental Economics, Planning and Policy、CA5236 Transportation and Land Planning、CA5240 Urban Design and Regional Planning History, Theory and Practice、CA6220 Urban Economics and Regional Planning、CA6241 Geographic Data Management and Planning Analysis、CA6318 Planning Practice, Law, and Ethics in Hong Kong。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Architecture and Civil Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MUDP2.htm"
+  },
+  {
+   "code": "MSCIE",
+   "name_en": "MSc Computer and Information Engineering",
+   "name_zh": "电子计算机与资讯工程理学硕士",
+   "department": "电机工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {},
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "毕业共需 30 学分（结构见官方项目页）。",
+    "核心课：EE5607 Advanced Computer Architecture、EE5608 Modern Cloud Architecture and Deployment Practice、EE5609 Computer Networks: Architecture, Protocols, and Applications、EE5808 Topics in Computer Graphics、EE5815 Topics in Security Technology。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Electrical Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSCIE.htm"
+  },
+  {
+   "code": "MSEEE",
+   "name_en": "MSc Electrical and Electronic Engineering",
+   "name_zh": "电机与电子工程理学硕士",
+   "department": "电机工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {},
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "毕业共需 30 学分（结构见官方项目页）。",
+    "核心课：EE5425 Fundamentals of Radio Frequency (RF) Circuit Engineering、EE5430 Advanced CMOS Technology、EE5436 Fundamentals and Applications of Photonics、EE6427 Modern Power Electronics、EE6622 Topics in Smart Grids。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Electrical Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSEEE.htm"
+  },
+  {
+   "code": "MSEIE2",
+   "name_en": "MSc Electronic Information Engineering",
+   "name_zh": "电子资讯工程理学硕士",
+   "department": "电机工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {},
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "毕业共需 30 学分（结构见官方项目页）。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Electrical Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSEIE2.htm"
+  },
+  {
+   "code": "MSMIT1",
+   "name_en": "MSc Multimedia Information Technology",
+   "name_zh": "多媒体资讯科技理学硕士",
+   "department": "电机工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {},
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "毕业共需 30 学分（结构见官方项目页）。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Electrical Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSMIT1.htm"
+  },
+  {
+   "code": "MSMEN2",
+   "name_en": "MSc Materials Engineering and Nanotechnology",
+   "name_zh": "材料工程及纳米科技理学硕士",
+   "department": "材料科学及工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {
+    "core": 9,
+    "electives": 21
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 9 学分 + 选修 21 学分（毕业共 30 学分）。",
+    "核心课：MSE5301 Instrumentation for Materials Characterization、MSE5303 Structure and Deformation of Materials、MSE6265 Quantum Theory of Semiconductors。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Materials Science and Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSMEN2.htm"
+  },
+  {
+   "code": "MSME1",
+   "name_en": "MSc Mechanical Engineering",
+   "name_zh": "机械工程理学硕士",
+   "department": "机械工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {
+    "core": 12,
+    "electives": 18
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 12 学分 + 选修 18 学分（毕业共 30 学分）。",
+    "核心课：MNE6110 Mechanical Behaviour of Materials: From Metallic to Biomedical/Biological Materials、MNE6113 Advanced Thermo-fluid、MNE6116 Applied Engineering Mechanics、MNE6125 Engineering Methods、MNE6007 Advanced Automation Technology、MNE6116 Applied Engineering Mechanics、MNE6126 Sensors for Robotics, AI, and Control Systems、MNE6130 Modern Robotics、MNE6116 Applied Engineering Mechanics、MNE6131 Nuclear Reactor Systems, Safety and Waste Management、MNE6132 Materials in Nuclear Engineering、MNE6138 Fundamentals of Nuclear Engineering。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Mechanical Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSME1.htm"
+  },
+  {
+   "code": "MSAIDI",
+   "name_en": "MSc AI-Driven Innovation",
+   "name_zh": "人工智能驱动创新理学硕士",
+   "department": "系统工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {
+    "core": 12,
+    "electives": 18
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 12 学分 + 选修 18 学分（毕业共 30 学分）。",
+    "核心课：SYE6601 Introduction to Artificial Intelligence: Concepts and Applications、SYE6602 AI-Driven Innovation: Seminars and Projects、SYE6012 Technological Innovation and Entrepreneurship、SYE6302 Design Science。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Systems Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSAIDI.htm"
+  },
+  {
+   "code": "MSEM1",
+   "name_en": "MSc Engineering Management",
+   "name_zh": "工程管理学理学硕士",
+   "department": "系统工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {
+    "core": 12,
+    "electives": 18
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 12 学分 + 选修 18 学分（毕业共 30 学分）。",
+    "核心课：SYE5006 Operations Management、SYE5010 Engineering Management Principles and Concepts、SYE6012 Technological Innovation and Entrepreneurship、SYE6102 Managerial Decision-making Systems with Artificial Intelligence。",
+    "选修说明：Electives (18 credit units) A minimum of 12 CUs from SYE is required ."
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Systems Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSEM1.htm"
+  },
+  {
+   "code": "MSSM",
+   "name_en": "MSc Intelligent Semiconductor Manufacturing",
+   "name_zh": "智能半导体制造理学硕士",
+   "department": "系统工程学系",
+   "graduation_credit_units": 30,
+   "requirement_credit_units": {
+    "core": 12,
+    "electives": 18
+   },
+   "default_selections": [],
+   "data_ready": true,
+   "notes": [
+    "核心 12 学分 + 选修 18 学分（毕业共 30 学分）。",
+    "核心课：SYE6043 Quality and Reliability Engineering、SYE6109 Semiconductor Manufacturing and Management、SYE6201 3D IC Stacking and Advanced Packaging Technology、SYE6202 Semiconductor Process Equipment and Materials。"
+   ],
+   "college": "工学院",
+   "college_en": "College of Engineering",
+   "department_en": "Department of Systems Engineering",
+   "programme_url": "https://www.cityu.edu.hk/catalogue/pg/202627/programme/MSSM.htm"
   }
  ],
  "semester": "Semester A 2026/27",
@@ -867,10 +1128,12 @@
   {
    "code": "BMS5010",
    "programmes": [
-    "MSAIFS"
+    "MSAIFS",
+    "MSAIDI"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective"
+    "MSAIFS": "elective",
+    "MSAIDI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Artificial Intelligence in Health Science Research and Management",
@@ -895,10 +1158,12 @@
   {
    "code": "BMS5011",
    "programmes": [
-    "MSAIFS"
+    "MSAIFS",
+    "MSAIDI"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective"
+    "MSAIFS": "elective",
+    "MSAIDI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Wearable Technologies and Digital Medicine",
@@ -1060,10 +1325,12 @@
   {
    "code": "CAI6002",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSAIDI"
    ],
    "programme_requirement_types": {
-    "MSVC": "core"
+    "MSVC": "core",
+    "MSAIDI": "elective"
    },
    "requirement_type": "core",
    "programme_title": "Venture Creation Seminar",
@@ -1603,11 +1870,15 @@
    "code": "CS5282",
    "programmes": [
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "programme_elective_groups": {
     "MSCS": "group2"
@@ -1635,13 +1906,17 @@
     "MSCS",
     "MSCY",
     "MSDS",
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
     "MSCY": "core",
     "MSDS": "elective",
     "MSCS": "elective",
-    "MSEC": "core"
+    "MSEC": "core",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "requirement_type": "core",
    "programme_title": "Introduction to Cybersecurity",
@@ -1979,11 +2254,15 @@
    "code": "CS5348",
    "programmes": [
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSEEE",
+    "MSEIE2"
    ],
    "programme_requirement_types": {
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective"
    },
    "programme_elective_groups": {
     "MSCS": "group2"
@@ -2009,11 +2288,15 @@
    "code": "CS5351",
    "programmes": [
     "MSCY",
-    "MSCS"
+    "MSCS",
+    "MSEEE",
+    "MSEIE2"
    ],
    "programme_requirement_types": {
     "MSCS": "core",
-    "MSCY": "elective"
+    "MSCY": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective"
    },
    "requirement_type": "core",
    "programme_title": "Software Engineering",
@@ -2038,10 +2321,14 @@
   {
    "code": "CS5367",
    "programmes": [
-    "MSCS"
+    "MSCS",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
-    "MSCS": "elective"
+    "MSCS": "elective",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "programme_elective_groups": {
     "MSCS": "group1"
@@ -2067,11 +2354,15 @@
    "code": "CS5481",
    "programmes": [
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
     "MSCS": "core",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "requirement_type": "core",
    "programme_title": "Data Engineering",
@@ -2164,13 +2455,17 @@
     "MSDS",
     "MSCS",
     "MSAI",
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
     "MSDS": "elective",
     "MSCS": "elective",
     "MSAI": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Machine Learning: Principles and Practice",
@@ -2437,11 +2732,15 @@
    "code": "CS6175",
    "programmes": [
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "programme_elective_groups": {
     "MSCS": "group2"
@@ -2468,12 +2767,16 @@
    "programmes": [
     "MSCS",
     "MSAI",
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
     "MSCS": "elective",
     "MSAI": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "programme_elective_groups": {
     "MSCS": "group1",
@@ -2583,12 +2886,16 @@
    "programmes": [
     "MSCY",
     "MSCS",
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
     "MSCY": "elective",
     "MSCS": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "programme_elective_groups": {
     "MSCY": "group1",
@@ -3535,11 +3842,15 @@
    "code": "DSC6004",
    "programmes": [
     "MSDS",
-    "MSAIFS"
+    "MSAIFS",
+    "MSAIDI",
+    "MSEM1"
    ],
    "programme_requirement_types": {
     "MSAIFS": "elective",
-    "MSDS": "elective"
+    "MSDS": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Topics of Artificial Intelligence for Smart Cities",
@@ -3796,10 +4107,12 @@
   {
    "code": "DSC6016",
    "programmes": [
-    "MSDS"
+    "MSDS",
+    "MSAIDI"
    ],
    "programme_requirement_types": {
-    "MSDS": "elective"
+    "MSDS": "elective",
+    "MSAIDI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Predictive Analytics and Financial Applications",
@@ -4350,10 +4663,12 @@
   {
    "code": "DSC8007",
    "programmes": [
-    "MSDS"
+    "MSDS",
+    "MSAIDI"
    ],
    "programme_requirement_types": {
-    "MSDS": "elective"
+    "MSDS": "elective",
+    "MSAIDI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Deep Learning",
@@ -4400,10 +4715,14 @@
   {
    "code": "DSC8009",
    "programmes": [
-    "MSDS"
+    "MSDS",
+    "MSAIDI",
+    "MSEM1"
    ],
    "programme_requirement_types": {
-    "MSDS": "elective"
+    "MSDS": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Data Mining and Knowledge Discovery",
@@ -4558,10 +4877,18 @@
   {
    "code": "EF5010",
    "programmes": [
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Economics for Business",
@@ -4583,10 +4910,18 @@
   {
    "code": "EF5042",
    "programmes": [
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Corporate Finance",
@@ -4661,10 +4996,14 @@
   {
    "code": "IS5414",
    "programmes": [
-    "MSEC"
+    "MSEC",
+    "MSCIE",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
-    "MSEC": "core"
+    "MSEC": "core",
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
    },
    "requirement_type": "core",
    "programme_title": "Analysis and Design of e-Commerce Systems",
@@ -4921,10 +5260,12 @@
   {
    "code": "IS6620",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSAIDI"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSAIDI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Large Language Model with Prompt Engineering for Business",
@@ -5156,10 +5497,18 @@
   {
    "code": "MGT5205",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Strategic Management",
@@ -5296,10 +5645,20 @@
   {
    "code": "MGT6314",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSEM1"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSEM1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Global Human Resources Management",
@@ -5352,10 +5711,20 @@
   {
    "code": "MGT6325",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSEM1"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSEM1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Entrepreneurship",
@@ -5599,10 +5968,12 @@
   {
    "code": "MSE5301",
    "programmes": [
-    "MSAIFS"
+    "MSAIFS",
+    "MSMEN2"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective"
+    "MSAIFS": "elective",
+    "MSMEN2": "core"
    },
    "requirement_type": "elective",
    "programme_title": "Instrumentation for Materials Characterization",
@@ -5627,10 +5998,12 @@
   {
    "code": "MSE5303",
    "programmes": [
-    "MSAIFS"
+    "MSAIFS",
+    "MSMEN2"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective"
+    "MSAIFS": "elective",
+    "MSMEN2": "core"
    },
    "requirement_type": "elective",
    "programme_title": "Structure and Deformation of Materials",
@@ -5655,10 +6028,12 @@
   {
    "code": "MSE6181",
    "programmes": [
-    "MSAIFS"
+    "MSAIFS",
+    "MSMEN2"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective"
+    "MSAIFS": "elective",
+    "MSMEN2": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Photonics in Nanomaterial Systems and Devices",
@@ -5683,10 +6058,12 @@
   {
    "code": "MSE6183",
    "programmes": [
-    "MSAIFS"
+    "MSAIFS",
+    "MSMEN2"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective"
+    "MSAIFS": "elective",
+    "MSMEN2": "elective"
    },
    "programme_elective_groups": {
     "MSAIFS": "track1"
@@ -5711,10 +6088,12 @@
   {
    "code": "MSE6265",
    "programmes": [
-    "MSAIFS"
+    "MSAIFS",
+    "MSMEN2"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective"
+    "MSAIFS": "elective",
+    "MSMEN2": "core"
    },
    "requirement_type": "elective",
    "programme_title": "Quantum Theory of Semiconductors",
@@ -5789,10 +6168,12 @@
   {
    "code": "PH6202",
    "programmes": [
-    "MSBIOS"
+    "MSBIOS",
+    "MSAIDI"
    ],
    "programme_requirement_types": {
-    "MSBIOS": "elective"
+    "MSBIOS": "elective",
+    "MSAIDI": "elective"
    },
    "programme_elective_groups": {},
    "requirement_type": "elective",
@@ -5815,10 +6196,12 @@
   {
    "code": "PH6204",
    "programmes": [
-    "MSBIOS"
+    "MSBIOS",
+    "MSAIDI"
    ],
    "programme_requirement_types": {
-    "MSBIOS": "elective"
+    "MSBIOS": "elective",
+    "MSAIDI": "elective"
    },
    "programme_elective_groups": {},
    "requirement_type": "elective",
@@ -6145,10 +6528,12 @@
   {
    "code": "SEE5114",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSCAE1"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSCAE1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Energy, Environment and Sustainable Development",
@@ -6285,10 +6670,12 @@
   {
    "code": "SEE6101",
    "programmes": [
-    "MSAIFS"
+    "MSAIFS",
+    "MSCAE1"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective"
+    "MSAIFS": "elective",
+    "MSCAE1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Energy Generation and Storage Systems",
@@ -6370,11 +6757,15 @@
    "code": "SEE6115",
    "programmes": [
     "MSAIFS",
-    "MSVC"
+    "MSVC",
+    "MSCAE1",
+    "MSCM2"
    ],
    "programme_requirement_types": {
     "MSAIFS": "elective",
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSCAE1": "elective",
+    "MSCM2": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Carbon Audit and Management",
@@ -6714,10 +7105,14 @@
   {
    "code": "SYE5009",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSAIDI",
+    "MSEM1"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Industrial Marketing Management for Engineers",
@@ -6743,11 +7138,21 @@
    "code": "SYE6012",
    "programmes": [
     "MSVC",
-    "MSEC"
+    "MSEC",
+    "MSEEE",
+    "MSEIE2",
+    "MSAIDI",
+    "MSEM1",
+    "MSSM"
    ],
    "programme_requirement_types": {
     "MSVC": "elective",
-    "MSEC": "elective"
+    "MSEC": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSAIDI": "core",
+    "MSEM1": "core",
+    "MSSM": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Technological Innovation and Entrepreneurship",
@@ -6772,10 +7177,14 @@
   {
    "code": "SYE6047",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSEM1",
+    "MSSM"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSEM1": "elective",
+    "MSSM": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Quality Improvement: Systems and Methodologies",
@@ -6800,10 +7209,14 @@
   {
    "code": "SYE6053",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSAIDI",
+    "MSEM1"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Business Process Improvement and Innovation",
@@ -6828,10 +7241,14 @@
   {
    "code": "SYE6103",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSAIDI",
+    "MSEM1"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Financial Engineering for Engineering Managers",
@@ -6856,10 +7273,16 @@
   {
    "code": "SYE6110",
    "programmes": [
-    "MSVC"
+    "MSVC",
+    "MSAIDI",
+    "MSEM1",
+    "MSSM"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective"
+    "MSVC": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective",
+    "MSSM": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Data Analysis and Artificial Intelligence for Systems Engineering",
@@ -6880,6 +7303,6662 @@
    "programme_elective_groups": {
     "MSVC": "free_elective"
    }
+  },
+  {
+   "code": "BME5110",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Biomedical Engineering Design",
+   "schedule_title": "Biomedical Engineering Design",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "BM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "125",
+    "capacity": "125",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "BME6135",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Engineering Principles for Drug Delivery",
+   "schedule_title": "Engineering Principles for Drug Delivery",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "BM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "BME6138",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Robotics in Minimally Invasive Healthcare",
+   "schedule_title": "Robotics in Minimally Invasive Healthcare",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "BM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "BMS8110",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Genomics and Bioinformatics",
+   "schedule_title": "Genomics and Bioinformatics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "BM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "medium": "English"
+   },
+   "section_count": 8,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5018",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "core",
+    "MSCM2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Modelling and Computational Techniques for Built Environment",
+   "schedule_title": "Modelling and Computational Techniques for Built Environment",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5101",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Production Management",
+   "schedule_title": "Production Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA5104",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Management Workshops",
+   "schedule_title": "Management Workshops",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "203",
+    "capacity": "335",
+    "medium": "English"
+   },
+   "section_count": 12,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5106",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Project Management",
+   "schedule_title": "Project Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5108",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Virtual Design and Construction",
+   "schedule_title": "Virtual Design and Construction",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5136",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Foundation Studio for Values and Fundamentals in Design and Planning",
+   "schedule_title": "Foundation Studio for Values and Fundamentals in Design and Planning",
+   "title_changed": false,
+   "credits": 6,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "19",
+    "capacity": "70",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5137A",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Urban Design Studio",
+   "schedule_title": "Urban Design Studio",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA5137B",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Urban Design Studio",
+   "schedule_title": "Urban Design Studio",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA5137C",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Urban Design Studio",
+   "schedule_title": "Urban Design Studio",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA5137D",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Urban Design Studio",
+   "schedule_title": "Urban Design Studio",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA5147",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Housing and Community Development",
+   "schedule_title": "Housing and Community Development",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5148",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Architecture and Urbanism",
+   "schedule_title": "Architecture and Urbanism",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "49",
+    "capacity": "60",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5150",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced Architectural Design Studio: Urban Design",
+   "schedule_title": "Advanced Architectural Design Studio: Urban Design",
+   "title_changed": false,
+   "credits": 6,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA5152",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced Architectural Design Studio: Evidence-based Design",
+   "schedule_title": "Advanced Architectural Design Studio: Evidence-based Design",
+   "title_changed": false,
+   "credits": 6,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5159",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Design Representation and Building Information Management",
+   "schedule_title": "Design Representation and Building Information Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "69",
+    "capacity": "80",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5160",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced Architectural Design Studio: ESG of Sustainable Development",
+   "schedule_title": "Advanced Architectural Design Studio: ESG of Sustainable Development",
+   "title_changed": false,
+   "credits": 6,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5201",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced Architectural Design Studio: Digital Architecture",
+   "schedule_title": "Advanced Architectural Design Studio: Digital Architecture",
+   "title_changed": false,
+   "credits": 6,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "29",
+    "capacity": "40",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA5203",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Research Methods and Thesis Development Seminar in Architecture",
+   "schedule_title": "Research Methods and Thesis Development Seminar in Architecture",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5217",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "elective",
+    "MUDP2": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Environmental Economics, Planning and Policy",
+   "schedule_title": "Environmental Economics, Planning and Policy",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "249",
+    "capacity": "300",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5236",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "elective",
+    "MUDP2": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Transportation and Land Planning",
+   "schedule_title": "Transportation and Land Planning",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "260",
+    "capacity": "300",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5240",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Urban Design and Regional Planning History, Theory and Practice",
+   "schedule_title": "Urban Design and Regional Planning History, Theory and Practice",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5244",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Geotechnics & Civil Engineering Infrastructures",
+   "schedule_title": "Geotechnics & Civil Engineering Infrastructures",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "81",
+    "capacity": "180",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5248",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Indoor Environmental Quality",
+   "schedule_title": "Indoor Environmental Quality",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "9",
+    "capacity": "86",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5249",
+   "programmes": [
+    "MSCAE1",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Energy Management for Building Sustainability",
+   "schedule_title": "Energy Management for Building Sustainability",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5250",
+   "programmes": [
+    "MSCAE1",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Renewable Energy for a Sustainable Building Performance",
+   "schedule_title": "Renewable Energy for a Sustainable Building Performance",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "90",
+    "capacity": "90",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5251",
+   "programmes": [
+    "MSCAE1",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Sustainable Building Development",
+   "schedule_title": "Sustainable Building Development",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "90",
+    "capacity": "90",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5252",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Building Environment Modelling for Sustainability Analysis",
+   "schedule_title": "Building Environment Modelling for Sustainability Analysis",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5301",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Professional Practice - Building Controls, Contract Administration and Ethics",
+   "schedule_title": "Professional Practice - Building Controls, Contract Administration and Ethics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5325",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Next-generation Smart Cities",
+   "schedule_title": "Next-generation Smart Cities",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5541",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Internship",
+   "schedule_title": "Internship",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "Summer"
+  },
+  {
+   "code": "CA5563",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced Digital Construction",
+   "schedule_title": "Advanced Digital Construction",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "23",
+    "capacity": "112",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5564",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Sensing and Data Analytics for Smart Buildings",
+   "schedule_title": "Sensing and Data Analytics for Smart Buildings",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5601",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Building Engineering Systems and Maintenance",
+   "schedule_title": "Building Engineering Systems and Maintenance",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA5603",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Professional Research Methods",
+   "schedule_title": "Professional Research Methods",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "270",
+    "capacity": "270",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA5693",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Geotechnical and Foundation Engineering",
+   "schedule_title": "Geotechnical and Foundation Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA5696",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Structural and Material Design",
+   "schedule_title": "Advanced Topics in Structural and Material Design",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA6110",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Statistical Methods and Data Analytics",
+   "schedule_title": "Statistical Methods and Data Analytics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA6120",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Value Management for Construction",
+   "schedule_title": "Value Management for Construction",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA6138",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Urban Design Charrette",
+   "schedule_title": "Urban Design Charrette",
+   "title_changed": false,
+   "credits": 6,
+   "remarks": "CA",
+   "prerequisites": "CA5136 and CA5137A or CA5137B or CA5137C or CA5137D",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "90",
+    "capacity": "90",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6164",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Architecture Thesis Studio - Part 1",
+   "schedule_title": "Architecture Thesis Studio - Part 1",
+   "title_changed": false,
+   "credits": 6,
+   "remarks": "CA",
+   "prerequisites": "CA5203",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "39",
+    "capacity": "70",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6167",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Architectural History and Theory",
+   "schedule_title": "Advanced Topics in Architectural History and Theory",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6200",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Thesis Writing Skills",
+   "schedule_title": "Thesis Writing Skills",
+   "title_changed": false,
+   "credits": 1,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "62",
+    "capacity": "62",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6220",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "elective",
+    "MUDP2": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Urban Economics and Regional Planning",
+   "schedule_title": "Urban Economics and Regional Planning",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA6232",
+   "programmes": [
+    "MSCAE1",
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective",
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Contract Strategy and Administration",
+   "schedule_title": "Contract Strategy and Administration",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6233",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Contract and Dispute Management",
+   "schedule_title": "Contract and Dispute Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA6241",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "elective",
+    "MUDP2": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Geographic Data Management and Planning Analysis",
+   "schedule_title": "Geographic Data Management and Planning Analysis",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "102",
+    "capacity": "112",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6242",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Sustainable Urban Development",
+   "schedule_title": "Advanced Topics in Sustainable Urban Development",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA6247",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Water Resources Assessment and Management",
+   "schedule_title": "Water Resources Assessment and Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "90",
+    "capacity": "90",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6302",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Theory and Criticism of Architecture",
+   "schedule_title": "Theory and Criticism of Architecture",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "51",
+    "capacity": "82",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6304",
+   "programmes": [
+    "MARCH2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Architecture Thesis Studio – Part 2",
+   "schedule_title": "Architecture Thesis Studio – Part 2",
+   "title_changed": false,
+   "credits": 9,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA6318",
+   "programmes": [
+    "MSCM2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "elective",
+    "MUDP2": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Planning Practice, Law, and Ethics in Hong Kong",
+   "schedule_title": "Planning Practice, Law, and Ethics in Hong Kong",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA6319",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Architectural Practice and Law",
+   "schedule_title": "Advanced Topics in Architectural Practice and Law",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "CA6533",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Thesis Studio for Design and Planning",
+   "schedule_title": "Thesis Studio for Design and Planning",
+   "title_changed": false,
+   "credits": 9,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "57",
+    "capacity": "57",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB+Summer"
+  },
+  {
+   "code": "CA6535",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Dissertation - Civil Infrastructure Engineering",
+   "schedule_title": "Dissertation - Civil Infrastructure Engineering",
+   "title_changed": false,
+   "credits": 9,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "68",
+    "capacity": "161",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB+Summer"
+  },
+  {
+   "code": "CA6536",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Dissertation - Building Environment and Sustainability",
+   "schedule_title": "Dissertation - Building Environment and Sustainability",
+   "title_changed": false,
+   "credits": 9,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "38",
+    "capacity": "115",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB+Summer"
+  },
+  {
+   "code": "CA6537",
+   "programmes": [
+    "MSCM2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Dissertation – Construction Project Management",
+   "schedule_title": "Dissertation",
+   "title_changed": true,
+   "credits": 9,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "22",
+    "capacity": "154",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB+Summer"
+  },
+  {
+   "code": "CA6538",
+   "programmes": [
+    "MSCM2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Dissertation – Digital Construction Management",
+   "schedule_title": "Dissertation – Digital Construction Management",
+   "title_changed": false,
+   "credits": 9,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "27",
+    "capacity": "115",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB+Summer"
+  },
+  {
+   "code": "CA6608",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Modern Structural Engineering",
+   "schedule_title": "Modern Structural Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA6609",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "core",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Green Building, Architecture and People",
+   "schedule_title": "Green Building, Architecture and People",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CA6694",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Geomechanics",
+   "schedule_title": "Geomechanics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "80",
+    "capacity": "80",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "CA6701",
+   "programmes": [
+    "MARCH2",
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MARCH2": "elective",
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Computational Design",
+   "schedule_title": "Advanced Topics in Computational Design",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE5410",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Signal Processing",
+   "schedule_title": "Signal Processing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE5412",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Telecommunication Networks",
+   "schedule_title": "Telecommunication Networks",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5414",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Development and Design in Embedded Systems",
+   "schedule_title": "Development and Design in Embedded Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5415",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Mobile Applications Design and Development",
+   "schedule_title": "Mobile Applications Design and Development",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
+    "medium": "English"
+   },
+   "section_count": 9,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE5416",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Topics in Bioelectronics and Biomedical Instrumentation",
+   "schedule_title": "Topics in Bioelectronics and Biomedical Instrumentation",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5425",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "core",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Fundamentals of Radio Frequency (RF) Circuit Engineering",
+   "schedule_title": "Fundamentals of Radio Frequency (RF) Circuit Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "EE3109",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "178",
+    "capacity": "180",
+    "medium": "English"
+   },
+   "section_count": 8,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE5430",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "core",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced CMOS Technology",
+   "schedule_title": "Advanced CMOS Technology",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE5432",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Applications of Lasers in Optoelectronics",
+   "schedule_title": "Applications of Lasers in Optoelectronics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5434",
+   "programmes": [
+    "MSEIE2",
+    "MSMIT1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Machine Learning for Signal Processing Applications",
+   "schedule_title": "Machine Learning for Signal Processing Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5435",
+   "programmes": [
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Applied Electromagnetics",
+   "schedule_title": "Advanced Topics in Applied Electromagnetics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5436",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "core",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Fundamentals and Applications of Photonics",
+   "schedule_title": "Fundamentals and Applications of Photonics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "177",
+    "capacity": "180",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE5437",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Internet of Things Technologies for Future City Applications",
+   "schedule_title": "Internet of Things Technologies for Future City Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE5438",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Applied Deep Learning",
+   "schedule_title": "Applied Deep Learning",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "MA2001 and MA3160 and EE3206",
+   "exclusive_course": "EE4016",
+   "summary": {
+    "web": "Y",
+    "available": "179",
+    "capacity": "180",
+    "medium": "English"
+   },
+   "section_count": 6,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE5439",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Meta-device and Photonic System Analysis",
+   "schedule_title": "Meta-device and Photonic System Analysis",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5606",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Artificial Intelligence for Antennas in Wireless Communications",
+   "schedule_title": "Artificial Intelligence for Antennas in Wireless Communications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "EE2331",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE5607",
+   "programmes": [
+    "MSCIE"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced Computer Architecture",
+   "schedule_title": "Advanced Computer Architecture",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "EE2004",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE5608",
+   "programmes": [
+    "MSCIE"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Modern Cloud Architecture and Deployment Practice",
+   "schedule_title": "Modern Cloud Architecture and Deployment Practice",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE5609",
+   "programmes": [
+    "MSCIE"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Computer Networks: Architecture, Protocols, and Applications",
+   "schedule_title": "Computer Networks: Architecture, Protocols, and Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "151",
+    "capacity": "151",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE5805",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Java Network Programming",
+   "schedule_title": "Java Network Programming",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "Summer"
+  },
+  {
+   "code": "EE5806",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Topics in Image Processing",
+   "schedule_title": "Topics in Image Processing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5808",
+   "programmes": [
+    "MSCIE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "core",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Topics in Computer Graphics",
+   "schedule_title": "Topics in Computer Graphics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "(MA3150 or MA3151) and (MA3160 or EE3313) and CS2363 and EE2331",
+   "exclusive_course": "EE4208",
+   "summary": {
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE5809",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Digital Audio Processing and Applications",
+   "schedule_title": "Digital Audio Processing and Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE5811",
+   "programmes": [
+    "MSCIE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Topics in Computer Vision",
+   "schedule_title": "Topics in Computer Vision",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE5815",
+   "programmes": [
+    "MSCIE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "core",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Topics in Security Technology",
+   "schedule_title": "Topics in Security Technology",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE6413",
+   "programmes": [
+    "MSCIE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Networking Technologies",
+   "schedule_title": "Advanced Topics in Networking Technologies",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6426",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Radio Frequency (RF) Circuit Engineering",
+   "schedule_title": "Radio Frequency (RF) Circuit Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6427",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "core",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Modern Power Electronics",
+   "schedule_title": "Modern Power Electronics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE6428",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Optical Communications",
+   "schedule_title": "Optical Communications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6429",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Optical Fibres and Waveguides",
+   "schedule_title": "Optical Fibres and Waveguides",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6432",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Topics in Digital Video Broadcasting",
+   "schedule_title": "Topics in Digital Video Broadcasting",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6435",
+   "programmes": [
+    "MSCIE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Multi-Dimensional Data Modeling and its Applications",
+   "schedule_title": "Multi-Dimensional Data Modeling and its Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE6449",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Electromagnetic Compatibility - EMC Theory, Design and Measurement",
+   "schedule_title": "Electromagnetic Compatibility - EMC Theory, Design and Measurement",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6450",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Engineering I",
+   "schedule_title": "Advanced Topics in Engineering I",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6451",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Engineering II",
+   "schedule_title": "Advanced Topics in Engineering II",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6453",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Mobile Communication and Networks",
+   "schedule_title": "Mobile Communication and Networks",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6601",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Topics in Radio Frequency Circuit Design and Applications",
+   "schedule_title": "Topics in Radio Frequency Circuit Design and Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6603",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Wireless Communication Technologies",
+   "schedule_title": "Wireless Communication Technologies",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "EE3008",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE6605",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Complex Networks: Modeling, Dynamics and Control",
+   "schedule_title": "Complex Networks: Modeling, Dynamics and Control",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "250",
+    "capacity": "250",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE6609",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Nonlinear Optical Devices",
+   "schedule_title": "Nonlinear Optical Devices",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6610",
+   "programmes": [
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Queueing Theory with Telecommunications Applications",
+   "schedule_title": "Queueing Theory with Telecommunications Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6611",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Directed Studies for Taught Postgraduate Students",
+   "schedule_title": "Directed Studies for Taught Postgraduate Students",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB+Summer"
+  },
+  {
+   "code": "EE6614",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Reliability Engineering in Electronics Industry",
+   "schedule_title": "Reliability Engineering in Electronics Industry",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6615",
+   "programmes": [
+    "MSEIE2",
+    "MSMIT1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Nanotechnology for Devices and Microsystems",
+   "schedule_title": "Nanotechnology for Devices and Microsystems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6617",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Detection and Estimation - Theory and Applications in Communications",
+   "schedule_title": "Detection and Estimation - Theory and Applications in Communications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6619",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Antenna Design for Wireless Communications",
+   "schedule_title": "Antenna Design for Wireless Communications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE6620",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Linear Systems Theory and Design",
+   "schedule_title": "Linear Systems Theory and Design",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE6621",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Computational Physiology and Neural Systems",
+   "schedule_title": "Computational Physiology and Neural Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE6622",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "core",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Topics in Smart Grids",
+   "schedule_title": "Topics in Smart Grids",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE6623",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Sustainable Energy Systems",
+   "schedule_title": "Sustainable Energy Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE6624",
+   "programmes": [
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Power and Energy Systems",
+   "schedule_title": "Advanced Topics in Power and Energy Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6625",
+   "programmes": [
+    "MSCIE",
+    "MSEEE"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Hardware Architectures for Artificial Intelligence and Machine Learning",
+   "schedule_title": "Hardware Architectures for Artificial Intelligence and Machine Learning",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE6626",
+   "programmes": [
+    "MSCIE",
+    "MSEEE"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "AI-enabled Autonomous Driving",
+   "schedule_title": "AI-enabled Autonomous Driving",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "EE3210 and SDSC2001",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "129",
+    "capacity": "129",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE6627",
+   "programmes": [
+    "MSCIE",
+    "MSEEE"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Quantitative Finance: Principles and Applications",
+   "schedule_title": "Quantitative Finance: Principles and Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE6680",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Dissertation",
+   "schedule_title": "Dissertation",
+   "title_changed": false,
+   "credits": 9,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "EE6611 EE6691",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "1",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB+Summer"
+  },
+  {
+   "code": "EE6690",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Internship Scheme in Electrical Industry",
+   "schedule_title": "Internship Scheme in Electrical Industry",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "Summer"
+  },
+  {
+   "code": "EE6691",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Applied Research Internship Scheme in Electrical Engineering",
+   "schedule_title": "Applied Research Internship Scheme in Electrical Engineering",
+   "title_changed": false,
+   "credits": 15,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "EE6680 EE6680D EE6690",
+   "summary": {
+    "web": "Y",
+    "available": "2",
+    "capacity": "2",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB+Summer"
+  },
+  {
+   "code": "EE6802",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advances in Digital Signal Processing",
+   "schedule_title": "Advances in Digital Signal Processing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "EE8401",
+   "programmes": [
+    "MSEEE"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Applied Electromagnetics",
+   "schedule_title": "Advanced Topics in Applied Electromagnetics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "EE3109",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "150",
+    "capacity": "150",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE8402",
+   "programmes": [
+    "MSEEE"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Topics in Power and Energy Systems",
+   "schedule_title": "Advanced Topics in Power and Energy Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "EE8403",
+   "programmes": [
+    "MSCIE"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Machine Learning for Signal Processing Applications",
+   "schedule_title": "Machine Learning for Signal Processing Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "EE2331",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "220",
+    "capacity": "220",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE8404",
+   "programmes": [
+    "MSEEE"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Nanotechnology for Devices and Microsystems",
+   "schedule_title": "Nanotechnology for Devices and Microsystems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EE8405",
+   "programmes": [
+    "MSCIE",
+    "MSEEE"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Queueing Theory with Telecommunications Applications",
+   "schedule_title": "Queueing Theory with Telecommunications Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EE",
+   "prerequisites": "(EE3313 or MA3160) and CS2363",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "220",
+    "capacity": "220",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "EF5052",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Investments",
+   "schedule_title": "Investments",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EF",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "55",
+    "capacity": "469",
+    "medium": "English"
+   },
+   "section_count": 8,
+   "semester_tag": "SemA+SemB"
+  },
+  {
+   "code": "EF5342",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Financial Systems, Markets and Instruments",
+   "schedule_title": "Financial Systems, Markets and Instruments",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "EF",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "240",
+    "capacity": "240",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA+SemB"
+  },
+  {
+   "code": "IS5113",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "AI Ethics and Regulations",
+   "schedule_title": "AI Ethics and Regulations",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "IS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "85",
+    "capacity": "262",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "IS5542",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Generative Artificial Intelligence for Business",
+   "schedule_title": "Generative Artificial Intelligence for Business",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "IS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "18",
+    "capacity": "207",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA+SemB"
+  },
+  {
+   "code": "IS6423",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Artificial Intelligence for Business Applications",
+   "schedule_title": "Artificial Intelligence for Business Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "IS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MGT5204",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Management and Organizations",
+   "schedule_title": "Management and Organizations",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MG",
+   "prerequisites": "Nil",
+   "exclusive_course": "MGT5313",
+   "summary": {
+    "web": "Y",
+    "available": "26",
+    "capacity": "240",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MGT5313",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "International Organizational Behavior",
+   "schedule_title": "International Organizational Behavior",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MG",
+   "prerequisites": "Nil",
+   "exclusive_course": "MGT5204",
+   "summary": {
+    "web": "Y",
+    "available": "21",
+    "capacity": "148",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MGT5316",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Human Resources Management",
+   "schedule_title": "Human Resources Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MG",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MGT6209",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Innovation and Collaboration",
+   "schedule_title": "Innovation Collaboration",
+   "title_changed": true,
+   "credits": 3,
+   "remarks": "MG",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "160",
+    "capacity": "160",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MGT6318",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Employee Engagement and Performance",
+   "schedule_title": "Employee Engagement and Performance",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MG",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "Summer"
+  },
+  {
+   "code": "MGT6323",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Cross-Cultural Negotiation",
+   "schedule_title": "Cross-Cultural Negotiation",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MG",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "14",
+    "capacity": "140",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MGT6326",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Managing International Business",
+   "schedule_title": "Managing International Business",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MG",
+   "prerequisites": "Nil",
+   "exclusive_course": "MGT5510",
+   "summary": {
+    "web": "Y",
+    "available": "20",
+    "capacity": "148",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE5101",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Principles of Nuclear Engineering",
+   "schedule_title": "Principles of Nuclear Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE5103",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Risk and Reliability Engineering",
+   "schedule_title": "Risk and Reliability Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE5112",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Mechanical Design with Advanced Material and Additive Manufacturing",
+   "schedule_title": "Mechanical Design with Advanced Material and Additive Manufacturing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "MNE2110 and MNE3118",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA+SemB"
+  },
+  {
+   "code": "MNE6001",
+   "programmes": [
+    "MSME1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "CAD/CAM Integration",
+   "schedule_title": "CAD/CAM Integration",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6002",
+   "programmes": [
+    "MSME1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Computer Controlled Systems",
+   "schedule_title": "Computer Controlled Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE6005",
+   "programmes": [
+    "MSME1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Micro Systems Technology",
+   "schedule_title": "Micro Systems Technology",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6007",
+   "programmes": [
+    "MSME1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced Automation Technology",
+   "schedule_title": "Advanced Automation Technology",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "93",
+    "capacity": "190",
+    "medium": "English"
+   },
+   "section_count": 12,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6008",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Dissertation",
+   "schedule_title": "Dissertation",
+   "title_changed": false,
+   "credits": 9,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB+Summer"
+  },
+  {
+   "code": "MNE6046",
+   "programmes": [
+    "MSME1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Nano-manufacturing",
+   "schedule_title": "Nano-manufacturing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6110",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Mechanical Behaviour of Materials: From Metallic to Biomedical/Biological Materials",
+   "schedule_title": "Mechanical Behaviour of Materials: From Metallic to Biomedical/Biological Materials",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6113",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Advanced Thermo-fluid",
+   "schedule_title": "Advanced Thermo-fluid",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "91",
+    "capacity": "180",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6114",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Control Systems and Information Processing",
+   "schedule_title": "Control Systems and Information Processing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6115",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Bio-Inspired Robots",
+   "schedule_title": "Bio-Inspired Robots",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6116",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Applied Engineering Mechanics",
+   "schedule_title": "Applied Engineering Mechanics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "79",
+    "capacity": "272",
+    "medium": "English"
+   },
+   "section_count": 6,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6119",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Electron Microscopy",
+   "schedule_title": "Electron Microscopy",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE6124",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Micro/Nano Robotics",
+   "schedule_title": "Advanced Micro/Nano Robotics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE6125",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Engineering Methods",
+   "schedule_title": "Engineering Methods",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "101",
+    "capacity": "190",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6126",
+   "programmes": [
+    "MSME1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Sensors for Robotics, AI, and Control Systems",
+   "schedule_title": "Sensors for Robotics, AI, and Control Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6127",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Microfluidics: From Fundamentals to Applications",
+   "schedule_title": "Microfluidics: From Fundamentals to Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "180",
+    "capacity": "180",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6128",
+   "programmes": [
+    "MSME1",
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective",
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Machine Learning and Quantum Computation for Engineering",
+   "schedule_title": "Advanced Machine Learning and Quantum Computation for Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6129",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Sustainable Engineering Practice",
+   "schedule_title": "Sustainable Engineering Practice",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE6130",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Modern Robotics",
+   "schedule_title": "Modern Robotics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MNE6131",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Nuclear Reactor Systems, Safety and Waste Management",
+   "schedule_title": "Nuclear Reactor Systems, Safety and Waste Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "73",
+    "capacity": "80",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6132",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Materials in Nuclear Engineering",
+   "schedule_title": "Materials in Nuclear Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "33",
+    "capacity": "40",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6133",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Physical Effects of Radiation Damage",
+   "schedule_title": "Physical Effects of Radiation Damage",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE6134",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Risk and Resilience Assessment",
+   "schedule_title": "Advanced Risk and Resilience Assessment",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE6135",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Two-phase Flow and Boiling Heat Transfer",
+   "schedule_title": "Two-phase Flow and Boiling Heat Transfer",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE6138",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Fundamentals of Nuclear Engineering",
+   "schedule_title": "Fundamentals of Nuclear Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "73",
+    "capacity": "80",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6139",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Combustion Science",
+   "schedule_title": "Combustion Science",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MNE6140",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Thermodynamics and Kinetics",
+   "schedule_title": "Thermodynamics and Kinetics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "180",
+    "capacity": "180",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MNE6141",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Deformation and Fracture of Materials and Structures",
+   "schedule_title": "Deformation and Fracture of Materials and Structures",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MN",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MS5217",
+   "programmes": [
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Statistical Data Analysis",
+   "schedule_title": "Statistical Data Analysis",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "MS5312",
+   "summary": {
+    "web": "Y",
+    "available": "75",
+    "capacity": "515",
+    "medium": "English"
+   },
+   "section_count": 40,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MS6219",
+   "programmes": [
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Predictive Modeling and Forecasting for Business",
+   "schedule_title": "Predictive Modeling and Forecasting for Business",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE5304",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Thermodynamics of Materials",
+   "schedule_title": "Thermodynamics of Materials",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE6121",
+   "programmes": [
+    "MSMEN2",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Thin Film Technology and Nanocrystalline Coatings",
+   "schedule_title": "Thin Film Technology and Nanocrystalline Coatings",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "AP8121",
+   "summary": {
+    "web": "Y",
+    "available": "119",
+    "capacity": "120",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MSE6176",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Nanomaterials Design for Energy Applications",
+   "schedule_title": "Nanomaterials Design for Energy Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "MSE6187",
+   "summary": {
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MSE6182",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Polymers and Composites and Nano-applications",
+   "schedule_title": "Polymers and Composites and Nano-applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "AP8182",
+   "summary": {
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MSE6184",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Biomedical Materials and Devices with Nano-applications",
+   "schedule_title": "Biomedical Materials and Devices with Nano-applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE6185",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Structural Materials",
+   "schedule_title": "Advanced Structural Materials",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE6186",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "AI for Materials Science",
+   "schedule_title": "AI for Materials Science",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE6187",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Electrochemical Energy Storage",
+   "schedule_title": "Electrochemical Energy Storage",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE6266",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Semiconductor Materials and Devices",
+   "schedule_title": "Semiconductor Materials and Devices",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE6303",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Corrosion and Surface Engineering",
+   "schedule_title": "Corrosion and Surface Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE6307",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Building Materials",
+   "schedule_title": "Building Materials",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE6309",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Research",
+   "schedule_title": "Advanced Research",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "AP6306 MSE6306",
+   "summary": {
+    "web": "Y",
+    "available": "10",
+    "capacity": "65",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB+Summer"
+  },
+  {
+   "code": "MSE6814",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Reliability Engineering in Electronics Industry",
+   "schedule_title": "Reliability Engineering in Electronics Industry",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "MSE8015",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Theory and Practice of Transmission Electron Microscopy and Related Spectroscopy",
+   "schedule_title": "Theory and Practice of Transmission Electron Microscopy and Related Spectroscopy",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "MSE8020",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Structural Properties of Materials",
+   "schedule_title": "Structural Properties of Materials",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "85",
+    "capacity": "85",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "MSE8021",
+   "programmes": [
+    "MSMEN2"
+   ],
+   "programme_requirement_types": {
+    "MSMEN2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Kinetic and Thermodynamic Properties of Materials",
+   "schedule_title": "Kinetic and Thermodynamic Properties of Materials",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "NS5007",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Human and Artificial Intelligence",
+   "schedule_title": "Human and Artificial Intelligence",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "NS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "70",
+    "capacity": "70",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "NS5009",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Ethical Application of Artificial Intelligence in Biological Sciences and Healthcare",
+   "schedule_title": "Ethical Application of Artificial Intelligence in Biological Sciences and Healthcare",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "NS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "NS6002",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Advanced Computational Neuroscience",
+   "schedule_title": "Advanced Computational Neuroscience",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "NS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "PH5101",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Introduction to Health Economics and Outcomes Research",
+   "schedule_title": "Introduction to Health Economics and Outcomes Research",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PH",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "151",
+    "capacity": "151",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "PH5105",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Basic Biostatistics in Public Health",
+   "schedule_title": "Basic Biostatistics in Public Health",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PH",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "225",
+    "capacity": "225",
+    "medium": "English"
+   },
+   "section_count": 5,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "PH5106",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Fundamentals of Epidemiology in Public Health",
+   "schedule_title": "Fundamentals of Epidemiology in Public Health",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PH",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "PIA5003",
+   "programmes": [
+    "MSCM2"
+   ],
+   "programme_requirement_types": {
+    "MSCM2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Project Planning and Management for Development",
+   "schedule_title": "Project Planning and Management for Development",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PI",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "105",
+    "capacity": "105",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "PIA5701",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Comparative and International Housing and Urban Policy",
+   "schedule_title": "Comparative and International Housing and Urban Policy",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PI",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "71",
+    "capacity": "275",
+    "medium": "English"
+   },
+   "section_count": 9,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "PIA5702",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Finance and Economics in Housing and Urban Studies",
+   "schedule_title": "Finance and Economics in Housing and Urban Studies",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PI",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "PIA5703",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Contemporary Issues of Housing and Urban Management",
+   "schedule_title": "Contemporary Issues of Housing and Urban Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PI",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "PIA5711",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Environmental Governance in China",
+   "schedule_title": "Environmental Governance in China",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PI",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "PIA6502",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Sustainable Development: Theory and Policy",
+   "schedule_title": "Sustainable Development: Theory and Policy",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PI",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "58",
+    "capacity": "215",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "PIA6805",
+   "programmes": [
+    "MUDP2"
+   ],
+   "programme_requirement_types": {
+    "MUDP2": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Housing Management, Local Politics and Public Relations",
+   "schedule_title": "Housing Management, Local Politics and Public Relations",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "PI",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SEE6102",
+   "programmes": [
+    "MSCAE1"
+   ],
+   "programme_requirement_types": {
+    "MSCAE1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Energy Efficiency and Conservation Technologies",
+   "schedule_title": "Energy Efficiency and Conservation Technologies",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SM5306",
+   "programmes": [
+    "MSCIE",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Cinematic Arts Workshop",
+   "schedule_title": "Cinematic Arts Workshop",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "34",
+    "capacity": "34",
+    "medium": "English"
+   },
+   "section_count": 6,
+   "semester_tag": "SemA+SemB"
+  },
+  {
+   "code": "SM5307",
+   "programmes": [
+    "MSCIE",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Digital Media and Moving Images",
+   "schedule_title": "Digital Media and Moving Images",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SM5332",
+   "programmes": [
+    "MSCIE",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Making Things Blip, Blink and Move: Introduction to Physical Computing",
+   "schedule_title": "Making Things Blip, Blink and Move: Introduction to Physical Computing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "34",
+    "capacity": "34",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SM5345",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Introduction to Digital Processes: From Creative Computation to Fabrication",
+   "schedule_title": "Introduction to Digital Processes: From Creative Computation to Fabrication",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "37",
+    "capacity": "37",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SM5354",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Design Thinking and Innovation in Media",
+   "schedule_title": "Design Thinking and Innovation in Media",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "32",
+    "capacity": "32",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SM6325",
+   "programmes": [
+    "MSCIE",
+    "MSMIT1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSMIT1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Philosophy of Technology and New Media",
+   "schedule_title": "Philosophy of Technology and New Media",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE5006",
+   "programmes": [
+    "MSAIDI",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective",
+    "MSEM1": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Operations Management",
+   "schedule_title": "Operations Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "55",
+    "capacity": "254",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE5010",
+   "programmes": [
+    "MSAIDI",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective",
+    "MSEM1": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Engineering Management Principles and Concepts",
+   "schedule_title": "Engineering Management Principles and Concepts",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "65",
+    "capacity": "264",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6009",
+   "programmes": [
+    "MSEEE",
+    "MSEIE2",
+    "MSAIDI",
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Project Management",
+   "schedule_title": "Project Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6014",
+   "programmes": [
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Asset and Maintenance Management",
+   "schedule_title": "Asset and Maintenance Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "180",
+    "capacity": "180",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6015",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSAIDI",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Supply Chain Management",
+   "schedule_title": "Supply Chain Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6018",
+   "programmes": [
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Dissertation",
+   "schedule_title": "Dissertation",
+   "title_changed": false,
+   "credits": 9,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB+Summer"
+  },
+  {
+   "code": "SYE6037",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSAIDI",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Managing Strategic Quality",
+   "schedule_title": "Managing Strategic Quality",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE6043",
+   "programmes": [
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective",
+    "MSSM": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Quality and Reliability Engineering",
+   "schedule_title": "Quality and Reliability Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "40",
+    "capacity": "160",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6045",
+   "programmes": [
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Industrial Case Study",
+   "schedule_title": "Industrial Case Study",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE6050",
+   "programmes": [
+    "MSAIDI",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Engineering Economic Analysis",
+   "schedule_title": "Engineering Economic Analysis",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE6101",
+   "programmes": [
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Estimation and Control of Random Dynamic Systems",
+   "schedule_title": "Estimation and Control of Random Dynamic Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE6102",
+   "programmes": [
+    "MSAIDI",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective",
+    "MSEM1": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Managerial Decision-making Systems with Artificial Intelligence",
+   "schedule_title": "Managerial Decision-making Systems with Artificial Intelligence",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6105",
+   "programmes": [
+    "MSAIDI",
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective",
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Risk and Decision Analysis",
+   "schedule_title": "Risk and Decision Analysis",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "Summer"
+  },
+  {
+   "code": "SYE6106",
+   "programmes": [
+    "MSAIDI",
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective",
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Intelligent Manufacturing for Engineering Managers",
+   "schedule_title": "Intelligent Manufacturing for Engineering Managers",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "240",
+    "capacity": "240",
+    "medium": "English"
+   },
+   "section_count": 3,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6107",
+   "programmes": [
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Contemporary Occupational Safety and Health Management",
+   "schedule_title": "Contemporary Occupational Safety and Health Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE6108",
+   "programmes": [
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Energy Conservation and Management",
+   "schedule_title": "Energy Conservation and Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6109",
+   "programmes": [
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective",
+    "MSSM": "core"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Semiconductor Manufacturing and Management",
+   "schedule_title": "Semiconductor Manufacturing and Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6111",
+   "programmes": [
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Transportation and Logistics Management",
+   "schedule_title": "Transportation and Logistics Management",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "109",
+    "capacity": "109",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6201",
+   "programmes": [
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSSM": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "3D IC Stacking and Advanced Packaging Technology",
+   "schedule_title": "3D IC Stacking and Advanced Packaging Technology",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "120",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6202",
+   "programmes": [
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSSM": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Semiconductor Process Equipment and Materials",
+   "schedule_title": "Semiconductor Process Equipment and Materials",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6203",
+   "programmes": [
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Internship Scheme in Semiconductor Industry",
+   "schedule_title": "Internship Scheme in Semiconductor Industry",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "Summer"
+  },
+  {
+   "code": "SYE6204",
+   "programmes": [
+    "MSCIE",
+    "MSEEE",
+    "MSEIE2",
+    "MSMIT1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSCIE": "elective",
+    "MSEEE": "elective",
+    "MSEIE2": "elective",
+    "MSMIT1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "VLSI/ULSI process integration",
+   "schedule_title": "VLSI/ULSI process integration",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "Summer"
+  },
+  {
+   "code": "SYE6205",
+   "programmes": [
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Semiconductor Thin Film Engineering",
+   "schedule_title": "Semiconductor Thin Film Engineering",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE6206",
+   "programmes": [
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Packaging for Nanoelectronics",
+   "schedule_title": "Packaging for Nanoelectronics",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6207",
+   "programmes": [
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Characterization Techniques for Semiconductor Manufacturing",
+   "schedule_title": "Characterization Techniques for Semiconductor Manufacturing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6301",
+   "programmes": [
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Sustainability and Green Systems",
+   "schedule_title": "Sustainability and Green Systems",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE6302",
+   "programmes": [
+    "MSAIDI",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "core",
+    "MSEM1": "elective"
+   },
+   "requirement_type": "core",
+   "programme_title": "Design Science",
+   "schedule_title": "Design Science",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6303",
+   "programmes": [
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Multiscale Decision Making for Industrial Enterprise",
+   "schedule_title": "Multiscale Decision Making for Industrial Enterprise",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "120",
+    "capacity": "120",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6308",
+   "programmes": [
+    "MSEM1",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSEM1": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Statistical Learning in Manufacturing Quality Control",
+   "schedule_title": "Statistical Learning in Manufacturing Quality Control",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "170",
+    "capacity": "170",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6309",
+   "programmes": [
+    "MSAIDI",
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective",
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Smart City and AI Technologies",
+   "schedule_title": "Smart City and AI Technologies",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6601",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Introduction to Artificial Intelligence: Concepts and Applications",
+   "schedule_title": "Introduction to Artificial Intelligence: Concepts and Applications",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "22",
+    "capacity": "122",
+    "medium": "English"
+   },
+   "section_count": 4,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6602",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "AI-Driven Innovation: Seminars and Projects",
+   "schedule_title": "AI-Driven Innovation: Seminars and Projects",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "10",
+    "capacity": "110",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6610",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "AI Innovation Internships",
+   "schedule_title": "AI Innovation Internships",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB+Summer"
+  },
+  {
+   "code": "SYE6612",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "The Fourth Industrial Revolution",
+   "schedule_title": "The Fourth Industrial Revolution",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA"
+  },
+  {
+   "code": "SYE6620",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "AI- Based Media Entrepreneurship",
+   "schedule_title": "AI- Based Media Entrepreneurship",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE6621",
+   "programmes": [
+    "MSAIDI",
+    "MSEM1"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective",
+    "MSEM1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Agentic AI for Innovation",
+   "schedule_title": "Agentic AI for Innovation",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "SYE6631",
+   "programmes": [
+    "MSAIDI"
+   ],
+   "programme_requirement_types": {
+    "MSAIDI": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "AI for Financial Services",
+   "schedule_title": "AI for Financial Services",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "",
+    "available": "",
+    "capacity": "",
+    "medium": ""
+   },
+   "section_count": 0,
+   "semester_tag": "None"
+  },
+  {
+   "code": "SYE8204",
+   "programmes": [
+    "MSSM"
+   ],
+   "programme_requirement_types": {
+    "MSSM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Process Modelling and Control",
+   "schedule_title": "Process Modelling and Control",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SY",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "35",
+    "capacity": "35",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA"
   }
  ]
 }

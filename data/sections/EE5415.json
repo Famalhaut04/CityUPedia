@@ -1,0 +1,164 @@
+[
+  {
+    "crn": "13354",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "140",
+    "capacity": "140",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "LT-17",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "13354",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "140",
+    "capacity": "140",
+    "date": "25/10/2026 - 14/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "13354",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "140",
+    "capacity": "140",
+    "date": "22/11/2026 - 28/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "B7701",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "14121",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "44",
+    "capacity": "44",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "LT-17",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "14121",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "44",
+    "capacity": "44",
+    "date": "25/10/2026 - 14/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "14121",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "44",
+    "capacity": "44",
+    "date": "22/11/2026 - 28/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "B7520",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "14122",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "16",
+    "capacity": "16",
+    "date": "31/08/2026 - 05/12/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "LT-17",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "14122",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "16",
+    "capacity": "16",
+    "date": "25/10/2026 - 14/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "B7510",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "14122",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "16",
+    "capacity": "16",
+    "date": "22/11/2026 - 28/11/2026",
+    "day": "S",
+    "time": "09:00 - 11:50",
+    "building": "YEUNG",
+    "room": "B7510",
+    "instructor": "LI Haoliang, TIAN Xing",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  }
+]

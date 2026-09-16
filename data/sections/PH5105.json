@@ -1,0 +1,95 @@
+[
+  {
+    "crn": "14181",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "130",
+    "capacity": "130",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "MF",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "ELSOHABY Ibrahim",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MPH"
+    ]
+  },
+  {
+    "crn": "15412",
+    "section": "C61",
+    "credits": 3,
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "WR",
+    "time": "19:00 - 21:50",
+    "building": "LI",
+    "room": "2409",
+    "instructor": "MING Wai Kit",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MPH"
+    ]
+  },
+  {
+    "crn": "14180",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "MF",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "ELSOHABY Ibrahim",
+    "medium": "English",
+    "notes": [
+      "only for Programme: PH/P, VCS/P, VM/P",
+      "only for Cohort: 2025, 2026"
+    ]
+  },
+  {
+    "crn": "15408",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "MF",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "ELSOHABY Ibrahim",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI",
+      "only for Cohort: 2026"
+    ]
+  },
+  {
+    "crn": "15507",
+    "section": "CC1",
+    "credits": 3,
+    "web": "Y",
+    "available": "35",
+    "capacity": "35",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "MF",
+    "time": "16:00 - 18:50",
+    "building": "LI",
+    "room": "3505",
+    "instructor": "ELSOHABY Ibrahim",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MVM",
+      "only for Cohort: 2026"
+    ]
+  }
+]

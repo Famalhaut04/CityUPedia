@@ -1,0 +1,74 @@
+[
+  {
+    "crn": "14130",
+    "section": "C01",
+    "credits": 3,
+    "web": "Y",
+    "available": "109",
+    "capacity": "109",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "LEUNG Kwok Wa",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSEEE, MSEEEBM, MSEEEIR, MSEIE2, MSEIEBM2, MSEIEIR2"
+    ]
+  },
+  {
+    "crn": "14132",
+    "section": "CA1",
+    "credits": 3,
+    "web": "Y",
+    "available": "34",
+    "capacity": "34",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "LEUNG Kwok Wa",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSCIE, MSCIEBM, MSCIEIR, MSMIT1, MSMITBM2, MSMITIR2"
+    ]
+  },
+  {
+    "crn": "14183",
+    "section": "CB1",
+    "credits": 3,
+    "web": "Y",
+    "available": "12",
+    "capacity": "12",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "LEUNG Kwok Wa",
+    "medium": "English",
+    "notes": [
+      "only for Programme: EE2/C, EE2/M, EE2/P"
+    ]
+  },
+  {
+    "crn": "15325",
+    "section": "CC1",
+    "credits": 3,
+    "web": "Y",
+    "available": "5",
+    "capacity": "5",
+    "date": "31/08/2026 - 28/11/2026",
+    "day": "F",
+    "time": "10:00 - 12:50",
+    "building": "CMC",
+    "room": "M3017",
+    "instructor": "LEUNG Kwok Wa",
+    "medium": "English",
+    "notes": [
+      "only for Programme: MSAIDI"
+    ]
+  }
+]
