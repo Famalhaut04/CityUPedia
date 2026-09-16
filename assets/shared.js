@@ -1295,8 +1295,8 @@
       '<div class="update-notice-body">' +
         '<strong>' + (isEn ? "College of Engineering Added — v1.3.0 (Sep 16)" : "工学院课程全量接入 · v1.3.0（9/16）") + '</strong>' +
         '<span>' + (isEn
-          ? "13 official master's programmes across the College of Engineering (Architecture & Civil, Electrical, Materials, Mechanical, Systems) with 246 new courses, all verified against the official 2026/27 catalogue; 96 courses include Semester A timetables. Cross-listed courses now show all affiliated programmes."
-          : "新增工学院 5 系 13 个官方硕士项目（建筑及土木、电机、材料、机械、系统）与 246 门课程，全部经城大官方 2026/27 目录核对，其中 96 门已带 Semester A 班次；跨院共用的课程现会显示全部所属项目。") +
+          ? "13 official master's programmes across the College of Engineering (Architecture & Civil, Electrical, Materials, Mechanical, Systems) with 183 new courses, all verified against the official 2026/27 catalogue; 96 courses include Semester A timetables. Courses not offered in 2026/27 are excluded from the planner; cross-listed courses now show all affiliated programmes."
+          : "新增工学院 5 系 13 个官方硕士项目（建筑及土木、电机、材料、机械、系统）与 183 门课程，全部经城大官方 2026/27 目录核对，其中 96 门已带 Semester A 班次；官方标注本学年不开设的课程已从排课系统剔除；跨院共用的课程现会显示全部所属项目。") +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';

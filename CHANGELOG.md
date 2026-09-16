@@ -7,11 +7,11 @@
 > 参考仓库：[penjc/CityU](https://github.com/penjc/CityU)（城大手册，MIT）与 [SHANECHEN0722/cityu-CS-review](https://github.com/SHANECHEN0722/cityu-CS-review)（MIT）的工学院课程清单（两仓 185 门完全一致）；全部课程经 **城大官方 2026/27 授课式研究生目录**（cityu.edu.hk/catalogue/pg/202627）逐项目核对；班次来自 AIMS Master Class Schedule（Semester A 2026/27）快照（2026-08-23）。
 
 - **新增 13 个工学院官方硕士项目**（5 系）：建筑及土木工程学系（MARCH2 建筑学、MSCAE1 土木及建筑工程、MSCM2 建造管理、MUDP2 城市设计与规划）、电机工程学系（MSCIE 电子计算机与资讯工程、MSEEE 电机与电子工程、MSEIE2 电子资讯工程、MSMIT1 多媒体资讯科技）、材料科学及工程学系（MSMEN2 材料工程及纳米科技）、机械工程学系（MSME1 机械工程）、系统工程学系（MSAIDI 人工智能驱动创新、MSEM1 工程管理学、MSSM 智能半导体制造）
-- **新增 246 门课程条目**（官方标题/学分/开设学期/先修/互斥），并生成对应班次与评价数据文件；其中 96 门已有 Semester A 2026/27 AIMS 班次
+- **新增 249 门课程条目**（官方标题/学分/开设学期/先修/互斥），并生成对应班次与评价数据文件；其中 96 门已有 Semester A 2026/27 AIMS 班次
 - **40 门已有课程追加跨院项目归属**（如 CS5481 同时是 MSCS 核心、MSCIE/MSMIT1 选修；SYE 系课程进入 MSEM1 等）
 - **参考仓库 185 门课验证结论**：全部在官方 2026/27 目录内；其中 4 门已被官方课程结构替换（CA5137 → CA5137A/B/C/D 变体；SYE8202/8205、MNE6047 不在 26/27 项目课程表内），以官方目录为准；另有约 40 门课程名称以官方目录更新（参考仓库存量标题较旧或被截断，如 MNE6128 现为「Advanced Machine Learning and Quantum Computation for Engineering」）
 - **MNE6107** 在 MSME1 课程表中被引用但官方课程页为死链且未列入系课程清单，暂不收录
-- 官方目录中 2026/27 未开设（Not offering in current academic year）的课程标记为学期「None」，不进入具体学期课表视图
+- **60 门本学年不开设的课程未收录**：官方目录标注 Not offering in current academic year 的课程一律不进入排课系统（不计入项目课程列表，不生成班次/评价文件），避免「选了课却无班次可排」；核对中修正 CA5137A/B/C（城市设计工作室，Semester B 开设，9 学分）此前抓取失败的信息，CA5137D 不开设未收录
 - 官方 26/27 目录中另有约 60 门 8xxx 研究型/博士层级课程未纳入（不属于授课式硕士课程结构）
 
 ## 1.2.5（CityUPedia 1.2.5）· 2026-09-11
