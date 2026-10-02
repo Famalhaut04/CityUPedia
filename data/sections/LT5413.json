@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "14832",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "150",
+  "capacity": "150",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1507",
+  "instructor": "KIT Chun Yu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ }
+]

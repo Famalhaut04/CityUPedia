@@ -1,0 +1,146 @@
+[
+ {
+  "crn": "10093",
+  "section": "C01",
+  "credits": 2,
+  "web": "Y",
+  "available": "1",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "15:00 - 15:50",
+  "building": "LI",
+  "room": "1400",
+  "instructor": "TBA PIA005",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ },
+ {
+  "crn": "12113",
+  "section": "C02",
+  "credits": 2,
+  "web": "Y",
+  "available": "9",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 16:50",
+  "building": "LI",
+  "room": "1314",
+  "instructor": "WANG Jun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ },
+ {
+  "crn": "14309",
+  "section": "C03",
+  "credits": 2,
+  "web": "Y",
+  "available": "4",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 15:50",
+  "building": "LI",
+  "room": "2413",
+  "instructor": "WU Alfred",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ },
+ {
+  "crn": "14310",
+  "section": "C04",
+  "credits": 2,
+  "web": "Y",
+  "available": "6",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 15:50",
+  "building": "LI",
+  "room": "1310",
+  "instructor": "CHAN Winnie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ },
+ {
+  "crn": "15109",
+  "section": "C05",
+  "credits": 2,
+  "web": "Y",
+  "available": "7",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 16:50",
+  "building": "LAU",
+  "room": "5-203",
+  "instructor": "ZHANG Jun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ },
+ {
+  "crn": "15118",
+  "section": "C06",
+  "credits": 2,
+  "web": "Y",
+  "available": "6",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 16:50",
+  "building": "YEUNG",
+  "room": "G5-216",
+  "instructor": "HU Wanyang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ },
+ {
+  "crn": "13014",
+  "section": "CX1",
+  "credits": 2,
+  "web": "Y",
+  "available": "3",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 20:50",
+  "building": "LI",
+  "room": "1400",
+  "instructor": "CHAN Man Hung",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ },
+ {
+  "crn": "11163",
+  "section": "CX2",
+  "credits": 2,
+  "web": "Y",
+  "available": "3",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "18:30 - 20:20",
+  "building": "YEUNG",
+  "room": "Y5-303",
+  "instructor": "CHUI Chun Kit",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ }
+]

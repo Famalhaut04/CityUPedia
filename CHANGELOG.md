@@ -1,5 +1,36 @@
 # 更新日志 / Changelog
 
+## 1.4.0 · 2026-10-03
+
+### 数据：全校八大学院 47 个硕士项目全量接入（68 项目 / 1,381 门课程）
+
+> 数据来源与核对口径：**城大官方 2026/27 授课式研究生目录**（cityu.edu.hk/catalogue/pg/202627）47 个项目页逐页抓取核对（核心/选修/方向分流/毕业学分）；课程级元数据（官方标题、学分、开课学期）经开源项目 [yqia03/cityu-course-radar-public](https://github.com/yqia03/cityu-course-radar-public)（城课雷达，MIT，官方目录 2026-09-11 快照）交叉校验；Semester A 班次来自 AIMS Master Class Schedule 快照（2026-08-23），经 [xamzar/cityu-schedule](https://github.com/xamzar/cityu-schedule) 发布。
+
+- **新增 47 个官方硕士项目**，覆盖此前缺失的全部学院：
+  - **商学院 19 个**：MAIA 国际会计、MSAFBNAI 智能会计与金融科技应用、MSPACG 专业会计与企业管治、MSCBDA2/MSCBDA3 商业及数据分析、MSCOSCM 营运与供应链管理、MSAE 应用经济学、MSF 金融学、MSFE 金融工程学、MSAIB 商业人工智能、MSBISA 商务资讯系统、MSDTTI 数码化转型及科技创新、MAGBM 环球企业管理、MSMI 管理及创新、MSMKT1 市场学、MBANUGC MBA、EMBAHK/EMBAP/EMBAT 三个 EMBA 班
+  - **人文社会科学院 14 个**：MSSCSL、MACH1、MAES、MALS、MACNM、MAIMC、MAHUM、MAIS、MAPPM、MSSDS1、MAASS、MSSC、MSSPSY、MSW
+  - **理学院 3 个**：MSCHEM1 化学、MSFMS1 金融数学与统计、MSPDMQT 物理学数据建模与量子技术
+  - **生物医学院 3 个**：MSBME1 生物医学工程、MSHSB 健康科学与生物医学、MSN1 神经科学
+  - **赛马会动物医学及生命科学院 2 个**：MPH 公共卫生、MVM 兽医学
+  - **创意媒体学院 2 个**：MACM、MFACM
+  - **能源及环境学院 1 个**：MSEGEV
+  - **法律学院 3 个**：JD4 法律博士、LLMARBDR 仲裁及争议解决学、LLM3 法学硕士
+- **新增 959 门课程条目**（官方标题/学分/学期/先修/互斥），全站课程达 **1,381 门**；其中 **376 门带 Semester A 2026/27 AIMS 班次**（含 CRN、星期时段、教室、教师、名额与选课限制）
+- **611 条跨项目归属追加**到已有课程（如 EF5042 同时是 MSVC 选修与 MSF 核心、LW5962 进入 MSPACG 核心等）
+- **多方向/分流项目以选修分组建模**：LLM3 七个方向（中英文模块）、MSPACG（CG/PA）、MACH1（三方向）、MALS（四方向）、MACNM、MAHUM、MAPPM（四方向）、MAASS（三方向）、MSHSB、MPH（三方向）、MACM/MFACM、MSEGEV、MSBISA（两方向）、MSCBDA2/3（BA/QAB）等，分组学分进度可在课表侧栏查看；「choose 1 of 2」「A 或 B」类二选一结构保留在项目备注中说明
+- **EMBA/MBA 等 cohort 制项目**一并收录（EMBA 三支柱 Pillar 结构、MBA 环球学习模块），便于浏览完整课程结构
+- 约 26 门仅出现在官方项目课程表、未见于目录/班次快照的课程（LW6xxx 中文模块、CLA500x、FB67xx 等）按官方项目页数据收录，默认标注 Semester B，待 AIMS 下轮快照补全班次
+- 各项目 `programme_url` 直链官方 2026/27 目录项目页，「项目介绍 ↗」可直达官方培养方案
+
+### 修复：数据扩容后的并发加载回归
+
+- 课程数从 422 → 1,381 后，页面一次性并发拉取约 2,800 个 JSON 会触发浏览器并发连接上限（`net::ERR_INSUFFICIENT_RESOURCES` / Failed to fetch），导致整站数据加载失败
+- `shared.js` 的课程文件加载改为 **24 并发池分批拉取**（`mapPool`），总耗时增加约 1–2 秒，千门规模下稳定加载；数据结构与缓存行为不变
+
+### 版本公告
+
+- 首页公告更新为「全校八大学院接入 · v1.4.0」（2026-10-03）
+
 ## 1.3.0 · 2026-09-16
 
 ### 数据：工学院（College of Engineering）课程目录全量接入

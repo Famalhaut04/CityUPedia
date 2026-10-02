@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15124",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M9001",
+  "instructor": "MATHER Jeffrey Lang, SANDBERG Eric Peter",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ },
+ {
+  "crn": "10337",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M8051",
+  "instructor": "SANDBERG Eric Peter, MATHER Jeffrey Lang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ }
+]

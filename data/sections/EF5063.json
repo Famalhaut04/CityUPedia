@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15462",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "148",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "10:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "WONG Yui Cheong A.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFE"
+  ]
+ },
+ {
+  "crn": "15461",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "4",
+  "capacity": "272",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "14:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "WONG Yui Cheong A.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF"
+  ]
+ }
+]

@@ -1,0 +1,57 @@
+[
+ {
+  "crn": "10225",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M9001",
+  "instructor": "ZHANG Xinzhi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ },
+ {
+  "crn": "14276",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M3017",
+  "instructor": "DAI Yue",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ },
+ {
+  "crn": "15769",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M3017",
+  "instructor": "DAI Yue",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: HOS"
+  ]
+ }
+]

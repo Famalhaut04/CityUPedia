@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "10772",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "CMC",
+  "room": "M8051",
+  "instructor": "GUERRERO Inti",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ }
+]

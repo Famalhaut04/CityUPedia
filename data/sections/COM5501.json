@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12599",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M8051",
+  "instructor": "CHAN Sing Lai",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ },
+ {
+  "crn": "10125",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M9001",
+  "instructor": "KIM Ki Joon",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ }
+]

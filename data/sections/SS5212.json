@@ -1,0 +1,326 @@
+[
+ {
+  "crn": "10873",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "80",
+  "date": "31/08/2026 - 19/09/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "LIN Shen Lamson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10873",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "80",
+  "date": "27/09/2026 - 17/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "LIN Shen Lamson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10873",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "80",
+  "date": "25/10/2026 - 07/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "LIN Shen Lamson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10873",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "80",
+  "date": "22/11/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "LIN Shen Lamson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10399",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "20",
+  "date": "20/09/2026 - 26/09/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "NG Kwok Hung Kennedy",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10399",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "20",
+  "date": "18/10/2026 - 24/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "NG Kwok Hung Kennedy",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10399",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "20",
+  "date": "08/11/2026 - 21/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "NG Kwok Hung Kennedy",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10874",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "20",
+  "date": "20/09/2026 - 26/09/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "LIN Shen Lamson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10874",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "20",
+  "date": "18/10/2026 - 24/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "LIN Shen Lamson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10874",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "20",
+  "date": "08/11/2026 - 21/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "LIN Shen Lamson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "12192",
+  "section": "S63",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "20",
+  "date": "20/09/2026 - 26/09/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2407",
+  "instructor": "LIU Lai Yung Annie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "12192",
+  "section": "S63",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "20",
+  "date": "18/10/2026 - 24/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2407",
+  "instructor": "LIU Lai Yung Annie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "12192",
+  "section": "S63",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "20",
+  "date": "08/11/2026 - 21/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2407",
+  "instructor": "LIU Lai Yung Annie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "13244",
+  "section": "S64",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "20",
+  "date": "20/09/2026 - 26/09/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2409",
+  "instructor": "TAM Wai Yiu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "13244",
+  "section": "S64",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "20",
+  "date": "18/10/2026 - 24/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2409",
+  "instructor": "TAM Wai Yiu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "13244",
+  "section": "S64",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "20",
+  "date": "08/11/2026 - 21/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2409",
+  "instructor": "TAM Wai Yiu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ }
+]

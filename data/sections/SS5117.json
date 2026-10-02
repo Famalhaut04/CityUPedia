@@ -1,0 +1,230 @@
+[
+ {
+  "crn": "10747",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "80",
+  "date": "31/08/2026 - 03/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "KWAN Chi Kin",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10747",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "80",
+  "date": "18/10/2026 - 14/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "KWAN Chi Kin",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10748",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "16",
+  "date": "04/10/2026 - 17/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "KWAN Chi Kin",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10748",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "16",
+  "date": "15/11/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "KWAN Chi Kin",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10749",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "16",
+  "date": "04/10/2026 - 17/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "CHAN Yue Kuen E.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10749",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "16",
+  "date": "15/11/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "CHAN Yue Kuen E.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "12190",
+  "section": "S63",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "16",
+  "date": "04/10/2026 - 17/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2407",
+  "instructor": "LIU Lai Yung Annie",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "12190",
+  "section": "S63",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "16",
+  "date": "15/11/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2407",
+  "instructor": "LIU Lai Yung Annie",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "12475",
+  "section": "S64",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "16",
+  "date": "04/10/2026 - 17/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "KWOK Kim",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "12475",
+  "section": "S64",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "16",
+  "date": "15/11/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "KWOK Kim",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "13823",
+  "section": "S65",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "16",
+  "date": "04/10/2026 - 17/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "MA Yuk Ling",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "13823",
+  "section": "S65",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "16",
+  "date": "15/11/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "MA Yuk Ling",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ }
+]

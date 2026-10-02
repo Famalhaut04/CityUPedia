@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "11606",
+  "section": "D01",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "10:00 - 12:50",
+  "building": "",
+  "room": "",
+  "instructor": "MOK Louis Wai Yin, YOUNG Chi Man, LEE Youngsub, CHIU Tin Yan Titus",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CRIM"
+  ]
+ }
+]

@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "11185",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "BOC",
+  "room": "R4057",
+  "instructor": "FANG Meng",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSEGEV",
+   "only for Cohort: 2020, 2021, 2022, 2023, 2024, 2025, 2026"
+  ]
+ }
+]

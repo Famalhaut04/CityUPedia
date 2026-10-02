@@ -1,0 +1,56 @@
+[
+ {
+  "crn": "13375",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "87",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "18:00 - 20:50",
+  "building": "LI",
+  "room": "2614",
+  "instructor": "YAN Kit Ming I.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "13380",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "87",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "10:00 - 12:50",
+  "building": "CMC",
+  "room": "M5050",
+  "instructor": "YAN Kit Ming I.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "15433",
+  "section": "S03",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "86",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "13:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-12",
+  "instructor": "YAN Kit Ming I.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE"
+  ]
+ }
+]

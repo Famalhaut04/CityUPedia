@@ -1,0 +1,59 @@
+[
+ {
+  "crn": "14370",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "54",
+  "capacity": "54",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M1080",
+  "instructor": "OU Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P",
+   "only for Major: CTNF"
+  ]
+ },
+ {
+  "crn": "13846",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "54",
+  "capacity": "54",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M1080",
+  "instructor": "OU Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P",
+   "only for Major: CTNF"
+  ]
+ },
+ {
+  "crn": "15140",
+  "section": "C63",
+  "credits": 3,
+  "web": "Y",
+  "available": "54",
+  "capacity": "54",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M1080",
+  "instructor": "OU Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P",
+   "only for Major: CTNF"
+  ]
+ }
+]

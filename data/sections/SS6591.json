@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "15935",
+  "section": "D62",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "",
+  "room": "",
+  "instructor": "HO Wing Chung",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: SOCI"
+  ]
+ }
+]

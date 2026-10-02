@@ -1,0 +1,75 @@
+[
+ {
+  "crn": "12201",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "96",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "LI Menglong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "15269",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "CHOW Yuk Ting Hester",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "10677",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "94",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2614",
+  "instructor": "LI Menglong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "12937",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "4",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "LI Menglong",
+  "medium": "English",
+  "notes": [
+   "only for College: CB",
+   "only for Programme: EXGP"
+  ]
+ }
+]

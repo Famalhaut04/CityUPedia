@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12711",
+  "section": "D01",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "12:00 - 14:50",
+  "building": "LAU",
+  "room": "5-206",
+  "instructor": "TSUI Sara",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

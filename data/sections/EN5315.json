@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "13488",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "LAN Ge",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ },
+ {
+  "crn": "15123",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "TETTEH Gabriel",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ }
+]

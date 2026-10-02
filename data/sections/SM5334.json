@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "13466",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "OU Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM"
+  ]
+ },
+ {
+  "crn": "13467",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "OU Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ }
+]

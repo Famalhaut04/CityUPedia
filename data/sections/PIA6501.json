@@ -1,0 +1,114 @@
+[
+ {
+  "crn": "15103",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "11",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "HO Hung Chak Derrick",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSDS1"
+  ]
+ },
+ {
+  "crn": "15104",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "15",
+  "capacity": "15",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "HO Hung Chak Derrick",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM",
+   "only for Stream: SMC"
+  ]
+ },
+ {
+  "crn": "15105",
+  "section": "CC1",
+  "credits": 3,
+  "web": "Y",
+  "available": "15",
+  "capacity": "85",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "HO Hung Chak Derrick",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: UM1"
+  ]
+ },
+ {
+  "crn": "13140",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "HO Hung Chak Derrick",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSDS1"
+  ]
+ },
+ {
+  "crn": "13468",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "15",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "HO Hung Chak Derrick",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM",
+   "only for Stream: SMC"
+  ]
+ },
+ {
+  "crn": "13139",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "85",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "HO Hung Chak Derrick",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: UM1"
+  ]
+ }
+]

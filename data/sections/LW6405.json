@@ -1,0 +1,75 @@
+[
+ {
+  "crn": "10006",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "180",
+  "capacity": "180",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "YU Chen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "10103",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "8",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "YU Chen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1"
+  ]
+ },
+ {
+  "crn": "11458",
+  "section": "C63",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "YU Chen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13952",
+  "section": "C64",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "YU Chen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Cohort: 2025, 2026"
+  ]
+ }
+]

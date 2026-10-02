@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "11986",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "175",
+  "capacity": "175",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 16:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "YU Xinge, SHI Rui",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSBME1"
+  ]
+ },
+ {
+  "crn": "12019",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "175",
+  "capacity": "175",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "17:00 - 17:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "YU Xinge, SHI Rui",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSBME1"
+  ]
+ }
+]

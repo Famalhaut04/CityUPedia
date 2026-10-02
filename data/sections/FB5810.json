@@ -1,0 +1,124 @@
+[
+ {
+  "crn": "15469",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "21",
+  "capacity": "60",
+  "date": "04/10/2026 - 31/10/2026",
+  "day": "R",
+  "time": "10:00 - 12:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "CHEN Yangyang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15469",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "21",
+  "capacity": "60",
+  "date": "04/10/2026 - 31/10/2026",
+  "day": "R",
+  "time": "14:30 - 17:20",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "CHEN Yangyang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15470",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "15",
+  "capacity": "60",
+  "date": "04/10/2026 - 17/10/2026",
+  "day": "U",
+  "time": "10:00 - 12:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "CHEN Yangyang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15470",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "15",
+  "capacity": "60",
+  "date": "04/10/2026 - 17/10/2026",
+  "day": "U",
+  "time": "14:30 - 17:20",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "CHEN Yangyang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15470",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "15",
+  "capacity": "60",
+  "date": "25/10/2026 - 07/11/2026",
+  "day": "U",
+  "time": "10:00 - 12:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "CHEN Yangyang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15470",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "15",
+  "capacity": "60",
+  "date": "25/10/2026 - 07/11/2026",
+  "day": "U",
+  "time": "14:30 - 17:20",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "CHEN Yangyang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ }
+]

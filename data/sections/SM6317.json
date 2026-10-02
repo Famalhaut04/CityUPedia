@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "12209",
+  "section": "D61",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHARRIERAS Damien, REINHUBER Elke Evelin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, MFACM, SM/C, SM/M, SM/P",
+   "not for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "13017",
+  "section": "D63",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHARRIERAS Damien, REINHUBER Elke Evelin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, MFACM, SM/C, SM/M, SM/P"
+  ]
+ }
+]

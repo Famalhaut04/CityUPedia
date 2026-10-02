@@ -1,0 +1,94 @@
+[
+ {
+  "crn": "15143",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "13:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-15",
+  "instructor": "FANG Meng",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: ML"
+  ]
+ },
+ {
+  "crn": "15144",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "13:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-15",
+  "instructor": "FANG Meng",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: ML"
+  ]
+ },
+ {
+  "crn": "15145",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "13:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-15",
+  "instructor": "FANG Meng",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "15146",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "13:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-15",
+  "instructor": "FANG Meng",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "15147",
+  "section": "C05",
+  "credits": 3,
+  "web": "Y",
+  "available": "12",
+  "capacity": "15",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "13:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-15",
+  "instructor": "FANG Meng",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

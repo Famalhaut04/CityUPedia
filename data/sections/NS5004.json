@@ -1,0 +1,76 @@
+[
+ {
+  "crn": "12837",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "37",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "11:00 - 12:50",
+  "building": "BOC",
+  "room": "LT401",
+  "instructor": "LAI Kwok On, LIU Aijia Jessica, LIU Qiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1, NS2/P, VM/P"
+  ]
+ },
+ {
+  "crn": "12901",
+  "section": "L01",
+  "credits": 3,
+  "web": "Y",
+  "available": "37",
+  "capacity": "100",
+  "date": "20/09/2026 - 17/10/2026",
+  "day": "W",
+  "time": "14:00 - 16:50",
+  "building": "YEUNG",
+  "room": "P7816",
+  "instructor": "LAI Kwok On, SONG Jiaxing, LIN Jiahao, GUO Heng, FLORES Angelo D.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1",
+   "only for Programme: MSN1"
+  ]
+ },
+ {
+  "crn": "12901",
+  "section": "L01",
+  "credits": 3,
+  "web": "Y",
+  "available": "37",
+  "capacity": "100",
+  "date": "18/10/2026 - 14/11/2026",
+  "day": "W",
+  "time": "14:00 - 16:50",
+  "building": "YEUNG",
+  "room": "G2540",
+  "instructor": "LAI Kwok On, SONG Jiaxing, LIN Jiahao, GUO Heng, FLORES Angelo D.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1",
+   "only for Programme: MSN1"
+  ]
+ },
+ {
+  "crn": "12838",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "37",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "18:00 - 18:50",
+  "building": "YEUNG",
+  "room": "LT-15",
+  "instructor": "LAI Kwok On, LIU Aijia Jessica, LIU Qiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1"
+  ]
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "10866",
+  "section": "CQ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "28",
+  "capacity": "185",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "14:00 - 16:50",
+  "building": "ICP",
+  "room": "B-101",
+  "instructor": "CHIU Francesca",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSDS1"
+  ]
+ }
+]

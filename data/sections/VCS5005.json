@@ -1,0 +1,50 @@
+[
+ {
+  "crn": "15232",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "14:00 - 17:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "TSE Pui Ying May",
+  "medium": "English",
+  "notes": []
+ },
+ {
+  "crn": "15498",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 12:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "TSE Pui Ying May",
+  "medium": "English",
+  "notes": []
+ },
+ {
+  "crn": "15493",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 12:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "TSE Pui Ying May",
+  "medium": "English",
+  "notes": []
+ }
+]

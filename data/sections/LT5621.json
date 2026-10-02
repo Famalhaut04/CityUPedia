@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "13478",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-15",
+  "instructor": "CHEUNG Anthea",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "13019",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "90",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-15",
+  "instructor": "CHEUNG Anthea",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: TI"
+  ]
+ }
+]

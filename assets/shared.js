@@ -57,18 +57,36 @@
         if (!response.ok) throw new Error(`数据读取失败：${url}`);
         return response.json();
       });
+      // 课程数已超千门，一次性并发拉取全部 sections/reviews 会触发浏览器
+      // 并发连接上限（net::ERR_INSUFFICIENT_RESOURCES / Failed to fetch），
+      // 改用小并发池顺序消化，总耗时增加约 1–2 秒但加载稳定。
+      const mapPool = (items, limit, worker) => {
+        const results = new Array(items.length);
+        let next = 0;
+        const runNext = () => {
+          if (next >= items.length) return Promise.resolve();
+          const i = next++;
+          return Promise.resolve(worker(items[i], i)).then((value) => {
+            results[i] = value;
+            return runNext();
+          });
+        };
+        return Promise.all(
+          Array.from({ length: Math.min(limit, items.length) }, runNext)
+        ).then(() => results);
+      };
       courseDataPromise = Promise.all([
         getJson("data/courses/index.json"),
         getJson("data/sources.json")
       ]).then(([index, sources]) => Promise.all([
-        Promise.all(index.courses.map((course) => Promise.all([
+        mapPool(index.courses, 24, (course) => Promise.all([
           getJson(`data/sections/${encodeURIComponent(course.code)}.json`),
           getJson(`data/reviews/${encodeURIComponent(course.code)}.json`)
         ]).then(([eligibleSections, recommendation]) => ({
           ...course,
           eligible_sections: eligibleSections,
           recommendation
-        })))),
+        }))),
         Promise.all(Object.keys(sources).map((sourceId) =>
           getJson(`data/source-reviews/${encodeURIComponent(sourceId)}.json`)
             .then((sourceReview) => [sourceId, sourceReview])
@@ -1285,7 +1303,7 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-schedule-update-20260916") === "dismissed") return;
+      if (localStorage.getItem("cityu-schedule-update-20261003") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const isEn = getStoredLang() === "en";
     const notice = document.createElement("div");
@@ -1293,16 +1311,16 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "College of Engineering Added — v1.3.0 (Sep 16)" : "工学院课程全量接入 · v1.3.0（9/16）") + '</strong>' +
+        '<strong>' + (isEn ? "All 8 Colleges Added — v1.4.0 (Oct 3)" : "全校八大学院接入 · v1.4.0（10/3）") + '</strong>' +
         '<span>' + (isEn
-          ? "13 official master's programmes across the College of Engineering (Architecture & Civil, Electrical, Materials, Mechanical, Systems) with 183 new courses, all verified against the official 2026/27 catalogue; 96 courses include Semester A timetables. Courses not offered in 2026/27 are excluded from the planner; cross-listed courses now show all affiliated programmes."
-          : "新增工学院 5 系 13 个官方硕士项目（建筑及土木、电机、材料、机械、系统）与 183 门课程，全部经城大官方 2026/27 目录核对，其中 96 门已带 Semester A 班次；官方标注本学年不开设的课程已从排课系统剔除；跨院共用的课程现会显示全部所属项目。") +
+          ? "47 more official taught master's programmes across Business, Liberal Arts & Social Sciences, Science, Biomedicine, Veterinary Medicine, Creative Media, Energy & Environment, and Law — 959 new course entries (1,381 total), every curriculum verified against the official 2026/27 catalogue page by page; 376 new courses already carry Semester A AIMS sections. Course loading now streams through a concurrency pool to stay stable at this scale."
+          : "新增商学院、人文社会科学院、理学院、生物医学院、兽医学及生命科学院、创意媒体学院、能源及环境学院、法律学院共 47 个官方硕士项目，新增 959 门课程条目（全站 1,381 门），培养方案逐项对照官方 2026/27 目录核对；其中 376 门已带 Semester A AIMS 班次。课程数据加载改为并发池分批拉取，千门规模下依旧稳定。") +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-schedule-update-20260916", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-schedule-update-20261003", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }

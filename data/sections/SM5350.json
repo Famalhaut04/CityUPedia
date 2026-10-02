@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "14006",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 11:50",
+  "building": "CMC",
+  "room": "M6042",
+  "instructor": "HOLOPAINEN Jussi Pekka",
+  "medium": "English",
+  "notes": [
+   "only for Major: CGAM"
+  ]
+ }
+]

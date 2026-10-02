@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "13228",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-17",
+  "instructor": "AKARTUNA Eray Arda",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CRIM"
+  ]
+ },
+ {
+  "crn": "13229",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-17",
+  "instructor": "AKARTUNA Eray Arda",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: SOCI"
+  ]
+ }
+]

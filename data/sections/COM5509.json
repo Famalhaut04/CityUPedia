@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "14253",
+  "section": "CM1",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M5055",
+  "instructor": "HE Joe",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIMC"
+  ]
+ },
+ {
+  "crn": "10981",
+  "section": "CM2",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M5055",
+  "instructor": "HE Joe",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIMC"
+  ]
+ },
+ {
+  "crn": "14937",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M5055",
+  "instructor": "HE Joe",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ },
+ {
+  "crn": "14934",
+  "section": "CN2",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M5055",
+  "instructor": "HE Joe",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ }
+]

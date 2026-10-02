@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "15730",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M4001",
+  "instructor": "JONES Rhys Gareth",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ },
+ {
+  "crn": "10991",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M6094",
+  "instructor": "LEINO Olli Tapio",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ },
+ {
+  "crn": "15731",
+  "section": "CA2",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M4001",
+  "instructor": "JONES Rhys Gareth",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM"
+  ]
+ },
+ {
+  "crn": "11536",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M6094",
+  "instructor": "LEINO Olli Tapio",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM"
+  ]
+ }
+]

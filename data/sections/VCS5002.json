@@ -1,0 +1,50 @@
+[
+ {
+  "crn": "14696",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 12:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "BECZKOWSKI Pawel Marek",
+  "medium": "English",
+  "notes": []
+ },
+ {
+  "crn": "15497",
+  "section": "L01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "13:00 - 13:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "BECZKOWSKI Pawel Marek",
+  "medium": "English",
+  "notes": []
+ },
+ {
+  "crn": "14699",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 12:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "BECZKOWSKI Pawel Marek",
+  "medium": "English",
+  "notes": []
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "14160",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1301",
+  "instructor": "CHEUNG Lik Kwan",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ },
+ {
+  "crn": "15511",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "P4703",
+  "instructor": "CHEUNG Lik Kwan",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

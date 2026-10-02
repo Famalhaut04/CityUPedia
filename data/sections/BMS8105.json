@@ -1,0 +1,110 @@
+[
+ {
+  "crn": "12725",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "11:00 - 12:50",
+  "building": "YEUNG",
+  "room": "LT-13",
+  "instructor": "LO Pui Chi, ZHOU Xiaoyu, YIN Huiyong, CHOW Kwan Ting",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BMS3/M, BMS3/P, VM/P"
+  ]
+ },
+ {
+  "crn": "13106",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "11:00 - 12:50",
+  "building": "YEUNG",
+  "room": "LT-13",
+  "instructor": "LO Pui Chi, ZHOU Xiaoyu, YIN Huiyong, CHOW Kwan Ting",
+  "medium": "English",
+  "notes": [
+   "only for Programme: PH/P, VCS/P"
+  ]
+ },
+ {
+  "crn": "14736",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "39",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "11:00 - 12:50",
+  "building": "YEUNG",
+  "room": "LT-13",
+  "instructor": "CHOW Kwan Ting, YIN Huiyong, ZHOU Xiaoyu, LO Pui Chi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSHSB, MSHSM1"
+  ]
+ },
+ {
+  "crn": "12033",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "13:00 - 13:50",
+  "building": "YEUNG",
+  "room": "LT-13",
+  "instructor": "LO Pui Chi, ZHOU Xiaoyu, YIN Huiyong, CHOW Kwan Ting",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BMS3/M, BMS3/P, VM/P"
+  ]
+ },
+ {
+  "crn": "13107",
+  "section": "TA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "13:00 - 13:50",
+  "building": "YEUNG",
+  "room": "LT-13",
+  "instructor": "LO Pui Chi, ZHOU Xiaoyu, YIN Huiyong, CHOW Kwan Ting",
+  "medium": "English",
+  "notes": [
+   "only for Programme: PH/P, VCS/P"
+  ]
+ },
+ {
+  "crn": "14738",
+  "section": "TB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "39",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "13:00 - 13:50",
+  "building": "YEUNG",
+  "room": "LT-13",
+  "instructor": "CHOW Kwan Ting, YIN Huiyong, ZHOU Xiaoyu, LO Pui Chi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSHSB, MSHSM1"
+  ]
+ }
+]

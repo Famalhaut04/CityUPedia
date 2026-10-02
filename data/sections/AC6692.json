@@ -1,0 +1,140 @@
+[
+ {
+  "crn": "12359",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "62",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "5-203",
+  "instructor": "LAM Charles",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ },
+ {
+  "crn": "12359",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "62",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "6-212",
+  "instructor": "LAM Charles",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ },
+ {
+  "crn": "12359",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "62",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "5012",
+  "instructor": "LAM Charles",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ },
+ {
+  "crn": "15243",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "62",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "5-206",
+  "instructor": "CHAN Louise",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ },
+ {
+  "crn": "15243",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "62",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "6-211",
+  "instructor": "CHAN Louise",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ },
+ {
+  "crn": "15243",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "62",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2614",
+  "instructor": "CHAN Louise",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG",
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ }
+]

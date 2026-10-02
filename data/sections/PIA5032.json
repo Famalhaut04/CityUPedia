@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12253",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "EUDON Tshering",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIS"
+  ]
+ },
+ {
+  "crn": "12254",
+  "section": "CQ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "22",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "EUDON Tshering",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSDS1"
+  ]
+ }
+]

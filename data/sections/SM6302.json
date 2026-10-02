@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "15761",
+  "section": "C01",
+  "credits": 6,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M6042",
+  "instructor": "REINHUBER Elke Evelin",
+  "medium": "English",
+  "notes": [
+   "only for Major: CR1",
+   "only for Major: CR1"
+  ]
+ },
+ {
+  "crn": "15761",
+  "section": "C01",
+  "credits": 6,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M7098",
+  "instructor": "REINHUBER Elke Evelin",
+  "medium": "English",
+  "notes": [
+   "only for Major: CR1",
+   "only for Major: CR1"
+  ]
+ }
+]

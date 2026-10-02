@@ -1,0 +1,59 @@
+[
+ {
+  "crn": "15368",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "18",
+  "capacity": "18",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "18:00 - 20:50",
+  "building": "CMC",
+  "room": "M7056",
+  "instructor": "ZHU Kening",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "only for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "15372",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "17",
+  "capacity": "17",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "18:00 - 20:50",
+  "building": "CMC",
+  "room": "M7056",
+  "instructor": "ZHU Kening",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "only for Cohort: 2025"
+  ]
+ },
+ {
+  "crn": "15371",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "18:00 - 20:50",
+  "building": "CMC",
+  "room": "M7056",
+  "instructor": "ZHU Kening",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM",
+   "only for Cohort: 2025, 2026"
+  ]
+ }
+]

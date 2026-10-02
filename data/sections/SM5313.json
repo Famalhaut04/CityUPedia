@@ -1,0 +1,124 @@
+[
+ {
+  "crn": "13223",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "17",
+  "capacity": "17",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M1052",
+  "instructor": "QU Vvzela",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "only for Cohort: 2026",
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "only for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "13223",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "17",
+  "capacity": "17",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M6052",
+  "instructor": "QU Vvzela",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "only for Cohort: 2026",
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "only for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "13224",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "17",
+  "capacity": "17",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M1052",
+  "instructor": "QU Vvzela",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "not for Cohort: 2026",
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "not for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "13224",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "17",
+  "capacity": "17",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M6052",
+  "instructor": "QU Vvzela",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "not for Cohort: 2026",
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "not for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "13225",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "4",
+  "capacity": "4",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M1052",
+  "instructor": "QU Vvzela",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM",
+   "only for Programme: MACM"
+  ]
+ },
+ {
+  "crn": "13225",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "4",
+  "capacity": "4",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M6052",
+  "instructor": "QU Vvzela",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM",
+   "only for Programme: MACM"
+  ]
+ }
+]

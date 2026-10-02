@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "11282",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "200",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "TSANG Yuk Ha Eileen, YOUNG Chi Man, LEE Doris",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: SOCI"
+  ]
+ },
+ {
+  "crn": "11283",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "TSANG Yuk Ha Eileen, YOUNG Chi Man, LEE Doris",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CRIM"
+  ]
+ }
+]

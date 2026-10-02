@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "15139",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "16",
+  "capacity": "16",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "ZHAO Shengdong",
+  "medium": "English",
+  "notes": [
+   "only for Major: CHCI",
+   "only for Cohort: 2025"
+  ]
+ }
+]

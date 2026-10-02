@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "15242",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "ICP",
+  "room": "LG-101",
+  "instructor": "WANG Stacy",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ },
+ {
+  "crn": "10847",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "4",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-7",
+  "instructor": "WANG Stacy",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ }
+]

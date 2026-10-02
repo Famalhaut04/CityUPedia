@@ -1,0 +1,92 @@
+[
+ {
+  "crn": "10207",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 13:50",
+  "building": "MMW",
+  "room": "3420",
+  "instructor": "TSUI Sara, TBA LW110",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10208",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 09:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "TSUI Sara",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10209",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "10:00 - 10:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "TSUI Sara",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10375",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "11:00 - 11:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "TSUI Sara",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13914",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 09:50",
+  "building": "LI",
+  "room": "1400",
+  "instructor": "TSUI Sara",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

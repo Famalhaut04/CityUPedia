@@ -1,0 +1,110 @@
+[
+ {
+  "crn": "11646",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "135",
+  "capacity": "135",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "18:00 - 19:50",
+  "building": "YEUNG",
+  "room": "LT-2",
+  "instructor": "PASCOE Daniel C., LI Enshen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10164",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "14:00 - 15:50",
+  "building": "LI",
+  "room": "1402",
+  "instructor": "NG Wai Hei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10165",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "17:00 - 18:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "TBA LW107",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "12189",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 20:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "TBA LW107",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "12615",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 17:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "NG Wai Hei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "15062",
+  "section": "T05",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 20:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "NG Wai Hei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

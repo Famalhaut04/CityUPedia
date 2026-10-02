@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15380",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "81",
+  "capacity": "81",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M4001",
+  "instructor": "JONES Rhys Gareth",
+  "medium": "English",
+  "notes": [
+   "only for Major: CINF"
+  ]
+ },
+ {
+  "crn": "14011",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "81",
+  "capacity": "81",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M4001",
+  "instructor": "JONES Rhys Gareth",
+  "medium": "English",
+  "notes": [
+   "only for Major: CINF"
+  ]
+ }
+]

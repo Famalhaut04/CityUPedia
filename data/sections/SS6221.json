@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "13269",
+  "section": "S61",
+  "credits": 0.5,
+  "web": "Y",
+  "available": "2",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "Y5-204",
+  "instructor": "YEUNG Ka Man Caren",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW2",
+   "only for Cohort: 2025"
+  ]
+ }
+]

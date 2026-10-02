@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "10611",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B5-210",
+  "instructor": "LEE Hiu Yen Klaudia",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ }
+]

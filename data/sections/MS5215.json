@@ -1,0 +1,309 @@
+[
+ {
+  "crn": "11308",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "14050",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "14054",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "42",
+  "capacity": "42",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "15197",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "45",
+  "capacity": "45",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "ZHANG Chaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "12934",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "ZHANG Chaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "12573",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "16",
+  "capacity": "16",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "14049",
+  "section": "CA2",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIB"
+  ]
+ },
+ {
+  "crn": "14051",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "13",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "14052",
+  "section": "CB2",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "24",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIB"
+  ]
+ },
+ {
+  "crn": "14055",
+  "section": "CC1",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "13",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "14056",
+  "section": "CC2",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "28",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "LI Hanwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIB"
+  ]
+ },
+ {
+  "crn": "15202",
+  "section": "CD1",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "13",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "ZHANG Chaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "15203",
+  "section": "CD2",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "23",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "ZHANG Chaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIB"
+  ]
+ },
+ {
+  "crn": "15198",
+  "section": "CD3",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "ZHANG Chaoyu",
+  "medium": "English",
+  "notes": [
+   "only for College: CB",
+   "only for Programme: EXGP"
+  ]
+ },
+ {
+  "crn": "15204",
+  "section": "CD4",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "3",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "ZHANG Chaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF, MSFE"
+  ]
+ },
+ {
+  "crn": "13387",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "15",
+  "capacity": "15",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "ZHANG Chaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "13389",
+  "section": "CP2",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "ZHANG Chaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF, MSFE"
+  ]
+ }
+]

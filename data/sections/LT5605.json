@@ -1,0 +1,78 @@
+[
+ {
+  "crn": "13129",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "24",
+  "capacity": "24",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "5145",
+  "instructor": "YAN Xiu",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: TI"
+  ]
+ },
+ {
+  "crn": "13528",
+  "section": "CN2",
+  "credits": 3,
+  "web": "Y",
+  "available": "24",
+  "capacity": "24",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "5145",
+  "instructor": "CHEUNG Anthea",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: TI"
+  ]
+ },
+ {
+  "crn": "11450",
+  "section": "CN3",
+  "credits": 3,
+  "web": "Y",
+  "available": "24",
+  "capacity": "24",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "5145",
+  "instructor": "ZHAO Hang",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: TI"
+  ]
+ },
+ {
+  "crn": "10362",
+  "section": "CN4",
+  "credits": 3,
+  "web": "Y",
+  "available": "24",
+  "capacity": "24",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "5145",
+  "instructor": "ZHAO Hang",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: TI"
+  ]
+ }
+]

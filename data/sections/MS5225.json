@@ -1,0 +1,75 @@
+[
+ {
+  "crn": "13409",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "104",
+  "capacity": "104",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "G7510",
+  "instructor": "ZHANG Qingkai",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "13407",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B7701",
+  "instructor": "ZHANG Qingkai",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "13408",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "2",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B7701",
+  "instructor": "ZHANG Qingkai",
+  "medium": "English",
+  "notes": [
+   "only for College: CB",
+   "only for Programme: EXGP"
+  ]
+ },
+ {
+  "crn": "15268",
+  "section": "CP2",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B7701",
+  "instructor": "ZHANG Qingkai",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ }
+]

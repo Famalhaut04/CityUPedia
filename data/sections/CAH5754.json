@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12601",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "SHI Ying",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

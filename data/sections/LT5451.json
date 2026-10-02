@@ -1,0 +1,76 @@
+[
+ {
+  "crn": "14910",
+  "section": "CM1",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "LEE Tsz Ming Tommy",
+  "medium": "English & Putonghua",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "14911",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "205",
+  "capacity": "205",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "LEE Tsz Ming Tommy",
+  "medium": "English & Putonghua",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: PL"
+  ]
+ },
+ {
+  "crn": "13192",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-12",
+  "instructor": "LEE Tsz Ming Tommy",
+  "medium": "English & Putonghua",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "13193",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "115",
+  "capacity": "115",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-12",
+  "instructor": "LEE Tsz Ming Tommy",
+  "medium": "English & Putonghua",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: PL"
+  ]
+ }
+]

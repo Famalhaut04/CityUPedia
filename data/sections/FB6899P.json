@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "14583",
+  "section": "S01",
+  "credits": 1,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "JIN Jiafei",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(P)"
+  ]
+ },
+ {
+  "crn": "14584",
+  "section": "S02",
+  "credits": 1,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "JIN Jiafei",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(P)"
+  ]
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "crn": "13543",
+  "section": "C01",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/09/2026",
+  "day": "R",
+  "time": "16:00 - 18:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "HARPER HO Virginia",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4",
+   "only for Programme: JD4",
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13543",
+  "section": "C01",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/09/2026",
+  "day": "W",
+  "time": "16:00 - 18:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "HARPER HO Virginia",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4",
+   "only for Programme: JD4",
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13543",
+  "section": "C01",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 26/09/2026",
+  "day": "S",
+  "time": "13:00 - 18:50",
+  "building": "YEUNG",
+  "room": "LT-10",
+  "instructor": "HARPER HO Virginia",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4",
+   "only for Programme: JD4",
+   "only for Programme: JD4"
+  ]
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "10444",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "38",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "4109",
+  "instructor": "YEUNG Wai Keung Jerf",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ },
+ {
+  "crn": "10444",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "38",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "4208",
+  "instructor": "YEUNG Wai Keung Jerf",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "only for Programme: MSW, MSW2"
+  ]
+ }
+]

@@ -1,0 +1,22 @@
+[
+ {
+  "crn": "15135",
+  "section": "C07",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "204",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "ZHOU Michelle Meixiang",
+  "medium": "Chinese",
+  "notes": [
+   "only for College: CH",
+   "only for Programme: MSSCSL",
+   "only for Cohort: 2026"
+  ]
+ }
+]

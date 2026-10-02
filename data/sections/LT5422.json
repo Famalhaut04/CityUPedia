@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "14833",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "48",
+  "capacity": "48",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "LEWIS Ashley Glen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "14834",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "55",
+  "capacity": "55",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "LEWIS Ashley Glen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: CEL"
+  ]
+ }
+]

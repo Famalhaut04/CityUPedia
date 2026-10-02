@@ -1,0 +1,94 @@
+[
+ {
+  "crn": "12171",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "ZAMIR Noam",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: IEL"
+  ]
+ },
+ {
+  "crn": "13933",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "29",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "ZAMIR Noam",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: IEL"
+  ]
+ },
+ {
+  "crn": "12172",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "ZAMIR Noam",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "12173",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "ZAMIR Noam",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "14783",
+  "section": "C05",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "ZAMIR Noam",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

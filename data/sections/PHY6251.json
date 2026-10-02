@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "11934",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 20:50",
+  "building": "LAU",
+  "room": "5-207",
+  "instructor": "LI Xiao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ },
+ {
+  "crn": "11935",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "21:00 - 21:50",
+  "building": "LAU",
+  "room": "5-207",
+  "instructor": "LI Xiao, DU Wenju",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ }
+]

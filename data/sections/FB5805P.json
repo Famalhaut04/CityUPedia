@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12026",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LI Yanzhi David",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(P)"
+  ]
+ },
+ {
+  "crn": "13588",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LI Yanzhi David",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(P)"
+  ]
+ }
+]

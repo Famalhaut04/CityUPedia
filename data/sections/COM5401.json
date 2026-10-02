@@ -1,0 +1,92 @@
+[
+ {
+  "crn": "14899",
+  "section": "CM1",
+  "credits": 3,
+  "web": "Y",
+  "available": "90",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "10:00 - 12:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "FAI Ringo",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIMC"
+  ]
+ },
+ {
+  "crn": "11164",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "FAI Ringo",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ },
+ {
+  "crn": "14322",
+  "section": "CX2",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "FAI Ringo",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ },
+ {
+  "crn": "10194",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "FAI Ringo",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIMC"
+  ]
+ },
+ {
+  "crn": "14323",
+  "section": "CY2",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "FAI Ringo",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIMC"
+  ]
+ }
+]

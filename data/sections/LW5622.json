@@ -1,0 +1,110 @@
+[
+ {
+  "crn": "10381",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "130",
+  "capacity": "130",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "14:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "PASCOE Daniel C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10833",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "18:00 - 18:50",
+  "building": "YEUNG",
+  "room": "Y5-304",
+  "instructor": "TBA LW102",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10834",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 19:50",
+  "building": "YEUNG",
+  "room": "Y5-304",
+  "instructor": "TBA LW102",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10835",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 19:50",
+  "building": "YEUNG",
+  "room": "Y5-303",
+  "instructor": "NANWANI Mahesh Kalachand",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13289",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "18:00 - 18:50",
+  "building": "YEUNG",
+  "room": "Y5-303",
+  "instructor": "NANWANI Mahesh Kalachand",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13911",
+  "section": "T05",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "18:00 - 18:50",
+  "building": "YEUNG",
+  "room": "Y5-302",
+  "instructor": "TBA LW102",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

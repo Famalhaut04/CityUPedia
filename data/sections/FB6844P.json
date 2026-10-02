@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12713",
+  "section": "S01",
+  "credits": 1,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "WANG Long",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(P)"
+  ]
+ },
+ {
+  "crn": "13590",
+  "section": "S02",
+  "credits": 1,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LAM Kwok Yee W.",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(P)"
+  ]
+ }
+]

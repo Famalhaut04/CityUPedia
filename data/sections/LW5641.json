@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12069",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1406",
+  "instructor": "CHEN Yang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

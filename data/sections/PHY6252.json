@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "13923",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "13:00 - 14:50",
+  "building": "LI",
+  "room": "1410",
+  "instructor": "LI Haixing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ },
+ {
+  "crn": "13926",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 15:50",
+  "building": "LI",
+  "room": "1410",
+  "instructor": "LI Haixing, CHENG Yaran, ZHANG Yihao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ }
+]

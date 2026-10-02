@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "11932",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 16:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "ZHANG Zhedong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ },
+ {
+  "crn": "11933",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "17:00 - 17:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "ZHANG Zhedong, XIA Xiaodan, ZHANG Mingran",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ }
+]

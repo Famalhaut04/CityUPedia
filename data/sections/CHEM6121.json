@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "11091",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "31",
+  "capacity": "220",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 20:50",
+  "building": "CMC",
+  "room": "M3017",
+  "instructor": "LY Thuc Hue, FAN Zhanxi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: CHEM2/P, MSCHEM1"
+  ]
+ },
+ {
+  "crn": "11540",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "31",
+  "capacity": "220",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "21:00 - 21:50",
+  "building": "CMC",
+  "room": "M3017",
+  "instructor": "LY Thuc Hue, FAN Zhanxi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: CHEM2/P, MSCHEM1"
+  ]
+ }
+]

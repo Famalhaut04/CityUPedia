@@ -1,0 +1,75 @@
+[
+ {
+  "crn": "12941",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "1406",
+  "instructor": "CHEN Youhua F., ZHANG Yue",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "14131",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "72",
+  "capacity": "72",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 14:50",
+  "building": "YEUNG",
+  "room": "LT-9",
+  "instructor": "CHEN Youhua F., ZHANG Yue",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "13391",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "78",
+  "capacity": "78",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-7",
+  "instructor": "CHEN Youhua F., ZHANG Yue",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "14133",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "3",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-7",
+  "instructor": "CHEN Youhua F., ZHANG Yue",
+  "medium": "English",
+  "notes": [
+   "only for College: CB",
+   "only for Programme: EXGP"
+  ]
+ }
+]

@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "15589",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "08/11/2026 - 12/12/2026",
+  "day": "U",
+  "time": "09:00 - 12:30",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "CHOI Tina",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15589",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "08/11/2026 - 12/12/2026",
+  "day": "U",
+  "time": "14:00 - 18:00",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "CHOI Tina",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ }
+]

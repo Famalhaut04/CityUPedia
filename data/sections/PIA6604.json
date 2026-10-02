@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12722",
+  "section": "CX1",
+  "credits": 1,
+  "web": "Y",
+  "available": "6",
+  "capacity": "30",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "14:00 - 15:50",
+  "building": "LI",
+  "room": "1404",
+  "instructor": "PETROVSKY Nicolai",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM"
+  ]
+ }
+]

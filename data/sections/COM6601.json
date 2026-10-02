@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "13183",
+  "section": "DM1",
+  "credits": 1,
+  "web": "Y",
+  "available": "140",
+  "capacity": "140",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "JIANG Li Crystal",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIMC"
+  ]
+ },
+ {
+  "crn": "13185",
+  "section": "DM2",
+  "credits": 1,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "SHEN Fei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIMC"
+  ]
+ },
+ {
+  "crn": "12440",
+  "section": "DN1",
+  "credits": 1,
+  "web": "Y",
+  "available": "140",
+  "capacity": "140",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LEE Edmund",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ },
+ {
+  "crn": "13184",
+  "section": "DN2",
+  "credits": 1,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "SHEN Fei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ }
+]

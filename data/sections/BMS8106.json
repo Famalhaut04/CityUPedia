@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "13108",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LEE Youngjin, BAN Kiwon",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BMS3/M, BMS3/P, VM/P"
+  ]
+ },
+ {
+  "crn": "13109",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "15",
+  "capacity": "15",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LEE Youngjin, BAN Kiwon",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1"
+  ]
+ },
+ {
+  "crn": "14257",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LEE Youngjin, BAN Kiwon",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSHSB"
+  ]
+ },
+ {
+  "crn": "14744",
+  "section": "CC1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LEE Youngjin, BAN Kiwon",
+  "medium": "English",
+  "notes": [
+   "only for Programme: NS2/M, NS2/P, PH/P, VCS/P"
+  ]
+ }
+]

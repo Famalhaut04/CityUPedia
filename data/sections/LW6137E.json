@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "11895",
+  "section": "D01",
+  "credits": 6,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "1400",
+  "instructor": "HE Tianxiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLM3, LLM3-P1"
+  ]
+ },
+ {
+  "crn": "12048",
+  "section": "D02",
+  "credits": 6,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "1402",
+  "instructor": "HE Tianxiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLM3, LLM3-P1"
+  ]
+ }
+]

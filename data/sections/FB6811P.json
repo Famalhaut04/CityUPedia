@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12053",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "YANG Haibin",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(P)"
+  ]
+ },
+ {
+  "crn": "13589",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CAO Yangfeng",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(P)"
+  ]
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "crn": "13283",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "10:00 - 11:50",
+  "building": "BOC",
+  "room": "R4057",
+  "instructor": "LEUNG Mei Fun P., YU Chen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13284",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "10:00 - 10:50",
+  "building": "LAU",
+  "room": "6-211",
+  "instructor": "LEUNG Mei Fun P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13285",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "11:00 - 11:50",
+  "building": "LAU",
+  "room": "6-211",
+  "instructor": "LEUNG Mei Fun P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13286",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "12:00 - 12:50",
+  "building": "LAU",
+  "room": "6-211",
+  "instructor": "LEUNG Mei Fun P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13322",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "14:00 - 14:50",
+  "building": "LAU",
+  "room": "6-211",
+  "instructor": "LEUNG Mei Fun P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

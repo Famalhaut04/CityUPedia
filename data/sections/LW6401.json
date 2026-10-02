@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "10005",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "180",
+  "capacity": "180",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "BOC",
+  "room": "R4057",
+  "instructor": "TO Wing C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "14182",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "BOC",
+  "room": "R4057",
+  "instructor": "TO Wing C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Cohort: 2025, 2026"
+  ]
+ }
+]

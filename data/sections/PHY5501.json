@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "11929",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2301",
+  "instructor": "LI Danfeng Denver",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ },
+ {
+  "crn": "11931",
+  "section": "L61",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LI Danfeng Denver, LIU Jianhao, CHEN Jiashun, ZHANG Yangqian, ZHANG Weiran",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ }
+]

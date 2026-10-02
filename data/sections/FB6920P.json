@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "13093",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHEN Lei",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(T)"
+  ]
+ },
+ {
+  "crn": "13094",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "15",
+  "capacity": "15",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHEN Lei",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: EMBA(T)"
+  ]
+ }
+]

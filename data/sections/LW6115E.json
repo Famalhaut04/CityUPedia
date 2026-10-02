@@ -1,0 +1,94 @@
+[
+ {
+  "crn": "12070",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "HE Tianxiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: CCL, IPTL"
+  ]
+ },
+ {
+  "crn": "13931",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "HE Tianxiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: CCL, IPTL"
+  ]
+ },
+ {
+  "crn": "12071",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "HE Tianxiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "12072",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "HE Tianxiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "14778",
+  "section": "C05",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "HE Tianxiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: PGCPL"
+  ]
+ }
+]

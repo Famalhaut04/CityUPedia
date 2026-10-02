@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "15187",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "TAM Tsz Lun Alan",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CMHP"
+  ]
+ }
+]

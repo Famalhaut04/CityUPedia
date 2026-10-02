@@ -1,0 +1,92 @@
+[
+ {
+  "crn": "10641",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "O'DONOVAN James",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF"
+  ]
+ },
+ {
+  "crn": "13363",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "4",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "O'DONOVAN James",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF"
+  ]
+ },
+ {
+  "crn": "15450",
+  "section": "S03",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "75",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "O'DONOVAN James",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFE"
+  ]
+ },
+ {
+  "crn": "10642",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "94",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "O'DONOVAN James",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF"
+  ]
+ },
+ {
+  "crn": "15449",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "77",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "LI Tao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFE"
+  ]
+ }
+]

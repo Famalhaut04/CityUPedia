@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "14187",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M6094",
+  "instructor": "PARK Ji Yun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ }
+]

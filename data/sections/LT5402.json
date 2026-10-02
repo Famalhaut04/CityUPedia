@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "12762",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "LAI Jackie Yan-Ki",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "12763",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "200",
+  "capacity": "200",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "LAI Jackie Yan-Ki",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: GL"
+  ]
+ }
+]

@@ -1,0 +1,58 @@
+[
+ {
+  "crn": "10182",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "140",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "YUEN Yammi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "10274",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "12",
+  "capacity": "12",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "YUEN Yammi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "not for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "13825",
+  "section": "CQ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "16",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "YUEN Yammi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CMHP"
+  ]
+ }
+]

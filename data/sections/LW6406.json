@@ -1,0 +1,400 @@
+[
+ {
+  "crn": "10007",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "90",
+  "capacity": "90",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "ICP",
+  "room": "G-102",
+  "instructor": "TO Wing C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "10007",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "90",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "ICP",
+  "room": "G-102",
+  "instructor": "TO Wing C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "15150",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "90",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "ICP",
+  "room": "G-102",
+  "instructor": "TBA LW107",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12073",
+  "section": "SP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2413",
+  "instructor": "TBA LW103",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12073",
+  "section": "SP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2413",
+  "instructor": "TBA LW103",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12074",
+  "section": "SP2",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2108",
+  "instructor": "TBA LW104",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12074",
+  "section": "SP2",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2108",
+  "instructor": "TBA LW104",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12075",
+  "section": "SP3",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2306",
+  "instructor": "TBA LW105",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12075",
+  "section": "SP3",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2306",
+  "instructor": "TBA LW105",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12076",
+  "section": "SP4",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2308",
+  "instructor": "TBA LW102",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12076",
+  "section": "SP4",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2308",
+  "instructor": "TBA LW102",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12077",
+  "section": "SP5",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2310",
+  "instructor": "TBA LW106",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12077",
+  "section": "SP5",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2310",
+  "instructor": "TBA LW106",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12078",
+  "section": "SP6",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2312",
+  "instructor": "TBA LW107",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12078",
+  "section": "SP6",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2312",
+  "instructor": "TBA LW107",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12079",
+  "section": "SP7",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "TBA LW108",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12079",
+  "section": "SP7",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "TBA LW108",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12080",
+  "section": "SP8",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2407",
+  "instructor": "TBA LW109",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12080",
+  "section": "SP8",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2407",
+  "instructor": "TBA LW109",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12081",
+  "section": "SP9",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2409",
+  "instructor": "TBA LW110",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ },
+ {
+  "crn": "12081",
+  "section": "SP9",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "U",
+  "time": "09:00 - 18:50",
+  "building": "LI",
+  "room": "2409",
+  "instructor": "TBA LW110",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, LLMARBDR",
+   "only for Programme: JD4, LLMARBDR"
+  ]
+ }
+]

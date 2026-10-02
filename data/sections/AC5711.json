@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "11984",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "TAN Qin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ },
+ {
+  "crn": "13256",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "TAN Qin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ },
+ {
+  "crn": "13939",
+  "section": "S03",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "WANG Stacy",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ },
+ {
+  "crn": "15240",
+  "section": "S04",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "WANG Stacy",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ }
+]

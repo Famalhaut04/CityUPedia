@@ -1,0 +1,94 @@
+[
+ {
+  "crn": "10548",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "48",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "GUAN Wenwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: IPTL"
+  ]
+ },
+ {
+  "crn": "13937",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "9",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "GUAN Wenwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: IPTL"
+  ]
+ },
+ {
+  "crn": "13936",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "GUAN Wenwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "10549",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "GUAN Wenwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "15069",
+  "section": "C05",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "GUAN Wenwei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

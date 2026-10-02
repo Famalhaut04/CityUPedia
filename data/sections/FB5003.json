@@ -1,0 +1,100 @@
+[
+ {
+  "crn": "12319",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "22",
+  "capacity": "60",
+  "date": "04/10/2026 - 31/10/2026",
+  "day": "W",
+  "time": "10:00 - 12:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "DAVISON Robert M",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "12319",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "22",
+  "capacity": "60",
+  "date": "04/10/2026 - 31/10/2026",
+  "day": "W",
+  "time": "14:30 - 17:20",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "DAVISON Robert M",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "12319",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "22",
+  "capacity": "60",
+  "date": "01/11/2026 - 07/11/2026",
+  "day": "S",
+  "time": "14:30 - 17:20",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "DAVISON Robert M",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "11812",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "14",
+  "capacity": "60",
+  "date": "04/10/2026 - 07/11/2026",
+  "day": "S",
+  "time": "14:30 - 17:20",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "DAVISON Robert M",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "11812",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "14",
+  "capacity": "60",
+  "date": "04/10/2026 - 31/10/2026",
+  "day": "S",
+  "time": "10:00 - 12:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "DAVISON Robert M",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ }
+]

@@ -1,0 +1,110 @@
+[
+ {
+  "crn": "12562",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "LAM Hok Chung",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ },
+ {
+  "crn": "14158",
+  "section": "CN2",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1406",
+  "instructor": "KWOK Daniel",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ },
+ {
+  "crn": "14157",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "Y4702",
+  "instructor": "LI Hofun Haoxun",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ },
+ {
+  "crn": "14159",
+  "section": "CZ2",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2513",
+  "instructor": "LAM Hok Chung",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ },
+ {
+  "crn": "15521",
+  "section": "CZ3",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3601",
+  "instructor": "WONG Hoi Sing",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ },
+ {
+  "crn": "15522",
+  "section": "CZ4",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "P4703",
+  "instructor": "TSE Heung Wing",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

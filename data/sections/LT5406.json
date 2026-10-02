@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "14769",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "LI Jixing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "14770",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "LI Jixing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: CEL"
+  ]
+ }
+]

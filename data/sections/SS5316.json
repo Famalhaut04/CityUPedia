@@ -1,0 +1,58 @@
+[
+ {
+  "crn": "11287",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "FUNG Lai Chu A.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CRIM"
+  ]
+ },
+ {
+  "crn": "11289",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "FUNG Lai Chu A.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: SOCI"
+  ]
+ },
+ {
+  "crn": "11290",
+  "section": "CQ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "FUNG Lai Chu A.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ }
+]

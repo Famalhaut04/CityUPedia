@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12133",
+  "section": "D63",
+  "credits": 7,
+  "web": "Y",
+  "available": "8",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LU Zhenpin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCHEM1"
+  ]
+ },
+ {
+  "crn": "15837",
+  "section": "D64",
+  "credits": 7,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LU Zhenpin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGB"
+  ]
+ }
+]

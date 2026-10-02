@@ -1,0 +1,110 @@
+[
+ {
+  "crn": "10644",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "6",
+  "capacity": "92",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "CUI Liyuan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF"
+  ]
+ },
+ {
+  "crn": "15463",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "92",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "CUI Liyuan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF"
+  ]
+ },
+ {
+  "crn": "10645",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "93",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "CUI Liyuan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF"
+  ]
+ },
+ {
+  "crn": "11150",
+  "section": "SA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "CUI Liyuan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFE"
+  ]
+ },
+ {
+  "crn": "15464",
+  "section": "SA2",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "CUI Liyuan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFE"
+  ]
+ },
+ {
+  "crn": "15465",
+  "section": "SP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "CUI Liyuan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFE"
+  ]
+ }
+]

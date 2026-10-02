@@ -1,0 +1,58 @@
+[
+ {
+  "crn": "13301",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "49",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3508",
+  "instructor": "HSIAO Mark Wen-hu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: CFL"
+  ]
+ },
+ {
+  "crn": "13935",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "29",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3508",
+  "instructor": "HSIAO Mark Wen-hu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: CFL"
+  ]
+ },
+ {
+  "crn": "13303",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3508",
+  "instructor": "HSIAO Mark Wen-hu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ }
+]

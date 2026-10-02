@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "11081",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M9001",
+  "instructor": "LIU Xiaofan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACNM"
+  ]
+ }
+]

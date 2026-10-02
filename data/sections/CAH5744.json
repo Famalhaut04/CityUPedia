@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12605",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1406",
+  "instructor": "WONG Marianne P Y",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12600",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "TSUI Lik Hang",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ },
+ {
+  "crn": "14156",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3601",
+  "instructor": "TSUI Lik Hang",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

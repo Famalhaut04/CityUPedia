@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "10601",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "78",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "LOKE Alexander",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1"
+  ]
+ },
+ {
+  "crn": "14791",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "LOKE Alexander",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

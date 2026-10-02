@@ -1,0 +1,110 @@
+[
+ {
+  "crn": "11961",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "130",
+  "capacity": "130",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "12:00 - 13:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "DING Chunyan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11962",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 13:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "LUI Hoi Yan A.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11963",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "15:00 - 16:50",
+  "building": "LI",
+  "room": "2409",
+  "instructor": "Priel Dan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11964",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "17:00 - 18:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "Priel Dan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "12931",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "10:00 - 11:50",
+  "building": "LI",
+  "room": "2409",
+  "instructor": "LUI Hoi Yan A.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "12932",
+  "section": "T05",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "14:00 - 15:50",
+  "building": "LI",
+  "room": "1402",
+  "instructor": "LUI Hoi Yan A.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ }
+]

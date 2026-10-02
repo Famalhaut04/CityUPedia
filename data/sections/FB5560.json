@@ -1,0 +1,62 @@
+[
+ {
+  "crn": "15532",
+  "section": "S61",
+  "credits": 2,
+  "web": "Y",
+  "available": "53",
+  "capacity": "60",
+  "date": "06/09/2026 - 17/10/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "FENG Guanhao Gavin, HE Jingyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15532",
+  "section": "S61",
+  "credits": 2,
+  "web": "Y",
+  "available": "53",
+  "capacity": "60",
+  "date": "25/10/2026 - 31/10/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "FENG Guanhao Gavin, HE Jingyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15532",
+  "section": "S61",
+  "credits": 2,
+  "web": "Y",
+  "available": "53",
+  "capacity": "60",
+  "date": "08/11/2026 - 14/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "FENG Guanhao Gavin, HE Jingyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ }
+]

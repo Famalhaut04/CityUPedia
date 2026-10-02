@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "13924",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "62",
+  "capacity": "62",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M4051",
+  "instructor": "GUERRERO Inti",
+  "medium": "English",
+  "notes": [
+   "only for Major: CEPC"
+  ]
+ }
+]

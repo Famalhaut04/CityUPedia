@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "12570",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1301",
+  "instructor": "ZHANG Wanmin",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1"
+  ]
+ },
+ {
+  "crn": "14155",
+  "section": "CN2",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1406",
+  "instructor": "LI Yizhuo",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1"
+  ]
+ },
+ {
+  "crn": "15504",
+  "section": "CN3",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1511",
+  "instructor": "TBA CAH10",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1"
+  ]
+ },
+ {
+  "crn": "15503",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2513",
+  "instructor": "TBA CAH10",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1"
+  ]
+ }
+]

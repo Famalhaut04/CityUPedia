@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "11090",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "33",
+  "capacity": "220",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "SUN Hongyan, LO Pik Kwan Peggy, KWOK Chun Kit, ZHU Guangyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: CHEM2/P, MSCHEM1"
+  ]
+ }
+]

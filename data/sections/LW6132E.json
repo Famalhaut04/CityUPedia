@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "12389",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "CHAN Chi Hin P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: FL/P, LLM3, LLM3-P1"
+  ]
+ },
+ {
+  "crn": "12390",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "CHAN Chi Hin P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "12391",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "CHAN Chi Hin P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "14782",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "CHAN Chi Hin P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

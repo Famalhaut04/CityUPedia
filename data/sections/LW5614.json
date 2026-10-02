@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12318",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "2513",
+  "instructor": "CHAN Chi Hin P.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

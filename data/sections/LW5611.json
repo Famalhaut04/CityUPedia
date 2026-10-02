@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "13287",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "14:00 - 15:50",
+  "building": "YEUNG",
+  "room": "LT-6",
+  "instructor": "DING Chunyan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "13288",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "12:00 - 12:50",
+  "building": "LI",
+  "room": "1404",
+  "instructor": "ZHANG Shuang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ }
+]

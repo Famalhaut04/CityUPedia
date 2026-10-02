@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15125",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M8051",
+  "instructor": "SUNG Chit Cheung Matthew",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ },
+ {
+  "crn": "11228",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M3090",
+  "instructor": "SUNG Chit Cheung Matthew",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "11669",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "3601",
+  "instructor": "HUANG Tao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "11191",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "125",
+  "capacity": "125",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "10:00 - 12:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "LAM Hiu Wai Raymond",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSBME1"
+  ]
+ }
+]

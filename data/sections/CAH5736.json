@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "14161",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1406",
+  "instructor": "CHUI Lisa L S",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

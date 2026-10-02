@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15085",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "130",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "ICP",
+  "room": "G-101",
+  "instructor": "FAN Ruiping",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM"
+  ]
+ },
+ {
+  "crn": "10009",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "22",
+  "capacity": "120",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-16",
+  "instructor": "FAN Ruiping",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM"
+  ]
+ }
+]

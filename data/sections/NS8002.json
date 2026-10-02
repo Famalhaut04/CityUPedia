@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "13313",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-12",
+  "instructor": "LI Ying, HE Jufang, LAU Chun Yue Geoffrey, LEE Youngjin, YANG Sungchil, XIONG Wenjun, ZHANG Nan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BMS3/M, BMS3/P, MSN1, NS2/M, NS2/P, VM/P"
+  ]
+ }
+]

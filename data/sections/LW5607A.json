@@ -1,0 +1,92 @@
+[
+ {
+  "crn": "10167",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "108",
+  "capacity": "108",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "13:00 - 14:50",
+  "building": "YEUNG",
+  "room": "LT-2",
+  "instructor": "CHIN Edward Richard, HUNG Alvin Hoi-Chun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10168",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "09:00 - 10:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "WONG Nga Wun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10169",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "11:00 - 12:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "WONG Nga Wun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "12387",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "14:00 - 15:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "WONG Nga Wun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13909",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 16:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "CHIN Edward Richard",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

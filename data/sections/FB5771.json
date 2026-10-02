@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "15538",
+  "section": "S61",
+  "credits": 2,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 19/09/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "HO Ho Ming",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15538",
+  "section": "S61",
+  "credits": 2,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "27/09/2026 - 31/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "HO Ho Ming",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ }
+]

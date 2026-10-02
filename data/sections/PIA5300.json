@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "13231",
+  "section": "CQ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "22",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1406",
+  "instructor": "EGRETEAU Renaud",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSDS1"
+  ]
+ }
+]

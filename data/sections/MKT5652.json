@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15200",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "LAM Pong Yuen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "15201",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "LAM Pong Yuen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT"
+  ]
+ }
+]

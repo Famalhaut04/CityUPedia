@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15037",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "KEI Jason, AMOS Robert Martin, LEE Wing, CHOW Jimmy Yu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMI"
+  ]
+ },
+ {
+  "crn": "15038",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "Y4302",
+  "instructor": "KEI Jason, AMOS Robert Martin, LEE Wing, CHOW Jimmy Yu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMI"
+  ]
+ }
+]

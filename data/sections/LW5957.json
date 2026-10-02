@@ -1,0 +1,42 @@
+[
+ {
+  "crn": "10100",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "8",
+  "capacity": "85",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "LI Eva",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: HOS",
+   "only for Cohort: 2024, 2025, 2026"
+  ]
+ },
+ {
+  "crn": "15856",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "15",
+  "capacity": "15",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "6603",
+  "instructor": "LI Eva",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: UM1",
+   "only for Cohort: 2024, 2025, 2026"
+  ]
+ }
+]

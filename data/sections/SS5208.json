@@ -1,0 +1,58 @@
+[
+ {
+  "crn": "15190",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "40",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "YOUNG Kim Wan D.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CMHP"
+  ]
+ },
+ {
+  "crn": "15220",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "YOUNG Kim Wan D.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "15222",
+  "section": "CQ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-14",
+  "instructor": "YOUNG Kim Wan D.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "not for Cohort: 2026"
+  ]
+ }
+]

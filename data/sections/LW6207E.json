@@ -1,0 +1,58 @@
+[
+ {
+  "crn": "14458",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "KIM Min",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: IEL"
+  ]
+ },
+ {
+  "crn": "15148",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "KIM Min",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: IEL"
+  ]
+ },
+ {
+  "crn": "14459",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "10:00 - 12:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "KIM Min",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ }
+]

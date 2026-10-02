@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "10364",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "5012",
+  "instructor": "EGRETEAU Renaud",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSDS1"
+  ]
+ },
+ {
+  "crn": "15579",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "5012",
+  "instructor": "EGRETEAU Renaud",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIS"
+  ]
+ }
+]

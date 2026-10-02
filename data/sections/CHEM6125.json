@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "14675",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "200",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 20:50",
+  "building": "ICP",
+  "room": "B-101",
+  "instructor": "CHAN Michael C., LUO Jingdong, CHI Yun, MATSUDA Yudai, PENG Yung-kang, LIU Jiawei, FAN Zhanxi, LU Zhenpin, TAN Xuefeng, LI Xing, ZHANG Shujun, HUANG Bolong, YE Ruquan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCHEM1"
+  ]
+ },
+ {
+  "crn": "14676",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "200",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "21:00 - 21:50",
+  "building": "ICP",
+  "room": "B-101",
+  "instructor": "CHAN Michael C., LUO Jingdong, CHI Yun, MATSUDA Yudai, PENG Yung-kang, LIU Jiawei, FAN Zhanxi, LU Zhenpin, TAN Xuefeng, LI Xing, ZHANG Shujun, HUANG Bolong, YE Ruquan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCHEM1"
+  ]
+ }
+]

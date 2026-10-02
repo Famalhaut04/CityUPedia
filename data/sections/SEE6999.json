@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "10234",
+  "section": "D61",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "SIT Patrick",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSEGEV"
+  ]
+ },
+ {
+  "crn": "10353",
+  "section": "DQ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "44",
+  "capacity": "45",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "SIT Patrick",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSEGEV"
+  ]
+ }
+]

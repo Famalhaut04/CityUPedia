@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "11192",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "185",
+  "capacity": "185",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "TIN Chung",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSBME1"
+  ]
+ }
+]

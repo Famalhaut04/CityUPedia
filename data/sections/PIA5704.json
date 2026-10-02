@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "10247",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "18",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1601",
+  "instructor": "LEUNG Hing Tung",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: HOS"
+  ]
+ }
+]

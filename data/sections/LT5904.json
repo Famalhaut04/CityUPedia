@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "11215",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "400",
+  "capacity": "400",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "CHANG Charles B.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ }
+]

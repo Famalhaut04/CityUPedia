@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "11262",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M5050",
+  "instructor": "LI Bowen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFMS1",
+   "only for Degree: MSC"
+  ]
+ },
+ {
+  "crn": "13804",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "ICP",
+  "room": "UG-101",
+  "instructor": "MERTZ Laurent",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFMS1",
+   "only for Degree: MSC"
+  ]
+ }
+]

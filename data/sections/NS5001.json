@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12817",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "5012",
+  "instructor": "CHEN Xi, LEE Youngjin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1"
+  ]
+ }
+]

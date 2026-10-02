@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "15514",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1301",
+  "instructor": "HAN Yue",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

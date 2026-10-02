@@ -1,0 +1,116 @@
+[
+ {
+  "crn": "10673",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "11/10/2026 - 28/11/2026",
+  "day": "R",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "WONG Chi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "10673",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "11/10/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "WONG Chi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "13916",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "11/10/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "SU Lei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "13916",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "11/10/2026 - 28/11/2026",
+  "day": "W",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "SU Lei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "10674",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "11/10/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "WONG Chi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "10674",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "11/10/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "WONG Chi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ }
+]

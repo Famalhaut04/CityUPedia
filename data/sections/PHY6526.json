@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "11936",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "15:00 - 16:50",
+  "building": "LAU",
+  "room": "6-213",
+  "instructor": "LIU Qi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ },
+ {
+  "crn": "11937",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "17:00 - 17:50",
+  "building": "LAU",
+  "room": "6-213",
+  "instructor": "LIU Qi, LI Xingjun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ }
+]

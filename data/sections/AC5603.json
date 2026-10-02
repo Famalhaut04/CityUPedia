@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "15237",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "72",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 11:50",
+  "building": "CMC",
+  "room": "M1080",
+  "instructor": "NG Jonathan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ },
+ {
+  "crn": "12064",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "72",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "NG Jonathan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: CG"
+  ]
+ }
+]

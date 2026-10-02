@@ -1,0 +1,111 @@
+[
+ {
+  "crn": "15741",
+  "section": "C61",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 17/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LIU Li",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: IPTL"
+  ]
+ },
+ {
+  "crn": "15742",
+  "section": "C62",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 17/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LIU Li",
+  "medium": "English",
+  "notes": [
+   "only for Programme: PGCPL"
+  ]
+ },
+ {
+  "crn": "15743",
+  "section": "C63",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "15",
+  "capacity": "15",
+  "date": "31/08/2026 - 17/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LIU Li",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1"
+  ]
+ },
+ {
+  "crn": "15744",
+  "section": "C64",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 17/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LIU Li",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "15745",
+  "section": "C65",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 17/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LIU Li",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "15746",
+  "section": "C66",
+  "credits": 1.5,
+  "web": "Y",
+  "available": "2",
+  "capacity": "2",
+  "date": "31/08/2026 - 17/10/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "LIU Li",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

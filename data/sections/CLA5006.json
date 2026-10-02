@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "15134",
+  "section": "C06",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "204",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "CMC",
+  "room": "M3017",
+  "instructor": "LEUNG Kwok Chu Anthony",
+  "medium": "Chinese",
+  "notes": [
+   "only for Programme: MSSCSL",
+   "only for Cohort: 2026"
+  ]
+ }
+]

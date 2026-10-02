@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "15484",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "47",
+  "capacity": "300",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "14:00 - 15:50",
+  "building": "BOC",
+  "room": "LT401",
+  "instructor": "KONG Alfred",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE"
+  ]
+ }
+]

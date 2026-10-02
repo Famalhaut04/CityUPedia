@@ -1,0 +1,182 @@
+[
+ {
+  "crn": "13054",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "250",
+  "date": "31/08/2026 - 12/09/2026",
+  "day": "T",
+  "time": "13:00 - 15:50",
+  "building": "BOC",
+  "room": "LT401",
+  "instructor": "LONE Fozia N.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3",
+   "only for Programme: LLM3",
+   "only for Programme: LLM3"
+  ]
+ },
+ {
+  "crn": "13054",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "250",
+  "date": "31/08/2026 - 12/09/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "CMC",
+  "room": "M3017",
+  "instructor": "LONE Fozia N.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3",
+   "only for Programme: LLM3",
+   "only for Programme: LLM3"
+  ]
+ },
+ {
+  "crn": "13054",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "250",
+  "date": "31/08/2026 - 19/09/2026",
+  "day": "M",
+  "time": "14:00 - 16:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "LONE Fozia N.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3",
+   "only for Programme: LLM3",
+   "only for Programme: LLM3"
+  ]
+ },
+ {
+  "crn": "13417",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "37",
+  "capacity": "250",
+  "date": "31/08/2026 - 12/09/2026",
+  "day": "S",
+  "time": "09:00 - 12:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "MA Jimmy Y.T.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3",
+   "only for Programme: LLM3",
+   "only for Programme: LLM3"
+  ]
+ },
+ {
+  "crn": "13417",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "37",
+  "capacity": "250",
+  "date": "31/08/2026 - 12/09/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "MA Jimmy Y.T.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3",
+   "only for Programme: LLM3",
+   "only for Programme: LLM3"
+  ]
+ },
+ {
+  "crn": "13417",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "37",
+  "capacity": "250",
+  "date": "31/08/2026 - 12/09/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "MA Jimmy Y.T.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3",
+   "only for Programme: LLM3",
+   "only for Programme: LLM3"
+  ]
+ },
+ {
+  "crn": "14775",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "20",
+  "date": "31/08/2026 - 12/09/2026",
+  "day": "S",
+  "time": "09:00 - 12:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "MA Jimmy Y.T.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: PGCPL",
+   "only for Programme: PGCPL",
+   "only for Programme: PGCPL"
+  ]
+ },
+ {
+  "crn": "14775",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "20",
+  "date": "31/08/2026 - 12/09/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "MA Jimmy Y.T.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: PGCPL",
+   "only for Programme: PGCPL",
+   "only for Programme: PGCPL"
+  ]
+ },
+ {
+  "crn": "14775",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "20",
+  "date": "31/08/2026 - 12/09/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "MA Jimmy Y.T.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: PGCPL",
+   "only for Programme: PGCPL",
+   "only for Programme: PGCPL"
+  ]
+ }
+]

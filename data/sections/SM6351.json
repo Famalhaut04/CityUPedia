@@ -1,0 +1,59 @@
+[
+ {
+  "crn": "14190",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "18",
+  "capacity": "18",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M7056",
+  "instructor": "ZHANG Xiaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "only for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "15500",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "19",
+  "capacity": "19",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M7056",
+  "instructor": "ZHANG Xiaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM, SM/C, SM/M, SM/P",
+   "only for Cohort: 2025"
+  ]
+ },
+ {
+  "crn": "14191",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "3",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M7056",
+  "instructor": "ZHANG Xiaoyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM",
+   "only for Cohort: 2025, 2026"
+  ]
+ }
+]

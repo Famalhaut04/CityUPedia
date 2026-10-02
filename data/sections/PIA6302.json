@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "15620",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "39",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-6",
+  "instructor": "ZHENG Huanhuan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ },
+ {
+  "crn": "15621",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "128",
+  "capacity": "140",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-6",
+  "instructor": "ZHENG Huanhuan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM",
+   "only for Stream: PM"
+  ]
+ }
+]

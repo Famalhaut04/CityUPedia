@@ -1,0 +1,56 @@
+[
+ {
+  "crn": "12973",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 13:50",
+  "building": "LI",
+  "room": "3601",
+  "instructor": "CHAN Leon Vincent",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13443",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "18:00 - 19:50",
+  "building": "LAU",
+  "room": "6-213",
+  "instructor": "TANG Valerie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "15888",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "18:00 - 19:50",
+  "building": "LAU",
+  "room": "6-213",
+  "instructor": "TANG Valerie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

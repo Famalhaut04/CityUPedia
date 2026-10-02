@@ -1,0 +1,22 @@
+[
+ {
+  "crn": "14595",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "204",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "LAM Ka Keung I.",
+  "medium": "Chinese",
+  "notes": [
+   "only for College: CH",
+   "only for Programme: MSSCSL",
+   "only for Cohort: 2026"
+  ]
+ }
+]

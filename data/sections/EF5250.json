@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15466",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "9",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "XIA Shixiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EF/C, EF/P, MSF, MSFE"
+  ]
+ },
+ {
+  "crn": "11147",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "75",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1614",
+  "instructor": "XIA Shixiang",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EF/C, EF/P, MSF, MSFE"
+  ]
+ }
+]

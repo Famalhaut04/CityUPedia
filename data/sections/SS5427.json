@@ -1,0 +1,40 @@
+[
+ {
+  "crn": "11598",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "CHIU Tin Yan Titus",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: SOCI"
+  ]
+ },
+ {
+  "crn": "13230",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "CHIU Tin Yan Titus",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CRIM"
+  ]
+ }
+]

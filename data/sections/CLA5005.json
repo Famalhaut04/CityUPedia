@@ -1,0 +1,22 @@
+[
+ {
+  "crn": "15133",
+  "section": "C05",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "204",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "3508",
+  "instructor": "KAN Chung Kan Clara",
+  "medium": "Chinese",
+  "notes": [
+   "only for College: CH",
+   "only for Programme: MSSCSL",
+   "only for Cohort: 2026"
+  ]
+ }
+]

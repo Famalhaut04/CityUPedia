@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15759",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M4001",
+  "instructor": "YU Nicholas",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ },
+ {
+  "crn": "15760",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M4001",
+  "instructor": "YU Nicholas",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM"
+  ]
+ }
+]

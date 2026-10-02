@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "13582",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 17:50",
+  "building": "YEUNG",
+  "room": "LT-10",
+  "instructor": "JIN Chen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ }
+]

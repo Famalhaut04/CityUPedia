@@ -1,0 +1,56 @@
+[
+ {
+  "crn": "10647",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "87",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "HU Audrey",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "13371",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "87",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "16:00 - 18:50",
+  "building": "CMC",
+  "room": "M5050",
+  "instructor": "HU Audrey",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "15426",
+  "section": "S03",
+  "credits": 3,
+  "web": "Y",
+  "available": "4",
+  "capacity": "86",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "HU Audrey",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE"
+  ]
+ }
+]

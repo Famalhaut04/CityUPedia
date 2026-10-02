@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "13293",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "PASCOE Daniel C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13953",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "PASCOE Daniel C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1"
+  ]
+ }
+]

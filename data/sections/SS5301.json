@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "11286",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "5-203",
+  "instructor": "MOK Louis Wai Yin, WONG Wing Yee Rebecca",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CRIM"
+  ]
+ }
+]

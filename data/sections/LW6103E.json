@@ -1,0 +1,58 @@
+[
+ {
+  "crn": "10964",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "64",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "5012",
+  "instructor": "CHAN Charles",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: CFL"
+  ]
+ },
+ {
+  "crn": "11894",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "55",
+  "capacity": "55",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "5012",
+  "instructor": "CHAN Charles",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: CFL"
+  ]
+ },
+ {
+  "crn": "13915",
+  "section": "C63",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "5012",
+  "instructor": "CHAN Charles",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ }
+]

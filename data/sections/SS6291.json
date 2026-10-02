@@ -1,0 +1,902 @@
+[
+ {
+  "crn": "14030",
+  "section": "F01",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAN Kai Yin Sean",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12666",
+  "section": "F02",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAN Man Chung",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12667",
+  "section": "F03",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAN Man Ki",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12668",
+  "section": "F04",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHENG Yee-wa Eva",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12669",
+  "section": "F05",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "4",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHENG Yuen Ho Daniel",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12670",
+  "section": "F06",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHEUNG Chun Shing Justin",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12671",
+  "section": "F07",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHEUNG Ka Ki Tina",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12672",
+  "section": "F08",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHEUNG Man lok Michael",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12673",
+  "section": "F09",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHEUNG Yuen Kam",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12674",
+  "section": "F10",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "5",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHIM Moon Cheung Boby",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12675",
+  "section": "F11",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "3",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHOW Sui San Ben",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12676",
+  "section": "F12",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHUNG Wai Man Raymond",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12677",
+  "section": "F13",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "FUNG Tsz Kwan Tina",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12678",
+  "section": "F14",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "FUNG Yin Cheung Albert",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12679",
+  "section": "F15",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HO Din Yee Dinnie",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12680",
+  "section": "F16",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HUI Chun Chun Jane",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12681",
+  "section": "F17",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "3",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "KWOK Mun Yee Christine",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12682",
+  "section": "F18",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "KWONG Li Yee Connie",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12683",
+  "section": "F19",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LAM Lai Hung Patricia",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "12684",
+  "section": "F20",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LAM Yi Kwan Cherie",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "13065",
+  "section": "F21",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LEUNG Wing On",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "13066",
+  "section": "F22",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LI Po Kan",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "13067",
+  "section": "F23",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LUNG Wai Man Daniel",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "13068",
+  "section": "F24",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "NG Ka Hei",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "13069",
+  "section": "F25",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "WONG Chung Bao",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "13070",
+  "section": "F26",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "WONG Ka-ka Yuki",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "13071",
+  "section": "F27",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "WONG Ka Yuk",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "15857",
+  "section": "F28",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "WONG Stephen",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "15858",
+  "section": "F29",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "WONG Wing Chi Athena",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "15859",
+  "section": "F30",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "YAU Chi Yin",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "15860",
+  "section": "F31",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 09/01/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "YEUNG King",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW"
+  ]
+ },
+ {
+  "crn": "14031",
+  "section": "F61",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAN Kai Yin Sean",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12685",
+  "section": "F62",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAN Mei Lin Patica",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12686",
+  "section": "F63",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAU Sau Lan Sharon",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12687",
+  "section": "F64",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHEUNG Suet Fung",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12688",
+  "section": "F65",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHU Ting Nor Marine",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12689",
+  "section": "F66",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HUI Yam Nang Xavier",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12690",
+  "section": "F67",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "Keung Chun Yu",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12691",
+  "section": "F68",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "KWONG Li Yee Connie",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12692",
+  "section": "F69",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LAI Ka Chun Jason",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12693",
+  "section": "F70",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LAM Lai Hung Patricia",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "12694",
+  "section": "F71",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LAU Wai Shan Celine",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "15861",
+  "section": "F72",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LEUNG Chung Wai Jacky",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "15862",
+  "section": "F73",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LEUNG Sze Man Tracy",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "15863",
+  "section": "F74",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LI Tip Yan Wendy",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "15864",
+  "section": "F75",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "LING Choi Wa Flora",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "15865",
+  "section": "F76",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "MOK Yuen Chi",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "15866",
+  "section": "F77",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "WONG Stephen",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "15867",
+  "section": "F78",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "YEUNG Ching Giovanna",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ },
+ {
+  "crn": "15868",
+  "section": "F79",
+  "credits": 8,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "YEUNG Tsz Ning",
+  "medium": "English & Others",
+  "notes": [
+   "only for Programme: MSW2"
+  ]
+ }
+]

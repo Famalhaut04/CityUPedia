@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "13927",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "62",
+  "capacity": "62",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "TBA",
+  "medium": "English",
+  "notes": [
+   "only for Major: CEPC"
+  ]
+ }
+]

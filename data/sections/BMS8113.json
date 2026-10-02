@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "14249",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 20:50",
+  "building": "YEUNG",
+  "room": "B4302",
+  "instructor": "WANG Li, YAO Xi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BMS3/M, BMS3/P"
+  ]
+ },
+ {
+  "crn": "14250",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "39",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 20:50",
+  "building": "YEUNG",
+  "room": "B4302",
+  "instructor": "WANG Li, YAO Xi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSHSB, MSHSM1"
+  ]
+ },
+ {
+  "crn": "14251",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "21:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B4302",
+  "instructor": "WANG Li, YAO Xi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BMS3/M, BMS3/P"
+  ]
+ },
+ {
+  "crn": "14252",
+  "section": "TP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "39",
+  "capacity": "40",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "21:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B4302",
+  "instructor": "WANG Li, YAO Xi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSHSB, MSHSM1"
+  ]
+ }
+]

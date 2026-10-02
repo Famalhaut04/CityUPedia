@@ -1,0 +1,58 @@
+[
+ {
+  "crn": "13318",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "5-205",
+  "instructor": "KWOK Kim",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSW, MSW2",
+   "not for Cohort: 2026"
+  ]
+ },
+ {
+  "crn": "15223",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "5-205",
+  "instructor": "KWOK Kim",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "15224",
+  "section": "CQ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "5-205",
+  "instructor": "KWOK Kim",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CMHP"
+  ]
+ }
+]

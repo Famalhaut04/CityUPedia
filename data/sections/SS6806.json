@@ -1,0 +1,200 @@
+[
+ {
+  "crn": "10184",
+  "section": "F61",
+  "credits": 3,
+  "web": "Y",
+  "available": "19",
+  "capacity": "78",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "YEUNG Ka Man Caren",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "10185",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2108",
+  "instructor": "IP Chi Shun",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "10186",
+  "section": "T62",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2306",
+  "instructor": "IP Chi Shun",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "10829",
+  "section": "T63",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2312",
+  "instructor": "SHIU Ching Kin Stephen",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "10830",
+  "section": "T64",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "CHOI Siu Yan",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "14925",
+  "section": "T65",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2407",
+  "instructor": "HUNG May Chi",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "14927",
+  "section": "T66",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2413",
+  "instructor": "SHIU Ching Kin Stephen",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "14928",
+  "section": "T67",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "Y5-202",
+  "instructor": "So Ngar Yin Iris",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "14929",
+  "section": "T68",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2306",
+  "instructor": "CHAN Chi Fai",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "14930",
+  "section": "T69",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2312",
+  "instructor": "TSANG Lai Kiu Alex",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "14931",
+  "section": "T70",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "6",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "YIU Wing Chi Jacqueline",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ }
+]

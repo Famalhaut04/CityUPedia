@@ -1,0 +1,56 @@
+[
+ {
+  "crn": "13306",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "55",
+  "capacity": "55",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 20:50",
+  "building": "LAU",
+  "room": "5-205",
+  "instructor": "LEE Youngjin, HUNG Christy, HU Zhitao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1"
+  ]
+ },
+ {
+  "crn": "13481",
+  "section": "L61",
+  "credits": 3,
+  "web": "Y",
+  "available": "55",
+  "capacity": "55",
+  "date": "04/10/2026 - 17/10/2026",
+  "day": "S",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "P7816",
+  "instructor": "HU Zhitao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1"
+  ]
+ },
+ {
+  "crn": "13343",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "55",
+  "capacity": "55",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "21:00 - 21:50",
+  "building": "LAU",
+  "room": "5-205",
+  "instructor": "LEE Youngjin, HUNG Christy, HU Zhitao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSN1"
+  ]
+ }
+]

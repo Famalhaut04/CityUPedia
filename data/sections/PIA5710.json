@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "15015",
+  "section": "CV1",
+  "credits": 3,
+  "web": "Y",
+  "available": "4",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "6-213",
+  "instructor": "LI Ruozhu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP, VSPS"
+  ]
+ },
+ {
+  "crn": "10595",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "47",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "6-213",
+  "instructor": "LI Ruozhu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM",
+   "only for Stream: GC"
+  ]
+ }
+]

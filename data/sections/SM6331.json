@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "14010",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M8051",
+  "instructor": "FAN Ho Ki Kattie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ }
+]

@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "15138",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "22",
+  "capacity": "22",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "YEUNG",
+  "room": "G7510",
+  "instructor": "HOLOPAINEN Jussi Pekka, JONES Rhys Gareth",
+  "medium": "English",
+  "notes": [
+   "only for Major: CGAM",
+   "only for Cohort: 2025"
+  ]
+ }
+]

@@ -1,0 +1,92 @@
+[
+ {
+  "crn": "11965",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "10:00 - 11:50",
+  "building": "BOC",
+  "room": "R4057",
+  "instructor": "HSIAO Mark Wen-hu, HUNG Alvin Hoi-Chun",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "11966",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "28",
+  "capacity": "28",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 13:50",
+  "building": "LI",
+  "room": "1400",
+  "instructor": "HSIAO Mark Wen-hu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "11967",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "28",
+  "capacity": "28",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "16:00 - 17:50",
+  "building": "YEUNG",
+  "room": "B4302",
+  "instructor": "HSIAO Mark Wen-hu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "12388",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 16:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "TANG Tin Lun Felix",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13912",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "17:00 - 18:50",
+  "building": "LI",
+  "room": "1310",
+  "instructor": "TANG Tin Lun Felix",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "10921",
+  "section": "L61",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "37",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "6-211",
+  "instructor": "IP Chi Shun",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "11149",
+  "section": "L62",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "36",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2108",
+  "instructor": "IP Chi Shun",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "10922",
+  "section": "L63",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "36",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "5-206",
+  "instructor": "CHAN Wai Man",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "13824",
+  "section": "L64",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "36",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2405",
+  "instructor": "KWAN Chi Kin",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ }
+]

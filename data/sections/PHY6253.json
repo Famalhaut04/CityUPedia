@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12542",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 10:50",
+  "building": "YEUNG",
+  "room": "Y5-205",
+  "instructor": "ZHANG Ge",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ },
+ {
+  "crn": "12543",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "11:00 - 11:50",
+  "building": "YEUNG",
+  "room": "Y5-205",
+  "instructor": "ZHANG Ge, ZHU Rong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPDMQT"
+  ]
+ }
+]

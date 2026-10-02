@@ -1,0 +1,111 @@
+[
+ {
+  "crn": "13396",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "9",
+  "capacity": "95",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3508",
+  "instructor": "WANG Tong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "13397",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "9",
+  "capacity": "95",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-3",
+  "instructor": "DONG Junyi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "10930",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "7",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-12",
+  "instructor": "WANG Tong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "13399",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-3",
+  "instructor": "DONG Junyi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "12577",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-12",
+  "instructor": "WANG Tong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "14134",
+  "section": "CP2",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "2",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-12",
+  "instructor": "WANG Tong",
+  "medium": "English",
+  "notes": [
+   "only for College: CB",
+   "only for Programme: EXGP"
+  ]
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "10061",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "FUNG Lai Chu A.",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ },
+ {
+  "crn": "10062",
+  "section": "S62",
+  "credits": 3,
+  "web": "Y",
+  "available": "0",
+  "capacity": "71",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1301",
+  "instructor": "CHAN Wai Man",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MSSC"
+  ]
+ }
+]

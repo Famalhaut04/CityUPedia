@@ -1,0 +1,92 @@
+[
+ {
+  "crn": "10086",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "10:00 - 11:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "HARPER HO Virginia",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10372",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "15:00 - 15:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "LI Martin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10373",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "27",
+  "capacity": "27",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 16:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "TBA LW108",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "10374",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "28",
+  "capacity": "28",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "16:00 - 16:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "LI Martin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "13913",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "28",
+  "capacity": "28",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "15:00 - 15:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "TBA LW108",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

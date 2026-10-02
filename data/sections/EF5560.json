@@ -1,0 +1,92 @@
+[
+ {
+  "crn": "14196",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "YEUNG",
+  "room": "LT-17",
+  "instructor": "FENG Guanhao Gavin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF, MSFE"
+  ]
+ },
+ {
+  "crn": "14193",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "21",
+  "capacity": "140",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-13",
+  "instructor": "FENG Guanhao Gavin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIB"
+  ]
+ },
+ {
+  "crn": "14197",
+  "section": "SA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "YEUNG",
+  "room": "LT-17",
+  "instructor": "FENG Guanhao Gavin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "14442",
+  "section": "SB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "YEUNG",
+  "room": "LT-17",
+  "instructor": "FENG Guanhao Gavin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA"
+  ]
+ },
+ {
+  "crn": "14195",
+  "section": "SP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-13",
+  "instructor": "FENG Guanhao Gavin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF, MSFE"
+  ]
+ }
+]

@@ -1,0 +1,242 @@
+[
+ {
+  "crn": "12524",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "11",
+  "capacity": "230",
+  "date": "31/08/2026 - 26/09/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "ICP",
+  "room": "B-101",
+  "instructor": "YE Shengquan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "12524",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "11",
+  "capacity": "230",
+  "date": "11/10/2026 - 31/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "ICP",
+  "room": "B-101",
+  "instructor": "YE Shengquan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "12524",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "11",
+  "capacity": "230",
+  "date": "08/11/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "ICP",
+  "room": "B-101",
+  "instructor": "YE Shengquan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "12525",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "11",
+  "capacity": "77",
+  "date": "04/10/2026 - 10/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "YEUNG Kit Ling Elaine",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "12525",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "11",
+  "capacity": "77",
+  "date": "01/11/2026 - 07/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "YEUNG Kit Ling Elaine",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "12525",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "11",
+  "capacity": "77",
+  "date": "30/11/2026 - 05/12/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "YEUNG Kit Ling Elaine",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "12526",
+  "section": "T62",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "77",
+  "date": "04/10/2026 - 10/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "4307",
+  "instructor": "LEUNG Lap Kwan Cyrus",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "12526",
+  "section": "T62",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "77",
+  "date": "01/11/2026 - 07/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "4307",
+  "instructor": "LEUNG Lap Kwan Cyrus",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "12526",
+  "section": "T62",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "77",
+  "date": "30/11/2026 - 05/12/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "4307",
+  "instructor": "LEUNG Lap Kwan Cyrus",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "14274",
+  "section": "T63",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "76",
+  "date": "04/10/2026 - 10/10/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3610",
+  "instructor": "ZHU Yiyi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "14274",
+  "section": "T63",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "76",
+  "date": "01/11/2026 - 07/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3610",
+  "instructor": "ZHU Yiyi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ },
+ {
+  "crn": "14274",
+  "section": "T63",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "76",
+  "date": "30/11/2026 - 05/12/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "3610",
+  "instructor": "ZHU Yiyi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY",
+   "only for Programme: MSSPSY"
+  ]
+ }
+]

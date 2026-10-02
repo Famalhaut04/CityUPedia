@@ -1,0 +1,76 @@
+[
+ {
+  "crn": "15083",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "130",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "OU Antony",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM"
+  ]
+ },
+ {
+  "crn": "15084",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "OU Antony",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: UM1"
+  ]
+ },
+ {
+  "crn": "10919",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1507",
+  "instructor": "OU Antony",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: UM1"
+  ]
+ },
+ {
+  "crn": "10008",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "21",
+  "capacity": "120",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1507",
+  "instructor": "OU Antony",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM"
+  ]
+ }
+]

@@ -1,0 +1,111 @@
+[
+ {
+  "crn": "13404",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "75",
+  "capacity": "75",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "TAN Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "12289",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "72",
+  "capacity": "72",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B7701",
+  "instructor": "TAN Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "13405",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "13",
+  "capacity": "13",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "TAN Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "13406",
+  "section": "CA2",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "2",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "TAN Ying",
+  "medium": "English",
+  "notes": [
+   "only for College: CB",
+   "only for Programme: EXGP"
+  ]
+ },
+ {
+  "crn": "12290",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "39",
+  "capacity": "39",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B7701",
+  "instructor": "TAN Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "15270",
+  "section": "CP2",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "3",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "B7701",
+  "instructor": "TAN Ying",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF, MSFE"
+  ]
+ }
+]

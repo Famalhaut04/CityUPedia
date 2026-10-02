@@ -1,0 +1,56 @@
+[
+ {
+  "crn": "13304",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "66",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "WANG Peter",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1"
+  ]
+ },
+ {
+  "crn": "13305",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "WANG Peter",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "15068",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "WANG Peter",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

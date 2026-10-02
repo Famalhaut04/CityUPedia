@@ -1,0 +1,58 @@
+[
+ {
+  "crn": "12110",
+  "section": "CX1",
+  "credits": 3,
+  "web": "Y",
+  "available": "86",
+  "capacity": "90",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-17",
+  "instructor": "PETROVSKY Nicolai",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAPPM",
+   "only for Stream: PUPO"
+  ]
+ },
+ {
+  "crn": "13853",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-17",
+  "instructor": "PETROVSKY Nicolai",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM",
+   "only for Stream: UM1"
+  ]
+ },
+ {
+  "crn": "13138",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "50",
+  "capacity": "50",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-17",
+  "instructor": "PETROVSKY Nicolai",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSDS1"
+  ]
+ }
+]

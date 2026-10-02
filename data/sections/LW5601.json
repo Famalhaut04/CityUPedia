@@ -1,0 +1,110 @@
+[
+ {
+  "crn": "11890",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "130",
+  "capacity": "130",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "10:00 - 11:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "LAI Sin Chit Martin, TBA LW211",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11891",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "16:00 - 16:50",
+  "building": "LI",
+  "room": "1312",
+  "instructor": "DAS Tapos Kumar",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11892",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 19:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "TBA LW211",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11893",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "20:00 - 20:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "TBA LW211",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "13282",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "11:00 - 11:50",
+  "building": "LI",
+  "room": "1310",
+  "instructor": "DAS Tapos Kumar",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "13904",
+  "section": "T05",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 12:50",
+  "building": "LI",
+  "room": "1310",
+  "instructor": "LI Peiting",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ }
+]

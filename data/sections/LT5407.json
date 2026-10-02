@@ -1,0 +1,113 @@
+[
+ {
+  "crn": "14772",
+  "section": "CM1",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "CHAN Yuet Hung C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "13115",
+  "section": "CM2",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "YEUNG",
+  "room": "B7701",
+  "instructor": "CHAN Yuet Hung C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "14773",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "CHAN Yuet Hung C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: PL"
+  ]
+ },
+ {
+  "crn": "15748",
+  "section": "CN2",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "YEUNG",
+  "room": "B7701",
+  "instructor": "CHAN Yuet Hung C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: PL"
+  ]
+ },
+ {
+  "crn": "15747",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "1",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "CHAN Yuet Hung C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "13114",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "110",
+  "capacity": "110",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "CHAN Yuet Hung C.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: PL"
+  ]
+ }
+]

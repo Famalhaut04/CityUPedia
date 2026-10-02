@@ -1,33 +1,37 @@
 # CityU Pedia · 城大百科
 
-> **当前版本：1.2.5（CityUPedia 1.2.5）**
-> Semester B 2026/27 快照同步：CS5293、CS5182、CS5281、CS5288、CS5296、CS5483、CS5487、CS5491、CS6493、CS6491、CS6487、CS6290、CS6284、CS5493、CS6283 十五门课的班次时间已对照 AIMS（2026-09-03）更新，欢迎分享你的课程体验。
+> **当前版本：1.4.0（CityUPedia 1.4.0）**
+> 全校八大学院接入：新增商学院、人文社会科学院、理学院、生物医学院、赛马会动物医学及生命科学院、创意媒体学院、能源及环境学院、法律学院共 47 个官方硕士项目与 959 门课程条目（全站 68 项目 / 1,381 门），全部逐项目对照城大官方 2026/27 授课式研究生目录核对。
 > 完整的版本变更记录请查看 [更新日志（CHANGELOG.md）](CHANGELOG.md)。
 
 CityU Pedia（城大百科）是一个为**香港城市大学（CityU）授课型硕士生**打造的一站式课程综合平台，涵盖排课规划与课程评价两大核心功能。整合课程时间表查询、班次选择与学生评价汇总，帮你做出更明智的决定。
 
 > ⚠️ **免责声明：** 课程评价内容均整理自公开社交平台（小红书、知乎、Reddit 等），仅供参考，不构成建议。请以学校官方信息为准。
 >
-> 当前数据覆盖 **Semester A 2026/27**、**Semester B** 和 **Summer** 三个学期。课表快照时间为 **2026-08-05 12:00（Asia/Beijing）**，名额、教师、教室及注册状态可能随时变化，请以 CityU AIMS 的最新信息为准。
+> 当前数据覆盖 **Semester A 2026/27**、**Semester B** 和 **Summer** 三个学期。Semester A 班次快照时间为 **2026-08-23（AIMS Master Class Schedule）**，名额、教师、教室及注册状态可能随时变化，请以 CityU AIMS 的最新信息为准。
 
 ## 在线访问
 
 **https://famalhaut04.github.io/CityUPedia/**
 
-## 已录入项目（Semester A 2026/27）
+## 已录入项目（Semester A 2026/27 · 共 68 个官方硕士项目）
 
-| 项目代码 | 项目名称 | 所属院系 |
+| 学院 | 项目数 | 项目代码 |
 | --- | --- | --- |
-| MSBIOS | 生物统计学理学硕士（MSc Biostatistics） | Department of Biostatistics |
-| MSCS | 计算机科学理学硕士（MSc Computer Science） | Department of Computer Science |
-| MSAI | 人工智能理学硕士（MSc Artificial Intelligence） | Department of Computer Science |
-| MSCY | 网络安全理学硕士（MSc Cybersecurity） | Department of Computer Science |
-| MSEC | 电子商贸理学硕士（MSc Electronic Commerce） | Department of Computer Science |
-| MSDS | 数据科学理学硕士（MSc Data Science） | Department of Data Science |
-| MSAIFS | 人工智能与科学理学硕士（MSc AI for Sciences） | Department of Data Science |
-| MSVC | 创新创业理学硕士（MSc Venture Creation） | CityUHK Academy of Innovation |
+| 计算学院 | 7 | MSBIOS、MSCS、MSAI、MSCY、MSEC、MSDS、MSAIFS |
+| 创新学院 | 1 | MSVC |
+| 工学院 | 13 | MARCH2、MSCAE1、MSCM2、MUDP2、MSCIE、MSEEE、MSEIE2、MSMIT1、MSMEN2、MSME1、MSAIDI、MSEM1、MSSM |
+| 商学院 | 19 | MAIA、MSAFBNAI、MSPACG、MSCBDA2、MSCBDA3、MSCOSCM、MSAE、MSF、MSFE、MSAIB、MSBISA、MSDTTI、MAGBM、MSMI、MSMKT1、MBANUGC、EMBAHK、EMBAP、EMBAT |
+| 人文社会科学院 | 14 | MSSCSL、MACH1、MAES、MALS、MACNM、MAIMC、MAHUM、MAIS、MAPPM、MSSDS1、MAASS、MSSC、MSSPSY、MSW |
+| 理学院 | 3 | MSCHEM1、MSFMS1、MSPDMQT |
+| 生物医学院 | 3 | MSBME1、MSHSB、MSN1 |
+| 赛马会动物医学及生命科学院 | 2 | MPH、MVM |
+| 创意媒体学院 | 2 | MACM、MFACM |
+| 能源及环境学院 | 1 | MSEGEV |
+| 法律学院 | 3 | JD4、LLMARBDR、LLM3 |
 
-> 创新学院（CityUHK Academy of Innovation）为计算学院以外的第一个学院，其 MSVC 项目的选修课来自会计、管理、市场营销、信息系统、传播、能源环境、公共政策、社会科学与系统工程等多个院系。
+> 全部培养方案（核心/选修/方向分流/学分要求）逐项目对照城大官方 2026/27 授课式研究生目录核对；多方向项目（如 LLM 的七个方向、MSPACG 的 CG/PA 方向）以选修分组形式呈现，具体修读规则见各项目备注。EMBA/MBA 等 cohort 制项目亦已收录，便于浏览课程结构。
+
 
 ## 网页版主要功能
 

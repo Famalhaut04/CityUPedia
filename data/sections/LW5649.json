@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "13088",
+  "section": "D01",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "1406",
+  "instructor": "TBA LW115",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ }
+]

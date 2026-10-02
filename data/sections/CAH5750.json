@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "15502",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "LAU",
+  "room": "6-213",
+  "instructor": "FAN Ka Wai",
+  "medium": "Chinese",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

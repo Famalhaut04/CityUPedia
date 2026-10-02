@@ -1,0 +1,50 @@
+[
+ {
+  "crn": "15230",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 12:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "YU Jane",
+  "medium": "English",
+  "notes": []
+ },
+ {
+  "crn": "15496",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "13:00 - 13:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "YU Jane",
+  "medium": "English",
+  "notes": []
+ },
+ {
+  "crn": "15231",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "35",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "14:00 - 17:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "YU Jane",
+  "medium": "English",
+  "notes": []
+ }
+]

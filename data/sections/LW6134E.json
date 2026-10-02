@@ -1,0 +1,76 @@
+[
+ {
+  "crn": "15071",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "79",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "WANG Jiangyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: CCL, CFL"
+  ]
+ },
+ {
+  "crn": "15078",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "62",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "WANG Jiangyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: CCL, CFL"
+  ]
+ },
+ {
+  "crn": "15079",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "WANG Jiangyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ },
+ {
+  "crn": "15080",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "WANG Jiangyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ }
+]

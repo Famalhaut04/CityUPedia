@@ -1,0 +1,78 @@
+[
+ {
+  "crn": "15921",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "26",
+  "capacity": "60",
+  "date": "31/08/2026 - 03/10/2026",
+  "day": "R",
+  "time": "10:00 - 12:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "GAO Stephanie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15921",
+  "section": "S01",
+  "credits": 2,
+  "web": "Y",
+  "available": "26",
+  "capacity": "60",
+  "date": "13/09/2026 - 19/09/2026",
+  "day": "T",
+  "time": "14:30 - 17:20",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "GAO Stephanie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15922",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "18",
+  "capacity": "60",
+  "date": "06/09/2026 - 03/10/2026",
+  "day": "U",
+  "time": "10:00 - 12:50",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "GAO Stephanie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ },
+ {
+  "crn": "15922",
+  "section": "S02",
+  "credits": 2,
+  "web": "Y",
+  "available": "18",
+  "capacity": "60",
+  "date": "06/09/2026 - 03/10/2026",
+  "day": "U",
+  "time": "14:30 - 17:20",
+  "building": "LAU",
+  "room": "14-221",
+  "instructor": "GAO Stephanie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MBANUGC",
+   "only for Programme: MBANUGC"
+  ]
+ }
+]

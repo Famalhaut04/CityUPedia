@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12439",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "GULLANDER-DROLET Claire",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ }
+]

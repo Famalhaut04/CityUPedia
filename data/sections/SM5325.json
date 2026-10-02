@@ -1,0 +1,59 @@
+[
+ {
+  "crn": "15351",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "54",
+  "capacity": "54",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M4001",
+  "instructor": "HAO Morgan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P",
+   "only for Major: CTNF"
+  ]
+ },
+ {
+  "crn": "15353",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "54",
+  "capacity": "54",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "12:00 - 14:50",
+  "building": "CMC",
+  "room": "M3090",
+  "instructor": "HAO Morgan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P",
+   "only for Major: CTNF"
+  ]
+ },
+ {
+  "crn": "15352",
+  "section": "C63",
+  "credits": 3,
+  "web": "Y",
+  "available": "54",
+  "capacity": "54",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M3090",
+  "instructor": "HAO Morgan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P",
+   "only for Major: CTNF"
+  ]
+ }
+]

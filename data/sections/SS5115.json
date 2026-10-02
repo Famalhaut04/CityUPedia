@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "10446",
+  "section": "S01",
+  "credits": null,
+  "web": "Y",
+  "available": "12",
+  "capacity": "60",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "S",
+  "time": "10:00 - 16:50",
+  "building": "LAU",
+  "room": "5-203",
+  "instructor": "YEUNG Wai Keung Jerf, ZHEN Shanshan, LI Kin Kit, FUNG Sai Fu, CHIU Tin Yan Titus",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSW, MSW2"
+  ]
+ }
+]

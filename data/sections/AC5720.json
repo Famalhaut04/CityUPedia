@@ -1,0 +1,74 @@
+[
+ {
+  "crn": "13267",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "10:00 - 12:50",
+  "building": "CMC",
+  "room": "M4051",
+  "instructor": "WEN Jing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ },
+ {
+  "crn": "13268",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "4412",
+  "instructor": "WONG Jerry",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ },
+ {
+  "crn": "13940",
+  "section": "S03",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "14:00 - 16:50",
+  "building": "ICP",
+  "room": "G-101",
+  "instructor": "WONG Jerry",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ },
+ {
+  "crn": "15241",
+  "section": "S04",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "13:00 - 15:50",
+  "building": "ICP",
+  "room": "G-101",
+  "instructor": "WEN Jing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAIA"
+  ]
+ }
+]

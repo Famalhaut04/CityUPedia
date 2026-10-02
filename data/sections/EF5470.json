@@ -1,0 +1,116 @@
+[
+ {
+  "crn": "10646",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "87",
+  "date": "31/08/2026 - 05/12/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "YEUNG",
+  "room": "LT-9",
+  "instructor": "HAN Xu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE",
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "10646",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "87",
+  "date": "18/10/2026 - 05/12/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "HAN Xu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE",
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "13369",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "87",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "YEUNG",
+  "room": "LT-6",
+  "instructor": "HAN Xu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE",
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "13369",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "87",
+  "date": "18/10/2026 - 28/11/2026",
+  "day": "W",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "HAN Xu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE",
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "15421",
+  "section": "S03",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "86",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "18:00 - 20:50",
+  "building": "YEUNG",
+  "room": "LT-10",
+  "instructor": "HAN Xu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE",
+   "only for Programme: MSAE"
+  ]
+ },
+ {
+  "crn": "15421",
+  "section": "S03",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "86",
+  "date": "18/10/2026 - 28/11/2026",
+  "day": "W",
+  "time": "18:00 - 20:50",
+  "building": "LI",
+  "room": "G600",
+  "instructor": "HAN Xu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAE",
+   "only for Programme: MSAE"
+  ]
+ }
+]

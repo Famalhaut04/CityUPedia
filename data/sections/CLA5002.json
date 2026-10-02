@@ -1,0 +1,22 @@
+[
+ {
+  "crn": "15774",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "FULL",
+  "capacity": "204",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M3017",
+  "instructor": "BAO Le",
+  "medium": "Chinese",
+  "notes": [
+   "only for College: CH",
+   "only for Programme: MSSCSL",
+   "only for Cohort: 2026"
+  ]
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "14004",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "XIAO Leon Y.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ },
+ {
+  "crn": "14005",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M4003",
+  "instructor": "XIAO Leon Y.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM"
+  ]
+ }
+]

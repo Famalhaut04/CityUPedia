@@ -1,0 +1,116 @@
+[
+ {
+  "crn": "12473",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "14",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M4001",
+  "instructor": "YOUNG Samson",
+  "medium": "English",
+  "notes": [
+   "only for Major: CR1",
+   "only for Major: CR1"
+  ]
+ },
+ {
+  "crn": "12473",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "14",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M6052",
+  "instructor": "YOUNG Samson",
+  "medium": "English",
+  "notes": [
+   "only for Major: CR1",
+   "only for Major: CR1"
+  ]
+ },
+ {
+  "crn": "15704",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "14",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M6042",
+  "instructor": "REINHUBER Elke Evelin",
+  "medium": "English",
+  "notes": [
+   "only for Major: CR1",
+   "only for Major: CR1"
+  ]
+ },
+ {
+  "crn": "15704",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "14",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M7098",
+  "instructor": "REINHUBER Elke Evelin",
+  "medium": "English",
+  "notes": [
+   "only for Major: CR1",
+   "only for Major: CR1"
+  ]
+ },
+ {
+  "crn": "15706",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "14",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M6050",
+  "instructor": "HATTLER Max",
+  "medium": "English",
+  "notes": [
+   "only for Major: CR1",
+   "only for Major: CR1"
+  ]
+ },
+ {
+  "crn": "15706",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "14",
+  "capacity": "14",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M6075",
+  "instructor": "HATTLER Max",
+  "medium": "English",
+  "notes": [
+   "only for Major: CR1",
+   "only for Major: CR1"
+  ]
+ }
+]

@@ -1,0 +1,94 @@
+[
+ {
+  "crn": "13296",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "2510",
+  "instructor": "HUANG Tao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: IPTL"
+  ]
+ },
+ {
+  "crn": "13934",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "2510",
+  "instructor": "HUANG Tao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: IPTL"
+  ]
+ },
+ {
+  "crn": "14787",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "2510",
+  "instructor": "HUANG Tao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "13299",
+  "section": "C05",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "2510",
+  "instructor": "HUANG Tao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4"
+  ]
+ },
+ {
+  "crn": "14788",
+  "section": "C06",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "16:00 - 18:50",
+  "building": "LI",
+  "room": "2510",
+  "instructor": "HUANG Tao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

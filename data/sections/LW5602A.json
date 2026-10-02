@@ -1,0 +1,110 @@
+[
+ {
+  "crn": "11953",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "130",
+  "capacity": "130",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 10:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "LIU Qiao, BECHER Samuel",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11958",
+  "section": "T01",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "17:00 - 18:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "LIU Qiao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11959",
+  "section": "T02",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "18:00 - 19:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "SUEN Warren Lampson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "11960",
+  "section": "T03",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "18:00 - 19:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "LAM Wai Ting",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "12928",
+  "section": "T04",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "20:00 - 21:50",
+  "building": "LI",
+  "room": "1305",
+  "instructor": "SUEN Warren Lampson",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "12929",
+  "section": "T05",
+  "credits": 3,
+  "web": "Y",
+  "available": "26",
+  "capacity": "26",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 20:50",
+  "building": "LI",
+  "room": "1306",
+  "instructor": "TBA LW104",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ }
+]

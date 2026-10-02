@@ -1,0 +1,59 @@
+[
+ {
+  "crn": "10635",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "72",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "CMC",
+  "room": "M8061",
+  "instructor": "CHEN Wen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: PA"
+  ]
+ },
+ {
+  "crn": "13266",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "72",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "09:00 - 11:50",
+  "building": "CMC",
+  "room": "M3090",
+  "instructor": "CHEN Wen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: PA"
+  ]
+ },
+ {
+  "crn": "10636",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "Ful 1 l",
+  "capacity": "72",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2614",
+  "instructor": "CHEN Wen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSPACG",
+   "only for Stream: PA"
+  ]
+ }
+]

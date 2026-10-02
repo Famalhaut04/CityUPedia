@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "14275",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "16",
+  "capacity": "80",
+  "date": "06/09/2026 - 05/12/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2301",
+  "instructor": "LAM May",
+  "medium": "English & Chinese",
+  "notes": [
+   "only for Programme: MAASS",
+   "only for Stream: CMHP"
+  ]
+ }
+]

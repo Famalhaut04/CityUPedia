@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "15725",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "120",
+  "capacity": "120",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-11",
+  "instructor": "LEE Wai Sum",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ }
+]

@@ -1,0 +1,113 @@
+[
+ {
+  "crn": "13364",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "29",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-3",
+  "instructor": "ANIMASHAUN Sijuade Thakib, YANG Shunqi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: CFL"
+  ]
+ },
+ {
+  "crn": "13929",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "30",
+  "capacity": "30",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-3",
+  "instructor": "ANIMASHAUN Sijuade Thakib, YANG Shunqi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "only for Major: IEL"
+  ]
+ },
+ {
+  "crn": "13930",
+  "section": "C63",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-3",
+  "instructor": "ANIMASHAUN Sijuade Thakib, YANG Shunqi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLM3, LLM3-P1",
+   "not for Major: CFL, IEL"
+  ]
+ },
+ {
+  "crn": "13365",
+  "section": "C64",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-3",
+  "instructor": "ANIMASHAUN Sijuade Thakib, YANG Shunqi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: JD4, JD4-P1"
+  ]
+ },
+ {
+  "crn": "13484",
+  "section": "C65",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-3",
+  "instructor": "ANIMASHAUN Sijuade Thakib, YANG Shunqi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ },
+ {
+  "crn": "14777",
+  "section": "C66",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-3",
+  "instructor": "ANIMASHAUN Sijuade Thakib, YANG Shunqi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: EXGP"
+  ]
+ }
+]

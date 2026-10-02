@@ -1,0 +1,39 @@
+[
+ {
+  "crn": "11627",
+  "section": "CY1",
+  "credits": 3,
+  "web": "Y",
+  "available": "28",
+  "capacity": "28",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-16",
+  "instructor": "LI Bin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ },
+ {
+  "crn": "10733",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "92",
+  "capacity": "92",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-16",
+  "instructor": "LI Bin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS",
+   "only for Stream: PL"
+  ]
+ }
+]

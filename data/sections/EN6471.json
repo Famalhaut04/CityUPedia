@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "10516",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M3090",
+  "instructor": "WINCKLER Reto Thomas Edgar, JIA Mian",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ },
+ {
+  "crn": "12161",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "CMC",
+  "room": "M3090",
+  "instructor": "WINCKLER Reto Thomas Edgar, JIA Mian",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAES"
+  ]
+ }
+]

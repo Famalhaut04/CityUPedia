@@ -1,0 +1,116 @@
+[
+ {
+  "crn": "10675",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "WANG Chutian",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "10675",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "14:00 - 16:50",
+  "building": "YEUNG",
+  "room": "G7510",
+  "instructor": "WANG Chutian",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "13921",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3614",
+  "instructor": "CONG Jiajia",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "13921",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "09:00 - 11:50",
+  "building": "YEUNG",
+  "room": "G7510",
+  "instructor": "CONG Jiajia",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "10676",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1610",
+  "instructor": "WANG Chutian",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ },
+ {
+  "crn": "10676",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "G7510",
+  "instructor": "WANG Chutian",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSMKT",
+   "only for Programme: MSMKT"
+  ]
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "12111",
+  "section": "CN1",
+  "credits": 2,
+  "web": "Y",
+  "available": "34",
+  "capacity": "210",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "16:00 - 17:50",
+  "building": "LI",
+  "room": "2510",
+  "instructor": "CHAN Winnie",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MAHUM"
+  ]
+ }
+]

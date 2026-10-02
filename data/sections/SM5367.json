@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "15908",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "68",
+  "capacity": "68",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M5050",
+  "instructor": "ZHAO Jing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MACM, SM/C, SM/M, SM/P"
+  ]
+ },
+ {
+  "crn": "15909",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "2",
+  "capacity": "2",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "CMC",
+  "room": "M5050",
+  "instructor": "ZHAO Jing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MFACM"
+  ]
+ }
+]

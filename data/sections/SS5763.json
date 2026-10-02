@@ -1,0 +1,21 @@
+[
+ {
+  "crn": "13854",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "80",
+  "capacity": "80",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2301",
+  "instructor": "LAU Ka Bo Gilbert",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSSPSY",
+   "only for Stream: EDUC"
+  ]
+ }
+]

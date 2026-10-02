@@ -1,0 +1,112 @@
+[
+ {
+  "crn": "12232",
+  "section": "S01",
+  "credits": 3,
+  "web": "Y",
+  "available": "1",
+  "capacity": "140",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "WANG Le",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIB, MSBISA, MSCBDA2, MSDTTI"
+  ]
+ },
+ {
+  "crn": "12233",
+  "section": "S02",
+  "credits": 3,
+  "web": "Y",
+  "available": "49",
+  "capacity": "140",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1507",
+  "instructor": "LIAO Shaoyi Stephen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIB, MSBISA, MSCBDA2, MSDTTI"
+  ]
+ },
+ {
+  "crn": "12231",
+  "section": "S61",
+  "credits": 3,
+  "web": "Y",
+  "available": "140",
+  "capacity": "140",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "17:00 - 19:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "WANG Le",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIB, MSBISA, MSCBDA2, MSDTTI"
+  ]
+ },
+ {
+  "crn": "13581",
+  "section": "SA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "12",
+  "capacity": "12",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "1507",
+  "instructor": "LIAO Shaoyi Stephen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSF, MSFE"
+  ]
+ },
+ {
+  "crn": "15762",
+  "section": "SA2",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "13:00 - 15:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "WANG Le",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSBISB",
+   "only for Cohort: 2024, 2025"
+  ]
+ },
+ {
+  "crn": "15767",
+  "section": "SP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "S",
+  "time": "17:00 - 19:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "WANG Le",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSBISB",
+   "only for Cohort: 2024, 2025"
+  ]
+ }
+]

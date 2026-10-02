@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "10371",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "200",
+  "capacity": "200",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "T",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2505",
+  "instructor": "CHAISSE Julien L.",
+  "medium": "English",
+  "notes": [
+   "only for Programme: LLMARBDR"
+  ]
+ }
+]

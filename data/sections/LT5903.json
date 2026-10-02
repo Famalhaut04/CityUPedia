@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "10734",
+  "section": "CZ1",
+  "credits": 3,
+  "web": "Y",
+  "available": "280",
+  "capacity": "280",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-1",
+  "instructor": "LI Jixing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MALS"
+  ]
+ }
+]

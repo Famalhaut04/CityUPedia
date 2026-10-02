@@ -1,0 +1,20 @@
+[
+ {
+  "crn": "15515",
+  "section": "CN1",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "2301",
+  "instructor": "LO Kar Kee",
+  "medium": "Putonghua",
+  "notes": [
+   "only for Programme: MACH, MACH1, MACH1-CHCH"
+  ]
+ }
+]

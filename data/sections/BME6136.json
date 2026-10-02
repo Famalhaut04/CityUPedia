@@ -1,0 +1,38 @@
+[
+ {
+  "crn": "12238",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "175",
+  "capacity": "175",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "19:00 - 20:50",
+  "building": "YEUNG",
+  "room": "LT-6",
+  "instructor": "CARNICER LOMBARTE Alejandro",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSBME1"
+  ]
+ },
+ {
+  "crn": "12239",
+  "section": "T61",
+  "credits": 3,
+  "web": "Y",
+  "available": "175",
+  "capacity": "175",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "21:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-6",
+  "instructor": "CARNICER LOMBARTE Alejandro",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSBME1"
+  ]
+ }
+]
