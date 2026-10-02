@@ -1,11 +1,16 @@
 {
   "course_code": "MKT5610",
-  "level": "unknown",
-  "verdict": "暂无评价",
-  "summary": "Marketing Strategy and Planning。MSVC 核心选修课，官方标注 SemA、SemB 开课。Semester A 共 3 个班次，但都限其它项目学生注册，MSVC 学生需向开课院系确认。",
+  "level": "caution",
+  "verdict": "作业量最大的必修",
+  "summary": "MSc Marketing 学姐认为最难的一门必修：老师是行业内很厉害的人物，课程涉及专业性较强的计算与模型；期末评分＝个人作业（较多）＋个人 pre（要抢主题）＋小组作业＋小组 pre，一周两节课、个人作业多，学姐直言“有点痛苦”。",
   "tags": [
-    "市场营销"
+    "作业量大",
+    "计算模型",
+    "个人pre多",
+    "行业大牛"
   ],
-  "source_ids": [],
-  "last_updated": "2026-08-24"
+  "source_ids": [
+    "offercool_msmkt"
+  ],
+  "last_updated": "2026-10-03"
 }

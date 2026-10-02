@@ -1,9 +1,18 @@
 {
- "course_code": "IS5411",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Systems Analysis and Design。MSAIB 选修课，官方标注 Semester A 开课。Semester A 共 6 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "IS5411",
+  "level": "good",
+  "verdict": "有难度但含金量高",
+  "summary": "系统分析与设计（UML、流程图、系统设计），被多位学长姐称为第一学期最难但最核心的课。理论+小组项目（为真实组织设计系统）并重；期末闭卷考概念+案例题，历年考题相近、认真准备分数不低，成绩很大程度取决于小组项目质量——展示前可约 office hour 让老师预审修改。对系统分析/产品岗求职有帮助。",
+  "tags": [
+    "系统分析与设计",
+    "UML",
+    "小组项目",
+    "闭卷考",
+    "难度偏高",
+    "求职实用"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

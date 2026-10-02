@@ -1,9 +1,14 @@
 {
- "course_code": "LW6153E",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "International Economic Dispute Resolution: Law and Politics。LLM3 选修课，官方标注 Semester B 开课。官方标注 Semester B 开课。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "LW6153E",
+  "level": "neutral",
+  "verdict": "实务相关",
+  "summary": "IEL 学姐选修课之一（与 LW6109E 银行和金融法一并评价）：“内容都比较与实务相关”。",
+  "tags": [
+    "实务向",
+    "争端解决"
+  ],
+  "source_ids": [
+    "offercool_llm"
+  ],
+  "last_updated": "2026-10-03"
 }

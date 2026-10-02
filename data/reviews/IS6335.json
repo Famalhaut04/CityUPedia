@@ -3,7 +3,16 @@
   "level": "good",
   "verdict": "方向匹配可选",
   "summary": "数据可视化，主要使用 R，作业与项目投入可控；不同班次教师可能带来差异。",
-  "tags": ["数据可视化", "R", "项目制", "压力适中"],
-  "source_ids": ["overview", "ec_summary"],
-  "last_updated": "2026-08-13"
+  "tags": [
+    "数据可视化",
+    "R",
+    "项目制",
+    "压力适中"
+  ],
+  "source_ids": [
+    "overview",
+    "ec_summary",
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

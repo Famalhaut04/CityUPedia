@@ -1,9 +1,16 @@
 {
- "course_code": "MS5411",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Healthcare Management。MSCOSCM 选修课，官方标注 Semester B 开课。官方标注 Semester B 开课。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "MS5411",
+  "level": "caution",
+  "verdict": "模型密集、不易听懂",
+  "summary": "OSCM 学姐不推荐：课程围绕健康主题，但教学内容涉及非常多的模型、不易理解，还需要用 SPSS 和 Excel 辅助操作，整体听下来“比较云里雾里”。",
+  "tags": [
+    "模型密集",
+    "SPSS",
+    "健康主题",
+    "不推荐（学姐）"
+  ],
+  "source_ids": [
+    "offercool_oscm"
+  ],
+  "last_updated": "2026-10-03"
 }

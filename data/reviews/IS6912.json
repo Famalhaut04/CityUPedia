@@ -1,9 +1,17 @@
 {
- "course_code": "IS6912",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Information Systems Project。MSCBDA2 选修课，官方标注 Semester A/B 开课。Semester A 共 1 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "IS6912",
+  "level": "research",
+  "verdict": "跨学期毕业项目（导师制）",
+  "summary": "IS Project 横跨两学期（A+B 或 B+Summer），6 学分相当于两门课、选后可少修两门选修。入学后尽快联系导师定题（选题可与导师商量），结题提交约 6500 字报告+成果（系统/数据分析等），成绩由导师评定，认真完成就能取得不错成绩；适合有基础、想锻炼实践与研究能力的同学。",
+  "tags": [
+    "毕业项目",
+    "跨学期",
+    "6学分",
+    "导师制",
+    "无考试"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

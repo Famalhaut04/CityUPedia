@@ -1021,12 +1021,6 @@
       "min_credits": 8
      },
      {
-      "key": "tour",
-      "label_zh": "环球游学（≥4 学分）",
-      "label_en": "Pillar 3 Global Tours (min 4 cu)",
-      "min_credits": 4
-     },
-     {
       "key": "emba_elec",
       "label_zh": "选修课程",
       "label_en": "Electives"
@@ -1411,12 +1405,6 @@
       "label_zh": "数字媒体方向必修",
       "label_en": "Digital Media Stream Compulsory",
       "min_credits": 9
-     },
-     {
-      "key": "dm_elec",
-      "label_zh": "数字媒体方向选修",
-      "label_en": "Digital Media Stream Electives",
-      "min_credits": 9
      }
     ]
    },
@@ -1657,12 +1645,6 @@
       "label_zh": "社会学方向选修",
       "label_en": "Sociology Stream Elective",
       "min_credits": 6
-     },
-     {
-      "key": "s2_elec",
-      "label_zh": "犯罪学方向选修",
-      "label_en": "Criminology Stream Elective",
-      "min_credits": 3
      },
      {
       "key": "s3_elec",
@@ -2200,31 +2182,6 @@
    }
   },
   {
-   "code": "AC5691P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Corporate Governance",
-   "schedule_title": "Corporate Governance",
-   "title_changed": false,
-   "credits": 1.5,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "AC5710",
    "programmes": [
     "MAIA"
@@ -2273,56 +2230,6 @@
    },
    "section_count": 4,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "AC5713P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Corporate Financial Statement Analysis and Strategic Business Valuation",
-   "schedule_title": "Corporate Financial Statement Analysis and Strategic Business Valuation",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "AC5716P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Advanced Financial Accounting",
-   "schedule_title": "Advanced Financial Accounting",
-   "title_changed": false,
-   "credits": 1.5,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "AC5720",
@@ -2400,81 +2307,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "AC5790P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Corporate Social Responsibilities and Accounting Ethics",
-   "schedule_title": "Corporate Social Responsibilities and Accounting Ethics",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "AC5791P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Chinese Law and Financial Regulations",
-   "schedule_title": "Chinese Law and Financial Regulations",
-   "title_changed": false,
-   "credits": 1.5,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "AC5793P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Topical Analysis on Contemporary Chinese Economy",
-   "schedule_title": "Topical Analysis on Contemporary Chinese Economy",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "AC5794P",
    "programmes": [
     "MSAFBNAI"
@@ -2550,66 +2382,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "AC5890",
-   "programmes": [
-    "MAIA",
-    "MSPACG"
-   ],
-   "programme_requirement_types": {
-    "MAIA": "elective",
-    "MSPACG": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Management for Accountants",
-   "schedule_title": "Business Management for Accountants",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSPACG": "pa"
-   }
-  },
-  {
-   "code": "AC5891",
-   "programmes": [
-    "MAIA",
-    "MSPACG"
-   ],
-   "programme_requirement_types": {
-    "MAIA": "elective",
-    "MSPACG": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Economics and Statistics for Accountants",
-   "schedule_title": "Business Economics and Statistics for Accountants",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSPACG": "pa"
-   }
   },
   {
    "code": "AC6531",
@@ -2893,61 +2665,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "AC6780",
-   "programmes": [
-    "MAIA",
-    "MSPACG"
-   ],
-   "programme_requirement_types": {
-    "MAIA": "elective",
-    "MSPACG": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Professional Internship",
-   "schedule_title": "Professional Internship",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSPACG": "pa"
-   }
-  },
-  {
-   "code": "AC6787P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Overseas Residential Study Trip",
-   "schedule_title": "Overseas Residential Study Trip",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "AC",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "AC6790P",
@@ -3327,31 +3044,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "BME5111",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Regenerative Medicine",
-   "schedule_title": "Regenerative Medicine",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "BME6005",
    "programmes": [
     "MSBME1"
@@ -3402,56 +3094,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "BME6022",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Project Development Study",
-   "schedule_title": "Project Development Study",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "BME6045",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Industrial Case Study",
-   "schedule_title": "Industrial Case Study",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "BME6101",
    "programmes": [
     "MSBME1"
@@ -3500,31 +3142,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "BME6114",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Advanced Control Systems",
-   "schedule_title": "Advanced Control Systems",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "BME6115",
@@ -3627,31 +3244,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "BME6122",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Physiological Modeling",
-   "schedule_title": "Physiological Modeling",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "BME6123",
    "programmes": [
     "MSBME1"
@@ -3729,31 +3321,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "BME6137",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Medical Diagnostics",
-   "schedule_title": "Medical Diagnostics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "BME6138",
    "programmes": [
     "MSAIDI",
@@ -3779,31 +3346,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "BME6139",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "AI in Medical Imaging",
-   "schedule_title": "AI in Medical Imaging",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "BME6140",
@@ -3881,56 +3423,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "BME6143",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Biological Thermofluidics",
-   "schedule_title": "Biological Thermofluidics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "BME6144",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Biochip Design and Applications",
-   "schedule_title": "Biochip Design and Applications",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "BME6145",
    "programmes": [
     "MSBME1"
@@ -3954,31 +3446,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "BME6146",
-   "programmes": [
-    "MSBME1"
-   ],
-   "programme_requirement_types": {
-    "MSBME1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "GenAI Technologies for Biomedical and Healthcare Applications",
-   "schedule_title": "GenAI Technologies for Biomedical and Healthcare Applications",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "BME",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "BMS5001",
@@ -6533,34 +6000,6 @@
    }
   },
   {
-   "code": "CAH5742",
-   "programmes": [
-    "MACH1"
-   ],
-   "programme_requirement_types": {
-    "MACH1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Chinese Art Criticism and Education",
-   "schedule_title": "Chinese Art Criticism and Education",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "CAH",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MACH1": "ch_elec"
-   }
-  },
-  {
    "code": "CAH5743",
    "programmes": [
     "MACH1"
@@ -6724,34 +6163,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MACH1": "ch_elec"
-   }
-  },
-  {
-   "code": "CAH5749",
-   "programmes": [
-    "MACH1"
-   ],
-   "programme_requirement_types": {
-    "MACH1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "History of Chinese Buddhist Thought",
-   "schedule_title": "History of Chinese Buddhist Thought",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "CAH",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MACH1": "ch_elec"
    }
@@ -7869,12 +7280,10 @@
   {
    "code": "COM5105",
    "programmes": [
-    "MSVC",
-    "MACNM"
+    "MSVC"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective",
-    "MACNM": "elective"
+    "MSVC": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Media Economics and Financial Markets",
@@ -7893,8 +7302,7 @@
    "section_count": 0,
    "semester_tag": "SemB",
    "programme_elective_groups": {
-    "MSVC": "free_elective",
-    "MACNM": "mda_elec"
+    "MSVC": "free_elective"
    }
   },
   {
@@ -7929,37 +7337,6 @@
    "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MSVC": "free_elective",
-    "MACNM": "mda_elec",
-    "MAHUM": "housing_elec"
-   }
-  },
-  {
-   "code": "COM5107",
-   "programmes": [
-    "MACNM",
-    "MAHUM"
-   ],
-   "programme_requirement_types": {
-    "MACNM": "elective",
-    "MAHUM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Professional Communication Skills",
-   "schedule_title": "Professional Communication Skills",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
     "MACNM": "mda_elec",
     "MAHUM": "housing_elec"
    }
@@ -8060,36 +7437,6 @@
    }
   },
   {
-   "code": "COM5112",
-   "programmes": [
-    "MACNM",
-    "MAIMC"
-   ],
-   "programme_requirement_types": {
-    "MACNM": "elective",
-    "MAIMC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Communication Research Seminar",
-   "schedule_title": "Communication Research Seminar",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MACNM": "mda_elec"
-   }
-  },
-  {
    "code": "COM5401",
    "programmes": [
     "MACNM",
@@ -8185,31 +7532,6 @@
    }
   },
   {
-   "code": "COM5404",
-   "programmes": [
-    "MAIMC"
-   ],
-   "programme_requirement_types": {
-    "MAIMC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Stakeholders Relationship Management",
-   "schedule_title": "Stakeholders Relationship Management",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "COM5405",
    "programmes": [
     "MSVC",
@@ -8270,31 +7592,6 @@
    }
   },
   {
-   "code": "COM5407",
-   "programmes": [
-    "MAIMC"
-   ],
-   "programme_requirement_types": {
-    "MAIMC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Financial Communication and Promotion",
-   "schedule_title": "Financial Communication and Promotion",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "COM5408",
    "programmes": [
     "MSVC",
@@ -8350,36 +7647,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "COM5502",
-   "programmes": [
-    "MACNM",
-    "MAIMC"
-   ],
-   "programme_requirement_types": {
-    "MACNM": "elective",
-    "MAIMC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Multimedia Communication",
-   "schedule_title": "Multimedia Communication",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MACNM": "mda_elec"
-   }
-  },
-  {
    "code": "COM5503",
    "programmes": [
     "MACNM",
@@ -8405,36 +7672,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MACNM": "mda_elec"
-   }
-  },
-  {
-   "code": "COM5504",
-   "programmes": [
-    "MACNM",
-    "MAIMC"
-   ],
-   "programme_requirement_types": {
-    "MACNM": "elective",
-    "MAIMC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Multimedia Communication",
-   "schedule_title": "Advanced Multimedia Communication",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MACNM": "mda_elec"
    }
@@ -8686,36 +7923,6 @@
    }
   },
   {
-   "code": "COM5513",
-   "programmes": [
-    "MACNM",
-    "MAIMC"
-   ],
-   "programme_requirement_types": {
-    "MACNM": "elective",
-    "MAIMC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "AI Communication Ethics and Governance",
-   "schedule_title": "AI Communication Ethics and Governance",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MACNM": "mda_elec"
-   }
-  },
-  {
    "code": "COM5514",
    "programmes": [
     "MACNM",
@@ -8741,66 +7948,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MACNM": "mda_elec"
-   }
-  },
-  {
-   "code": "COM5602",
-   "programmes": [
-    "MACNM",
-    "MAIMC"
-   ],
-   "programme_requirement_types": {
-    "MACNM": "elective",
-    "MAIMC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Directed Studies",
-   "schedule_title": "Directed Studies",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MACNM": "mda_elec"
-   }
-  },
-  {
-   "code": "COM5603",
-   "programmes": [
-    "MACNM",
-    "MAIMC"
-   ],
-   "programme_requirement_types": {
-    "MACNM": "elective",
-    "MAIMC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Dissertation",
-   "schedule_title": "Dissertation",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "COM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MACNM": "mda_elec"
    }
@@ -13568,35 +12715,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "EF5340",
-   "programmes": [
-    "MSF",
-    "MSFE",
-    "MSFMS1"
-   ],
-   "programme_requirement_types": {
-    "MSF": "elective",
-    "MSFE": "elective",
-    "MSFMS1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Credit Risk Management",
-   "schedule_title": "Credit Risk Management",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EF",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "EF5342",
    "programmes": [
     "MSCIE",
@@ -13907,31 +13025,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "EF5541P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Corporate Merger and Acquisition with Applications in the Fintech Industry",
-   "schedule_title": "Corporate Merger and Acquisition with Applications in the Fintech Industry",
-   "title_changed": false,
-   "credits": 1.5,
-   "remarks": "EF",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "EF5550P",
    "programmes": [
     "MSAFBNAI"
@@ -14089,31 +13182,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "EN5464",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "English Phonetics and Phonology",
-   "schedule_title": "English Phonetics and Phonology",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "EN5465",
    "programmes": [
     "MAES"
@@ -14137,31 +13205,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "EN5466",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Testing and Evaluation in Language Studies",
-   "schedule_title": "Testing and Evaluation in Language Studies",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "EN5490",
@@ -14339,31 +13382,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "EN6505",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Curriculum Design in Language Studies",
-   "schedule_title": "Curriculum Design in Language Studies",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "EN6508",
    "programmes": [
     "MAES"
@@ -14412,56 +13430,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "EN6510",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Asian and Asian Diaspora Literature in English",
-   "schedule_title": "Asian and Asian Diaspora Literature in English",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "EN6511",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Teaching English for Academic Purposes",
-   "schedule_title": "Teaching English for Academic Purposes",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "EN6512",
@@ -14514,56 +13482,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "EN6517",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Literature and the City",
-   "schedule_title": "Literature and the City",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "EN6518",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Travel Writing",
-   "schedule_title": "Travel Writing",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "EN6519",
    "programmes": [
     "MAES"
@@ -14587,131 +13505,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "EN6520",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "The Graphic Novel",
-   "schedule_title": "The Graphic Novel",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "EN6521",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Discourse, Ideology and Power",
-   "schedule_title": "Discourse, Ideology and Power",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "EN6522",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Corpus Linguistics in English Studies",
-   "schedule_title": "Corpus Linguistics in English Studies",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "EN6523",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Studies in Short Fiction",
-   "schedule_title": "Studies in Short Fiction",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "EN6524",
-   "programmes": [
-    "MAES"
-   ],
-   "programme_requirement_types": {
-    "MAES": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Teaching and Learning through English as a Medium of Instruction",
-   "schedule_title": "Teaching and Learning through English as a Medium of Instruction",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "EN",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "EN6941",
@@ -14866,34 +13659,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "FB5142B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Corporate Finance",
-   "schedule_title": "Advanced Corporate Finance",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
    "code": "FB5153",
    "programmes": [
     "MBANUGC"
@@ -14917,34 +13682,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB5153B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Investment Analysis and Portfolio Management",
-   "schedule_title": "Investment Analysis and Portfolio Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MBANUGC": "mba_elec"
    }
@@ -15006,31 +13743,6 @@
    }
   },
   {
-   "code": "FB5561",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Artificial Intelligence in Business",
-   "schedule_title": "Artificial Intelligence in Business",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "Y",
-    "available": "44",
-    "capacity": "120",
-    "medium": "English"
-   },
-   "section_count": 4,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB5601",
    "programmes": [
     "MBANUGC"
@@ -15056,34 +13768,6 @@
    "semester_tag": "SemA+SemB"
   },
   {
-   "code": "FB5612B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Applied Marketing Research and Consulting Skills",
-   "schedule_title": "Applied Marketing Research and Consulting Skills",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
    "code": "FB5632B",
    "programmes": [
     "MBANUGC"
@@ -15107,59 +13791,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB5690",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Corporate Governance",
-   "schedule_title": "Corporate Governance",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB5690B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Corporate Governance",
-   "schedule_title": "Corporate Governance",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MBANUGC": "mba_elec"
    }
@@ -15191,31 +13822,6 @@
    "programme_elective_groups": {
     "MBANUGC": "mba_elec"
    }
-  },
-  {
-   "code": "FB5700B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "MBA Orientation",
-   "schedule_title": "MBA Orientation",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "Y",
-    "available": "14",
-    "capacity": "90",
-    "medium": "English"
-   },
-   "section_count": 1,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "FB5721",
@@ -15291,34 +13897,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB5772A",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Applied Financial Analytics for Risk Management",
-   "schedule_title": "Applied Financial Analytics for Risk Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MBANUGC": "mba_elec"
    }
@@ -15624,31 +14202,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "FB5812P",
-   "programmes": [
-    "EMBAT"
-   ],
-   "programme_requirement_types": {
-    "EMBAT": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Economics",
-   "schedule_title": "Economics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB5813P",
    "programmes": [
     "EMBAT"
@@ -15749,59 +14302,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "FB5828P",
-   "programmes": [
-    "EMBAT"
-   ],
-   "programme_requirement_types": {
-    "EMBAT": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "OBOR Field Trip and Capstone Project",
-   "schedule_title": "OBOR Field Trip and Capstone Project",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6311B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Strategic Human Resources Management",
-   "schedule_title": "Strategic Human Resources Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
    "code": "FB6502B",
    "programmes": [
     "MBANUGC"
@@ -15825,140 +14325,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "FB6508",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Business Management",
-   "schedule_title": "Global Business Management",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6508B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Business Management",
-   "schedule_title": "Global Business Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6603",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Consumer Behaviour",
-   "schedule_title": "Consumer Behaviour",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6603B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Consumer Behaviour",
-   "schedule_title": "Consumer Behaviour",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6622B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Services Marketing",
-   "schedule_title": "Services Marketing",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
   },
   {
    "code": "FB6700",
@@ -15988,90 +14354,6 @@
    "semester_tag": "Summer",
    "programme_elective_groups": {
     "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6701A",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "MBA Enterprise Diagnostic Residential Trip I",
-   "schedule_title": "MBA Enterprise Diagnostic Residential Trip I",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "Y",
-    "available": "40",
-    "capacity": "40",
-    "medium": "English"
-   },
-   "section_count": 1,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6701B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "MBA Enterprise Diagnostic Residential Trip II",
-   "schedule_title": "MBA Enterprise Diagnostic Residential Trip II",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6701C",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "MBA Enterprise Diagnostic Residential Trip III",
-   "schedule_title": "MBA Enterprise Diagnostic Residential Trip III",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
    }
   },
   {
@@ -16131,118 +14413,6 @@
    }
   },
   {
-   "code": "FB6702",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Professional Forum",
-   "schedule_title": "Professional Forum",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "Y",
-    "available": "60",
-    "capacity": "60",
-    "medium": "English & Chinese"
-   },
-   "section_count": 1,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6703B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Industry On-site Workshop",
-   "schedule_title": "Industry On-site Workshop",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6703C",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Industry On-site Workshop",
-   "schedule_title": "Industry On-site Workshop",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6705",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Mentoring",
-   "schedule_title": "Business Mentoring",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "Y",
-    "available": "60",
-    "capacity": "60",
-    "medium": "English"
-   },
-   "section_count": 1,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
    "code": "FB6709",
    "programmes": [
     "MBANUGC"
@@ -16268,90 +14438,6 @@
    "semester_tag": "Summer",
    "programme_elective_groups": {
     "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6709D",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Entrepreneurship and Venture Plan Development",
-   "schedule_title": "Entrepreneurship and Venture Plan Development",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6710B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Practical FinTech Applications",
-   "schedule_title": "Practical FinTech Applications",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6711B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Data Analytics with Business Applications",
-   "schedule_title": "Data Analytics with Business Applications",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
    }
   },
   {
@@ -16411,90 +14497,6 @@
    }
   },
   {
-   "code": "FB6712C",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Industry On-site Workshop",
-   "schedule_title": "Industry On-site Workshop",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6721B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Supply Chain Management",
-   "schedule_title": "Supply Chain Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6726B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Service Operations Management",
-   "schedule_title": "Service Operations Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
    "code": "FB6773A",
    "programmes": [
     "MBANUGC"
@@ -16518,62 +14520,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6773B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Exchange II",
-   "schedule_title": "Global Exchange II",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
-   }
-  },
-  {
-   "code": "FB6773C",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Exchange III",
-   "schedule_title": "Global Exchange III",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MBANUGC": "global"
    }
@@ -16607,62 +14553,6 @@
    }
   },
   {
-   "code": "FB6776A",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Special Topics in Business I",
-   "schedule_title": "Special Topics in Business I",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6776B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Special Topics in Business I",
-   "schedule_title": "Special Topics in Business I",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
    "code": "FB6776C",
    "programmes": [
     "MBANUGC"
@@ -16688,34 +14578,6 @@
    "semester_tag": "SemA",
    "programme_elective_groups": {
     "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6777",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Brand Management Workshop",
-   "schedule_title": "Global Brand Management Workshop",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "global"
    }
   },
   {
@@ -16775,62 +14637,6 @@
    }
   },
   {
-   "code": "FB6780B",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Marketing Technology and Analytics for Startups and Entrepreneurs",
-   "schedule_title": "Marketing Technology and Analytics for Startups and Entrepreneurs",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6781",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Special Topics in Business III",
-   "schedule_title": "Special Topics in Business III",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
    "code": "FB6782",
    "programmes": [
     "MBANUGC"
@@ -16854,34 +14660,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemA",
-   "programme_elective_groups": {
-    "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6782C",
-   "programmes": [
-    "MBANUGC"
-   ],
-   "programme_requirement_types": {
-    "MBANUGC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Agile Leadership in a Transformative World",
-   "schedule_title": "Agile Leadership in a Transformative World",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "Y",
-    "available": "50",
-    "capacity": "50",
-    "medium": "English"
-   },
-   "section_count": 2,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MBANUGC": "mba_elec"
    }
@@ -16940,118 +14718,6 @@
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MBANUGC": "mba_elec"
-   }
-  },
-  {
-   "code": "FB6801",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Innovations: Asia Field Study 1",
-   "schedule_title": "Business Innovations: Asia Field Study 1",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "tour"
-   }
-  },
-  {
-   "code": "FB6802",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Innovations: Asia Field Study 2",
-   "schedule_title": "Business Innovations: Asia Field Study 2",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "tour"
-   }
-  },
-  {
-   "code": "FB6803",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Innovations: Global Field Study 1",
-   "schedule_title": "Business Innovations: Global Field Study 1",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "tour"
-   }
-  },
-  {
-   "code": "FB6804",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Innovations: Global Field Study 2",
-   "schedule_title": "Business Innovations: Global Field Study 2",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "tour"
    }
   },
   {
@@ -17158,31 +14824,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "FB6813P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Executive Consultancy Mission (Residential Trip)",
-   "schedule_title": "Executive Consultancy Mission (Residential Trip)",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB6815P",
    "programmes": [
     "EMBAP",
@@ -17233,31 +14874,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "FB6821P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Current Challenges in China Business",
-   "schedule_title": "Current Challenges in China Business",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "FB6838P",
@@ -17537,31 +15153,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "FB6861P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Behavioural Decision-making Workshop",
-   "schedule_title": "Behavioural Decision-making Workshop",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB6862P",
    "programmes": [
     "EMBAP"
@@ -17585,31 +15176,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "FB6863P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Portfolio Management and Security Analysis",
-   "schedule_title": "Portfolio Management and Security Analysis",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "FB6865P",
@@ -17662,31 +15228,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "FB6868P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Electronic Commerce",
-   "schedule_title": "Electronic Commerce",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB6869P",
    "programmes": [
     "EMBAP"
@@ -17737,165 +15278,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "FB6871P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Corporate Governance–Internal Mechanisms",
-   "schedule_title": "Corporate Governance–Internal Mechanisms",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6873",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Innovation Internship 1",
-   "schedule_title": "Innovation Internship 1",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
-   "code": "FB6873P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Corporate Governance–External Mechanisms and China Practice",
-   "schedule_title": "Corporate Governance–External Mechanisms and China Practice",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6874",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Innovation Internship 2",
-   "schedule_title": "Innovation Internship 2",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
-   "code": "FB6874P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Strategy of Sustainable Growth in the Digital Era",
-   "schedule_title": "Business Strategy of Sustainable Growth in the Digital Era",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6875",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Crypto Assets: Valuation, Accounting and Auditing",
-   "schedule_title": "Crypto Assets: Valuation, Accounting and Auditing",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
    "code": "FB6875P",
    "programmes": [
     "EMBAP"
@@ -17919,34 +15301,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "FB6876",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Family Business Innovation and Succession",
-   "schedule_title": "Family Business Innovation and Succession",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
   },
   {
    "code": "FB6876P",
@@ -17974,115 +15328,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "FB6877",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Modern Project Management",
-   "schedule_title": "Modern Project Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
-   "code": "FB6878",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Corporate Sustainability and ESG Strategies",
-   "schedule_title": "Corporate Sustainability and ESG Strategies",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "res"
-   }
-  },
-  {
-   "code": "FB6879P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Mainland China’s Capital Market and Security Analysis",
-   "schedule_title": "Mainland China’s Capital Market and Security Analysis",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6880",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Marketing Strategy",
-   "schedule_title": "Global Marketing Strategy",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "res"
-   }
-  },
-  {
    "code": "FB6880P",
    "programmes": [
     "EMBAP"
@@ -18106,31 +15351,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "FB6881P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Artificial Intelligence and Business Applications",
-   "schedule_title": "Artificial Intelligence and Business Applications",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "FB6882P",
@@ -18258,56 +15478,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "FB6888P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "New Perspectives of Managerial Psychology",
-   "schedule_title": "New Perspectives of Managerial Psychology",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6889P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Risk Assessment and Commercial Dispute Resolution",
-   "schedule_title": "Risk Assessment and Commercial Dispute Resolution",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB6890",
    "programmes": [
     "EMBAHK"
@@ -18331,140 +15501,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA",
-   "programme_elective_groups": {
-    "EMBAHK": "res"
-   }
-  },
-  {
-   "code": "FB6890P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Sustainable Finance",
-   "schedule_title": "Sustainable Finance",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6891",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Strategic Issues on Fintech and Financial Services",
-   "schedule_title": "Strategic Issues on Fintech and Financial Services",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "res"
-   }
-  },
-  {
-   "code": "FB6891P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Talent Management",
-   "schedule_title": "Talent Management",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6892",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Strategic Innovation Management",
-   "schedule_title": "Strategic Innovation Management",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "res"
-   }
-  },
-  {
-   "code": "FB6893",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Innovations in Marketing",
-   "schedule_title": "Innovations in Marketing",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "EMBAHK": "res"
    }
@@ -18523,112 +15559,6 @@
    }
   },
   {
-   "code": "FB6894P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "ESG and Sustainability",
-   "schedule_title": "ESG and Sustainability",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6895",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Venture Capital and Private Equity",
-   "schedule_title": "Venture Capital and Private Equity",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "res"
-   }
-  },
-  {
-   "code": "FB6895P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Leadership Resilience and Sustainability—Field Study",
-   "schedule_title": "Leadership Resilience and Sustainability—Field Study",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6896",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Strategies on Initial Public Offering and Debt Financing",
-   "schedule_title": "Strategies on Initial Public Offering and Debt Financing",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "res"
-   }
-  },
-  {
    "code": "FB6896P",
    "programmes": [
     "EMBAP"
@@ -18652,59 +15582,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "FB6897",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Strategies on Merger, Acquisition and Turnaround",
-   "schedule_title": "Strategies on Merger, Acquisition and Turnaround",
-   "title_changed": false,
-   "credits": 4,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "res"
-   }
-  },
-  {
-   "code": "FB6897P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "The Wisdom of Great Leaders",
-   "schedule_title": "The Wisdom of Great Leaders",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "FB6898",
@@ -18735,31 +15612,6 @@
    }
   },
   {
-   "code": "FB6898P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Industrial Opportunities in the Context of the Belt and Road Initiative",
-   "schedule_title": "Global Industrial Opportunities in the Context of the Belt and Road Initiative",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB6899P",
    "programmes": [
     "EMBAP"
@@ -18783,256 +15635,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "FB6900P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Enterprise Digital Transformation",
-   "schedule_title": "Enterprise Digital Transformation",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6901P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Internet and Business Model Innovation",
-   "schedule_title": "Internet and Business Model Innovation",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6902P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Investment Banking and Asset Management",
-   "schedule_title": "Investment Banking and Asset Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6903P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "China's Macroeconomic Landscape and Strategic Corporate Responses",
-   "schedule_title": "China's Macroeconomic Landscape and Strategic Corporate Responses",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6904P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "International Relations and Geopolitics",
-   "schedule_title": "International Relations and Geopolitics",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6905P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Government Governance and Policy Analysis",
-   "schedule_title": "Government Governance and Policy Analysis",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6906P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "C-Suite Challenge: An Immersive Strategic Leadership Simulation",
-   "schedule_title": "C-Suite Challenge: An Immersive Strategic Leadership Simulation",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6907P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Navigating Hong Kong: Strategic Insights for Global Leaders",
-   "schedule_title": "Navigating Hong Kong: Strategic Insights for Global Leaders",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6908P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Chinese Tech Companies Going Global: From Strategic Frameworks to Practical Pathways",
-   "schedule_title": "Chinese Tech Companies Going Global: From Strategic Frameworks to Practical Pathways",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6910P",
-   "programmes": [
-    "EMBAP"
-   ],
-   "programme_requirement_types": {
-    "EMBAP": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "FinTech and Digital Assets",
-   "schedule_title": "FinTech and Digital Assets",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "FB6913P",
@@ -19135,31 +15737,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "FB6917P",
-   "programmes": [
-    "EMBAT"
-   ],
-   "programme_requirement_types": {
-    "EMBAT": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Social Research Methods",
-   "schedule_title": "Social Research Methods",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB6918P",
    "programmes": [
     "EMBAT"
@@ -19183,31 +15760,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "FB6919P",
-   "programmes": [
-    "EMBAT"
-   ],
-   "programme_requirement_types": {
-    "EMBAT": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "PPP Framework & Practice",
-   "schedule_title": "PPP Framework & Practice",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "FB6920P",
@@ -19285,31 +15837,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "FB6923P",
-   "programmes": [
-    "EMBAT"
-   ],
-   "programme_requirement_types": {
-    "EMBAT": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "China's Foreign Strategy and Policy",
-   "schedule_title": "China's Foreign Strategy and Policy",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "FB6924P",
    "programmes": [
     "EMBAT"
@@ -19332,31 +15859,6 @@
     "medium": "Putonghua"
    },
    "section_count": 1,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "FB6925P",
-   "programmes": [
-    "EMBAT"
-   ],
-   "programme_requirement_types": {
-    "EMBAT": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "International Relations and World Development",
-   "schedule_title": "International Relations and World Development",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
    "semester_tag": "SemA+SemB"
   },
   {
@@ -19441,62 +15943,6 @@
    }
   },
   {
-   "code": "FB6933",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Economic Environments and Business Strategies",
-   "schedule_title": "Global Economic Environments and Business Strategies",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "online"
-   }
-  },
-  {
-   "code": "FB6934",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Accounting, Strategy and Control",
-   "schedule_title": "Accounting, Strategy and Control",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "online"
-   }
-  },
-  {
    "code": "FB6935",
    "programmes": [
     "EMBAHK"
@@ -19522,230 +15968,6 @@
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "EMBAHK": "online"
-   }
-  },
-  {
-   "code": "FB6936",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "IT Leadership for Executives",
-   "schedule_title": "IT Leadership for Executives",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "online"
-   }
-  },
-  {
-   "code": "FB6937",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Models and Operational Strategies",
-   "schedule_title": "Business Models and Operational Strategies",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "online"
-   }
-  },
-  {
-   "code": "FB6938",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Global and Asia Business",
-   "schedule_title": "Topics in Global and Asia Business",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
-   "code": "FB6939",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Sustainability",
-   "schedule_title": "Topics in Sustainability",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
-   "code": "FB6941",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Marketing and Management",
-   "schedule_title": "Topics in Marketing and Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
-   "code": "FB6942",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Business Insights from Data",
-   "schedule_title": "Business Insights from Data",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
-   "code": "FB6943",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Business and Technology",
-   "schedule_title": "Topics in Business and Technology",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
-   }
-  },
-  {
-   "code": "FB6944",
-   "programmes": [
-    "EMBAHK"
-   ],
-   "programme_requirement_types": {
-    "EMBAHK": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Innovation and Entrepreneurship",
-   "schedule_title": "Topics in Innovation and Entrepreneurship",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "EMBAHK": "emba_elec"
    }
   },
   {
@@ -19775,31 +15997,6 @@
    "programme_elective_groups": {
     "EMBAHK": "emba_elec"
    }
-  },
-  {
-   "code": "FB6988P",
-   "programmes": [
-    "EMBAT"
-   ],
-   "programme_requirement_types": {
-    "EMBAT": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "PPP Financing and Financial Risk Management",
-   "schedule_title": "PPP Financing and Financial Risk Management",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "FB",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "FB8001D",
@@ -20349,16 +16546,12 @@
   {
    "code": "IS5743",
    "programmes": [
-    "MSEC",
-    "MSBISA"
+    "MSEC"
    ],
    "programme_requirement_types": {
-    "MSEC": "elective",
-    "MSBISA": "elective"
+    "MSEC": "elective"
    },
-   "programme_elective_groups": {
-    "MSBISA": "mis_elec"
-   },
+   "programme_elective_groups": {},
    "requirement_type": "elective",
    "programme_title": "Information Technology Based Business Transformation",
    "schedule_title": "Information Technology Based Business Transformation",
@@ -20419,31 +16612,6 @@
     "MSBISA": "mis_elec",
     "MSMI": "free_elec"
    }
-  },
-  {
-   "code": "IS5942P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Artificial Intelligence Innovation and Technology in Business",
-   "schedule_title": "Artificial Intelligence Innovation and Technology in Business",
-   "title_changed": false,
-   "credits": 1.5,
-   "remarks": "IS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "IS6000",
@@ -20640,59 +16808,6 @@
     "MSCBDA2": "qab",
     "MSCBDA3": "qab",
     "MSBISA": "fit_core"
-   }
-  },
-  {
-   "code": "IS6402P",
-   "programmes": [
-    "MSAFBNAI"
-   ],
-   "programme_requirement_types": {
-    "MSAFBNAI": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Business Data Analytics with Artificial Intelligence",
-   "schedule_title": "Business Data Analytics with Artificial Intelligence",
-   "title_changed": false,
-   "credits": 1.5,
-   "remarks": "IS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "IS6421",
-   "programmes": [
-    "MSBISA"
-   ],
-   "programme_requirement_types": {
-    "MSBISA": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Human-Computer Interaction and Multimedia",
-   "schedule_title": "Human-Computer Interaction and Multimedia",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "IS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSBISA": "mis_elec"
    }
   },
   {
@@ -21426,62 +17541,6 @@
    }
   },
   {
-   "code": "LT5416",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Historical Linguistics",
-   "schedule_title": "Historical Linguistics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5417",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Language Universals and Linguistic Typology",
-   "schedule_title": "Language Universals and Linguistic Typology",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
    "code": "LT5418",
    "programmes": [
     "MALS"
@@ -21505,34 +17564,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5420",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Language Arts and Literature",
-   "schedule_title": "Language Arts and Literature",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MALS": "stream_elec"
    }
@@ -21594,62 +17625,6 @@
    }
   },
   {
-   "code": "LT5423",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Quantitative Methods for Linguistic Data Analysis",
-   "schedule_title": "Quantitative Methods for Linguistic Data Analysis",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5424",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Special Topics in Linguistics Research",
-   "schedule_title": "Special Topics in Linguistics Research",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
    "code": "LT5425",
    "programmes": [
     "MALS"
@@ -21673,146 +17648,6 @@
    },
    "section_count": 1,
    "semester_tag": "SemA",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5426",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Cognitive Approaches to Bi-/Multilingualism",
-   "schedule_title": "Cognitive Approaches to Bi-/Multilingualism",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5427",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Programming for Linguists in the Era of Generative AI",
-   "schedule_title": "Programming for Linguists in the Era of Generative AI",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5428",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Experimental Research in Linguistics",
-   "schedule_title": "Experimental Research in Linguistics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5429",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Natural Language Processing",
-   "schedule_title": "Advanced Natural Language Processing",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5430",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Special Topics in Linguistics",
-   "schedule_title": "Special Topics in Linguistics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MALS": "stream_elec"
    }
@@ -21874,118 +17709,6 @@
    }
   },
   {
-   "code": "LT5433",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "EEG for Research in Linguistics",
-   "schedule_title": "EEG for Research in Linguistics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5434",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Computational Psycho/Neurolinguistics",
-   "schedule_title": "Computational Psycho/Neurolinguistics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5435",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Experimental Sociolinguistics",
-   "schedule_title": "Experimental Sociolinguistics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5436",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Language Acquisition and Development",
-   "schedule_title": "Language Acquisition and Development",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
    "code": "LT5451",
    "programmes": [
     "MALS"
@@ -22042,62 +17765,6 @@
    }
   },
   {
-   "code": "LT5453",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "The Cantonese Language: Pronunciation, Lexicon and Grammar",
-   "schedule_title": "The Cantonese Language: Pronunciation, Lexicon and Grammar",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5454",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Syntax-Semantics Interface in Chinese",
-   "schedule_title": "Syntax-Semantics Interface in Chinese",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
    "code": "LT5455",
    "programmes": [
     "MALS"
@@ -22149,34 +17816,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5457",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Computational Lexicography",
-   "schedule_title": "Computational Lexicography",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MALS": "stream_elec"
    }
@@ -22289,62 +17928,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5462",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Social Approaches to Language in Education",
-   "schedule_title": "Social Approaches to Language in Education",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5510",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Contrastive Studies of Chinese and English Grammar",
-   "schedule_title": "Contrastive Studies of Chinese and English Grammar",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MALS": "stream_elec"
    }
@@ -22546,34 +18129,6 @@
    }
   },
   {
-   "code": "LT5626",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Translation and Comparative Literature",
-   "schedule_title": "Translation and Comparative Literature",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
    "code": "LT5627",
    "programmes": [
     "MALS"
@@ -22597,90 +18152,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5628",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Human-Machine Interactive Translation",
-   "schedule_title": "Human-Machine Interactive Translation",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5630",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Special Topics in Translation and Interpretation",
-   "schedule_title": "Special Topics in Translation and Interpretation",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT5633",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Performance and Translation",
-   "schedule_title": "Performance and Translation",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MALS": "stream_elec"
    }
@@ -22770,90 +18241,6 @@
    }
   },
   {
-   "code": "LT6421",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Topics in Corpus and Empirical Linguistics",
-   "schedule_title": "Advanced Topics in Corpus and Empirical Linguistics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT6422",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Topics in Semantics",
-   "schedule_title": "Advanced Topics in Semantics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT6423",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Topics in Syntax",
-   "schedule_title": "Advanced Topics in Syntax",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
    "code": "LT6505",
    "programmes": [
     "MALS"
@@ -22877,34 +18264,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "MALS": "stream_elec"
-   }
-  },
-  {
-   "code": "LT6514",
-   "programmes": [
-    "MALS"
-   ],
-   "programme_requirement_types": {
-    "MALS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Legal Translation in the AI Era",
-   "schedule_title": "Advanced Legal Translation in the AI Era",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "MALS": "stream_elec"
    }
@@ -23640,56 +18999,6 @@
    }
   },
   {
-   "code": "LW5618",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Law and Gender",
-   "schedule_title": "Law and Gender",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "LW5620",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "International Trade Regulation",
-   "schedule_title": "International Trade Regulation",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "LW5622",
    "programmes": [
     "JD4",
@@ -23775,31 +19084,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "LW5625",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Environmental Law",
-   "schedule_title": "Environmental Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "LW5626",
    "programmes": [
     "JD4"
@@ -23883,56 +19167,6 @@
    "programme_elective_groups": {
     "LLM3": "cl"
    }
-  },
-  {
-   "code": "LW5631",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Banking Law",
-   "schedule_title": "Banking Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "LW5632",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "International Financial Law",
-   "schedule_title": "International Financial Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "LW5634",
@@ -24072,12 +19306,10 @@
   {
    "code": "LW5643",
    "programmes": [
-    "MSEC",
-    "JD4"
+    "MSEC"
    ],
    "programme_requirement_types": {
-    "MSEC": "elective",
-    "JD4": "elective"
+    "MSEC": "elective"
    },
    "programme_elective_groups": {},
    "requirement_type": "elective",
@@ -24096,36 +19328,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "LW5647",
-   "programmes": [
-    "JD4",
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective",
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Law of Wills (Succession)",
-   "schedule_title": "Law of Wills (Succession)",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "LLM3": "cl"
-   }
   },
   {
    "code": "LW5649",
@@ -24268,81 +19470,6 @@
    }
   },
   {
-   "code": "LW5661",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Human Rights Responsibilities of Business",
-   "schedule_title": "Human Rights Responsibilities of Business",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "LW5662",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Intensive Seminar",
-   "schedule_title": "Intensive Seminar",
-   "title_changed": false,
-   "credits": 2,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "LW5663",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Intensive Seminar",
-   "schedule_title": "Intensive Seminar",
-   "title_changed": false,
-   "credits": 1.5,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "LW5663Y",
    "programmes": [
     "LLM3"
@@ -24401,31 +19528,6 @@
    }
   },
   {
-   "code": "LW5665",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Aviation Law",
-   "schedule_title": "Aviation Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "LW5666",
    "programmes": [
     "JD4"
@@ -24476,116 +19578,6 @@
    "semester_tag": "SemA+SemB"
   },
   {
-   "code": "LW5669",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Employment Law in Hong Kong",
-   "schedule_title": "Employment Law in Hong Kong",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "LW5670",
-   "programmes": [
-    "JD4",
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective",
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "International Human Rights Law",
-   "schedule_title": "International Human Rights Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "LLM3": "cl"
-   }
-  },
-  {
-   "code": "LW5671",
-   "programmes": [
-    "JD4",
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective",
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Consumer Law",
-   "schedule_title": "Consumer Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "LLM3": "cl"
-   }
-  },
-  {
-   "code": "LW5672",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Introduction to Information Law",
-   "schedule_title": "Introduction to Information Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "LW5673",
    "programmes": [
     "JD4"
@@ -24609,31 +19601,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "LW5674",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Global Legal Education and Awareness Project",
-   "schedule_title": "Global Legal Education and Awareness Project",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "LW5678",
@@ -24686,31 +19653,6 @@
    "semester_tag": "SemA"
   },
   {
-   "code": "LW5681",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Comparative Contract Law",
-   "schedule_title": "Comparative Contract Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "LW5683",
    "programmes": [
     "JD4"
@@ -24734,31 +19676,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "LW5684",
-   "programmes": [
-    "JD4"
-   ],
-   "programme_requirement_types": {
-    "JD4": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Torts and Technology",
-   "schedule_title": "Torts and Technology",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "LW5685",
@@ -24894,34 +19811,6 @@
    },
    "section_count": 3,
    "semester_tag": "SemA",
-   "programme_elective_groups": {
-    "LLM3": "cfl"
-   }
-  },
-  {
-   "code": "LW6105E",
-   "programmes": [
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Cross-Border Restructuring and Insolvency",
-   "schedule_title": "Cross-Border Restructuring and Insolvency",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "LLM3": "cfl"
    }
@@ -25293,34 +20182,6 @@
    }
   },
   {
-   "code": "LW6129E",
-   "programmes": [
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Chinese and Comparative Environmental Law",
-   "schedule_title": "Chinese and Comparative Environmental Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "LLM3": "ccl"
-   }
-  },
-  {
    "code": "LW6131C",
    "programmes": [
     "LLM3"
@@ -25509,34 +20370,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "programme_elective_groups": {
-    "LLM3": "ccl"
-   }
-  },
-  {
-   "code": "LW6141E",
-   "programmes": [
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Chinese Foreign Trade and Investment Law",
-   "schedule_title": "Chinese Foreign Trade and Investment Law",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
     "LLM3": "ccl"
    }
@@ -25906,34 +20739,6 @@
    }
   },
   {
-   "code": "LW6157E",
-   "programmes": [
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Digital Money: Law, Finance, and Technology",
-   "schedule_title": "Digital Money: Law, Finance, and Technology",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "LLM3": "ip"
-   }
-  },
-  {
    "code": "LW6160C",
    "programmes": [
     "LLM3"
@@ -25959,34 +20764,6 @@
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "LLM3": "iel"
-   }
-  },
-  {
-   "code": "LW6160E",
-   "programmes": [
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Investor-State Dispute Settlement",
-   "schedule_title": "Investor-State Dispute Settlement",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "LLM3": "ccl"
    }
   },
   {
@@ -26410,34 +21187,6 @@
    }
   },
   {
-   "code": "LW6198E",
-   "programmes": [
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Intellectual Property: Law, Practice and Procedure",
-   "schedule_title": "Intellectual Property: Law, Practice and Procedure",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "LLM3": "ip"
-   }
-  },
-  {
    "code": "LW6199E",
    "programmes": [
     "LLM3"
@@ -26690,34 +21439,6 @@
    }
   },
   {
-   "code": "LW6217E",
-   "programmes": [
-    "LLM3"
-   ],
-   "programme_requirement_types": {
-    "LLM3": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Patent Theory and Contemporary Issues",
-   "schedule_title": "Advanced Patent Theory and Contemporary Issues",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "LLM3": "ip"
-   }
-  },
-  {
    "code": "LW6401",
    "programmes": [
     "MAHUM",
@@ -26931,31 +21652,6 @@
    "semester_tag": "Summer"
   },
   {
-   "code": "LW6415",
-   "programmes": [
-    "LLMARBDR"
-   ],
-   "programme_requirement_types": {
-    "LLMARBDR": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Negotiation and Mediation Advocacy",
-   "schedule_title": "Negotiation and Mediation Advocacy",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "LW6418",
    "programmes": [
     "LLMARBDR"
@@ -26979,31 +21675,6 @@
    },
    "section_count": 0,
    "semester_tag": "Summer"
-  },
-  {
-   "code": "LW6420",
-   "programmes": [
-    "LLMARBDR"
-   ],
-   "programme_requirement_types": {
-    "LLMARBDR": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "International Conflict Analysis, Prevention and Resolution",
-   "schedule_title": "International Conflict Analysis, Prevention and Resolution",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "LW",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "LW6423",
@@ -27059,31 +21730,6 @@
    "programme_elective_groups": {
     "MSEGEV": "general_elec"
    }
-  },
-  {
-   "code": "MA5601",
-   "programmes": [
-    "MSFMS1"
-   ],
-   "programme_requirement_types": {
-    "MSFMS1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Applied Partial Differential Equations",
-   "schedule_title": "Applied Partial Differential Equations",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "MA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "MA5616",
@@ -27164,31 +21810,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "MA6612",
-   "programmes": [
-    "MSFMS1"
-   ],
-   "programme_requirement_types": {
-    "MSFMS1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Numerical Partial Differential Equations",
-   "schedule_title": "Numerical Partial Differential Equations",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "MA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "MA6616",
@@ -27367,56 +21988,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "MA6631",
-   "programmes": [
-    "MSFMS1"
-   ],
-   "programme_requirement_types": {
-    "MSFMS1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Special Topics",
-   "schedule_title": "Special Topics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "MA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "MA6632",
-   "programmes": [
-    "MSFMS1"
-   ],
-   "programme_requirement_types": {
-    "MSFMS1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Statistical Analysis of Financial Big Data",
-   "schedule_title": "Statistical Analysis of Financial Big Data",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "MA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "MA6633",
@@ -28360,31 +22931,6 @@
    }
   },
   {
-   "code": "MKT5642",
-   "programmes": [
-    "MSMKT1"
-   ],
-   "programme_requirement_types": {
-    "MSMKT1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Financial Services Marketing",
-   "schedule_title": "Financial Services Marketing",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "MKT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "MKT5643",
    "programmes": [
     "MSVC",
@@ -28582,31 +23128,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "MKT5650",
-   "programmes": [
-    "MSMKT1"
-   ],
-   "programme_requirement_types": {
-    "MSMKT1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Data Strategy in Marketing",
-   "schedule_title": "Data Strategy in Marketing",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "MKT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "MKT5651",
    "programmes": [
     "MSMKT1"
@@ -28735,31 +23256,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "MKT6648",
-   "programmes": [
-    "MSMKT1"
-   ],
-   "programme_requirement_types": {
-    "MSMKT1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Marketing Practices",
-   "schedule_title": "Advanced Marketing Practices",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "MKT",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "MNE5103",
@@ -29469,31 +23965,6 @@
    },
    "section_count": 4,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "MS5314",
-   "programmes": [
-    "MSCOSCM"
-   ],
-   "programme_requirement_types": {
-    "MSCOSCM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Service Quality Management",
-   "schedule_title": "Service Quality Management",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "MS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "MS5318",
@@ -30619,56 +25090,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "NS6003",
-   "programmes": [
-    "MSN1"
-   ],
-   "programme_requirement_types": {
-    "MSN1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "A Mathematical Introduction to Neural Networks",
-   "schedule_title": "A Mathematical Introduction to Neural Networks",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "NS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "NS6004",
-   "programmes": [
-    "MSN1"
-   ],
-   "programme_requirement_types": {
-    "MSN1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Epigenetic Regulation and Brain Function: Health and Disorders",
-   "schedule_title": "Epigenetic Regulation and Brain Function: Health and Disorders",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "NS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "NS8002",
    "programmes": [
     "MSN1"
@@ -31286,12 +25707,10 @@
   {
    "code": "PHY5506",
    "programmes": [
-    "MSAIFS",
-    "MSPDMQT"
+    "MSAIFS"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective",
-    "MSPDMQT": "elective"
+    "MSAIFS": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Data Analysis and Modelling in Physics",
@@ -31337,31 +25756,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "PHY6180",
-   "programmes": [
-    "MSPDMQT"
-   ],
-   "programme_requirement_types": {
-    "MSPDMQT": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Modern Scattering Methods in Materials Science",
-   "schedule_title": "Modern Scattering Methods in Materials Science",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PHY",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "PHY6251",
@@ -31592,31 +25986,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "PHY6506",
-   "programmes": [
-    "MSPDMQT"
-   ],
-   "programme_requirement_types": {
-    "MSPDMQT": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Advanced Electrodynamics",
-   "schedule_title": "Advanced Electrodynamics",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PHY",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "PHY6521",
@@ -31948,31 +26317,6 @@
    }
   },
   {
-   "code": "PIA5031",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Security Studies",
-   "schedule_title": "Security Studies",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "PIA5032",
    "programmes": [
     "MAIS",
@@ -32033,106 +26377,6 @@
    }
   },
   {
-   "code": "PIA5039",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Human Rights in Asia",
-   "schedule_title": "Human Rights in Asia",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "PIA5040",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "BRIC Countries and the Emerging Global Order",
-   "schedule_title": "BRIC Countries and the Emerging Global Order",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "PIA5041",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Special Topics in Asian and International Studies",
-   "schedule_title": "Special Topics in Asian and International Studies",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "PIA5044",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Religion and Development",
-   "schedule_title": "Religion and Development",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "PIA5045",
    "programmes": [
     "MAIS"
@@ -32183,61 +26427,6 @@
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSSDS1": "sd_core"
-   }
-  },
-  {
-   "code": "PIA5049",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "International Organisations",
-   "schedule_title": "International Organisations",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "PIA5051",
-   "programmes": [
-    "MAIS",
-    "MSSDS1"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective",
-    "MSSDS1": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Women and Politics in Asia",
-   "schedule_title": "Women and Politics in Asia",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSSDS1": "prog_elec"
    }
   },
   {
@@ -32329,34 +26518,6 @@
    }
   },
   {
-   "code": "PIA5100",
-   "programmes": [
-    "MSSDS1"
-   ],
-   "programme_requirement_types": {
-    "MSSDS1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Managing Sustainable Development",
-   "schedule_title": "Managing Sustainable Development",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSSDS1": "sp_core"
-   }
-  },
-  {
    "code": "PIA5101",
    "programmes": [
     "MAHUM",
@@ -32440,56 +26601,6 @@
    "semester_tag": "SemB"
   },
   {
-   "code": "PIA5304",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Development Policy and Advocacy",
-   "schedule_title": "Development Policy and Advocacy",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "PIA5308",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Gender and Development",
-   "schedule_title": "Gender and Development",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "PIA5312",
    "programmes": [
     "MSSDS1"
@@ -32516,59 +26627,6 @@
    "programme_elective_groups": {
     "MSSDS1": "sd_core"
    }
-  },
-  {
-   "code": "PIA5336",
-   "programmes": [
-    "MSSDS1"
-   ],
-   "programme_requirement_types": {
-    "MSSDS1": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Cutting-edge Cases in Development under Late Capitalism",
-   "schedule_title": "Cutting-edge Cases in Development under Late Capitalism",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSSDS1": "sd_core"
-   }
-  },
-  {
-   "code": "PIA5338",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Indonesia: Politics and Society",
-   "schedule_title": "Indonesia: Politics and Society",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "PIA5339",
@@ -32599,31 +26657,6 @@
    "programme_elective_groups": {
     "MSSDS1": "sp_core"
    }
-  },
-  {
-   "code": "PIA5340",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Infrastructure Development in China",
-   "schedule_title": "Infrastructure Development in China",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "PIA5401",
@@ -32710,34 +26743,6 @@
    }
   },
   {
-   "code": "PIA5509",
-   "programmes": [
-    "MAPPM"
-   ],
-   "programme_requirement_types": {
-    "MAPPM": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "The Urban Management Workshop: Exploring the Contemporary City",
-   "schedule_title": "The Urban Management Workshop: Exploring the Contemporary City",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MAPPM": "sc_core"
-   }
-  },
-  {
    "code": "PIA5510",
    "programmes": [
     "MAHUM",
@@ -32795,31 +26800,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "PIA5603",
-   "programmes": [
-    "MAPPM"
-   ],
-   "programme_requirement_types": {
-    "MAPPM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Independent Project for Public Policy and Management",
-   "schedule_title": "Independent Project for Public Policy and Management",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "PIA5605",
@@ -33081,31 +27061,6 @@
    "programme_elective_groups": {
     "MAPPM": "gc_core"
    }
-  },
-  {
-   "code": "PIA5800",
-   "programmes": [
-    "MAIS"
-   ],
-   "programme_requirement_types": {
-    "MAIS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "PIA Postgraduate Internship",
-   "schedule_title": "PIA Postgraduate Internship",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "PIA5802",
@@ -33462,34 +27417,6 @@
    "semester_tag": "SemA",
    "programme_elective_groups": {
     "MAHUM": "housing_elec",
-    "MAPPM": "pm_core"
-   }
-  },
-  {
-   "code": "PIA6303",
-   "programmes": [
-    "MAPPM"
-   ],
-   "programme_requirement_types": {
-    "MAPPM": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Comparative Public Sector Management",
-   "schedule_title": "Comparative Public Sector Management",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
     "MAPPM": "pm_core"
    }
   },
@@ -33862,34 +27789,6 @@
    "semester_tag": "SemA+SemB"
   },
   {
-   "code": "PIA6805",
-   "programmes": [
-    "MAHUM"
-   ],
-   "programme_requirement_types": {
-    "MAHUM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Housing Management, Local Politics and Public Relations",
-   "schedule_title": "Housing Management, Local Politics and Public Relations",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "PIA",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MAHUM": "housing_elec"
-   }
-  },
-  {
    "code": "PIA6903",
    "programmes": [
     "MAPPM"
@@ -33952,12 +27851,10 @@
   {
    "code": "SEE5201",
    "programmes": [
-    "MSAIFS",
-    "MSEGEV"
+    "MSAIFS"
    ],
    "programme_requirement_types": {
-    "MSAIFS": "elective",
-    "MSEGEV": "elective"
+    "MSAIFS": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Air Pollution and Atmospheric Chemistry",
@@ -33976,8 +27873,7 @@
    "section_count": 0,
    "semester_tag": "SemB",
    "programme_elective_groups": {
-    "MSAIFS": "track3",
-    "MSEGEV": "env_elec"
+    "MSAIFS": "track3"
    }
   },
   {
@@ -34077,13 +27973,11 @@
    "code": "SEE6101",
    "programmes": [
     "MSAIFS",
-    "MSCAE1",
-    "MSEGEV"
+    "MSCAE1"
    ],
    "programme_requirement_types": {
     "MSAIFS": "elective",
-    "MSCAE1": "elective",
-    "MSEGEV": "elective"
+    "MSCAE1": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Energy Generation and Storage Systems",
@@ -34102,36 +27996,7 @@
    "section_count": 0,
    "semester_tag": "SemA",
    "programme_elective_groups": {
-    "MSAIFS": "track3",
-    "MSEGEV": "general_elec"
-   }
-  },
-  {
-   "code": "SEE6102",
-   "programmes": [
-    "MSEGEV"
-   ],
-   "programme_requirement_types": {
-    "MSEGEV": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Energy Efficiency and Conservation Technologies",
-   "schedule_title": "Energy Efficiency and Conservation Technologies",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SEE",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSEGEV": "general_elec"
+    "MSAIFS": "track3"
    }
   },
   {
@@ -34237,12 +28102,10 @@
   {
    "code": "SEE6116",
    "programmes": [
-    "MSVC",
-    "MSEGEV"
+    "MSVC"
    ],
    "programme_requirement_types": {
-    "MSVC": "elective",
-    "MSEGEV": "elective"
+    "MSVC": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Building Performance Assessment",
@@ -34261,8 +28124,7 @@
    "section_count": 0,
    "semester_tag": "SemB",
    "programme_elective_groups": {
-    "MSVC": "free_elective",
-    "MSEGEV": "general_elec"
+    "MSVC": "free_elective"
    }
   },
   {
@@ -34417,62 +28279,6 @@
    "programme_elective_groups": {
     "MSAIFS": "track3",
     "MSVC": "free_elective",
-    "MSEGEV": "energy_elec"
-   }
-  },
-  {
-   "code": "SEE6126",
-   "programmes": [
-    "MSEGEV"
-   ],
-   "programme_requirement_types": {
-    "MSEGEV": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Hydrogen Production and Storage",
-   "schedule_title": "Hydrogen Production and Storage",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SEE",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSEGEV": "energy_elec"
-   }
-  },
-  {
-   "code": "SEE6127",
-   "programmes": [
-    "MSEGEV"
-   ],
-   "programme_requirement_types": {
-    "MSEGEV": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Power Grid Management",
-   "schedule_title": "Power Grid Management",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SEE",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
     "MSEGEV": "energy_elec"
    }
   },
@@ -35132,33 +28938,6 @@
    "semester_tag": "SemA+SemB"
   },
   {
-   "code": "SM5316",
-   "programmes": [
-    "MACM",
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MACM": "elective",
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Media Art I",
-   "schedule_title": "Topics in Media Art I",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "SM5317",
    "programmes": [
     "MFACM"
@@ -35209,33 +28988,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "SM5323",
-   "programmes": [
-    "MACM",
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MACM": "elective",
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Media History and Theory II",
-   "schedule_title": "Topics in Media History and Theory II",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "Y",
-    "available": "70",
-    "capacity": "70",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "SM5325",
@@ -35474,33 +29226,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "SM5336",
-   "programmes": [
-    "MACM",
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MACM": "elective",
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Art in the Information Age: Creative Act, Art Object, Aesthetic Perception",
-   "schedule_title": "Art in the Information Age: Creative Act, Art Object, Aesthetic Perception",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "SM5337",
@@ -35829,31 +29554,6 @@
    }
   },
   {
-   "code": "SM5353",
-   "programmes": [
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Creative Entrepreneurship in Media",
-   "schedule_title": "Creative Entrepreneurship in Media",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "SM5354",
    "programmes": [
     "MSAIDI",
@@ -36070,33 +29770,6 @@
    }
   },
   {
-   "code": "SM5366",
-   "programmes": [
-    "MACM",
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MACM": "elective",
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Exploring Digital Culture: Ethnographic Approaches to Social Media and Online Communities",
-   "schedule_title": "Exploring Digital Culture: Ethnographic Approaches to Social Media and Online Communities",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "SM5367",
    "programmes": [
     "MACM",
@@ -36122,85 +29795,6 @@
    },
    "section_count": 2,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "SM5368",
-   "programmes": [
-    "MACM",
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MACM": "elective",
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Accessible Media: Disability and Digital Culture",
-   "schedule_title": "Accessible Media: Disability and Digital Culture",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "Y",
-    "available": "80",
-    "capacity": "80",
-    "medium": "English"
-   },
-   "section_count": 4,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "SM5369",
-   "programmes": [
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Sound",
-   "schedule_title": "Topics in Sound",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "SM5370",
-   "programmes": [
-    "MACM",
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MACM": "elective",
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Media History and Theory IV",
-   "schedule_title": "Topics in Media History and Theory IV",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "SM6300",
@@ -36414,31 +30008,6 @@
     "medium": "English"
    },
    "section_count": 1,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "SM6311",
-   "programmes": [
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Topics in Media Art II",
-   "schedule_title": "Topics in Media Art II",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
    "semester_tag": "SemA+SemB"
   },
   {
@@ -36770,83 +30339,6 @@
    }
   },
   {
-   "code": "SM6341",
-   "programmes": [
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Independent Documentary Production",
-   "schedule_title": "Independent Documentary Production",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "SM6342",
-   "programmes": [
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Transcultural Collaboration—A Hong Kong-Swiss International Exchange Project",
-   "schedule_title": "Transcultural Collaboration—A Hong Kong-Swiss International Exchange Project",
-   "title_changed": false,
-   "credits": 6,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "10",
-    "capacity": "10",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
-   "code": "SM6343",
-   "programmes": [
-    "MACM",
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MACM": "elective",
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Collaborative Topics in Media Art",
-   "schedule_title": "Collaborative Topics in Media Art",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
-  },
-  {
    "code": "SM6344",
    "programmes": [
     "MACM",
@@ -37063,33 +30555,6 @@
    },
    "section_count": 3,
    "semester_tag": "SemA"
-  },
-  {
-   "code": "SM6354",
-   "programmes": [
-    "MACM",
-    "MFACM"
-   ],
-   "programme_requirement_types": {
-    "MACM": "elective",
-    "MFACM": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Qualitative Methods in Media and Technology",
-   "schedule_title": "Qualitative Methods in Media and Technology",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SM",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "SS5110",
@@ -37759,34 +31224,6 @@
    }
   },
   {
-   "code": "SS5424",
-   "programmes": [
-    "MAASS"
-   ],
-   "programme_requirement_types": {
-    "MAASS": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Crime, Law and Security",
-   "schedule_title": "Crime, Law and Security",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MAASS": "s2_elec"
-   }
-  },
-  {
    "code": "SS5426",
    "programmes": [
     "MAASS"
@@ -37865,34 +31302,6 @@
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MAASS": "s1_core"
-   }
-  },
-  {
-   "code": "SS5430",
-   "programmes": [
-    "MSSC"
-   ],
-   "programme_requirement_types": {
-    "MSSC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Case Management and Practice",
-   "schedule_title": "Case Management and Practice",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSSC": "general_elec"
    }
   },
   {
@@ -38447,62 +31856,6 @@
    }
   },
   {
-   "code": "SS5805",
-   "programmes": [
-    "MSSC"
-   ],
-   "programme_requirement_types": {
-    "MSSC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Narrative-based Therapeutic Conversations: Theory and Practice",
-   "schedule_title": "Narrative-based Therapeutic Conversations: Theory and Practice",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSSC": "general_elec"
-   }
-  },
-  {
-   "code": "SS5814",
-   "programmes": [
-    "MSSC"
-   ],
-   "programme_requirement_types": {
-    "MSSC": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Vocational Counselling and Assessment",
-   "schedule_title": "Vocational Counselling and Assessment",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSSC": "special_elec"
-   }
-  },
-  {
    "code": "SS5821",
    "programmes": [
     "MSSC",
@@ -38809,31 +32162,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB"
-  },
-  {
-   "code": "SS6220",
-   "programmes": [
-    "MSW"
-   ],
-   "programme_requirement_types": {
-    "MSW": "core"
-   },
-   "requirement_type": "core",
-   "programme_title": "Practicum Related Workshop II",
-   "schedule_title": "Practicum Related Workshop II",
-   "title_changed": false,
-   "credits": 1,
-   "remarks": "SS",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB"
   },
   {
    "code": "SS6221",
@@ -39336,34 +32664,6 @@
    },
    "section_count": 0,
    "semester_tag": "SemB+Summer"
-  },
-  {
-   "code": "SYE6037",
-   "programmes": [
-    "MSHSB"
-   ],
-   "programme_requirement_types": {
-    "MSHSB": "elective"
-   },
-   "requirement_type": "elective",
-   "programme_title": "Managing Strategic Quality",
-   "schedule_title": "Managing Strategic Quality",
-   "title_changed": false,
-   "credits": 3,
-   "remarks": "SYE",
-   "prerequisites": "Nil",
-   "exclusive_course": "Nil",
-   "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
-    "medium": "English"
-   },
-   "section_count": 0,
-   "semester_tag": "SemA+SemB",
-   "programme_elective_groups": {
-    "MSHSB": "hs"
-   }
   },
   {
    "code": "SYE6043",

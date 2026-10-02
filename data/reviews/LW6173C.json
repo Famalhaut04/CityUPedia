@@ -1,9 +1,15 @@
 {
- "course_code": "LW6173C",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Private International Law。LLM3 选修课，官方标注 Semester B 开课。官方标注 Semester B 开课。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "LW6173C",
+  "level": "neutral",
+  "verdict": "冲突法程序为主",
+  "summary": "IEL 学姐点评：主要是国际冲突法的内容，基于香港关于国际条约和国际争端解决的相关规定展开，以程序问题为主。",
+  "tags": [
+    "冲突法",
+    "程序问题",
+    "中文授课模块"
+  ],
+  "source_ids": [
+    "offercool_llm"
+  ],
+  "last_updated": "2026-10-03"
 }

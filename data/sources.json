@@ -273,19 +273,7 @@
     "title": "MScBIS 选课笔记（BIS Navigator）",
     "url": "https://avalonc.github.io/MScBIS/",
     "platform": "GitHub",
-    "note": "CityU 商务信息系统硕士选课笔记，含 AC5511、EF5042 等多门商科课评价。"
-  },
-  "offercool_ef5010": {
-    "title": "CityU OSCM 24Fall 就读体验（EF5010 推荐）",
-    "url": "https://offercool.cn/article/studying/26741",
-    "platform": "Offercool",
-    "note": "学姐明确推荐 EF5010，说明作业与期末构成。"
-  },
-  "sohu_mkt5644": {
-    "title": "CityU MSc Marketing 选课体验（Digital Marketing）",
-    "url": "https://m.sohu.com/a/624119860_120211621/",
-    "platform": "搜狐",
-    "note": "MSc Marketing 学姐评价 Digital Marketing 选修轻松有趣，代码对应 MKT5644 待核实。"
+    "note": "CityU 商务信息系统硕士（MScBIS）选课笔记，2022/2023 版选课心得整理，覆盖 23 门 IS/EF/AC 商科课评价，站点持续维护（2026-09 复核）。"
   },
   "cityu_cs_guide": {
     "title": "CityU-CS-Guide · 城大 MSc CS 选课评价汇总",
@@ -514,5 +502,29 @@
     "url": "https://www.xiaohongshu.com/explore/693da5fb000000001e023bc0?xsec_token=ABZrWW4kZ9SPxaqq2OiRVyhOrtXxv4xbdf2HcL_YlRa50=",
     "platform": "小红书",
     "note": "提及 EC5001"
+  },
+  "offercool_oscm": {
+    "title": "OSCM 24Fall 就读体验（课表与课程难度）",
+    "url": "https://offercool.cn/article/studying/26741",
+    "platform": "Offercool",
+    "note": "运营与供应链管理硕士（MSc OSCM）24Fall 学姐课表篇：两学期各两门必修+三门选修（必修 MS5313/MS5318/MS6325/MS6721），逐课点评 EF5010/MS5215/MS5411；同系列就读篇见 26740、供应链学习/职业篇见 26736/26737。"
+  },
+  "offercool_llm": {
+    "title": "Master of Laws 24Fall 就读体验（国际经济法方向）",
+    "url": "https://offercool.cn/article/studying/26708",
+    "platform": "Offercool",
+    "note": "LLM 国际经济法方向（IEL）24Fall 学姐逐课点评：先导课 LW6102E 与国际私法/国际投资法/国际金融/银行与金融法/国际经济争端解决；另含全英文适应、小组论文+pre、论文冲抵 3/6 学分等选课信息。"
+  },
+  "offercool_macnm": {
+    "title": "MACNM 22Fall 就读体验",
+    "url": "https://zhuanlan.zhihu.com/p/594231256",
+    "platform": "知乎（Offercool 专栏）",
+    "note": "传播与新媒体硕士（MACNM）22Fall 学姐访谈：传播学基础与研究方法为最难双核（理论多且深、全英文），visual 方向拍片课较轻松；含两周一次 quiz/pre 的节奏说明。"
+  },
+  "offercool_msmkt": {
+    "title": "MSc Marketing 22Fall 就读体验",
+    "url": "https://zhuanlan.zhihu.com/p/594066542",
+    "platform": "知乎（Offercool 专栏）",
+    "note": "市场营销硕士（MSc Marketing）22Fall 学姐逐课点评 MKT5610/5611/5612/5644/5648 五门课（考核构成与老师风格）；此前搜狐转载版（Digital Marketing）已并入本源。"
   }
 }

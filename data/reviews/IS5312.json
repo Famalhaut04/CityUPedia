@@ -1,9 +1,17 @@
 {
- "course_code": "IS5312",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Analytical Programming with Python。MSCBDA2 选修课，官方标注 Semester A 开课。Semester A 共 6 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "IS5312",
+  "level": "recommended",
+  "verdict": "零基础 Python 刷分友好",
+  "summary": "Python 与数据分析基础（pandas/numpy/matplotlib），面向零基础。每周课后个人作业，期末开卷上机考题多且细、基本做不完，但老师普遍调分，平时分作业基本给满分，不太担心挂科。学长姐建议认准王乐（WANG Le）老师；这门课也是 IS6400 商业数据分析的基础，有基础的同学拿高分容易。",
+  "tags": [
+    "Python入门",
+    "开卷机考",
+    "给分好",
+    "每周作业",
+    "零基础友好"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

@@ -1,11 +1,16 @@
 {
   "course_code": "MKT5648",
-  "level": "unknown",
-  "verdict": "暂无评价",
-  "summary": "Social Media Marketing。MSVC 选修课，官方标注 SemA 开课。Semester A 共 2 个班次，其中 1 个仅限 MSVC 学生注册。",
+  "level": "recommended",
+  "verdict": "考核有趣的轻松选修",
+  "summary": "MSc Marketing 学姐评价 Social Media Marketing 选修：考核方式有趣——两个实时热点 pre＋在社交媒体发布 4 个视频/图文介绍本专业，师生共同打分；相对轻松。",
   "tags": [
-    "市场营销"
+    "热点pre",
+    "社媒实作",
+    "师生共评",
+    "轻松"
   ],
-  "source_ids": [],
-  "last_updated": "2026-08-24"
+  "source_ids": [
+    "offercool_msmkt"
+  ],
+  "last_updated": "2026-10-03"
 }

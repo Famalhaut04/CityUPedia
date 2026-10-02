@@ -1,11 +1,17 @@
 {
   "course_code": "IS5010",
-  "level": "unknown",
-  "verdict": "暂无评价",
-  "summary": "Introduction to Financial Technologies。MSVC 选修课，官方标注 SemB 开课。Semester A 2026/27 的 AIMS 快照中没有班次，需等对应学期开放后再查。",
+  "level": "good",
+  "verdict": "轻松实用的金融科技扫盲课",
+  "summary": "金融科技概览。Case 需自费（约百余港元九个 PDF），平时作业少、期末开卷考，整体轻松；小组项目期末展示时老师提问很认真（「酷刑十几二十分钟」）。多位学长姐提到银行/金融科技岗位面试时这门课的知识直接用得上。",
   "tags": [
-    "信息系统"
+    "金融科技",
+    "付费Case",
+    "开卷考",
+    "轻松",
+    "面试加分"
   ],
-  "source_ids": [],
-  "last_updated": "2026-08-24"
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

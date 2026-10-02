@@ -1,9 +1,17 @@
 {
- "course_code": "IS5413",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Database Management Systems。MSCBDA2 核心课，官方标注 Semester A/B 开课。Semester A 共 1 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "IS5413",
+  "level": "good",
+  "verdict": "实用的数据库与 SQL 入门",
+  "summary": "数据库原理、设计与 SQL。马健老师（科研之友创始人）以自家产品 ScholarMate 为考试案例，建议提前了解；小组项目画 ER 图+关系模式并在 SQL Server 建表，期末闭卷考概念、ER 图与 SQL 查询（select/join/groupby 是重点）。学长姐普遍认为难度不大、考试时间充裕，SQL 是数据分析类岗位的硬通货。",
+  "tags": [
+    "数据库",
+    "SQL",
+    "ER图",
+    "闭卷考",
+    "求职加分"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

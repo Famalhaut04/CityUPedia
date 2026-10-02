@@ -1,9 +1,16 @@
 {
- "course_code": "COM5101",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Communication Fundamentals。MACNM 核心课，官方标注 Semester A 开课。Semester A 共 3 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "COM5101",
+  "level": "caution",
+  "verdict": "理论密度最高的必修",
+  "summary": "MACNM 学姐认为传播学基础与 COM5104 并列最难：理论非常多且深，加上全英文授课，较难理解理论的深意和用法，需要花很多时间看文章和 PPT。项目节奏为两周一次 quiz（全选择题或可带 cheat sheet）、没有 quiz 的周做 presentation。",
+  "tags": [
+    "理论密集",
+    "全英文",
+    "需大量阅读",
+    "quiz+pre"
+  ],
+  "source_ids": [
+    "offercool_macnm"
+  ],
+  "last_updated": "2026-10-03"
 }

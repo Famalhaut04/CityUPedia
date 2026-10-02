@@ -1,9 +1,16 @@
 {
- "course_code": "MS5215",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "AI-Enhanced Business Analytics with Excel and Python。MSCOSCM 选修课，官方标注 Semester A 开课。Semester A 共 17 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "MS5215",
+  "level": "neutral",
+  "verdict": "因人而异（看编程基础）",
+  "summary": "OSCM 24Fall 学姐点评：前半学期讲 Excel、后半学期讲 Python，期末考试难度非常高，需要对 Excel 的不同操作非常熟悉；编程基础差的同学可能跟不上节奏，编程基础好的同学则非常推荐。老师水平高、英语非常流畅。",
+  "tags": [
+    "Excel+Python",
+    "期末难度高",
+    "编程基础要求",
+    "因人而异"
+  ],
+  "source_ids": [
+    "offercool_oscm"
+  ],
+  "last_updated": "2026-10-03"
 }

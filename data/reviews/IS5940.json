@@ -1,11 +1,17 @@
 {
   "course_code": "IS5940",
-  "level": "unknown",
-  "verdict": "暂无评价",
-  "summary": "Innovation and Technology Entrepreneurship。MSVC 核心选修课，官方标注 SemA、Summer 开课。Semester A 共 5 个班次，其中 1 个仅限 MSVC 学生注册。",
+  "level": "neutral",
+  "verdict": "轻松水课，给分一般",
+  "summary": "互联网产品/创新创业概览，讲商业模式（平台效应、Freemium 等）。无考试、以小组创新项目+课堂参与为主，多位学长姐评价轻松（也有人吐槽授课松散、学不到硬知识），给分一般。对国内就业同学的重要加分：选这门课毕业证时间可写到当年 10 月，方便参加应届秋招。",
   "tags": [
-    "信息系统"
+    "创新创业",
+    "无考试",
+    "轻松",
+    "给分一般",
+    "毕业时间灵活"
   ],
-  "source_ids": [],
-  "last_updated": "2026-08-24"
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

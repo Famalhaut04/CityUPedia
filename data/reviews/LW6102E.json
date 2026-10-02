@@ -1,9 +1,16 @@
 {
- "course_code": "LW6102E",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Introduction to Common Law System and Methodology。LLM3 选修课，官方标注 Semester A 开课。Semester A 共 9 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "LW6102E",
+  "level": "neutral",
+  "verdict": "开学前先导必修",
+  "summary": "非普通法背景学生的指定先导课：8 月初开学先行课一个月、一周三节，结课后一个多月考期末；9 月初其他课程才开课。全英文教学初期需要适应（学姐称约一个月后可脱离翻译软件）。",
+  "tags": [
+    "先导课",
+    "8月开学",
+    "全英文",
+    "期末考"
+  ],
+  "source_ids": [
+    "offercool_llm"
+  ],
+  "last_updated": "2026-10-03"
 }

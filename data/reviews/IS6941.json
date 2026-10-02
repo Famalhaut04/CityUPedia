@@ -1,9 +1,16 @@
 {
-    "course_code": "IS6941",
-    "tags": [],
-    "verdict": "暂无评价",
-    "level": "unknown",
-    "summary": "",
-    "last_updated": "2026-08-27",
-    "source_ids": []
+  "course_code": "IS6941",
+  "level": "good",
+  "verdict": "老师 nice，计算量大",
+  "summary": "Raymond（劉耀強）老师授课，港式英语但非常负责：课上答对送小礼物、期末优秀组有奖品。个人作业基本在 tutorial 完成，小组做 social media 项目并展示；期末开卷 4 道大题，内容上课讲过但计算量很大、几乎没人写完，老师不挂人。",
+  "tags": [
+    "开卷考",
+    "计算量大",
+    "老师nice",
+    "小组pre"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

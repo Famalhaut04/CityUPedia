@@ -1,9 +1,15 @@
 {
- "course_code": "COM5509",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Digital Visual Media。MACNM 选修课，官方标注 Semester A 开课。Semester A 共 4 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "COM5509",
+  "level": "recommended",
+  "verdict": "轻松有趣的拍片课",
+  "summary": "MACNM 学姐认为 visual 方向课程比较轻松、不枯燥：final project 是拍一条片子，从编导到后期全包；以拍片项目替代常规期末考试。",
+  "tags": [
+    "拍片期末",
+    "轻松",
+    "实操项目"
+  ],
+  "source_ids": [
+    "offercool_macnm"
+  ],
+  "last_updated": "2026-10-03"
 }

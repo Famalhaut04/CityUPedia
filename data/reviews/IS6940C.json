@@ -1,9 +1,17 @@
 {
-    "course_code": "IS6940C",
-    "tags": [],
-    "verdict": "暂无评价",
-    "level": "unknown",
-    "summary": "",
-    "last_updated": "2026-08-27",
-    "source_ids": []
+  "course_code": "IS6940C",
+  "level": "neutral",
+  "verdict": "讲座课需勤写报告",
+  "summary": "新兴科技讲座课：约 10 场业界领袖讲座，从 10 个主题中挑 5 个各写 1500+ 字报告，无期末考试。评分标准与范文会给到位，但要求「主观、有逻辑」地论述，不爱写作慎选；历届分数多集中在 B（有 curve），不适合刷 GPA。讲座内容在面试中用得上，也有嘉宾直接提供就业机会。",
+  "tags": [
+    "业界讲座",
+    "无考试",
+    "5篇论文",
+    "写作要求高",
+    "视野开拓"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

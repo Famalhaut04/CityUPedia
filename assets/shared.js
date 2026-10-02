@@ -1311,10 +1311,10 @@
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "All 8 Colleges Added — v1.4.0 (Oct 3)" : "全校八大学院接入 · v1.4.0（10/3）") + '</strong>' +
+        '<strong>' + (isEn ? "All 8 Colleges Added — v1.4.1 (Oct 3)" : "全校八大学院接入 · v1.4.1（10/3）") + '</strong>' +
         '<span>' + (isEn
-          ? "47 more official taught master's programmes across Business, Liberal Arts & Social Sciences, Science, Biomedicine, Veterinary Medicine, Creative Media, Energy & Environment, and Law — 959 new course entries (1,381 total), every curriculum verified against the official 2026/27 catalogue page by page; 376 new courses already carry Semester A AIMS sections. Course loading now streams through a concurrency pool to stay stable at this scale."
-          : "新增商学院、人文社会科学院、理学院、生物医学院、兽医学及生命科学院、创意媒体学院、能源及环境学院、法律学院共 47 个官方硕士项目，新增 959 门课程条目（全站 1,381 门），培养方案逐项对照官方 2026/27 目录核对；其中 376 门已带 Semester A AIMS 班次。课程数据加载改为并发池分批拉取，千门规模下依旧稳定。") +
+          ? "47 more official taught master's programmes across Business, Liberal Arts & Social Sciences, Science, Biomedicine, Veterinary Medicine, Creative Media, Energy & Environment, and Law — every curriculum verified against the official 2026/27 catalogue page by page, then 250 courses not offered this year removed (now 68 programmes / 1,131 courses, 548 with Semester A AIMS sections). Community course reviews added for BIS, OSCM, LLM, MACNM and Marketing (36 courses). Loading now streams through a concurrency pool to stay stable at this scale."
+          : "新增商学院、人文社会科学院、理学院、生物医学院、兽医学及生命科学院、创意媒体学院、能源及环境学院、法律学院共 47 个官方硕士项目，培养方案逐项对照官方 2026/27 目录核对，并按本学年实际开课名单剔除 250 门不开设课程（全站 68 项目 / 1,131 门，其中 548 门带 Semester A AIMS 班次）。同步补充商务信息系统、营运与供应链管理、法学、传播与新媒体、市场学项目的社区课程评价 36 门。课程加载为并发池分批拉取，千门规模下依旧稳定。") +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';

@@ -1,9 +1,17 @@
 {
-    "course_code": "IS6640",
-    "tags": [],
-    "verdict": "暂无评价",
-    "level": "unknown",
-    "summary": "",
-    "last_updated": "2026-08-27",
-    "source_ids": []
+  "course_code": "IS6640",
+  "level": "good",
+  "verdict": "IS 战略进阶课，开卷考案例",
+  "summary": "企业信息战略系统（IS5313 进阶版），波特五力/SWOT/价值链等框架结合比亚迪、顺丰、字节等真实案例，无编程。期中个人报告+期末小组报告与展示，期末开卷机考（提前一周发 case、带 U 盘）。因涉及公司评价无录播；有人认为分析框架对写行业/市场报告很有帮助，也有人觉得概念抽象、可当水课。",
+  "tags": [
+    "IS战略",
+    "大厂案例",
+    "开卷机考",
+    "无编程",
+    "分析框架"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

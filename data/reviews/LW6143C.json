@@ -1,9 +1,16 @@
 {
- "course_code": "LW6143C",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "International Investment Law。LLM3 选修课，官方标注 Semester B 开课。官方标注 Semester B 开课。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "LW6143C",
+  "level": "neutral",
+  "verdict": "公法向、偏介绍性",
+  "summary": "IEL 学姐点评：内容偏公法，主要介绍国际投资的基本原则和条约，并简单介绍以仲裁方式解决争议，整体偏入门介绍。",
+  "tags": [
+    "偏公法",
+    "条约",
+    "仲裁入门",
+    "中文授课模块"
+  ],
+  "source_ids": [
+    "offercool_llm"
+  ],
+  "last_updated": "2026-10-03"
 }

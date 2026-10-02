@@ -1,9 +1,14 @@
 {
- "course_code": "LW6109E",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Banking and Finance Law。LLM3 选修课，官方标注 Semester A/B 开课。官方标注 Semester A/B 开课。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "LW6109E",
+  "level": "neutral",
+  "verdict": "实务相关",
+  "summary": "IEL 学姐选修课之一（与 LW6153E 国际经济争端解决一并评价）：“内容都比较与实务相关”。",
+  "tags": [
+    "实务向",
+    "金融法"
+  ],
+  "source_ids": [
+    "offercool_llm"
+  ],
+  "last_updated": "2026-10-03"
 }

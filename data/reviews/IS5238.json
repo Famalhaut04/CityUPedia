@@ -1,9 +1,16 @@
 {
- "course_code": "IS5238",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Business Practice Internship。MSCBDA2 选修课，官方标注 暑期学期 开课。官方标注 暑期学期 开课。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "IS5238",
+  "level": "neutral",
+  "verdict": "实习学分课（Pass/Fail）",
+  "summary": "实习课程。拿到 Offer 后交由 LIU Ben 老师评估，通过后邮件附 Offer 提交纸选申请。好好上班、按要求写材料即可，Pass/Fail 成绩不计入 GPA，评价内容随年度安排变化较大。",
+  "tags": [
+    "实习",
+    "Pass/Fail",
+    "不计GPA",
+    "纸选"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

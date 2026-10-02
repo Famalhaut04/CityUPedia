@@ -1,11 +1,16 @@
 {
   "course_code": "COM5104",
-  "level": "unknown",
-  "verdict": "暂无评价",
-  "summary": "Research Methods for Communication and New Media。MSVC 选修课，官方标注 SemA 开课。Semester A 共 4 个班次，但都限其它项目学生注册，MSVC 学生需向开课院系确认。",
+  "level": "caution",
+  "verdict": "理论密度最高的必修",
+  "summary": "与传播学基础（COM5101）并列 MACNM 最难：理论非常多且深、全英文授课较难理解，需要花很多很多时间看文章和 PPT 才能跟上。",
   "tags": [
-    "传播与新媒体"
+    "理论密集",
+    "研究方法",
+    "需大量阅读",
+    "全英文"
   ],
-  "source_ids": [],
-  "last_updated": "2026-08-24"
+  "source_ids": [
+    "offercool_macnm"
+  ],
+  "last_updated": "2026-10-03"
 }

@@ -1,9 +1,17 @@
 {
- "course_code": "IS5313",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "Foundations of Information and Electronic Business Systems。MSCBDA2 选修课，官方标注 Semester A 开课。Semester A 共 5 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "IS5313",
+  "level": "good",
+  "verdict": "信息系统通识课压力不大",
+  "summary": "信息系统与电子商务基础理论（含管理信息系统/电商/数据安全常识），5313 是 BIS 项目的通识扫盲课。Rupa 老师逐知识点解释举例、口音不重、人很好；考核为考勤+作业+小组企业分析项目（期中期末展示）+开卷简答/上机考试，难度不大，按知识点认真准备能拿不错的分数。",
+  "tags": [
+    "理论入门",
+    "开卷考",
+    "小组项目",
+    "口音友好",
+    "偏文科普"
+  ],
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }

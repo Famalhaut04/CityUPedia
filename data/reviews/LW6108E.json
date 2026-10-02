@@ -1,9 +1,16 @@
 {
- "course_code": "LW6108E",
- "level": "unknown",
- "verdict": "暂无评价",
- "summary": "International Finance: Law and Regulation。LLM3 选修课，官方标注 Semester A 开课。Semester A 共 6 个班次条目（含多个时段/教室的班次）。",
- "tags": [],
- "source_ids": [],
- "last_updated": "2026-10-03"
+  "course_code": "LW6108E",
+  "level": "good",
+  "verdict": "难但对实务帮助大",
+  "summary": "IEL 学姐认为与实务关系最大的一门课：内容围绕金融知识和香港十几部金融法律展开，对法本学生来说非常难、概念抽象难懂，但对之后进入金融行业或从事相关法律工作帮助不小。",
+  "tags": [
+    "难度高",
+    "实务向",
+    "金融法规密集",
+    "值得挑战"
+  ],
+  "source_ids": [
+    "offercool_llm"
+  ],
+  "last_updated": "2026-10-03"
 }

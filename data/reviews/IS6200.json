@@ -1,11 +1,17 @@
 {
   "course_code": "IS6200",
-  "level": "unknown",
-  "verdict": "暂无评价",
-  "summary": "Blockchain Technology and Business Applications。MSVC 选修课，官方标注 SemB 开课。Semester A 2026/27 的 AIMS 快照中没有班次，需等对应学期开放后再查。",
+  "level": "good",
+  "verdict": "区块链入门，给分友好",
+  "summary": "区块链技术与应用。历届老师把晦涩技术讲得生动，零技术背景也能跟上；答题以论述题为主、对编程要求低（tutorial 会教命令行与智能合约改写作扩展）。每课有 UReply 思考题，考前有 review summary 划重点；纯商科背景同学反馈学起来痛苦但给分友好，整体推荐。",
   "tags": [
-    "信息系统"
+    "区块链",
+    "论述题为主",
+    "UReply",
+    "给分好",
+    "零基础可学"
   ],
-  "source_ids": [],
-  "last_updated": "2026-08-24"
+  "source_ids": [
+    "bis_navigator"
+  ],
+  "last_updated": "2026-10-03"
 }
