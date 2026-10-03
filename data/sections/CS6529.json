@@ -1,1 +1,21 @@
-[]
+[
+ {
+  "crn": "15842",
+  "section": "D61",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui, LU Zhichao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI",
+   "only for Major: AI"
+  ]
+ }
+]

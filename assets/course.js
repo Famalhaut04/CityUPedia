@@ -163,6 +163,7 @@
               ${fact("授课语言", course.summary?.medium)}
               ${fact("授课教师", instructors)}
               ${fact("注册状态", webStatus)}
+              ${course.pdf_url ? fact("课程详情", `<a href="${course.pdf_url}" target="_blank" rel="noopener noreferrer">官方大纲 PDF ↗</a>`) : ""}
             </div>
           </section>
 

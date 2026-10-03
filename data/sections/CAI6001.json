@@ -1,1 +1,21 @@
-[]
+[
+ {
+  "crn": "13261",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "32",
+  "capacity": "180",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "F",
+  "time": "14:00 - 16:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "AL CHALABI Ihsan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSVC",
+   "only for Programme: MSVC"
+  ]
+ }
+]

@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "crn": "11452",
+  "section": "C01",
+  "credits": 1,
+  "web": "Y",
+  "available": "100",
+  "capacity": "100",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "WU Qi",
+  "medium": "English",
+  "notes": [
+   "only for Programme: DS2/C, DS2/M, DS2/P"
+  ]
+ }
+]

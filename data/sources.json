@@ -273,7 +273,7 @@
     "title": "MScBIS 选课笔记（BIS Navigator）",
     "url": "https://avalonc.github.io/MScBIS/",
     "platform": "GitHub",
-    "note": "CityU 商务信息系统硕士（MScBIS）选课笔记，2022/2023 版选课心得整理，覆盖 23 门 IS/EF/AC 商科课评价，站点持续维护（2026-09 复核）。"
+    "note": "CityU 商务信息系统硕士（MScBIS）选课笔记，2022/2023 版选课心得整理，覆盖 22 门 IS/EF/AC 商科课评价，站点持续维护（2026-09 复核；IS5743 于 1.4.2 因官方标注不开设移除）。"
   },
   "cityu_cs_guide": {
     "title": "CityU-CS-Guide · 城大 MSc CS 选课评价汇总",

@@ -1,1 +1,21 @@
-[]
+[
+ {
+  "crn": "15435",
+  "section": "D61",
+  "credits": 3,
+  "web": "Y",
+  "available": "135",
+  "capacity": "150",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "ZHAO Xiangyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1",
+   "not for Cohort: 2022, 2023, 2024"
+  ]
+ }
+]

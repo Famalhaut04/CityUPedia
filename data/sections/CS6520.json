@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "crn": "15838",
+  "section": "D61",
+  "credits": 3,
+  "web": "Y",
+  "available": "20",
+  "capacity": "20",
+  "date": "31/08/2026 - 28/11/2026",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCS2, MSCS3"
+  ]
+ }
+]
