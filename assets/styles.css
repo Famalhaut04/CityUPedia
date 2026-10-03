@@ -5302,3 +5302,33 @@ body {
 .planner-shell.is-college-empty {
   display: block;
 }
+
+/* ==================== 语言下拉菜单 ==================== */
+.menu-item.lang-switch {
+  padding-right: 4px;
+}
+
+.lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%236b7280' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 10px 6px;
+  border: none;
+  color: inherit;
+  font: inherit;
+  font-size: 0.92rem;
+  padding: 2px 16px 2px 2px;
+  cursor: pointer;
+}
+
+.lang-select:focus {
+  outline: none;
+}
+
+.lang-select option {
+  color: #1f2937;
+  background: #fff;
+}
