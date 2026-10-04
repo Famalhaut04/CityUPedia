@@ -1187,6 +1187,14 @@
       "nav.courses": "排课系统",
       "nav.cityu": "城大官网",
       "nav.reviews": "课程评价",
+      "nav.guide": "城大攻略",
+      "guide.title": "城大攻略",
+      "guide.subtitle": "选课、生活与求职的实用攻略合集",
+      "guide.empty.title": "攻略编写中",
+      "guide.empty.desc": "城大攻略正在筹备，将陆续上线选课、生活、求职等主题内容",
+      "guide.missing.title": "没有找到这篇攻略",
+      "guide.back": "返回攻略列表",
+      "guide.loading": "正在加载攻略",
       "nav.lang": "中英文切换",
       "nav.github": "GitHub 仓库",
       "nav.account": "登录 / 注册",
@@ -1302,6 +1310,14 @@
       "nav.courses": "排課系統",
       "nav.cityu": "城大官網",
       "nav.reviews": "課程評價",
+      "nav.guide": "城大攻略",
+      "guide.title": "城大攻略",
+      "guide.subtitle": "選課、生活與求職的實用攻略合集",
+      "guide.empty.title": "攻略編寫中",
+      "guide.empty.desc": "城大攻略正在籌備，將陸續上線選課、生活、求職等主題內容",
+      "guide.missing.title": "沒有找到這篇攻略",
+      "guide.back": "返回攻略列表",
+      "guide.loading": "正在加載攻略",
       "nav.lang": "中英文切換",
       "nav.github": "GitHub 倉庫",
       "nav.account": "登錄 / 註冊",
@@ -1416,6 +1432,14 @@
       "nav.courses": "Planner",
       "nav.cityu": "CityU",
       "nav.reviews": "Course Reviews",
+      "nav.guide": "CityU Guides",
+      "guide.title": "CityU Guides",
+      "guide.subtitle": "Practical guides for course planning, campus life and careers",
+      "guide.empty.title": "Guides coming soon",
+      "guide.empty.desc": "CityU Guides is in preparation — course selection, campus life and career topics are on the way",
+      "guide.missing.title": "Guide not found",
+      "guide.back": "Back to guides",
+      "guide.loading": "Loading guides",
       "nav.lang": "Language",
       "nav.github": "GitHub Repo",
       "nav.account": "Sign In / Register",
@@ -1585,7 +1609,7 @@
     const lang = getStoredLang();
     const isEn = lang === "en";
     const zhTitle = "全校八大学院接入 · v1.5.0（10/3）";
-    const zhBody = "新增商学院、人文社会科学院、理学院、生物医学院、兽医学及生命科学院、创意媒体学院、能源及环境学院、法律学院共 47 个官方硕士项目，并逐课对照官方课程页复核：累计剔除 282 门不开设课程、对齐 82 门开课学期、回填 16 门班次，1,072 门课程接入官方课程详情 PDF 直链（全站 68 项目 / 1,099 门，其中 589 门带 AIMS 班次）。全站界面升级三语下拉切换（简体中文 / 繁體中文 / English），导航、排课、课程详情与评价中心全量翻译。";
+    const zhBody = "新增商学院、人文社会科学院、理学院、生物医学院、兽医学及生命科学院、创意媒体学院、能源及环境学院、法律学院共 47 个官方硕士项目，并逐课对照官方课程页复核：累计剔除 282 门不开设课程、对齐 82 门开课学期、回填 16 门班次，1,072 门课程接入官方课程详情 PDF 直链（全站 68 项目 / 1,118 门，其中 596 门带 AIMS 班次）。全站界面升级三语下拉切换（简体中文 / 繁體中文 / English），导航、排课、课程详情与评价中心全量翻译。";
     const notice = document.createElement("div");
     notice.className = "update-notice";
     notice.setAttribute("role", "status");
@@ -1593,7 +1617,7 @@
       '<div class="update-notice-body">' +
         '<strong>' + (isEn ? "All 8 Colleges Added — v1.5.0 (Oct 3)" : T(zhTitle)) + '</strong>' +
         '<span>' + (isEn
-          ? "47 more official taught master's programmes across Business, Liberal Arts & Social Sciences, Science, Biomedicine, Veterinary Medicine, Creative Media, Energy & Environment, and Law — every course re-verified against its official 2026/27 catalogue page: 282 not-offered courses removed, 82 offering terms aligned, 16 timetables restored, and 1,072 courses now link the official course-outline PDF (now 68 programmes / 1,099 courses, 589 with AIMS sections). Community course reviews added for BIS, OSCM, LLM, MACNM and Marketing."
+          ? "47 more official taught master's programmes across Business, Liberal Arts & Social Sciences, Science, Biomedicine, Veterinary Medicine, Creative Media, Energy & Environment, and Law — every course re-verified against its official 2026/27 catalogue page: 282 not-offered courses removed, 82 offering terms aligned, 16 timetables restored, and 1,072 courses now link the official course-outline PDF (now 68 programmes / 1,118 courses, 596 with AIMS sections). Community course reviews added for BIS, OSCM, LLM, MACNM and Marketing."
           : T(zhBody)) +
         '</span>' +
       '</div>' +

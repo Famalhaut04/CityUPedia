@@ -1,0 +1,116 @@
+[
+ {
+  "crn": "13415",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "8",
+  "capacity": "95",
+  "date": "18/10/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "YANG Xinxin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3",
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "15266",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "8",
+  "capacity": "95",
+  "date": "18/10/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "CAI Biao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3",
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "11594",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "9",
+  "capacity": "95",
+  "date": "18/10/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "YANG Xinxin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBDA3",
+   "only for Programme: MSCBDA3"
+  ]
+ },
+ {
+  "crn": "14106",
+  "section": "CA1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "18/10/2026 - 28/11/2026",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "YANG Xinxin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM",
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "15267",
+  "section": "CB1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "18/10/2026 - 28/11/2026",
+  "day": "M",
+  "time": "12:00 - 14:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "CAI Biao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM",
+   "only for Programme: MSCOSCM"
+  ]
+ },
+ {
+  "crn": "14113",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "18/10/2026 - 28/11/2026",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1503",
+  "instructor": "YANG Xinxin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCOSCM",
+   "only for Programme: MSCOSCM"
+  ]
+ }
+]

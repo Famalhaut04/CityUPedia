@@ -5332,3 +5332,149 @@ body {
   color: #1f2937;
   background: #fff;
 }
+
+/* ==================== 城大攻略 ==================== */
+.guide-page-body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 24px 48px;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+  gap: 16px;
+}
+
+.guide-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  text-decoration: none;
+  color: inherit;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+.guide-card:hover {
+  border-color: #2563eb;
+  box-shadow: 0 6px 20px rgba(37, 99, 235, .12);
+}
+
+.guide-card-tag {
+  align-self: flex-start;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #2563eb;
+  background: rgba(37, 99, 235, .08);
+  border-radius: 999px;
+  padding: 2px 10px;
+  max-width: 100%;
+}
+
+.guide-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.guide-card-summary {
+  font-size: 0.875rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.guide-card-meta {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.guide-empty {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 56px 24px;
+  text-align: center;
+  background: #fff;
+  border: 1px dashed #d1d5db;
+  border-radius: 14px;
+  color: #6b7280;
+}
+
+.guide-empty strong {
+  font-size: 1rem;
+  color: #374151;
+}
+
+.guide-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 820px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.guide-detail-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+.guide-detail-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.guide-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+}
+
+.guide-section h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  overflow-wrap: anywhere;
+}
+
+.guide-section-body {
+  font-size: 0.925rem;
+  line-height: 1.8;
+  color: #374151;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+  .guide-page-body {
+    padding: 0 16px 32px;
+  }
+}

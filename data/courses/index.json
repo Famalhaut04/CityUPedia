@@ -2067,11 +2067,13 @@
    "code": "AC5511",
    "programmes": [
     "MSEC",
-    "MSBISA"
+    "MSBISA",
+    "MSPACG"
    ],
    "programme_requirement_types": {
     "MSEC": "elective",
-    "MSBISA": "core"
+    "MSBISA": "core",
+    "MSPACG": "core"
    },
    "requirement_type": "core",
    "programme_title": "Financial and Management Accounting",
@@ -2090,7 +2092,8 @@
    "section_count": 6,
    "semester_tag": "SemA",
    "programme_elective_groups": {
-    "MSBISA": "fit_core"
+    "MSBISA": "fit_core",
+    "MSPACG": "pa"
    },
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/AC5511.pdf"
   },
@@ -2398,10 +2401,12 @@
   {
    "code": "AC6531",
    "programmes": [
-    "MAIA"
+    "MAIA",
+    "MSPACG"
    ],
    "programme_requirement_types": {
-    "MAIA": "core"
+    "MAIA": "core",
+    "MSPACG": "core"
    },
    "requirement_type": "core",
    "programme_title": "Financial Management",
@@ -2419,7 +2424,10 @@
    },
    "section_count": 3,
    "semester_tag": "SemA+SemB",
-   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/AC6531.pdf"
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/AC6531.pdf",
+   "programme_elective_groups": {
+    "MSPACG": "pa"
+   }
   },
   {
    "code": "AC6533",
@@ -8365,20 +8373,14 @@
   {
    "code": "CS5282",
    "programmes": [
-    "MSCS",
-    "MSEC",
     "MSCIE",
     "MSMIT1"
    ],
    "programme_requirement_types": {
-    "MSCS": "elective",
-    "MSEC": "elective",
     "MSCIE": "elective",
     "MSMIT1": "elective"
    },
-   "programme_elective_groups": {
-    "MSCS": "group2"
-   },
+   "programme_elective_groups": {},
    "requirement_type": "elective",
    "programme_title": "Practical Optimization Algorithms and Techniques",
    "schedule_title": "Practical Optimization Algorithms and Techniques",
@@ -8533,12 +8535,10 @@
   {
    "code": "CS5292",
    "programmes": [
-    "MSCY",
-    "MSCS"
+    "MSCY"
    ],
    "programme_requirement_types": {
-    "MSCY": "elective",
-    "MSCS": "elective"
+    "MSCY": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Cybersecurity Audits & Compliance",
@@ -8556,8 +8556,7 @@
    },
    "section_count": 3,
    "programme_elective_groups": {
-    "MSCY": "group1",
-    "MSCS": "group2"
+    "MSCY": "group1"
    },
    "semester_tag": "SemA",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5292.pdf"
@@ -8631,12 +8630,10 @@
   {
    "code": "CS5295",
    "programmes": [
-    "MSCY",
-    "MSCS"
+    "MSCY"
    ],
    "programme_requirement_types": {
-    "MSCY": "elective",
-    "MSCS": "elective"
+    "MSCY": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Network and Cloud Security",
@@ -8654,8 +8651,7 @@
    },
    "section_count": 2,
    "programme_elective_groups": {
-    "MSCY": "group1",
-    "MSCS": "group2"
+    "MSCY": "group1"
    },
    "semester_tag": "SemA",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5295.pdf"
@@ -8729,12 +8725,10 @@
   {
    "code": "CS5298",
    "programmes": [
-    "MSCY",
-    "MSCS"
+    "MSCY"
    ],
    "programme_requirement_types": {
-    "MSCY": "elective",
-    "MSCS": "elective"
+    "MSCY": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Blockchain and Web3.0 Security",
@@ -8752,8 +8746,7 @@
    },
    "section_count": 2,
    "programme_elective_groups": {
-    "MSCY": "group1",
-    "MSCS": "group2"
+    "MSCY": "group1"
    },
    "semester_tag": "SemA",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5298.pdf"
@@ -9070,12 +9063,10 @@
   {
    "code": "CS5494",
    "programmes": [
-    "MSAI",
-    "MSCS"
+    "MSAI"
    ],
    "programme_requirement_types": {
-    "MSAI": "elective",
-    "MSCS": "elective"
+    "MSAI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Topics in Generative AI",
@@ -9094,7 +9085,6 @@
    "section_count": 3,
    "semester_tag": "SemA",
    "programme_elective_groups": {
-    "MSCS": "group2",
     "MSAI": "group1"
    },
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5494.pdf"
@@ -9102,12 +9092,10 @@
   {
    "code": "CS5495",
    "programmes": [
-    "MSAI",
-    "MSCS"
+    "MSAI"
    ],
    "programme_requirement_types": {
-    "MSAI": "elective",
-    "MSCS": "elective"
+    "MSAI": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Explainable AI",
@@ -9126,7 +9114,6 @@
    "section_count": 3,
    "semester_tag": "SemA",
    "programme_elective_groups": {
-    "MSCS": "group2",
     "MSAI": "group1"
    },
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5495.pdf"
@@ -9186,21 +9173,16 @@
   {
    "code": "CS6187",
    "programmes": [
-    "MSCS",
     "MSAI",
-    "MSEC",
     "MSCIE",
     "MSMIT1"
    ],
    "programme_requirement_types": {
-    "MSCS": "elective",
     "MSAI": "elective",
-    "MSEC": "elective",
     "MSCIE": "elective",
     "MSMIT1": "elective"
    },
    "programme_elective_groups": {
-    "MSCS": "group1",
     "MSAI": "group2"
    },
    "requirement_type": "elective",
@@ -9814,16 +9796,12 @@
   {
    "code": "CS6534",
    "programmes": [
-    "MSCS",
     "MSEC"
    ],
    "programme_requirement_types": {
-    "MSCS": "elective",
     "MSEC": "elective"
    },
-   "programme_elective_groups": {
-    "MSCS": "group1"
-   },
+   "programme_elective_groups": {},
    "requirement_type": "elective",
    "programme_title": "Guided Study",
    "schedule_title": "Guided Study",
@@ -12996,12 +12974,16 @@
    "programmes": [
     "MSF",
     "MSFE",
-    "MSAIB"
+    "MSAIB",
+    "MSCBDA2",
+    "MSCBDA3"
    ],
    "programme_requirement_types": {
     "MSF": "elective",
     "MSFE": "elective",
-    "MSAIB": "elective"
+    "MSAIB": "elective",
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Fintech and AI in Finance",
@@ -13020,7 +13002,9 @@
    "section_count": 5,
    "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
-    "MSAIB": "biz"
+    "MSAIB": "biz",
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
    },
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/EF5560.pdf"
   },
@@ -23852,11 +23836,15 @@
    "code": "MS5215",
    "programmes": [
     "MSCOSCM",
-    "MSAIB"
+    "MSAIB",
+    "MSCBDA2",
+    "MSCBDA3"
    ],
    "programme_requirement_types": {
     "MSCOSCM": "elective",
-    "MSAIB": "elective"
+    "MSAIB": "elective",
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "AI-Enhanced Business Analytics with Excel and Python",
@@ -23875,17 +23863,23 @@
    "section_count": 17,
    "semester_tag": "SemA",
    "programme_elective_groups": {
-    "MSAIB": "biz"
+    "MSAIB": "biz",
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
    },
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS5215.pdf"
   },
   {
    "code": "MS5216",
    "programmes": [
-    "MSHSB"
+    "MSHSB",
+    "MSCBDA2",
+    "MSCBDA3"
    ],
    "programme_requirement_types": {
-    "MSHSB": "elective"
+    "MSHSB": "elective",
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Decision Analytics",
@@ -23904,7 +23898,9 @@
    "section_count": 3,
    "semester_tag": "SemA+SemB",
    "programme_elective_groups": {
-    "MSHSB": "hs"
+    "MSHSB": "hs",
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
    },
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS5216.pdf"
   },
@@ -23947,11 +23943,15 @@
    "code": "MS5223",
    "programmes": [
     "MSCOSCM",
-    "MAHUM"
+    "MAHUM",
+    "MSCBDA2",
+    "MSCBDA3"
    ],
    "programme_requirement_types": {
     "MSCOSCM": "elective",
-    "MAHUM": "elective"
+    "MAHUM": "elective",
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Project Management",
@@ -23970,7 +23970,9 @@
    "section_count": 0,
    "semester_tag": "Summer",
    "programme_elective_groups": {
-    "MAHUM": "housing_elec"
+    "MAHUM": "housing_elec",
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
    },
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS5223.pdf"
   },
@@ -24003,10 +24005,14 @@
   {
    "code": "MS5313",
    "programmes": [
-    "MSCOSCM"
+    "MSCOSCM",
+    "MSCBDA2",
+    "MSCBDA3"
    ],
    "programme_requirement_types": {
-    "MSCOSCM": "core"
+    "MSCOSCM": "core",
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
    },
    "requirement_type": "core",
    "programme_title": "Managerial Decision Modeling",
@@ -24024,15 +24030,23 @@
    },
    "section_count": 4,
    "semester_tag": "SemA",
-   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS5313.pdf"
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS5313.pdf",
+   "programme_elective_groups": {
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
+   }
   },
   {
    "code": "MS5318",
    "programmes": [
-    "MSCOSCM"
+    "MSCOSCM",
+    "MSCBDA2",
+    "MSCBDA3"
    ],
    "programme_requirement_types": {
-    "MSCOSCM": "core"
+    "MSCOSCM": "core",
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
    },
    "requirement_type": "core",
    "programme_title": "Predictive Analytics with Excel and R",
@@ -24050,7 +24064,11 @@
    },
    "section_count": 0,
    "semester_tag": "SemB",
-   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS5318.pdf"
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS5318.pdf",
+   "programme_elective_groups": {
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
+   }
   },
   {
    "code": "MS5411",
@@ -24086,10 +24104,14 @@
   {
    "code": "MS6211",
    "programmes": [
-    "MSCOSCM"
+    "MSCOSCM",
+    "MSCBDA2",
+    "MSCBDA3"
    ],
    "programme_requirement_types": {
-    "MSCOSCM": "elective"
+    "MSCOSCM": "elective",
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Statistical Modelling in Risk Management",
@@ -24107,17 +24129,25 @@
    },
    "section_count": 6,
    "semester_tag": "SemA+SemB",
-   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS6211.pdf"
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS6211.pdf",
+   "programme_elective_groups": {
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
+   }
   },
   {
    "code": "MS6219",
    "programmes": [
     "MSEM1",
-    "MSAIB"
+    "MSAIB",
+    "MSCBDA2",
+    "MSCBDA3"
    ],
    "programme_requirement_types": {
     "MSEM1": "elective",
-    "MSAIB": "elective"
+    "MSAIB": "elective",
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
    },
    "requirement_type": "elective",
    "programme_title": "Predictive Modeling and Forecasting for Business",
@@ -24136,7 +24166,9 @@
    "section_count": 0,
    "semester_tag": "SemB",
    "programme_elective_groups": {
-    "MSAIB": "biz"
+    "MSAIB": "biz",
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
    },
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS6219.pdf"
   },
@@ -33824,6 +33856,548 @@
    "section_count": 0,
    "semester_tag": "SemA",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/VCS8001.pdf"
+  },
+  {
+   "code": "AC5512",
+   "programmes": [
+    "MSPACG"
+   ],
+   "programme_requirement_types": {
+    "MSPACG": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Financial Reporting",
+   "schedule_title": "Financial Reporting",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "AC",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/AC5512.pdf",
+   "programme_elective_groups": {
+    "MSPACG": "pa"
+   }
+  },
+  {
+   "code": "AC6513",
+   "programmes": [
+    "MSPACG"
+   ],
+   "programme_requirement_types": {
+    "MSPACG": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Corporate Accounting",
+   "schedule_title": "Corporate Accounting",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "AC",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "Summer",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/AC6513.pdf",
+   "programme_elective_groups": {
+    "MSPACG": "pa"
+   }
+  },
+  {
+   "code": "MS5218",
+   "programmes": [
+    "MSCBDA2",
+    "MSCBDA3"
+   ],
+   "programme_requirement_types": {
+    "MSCBDA2": "core",
+    "MSCBDA3": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Applied Linear Statistical Models",
+   "schedule_title": "Applied Linear Statistical Models",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "40",
+    "capacity": "300",
+    "medium": "English"
+   },
+   "section_count": 6,
+   "semester_tag": "SemA",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS5218.pdf",
+   "programme_elective_groups": {
+    "MSCBDA2": "qab",
+    "MSCBDA3": "qab"
+   }
+  },
+  {
+   "code": "MS6221",
+   "programmes": [
+    "MSCBDA2",
+    "MSCBDA3"
+   ],
+   "programme_requirement_types": {
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Predictive Modeling in Marketing",
+   "schedule_title": "Predictive Modeling in Marketing",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS6221.pdf",
+   "programme_elective_groups": {
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
+   }
+  },
+  {
+   "code": "MS6601",
+   "programmes": [
+    "MSCBDA2",
+    "MSCBDA3"
+   ],
+   "programme_requirement_types": {
+    "MSCBDA2": "elective",
+    "MSCBDA3": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Statistical Modelling in Economics and Finance",
+   "schedule_title": "Statistical Modelling in Economics and Finance",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MS",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/MS6601.pdf",
+   "programme_elective_groups": {
+    "MSCBDA2": "ba",
+    "MSCBDA3": "ba"
+   }
+  },
+  {
+   "code": "FB5561",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "Artificial Intelligence in Business",
+   "schedule_title": "Artificial Intelligence in Business",
+   "title_changed": false,
+   "credits": 2,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "44",
+    "capacity": "120",
+    "medium": "English"
+   },
+   "section_count": 2,
+   "semester_tag": "SemA",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB5561.pdf",
+   "programme_elective_groups": {}
+  },
+  {
+   "code": "FB5700B",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "core"
+   },
+   "requirement_type": "core",
+   "programme_title": "MBA Orientation",
+   "schedule_title": "MBA Orientation",
+   "title_changed": false,
+   "credits": 2,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "14",
+    "capacity": "90",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB5700B.pdf",
+   "programme_elective_groups": {}
+  },
+  {
+   "code": "FB6701A",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "MBA Enterprise Diagnostic Residential Trip I",
+   "schedule_title": "MBA Enterprise Diagnostic Residential Trip I",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "40",
+    "capacity": "40",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB6701A.pdf",
+   "programme_elective_groups": {
+    "MBANUGC": "global"
+   }
+  },
+  {
+   "code": "FB6703B",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Industry On-site Workshop",
+   "schedule_title": "Industry On-site Workshop",
+   "title_changed": false,
+   "credits": 2,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB6703B.pdf",
+   "programme_elective_groups": {
+    "MBANUGC": "global"
+   }
+  },
+  {
+   "code": "FB6709D",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Entrepreneurship and Venture Plan Development",
+   "schedule_title": "Entrepreneurship and Venture Plan Development",
+   "title_changed": false,
+   "credits": 4,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB+Summer",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB6709D.pdf",
+   "programme_elective_groups": {
+    "MBANUGC": "global"
+   }
+  },
+  {
+   "code": "FB6712C",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Industry On-site Workshop",
+   "schedule_title": "Industry On-site Workshop",
+   "title_changed": false,
+   "credits": 1,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB6712C.pdf",
+   "programme_elective_groups": {
+    "MBANUGC": "global"
+   }
+  },
+  {
+   "code": "FB6702",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Professional Forum",
+   "schedule_title": "Professional Forum",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "medium": "English & Chinese"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB6702.pdf",
+   "programme_elective_groups": {
+    "MBANUGC": "mba_elec"
+   }
+  },
+  {
+   "code": "FB6705",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Business Mentoring",
+   "schedule_title": "Business Mentoring",
+   "title_changed": false,
+   "credits": 1,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA+SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB6705.pdf",
+   "programme_elective_groups": {
+    "MBANUGC": "mba_elec"
+   }
+  },
+  {
+   "code": "FB6782C",
+   "programmes": [
+    "MBANUGC"
+   ],
+   "programme_requirement_types": {
+    "MBANUGC": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Agile Leadership in a Transformative World",
+   "schedule_title": "Agile Leadership in a Transformative World",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "FB",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "50",
+    "capacity": "50",
+    "medium": "English"
+   },
+   "section_count": 1,
+   "semester_tag": "SemA",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/FB6782C.pdf",
+   "programme_elective_groups": {
+    "MBANUGC": "mba_elec"
+   }
+  },
+  {
+   "code": "SM5366",
+   "programmes": [
+    "MACM",
+    "MFACM"
+   ],
+   "programme_requirement_types": {
+    "MACM": "elective",
+    "MFACM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Exploring Digital Culture: Ethnographic Approaches to Social Media and Online Communities",
+   "schedule_title": "Exploring Digital Culture: Ethnographic Approaches to Social Media and Online Communities",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/SM5366.pdf"
+  },
+  {
+   "code": "SM6354",
+   "programmes": [
+    "MACM",
+    "MFACM"
+   ],
+   "programme_requirement_types": {
+    "MACM": "elective",
+    "MFACM": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Qualitative Methods in Media and Technology",
+   "schedule_title": "Qualitative Methods in Media and Technology",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "SM",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB",
+   "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/SM6354.pdf"
+  },
+  {
+   "code": "MNE6107",
+   "programmes": [
+    "MSME1"
+   ],
+   "programme_requirement_types": {
+    "MSME1": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Kinetics in Nanoscale Materials",
+   "schedule_title": "Kinetics in Nanoscale Materials",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "MNE",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CLA5011",
+   "programmes": [
+    "MSSCSL"
+   ],
+   "programme_requirement_types": {
+    "MSSCSL": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Experiential Learning Course (Field Trip within or outside Hong Kong)",
+   "schedule_title": "Experiential Learning Course (Field Trip within or outside Hong Kong)",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CLA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "CLA5012",
+   "programmes": [
+    "MSSCSL"
+   ],
+   "programme_requirement_types": {
+    "MSSCSL": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "Experiential Learning Course - Internship",
+   "schedule_title": "Experiential Learning Course - Internship",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "CLA",
+   "prerequisites": "Nil",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "0",
+    "capacity": "0",
+    "medium": "English"
+   },
+   "section_count": 0,
+   "semester_tag": "SemB"
   }
  ]
 }
