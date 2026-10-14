@@ -193,7 +193,8 @@
     const course = courseIndex.courses.find((item) => item.code === code);
     if (!course) throw new Error("没有找到这门课程");
     const courseDocument = courseDocuments[course.code];
-    if (!courseDocument) throw new Error("这门课程暂时没有详细课程文件");
+    // 部分课程只有 PDF、没有逐页翻译（课程页不显示入口，但直接访问链接时不应去请求 "undefined"）
+    if (!courseDocument || !courseDocument.translation) throw new Error("这门课程暂时没有详细课程文件");
     const imageDocument = imageIndex.courses?.[course.code];
     if (!imageDocument) throw new Error("这门课程暂时没有可用的网页页图");
     return getJson(courseDocument.translation)

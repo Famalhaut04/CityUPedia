@@ -170,26 +170,30 @@
     refreshStats();
   }
 
-  // 加载某院系课程列表 + 批量云端评价
-  function loadDepartment(dept, force) {
-    const courses = currentCourses;
+  // 渲染一组课程：按需补齐这些课程的评价摘要（口碑徽章用）+ 批量读取共享评价。
+  // 院系切换、搜索输入都会触发，异步结果按序号丢弃过期的，避免旧请求晚到覆盖新列表
+  let renderSeq = 0;
+  function showCourses(courses) {
     const container = document.getElementById("reviews-course-list");
     if (!container) return;
-    if (!MSDS.cloudReviewsEnabled()) {
-      renderCourseList(courses, {});
-      applyStats(courses, {});
-      return;
-    }
+    const seq = ++renderSeq;
     container.innerHTML = `<div class="cloud-reviews-loading">${MSDS.escapeHtml(t("reviews.loading"))}</div>`;
-    MSDS.fetchCloudReviewsBatch(courses.map((c) => c.code))
-      .then((grouped) => {
-        renderCourseList(courses, grouped);
-        applyStats(courses, grouped);
-      })
-      .catch(() => {
-        renderCourseList(courses, {});
-        applyStats(courses, {});
-      });
+    const sharedReviews = MSDS.cloudReviewsEnabled()
+      ? MSDS.fetchCloudReviewsBatch(courses.map((c) => c.code)).catch(() => ({}))
+      : Promise.resolve({});
+    Promise.all([
+      MSDS.hydrateCourses(courses, { sections: false }),
+      sharedReviews
+    ]).then(([, grouped]) => {
+      if (seq !== renderSeq) return;
+      renderCourseList(courses, grouped);
+      applyStats(courses, grouped);
+    });
+  }
+
+  // 加载某院系课程列表 + 批量云端评价
+  function loadDepartment() {
+    showCourses(currentCourses);
   }
 
   // ============ 课程代码搜索（全站范围） ============
@@ -203,19 +207,25 @@
       // 清空搜索：回到当前院系视图
       const dept = document.getElementById("department-select")?.value;
       if (dept) {
-        loadDepartment(dept);
+        loadDepartment();
       } else {
+        renderSeq += 1;
         empty.hidden = false;
         empty.textContent = t("reviews.empty");
         container.innerHTML = "";
       }
       return;
     }
+    // "cs 5487" / "CS-5487" 也能匹配课号 CS5487
+    const compact = q.replace(/[\s-]+/g, "");
     const matched = allCourses.filter((course) =>
       String(course.code).toUpperCase().includes(q)
+      || (compact && String(course.code).toUpperCase().includes(compact))
       || String(course.programme_title || course.title || "").toUpperCase().includes(q)
     );
     if (!matched.length) {
+      // 让仍在途中的上一次搜索结果作废
+      renderSeq += 1;
       empty.hidden = false;
       // textContent 已经不会解析 HTML，再转义会让 & < > 等字符原样显示成实体
       empty.textContent = `未找到与「${query}」匹配的课程`;
@@ -227,21 +237,7 @@
       return;
     }
     empty.hidden = true;
-    if (!MSDS.cloudReviewsEnabled()) {
-      renderCourseList(matched, {});
-      applyStats(matched, {});
-      return;
-    }
-    container.innerHTML = `<div class="cloud-reviews-loading">${MSDS.escapeHtml(t("reviews.loading"))}</div>`;
-    MSDS.fetchCloudReviewsBatch(matched.map((c) => c.code))
-      .then((grouped) => {
-        renderCourseList(matched, grouped);
-        applyStats(matched, grouped);
-      })
-      .catch(() => {
-        renderCourseList(matched, {});
-        applyStats(matched, {});
-      });
+    showCourses(matched);
   }
 
   // ============ 初始化 ============
@@ -253,7 +249,8 @@
     }
 
     try {
-      const data = await MSDS.loadCourseData();
+      // 只需课程索引：院系层级与搜索都基于索引，评价摘要在列出课程时按需加载
+      const data = await MSDS.loadCourseIndex();
       allData = data;
       allCourses = data.courses || [];
       const hierarchy = buildHierarchy(data);
@@ -279,7 +276,7 @@
           if (deptMap && deptMap.has(dept)) {
             currentCourses = deptMap.get(dept).slice();
           }
-          loadDepartment(dept);
+          loadDepartment();
         });
       }
 

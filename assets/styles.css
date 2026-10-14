@@ -6,7 +6,10 @@
 
 :root {
   --font-sans: 'Inter', 'Noto Sans SC', -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
-  --font-serif: 'Source Serif 4', 'Noto Serif SC', 'Songti SC', 'SimSun', Georgia, 'Times New Roman', serif;
+  /* 中文衬线优先 Noto Serif SC（随 Google Fonts 加载）→ macOS 宋体 → Windows 微软雅黑；
+     不再回落到 Windows 的 SimSun（无粗体，标题发虚且与西文衬线基线不齐）。
+     Georgia 只含西文字形，放在中文字体之前可在 Source Serif 4 加载失败时保持西文衬线 */
+  --font-serif: 'Source Serif 4', Georgia, 'Noto Serif SC', 'Songti SC', 'STSong', 'Microsoft YaHei', 'PingFang SC', serif;
   --font-mono: ui-monospace, 'Cascadia Mono', 'SF Mono', Consolas, Menlo, monospace;
 
   --bg: #FAF9F5;
@@ -88,6 +91,19 @@
 
 * {
   box-sizing: border-box;
+}
+
+/* hidden 属性一律生效：.menu-item 等组件自带 display 声明会盖过浏览器默认的 [hidden] 样式 */
+[hidden] {
+  display: none !important;
+}
+
+/* 标题按行均衡断行，避免末行只剩一两个字（如移动端「联合会」孤字换行） */
+h1,
+h2,
+h3,
+.top-title {
+  text-wrap: balance;
 }
 
 html {
@@ -381,6 +397,12 @@ body {
   text-transform: uppercase;
 }
 
+/* 项目名与学期保持原样大小写（否则 SemA 显示为 SEMA） */
+.eyebrow #programme-summary-name {
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
 .intro-stats {
   display: flex;
   align-items: stretch;
@@ -405,6 +427,7 @@ body {
 .intro-stats strong,
 .intro-stats span {
   display: block;
+  white-space: nowrap;
 }
 
 .intro-stats strong {
@@ -746,7 +769,7 @@ body {
 
 .planner-shell {
   display: grid;
-  grid-template-columns: 350px minmax(760px, 1fr);
+  grid-template-columns: 350px minmax(0, 1fr);
   width: min(1520px, calc(100% - 40px));
   min-height: 760px;
   margin: 0 auto 52px;
@@ -755,6 +778,14 @@ body {
   border-radius: var(--radius-lg);
   background: var(--card);
   box-shadow: var(--shadow-card);
+}
+
+/* 切换项目时该项目的班次/评价按需加载，期间锁定面板 */
+.planner-shell.is-loading .timetable-panel,
+.planner-shell.is-loading .selected-list {
+  opacity: 0.55;
+  pointer-events: none;
+  transition: opacity 160ms ease;
 }
 
 .course-sidebar {
@@ -918,6 +949,17 @@ body {
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--card);
+}
+
+/* 学期筛选只有 3–4 个按钮，不套用星期筛选的 7 列网格（会挤在左侧、拉丁字词互相贴住） */
+#term-filter-row {
+  display: flex;
+}
+
+#term-filter-row .term-filter-pill {
+  flex: 1 1 auto;
+  padding: 3px 8px;
+  white-space: nowrap;
 }
 
 .day-filter-pill,
@@ -1311,6 +1353,13 @@ body {
   font-size: 9px;
 }
 
+/* 课程详情首屏的评价结论徽章：此前没有内边距，底色紧贴文字像荧光笔划线 */
+.verdict-badge {
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 .mini-badge.core,
 .verdict-badge.core {
   background: var(--info-soft);
@@ -1363,8 +1412,10 @@ body {
 
 .mini-badge.strong,
 .mini-badge.good,
+.mini-badge.recommended,
 .verdict-badge.strong,
-.verdict-badge.good {
+.verdict-badge.good,
+.verdict-badge.recommended {
   background: var(--ok-soft);
   color: var(--ok);
 }
@@ -1382,7 +1433,9 @@ body {
 }
 
 .mini-badge.unknown,
-.verdict-badge.unknown {
+.mini-badge.neutral,
+.verdict-badge.unknown,
+.verdict-badge.neutral {
   background: var(--card-soft);
   color: var(--muted);
 }
@@ -1579,6 +1632,7 @@ body {
 
 .timetable-toolbar {
   display: flex;
+  flex-wrap: wrap;
   min-height: 82px;
   align-items: center;
   justify-content: space-between;
@@ -1831,9 +1885,13 @@ body {
 .timetable {
   position: relative;
   display: grid;
-  grid-template-columns: 60px repeat(6, minmax(132px, 1fr));
-  grid-template-rows: 52px calc(13 * var(--hour-height));
-  min-width: 900px;
+  /* 小时数与星期数由 planner.js 按已选课程设置（默认 09:00–22:00、周一至周六；周日/夜课按需扩展） */
+  --grid-hours: 13;
+  --day-count: 6;
+  /* 列最小宽按星期数均分（6 列时为 100px，1440 宽度下六天无需横向滚动），显示周日列时整表不额外变宽 */
+  grid-template-columns: 60px repeat(var(--day-count), minmax(calc(600px / var(--day-count)), 1fr));
+  grid-template-rows: 52px calc(var(--grid-hours) * var(--hour-height));
+  min-width: 0;
 }
 
 .timetable-corner,
@@ -1867,6 +1925,11 @@ body {
 .day-heading[data-day="R"] { grid-column: 5; }
 .day-heading[data-day="F"] { grid-column: 6; }
 .day-heading[data-day="S"] { grid-column: 7; }
+.day-heading[data-day="U"] { grid-column: 8; }
+
+.day-heading[hidden] {
+  display: none;
+}
 
 .day-heading strong {
   font-size: 12px;
@@ -1904,14 +1967,14 @@ body {
 
 .day-columns {
   display: grid;
-  grid-column: 2 / 8;
+  grid-column: 2 / -1;
   grid-row: 2;
-  grid-template-columns: repeat(6, minmax(132px, 1fr));
+  grid-template-columns: repeat(var(--day-count), minmax(calc(600px / var(--day-count)), 1fr));
 }
 
 .day-column {
   position: relative;
-  height: calc(13 * var(--hour-height));
+  height: calc(var(--grid-hours) * var(--hour-height));
   border-right: 1px solid var(--hairline);
   background-image: linear-gradient(to bottom, transparent calc(100% - 1px), var(--hairline) 1px);
   background-size: 100% var(--hour-height);
@@ -2170,10 +2233,10 @@ body {
 
 /* ---------------- 课程详情页 ---------------- */
 
+/* 与 .main-content 是同一元素：沿用其 224px 侧栏偏移，用左右内边距把内容居中为 1120px
+   （此前固定 margin-left: 232px，宽屏下内容偏左） */
 .course-detail {
-  width: min(1120px, calc(100% - 280px));
-  margin: 0 auto 0 232px;
-  padding: 34px 0 72px;
+  padding: 34px max(28px, calc((100% - 224px - 1120px) / 2)) 72px;
 }
 .back-link {
   display: inline-block;
@@ -2191,11 +2254,12 @@ body {
   transform: translateX(-2px);
 }
 
+/* 标题独占整行、操作按钮换到下方：此前与按钮并排，英文标题会被挤成一词一行 */
 .detail-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 28px;
-  align-items: end;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
   padding: 28px 30px 30px;
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -2224,7 +2288,7 @@ body {
 }
 
 .detail-hero h1 {
-  max-width: 800px;
+  max-width: 920px;
   margin: 9px 0 10px;
   font-family: var(--font-serif);
   font-size: clamp(30px, 5vw, 52px);
@@ -2242,7 +2306,10 @@ body {
 
 .detail-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
+  padding-top: 18px;
+  border-top: 1px solid var(--hairline);
 }
 
 .detail-layout {
@@ -2671,7 +2738,20 @@ body {
   font-size: clamp(24px, 4vw, 36px);
 }
 
+/* 与排课页一致的左右边距（此前筛选卡和课程列表贴着侧栏与窗口右缘） */
+.reviews-filter,
+.reviews-course-area {
+  width: min(1520px, calc(100% - 40px));
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.reviews-course-area {
+  padding-bottom: 56px;
+}
+
 .reviews-filter {
+  margin-top: 18px;
   margin-bottom: 18px;
   padding: 16px 18px;
   border: 1px solid var(--border);
@@ -3515,10 +3595,9 @@ body {
 
 /* ---------------- 详细课程介绍 ---------------- */
 
+/* 此前 margin: 0 auto 覆盖了 .main-content 的侧栏偏移，桌面端内容左半部分被固定侧栏盖住 */
 .syllabus-detail {
-  width: min(1480px, calc(100% - 40px));
-  margin: 0 auto;
-  padding: 34px 0 76px;
+  padding: 34px max(24px, calc((100% - 224px - 1480px) / 2)) 76px;
 }
 
 .syllabus-hero {
@@ -3829,12 +3908,12 @@ body {
 
 /* ---------------- 响应式 ---------------- */
 
-@media (max-width: 1120px) {
+/* 课表列不再设 720/760px 下限：此前 1280/1366 宽度下外壳会裁掉「清空」按钮与周五/周六列，
+   现在由课表自身的横向滚动区兜底 */
+@media (max-width: 1280px) {
   .planner-shell {
-    grid-template-columns: 310px minmax(720px, 1fr);
-    overflow-x: auto;
+    grid-template-columns: 310px minmax(0, 1fr);
   }
-
 }
 
 @media (max-width: 900px) {
@@ -3996,15 +4075,8 @@ body {
     white-space: nowrap;
   }
 
-  .course-detail {
-    width: calc(100% - 32px);
-    margin: 0 auto;
-    padding-top: 22px;
-  }
-
+  .course-detail,
   .syllabus-detail {
-    width: calc(100% - 32px);
-    margin: 0 auto;
     padding-top: 22px;
   }
 
@@ -4064,8 +4136,7 @@ body {
   }
 
   .intro-stats {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
   }
 
   .intro-stats div {
@@ -4548,9 +4619,10 @@ body {
 }
 
 /* 部门卡片网格 */
+/* 五个部门一行排开（此前自动填充为 4 + 1，第二行只剩一张卡） */
 .about-page-card .about-dept-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
   margin-top: 16px;
 }
@@ -4595,6 +4667,7 @@ body {
 }
 
 .about-dept-item span {
+  text-wrap: balance;
   color: var(--muted);
   font-size: 11px;
   line-height: 1.5;
@@ -4672,8 +4745,13 @@ body {
   }
 
   .about-page-card .about-dept-grid {
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
+  }
+
+  /* 两列时第五个部门独占一行，不留半行空位 */
+  .about-page-card .about-dept-item:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
   }
 }
 
@@ -4798,9 +4876,15 @@ body {
     margin-left: 0;
   }
 
-  .course-detail,
+  /* 侧栏收为顶栏后，内容区左右至少留 16px（此前正文贴着屏幕边缘） */
+  .course-detail {
+    padding-right: max(16px, calc((100% - 1120px) / 2));
+    padding-left: max(16px, calc((100% - 1120px) / 2));
+  }
+
   .syllabus-detail {
-    margin-left: auto;
+    padding-right: max(16px, calc((100% - 1480px) / 2));
+    padding-left: max(16px, calc((100% - 1480px) / 2));
   }
 
   .top-bar {
@@ -4851,13 +4935,18 @@ body {
 /* ============ 登录页（login.html） ============ */
 .login-main {
   align-items: center;
-  padding: 40px 20px 64px;
+  padding: 0 0 64px;
+}
+
+/* 页头与其他页面一样通栏（此前被 align-items: center 缩成表单上方的一张小卡片） */
+.login-main > .top-bar {
+  align-self: stretch;
 }
 
 .login-card {
-  width: 100%;
+  width: calc(100% - 40px);
   max-width: 460px;
-  margin-top: 8px;
+  margin-top: 32px;
   padding: 20px;
   border: 1px solid var(--border);
   border-radius: var(--radius-lg, 18px);
@@ -4868,9 +4957,9 @@ body {
 .login-session-hint {
   margin: 0 0 14px;
   padding: 10px 12px;
-  border: 1px solid color-mix(in srgb, var(--success) 35%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ok) 35%, transparent);
   border-radius: var(--radius-md);
-  background: color-mix(in srgb, var(--success) 8%, var(--card));
+  background: color-mix(in srgb, var(--ok) 8%, var(--card));
   color: var(--ink);
   font-size: 12.5px;
 }
@@ -4976,6 +5065,16 @@ body {
   font-size: 12.5px;
 }
 
+/* 「注册新账号」「忘记密码？」是 <button>，去掉浏览器默认的灰边框与底色，按文字链接显示 */
+.login-switch .text-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .login-switch-sep {
   color: var(--border-strong);
   user-select: none;
@@ -4994,22 +5093,20 @@ body {
 }
 
 /* ---------------- Update Notice ---------------- */
+/* 更新公告：主内容顶部的内嵌横幅。此前是居中浮层，桌面端盖住页头与学院选择器，手机上占去半个屏幕 */
 .update-notice {
-  position: fixed;
-  z-index: 110;
-  top: 14px;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
-  max-width: min(640px, calc(100vw - 28px));
+  width: min(1520px, calc(100% - 40px));
+  margin: 14px auto 0;
   padding: 12px 14px 12px 16px;
   border: 1px solid var(--primary-border);
+  border-left: 3px solid var(--primary);
   border-radius: var(--radius-md);
   background: var(--card);
   color: var(--ink);
-  box-shadow: var(--shadow-float);
+  box-shadow: var(--shadow-card);
   animation: notice-in 360ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -5056,8 +5153,8 @@ body {
 }
 
 @keyframes notice-in {
-  from { opacity: 0; transform: translate(-50%, -10px); }
-  to { opacity: 1; transform: translate(-50%, 0); }
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .login-hint {
@@ -5071,10 +5168,12 @@ body {
 
 @media (max-width: 640px) {
   .login-main {
-    padding: 24px 14px 48px;
+    padding: 0 0 48px;
   }
 
   .login-card {
+    width: calc(100% - 28px);
+    margin-top: 20px;
     padding: 16px;
   }
 }
@@ -5188,12 +5287,12 @@ body {
 
   /* 收窄课表：时间轴 60px→44px，列最小宽 132px→86px，事件块字号同步缩小 */
   .timetable {
-    grid-template-columns: 44px repeat(6, minmax(86px, 1fr));
+    grid-template-columns: 44px repeat(var(--day-count), minmax(calc(516px / var(--day-count)), 1fr));
     min-width: 580px;
   }
 
   .day-columns {
-    grid-template-columns: repeat(6, minmax(86px, 1fr));
+    grid-template-columns: repeat(var(--day-count), minmax(calc(516px / var(--day-count)), 1fr));
   }
 
   .course-event {
@@ -5211,32 +5310,18 @@ body {
     font-size: 8px;
   }
 
-  /* 更新公告改到屏幕底部，不再盖住置顶导航和标题；关闭按钮加大便于点按 */
+  /* 更新公告随页面内容排布；关闭按钮加大便于点按 */
   .update-notice {
-    top: auto;
-    bottom: 12px;
-    right: 10px;
-    left: 10px;
-    max-width: none;
-    transform: none;
-    animation: notice-in-mobile 320ms cubic-bezier(0.22, 1, 0.36, 1);
+    width: calc(100% - 24px);
+    margin-top: 10px;
   }
 
   .update-notice-close {
     width: 32px;
     height: 32px;
   }
-
-  /* 公告驻留底部时，toast 抬高避免被遮住 */
-  body:has(.update-notice) .toast {
-    bottom: 96px;
-  }
 }
 
-@keyframes notice-in-mobile {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 
 @media (max-width: 640px) {
   /* iOS Safari：输入框字号达到 16px 才不会在聚焦时强制放大页面 */
@@ -5338,7 +5423,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 0 24px 48px;
+  padding: 24px 24px 48px;
   max-width: 1080px;
   width: 100%;
   margin: 0 auto;
@@ -5357,8 +5442,8 @@ body {
   flex-direction: column;
   gap: 10px;
   padding: 20px;
-  background: #fff;
-  border: 1px solid #e5e7eb;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 14px;
   text-decoration: none;
   color: inherit;
@@ -5368,16 +5453,16 @@ body {
 }
 
 .guide-card:hover {
-  border-color: #2563eb;
-  box-shadow: 0 6px 20px rgba(37, 99, 235, .12);
+  border-color: var(--primary);
+  box-shadow: 0 6px 20px var(--primary-border);
 }
 
 .guide-card-tag {
   align-self: flex-start;
   font-size: 0.75rem;
   font-weight: 600;
-  color: #2563eb;
-  background: rgba(37, 99, 235, .08);
+  color: var(--primary);
+  background: var(--primary-soft);
   border-radius: 999px;
   padding: 2px 10px;
   max-width: 100%;
@@ -5391,7 +5476,7 @@ body {
 
 .guide-card-summary {
   font-size: 0.875rem;
-  color: #6b7280;
+  color: var(--muted);
   line-height: 1.6;
   margin: 0;
   display: -webkit-box;
@@ -5402,7 +5487,7 @@ body {
 
 .guide-card-meta {
   font-size: 0.75rem;
-  color: #9ca3af;
+  color: var(--faint);
 }
 
 .guide-empty {
@@ -5413,15 +5498,15 @@ body {
   gap: 10px;
   padding: 56px 24px;
   text-align: center;
-  background: #fff;
-  border: 1px dashed #d1d5db;
+  background: var(--card);
+  border: 1px dashed var(--border-strong);
   border-radius: 14px;
-  color: #6b7280;
+  color: var(--muted);
 }
 
 .guide-empty strong {
   font-size: 1rem;
-  color: #374151;
+  color: var(--ink);
 }
 
 .guide-detail {
@@ -5438,8 +5523,8 @@ body {
   flex-direction: column;
   gap: 10px;
   padding: 24px;
-  background: #fff;
-  border: 1px solid #e5e7eb;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 14px;
 }
 
@@ -5455,8 +5540,8 @@ body {
   flex-direction: column;
   gap: 10px;
   padding: 24px;
-  background: #fff;
-  border: 1px solid #e5e7eb;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 14px;
 }
 
@@ -5469,12 +5554,46 @@ body {
 .guide-section-body {
   font-size: 0.925rem;
   line-height: 1.8;
-  color: #374151;
+  color: var(--ink);
   overflow-wrap: anywhere;
 }
 
 @media (max-width: 640px) {
   .guide-page-body {
     padding: 0 16px 32px;
+  }
+}
+
+/* 手机顶栏：隐藏品牌文字与语言图标、收紧图标间距，
+   让整排导航（含语言下拉）在 360–480px 宽度内完整显示，不再把「简体中文」截成半截 */
+@media (max-width: 480px) {
+  .sidebar-header .brand-text {
+    display: none;
+  }
+
+  .sidebar-header {
+    padding-right: 4px;
+  }
+
+  .sidebar-menu,
+  .menu-group {
+    gap: 0;
+  }
+
+  .sidebar-menu {
+    padding: 0 6px 0 0;
+  }
+
+  .menu-item,
+  .menu-item:hover {
+    padding: 8px clamp(4px, 1.6vw, 7px);
+  }
+
+  .menu-item.lang-switch > svg {
+    display: none;
+  }
+
+  .lang-select {
+    font-size: 13px;
   }
 }

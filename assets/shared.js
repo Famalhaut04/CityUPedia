@@ -51,57 +51,166 @@
     });
   }
 
+  // ==================== 数据加载（按需） ====================
+  // 全站 1,100+ 门课程各有 sections/reviews 两个 JSON，外加 80+ 个来源摘录文件；
+  // 早期版本每个页面都一次性拉取全部约 2,300 个文件（GitHub Pages 冷缓存下首屏 20 秒以上）。
+  // 现在拆成：课程索引（index.json）先行 → 页面只为「当前要渲染的课程」补齐班次/评价。
+  // 各文件按课程代码缓存 Promise，同一页面内重复请求只发一次。
+  function getJson(url) {
+    return fetch(url).then((response) => {
+      if (!response.ok) throw new Error(`数据读取失败：${url}`);
+      return response.json();
+    });
+  }
+
+  // 小并发池：一次性并发上千个 fetch 会触发浏览器连接上限
+  // （net::ERR_INSUFFICIENT_RESOURCES / Failed to fetch），按 limit 分批消化
+  function mapPool(items, limit, worker) {
+    const results = new Array(items.length);
+    let next = 0;
+    const runNext = () => {
+      if (next >= items.length) return Promise.resolve();
+      const i = next++;
+      return Promise.resolve(worker(items[i], i)).then((value) => {
+        results[i] = value;
+        return runNext();
+      });
+    };
+    return Promise.all(
+      Array.from({ length: Math.min(limit, items.length) }, runNext)
+    ).then(() => results);
+  }
+
+  const WEEK_ORDER = "MTWRFSU";
+
+  // AIMS 课表里同一时段每周上多天的班次会把星期写在一起（如 "MF"、"WR"、"UMRFS"），
+  // 课表/冲突检测/文案都按单个星期处理，这里拆成逐日记录（CRN 相同，与“一周两次课”的既有表示一致）
+  function normalizeSections(rows) {
+    if (!Array.isArray(rows)) return [];
+    const out = [];
+    rows.forEach((row) => {
+      if (!row || typeof row !== "object") return;
+      const day = String(row.day || "").trim().toUpperCase();
+      if (day.length > 1 && [...day].every((ch) => WEEK_ORDER.includes(ch))) {
+        [...new Set(day)]
+          .sort((a, b) => WEEK_ORDER.indexOf(a) - WEEK_ORDER.indexOf(b))
+          .forEach((single) => out.push({ ...row, day: single }));
+      } else {
+        out.push(day && day !== row.day ? { ...row, day } : row);
+      }
+    });
+    return out;
+  }
+
+  function normalizeRecommendation(rec) {
+    if (!rec || typeof rec !== "object") return null;
+    if (!Array.isArray(rec.tags)) rec.tags = [];
+    return rec;
+  }
+
+  let courseIndexPromise;
+  let sourcesPromise;
+  const sectionsCache = new Map();
+  const reviewCache = new Map();
+  const sourceReviewCache = new Map();
+
+  // 单个文件读取失败时只影响该课程（降级为空班次/暂无评价），不再让整站数据加载失败；
+  // 失败的请求不进缓存，之后再次需要时会重试
+  function cachedJson(cache, key, url, transform, fallback) {
+    if (!cache.has(key)) {
+      cache.set(key, getJson(url).then(transform).catch(() => {
+        cache.delete(key);
+        return fallback;
+      }));
+    }
+    return cache.get(key);
+  }
+
+  function loadSections(code) {
+    return cachedJson(sectionsCache, code, `data/sections/${encodeURIComponent(code)}.json`, normalizeSections, []);
+  }
+
+  function loadReview(code) {
+    return cachedJson(reviewCache, code, `data/reviews/${encodeURIComponent(code)}.json`, normalizeRecommendation, null);
+  }
+
+  function loadSourceReview(sourceId) {
+    return cachedJson(sourceReviewCache, sourceId, `data/source-reviews/${encodeURIComponent(sourceId)}.json`,
+      (review) => review, { source_id: sourceId, course_reviews: {} });
+  }
+
+  // 课程索引：项目、学院与课程元数据（不含班次/评价）。课程对象预置空班次，
+  // 之后由 hydrateCourses 原地补齐，未补齐的课程也能安全渲染。
+  function loadCourseIndex() {
+    if (!courseIndexPromise) {
+      courseIndexPromise = getJson("data/courses/index.json").then((index) => {
+        (index.courses || []).forEach((course) => {
+          if (!Array.isArray(course.eligible_sections)) course.eligible_sections = [];
+        });
+        registerDataPhrases(index);
+        translateDOM(document.body);
+        return index;
+      });
+      courseIndexPromise.catch(() => { courseIndexPromise = null; });
+    }
+    return courseIndexPromise;
+  }
+
+  function loadSources() {
+    if (!sourcesPromise) {
+      sourcesPromise = getJson("data/sources.json").catch(() => {
+        sourcesPromise = null;
+        return {};
+      });
+    }
+    return sourcesPromise;
+  }
+
+  // 为指定课程补齐班次（eligible_sections）与评价（recommendation）；
+  // options.sections / options.reviews 设为 false 可跳过对应文件
+  function hydrateCourses(courses, options = {}) {
+    const list = Array.isArray(courses) ? courses.filter(Boolean) : [];
+    const wantSections = options.sections !== false;
+    const wantReviews = options.reviews !== false;
+    return mapPool(list, 24, (course) => Promise.all([
+      wantSections ? loadSections(course.code) : null,
+      wantReviews ? loadReview(course.code) : null
+    ]).then(([sections, recommendation]) => {
+      if (wantSections) course.eligible_sections = sections;
+      if (wantReviews) course.recommendation = recommendation;
+    })).then(() => list);
+  }
+
+  // 课程详情页：索引 + 单门课程的班次/评价 + 该课程引用到的来源摘录
+  function loadCourseDetail(code) {
+    return Promise.all([loadCourseIndex(), loadSources()]).then(([index, sources]) => {
+      const course = (index.courses || []).find((item) => item.code === code) || null;
+      const data = { ...index, sources, sourceReviews: {} };
+      if (!course) return { data, course };
+      return hydrateCourses([course]).then(() => {
+        const rec = course.recommendation || {};
+        const ids = (rec.source_ids || rec.sourceIds || []).filter((id) => sources[id]);
+        return Promise.all(ids.map((id) => loadSourceReview(id).then((review) => [id, review])));
+      }).then((entries) => {
+        data.sourceReviews = Object.fromEntries(entries);
+        return { data, course };
+      });
+    });
+  }
+
+  // 全量加载（兼容旧调用）：所有课程的班次、评价与全部来源摘录
   function loadCourseData() {
     if (!courseDataPromise) {
-      const getJson = (url) => fetch(url).then((response) => {
-        if (!response.ok) throw new Error(`数据读取失败：${url}`);
-        return response.json();
-      });
-      // 课程数已超千门，一次性并发拉取全部 sections/reviews 会触发浏览器
-      // 并发连接上限（net::ERR_INSUFFICIENT_RESOURCES / Failed to fetch），
-      // 改用小并发池顺序消化，总耗时增加约 1–2 秒但加载稳定。
-      const mapPool = (items, limit, worker) => {
-        const results = new Array(items.length);
-        let next = 0;
-        const runNext = () => {
-          if (next >= items.length) return Promise.resolve();
-          const i = next++;
-          return Promise.resolve(worker(items[i], i)).then((value) => {
-            results[i] = value;
-            return runNext();
-          });
-        };
-        return Promise.all(
-          Array.from({ length: Math.min(limit, items.length) }, runNext)
-        ).then(() => results);
-      };
-      courseDataPromise = Promise.all([
-        getJson("data/courses/index.json"),
-        getJson("data/sources.json")
-      ]).then(([index, sources]) => Promise.all([
-        mapPool(index.courses, 24, (course) => Promise.all([
-          getJson(`data/sections/${encodeURIComponent(course.code)}.json`),
-          getJson(`data/reviews/${encodeURIComponent(course.code)}.json`)
-        ]).then(([eligibleSections, recommendation]) => ({
-          ...course,
-          eligible_sections: eligibleSections,
-          recommendation
-        }))),
-        Promise.all(Object.keys(sources).map((sourceId) =>
-          getJson(`data/source-reviews/${encodeURIComponent(sourceId)}.json`)
-            .then((sourceReview) => [sourceId, sourceReview])
-            .catch(() => [sourceId, { source_id: sourceId, course_reviews: {} }])
-        ))
+      courseDataPromise = Promise.all([loadCourseIndex(), loadSources()]).then(([index, sources]) => Promise.all([
+        hydrateCourses(index.courses),
+        mapPool(Object.keys(sources), 24, (sourceId) => loadSourceReview(sourceId).then((review) => [sourceId, review]))
       ]).then(([courses, sourceReviewEntries]) => ({
         ...index,
         sources,
         sourceReviews: Object.fromEntries(sourceReviewEntries),
         courses
-      }))).then((data) => {
-        registerDataPhrases(data);
-        translateDOM(document.body);
-        return data;
-      });
+      })));
+      courseDataPromise.catch(() => { courseDataPromise = null; });
     }
     return courseDataPromise;
   }
@@ -235,6 +344,17 @@
     return stored;
   }
 
+  // localStorage 写入在存储已满或被禁用时会抛错；课表每次渲染都会保存，
+  // 写入失败不应中断渲染（本次会话内的状态仍在内存中）
+  function writeStorage(key, value) {
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
   function getStoredSemester() {
     try {
       return normalizeSemester(localStorage.getItem(SEMESTER_KEY));
@@ -261,7 +381,7 @@
     const migrated = ensureSemesterStructure(stored);
     if (migrated && migrated !== stored) {
       all[code] = migrated;
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+      writeStorage(STORAGE_KEY, all);
       stored = migrated;
     }
     const selections = stored[term];
@@ -277,7 +397,7 @@
     stored = migrated || { SemA: {}, SemB: {}, Summer: {} };
     stored[term] = selections || {};
     all[code] = stored;
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+    writeStorage(STORAGE_KEY, all);
   }
 
   function clearSelections(programmeCode, semester) {
@@ -290,7 +410,7 @@
     stored = migrated;
     stored[term] = {};
     all[code] = stored;
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
+    writeStorage(STORAGE_KEY, all);
   }
 
   // ============ 用户个人课程评价（本地保存） ============
@@ -316,13 +436,13 @@
       comment: String(review.comment || "").trim(),
       updatedAt: new Date().toISOString()
     };
-    localStorage.setItem(REVIEWS_KEY, JSON.stringify(all));
+    writeStorage(REVIEWS_KEY, all);
   }
 
   function removeCourseReview(code) {
     const all = getStoredReviews();
     delete all[String(code)];
-    localStorage.setItem(REVIEWS_KEY, JSON.stringify(all));
+    writeStorage(REVIEWS_KEY, all);
   }
 
   // ============ 云端课程评价（Supabase，共享给所有用户） ============
@@ -353,14 +473,19 @@
     }
   }
 
-  let larkReviewsCache = null;
-  async function getLarkReviews() {
-    if (larkReviewsCache) return larkReviewsCache;
-    const response = await fetch("data/lark-reviews.json");
-    if (!response.ok) return [];
-    const all = await response.json();
-    larkReviewsCache = Array.isArray(all) ? all : [];
-    return larkReviewsCache;
+  // 缓存 Promise 而非结果：评价中心快速切换院系/搜索时并发调用只请求一次
+  let larkReviewsPromise = null;
+  function getLarkReviews() {
+    if (!larkReviewsPromise) {
+      larkReviewsPromise = fetch("data/lark-reviews.json")
+        .then((response) => (response.ok ? response.json() : []))
+        .then((all) => (Array.isArray(all) ? all : []))
+        .catch((error) => {
+          larkReviewsPromise = null;
+          throw error;
+        });
+    }
+    return larkReviewsPromise;
   }
 
   // 生成或读取本机唯一的 user_key（localStorage 持久化）
@@ -722,10 +847,11 @@
     if (!cloudReviewsEnabled() || !list.length) return {};
     if (larkReviewsEnabled()) {
       const all = await getLarkReviews();
+      const wanted = new Set(list.map((c) => c.toUpperCase()));
       const grouped = {};
       all.forEach((r) => {
         const code = String(r.course_code || "").toUpperCase();
-        if (!list.map((c) => c.toUpperCase()).includes(code)) return;
+        if (!wanted.has(code)) return;
         if (!grouped[code]) grouped[code] = [];
         grouped[code].push(r);
       });
@@ -793,9 +919,25 @@
     return course.eligible_sections.find((section) => sectionKey(section) === String(key));
   }
 
-  function formatSection(section) {
+  // 某班次的全部每周上课时间（同一 CRN 可能有多条记录，如周一 + 周五各一次；同日同时段去重）
+  function sectionMeetings(course, key) {
+    const seen = new Set();
+    return (course?.eligible_sections || []).filter((section) => {
+      if (sectionKey(section) !== String(key)) return false;
+      const slot = `${section.day}|${section.time}`;
+      if (seen.has(slot)) return false;
+      seen.add(slot);
+      return true;
+    });
+  }
+
+  // 传入 course 时列出该班次的全部上课时间，否则只显示这一条记录
+  function formatSection(section, course) {
     if (!section) return "";
-    return `${section.section} · ${DAY_NAMES[section.day] || section.day} ${section.time}`;
+    const meetings = course ? sectionMeetings(course, sectionKey(section)) : [];
+    const slots = (meetings.length ? meetings : [section])
+      .map((meeting) => `${DAY_NAMES[meeting.day] || meeting.day || ""} ${meeting.time || ""}`.trim());
+    return `${section.section} · ${slots.join(" / ")}`;
   }
 
   // 从 notes 中提取“only for Programme: X”限制，返回专业名称列表（无限制则为空数组）
@@ -1033,6 +1175,11 @@
   const HANT_FIX = [["信息", "資訊"], ["默认", "預設"], ["打印", "列印"], ["周", "週"]];
 
   let EN_PHRASE = {"按课程代码搜索":"Search by course code","按上课星期筛选":"Filter by weekday","按学期筛选":"Filter by term","按学院与院系浏览课程，查看所有使用者的共享评价，也可以直接为心仪的课程提交评价":"Browse courses by college and department, read shared reviews from everyone, and submit your own review for a course","班次":"Section","班次可在「已选」中切换":"Switch sections in the Selected tab","保存评价":"Save review","保存中":"Saving","本地口碑分":"Local rating","本地已保存，但云端同步失败":"Saved locally, but cloud sync failed","本地资料没有足够信息，暂不作判断":"Not enough information to judge yet.","本学期课表名称":"Timetable name for this term","本页图片加载失败，请使用上方原 PDF 备用入口":"Failed to load this page image; please use the original PDF link above","本页暂时没有中文翻译":"No Chinese translation for this page yet","必修":"Core","毕业学分":"Credits to graduate","不可正常网页注册，请联系课程单位":"Web registration unavailable; please contact the offering unit","仓库":"Repository","查看":"View","查看课表":"View timetable","查看上一页中英文课程介绍":"View previous page of the bilingual course introduction","查看下一页中英文课程介绍":"View next page of the bilingual course introduction","查看原文":"View original post","城大百科":"CityU Pedia","城大官网":"CityU Website","窗口二：问题描述":"Field 2: Issue description","窗口一：姓名":"Field 1: Name","次评分 · 条评论":" ratings ·  reviews","从左侧加入课程":"Add courses from the left panel","单独打开当前英文原文页图":"Open the current original page image in a new tab","当前项目下没有符合条件的课程":"No courses match the filters in this programme","当前项目学分要求":"Credit requirements of the selected programme","当前学期还没有加入课程，无法导出":"No courses added in this term; nothing to export","当前已登录":"Currently signed in","导出":"Export","地点":"Venue","地点待定":"Venue TBA","的个人评价吗":"'s review?","的评价":"'s review","登 录":"Sign In","登录":"Sign in","登录 / 注册":"Sign In / Sign Up","登录：学生登录后提交课程评价，管理员登录后可管理云端评价":"Sign in: students submit course reviews; administrators manage cloud reviews","登录方式":"Sign-in method","登录后才能提交云端评价":"Sign in to submit cloud reviews","登录后即可为课程提交评价；你的评价会同步到云端并显示昵称":"Sign in to review courses; your review syncs to the cloud with your nickname","登录后评价默认显示的昵称":"Nickname shown with your reviews after signing in","登录失败：邮箱或密码错误":"Sign-in failed: wrong email or password","登录中":"Signing in","第 1 页":"Page 1","第二学期":"Semester B","第一学期":"Semester A","点击取消选择":"Click to deselect","发送失败":"Send failed","发送中":"Sending","发送重置邮件":"Send reset email","发现 Bug、课程数据有误或有任何建议":"Found a bug, a data error, or have suggestions?","反馈已生成":"Feedback ready","返回":"Back","返回登录":"Back to sign in","返回课程表":"Back to timetable","返回课程列表":"Back to course list","返回课程评价":"Back to reviews","返回课程详情":"Back to course details","非网页注册":"Not web-registerable","分（满分 5 分":" out of 5","分享你的课程体验":"Share your course experience","复制内容":"Copy content","复制失败，请手动选择复制":"Copy failed; please select and copy manually","该课程在":"This course runs in","该课程暂无归属项目":"This course belongs to no programme","该项目的课程数据待补充":"Course data for this programme is coming soon","该学院硕士项目数据筹备中":"Programme data for this college is in preparation","该院系暂无课程数据":"No course data for this department yet","该账号无管理员权限":"This account has no administrator access","个主课班次":" lecture sections","更多":"More","更多精彩内容，欢迎关注 CSSA 官方社交媒体账号，获取最新活动资讯与福利信息":"Follow CSSA on social media for the latest events and perks!","更新评价":"Update review","公关外联部":"PR & Outreach Department","共享评价加载失败":"Failed to load shared reviews","关闭":"Dismiss","关于我们":"About Us","关于我们 · 香港城市大学中国学生学者联合会":"About Us · CityUHK CSSA","关注我们":"Follow Us","官方认证 · 非政治 · 非盈利 · 服务全体城大学生与学者":"Officially recognised · Non-political · Non-profit · Serving all CityU students and scholars","官方项目介绍":"Official programme page","管理员":"Administrator","管理员登录":"Administrator sign-in","管理员登录成功":"Administrator signed in","管理员登录后可删除任意云端评价；仅限指定管理员邮箱":"Administrators may remove any cloud review; restricted to designated emails","管理员登录失败：邮箱或密码错误":"Administrator sign-in failed: wrong email or password","管理员删除":"Removed by administrator","管理员已登录":"Administrator signed in:","管理员邮箱":"Administrator email","国际交流与跨文化合作":"international exchange and cross-cultural collaboration","国际事务部":"International Affairs Department","还没有课程":"No courses yet","还没有其他使用者的共享评价，来抢首评吧":"No shared reviews yet — be the first to review!","还没有账号":"No account yet?","核心":"Core","核心课":"Core course","互斥课程":"Exclusion(s)","回到":"Back to","活动策划与组织执行":"event planning and execution","计算学院":"College of Computing","加入":"Add","加入课表":"Add to timetable","加入课程后，可点击课表块查看详情":"After adding a course, click its timetable block for details","加入我们":"Join Us","将课表导出为图片型 PDF 文件":"Export the timetable as an image-based PDF","教师":"Instructor","结果弹窗":"Result dialog","仅限":"Restricted to","仅限：":"Restricted to:","CRN / 注册":"CRN / Registration","总":"Total","导出 PDF":"Export PDF","一":"Mon","二":"Tue","三":"Wed","四":"Thu","五":"Fri","六":"Sat","日":"Sun","门":" courses","分":" credits","微信公众号 · 城大CSSA":"WeChat · CityU CSSA","小红书 · 香港城市大学CSSA":"RED · CityU CSSA","数据读取失败：":"Failed to load data: ","选修课（":"Elective (","核心课（":"Core (","）":")","无":"None","课程名称与课表一致":"course title matches AIMS","开始排课":"Start planning","可网页注册":"Web-registerable","可选班次":"Available Sections","课表":"Timetable","课表快照":"Timetable snapshot:","课表学期切换":"Switch timetable term","课表已清空":"Timetable cleared","课程表规划器":"Timetable Planner","课程介绍内容导航":"Course introduction navigation","课程介绍索引读取失败":"Failed to load the course introduction index","课程类型":"Course type","课程类型筛选":"Course type filters","课程列表与评价":"Course list & reviews","课程面板":"Course panel","课程名称与课表一致":"course title matches AIMS","课程评分":"Course rating","课程评价":"Course Reviews","课程评价表单":"Course review form","课程评价中心":"Review Center","课程评价中心：按学院与院系浏览课程，查看与分享云端共享评价":"Review Center: browse courses by college and department, read and share cloud reviews","课程事实":"Course Facts","课程数据待补充":"Course data coming soon","课程数据加载失败":"Failed to load course data","课程文件":"Course document","课程详情":"Course Details","课程详情、班次和学生评价":"course details, sections and student reviews","课程页图与中文翻译页数不一致":"Page counts of the original pages and the translation mismatch","课程预览":"Course preview","课程总数":"Total courses","口碑评分":"Rating","例如：数据科学硕士":"e.g. MSc Data Science","两次输入的密码不一致":"The two passwords do not match","浏览课程":"Browse Courses","留下你的信息与问题描述，我们会尽快跟进处理":"Leave your info and a description of the issue; we will follow up as soon as possible","吗？该操作不可恢复":"? This cannot be undone","没有匹配的项目":"No matching programmes","没有匹配的学院":"No matching colleges","没有匹配的院系":"No matching departments","没有匹配项":"No matches","没有找到这门课程":"Course not found","密码":"Password","密码更新失败":"Failed to update password","密码至少 6 位":"Password must be at least 6 characters","目前还与候选区间有交集":"currently overlaps the candidate range","内容创作与品牌传播":"content creation and brand communication","你的信息":"Your info","昵称（不填显示匿名":"Nickname (anonymous if left blank","昵称（选填":"Nickname (optional","匿名":"Anonymous","排课系统":"Timetable Planner","匹配的课程":"matching courses","平均分":"Average","平均评分":"Average rating","评分":"Rating","评分与评语仅保存在当前浏览器本地，仅供自己参考（云端共享未启用":"Ratings and comments are stored in this browser only (cloud sharing disabled","评价已删除":"Review deleted","评价中心统计":"Review center statistics","评价总数":"Total reviews","其他":"Others","其他学院":"Other colleges","其他院系":"Other departments","企业合作与资源拓展":"corporate partnership and resource development","清空":"Clear","请复制以下内容，发送给管理员或提交到":"Please copy the following and send it to the administrators or submit it to","请描述你遇到的问题":"Describe the issue you met","请描述你遇到的问题或建议":"Describe your issue or suggestion","请稍候":"Please wait","请输入你的姓名或昵称":"Your name or nickname","请输入邮箱和密码":"Enter email and password","请输入注册邮箱":"Enter your registered email","请填写姓名":"Name is required","请填写专业":"Programme is required","请通过本地服务器打开网站":"Please open the site through a local server.","请先登录":"Please sign in first","请先登录后再提交评价（登录后可分享到云端":"Sign in before submitting a review (reviews can be shared to the cloud","请先选择星级评分":"Please pick a star rating first","请先选择学院与院系，即可查看该系的课程列表":"Select a college and department to view its course list","请详细描述问题现象、出现的页面和操作步骤，或写下你的建议":"Describe the symptom, the page and the steps, or write your suggestion","请选择":"Select","取消选择":"Deselect","去登录":"Sign in","全部":"All","全校八大学院接入":"All 8 Colleges Added","缺少课程编号":"Missing course code.","确定":"OK","确定删除":"Delete","确认新密码":"Confirm new password","日常运营与社群维护":"daily operations and community maintenance","删除":"Delete","删除你提交的这条评价":"Delete this review of yours","删除失败":"Delete failed","删除这条评价":"Delete this review","删除中":"Deleting","上课日":"Weekday","上课时间":"Class time","上一页":"Previous","设置成功后即可用新密码登录":"Sign in with the new password once it is set","设置新密码":"Set new password","设置新密码：邮箱重置链接回跳后使用":"Set a new password: used after following the email reset link","时间":"Time","首页":"Home","授课教师":"Instructor","授课语言":"Medium","输入注册邮箱后，我们会发送一封密码重置邮件，点击邮件中的链接即可设置新密码":"Enter your registered email and we will send a password reset link","暑期":"Summer","数据采集自 CityU AIMS 系统。名额和注册状态会变化，请以 CityU 系统为准":"Data collected from CityU AIMS. Seats and registration status may change — always refer to CityU systems","数据读取失败":"Failed to load data","数据科学理学硕士":"MSc Data Science","硕士项目":"Master's programme","硕士项目数据筹备中":"Programme data in preparation","搜索":"Search","搜索课程":"Search courses","搜索课程代码，如":"Search a course code, e.g.","搜索课号或课程名":"Search code or title","搜索项目代码或名称":"Search programme code or name","搜索学院":"Search colleges","搜索院系":"Search departments","所属项目":"Programmes","所有使用者的共享评价，定期同步自审核数据库":"Shared reviews from all users, periodically synced from the moderated database.","提交到":"submit to","提交反馈":"Submit feedback","提交评价":"Submit Review","提交时间":"Submitted at","填写下方表单提交你的课程评价，提交后由 CSSA 管理员审核通过后展示":"Fill in the form below to submit a review; it appears after CSSA moderation","条评价":" reviews","同学测评":"Student reviews","退出登录":"Sign out","网页默认加载课程页图，不再使用":"The page loads course page images instead of","忘记密码":"Forgot password","忘记密码：输入邮箱发送重置邮件":"Forgot password: enter email to receive a reset link","微信公众号 · 城大":"WeChat Official Account · CityU","为同学们提供多元化的锻炼平台":"A platform with diverse opportunities for students:","未登录：提交评价需登录账号":"Not signed in: an account is required to review","未排入课表（无固定上课时段":"Not scheduled (no fixed meeting time","未评分":"Unrated","未填写评语":"No comment","未找到与":"No courses found matching","问题反馈":"Feedback","问题反馈专用样式":"Feedback-specific styles","问题描述":"Issue description","我的课表":"My Timetable","我的评价":"My review","我们正按学院逐步收录香港城市大学各授课式硕士项目，当前已上线计算学院（College of Computing）与创新学院（CityUHK Academy of Innovation）的项目数据。欢迎通过「问题反馈」告诉我们你想优先看到的项目":"We are rolling out taught master's programmes college by college; the College of Computing and the CityUHK Academy of Innovation are already online. Tell us which programmes you want next via Feedback","无可选班次，该课程不排入课表":"No selectable sections; this course is not scheduled","无论你是希望提升组织协调能力、积累职场资源，还是单纯想结识志同道合的伙伴，CSSA 都是你不容错过的成长舞台。欢迎加入我们的大家庭，在金秋校园与我们相遇，一起书写属于你的城大篇章":"Whether you want to sharpen your organisational skills, build career resources, or simply meet like-minded friends, CSSA is a stage you should not miss. Join our family and write your own CityU chapter!","五大常设部门":"Five Standing Departments","下一页":"Next","下载":"Download","先修课程未加入":"Prerequisite not added","先修要求":"Prerequisite(s)","先选择学院，再选择院系与硕士项目，即可按对应培养方案浏览课程、比较班次并规划每周课表；左侧悬停可预览课程评价与时段":"Pick a college, then a department and programme to browse its curriculum, compare sections and plan your weekly timetable; hover a course on the left to preview reviews and times","香港城市大学授课式硕士排课与课程评价综合平台，支持计算学院七大硕士项目":"A one-stop platform of timetable planning and course reviews for CityU taught master's students","香港城市大学中国学生学者联合会":"CityUHK Chinese Students and Scholars Association","香港城市大学中国学生学者联合会（CityUHK CSSA）是官方认证、非政治、非盈利的学生组织，致力于服务全体城大学生与学者。我们提供免费的学业支持、职业发展、反诈宣传及":"The CityUHK Chinese Students and Scholars Association (CSSA) is an officially recognised, non-political, non-profit student organisation serving all CityU students and scholars. We offer free academic support, career development and anti-fraud programmes, plus 40+","详情":"Details","详细课程介绍":"Full Course Introduction","详细课程介绍、英文 PDF 原文与中文翻译":"Full introduction, original English PDF and Chinese translation","项目介绍":"Programme page","小红书 · 香港城市大学":"Xiaohongshu (RED) · CityU","写评价":"Write a review","写下你的课程感受、上课体验或避坑建议":"Write how the course went, your class experience, or tips to avoid pitfalls","新密码":"New password","新密码已设置，请用新密码登录":"New password set; please sign in with it","新增商学院、人文社会科学院、理学院、生物医学院、兽医学及生命科学院、创意媒体学院、能源及环境学院、法律学院共 47 个官方硕士项目，并逐课对照官方课程页复核：累计剔除 282 门不开设课程、对齐 82 门开课学期、回填 16 门班次":"47 more official taught master's programmes across Business, Liberal Arts & Social Sciences, Science, Biomedicine, Veterinary Medicine, Creative Media, Energy & Environment, and Law — every course re-verified against its official 2026/27 catalogue page: 282 not-offered courses removed, 82 offering terms aligned, 16 timetables restored","兴趣社团，并定期举办名企参访、粤语课堂、春节嘉年华等丰富活动":" interest clubs, plus company visits, Cantonese classes and Spring Festival carnivals","姓名":"Name","宣传部":"Publicity Department","选修":"Elective","选修课":"Elective course","选修学分":"Elective credits","选择":"Select","选择硕士项目":"Select a programme","选择系":"Select a department","选择学院":"Select a college","选择院系":"Select a department","学分":"credits","学期":"Term","学期开设，请切换到对应学期":" term; please switch to that term","学生登录":"Student sign-in","学生登录 / 注册":"Student Sign In / Sign Up","学生登录成功":"Student signed in","学生登录后可提交课程评价；管理员登录后可管理云端评价":"Students sign in to submit reviews; administrators manage cloud reviews","学生经验":"Student experience","学生经验摘要":"Student Experience Summary","学生评价":"Student reviews","学生已登录":"Student signed in:","学院":"College","学院与硕士项目选择":"College and programme selection","学院与院系筛选":"College and department filters","已保存":"Saved","已保存于":"Saved to","已导出课表 PDF（图片型":"Timetable PDF exported (image-based","已复制到剪贴板":"Copied to clipboard","已加入":"Added","已加入的课程没有固定时段":"Added courses without fixed times","已加入课表":"Added to timetable","已加入课程快捷操作":"Quick actions for added courses","已评":"Reviewed","已切换":"Switched","已切换到":"Switched to","已切换为中文":"Language switched","已切换至":"Switched to","已取消选择":"Deselected","已删除评价":"Review deleted","已同步到云端，感谢分享":"Synced to the cloud — thanks for sharing","已退出登录":"Signed out","已退出管理员登录":"Administrator signed out","已退出管理员模式":"Administrator mode exited","已选":"Selected","已选核心课":"Selected core","已选且为核心课":"Selected & core","已移除":"Removed","已有账号":"Already have an account","以下内容整理自公开社交平台的学生分享，仅供参考，不构成课程建议":"The following is compiled from public social posts by students, for reference only","以学院为准":"subject to the college","英文课程介绍第":"English introduction page","英文页图与中文翻译同步切换；点击英文图片可单独放大":"The English page and Chinese translation switch together; click the image to enlarge","英文原文":"English original","邮箱":"Email","有班次可网页注册":"Web registration available","与核心课时间冲突":"conflicts with a core course","原 PDF 备用入口":"Original PDF fallback","院系":"Department","阅读说明":"Reading note:","云端共享未启用，暂无法查看其他使用者的评价":"Cloud sharing is disabled; other users' reviews are unavailable","云端共享未启用：管理员需在":"Cloud sharing disabled: administrators must configure","云端评价读取失败":"Failed to load cloud reviews","云端评价提交失败":"Failed to submit cloud review","云端评价未启用":"Cloud reviews disabled","运营部":"Operations Department","再次输入新密码":"Re-enter the new password","暂无冲突":"No conflicts","暂无评分":"No rating yet","暂无评价":"No reviews yet","暂无评价，来抢首评吧":"No reviews yet — be the first!","这门课程暂时没有可用的网页页图":"No page images available for this course yet","这门课程暂时没有详细课程文件":"No detailed course document for this course yet","正在读取课程资料":"Loading course data","正在读取详细课程介绍":"Loading the full course introduction","正在加载课程":"Loading courses","正在加载课程评价":"Loading course reviews","正在加载英文原文页图":"Loading the original page image","直接登录":"Sign in directly","至多":"At most","至少":"At least","中配置 Supabase 数据库地址":" the Supabase URL in","中文":"Chinese","中文翻译":"Chinese translation","中文内容按英文原文逐页整理，仅供理解与课程参考；课程要求、考核规则及阅读资料以英文原文为准":"The Chinese content follows the English original page by page for comprehension only; course requirements, assessment and readings follow the English original","中英文切换":"Language","中英文逐页课程介绍":"Bilingual page-by-page course introduction","中英逐页对照":"Bilingual side-by-side","重置":"Reset","重置链接无效或已过期，请重新申请":"Reset link invalid or expired; please request again","重置邮件已发送，请前往邮箱查收（注意检查垃圾箱":"Reset email sent; please check your inbox (and spam","周二":"Tue","周六":"Sat","周日":"Sun","周三":"Wed","周四":"Thu","周五":"Fri","周一":"Mon","主导航":"Main navigation","主要功能":"Main features","注 册":"Sign Up","注册":"Sign up","注册成功，已自动登录":"Signed up; signed in automatically","注册成功！请前往邮箱点击确认链接后再登录":"Signed up! Please confirm via the email link before signing in","注册失败":"Sign-up failed","注册时使用的邮箱":"The email used at sign-up","注册新账号":"Create an account","注册状态":"Registration","专业":"Programme","自助排课台":"Timetable Studio","综合推荐指数":"Overall recommendation","组织部":"Organisation Department","组织简介":"About the Association","AIMS 班次":"AIMS sections","AIMS 系统":"AIMS","CityU 课表":"CityU timetable","CityU 系统为准":"refer to CityU systems","CSSA 都是你不容错过的成长舞台":"CSSA is a stage you should not miss","CSSA 官方社交媒体账号":"CSSA official social accounts","CSSA 管理员审核通过后展示":"it appears after CSSA moderation","PDF 备用入口":"PDF fallback","PDF 仅作为备用和下载入口":"the PDF serves only as a fallback and download","PDF 文件":"PDF file","PDF 原文与中文翻译":"original PDF and Chinese translation","PDF 阅读器":"PDF reader","PDF 直链":"PDF link","官方大纲 PDF ↗":"Official outline PDF ↗","课程详情 PDF":"Course outline PDF","下载 PDF":"Download PDF","查看详细课程介绍":"View full course introduction","选择时间":"Pick a time","选择 Tutorial":"Pick a tutorial","条评价来源":" review sources","星":"stars","个班次条目":" section entries","门课程冲突":" course conflicts","已选 ":"Selected "," 门":" courses"," 分":" credits","选修课（":"Elective (","）":")"};
+  EN_PHRASE["本学期未开设"] = "Not offered this term";
+  EN_PHRASE["移除"] = "Remove";
+  EN_PHRASE["项目介绍 ↗"] = "Programme page ↗";
+  EN_PHRASE["← 返回课程表"] = "← Back to timetable";
+  EN_PHRASE["← 返回课程评价"] = "← Back to reviews";
   // 子串级安全替换词（班次/时间等组合文本用，避免误译内容区）
   const EN_PARTIAL_KEYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日", "学分", "仅限：", "个主课班次", "暂无评分", "暂无评价", "已加入课表", "查看详情", "课程详情 PDF", "下载 PDF", "查看", "官方项目介绍", "官方大纲 PDF ↗", "已切换至", "已切换到", "条评价", "门课程", "个班次", "第 ", " 页", "硕士项目数据筹备中", "课程数据待补充", "选修课（", "核心课（", "）", "课程名称与课表一致", "数据读取失败："];
   let EN_PARTIAL_RE = null;
@@ -1049,13 +1196,14 @@
     EN_NAME_RE = keys.length ? new RegExp(keys.map(escapeRe).join("|"), "g") : null;
   }
 
+  // 逐字查表（Map），繁体模式下 MutationObserver 每次全量扫描整页文本，避免每个字符线性 indexOf
+  const S2T_DST_CHARS = [...S2T_DST];
+  const S2T_MAP = new Map([...S2T_SRC].map((ch, i) => [ch, S2T_DST_CHARS[i]]));
+
   function s2t(s) {
     for (const [from, to] of HANT_FIX) s = s.split(from).join(to);
     let out = "";
-    for (const ch of s) {
-      const i = S2T_SRC.indexOf(ch);
-      out += i >= 0 ? S2T_DST[i] : ch;
-    }
+    for (const ch of s) out += S2T_MAP.get(ch) || ch;
     return out;
   }
 
@@ -1100,7 +1248,15 @@
     const lang = getStoredLang();
     if (lang === "zh" || !s) return s;
     if (lang === "zh-Hant") return /[\u4e00-\u9fff]/.test(s) ? s2t(s) : s;
-    const key = s.trim();
+    // \u4fdd\u7559\u6587\u672c\u8282\u70b9\u4e24\u7aef\u7684\u7a7a\u767d\uff1a\u300c\u5fc5\u4fee <strong>1</strong>\u95e8 <strong>3</strong>\u5206\u300d\u8fd9\u7c7b\u62c6\u6210\u591a\u6bb5\u7684\u6587\u6848\uff0c
+    // \u53bb\u6389\u7a7a\u767d\u540e\u82f1\u6587\u4f1a\u7c98\u6210 "Core1 courses3 credits"
+    const lead = s.match(/^\s*/)[0];
+    const trail = s.slice(lead.length).match(/\s*$/)[0];
+    const translated = translateTrimmedForDom(s.trim());
+    return translated == null ? s : lead + translated + trail;
+  }
+
+  function translateTrimmedForDom(key) {
     if (EN_PHRASE[key] != null) return EN_PHRASE[key];
     if (/[\u4e00-\u9fff]/.test(key)) {
       let out = key;
@@ -1122,7 +1278,7 @@
       }
       return out;
     }
-    return s;
+    return null;
   }
 
   let domObserver = null;
@@ -1626,7 +1782,8 @@
       notice.remove();
       try { localStorage.setItem("cityu-schedule-update-20261003", "dismissed"); } catch (e) { /* ignore */ }
     });
-    document.body.prepend(notice);
+    // 作为主内容区顶部的横幅插入（随页面滚走），不再以浮层盖住页头与选择器
+    (document.querySelector(".main-content") || document.body).prepend(notice);
   }
 
   function initShared() {
@@ -1662,6 +1819,11 @@
     fetchCloudReviewsBatch,
     findSection,
     formatSection,
+    sectionMeetings,
+    normalizeSections,
+    loadCourseIndex,
+    loadCourseDetail,
+    hydrateCourses,
     sectionRestrictedProgrammes,
     getUserKey,
     isAdminLoggedIn,

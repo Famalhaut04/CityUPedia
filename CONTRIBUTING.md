@@ -58,6 +58,7 @@ python -m http.server 8000
 - **目录结构**见 [README](README.md)。课程数据四层：`data/courses/index.json`（课程与项目元数据）→ `data/sections/`（AIMS 班次）→ `data/reviews/`（评价结论）→ `data/source-reviews/`（按来源的原文摘录），来源登记在 `data/sources.json`
 - **换行符**：仓库内文件换行符不统一（HTML/CSS 多为 CRLF，JS/JSON 多为 LF）。提交前请只改动需要的行，避免「整文件保存/重排」引入全文件噪音；不确定时可用 `git diff` 检查是否出现整文件变更
 - **缓存版本号**：修改 `assets/*.js` 或 `assets/*.css` 后，请同步更新引用页面中的 `?v=` 参数（如 `course.js?v=20260911a`）
+- **数据校验**：改动 `data/` 后请运行 `node tools/validate_data.mjs`（无需安装依赖），检查课程/班次/评价/来源之间的引用与星期、时间格式；PR 中由 GitHub Actions 自动执行，出现「错误」时无法通过
 - **提交信息**：使用 `类型(范围): 中文描述` 格式，类型取 `feat` / `fix` / `data` / `docs` / `chore`，例如 `data: CS5483 SemB 班次时间更新`、`fix(course): 来源区占位卡不再显示`
 
 ## 发布流程（测试版先行）

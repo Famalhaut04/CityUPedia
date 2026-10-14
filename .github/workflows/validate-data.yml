@@ -1,0 +1,39 @@
+name: Validate Data
+
+# 数据或前端脚本改动时校验：课程/班次/评价/来源/课程文件的引用与格式（tools/validate_data.mjs），以及 JS 语法
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'docs/**'
+      - 'assets/**'
+      - 'tools/validate_data.mjs'
+      - '.github/workflows/validate-data.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'docs/**'
+      - 'assets/**'
+      - 'tools/validate_data.mjs'
+      - '.github/workflows/validate-data.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate course data
+        run: node tools/validate_data.mjs
+
+      - name: Check JavaScript syntax
+        run: for f in assets/*.js; do node --check "$f"; done
