@@ -525,7 +525,7 @@
     container.innerHTML = selectedCourses.map((course) => `
       <span class="selected-chip">
         <a href="course.html?code=${encodeURIComponent(course.code)}">${MSDS.escapeHtml(course.code)}</a>
-        <span aria-hidden="true">·</span>
+        <button type="button" data-chip-remove="${MSDS.escapeHtml(course.code)}" aria-label="移除 ${MSDS.escapeHtml(course.code)}" title="移除">×</button>
       </span>`).join("");
   }
 
@@ -639,10 +639,11 @@
   function renderTimeAxis(layout) {
     const axis = document.getElementById("time-axis");
     const H = hourPx();
-    axis.innerHTML = Array.from({ length: layout.endHour - layout.startHour + 1 }, (_, index) => {
+    const lastIndex = layout.endHour - layout.startHour;
+    axis.innerHTML = Array.from({ length: lastIndex + 1 }, (_, index) => {
       const hour = layout.startHour + index;
-      // 首个标签不下移，避免被表头 sticky 背景遮挡而显示不全
-      const shift = index === 0 ? "0" : "-6px";
+      // 首个标签不上移，避免被表头 sticky 背景遮挡；末个标签整体移到网格线上方，避免被课表底边裁掉半截
+      const shift = index === 0 ? "0" : index === lastIndex ? "-100%" : "-6px";
       return `<span class="time-label" style="top:${index * H}px;transform:translateY(${shift})">${String(hour).padStart(2, "0")}:00</span>`;
     }).join("");
   }
@@ -1329,6 +1330,11 @@
       if (event.target.closest("[data-event-remove]") || event.target.closest("[data-event-link]")) return;
       event.preventDefault();
       window.location.href = `course.html?code=${encodeURIComponent(block.dataset.eventCode)}`;
+    });
+
+    document.getElementById("selected-chips").addEventListener("click", (event) => {
+      const removeButton = event.target.closest("[data-chip-remove]");
+      if (removeButton) toggleCourse(removeButton.dataset.chipRemove);
     });
 
     document.getElementById("clear-selection").addEventListener("click", () => {
