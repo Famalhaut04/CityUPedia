@@ -45,7 +45,10 @@
     const displayGroupInfo = MSDS.getElectiveGroupInfo(MSDS.getProgramme(data, displayProgramme), MSDS.getElectiveGroup(course, displayProgramme));
     const activeSemester = MSDS.getStoredSemester ? MSDS.getStoredSemester() : "SemA";
     const offeredHere = MSDS.courseOfferedInSemester ? MSDS.courseOfferedInSemester(course, activeSemester) : true;
-    const selections = MSDS.getStoredSelections(currentProgramme, activeSemester);
+    // 「加入课表」写入的项目：课程属于当前项目时写当前项目，否则写课程的首个所属项目。
+    // 按钮的初始状态也要按这个项目读取，否则课程已加入其他项目课表时按钮会误显示“加入课表”，点一下反而把它移除
+    const targetProgramme = belongsToCurrent ? currentProgramme : courseProgrammes[0];
+    const selections = targetProgramme ? MSDS.getStoredSelections(targetProgramme, activeSemester) : {};
     const isAdded = Boolean(selections[course.code]);
     const myReview = MSDS.getCourseReview(course.code);
     let added = isAdded;
@@ -157,13 +160,13 @@
               ${fact("课程类型", displayRequirementType === "core"
                 ? "核心课"
                 : (displayGroupInfo ? `选修课（${displayGroupInfo.label_zh}）` : "选修课"))}
-              ${fact("所属项目", courseProgrammes.map((pCode) => MSDS.getProgramme(data, pCode).code).join("、"))}
+              ${fact("所属项目", MSDS.escapeHtml(courseProgrammes.map((pCode) => MSDS.getProgramme(data, pCode).code).join("、")))}
               ${fact("先修要求", MSDS.renderCourseMentions(course.prerequisites === "Nil" ? "无" : course.prerequisites, coursesByCode))}
               ${fact("互斥课程", MSDS.renderCourseMentions(course.exclusive_course === "Nil" ? "无" : course.exclusive_course, coursesByCode))}
-              ${fact("授课语言", course.summary?.medium)}
-              ${fact("授课教师", instructors)}
-              ${fact("注册状态", webStatus)}
-              ${course.pdf_url ? fact("课程详情", `<a href="${course.pdf_url}" target="_blank" rel="noopener noreferrer">官方大纲 PDF ↗</a>`) : ""}
+              ${fact("授课语言", MSDS.escapeHtml(course.summary?.medium))}
+              ${fact("授课教师", MSDS.escapeHtml(instructors))}
+              ${fact("注册状态", MSDS.escapeHtml(webStatus))}
+              ${course.pdf_url ? fact("课程详情", `<a href="${MSDS.escapeHtml(course.pdf_url)}" target="_blank" rel="noopener noreferrer">官方大纲 PDF ↗</a>`) : ""}
             </div>
           </section>
 
@@ -220,7 +223,7 @@
         MSDS.showToast(`该课程在 ${terms.join(" / ") || "其他"} 学期开设，请切换到对应学期`);
         return;
       }
-      const programme = belongsToCurrent ? currentProgramme : courseProgrammes[0];
+      const programme = targetProgramme;
       if (!programme) {
         MSDS.showToast("该课程暂无归属项目");
         return;
@@ -387,8 +390,8 @@
     document.querySelectorAll(".tutorial-pick").forEach((radio) => {
       radio.addEventListener("change", (event) => {
         chosenTutorialCrn = event.target.value;
-        if (!added) return;
-        const programme = belongsToCurrent ? currentProgramme : courseProgrammes[0];
+        if (!added || !targetProgramme) return;
+        const programme = targetProgramme;
         const current = MSDS.getStoredSelections(programme, activeSemester);
         if (!current[course.code]) return;
         current[course.code].tutorialCrn = chosenTutorialCrn;
@@ -549,14 +552,14 @@
     return;
   }
 
+  // 只加载这一门课程的班次/评价与其引用的来源摘录（此前会拉取全站约 2,300 个数据文件）
   Promise.all([
-    MSDS.loadCourseData(),
+    MSDS.loadCourseDetail(code),
     fetch("data/course-documents/index.json").then((response) => {
       if (!response.ok) throw new Error("课程介绍索引读取失败");
       return response.json();
     })
-  ]).then(([data, courseDocuments]) => {
-    const course = data.courses.find((item) => item.code === code);
+  ]).then(([{ data, course }, courseDocuments]) => {
     if (!course) throw new Error("没有找到这门课程");
     renderCourse(data, course, courseDocuments[course.code]);
     // 支持从评价中心跳转：#course-reviews 锚点定位到评价区并高亮提示

@@ -1,7 +1,10 @@
 (function () {
   "use strict";
 
-  const DAYS = ["M", "T", "W", "R", "F", "S"];
+  // 周日列默认隐藏，只有已选课程在周日上课时才显示（少数 EMBA / 法律 / 建筑课程）
+  const DAYS = ["M", "T", "W", "R", "F", "S", "U"];
+  const WEEKDAYS = DAYS.slice(0, 6);
+  // 课表默认显示 09:00–22:00；已选课程超出该范围时（如 22:00–22:50 的夜课）自动扩展
   const START_HOUR = 9;
   const END_HOUR = 22;
   const COLORS = [
@@ -25,6 +28,9 @@
   let activeFilter = "all";
   let activeDay = "all";
   let activeSemesterFilter = activeSemester;
+  let courseMap = new Map();
+  let programmeCoursesCache = { code: null, list: [] };
+  const loadedProgrammes = new Map();
 
   const listElement = document.getElementById("course-list");
   const selectedListElement = document.getElementById("selected-list");
@@ -33,9 +39,30 @@
     return MSDS.getProgramme(data, activeProgramme);
   }
 
-  // 当前项目可选的课程（未标注归属的课程默认归入默认项目）
+  // 当前项目可选的课程（未标注归属的课程默认归入默认项目）；
+  // 一次渲染会多次用到，按项目缓存（课程索引加载后不再变化）
   function programmeCourses() {
-    return courses.filter((course) => MSDS.courseProgrammes(course, data).includes(activeProgramme));
+    if (programmeCoursesCache.code !== activeProgramme) {
+      programmeCoursesCache = {
+        code: activeProgramme,
+        list: coursesOfProgramme(activeProgramme)
+      };
+    }
+    return programmeCoursesCache.list;
+  }
+
+  function coursesOfProgramme(code) {
+    return courses.filter((course) => MSDS.courseProgrammes(course, data).includes(code));
+  }
+
+  // 只为当前项目的课程拉取班次与评价（首次进入某项目时加载，之后命中缓存）
+  function ensureProgrammeData(code) {
+    if (!loadedProgrammes.has(code)) {
+      const request = MSDS.hydrateCourses(coursesOfProgramme(code));
+      loadedProgrammes.set(code, request);
+      request.catch(() => loadedProgrammes.delete(code));
+    }
+    return loadedProgrammes.get(code);
   }
 
   function requirementTypeOf(course) {
@@ -43,16 +70,15 @@
   }
 
   function courseByCode(code) {
-    return courses.find((course) => course.code === code);
+    return courseMap.get(code);
   }
 
   // 从课程的 prerequisites 字段里提取出所有有效课程代码（必须是课程库中存在的）
   function prereqCodes(course) {
     const text = course?.prerequisites;
     if (!text || text === "Nil") return [];
-    const known = new Set(courses.map((c) => c.code));
     const matches = String(text).match(/\b[A-Z]{2,5}\s?-?\d{4}[A-Z]?\b/g) || [];
-    return [...new Set(matches.map((m) => m.replace(/\s|-/g, "")))].filter((code) => known.has(code));
+    return [...new Set(matches.map((m) => m.replace(/\s|-/g, "")))].filter((code) => courseMap.has(code));
   }
 
   // 该课程若加入课表，前置要求中有哪些课程尚未选（返回未满足的代码列表）
@@ -61,44 +87,35 @@
     return prereqCodes(course).filter((code) => !selections[code]);
   }
 
-  // 把所有"已选且为核心课"的事件提取出来，用来检测候选课是否与核心课冲突
+  // 某班次可排进课表的每周时段（同日同时段去重），返回 { day, start, end }
+  function slotsOf(course, key) {
+    return MSDS.sectionMeetings(course, key)
+      .filter((item) => item.time && DAYS.includes(item.day))
+      .map((item) => {
+        const [startText, endText] = item.time.split(" - ");
+        return { day: item.day, start: minutes(startText), end: minutes(endText) };
+      });
+  }
+
+  // 把所有"已选且为核心课"的时段提取出来，用来检测候选课是否与核心课冲突
   function coreEvents() {
     const out = [];
     programmeCourses().forEach((course) => {
-      if (!selections[course.code]) return;
-      if (requirementTypeOf(course) !== "core") return;
       const selected = selections[course.code];
+      if (!selected || requirementTypeOf(course) !== "core") return;
       [selected.primaryCrn, selected.tutorialCrn].filter(Boolean).forEach((key) => {
-        const meetings = course.eligible_sections.filter((item) => MSDS.sectionKey(item) === String(key));
-        const byDayTime = new Map();
-        meetings.forEach((item) => {
-          if (!item.time || !DAYS.includes(item.day)) return;
-          const dtKey = `${item.day}|${item.time}`;
-          if (!byDayTime.has(dtKey)) byDayTime.set(dtKey, item);
-        });
-        byDayTime.forEach((section) => {
-          const [s, e] = section.time.split(" - ");
-          out.push({ day: section.day, start: minutes(s), end: minutes(e), code: course.code });
-        });
+        slotsOf(course, key).forEach((slot) => out.push({ ...slot, code: course.code }));
       });
     });
     return out;
   }
 
-  // 候选课程加入后是否会与"已选核心课"时间冲突（任一时段重叠即视为冲突）
-  function conflictsWithCore(course, primaryCrn, tutorialCrn) {
-    const cores = coreEvents();
+  // 候选班次加入后是否会与"已选核心课"时间冲突（任一时段重叠即视为冲突）；
+  // cores 由调用方每次渲染计算一次后传入
+  function conflictsWithCore(course, primaryCrn, tutorialCrn, cores) {
     if (!cores.length) return false;
-    const sections = [];
-    [primaryCrn, tutorialCrn].filter(Boolean).forEach((key) => {
-      course.eligible_sections.filter((s) => MSDS.sectionKey(s) === String(key)).forEach((s) => {
-        if (!s.time || !DAYS.includes(s.day)) return;
-        const [st, et] = s.time.split(" - ");
-        sections.push({ day: s.day, start: minutes(st), end: minutes(et) });
-      });
-    });
-    if (!sections.length) return false;
-    return sections.some((s) => cores.some((c) => c.day === s.day && s.start < c.end && c.start < s.end));
+    const slots = [primaryCrn, tutorialCrn].filter(Boolean).flatMap((key) => slotsOf(course, key));
+    return slots.some((s) => cores.some((c) => c.day === s.day && s.start < c.end && c.start < s.end));
   }
 
   function reloadSelections() {
@@ -119,9 +136,13 @@
   }
 
   function filterCourses() {
+    const query = searchTerm.toLowerCase();
+    // "cs 5487" / "CS-5487" 也能匹配课号 CS5487
+    const compactQuery = query.replace(/[\s-]+/g, "");
     return programmeCourses().filter((course) => {
       const haystack = `${course.code} ${course.programme_title}`.toLowerCase();
-      const matchesSearch = haystack.includes(searchTerm.toLowerCase());
+      const matchesSearch = haystack.includes(query)
+        || (compactQuery && course.code.toLowerCase().includes(compactQuery));
       const matchesFilter = activeFilter === "all"
         || (activeFilter === "core" || activeFilter === "elective"
           ? requirementTypeOf(course) === activeFilter
@@ -280,7 +301,7 @@
     if (!collegeHasProgrammes()) {
       document.getElementById("stat-graduation").textContent = "—";
       document.getElementById("stat-requirement").textContent = "—";
-      document.getElementById("programme-summary-name").textContent = "—";
+      renderProgrammeSummaryName();
       const emptyInfoLink = document.getElementById("programme-info-link");
       if (emptyInfoLink) emptyInfoLink.hidden = true;
       document.getElementById("data-note").textContent = "";
@@ -298,7 +319,7 @@
       document.getElementById("stat-requirement").textContent = "以学院为准";
       document.getElementById("stat-requirement-label").textContent = "核心 + 选修学分";
     }
-    document.getElementById("programme-summary-name").textContent = `${programme.code} · ${programme.name_zh}`;
+    renderProgrammeSummaryName();
     renderFilterRow(programme);
     renderTermFilter();
     // 课表表头的项目介绍链接
@@ -370,6 +391,10 @@
       return;
     }
 
+    // 以下两项与具体课程无关，每次渲染只算一次（此前每门课、每个班次都会重算一遍全部核心课时段）
+    const hasAnySelection = Object.keys(selections).length > 0;
+    const cores = hasAnySelection ? coreEvents() : [];
+
     listElement.innerHTML = filtered.map((course) => {
       const rec = MSDS.getRecommendation(course);
       const isAdded = Boolean(selections[course.code]);
@@ -379,7 +404,11 @@
       // 去重后的班次列表：用于“共几个班次”计数与“选择时间”下拉框（同一班次的多次上课时间不算多个选项）
       const primaryOptions = MSDS.uniqueByKey(primaries);
       const tutorialOptions = MSDS.uniqueByKey(tutorials);
-      const scheduleText = primaries.map((item) => `${MSDS.DAY_NAMES[item.day]} ${item.time}`).join(" / ");
+      // 多个平行班次常在同一时段上课，文案里相同的“星期 + 时间”只列一次
+      const scheduleText = [...new Set(primaries.map((item) => `${MSDS.DAY_NAMES[item.day] || item.day || ""} ${item.time || ""}`.trim()))]
+        .filter(Boolean)
+        .join(" / ");
+      const ratingHtml = MSDS.ratingStars(rec, { withMeta: false });
       const selectedPrimary = selections[course.code]?.primaryCrn;
       const selectedTutorial = selections[course.code]?.tutorialCrn
         || (tutorialOptions.length ? MSDS.sectionKey(MSDS.pickTutorial(MSDS.findSection(course, selectedPrimary) || primaryOptions[0], tutorialOptions)) : null);
@@ -392,13 +421,14 @@
       const myReview = MSDS.getCourseReview(course.code);
       const reviewBadge = myReview ? `<span class="mini-badge review" title="我的评价：${Number(myReview.rating)} 星${myReview.comment ? " · " + MSDS.escapeHtml(myReview.comment) : ""}">已评 ${Number(myReview.rating)}★</span>` : "";
 
-      // 前置课未满足 / 与核心课冲突的提示（仅在用户已加入至少一门课时才有意义）
-      const hasAnySelection = Object.keys(selections).length > 0;
+      // 前置课未满足 / 与核心课冲突的提示（仅在用户已加入至少一门课时才有意义）；
+      // 只有全部主课班次都与核心课撞时间才提示——还有不冲突的班次可选时不算冲突
       const unmet = hasAnySelection ? unmetPrereqs(course) : [];
-      const coreConflict = hasAnySelection
+      const coreConflict = cores.length > 0
         && !isAdded
         && requirementTypeOf(course) !== "core"
-        && primaryOptions.some((opt) => conflictsWithCore(course, MSDS.sectionKey(opt), null));
+        && primaryOptions.length > 0
+        && primaryOptions.every((opt) => conflictsWithCore(course, MSDS.sectionKey(opt), null, cores));
       const blockedClasses = [];
       if (unmet.length) blockedClasses.push("has-prereq-warning");
       if (coreConflict) blockedClasses.push("has-core-conflict");
@@ -428,14 +458,14 @@
               ${reviewBadge}
             </div>
             <a class="course-title-link" href="course.html?code=${encodeURIComponent(course.code)}">${MSDS.escapeHtml(course.programme_title)}</a>
-            <div class="course-meta"><span>${course.credits} 学分</span><span>${primaryOptions.length} 个主课班次</span>${MSDS.ratingStars(rec, { withMeta: false }) ? `<span class="course-rating">${MSDS.ratingStars(rec, { withMeta: false })}</span>` : ""}</div>
+            <div class="course-meta"><span>${course.credits} 学分</span><span>${primaryOptions.length} 个主课班次</span>${ratingHtml ? `<span class="course-rating">${ratingHtml}</span>` : ""}</div>
             <div class="course-schedule" title="${MSDS.escapeHtml(scheduleText)}">${MSDS.escapeHtml(scheduleText)}</div>
             <div class="course-preview" aria-label="${MSDS.escapeHtml(course.code)} 课程预览">
               <p>${MSDS.escapeHtml(rec.summary)}</p>
               <div class="course-preview-tags">${rec.tags.slice(0, 3).map((tag) => `<span>${MSDS.escapeHtml(tag)}</span>`).join("") || `<span>${MSDS.escapeHtml(rec.verdict)}</span>`}</div>
             </div>
-            ${primaryOptions.length > 1 ? `<label class="quick-section-picker"><span>选择时间</span><select data-quick-section="${MSDS.escapeHtml(course.code)}" aria-label="选择 ${MSDS.escapeHtml(course.code)} 上课时间">${sectionOptions(primaryOptions, selectedPrimary || MSDS.sectionKey(primaryOptions[0]))}</select></label>` : ""}
-            ${tutorialOptions.length > 1 ? `<label class="quick-section-picker"><span>选择 Tutorial</span><select data-quick-tutorial="${MSDS.escapeHtml(course.code)}" aria-label="选择 ${MSDS.escapeHtml(course.code)} Tutorial">${sectionOptions(tutorialOptions, selectedTutorial)}</select></label>` : ""}
+            ${primaryOptions.length > 1 ? `<label class="quick-section-picker"><span>选择时间</span><select data-quick-section="${MSDS.escapeHtml(course.code)}" aria-label="选择 ${MSDS.escapeHtml(course.code)} 上课时间">${sectionOptions(course, primaryOptions, selectedPrimary || MSDS.sectionKey(primaryOptions[0]))}</select></label>` : ""}
+            ${tutorialOptions.length > 1 ? `<label class="quick-section-picker"><span>选择 Tutorial</span><select data-quick-tutorial="${MSDS.escapeHtml(course.code)}" aria-label="选择 ${MSDS.escapeHtml(course.code)} Tutorial">${sectionOptions(course, tutorialOptions, selectedTutorial)}</select></label>` : ""}
           </div>
           ${(() => {
             // 所有已添加课程都显示为可再次点击取消的按钮，点击即可撤销选择
@@ -448,13 +478,14 @@
     }).join("");
   }
 
-  function sectionOptions(sections, selectedKey) {
+  // 下拉选项列出该班次的全部每周时段（如「C01 · 周一 16:00 - 18:50 / 周五 16:00 - 18:50」）
+  function sectionOptions(course, sections, selectedKey) {
     return sections.map((section) => {
       const key = MSDS.sectionKey(section);
       const webNote = section.web === "N" ? " · 非网页注册" : "";
       const restricted = MSDS.sectionRestrictedProgrammes(section);
       const restrictionNote = restricted.length ? ` · 仅限：${restricted.join("、")}` : "";
-      return `<option value="${MSDS.escapeHtml(key)}" ${String(selectedKey) === key ? "selected" : ""}>${MSDS.escapeHtml(MSDS.formatSection(section) + webNote + restrictionNote)}</option>`;
+      return `<option value="${MSDS.escapeHtml(key)}" ${String(selectedKey) === key ? "selected" : ""}>${MSDS.escapeHtml(MSDS.formatSection(section, course) + webNote + restrictionNote)}</option>`;
     }).join("");
   }
 
@@ -476,9 +507,9 @@
           </div>
           <div class="section-selects">
             ${primaries.length
-              ? `<label>主课<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="primary">${sectionOptions(primaries, selected.primaryCrn)}</select></label>`
+              ? `<label>主课<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="primary">${sectionOptions(course, primaries, selected.primaryCrn)}</select></label>`
               : `<p class="selected-course-note">${MSDS.escapeHtml(MSDS.t("selected.nosection"))}</p>`}
-            ${tutorials.length ? `<label>Tutorial<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="tutorial"><option value="">不选择</option>${sectionOptions(tutorials, selected.tutorialCrn)}</select></label>` : ""}
+            ${tutorials.length ? `<label>Tutorial<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="tutorial"><option value="">不选择</option>${sectionOptions(course, tutorials, selected.tutorialCrn)}</select></label>` : ""}
           </div>
         </article>`;
     }).join("");
@@ -564,28 +595,53 @@
       });
     });
 
-    // 按 lane 分列（用于视觉堆叠）：同一天的事件按起点排序后贪心分配车道
+    // 按 lane 分列（用于视觉堆叠）：同一天的事件按起点排序后贪心分配车道。
+    // 车道数按“相互重叠的一组事件”计算，而不是整天共用：
+    // 否则周一上午两门课冲突时，周一晚上不冲突的课也会被压成半宽
     DAYS.forEach((day) => {
       const dayEvents = events.filter((event) => event.section.day === day).sort((a, b) => a.start - b.start || a.end - b.end);
-      const laneEnds = [];
+      let group = [];
+      let laneEnds = [];
+      let groupEnd = -Infinity;
+      const closeGroup = () => {
+        const count = Math.max(1, laneEnds.length);
+        group.forEach((event) => { event.laneCount = count; });
+        group = [];
+        laneEnds = [];
+        groupEnd = -Infinity;
+      };
       dayEvents.forEach((event) => {
+        if (group.length && event.start >= groupEnd) closeGroup();
         let lane = laneEnds.findIndex((end) => end <= event.start);
         if (lane === -1) lane = laneEnds.length;
         laneEnds[lane] = event.end;
         event.lane = lane;
+        group.push(event);
+        groupEnd = Math.max(groupEnd, event.end);
       });
-      const count = Math.max(1, laneEnds.length);
-      dayEvents.forEach((event) => { event.laneCount = count; });
+      closeGroup();
     });
     return events;
   }
 
-  function renderTimeAxis() {
+  // 课表的可见星期与小时范围：默认周一至周六、09:00–22:00，按已选课程按需扩展
+  function timetableLayout(events) {
+    const days = events.some((event) => event.section.day === "U") ? DAYS : WEEKDAYS;
+    const earliest = events.reduce((min, event) => Math.min(min, event.start), START_HOUR * 60);
+    const latest = events.reduce((max, event) => Math.max(max, event.end), END_HOUR * 60);
+    return {
+      days,
+      startHour: Math.max(0, Math.floor(earliest / 60)),
+      endHour: Math.min(24, Math.ceil(latest / 60))
+    };
+  }
+
+  function renderTimeAxis(layout) {
     const axis = document.getElementById("time-axis");
     const H = hourPx();
-    axis.innerHTML = Array.from({ length: END_HOUR - START_HOUR + 1 }, (_, index) => {
-      const hour = START_HOUR + index;
-      // 首个标签（09:00）不下移，避免被表头 sticky 背景遮挡而显示不全
+    axis.innerHTML = Array.from({ length: layout.endHour - layout.startHour + 1 }, (_, index) => {
+      const hour = layout.startHour + index;
+      // 首个标签不下移，避免被表头 sticky 背景遮挡而显示不全
       const shift = index === 0 ? "0" : "-6px";
       return `<span class="time-label" style="top:${index * H}px;transform:translateY(${shift})">${String(hour).padStart(2, "0")}:00</span>`;
     }).join("");
@@ -593,21 +649,30 @@
 
   function renderTimetable() {
     const events = selectedEvents();
+    const layout = timetableLayout(events);
     const H = hourPx();
+    const timetable = document.getElementById("timetable");
+    timetable.style.setProperty("--grid-hours", String(layout.endHour - layout.startHour));
+    timetable.style.setProperty("--day-count", String(layout.days.length));
+    const sundayHeading = timetable.querySelector('.day-heading[data-day="U"]');
+    if (sundayHeading) sundayHeading.hidden = !layout.days.includes("U");
+    renderTimeAxis(layout);
     const columns = document.getElementById("day-columns");
-    columns.innerHTML = DAYS.map((day) => {
+    columns.innerHTML = layout.days.map((day, dayIndex) => {
       const dayEvents = events.filter((event) => event.section.day === day);
       const dayMaxLane = dayEvents.reduce((max, event) => Math.max(max, event.laneCount), 1);
       const dayHasConflict = dayEvents.some((event) => event.conflict);
+      // 最右两列的悬浮详情向左展开，避免超出课表右边缘
+      const tooltipLeft = dayIndex >= layout.days.length - 2;
       const blocks = dayEvents.map((event) => {
-        const top = ((event.start - START_HOUR * 60) / 60) * H;
+        const top = ((event.start - layout.startHour * 60) / 60) * H;
         const height = Math.max(34, ((event.end - event.start) / 60) * H);
         const width = 100 / event.laneCount;
         const left = event.lane * width;
         const room = [event.section.building, event.section.room].filter(Boolean).join(" ");
         const recommendation = MSDS.getRecommendation(event.course);
         const tooltipTags = recommendation.tags.slice(0, 3).map((tag) => `<span class="event-tooltip-tag">${MSDS.escapeHtml(tag)}</span>`).join("");
-        return `<div class="course-event ${event.conflict ? "is-conflict" : ""} ${event.start >= 19 * 60 ? "tooltip-up" : ""} ${event.section.day === "F" ? "tooltip-left" : ""}" role="button" tabindex="0"
+        return `<div class="course-event ${event.conflict ? "is-conflict" : ""} ${event.start >= 19 * 60 ? "tooltip-up" : ""} ${tooltipLeft ? "tooltip-left" : ""}" role="button" tabindex="0"
           data-event-code="${MSDS.escapeHtml(event.course.code)}"
           aria-label="查看 ${MSDS.escapeHtml(event.course.code)} 详情：${MSDS.escapeHtml(recommendation.verdict)}"
           style="top:${top}px;height:${height}px;left:calc(${left}% + 3px);width:calc(${width}% - 6px);--event-bg:${event.color[0]};--event-accent:${event.color[1]};--event-ink:${event.color[2]}">
@@ -616,7 +681,7 @@
             <span>${MSDS.escapeHtml(room)}</span>
           </span>
           <span class="event-overlay" role="tooltip">
-            <span class="event-overlay-content"><strong>${MSDS.escapeHtml(event.course.programme_title)}</strong><span>${MSDS.escapeHtml(MSDS.DAY_NAMES[event.section.day])} · ${MSDS.escapeHtml(event.section.time)}</span><span>${MSDS.escapeHtml(room || "地点待定")}</span><span class="event-tooltip-tags">${tooltipTags || `<span class="event-tooltip-tag">${MSDS.escapeHtml(recommendation.verdict)}</span>`}</span></span>
+            <span class="event-overlay-content"><strong>${MSDS.escapeHtml(event.course.programme_title)}</strong><span>${MSDS.escapeHtml(MSDS.DAY_NAMES[event.section.day] || event.section.day)} · ${MSDS.escapeHtml(event.section.time)}</span><span>${MSDS.escapeHtml(room || "地点待定")}</span><span class="event-tooltip-tags">${tooltipTags || `<span class="event-tooltip-tag">${MSDS.escapeHtml(recommendation.verdict)}</span>`}</span></span>
             <span class="event-overlay-actions"><a href="course.html?code=${encodeURIComponent(event.course.code)}" data-event-link>详情</a><button type="button" data-event-remove="${MSDS.escapeHtml(event.course.code)}">删除</button></span>
           </span>
         </div>`;
@@ -663,25 +728,35 @@
     }
   }
 
-  // 把冲突按（day, 时间区间）分组，输出易读的明细，例：
-  // "周一 19:00 - 20:50：CS5292、CS6480"
+  function clock(totalMinutes) {
+    return `${String(Math.floor(totalMinutes / 60)).padStart(2, "0")}:${String(totalMinutes % 60).padStart(2, "0")}`;
+  }
+
+  // 把冲突课程按天合并成“相互重叠的时间段”，输出易读的明细，例：
+  // "周一 18:30 - 21:50：CS5292、CS6480"
+  // （此前只合并起止时间完全相同的课，18:30–21:20 与 19:00–21:50 这种部分重叠的冲突不会出现在明细里）
   function summarizeConflicts(events) {
-    // key = day|start-end；value = course codes
-    const groups = new Map();
-    events.forEach((event) => {
-      if (!event.conflict) return;
-      const day = MSDS.DAY_NAMES[event.section.day] || event.section.day;
-      const start = event.section.time.split(" - ")[0];
-      const end = event.section.time.split(" - ")[1];
-      const key = `${day}|${start}-${end}`;
-      if (!groups.has(key)) groups.set(key, { day, start, end, codes: new Set() });
-      groups.get(key).codes.add(event.course.code);
-    });
     const lines = [];
-    groups.forEach((g) => {
-      if (g.codes.size > 1) {
-        lines.push(`${g.day} ${g.start} - ${g.end}：${[...g.codes].join("、")}`);
-      }
+    DAYS.forEach((day) => {
+      const dayConflicts = events
+        .filter((event) => event.conflict && event.section.day === day)
+        .sort((a, b) => a.start - b.start || a.end - b.end);
+      let group = null;
+      const flush = () => {
+        if (!group) return;
+        lines.push(`${MSDS.DAY_NAMES[day] || day} ${clock(group.start)} - ${clock(group.end)}：${[...group.codes].join("、")}`);
+        group = null;
+      };
+      dayConflicts.forEach((event) => {
+        if (group && event.start < group.end) {
+          group.end = Math.max(group.end, event.end);
+          group.codes.add(event.course.code);
+          return;
+        }
+        flush();
+        group = { start: event.start, end: event.end, codes: new Set([event.course.code]) };
+      });
+      flush();
     });
     return lines.join("\n");
   }
@@ -769,6 +844,7 @@
     activeSemesterFilter = semester;
     if (typeof MSDS.saveSemester === "function") MSDS.saveSemester(semester);
     reloadSelections();
+    sanitizeSelections();
     applyDefaultSelections();
     renderProgrammeStats();
     renderAll();
@@ -778,12 +854,70 @@
 
   function updateSemesterSwitchUI() {
     document.querySelectorAll("[data-semester-switch]").forEach((button) => {
-      button.classList.toggle("active", button.dataset.semesterSwitch === activeSemester);
+      const active = button.dataset.semesterSwitch === activeSemester;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-selected", String(active));
     });
     const label = document.getElementById("semester-summary-name");
     if (label) label.textContent = activeSemester;
+    renderProgrammeSummaryName();
+  }
+
+  // 课表标题「我的课表 · 项目 · 学期」：初始化、切换项目、切换学期都走这里，保持同一格式
+  function renderProgrammeSummaryName() {
     const summary = document.getElementById("programme-summary-name");
-    if (summary) summary.textContent = `${currentProgramme().name_zh} · ${activeSemester}`;
+    if (!summary) return;
+    if (!collegeHasProgrammes()) {
+      summary.textContent = "—";
+      return;
+    }
+    const programme = currentProgramme();
+    summary.textContent = `${programme.code} · ${programme.name_zh} · ${activeSemester}`;
+  }
+
+  // 课表数据更新后，本地保存的课表可能引用已下线的课程或已失效的 CRN：
+  // 下线（或已不属于本项目）的课程直接移除；CRN 失效则回落到默认班次，避免课程从课表上“消失”
+  function sanitizeSelections() {
+    const valid = new Set(programmeCourses().map((course) => course.code));
+    Object.keys(selections).forEach((code) => {
+      const course = courseByCode(code);
+      if (!course || !valid.has(code)) {
+        delete selections[code];
+        return;
+      }
+      // 班次文件读取失败时保留原选择，等下次加载
+      if (!course.eligible_sections.length) return;
+      const selection = selections[code] || {};
+      const primaryOk = selection.primaryCrn && MSDS.findSection(course, selection.primaryCrn);
+      const tutorialOk = !selection.tutorialCrn || MSDS.findSection(course, selection.tutorialCrn);
+      if (!primaryOk) selections[code] = MSDS.makeDefaultSelection(course);
+      else if (!tutorialOk) selections[code] = selectionForPrimary(course, selection.primaryCrn);
+    });
+  }
+
+  // 首次进入某项目时需要拉取该项目课程的班次/评价，期间锁定面板，避免对旧项目的课表误操作
+  function setProgrammeLoading(loading) {
+    document.querySelector(".planner-shell")?.classList.toggle("is-loading", loading);
+    if (loading) listElement.innerHTML = '<div class="empty-list">正在加载课程…</div>';
+  }
+
+  // 切换项目后的统一刷新：先更新与班次无关的部分，再等该项目课程数据就绪后渲染课表
+  function refreshAfterProgrammeChange() {
+    renderProgrammePills();
+    reloadSelections();
+    renderProgrammeStats();
+    updateSemesterSwitchUI();
+    updateCollegeEmptyState();
+    const code = activeProgramme;
+    setProgrammeLoading(true);
+    return ensureProgrammeData(code).then(() => {
+      // 加载期间又切到了别的项目：交给最新那次刷新处理
+      if (code !== activeProgramme) return;
+      setProgrammeLoading(false);
+      sanitizeSelections();
+      applyDefaultSelections();
+      renderAll();
+    });
   }
 
   function selectionForPrimary(course, primaryCrn, tutorialCrn) {
@@ -823,9 +957,9 @@
   function switchCollege(key) {
     if (key === activeCollege) return;
     activeCollege = key;
-    renderProgrammePills();
     // 尚未收录课程的学院：不改动已存的项目选择，展示筹备中占位
     if (!collegeHasProgrammes()) {
+      renderProgrammePills();
       renderProgrammeStats();
       updateCollegeEmptyState();
       const college = colleges().find((item) => item.key === key);
@@ -834,28 +968,37 @@
         : `已切换至${college ? college.name_zh : key}（硕士项目数据筹备中）`);
       return;
     }
+    // 当前项目就在这个学院（如从“筹备中”学院切回来）时保留它，否则落到首个院系的首个可用项目
+    const current = collegeProgrammes(key).find((p) => p.code === activeProgramme);
     const depts = departments();
-    activeDepartment = depts.length ? depts[0].key : "";
-    const progs = departmentProgrammes();
-    if (progs.length && !progs.some((p) => p.code === activeProgramme)) {
-      const first = progs.find((p) => p.data_ready !== false);
-      if (first) activeProgramme = first.code;
-    }
+    activeDepartment = current ? departmentKeyOf(current) : (depts.length ? depts[0].key : "");
+    pickAvailableProgrammeInDepartment();
     MSDS.saveProgramme(activeProgramme);
-    refreshAfterProgrammeChange();
+    // 项目确定之后再渲染级联下拉，否则项目提示行会按旧项目渲染成空白
+    refreshAfterProgrammeChange().then(toastProgramme);
   }
 
   function switchDepartment(key) {
     if (key === activeDepartment) return;
     activeDepartment = key;
-    const progs = departmentProgrammes();
-    if (progs.length && !progs.some((p) => p.code === activeProgramme)) {
-      const first = progs.find((p) => p.data_ready !== false);
-      if (first) activeProgramme = first.code;
-    }
+    pickAvailableProgrammeInDepartment();
     MSDS.saveProgramme(activeProgramme);
-    renderProgrammePills();
-    refreshAfterProgrammeChange();
+    refreshAfterProgrammeChange().then(toastProgramme);
+  }
+
+  function departmentKeyOf(programme) {
+    return programme.department_en || programme.department || "Department";
+  }
+
+  function pickAvailableProgrammeInDepartment() {
+    const progs = departmentProgrammes();
+    if (progs.some((p) => p.code === activeProgramme)) return;
+    const first = progs.find(programmeAvailable);
+    if (first) activeProgramme = first.code;
+  }
+
+  function toastProgramme() {
+    MSDS.showToast(`已切换至 ${currentProgramme().name_zh}`);
   }
 
   // 学院暂无项目时的占位状态：隐藏选课面板与课表，显示筹备提示
@@ -875,15 +1018,6 @@
     }
   }
 
-  function refreshAfterProgrammeChange() {
-    reloadSelections();
-    applyDefaultSelections();
-    renderProgrammeStats();
-    renderAll();
-    updateCollegeEmptyState();
-    MSDS.showToast(`已切换至 ${currentProgramme().name_zh}`);
-  }
-
   // ==================== 课表导出为图片型 PDF ====================
   // 用 Canvas 按周课表网格绘制当前学期课表，导出单页图片型 PDF（无第三方依赖）
   function exportTimetableAsPdf() {
@@ -893,6 +1027,9 @@
       return;
     }
 
+    // 与网页课表一致：周日列、22:00 之后的时段按已选课程按需出现
+    const layout = timetableLayout(events);
+    const days = layout.days;
     const canvas = document.createElement("canvas");
     const scale = 2;
     const colWidth = 200;
@@ -900,8 +1037,8 @@
     const headerHeight = 110;
     const titleHeight = 78;
     const timeColWidth = 72;
-    const canvasHeight = Math.ceil((headerHeight + titleHeight + (END_HOUR - START_HOUR) * hourHeight) / 10) * 10;
-    const canvasWidth = Math.ceil((timeColWidth + DAYS.length * colWidth) / 10) * 10;
+    const canvasHeight = Math.ceil((headerHeight + titleHeight + (layout.endHour - layout.startHour) * hourHeight) / 10) * 10;
+    const canvasWidth = Math.ceil((timeColWidth + days.length * colWidth) / 10) * 10;
     canvas.width = canvasWidth * scale;
     canvas.height = canvasHeight * scale;
     const ctx = canvas.getContext("2d");
@@ -926,9 +1063,11 @@
     ctx.fillStyle = "#F5F3ED";
     ctx.fillRect(0, gridTop, canvasWidth, headerHeight);
     ctx.fillStyle = "#2B2822";
-    ctx.font = "700 17px 'Inter','Noto Sans SC',sans-serif";
+    ctx.font = "700 15px 'Inter','Noto Sans SC',sans-serif";
+    ctx.textAlign = "center";
     ctx.fillText("GMT+8", timeColWidth / 2, gridTop + headerHeight / 2);
-    DAYS.forEach((day, index) => {
+    ctx.textAlign = "left";
+    days.forEach((day, index) => {
       const x = timeColWidth + index * colWidth;
       ctx.fillStyle = "#FAF9F5";
       ctx.fillRect(x, gridTop, colWidth, headerHeight);
@@ -943,8 +1082,8 @@
     });
 
     // 时间轴与网格线
-    for (let hour = START_HOUR; hour <= END_HOUR; hour++) {
-      const y = gridTop + headerHeight + (hour - START_HOUR) * hourHeight;
+    for (let hour = layout.startHour; hour <= layout.endHour; hour++) {
+      const y = gridTop + headerHeight + (hour - layout.startHour) * hourHeight;
       ctx.strokeStyle = "#EAE7DE";
       ctx.lineWidth = 1;
       ctx.beginPath();
@@ -955,7 +1094,7 @@
       ctx.font = "500 12px 'Inter',sans-serif";
       ctx.fillText(`${String(hour).padStart(2, "0")}:00`, 8, y + 16);
     }
-    DAYS.forEach((day, index) => {
+    days.forEach((day, index) => {
       const x = timeColWidth + index * colWidth;
       ctx.strokeStyle = "#EAE7DE";
       ctx.beginPath();
@@ -964,16 +1103,20 @@
       ctx.stroke();
     });
 
-    // 课程块
+    // 课程块（文字裁切在块内，冲突并排时窄块不会把文字画到相邻课程上）
     events.forEach((event) => {
-      const dayIndex = DAYS.indexOf(event.section.day);
+      const dayIndex = days.indexOf(event.section.day);
       if (dayIndex < 0) return;
       const x = timeColWidth + dayIndex * colWidth + event.lane * (colWidth / event.laneCount);
-      const y = gridTop + headerHeight + ((event.start - START_HOUR * 60) / 60) * hourHeight;
+      const y = gridTop + headerHeight + ((event.start - layout.startHour * 60) / 60) * hourHeight;
       const height = Math.max(26, ((event.end - event.start) / 60) * hourHeight);
       const width = colWidth / event.laneCount;
       ctx.fillStyle = event.color[0];
       ctx.fillRect(x + 2, y + 2, width - 4, height - 4);
+      ctx.save();
+      ctx.beginPath();
+      ctx.rect(x + 2, y + 2, width - 4, height - 4);
+      ctx.clip();
       ctx.fillStyle = event.color[2];
       ctx.font = "700 13px 'Inter',sans-serif";
       ctx.fillText(`${event.course.code} · ${event.section.section}`, x + 8, y + 16);
@@ -981,6 +1124,7 @@
       ctx.fillText(event.section.time, x + 8, y + 33);
       const room = [event.section.building, event.section.room].filter(Boolean).join(" ");
       if (room) ctx.fillText(room, x + 8, y + 50);
+      ctx.restore();
     });
 
     // 转 JPEG → 手写最小 PDF（单页图片型）
@@ -993,7 +1137,11 @@
     const blob = new Blob([pdfBytes], { type: "application/pdf" });
     const fileName = `cityu-timetable-${activeProgramme}-${activeSemester}-${new Date().toISOString().slice(0, 10)}.pdf`;
     const file = new File([blob], fileName, { type: "application/pdf" });
-    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+    // 系统分享面板只给触屏设备用（iOS Safari 等无法直接下载 blob）；
+    // Windows / macOS 上的 Chrome、Edge 也支持 navigator.share，若不区分，桌面端点“导出”会弹出系统分享而不是下载
+    const preferShare = window.matchMedia("(pointer: coarse)").matches
+      && navigator.canShare && navigator.canShare({ files: [file] });
+    if (preferShare) {
       navigator.share({ files: [file], title: "CityU 课表 PDF" }).catch(() => {});
     } else {
       const url = URL.createObjectURL(blob);
@@ -1077,12 +1225,7 @@
     }
     activeProgramme = code;
     MSDS.saveProgramme(code);
-    reloadSelections();
-    applyDefaultSelections();
-    renderProgrammePills();
-    renderProgrammeStats();
-    renderAll();
-    MSDS.showToast(`已切换至 ${currentProgramme().name_zh}`);
+    refreshAfterProgrammeChange().then(toastProgramme);
   }
 
   function bindEvents() {
@@ -1189,6 +1332,12 @@
     });
 
     document.getElementById("clear-selection").addEventListener("click", () => {
+      if (!Object.keys(selections).length) return;
+      // 清空无法撤销，先确认（误触“清空”会丢掉整个学期的排课）
+      const question = MSDS.getStoredLang() === "en"
+        ? `Clear the ${activeSemester} timetable? This cannot be undone.`
+        : MSDS.T(`确定清空 ${activeSemester} 课表吗？此操作无法撤销。`);
+      if (!window.confirm(question)) return;
       selections = {};
       renderAll();
       MSDS.showToast("课表已清空");
@@ -1206,29 +1355,36 @@
       const now = hourPx();
       if (now === lastHourPx) return;
       lastHourPx = now;
-      renderTimeAxis();
       renderTimetable();
     });
   }
 
-  MSDS.loadCourseData().then((loadedData) => {
-    data = loadedData;
+  // 本地保存的项目代码可能已下线或改名（数据更新后），此时课程列表会是空的；
+  // 回落到默认项目（或第一个有课程数据的项目）并回写
+  function normalizeActiveProgramme() {
+    if (programmes.some((p) => p.code === activeProgramme && programmeAvailable(p))) return;
+    const fallback = programmes.find((p) => p.code === MSDS.DEFAULT_PROGRAMME && programmeAvailable(p))
+      || programmes.find(programmeAvailable);
+    if (!fallback) return;
+    activeProgramme = fallback.code;
+    MSDS.saveProgramme(activeProgramme);
+  }
+
+  setProgrammeLoading(true);
+  MSDS.loadCourseIndex().then((index) => {
+    data = index;
     courses = data.courses;
+    courseMap = new Map(courses.map((course) => [course.code, course]));
     programmes = MSDS.getProgrammes(data);
-    reloadSelections();
+    normalizeActiveProgramme();
     // 默认展开当前项目所在的学院与院系，避免级联行初始为空
     const startingProgramme = currentProgramme();
     activeCollege = startingProgramme.college_en || "College of Computing";
-    activeDepartment = startingProgramme.department_en || startingProgramme.department || "Department";
-    renderProgrammePills();
-    renderProgrammeStats();
-    renderTimeAxis();
+    activeDepartment = departmentKeyOf(startingProgramme);
     bindEvents();
-    applyDefaultSelections();
-    updateSemesterSwitchUI();
-    renderAll();
-    updateCollegeEmptyState();
+    return refreshAfterProgrammeChange();
   }).catch((error) => {
+    setProgrammeLoading(false);
     listElement.innerHTML = `<div class="empty-list">${MSDS.escapeHtml(error.message)}<br>请通过本地服务器打开网站。</div>`;
   });
 })();

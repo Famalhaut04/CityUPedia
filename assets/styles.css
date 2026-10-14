@@ -757,6 +757,14 @@ body {
   box-shadow: var(--shadow-card);
 }
 
+/* 切换项目时该项目的班次/评价按需加载，期间锁定面板 */
+.planner-shell.is-loading .timetable-panel,
+.planner-shell.is-loading .selected-list {
+  opacity: 0.55;
+  pointer-events: none;
+  transition: opacity 160ms ease;
+}
+
 .course-sidebar {
   display: flex;
   min-height: 0;
@@ -1831,8 +1839,12 @@ body {
 .timetable {
   position: relative;
   display: grid;
-  grid-template-columns: 60px repeat(6, minmax(132px, 1fr));
-  grid-template-rows: 52px calc(13 * var(--hour-height));
+  /* 小时数与星期数由 planner.js 按已选课程设置（默认 09:00–22:00、周一至周六；周日/夜课按需扩展） */
+  --grid-hours: 13;
+  --day-count: 6;
+  /* 列最小宽按星期数均分（6 列时为 132px），显示周日列时整表不额外变宽 */
+  grid-template-columns: 60px repeat(var(--day-count), minmax(calc(792px / var(--day-count)), 1fr));
+  grid-template-rows: 52px calc(var(--grid-hours) * var(--hour-height));
   min-width: 900px;
 }
 
@@ -1867,6 +1879,11 @@ body {
 .day-heading[data-day="R"] { grid-column: 5; }
 .day-heading[data-day="F"] { grid-column: 6; }
 .day-heading[data-day="S"] { grid-column: 7; }
+.day-heading[data-day="U"] { grid-column: 8; }
+
+.day-heading[hidden] {
+  display: none;
+}
 
 .day-heading strong {
   font-size: 12px;
@@ -1904,14 +1921,14 @@ body {
 
 .day-columns {
   display: grid;
-  grid-column: 2 / 8;
+  grid-column: 2 / -1;
   grid-row: 2;
-  grid-template-columns: repeat(6, minmax(132px, 1fr));
+  grid-template-columns: repeat(var(--day-count), minmax(calc(792px / var(--day-count)), 1fr));
 }
 
 .day-column {
   position: relative;
-  height: calc(13 * var(--hour-height));
+  height: calc(var(--grid-hours) * var(--hour-height));
   border-right: 1px solid var(--hairline);
   background-image: linear-gradient(to bottom, transparent calc(100% - 1px), var(--hairline) 1px);
   background-size: 100% var(--hour-height);
@@ -5188,12 +5205,12 @@ body {
 
   /* 收窄课表：时间轴 60px→44px，列最小宽 132px→86px，事件块字号同步缩小 */
   .timetable {
-    grid-template-columns: 44px repeat(6, minmax(86px, 1fr));
+    grid-template-columns: 44px repeat(var(--day-count), minmax(calc(516px / var(--day-count)), 1fr));
     min-width: 580px;
   }
 
   .day-columns {
-    grid-template-columns: repeat(6, minmax(86px, 1fr));
+    grid-template-columns: repeat(var(--day-count), minmax(calc(516px / var(--day-count)), 1fr));
   }
 
   .course-event {
