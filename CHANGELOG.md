@@ -1,5 +1,18 @@
 # 更新日志 / Changelog
 
+## 1.5.2 · 2026-10-31
+
+### 界面：左侧导航栏字体统一
+
+- 侧栏整体改为单一字族（Noto Sans SC → PingFang SC → Microsoft YaHei 回退链），品牌标题、菜单项、语言下拉、分组标题全部由同一字体渲染；此前混排文本（如「MAHUM · 文学硕士（房屋及都市管理）」）中拉丁与中文分别由 Inter / Noto Sans SC 渲染，字重与 x-height 视觉不一致
+- 子元素（select/button/strong/span 等）显式 `font-family: inherit`，杜绝浏览器默认样式回退；样式表缓存版本号升级（`v=20261004a`）
+
+### 数据：计算学院 SemB 课程评价检索结论（无新增）
+
+- 本轮目标为 25 门尚无社区评价的计算学院 SemB 课程（CS5281/5288/5493/6283/6284、DSC6003/6007/6015/6019/8001/8002/8007/8009/8013/8014、CS652x 项目/实习课等）
+- 检索渠道：小红书站内搜索（未登录有登录墙，历史帖 token 已失效）、小红书内容聚合仓 [null1024-ws/CityU-CS-Guide](https://github.com/null1024-ws/CityU-CS-Guide)（仅覆盖已有评价的 CS5xxx 课程，目标课均为「仅课名罗列，无评价」占位）、[yqia03/cityu-course-radar-public](https://github.com/yqia03/cityu-course-radar-public) 外部评价与搜索记录、Google/必应/搜狗/知乎/一亩三分地（小红书内容不被搜索引擎收录，目标课程在其他平台亦无逐课评价）
+- **结论：这 13 门内容课 + 12 门项目/实习课目前公开平台无可发现的逐课学生评价，不作收录、不虚构内容**；待社区出现新帖（或以登录态检索小红书）后补充
+
 ## 1.5.1 · 2026-10-04
 
 ### 功能：城大攻略（CityU Guides）

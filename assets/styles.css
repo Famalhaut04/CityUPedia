@@ -164,6 +164,17 @@ body {
   border-right: 1px solid var(--border);
   background: var(--card);
   box-shadow: 2px 0 8px rgba(15, 23, 42, 0.04);
+  /* 侧栏字体统一：单一字族同时覆盖拉丁与中文，避免混排文本两种字体混渲 */
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.sidebar select,
+.sidebar button,
+.sidebar input,
+.sidebar strong,
+.sidebar small,
+.sidebar span {
+  font-family: inherit;
 }
 
 .sidebar::-webkit-scrollbar {
