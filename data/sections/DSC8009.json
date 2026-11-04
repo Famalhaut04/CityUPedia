@@ -1,20 +1,74 @@
 [
-{
-    "crn":  "13941",
-    "section":  "C04",
-    "credits":  3,
-    "web":  "Y",
-    "available":  "160",
-    "capacity":  "160",
-    "date":  "11/01/2027 - 17/04/2027",
-    "day":  "F",
-    "time":  "16:00 - 18:50",
-    "building":  "LAU",
-    "room":  "LT-501",
-    "instructor":  "TBA DS005",
-    "medium":  "English",
-    "notes":  [
-
-              ]
-}
+ {
+  "crn": "13939",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "65",
+  "capacity": "65",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "16:00 - 18:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "TBA DS005",
+  "medium": "English",
+  "notes": [
+   "only for Programme: DS/M, DS/P, DS2/C, DS2/M, DS2/P"
+  ]
+ },
+ {
+  "crn": "13940",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "15",
+  "capacity": "15",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "16:00 - 18:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "TBA DS005",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSEM1"
+  ]
+ },
+ {
+  "crn": "15054",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "16:00 - 18:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "TBA DS005",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIDI"
+  ]
+ },
+ {
+  "crn": "13941",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "160",
+  "capacity": "160",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "16:00 - 18:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "TBA DS005",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1"
+  ]
+ }
 ]

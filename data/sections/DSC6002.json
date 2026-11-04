@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "crn": "11818",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "3",
+  "capacity": "450",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAN Yu Wing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1"
+  ]
+ }
+]

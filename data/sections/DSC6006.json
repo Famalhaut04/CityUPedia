@@ -34,5 +34,41 @@
   "notes": [
    "only for Programme: MSDS1"
   ]
+ },
+ {
+  "crn": "11461",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "75",
+  "capacity": "75",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAN Yu Wing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1"
+  ]
+ },
+ {
+  "crn": "11798",
+  "section": "DP1",
+  "credits": 3,
+  "web": "N",
+  "available": "75",
+  "capacity": "75",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "CHAN Yu Wing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1"
+  ]
  }
 ]

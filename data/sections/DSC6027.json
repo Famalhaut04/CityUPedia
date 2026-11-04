@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "crn": "15274",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "300",
+  "capacity": "300",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "TBA DS009",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIFS"
+  ]
+ }
+]

@@ -1,20 +1,56 @@
 [
-{
-    "crn":  "15290",
-    "section":  "C02",
-    "credits":  3,
-    "web":  "Y",
-    "available":  "230",
-    "capacity":  "230",
-    "date":  "11/01/2027 - 17/04/2027",
-    "day":  "M",
-    "time":  "09:00 - 11:50",
-    "building":  "LI",
-    "room":  "3505",
-    "instructor":  "WANG Linlin",
-    "medium":  "English",
-    "notes":  [
-
-              ]
-}
+ {
+  "crn": "14195",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "59",
+  "capacity": "60",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "WANG Linlin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: DS2/C, DS2/M, DS2/P"
+  ]
+ },
+ {
+  "crn": "15290",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "230",
+  "capacity": "230",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "WANG Linlin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1"
+  ]
+ },
+ {
+  "crn": "15306",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "M",
+  "time": "09:00 - 11:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "WANG Linlin",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAIDI"
+  ]
+ }
 ]

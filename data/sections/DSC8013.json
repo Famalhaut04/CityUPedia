@@ -1,20 +1,74 @@
 [
-{
-    "crn":  "12390",
-    "section":  "C02",
-    "credits":  3,
-    "web":  "Y",
-    "available":  "165",
-    "capacity":  "165",
-    "date":  "11/01/2027 - 17/04/2027",
-    "day":  "R",
-    "time":  "15:00 - 17:50",
-    "building":  "LI",
-    "room":  "3505",
-    "instructor":  "SO Ernest",
-    "medium":  "English",
-    "notes":  [
-
-              ]
-}
+ {
+  "crn": "11560",
+  "section": "C01",
+  "credits": 3,
+  "web": "Y",
+  "available": "60",
+  "capacity": "60",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "SO Ernest",
+  "medium": "English",
+  "notes": [
+   "only for Programme: DS/C, DS/M, DS/P, DS2/C, DS2/M, DS2/P"
+  ]
+ },
+ {
+  "crn": "12390",
+  "section": "C02",
+  "credits": 3,
+  "web": "Y",
+  "available": "165",
+  "capacity": "165",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "SO Ernest",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1"
+  ]
+ },
+ {
+  "crn": "12133",
+  "section": "C03",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "SO Ernest",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BIOS/P, BIOS2/P"
+  ]
+ },
+ {
+  "crn": "12859",
+  "section": "C04",
+  "credits": 3,
+  "web": "Y",
+  "available": "70",
+  "capacity": "70",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "R",
+  "time": "15:00 - 17:50",
+  "building": "LI",
+  "room": "3505",
+  "instructor": "SO Ernest",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBIOS1"
+  ]
+ }
 ]

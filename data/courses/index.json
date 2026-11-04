@@ -10007,15 +10007,15 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "SD",
-   "prerequisites": "Nil",
+   "prerequisites": "SDSC5001 or DSC5001",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "53",
+    "capacity": "500",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 2,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC6001.pdf"
   },
@@ -10037,11 +10037,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "3",
+    "capacity": "450",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC6002.pdf"
   },
@@ -10063,8 +10063,8 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "200",
-    "capacity": "200",
+    "available": "80",
+    "capacity": "80",
     "medium": "English"
    },
    "section_count": 1,
@@ -10126,12 +10126,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "298",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 2,
+   "section_count": 4,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC6006.pdf"
   },
@@ -10155,11 +10155,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "190",
-    "capacity": "190",
+    "available": "250",
+    "capacity": "250",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSAI": "group1"
@@ -10318,11 +10318,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "200",
-    "capacity": "200",
+    "available": "400",
+    "capacity": "400",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 3,
    "semester_tag": "SemA+SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC6016.pdf"
   },
@@ -10341,14 +10341,14 @@
    "credits": 3,
    "remarks": "SD",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "DSC6032 SDSC6032",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "285",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemA+SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC6017.pdf"
   },
@@ -10394,15 +10394,15 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "SD",
-   "prerequisites": "Nil",
+   "prerequisites": "SDSC5001 or DSC5001",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "100",
-    "capacity": "100",
+    "available": "300",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSAIFS": "track4"
@@ -10482,12 +10482,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "79",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC6022.pdf"
   },
@@ -10532,14 +10532,14 @@
    "credits": 6,
    "remarks": "Dissertation",
    "prerequisites": "Nil",
-   "exclusive_course": "DSC6023",
+   "exclusive_course": "DSC6023 SDSC6023",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "50",
+    "capacity": "50",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC6024.pdf"
   },
@@ -10620,12 +10620,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSAIFS": "track4"
@@ -10649,12 +10649,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSAIFS": "track4"
@@ -10678,12 +10678,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "300",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSAIFS": "track4"
@@ -10707,12 +10707,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "200",
+    "capacity": "200",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSAIFS": "track4"
@@ -10895,11 +10895,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "230",
-    "capacity": "230",
+    "available": "299",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 3,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC8007.pdf"
   },
@@ -10925,11 +10925,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "160",
-    "capacity": "160",
+    "available": "250",
+    "capacity": "250",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 4,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC8009.pdf"
   },
@@ -10979,11 +10979,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "165",
-    "capacity": "165",
+    "available": "300",
+    "capacity": "300",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 4,
    "semester_tag": "SemA+SemB",
    "programme_elective_groups": {},
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC8013.pdf"
@@ -11006,11 +11006,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "140",
-    "capacity": "140",
+    "available": "199",
+    "capacity": "200",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/DSC8014.pdf"
   },

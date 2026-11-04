@@ -1,1 +1,40 @@
-[]
+[
+ {
+  "crn": "11460",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "22",
+  "capacity": "250",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "S",
+  "time": "13:00 - 15:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "ZHAO Xiangyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1",
+   "Waitlist: 50"
+  ]
+ },
+ {
+  "crn": "13388",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "31",
+  "capacity": "250",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "M",
+  "time": "19:00 - 21:50",
+  "building": "LAU",
+  "room": "LT-501",
+  "instructor": "ZHAO Xiangyu",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSDS1",
+   "Waitlist: 50"
+  ]
+ }
+]
