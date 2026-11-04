@@ -1604,27 +1604,27 @@
 
   function initUpdateNotice() {
     try {
-      if (localStorage.getItem("cityu-schedule-update-20261003") === "dismissed") return;
+      if (localStorage.getItem("cityu-schedule-update-20261104-v200") === "dismissed") return;
     } catch (e) { /* localStorage 不可用时仍显示通知 */ }
     const lang = getStoredLang();
     const isEn = lang === "en";
-    const zhTitle = "全校八大学院接入 · v1.5.0（10/3）";
-    const zhBody = "新增商学院、人文社会科学院、理学院、生物医学院、兽医学及生命科学院、创意媒体学院、能源及环境学院、法律学院共 47 个官方硕士项目，并逐课对照官方课程页复核：累计剔除 282 门不开设课程、对齐 82 门开课学期、回填 16 门班次，1,072 门课程接入官方课程详情 PDF 直链（全站 68 项目 / 1,118 门，其中 619 门带 AIMS 班次）。全站界面升级三语下拉切换（简体中文 / 繁體中文 / English），导航、排课、课程详情与评价中心全量翻译。";
+    const zhTitle = "Semester B 课程更新 · v2.0.0（11/4）";
+    const zhBody = "已对照 2026-11-04 AIMS 快照复核计算学院、数据科学系和生物统计学系的 58 门课程、124 条 Semester B 班次，修正 CRN、注册资格及候补剩余名额标注，新增 BIOS6908。全站现有 68 个项目、1,119 门课程，其中 619 门带 AIMS 班次。名额为快照采集时状态，请以 AIMS 最新信息为准。";
     const notice = document.createElement("div");
     notice.className = "update-notice";
     notice.setAttribute("role", "status");
     notice.innerHTML =
       '<div class="update-notice-body">' +
-        '<strong>' + (isEn ? "All 8 Colleges Added — v1.5.0 (Oct 3)" : T(zhTitle)) + '</strong>' +
+        '<strong>' + (isEn ? "Semester B Course Update — v2.0.0 (Nov 4)" : T(zhTitle)) + '</strong>' +
         '<span>' + (isEn
-          ? "47 more official taught master's programmes across Business, Liberal Arts & Social Sciences, Science, Biomedicine, Veterinary Medicine, Creative Media, Energy & Environment, and Law — every course re-verified against its official 2026/27 catalogue page: 282 not-offered courses removed, 82 offering terms aligned, 16 timetables restored, and 1,072 courses now link the official course-outline PDF (now 68 programmes / 1,119 courses, 619 with AIMS sections). Community course reviews added for BIS, OSCM, LLM, MACNM and Marketing."
+          ? "Verified 58 courses and 124 Semester B sections across Computer Science, Data Science and Biostatistics against the Nov 4, 2026 AIMS snapshots. Corrected CRNs, programme eligibility and waitlist-availability labels; added BIOS6908. The site now covers 68 programmes and 1,119 courses, including 619 with AIMS sections. Availability reflects the snapshot; consult AIMS for the latest status."
           : T(zhBody)) +
         '</span>' +
       '</div>' +
       '<button class="update-notice-close" type="button" aria-label="' + (isEn ? "Dismiss" : "关闭") + '">&times;</button>';
     notice.querySelector(".update-notice-close").addEventListener("click", () => {
       notice.remove();
-      try { localStorage.setItem("cityu-schedule-update-20261003", "dismissed"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("cityu-schedule-update-20261104-v200", "dismissed"); } catch (e) { /* ignore */ }
     });
     document.body.prepend(notice);
   }

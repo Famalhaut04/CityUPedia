@@ -1,6 +1,6 @@
 [
  {
-  "crn": "15550",
+  "crn": "15350",
   "section": "C01",
   "credits": 3,
   "web": "Y",
@@ -14,7 +14,7 @@
   "instructor": "SONG Linqi, LI Jie",
   "medium": "English",
   "notes": [
-   "only for Programme: CS3/C, CS3/M, CS3/P, MSCS2, MSCS3, MSEC4"
+   "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4"
   ]
  },
  {
@@ -33,7 +33,7 @@
   "medium": "English",
   "notes": [
    "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4",
-   "Waitlist: 54"
+   "Waitlist Avail: 54"
   ]
  },
  {
@@ -70,7 +70,7 @@
   "medium": "English",
   "notes": [
    "only for Programme: MSDS1",
-   "Waitlist: 6"
+   "Waitlist Avail: 6"
   ]
  },
  {
@@ -89,7 +89,7 @@
   "medium": "English",
   "notes": [
    "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4",
-   "Waitlist: 14"
+   "Waitlist Avail: 14"
   ]
  },
  {
@@ -126,7 +126,7 @@
   "medium": "English",
   "notes": [
    "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4",
-   "Waitlist: 20"
+   "Waitlist Avail: 20"
   ]
  },
  {
@@ -145,7 +145,7 @@
   "medium": "English",
   "notes": [
    "only for Programme: CS3/C, CS3/M, CS3/P, MSAI, MSCS2, MSCS3, MSEC4",
-   "Waitlist: 20"
+   "Waitlist Avail: 20"
   ]
  },
  {
@@ -164,7 +164,7 @@
   "medium": "English",
   "notes": [
    "only for Programme: MSDS1",
-   "Waitlist: 2"
+   "Waitlist Avail: 2"
   ]
  },
  {
@@ -201,7 +201,7 @@
   "medium": "English",
   "notes": [
    "only for Programme: MSDS1",
-   "Waitlist: 2"
+   "Waitlist Avail: 2"
   ]
  },
  {
@@ -220,7 +220,7 @@
   "medium": "English",
   "notes": [
    "only for Programme: MSDS1",
-   "Waitlist: 2"
+   "Waitlist Avail: 2"
   ]
  }
 ]
