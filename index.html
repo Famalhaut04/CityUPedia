@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CityU Pedia · 香港城市大学授课式硕士排课与课程评价综合平台，支持计算学院七大硕士项目">
     <title>CityU Pedia · 城大百科</title>
+    <link rel="preload" href="data/courses/index.json" as="fetch" crossorigin>
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="assets/styles.css?v=20261004a">
   </head>
   <body data-page="planner">
@@ -88,15 +89,15 @@
         <div class="programme-bar-inner">
           <div class="cascade-row" id="college-row" aria-label="选择学院">
             <span class="cascade-label" data-i18n="college.label">学院</span>
-            <div id="college-select" class="cascade-select-slot"></div>
+            <div id="college-select" class="cascade-select-slot" aria-busy="true">正在加载学院…</div>
           </div>
           <div class="cascade-row" id="department-row" aria-label="选择系">
             <span class="cascade-label" data-i18n="department.label">院系</span>
-            <div id="department-select" class="cascade-select-slot"></div>
+            <div id="department-select" class="cascade-select-slot" aria-busy="true">正在加载院系…</div>
           </div>
           <div class="cascade-row" id="programme-row" aria-label="选择硕士项目">
             <span class="cascade-label" data-i18n="prog.label">硕士项目</span>
-            <div id="programme-select" class="cascade-select-slot"></div>
+            <div id="programme-select" class="cascade-select-slot" aria-busy="true">正在加载项目…</div>
             <span id="programme-bar-hint" class="programme-bar-hint"></span>
           </div>
         </div>
@@ -138,6 +139,7 @@
               <span>学期</span>
               <div id="term-filter-row" class="day-filter-row"></div>
             </div>
+            <p id="course-loading-status" class="notice" role="status">正在加载课程目录…</p>
             <div id="course-list" class="course-list" aria-live="polite"></div>
           </div>
 
@@ -211,7 +213,7 @@
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
     <script src="assets/cloud-config.js?v=20260812f"></script>
 <script src="assets/lark-config.js?v=20260819a"></script>
-    <script src="assets/shared.js?v=20261104-v200"></script>
-    <script src="assets/planner.js?v=20260911a"></script>
+    <script src="assets/shared.js?v=20261104-v201"></script>
+    <script src="assets/planner.js?v=20261104-v201"></script>
   </body>
 </html>

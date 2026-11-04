@@ -550,7 +550,7 @@
   }
 
   Promise.all([
-    MSDS.loadCourseData(),
+    MSDS.loadCourseDetails([code], { sources: true }),
     fetch("data/course-documents/index.json").then((response) => {
       if (!response.ok) throw new Error("课程介绍索引读取失败");
       return response.json();

@@ -25,6 +25,8 @@
   let allData = null;
   let allCourses = [];
   let searchQuery = "";
+  let viewRequest = 0;
+  let reviewsPending = false;
 
   // ============ 构建 学院 → 院系 → 课程 层级 ============
   // 依据 programmes 中的 college / department 归类课程
@@ -104,8 +106,8 @@
           <p class="reviews-course-programmes">${MSDS.escapeHtml(programmes)}</p>
         </div>
         <div class="reviews-course-row-side">
-          <span class="reviews-course-avg">${displayScore ? `<b>${displayScore.toFixed(1)}</b><i>/5</i>` : '<span class="reviews-course-avg-empty">暂无评分</span>'}</span>
-          <span class="reviews-course-count">${count} ${MSDS.escapeHtml(t("reviews.reviews"))}</span>
+          <span class="reviews-course-avg">${displayScore ? `<b>${displayScore.toFixed(1)}</b><i>/5</i>` : `<span class="reviews-course-avg-empty">${course.reviews_loaded ? "暂无评分" : "评价加载中…"}</span>`}</span>
+          <span class="reviews-course-count">${reviewsPending ? "加载中…" : `${count} ${MSDS.escapeHtml(t("reviews.reviews"))}`}</span>
         </div>
         <svg class="reviews-course-row-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
       </article>`;
@@ -155,8 +157,8 @@
     const r = document.getElementById("stat-reviews");
     const a = document.getElementById("stat-avg");
     if (c) c.textContent = stats.courses;
-    if (r) r.textContent = stats.reviews;
-    if (a) a.textContent = stats.avg ? stats.avg.toFixed(1) : "—";
+    if (r) r.textContent = reviewsPending ? "…" : stats.reviews;
+    if (a) a.textContent = reviewsPending ? "…" : (stats.avg ? stats.avg.toFixed(1) : "—");
   }
 
   // 三个统计项统一描述“当前列出的课程”：此前课程总数是全站数字，
@@ -172,29 +174,40 @@
 
   // 加载某院系课程列表 + 批量云端评价
   function loadDepartment(dept, force) {
-    const courses = currentCourses;
-    const container = document.getElementById("reviews-course-list");
-    if (!container) return;
-    if (!MSDS.cloudReviewsEnabled()) {
-      renderCourseList(courses, {});
-      applyStats(courses, {});
-      return;
+    showCourses(currentCourses);
+  }
+
+  async function showCourses(courses) {
+    const request = ++viewRequest;
+    const codes = courses.map((course) => course.code);
+    reviewsPending = true;
+    renderCourseList(courses, {});
+    applyStats(courses, {});
+    const status = document.getElementById("reviews-loading-status");
+    if (status) { status.hidden = false; status.textContent = "课程目录已就绪，正在加载当前列表的评价…"; }
+    const results = await Promise.allSettled([
+      MSDS.loadCourseDetails(codes, { sections: false }),
+      MSDS.cloudReviewsEnabled() ? MSDS.fetchCloudReviewsBatch(codes) : Promise.resolve({})
+    ]);
+    if (request !== viewRequest) return;
+    reviewsPending = false;
+    const grouped = results[1].status === "fulfilled" ? results[1].value : {};
+    renderCourseList(courses, grouped);
+    applyStats(courses, grouped);
+    if (status) {
+      const failed = results.some((result) => result.status === "rejected");
+      status.hidden = !failed;
+      status.innerHTML = failed ? '部分评价加载失败。<button type="button">重试</button>' : "";
+      status.querySelector("button")?.addEventListener("click", () => showCourses(courses));
     }
-    container.innerHTML = `<div class="cloud-reviews-loading">${MSDS.escapeHtml(t("reviews.loading"))}</div>`;
-    MSDS.fetchCloudReviewsBatch(courses.map((c) => c.code))
-      .then((grouped) => {
-        renderCourseList(courses, grouped);
-        applyStats(courses, grouped);
-      })
-      .catch(() => {
-        renderCourseList(courses, {});
-        applyStats(courses, {});
-      });
   }
 
   // ============ 课程代码搜索（全站范围） ============
   // 输入课程代码（大小写不敏感，支持前缀匹配），在全站课程中查找并展示结果
   function searchAllCourses(query) {
+    viewRequest++;
+    const loadingStatus = document.getElementById("reviews-loading-status");
+    if (loadingStatus) loadingStatus.hidden = true;
     const q = String(query || "").trim().toUpperCase();
     const container = document.getElementById("reviews-course-list");
     const empty = document.getElementById("reviews-course-empty");
@@ -227,21 +240,7 @@
       return;
     }
     empty.hidden = true;
-    if (!MSDS.cloudReviewsEnabled()) {
-      renderCourseList(matched, {});
-      applyStats(matched, {});
-      return;
-    }
-    container.innerHTML = `<div class="cloud-reviews-loading">${MSDS.escapeHtml(t("reviews.loading"))}</div>`;
-    MSDS.fetchCloudReviewsBatch(matched.map((c) => c.code))
-      .then((grouped) => {
-        renderCourseList(matched, grouped);
-        applyStats(matched, grouped);
-      })
-      .catch(() => {
-        renderCourseList(matched, {});
-        applyStats(matched, {});
-      });
+    showCourses(matched);
   }
 
   // ============ 初始化 ============

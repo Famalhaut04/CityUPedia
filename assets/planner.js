@@ -25,6 +25,8 @@
   let activeFilter = "all";
   let activeDay = "all";
   let activeSemesterFilter = activeSemester;
+  let programmeLoadId = 0;
+  let programmeLoadError = "";
 
   const listElement = document.getElementById("course-list");
   const selectedListElement = document.getElementById("selected-list");
@@ -172,6 +174,7 @@
       emptyText: "没有匹配的项目",
       onChange: (code) => switchProgramme(code)
     });
+    [collegeSlot, departmentSlot, programmeSlot].forEach((slot) => slot.setAttribute("aria-busy", "false"));
   }
 
   // 一级：学院
@@ -428,7 +431,7 @@
               ${reviewBadge}
             </div>
             <a class="course-title-link" href="course.html?code=${encodeURIComponent(course.code)}">${MSDS.escapeHtml(course.programme_title)}</a>
-            <div class="course-meta"><span>${course.credits} 学分</span><span>${primaryOptions.length} 个主课班次</span>${MSDS.ratingStars(rec, { withMeta: false }) ? `<span class="course-rating">${MSDS.ratingStars(rec, { withMeta: false })}</span>` : ""}</div>
+            <div class="course-meta"><span>${course.credits} 学分</span><span>${course.sections_loaded ? `${primaryOptions.length} 个主课班次` : "班次加载中…"}</span>${MSDS.ratingStars(rec, { withMeta: false }) ? `<span class="course-rating">${MSDS.ratingStars(rec, { withMeta: false })}</span>` : ""}</div>
             <div class="course-schedule" title="${MSDS.escapeHtml(scheduleText)}">${MSDS.escapeHtml(scheduleText)}</div>
             <div class="course-preview" aria-label="${MSDS.escapeHtml(course.code)} 课程预览">
               <p>${MSDS.escapeHtml(rec.summary)}</p>
@@ -440,7 +443,7 @@
           ${(() => {
             // 所有已添加课程都显示为可再次点击取消的按钮，点击即可撤销选择
             if (!isAdded) {
-              return `<button class="add-course" type="button" data-code="${MSDS.escapeHtml(course.code)}" aria-label="加入 ${MSDS.escapeHtml(course.code)}" title="加入课表">+</button>`;
+              return `<button class="add-course" type="button" data-code="${MSDS.escapeHtml(course.code)}" aria-label="加入 ${MSDS.escapeHtml(course.code)}" title="加入课表" ${course.sections_loaded ? "" : "disabled"}>+</button>`;
             }
             return `<button class="add-course is-added is-removable" type="button" data-code="${MSDS.escapeHtml(course.code)}" aria-label="取消选择 ${MSDS.escapeHtml(course.code)}" title="点击取消选择">✓</button>`;
           })()}
@@ -477,7 +480,7 @@
           <div class="section-selects">
             ${primaries.length
               ? `<label>主课<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="primary">${sectionOptions(primaries, selected.primaryCrn)}</select></label>`
-              : `<p class="selected-course-note">${MSDS.escapeHtml(MSDS.t("selected.nosection"))}</p>`}
+              : `<p class="selected-course-note">${course.sections_loaded ? MSDS.escapeHtml(MSDS.t("selected.nosection")) : "班次加载中…"}</p>`}
             ${tutorials.length ? `<label>Tutorial<select data-code="${MSDS.escapeHtml(course.code)}" data-kind="tutorial"><option value="">不选择</option>${sectionOptions(tutorials, selected.tutorialCrn)}</select></label>` : ""}
           </div>
         </article>`;
@@ -631,7 +634,7 @@
     // 以及 AIMS 快照里暂无班次的跨院系选修课）。它们可以加入并计入学分，但排不进课表，
     // 需要和“还没加课”区分开，否则课表会误报成空的。
     const scheduled = new Set(events.map((event) => event.course.code));
-    const unscheduled = programmeCourses().filter((course) => selections[course.code] && !scheduled.has(course.code));
+    const unscheduled = programmeCourses().filter((course) => course.sections_loaded && selections[course.code] && !scheduled.has(course.code));
     const unscheduledCodes = unscheduled.map((course) => course.code).join(MSDS.getStoredLang() === "en" ? ", " : "、");
     document.getElementById("empty-timetable").hidden = scheduled.size > 0 || unscheduled.length > 0;
     const unscheduledEmpty = document.getElementById("unscheduled-timetable");
@@ -750,6 +753,49 @@
     renderSelectedChips();
     renderTimetable();
     updateSummary();
+    renderLoadingStatus();
+  }
+
+  function renderLoadingStatus() {
+    const pending = programmeCourses().some((course) => !course.sections_loaded || !course.reviews_loaded);
+    const status = document.getElementById("course-loading-status");
+    if (status) {
+      status.hidden = !pending && !programmeLoadError;
+      status.innerHTML = programmeLoadError
+        ? '部分课程信息加载失败，已加载的课程仍可使用。<button type="button" id="retry-course-loading">重试</button>'
+        : "课程目录已就绪，正在加载当前专业的班次与评价…";
+      status.querySelector("button")?.addEventListener("click", loadCurrentProgramme);
+    }
+    const selectedPending = programmeCourses().some((course) => selections[course.code] && !course.sections_loaded);
+    document.getElementById("export-pdf").disabled = selectedPending;
+    if (selectedPending) {
+      document.getElementById("empty-timetable").hidden = true;
+      const conflictStatus = document.getElementById("conflict-status");
+      conflictStatus.className = "conflict-status";
+      conflictStatus.textContent = "正在加载已选课程的班次…";
+    }
+  }
+
+  async function loadCurrentProgramme() {
+    const loadId = ++programmeLoadId;
+    programmeLoadError = "";
+    renderLoadingStatus();
+    let repaint;
+    const onProgress = () => {
+      if (repaint) return;
+      repaint = setTimeout(() => {
+        repaint = null;
+        if (loadId === programmeLoadId) renderAll();
+      }, 80);
+    };
+    try {
+      await MSDS.loadCourseDetails([...Object.keys(selections), ...programmeCourses().map((course) => course.code)], { onProgress });
+    } catch (error) {
+      if (loadId !== programmeLoadId) return;
+      programmeLoadError = error.message;
+    }
+    clearTimeout(repaint);
+    if (loadId === programmeLoadId) renderAll();
   }
 
   function applyDefaultSelections() {
@@ -808,6 +854,10 @@
       delete selections[code];
       MSDS.showToast(`已移除 ${code}`);
     } else {
+      if (!course.sections_loaded) {
+        MSDS.showToast("班次仍在加载，请稍后重试");
+        return;
+      }
       // 学期隔离：a 学期的课不能在 b 学期选上
       if (!MSDS.courseOfferedInSemester(course, activeSemester)) {
         const terms = MSDS.courseTerms(course);
@@ -881,6 +931,7 @@
     renderProgrammeStats();
     renderAll();
     updateCollegeEmptyState();
+    loadCurrentProgramme();
     MSDS.showToast(`已切换至 ${currentProgramme().name_zh}`);
   }
 
@@ -1082,6 +1133,7 @@
     renderProgrammePills();
     renderProgrammeStats();
     renderAll();
+    loadCurrentProgramme();
     MSDS.showToast(`已切换至 ${currentProgramme().name_zh}`);
   }
 
@@ -1208,27 +1260,36 @@
       lastHourPx = now;
       renderTimeAxis();
       renderTimetable();
+      renderLoadingStatus();
     });
   }
 
-  MSDS.loadCourseData().then((loadedData) => {
-    data = loadedData;
-    courses = data.courses;
-    programmes = MSDS.getProgrammes(data);
-    reloadSelections();
-    // 默认展开当前项目所在的学院与院系，避免级联行初始为空
-    const startingProgramme = currentProgramme();
-    activeCollege = startingProgramme.college_en || "College of Computing";
-    activeDepartment = startingProgramme.department_en || startingProgramme.department || "Department";
-    renderProgrammePills();
-    renderProgrammeStats();
-    renderTimeAxis();
-    bindEvents();
-    applyDefaultSelections();
-    updateSemesterSwitchUI();
-    renderAll();
-    updateCollegeEmptyState();
-  }).catch((error) => {
-    listElement.innerHTML = `<div class="empty-list">${MSDS.escapeHtml(error.message)}<br>请通过本地服务器打开网站。</div>`;
-  });
+  function initializePlanner() {
+    MSDS.loadCourseData().then((loadedData) => {
+      data = loadedData;
+      courses = data.courses;
+      programmes = MSDS.getProgrammes(data);
+      reloadSelections();
+      // 默认展开当前项目所在的学院与院系，避免级联行初始为空
+      const startingProgramme = currentProgramme();
+      activeCollege = startingProgramme.college_en || "College of Computing";
+      activeDepartment = startingProgramme.department_en || startingProgramme.department || "Department";
+      renderProgrammePills();
+      renderProgrammeStats();
+      renderTimeAxis();
+      bindEvents();
+      applyDefaultSelections();
+      updateSemesterSwitchUI();
+      renderAll();
+      updateCollegeEmptyState();
+      loadCurrentProgramme();
+    }).catch((error) => {
+      const status = document.getElementById("course-loading-status");
+      status.hidden = false;
+      status.innerHTML = '课程目录加载失败，请检查网络。<button type="button">重试</button>';
+      status.querySelector("button")?.addEventListener("click", initializePlanner);
+      listElement.innerHTML = `<div class="empty-list">${MSDS.escapeHtml(error.message)}</div>`;
+    });
+  }
+  initializePlanner();
 })();
