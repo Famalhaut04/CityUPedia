@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "crn": "14920",
+  "section": "D61",
+  "credits": 3,
+  "web": "Y",
+  "available": "3",
+  "capacity": "150",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "XU Jinfeng, YANG Yi, XUE Haoran, SUN Saifei, JIAO Shuhao, CAI Mingxuan, SU Wen",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBIOS1"
+  ]
+ }
+]

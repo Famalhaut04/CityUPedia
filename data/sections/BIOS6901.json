@@ -1,1 +1,59 @@
-[]
+[
+ {
+  "crn": "12454",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "90",
+  "capacity": "90",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1507",
+  "instructor": "SUN Saifei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBIOS1",
+   "Waitlist: 12"
+  ]
+ },
+ {
+  "crn": "12856",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "9",
+  "capacity": "10",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1507",
+  "instructor": "SUN Saifei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BIOS2/C, BIOS2/P",
+   "Waitlist: 1"
+  ]
+ },
+ {
+  "crn": "12455",
+  "section": "CP2",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "W",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "1507",
+  "instructor": "SUN Saifei",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MPH",
+   "Waitlist: 3"
+  ]
+ }
+]

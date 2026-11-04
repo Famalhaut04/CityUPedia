@@ -1,1 +1,97 @@
-[]
+[
+ {
+  "crn": "12392",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "120",
+  "capacity": "120",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "JIAO Shuhao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBIOS1",
+   "Waitlist: 18"
+  ]
+ },
+ {
+  "crn": "12857",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "JIAO Shuhao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BIOS2/C, BIOS2/P",
+   "Waitlist: 1"
+  ]
+ },
+ {
+  "crn": "12838",
+  "section": "CP1",
+  "credits": 3,
+  "web": "Y",
+  "available": "5",
+  "capacity": "5",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "JIAO Shuhao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSHSB, MSHSM1",
+   "Waitlist: 1"
+  ]
+ },
+ {
+  "crn": "12393",
+  "section": "CP2",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "JIAO Shuhao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MPH, MSPHE",
+   "Waitlist: 3"
+  ]
+ },
+ {
+  "crn": "12596",
+  "section": "CP3",
+  "credits": 3,
+  "web": "Y",
+  "available": "25",
+  "capacity": "25",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "19:00 - 21:50",
+  "building": "YEUNG",
+  "room": "LT-5",
+  "instructor": "JIAO Shuhao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSFMS1",
+   "Waitlist: 5"
+  ]
+ }
+]

@@ -1,5 +1,16 @@
 # 更新日志 / Changelog
 
+## 1.5.5 · 2026-11-04
+
+### 数据：生物统计学系 Semester B 2026/27 班次录入 + 新课 BIOS6908
+
+> 数据来源：AIMS「Courses Offered in Semester B 2026/27」页面截图（6 张，快照时间 2026-11-04 20:33–20:34），与 1.5.3/1.5.4 同一轮采集。
+
+- **6 门生物统计学系课程录入 15 条 SemB 班次**：BIOS5802（生物统计高级方法，MSBIOS/PhD/CP1 三班次）、BIOS6900（时间序列分析，5 班次覆盖 MSBIOS/PhD/MSHSB/MPH/MSFMS1 五类项目限定）、BIOS6901（空间数据分析，3 班次）、BIOS6903（沟通与项目研习，多教师项目课）、BIOS6904（生存分析，双班次）
+- **新增课程 BIOS6908**「AI for Biostatistics: Practice in Life Science and Healthcare」（周一晚 YAN Jun，MSBIOS 限定，先修 BIOS5800+BIOS5801）——AIMS 新开课，官方目录页暂未收录（暂无课程详情 PDF，待目录补录后接入）
+- 满员班次（BIOS5802 C62）名额记 0 并标注「Full」；候补人数照录
+- 全站现为 **68 项目 / 1,119 门课程 / 619 门带 AIMS 班次**
+
 ## 1.5.4 · 2026-11-04
 
 ### 数据：数据科学系 Semester B 2026/27 班次全量录入

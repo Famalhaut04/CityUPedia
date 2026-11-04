@@ -1,1 +1,40 @@
-[]
+[
+ {
+  "crn": "13437",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "90",
+  "capacity": "90",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "Yuan Gan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCBIOS1",
+   "Waitlist: 15"
+  ]
+ },
+ {
+  "crn": "13438",
+  "section": "C62",
+  "credits": 3,
+  "web": "Y",
+  "available": "10",
+  "capacity": "10",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "R",
+  "time": "19:00 - 21:50",
+  "building": "LI",
+  "room": "2610",
+  "instructor": "Yuan Gan",
+  "medium": "English",
+  "notes": [
+   "only for Programme: BIOS2/C, BIOS2/P",
+   "Waitlist: 1"
+  ]
+ }
+]

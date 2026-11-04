@@ -2801,12 +2801,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "19",
+    "capacity": "165",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 3,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/BIOS5802.pdf"
   },
@@ -2833,12 +2833,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "170",
+    "capacity": "170",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 5,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSHSB": "hs",
@@ -2865,12 +2865,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "109",
+    "capacity": "110",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 3,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MPH": "rt"
@@ -2920,12 +2920,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "3",
+    "capacity": "150",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/BIOS6903.pdf"
   },
@@ -2946,12 +2946,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "100",
+    "capacity": "100",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 2,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/BIOS6904.pdf"
   },
@@ -34397,6 +34397,31 @@
     "medium": "English"
    },
    "section_count": 0,
+   "semester_tag": "SemB"
+  },
+  {
+   "code": "BIOS6908",
+   "programmes": [
+    "MSBIOS"
+   ],
+   "programme_requirement_types": {
+    "MSBIOS": "elective"
+   },
+   "requirement_type": "elective",
+   "programme_title": "AI for Biostatistics: Practice in Life Science and Healthcare",
+   "schedule_title": "AI for Biostatistics: Practice in Life Science and Healthcare",
+   "title_changed": false,
+   "credits": 3,
+   "remarks": "BIOS",
+   "prerequisites": "BIOS5800 and BIOS5801",
+   "exclusive_course": "Nil",
+   "summary": {
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
+    "medium": "English"
+   },
+   "section_count": 1,
    "semester_tag": "SemB"
   }
  ]
