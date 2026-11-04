@@ -16,5 +16,24 @@
   "notes": [
    "only for Programme: MSAI"
   ]
+ },
+ {
+  "crn": "15616",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "20",
+  "capacity": "20",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "MA Kede",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI",
+   "Prerequisite: completed at least 22 CUs including all required courses for MSAI"
+  ]
  }
 ]

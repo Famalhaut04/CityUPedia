@@ -8227,12 +8227,12 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS2303 Data Structures for Media or CS3334 Data Structures or EE3206 Java Programming and Applications",
+   "prerequisites": "CS2303 or CS3334 or EE3206",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "300",
-    "capacity": "300",
+    "available": "275",
+    "capacity": "275",
     "medium": "English"
    },
    "section_count": 4,
@@ -8362,7 +8362,7 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "240",
+    "available": "48",
     "capacity": "240",
     "medium": "English"
    },
@@ -8491,7 +8491,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS5222 Computer Networks and Internets or equivalent; and MA2144 Discrete Mathematics or equivalent",
+   "prerequisites": "CS5222 and MA2144",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
@@ -8499,7 +8499,7 @@
     "capacity": "280",
     "medium": "English"
    },
-   "section_count": 4,
+   "section_count": 2,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5288.pdf"
   },
@@ -8523,12 +8523,12 @@
    "prerequisites": "Nil",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "114",
+    "capacity": "114",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 2,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5291.pdf"
   },
@@ -8579,11 +8579,11 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS5285 Introduction to Cybersecurity",
+   "prerequisites": "CS5285",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "218",
+    "available": "110",
     "capacity": "218",
     "medium": "English"
    },
@@ -8678,7 +8678,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS5222 Computer Networks and Internets",
+   "prerequisites": "CS5222",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
@@ -8710,15 +8710,15 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS5486 Intelligent Systems or CS5489 Machine Learning: Algorithms and Applications or CS5491 Artificial Intelligence",
+   "prerequisites": "CS5486 or CS5489 or CS5491",
    "exclusive_course": "Nil",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "280",
+    "capacity": "280",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 2,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5297.pdf"
   },
@@ -8843,7 +8843,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS3402 Database Systems or CS5481 Data Engineering or equivalent",
+   "prerequisites": "CS3402 or CS5481",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
@@ -8851,7 +8851,7 @@
     "capacity": "300",
     "medium": "English"
    },
-   "section_count": 3,
+   "section_count": 1,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5483.pdf"
   },
@@ -8912,11 +8912,11 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS3334 Data Structures; and MA2176 Basic Calculus and Linear Algebra or MA2170 Linear Algebra and Multi-variable Calculus or MA2172 Applied Statistics for Sciences and Engineering",
+   "prerequisites": "CS3334 and (MA2176 or MA2170 or MA2172)",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "340",
+    "available": "339",
     "capacity": "340",
     "medium": "English"
    },
@@ -9016,15 +9016,15 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS3334 Data Structures or CS4335 Design and Analysis of Algorithms",
+   "prerequisites": "CS3334 or CS4335",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "500",
-    "capacity": "500",
+    "available": "323",
+    "capacity": "490",
     "medium": "English"
    },
-   "section_count": 4,
+   "section_count": 6,
    "semester_tag": "SemB",
    "programme_elective_groups": {
     "MSCS": "group2"
@@ -9136,11 +9136,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "23",
+    "capacity": "190",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5611.pdf"
   },
@@ -9162,11 +9162,11 @@
    "exclusive_course": "Nil",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "32",
+    "capacity": "140",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS5612.pdf"
   },
@@ -9220,7 +9220,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS2310 Computer Programming or equivalent; and CS3103 Operating Systems or equivalent",
+   "prerequisites": "CS2310 and CS3103 and CS3201",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
@@ -9249,7 +9249,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS2117 Foundation of Cybersecurity and CS3103 Operating Systems",
+   "prerequisites": "CS2117 and CS3103 and CS3104 and CS4101",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
@@ -9295,7 +9295,7 @@
     "capacity": "280",
     "medium": "English"
    },
-   "section_count": 12,
+   "section_count": 6,
    "semester_tag": "SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6290.pdf"
   },
@@ -9390,7 +9390,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS5487 Machine Learning: Principles and Practice or CS5489 or CS5491 Artificial Intelligence",
+   "prerequisites": "CS5487 or CS5489 or CS5491",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
@@ -9424,11 +9424,11 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS4335 Design and Analysis of Algorithms and (MA2170 Linear Algebra and Multi-variable Calculus or MA2176 Basic Calculus and Linear Algebra)",
+   "prerequisites": "CS4335 and (MA2170 or MA2176)",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
-    "available": "190",
+    "available": "184",
     "capacity": "190",
     "medium": "English"
    },
@@ -9456,7 +9456,7 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CS5481 Data Engineering or CS5487 or CS5489 or CS5491 or SDSC5001/SDSC6001/SDSC8007",
+   "prerequisites": "CS5481 or CS5487 or CS5489 or CS5491 or SDSC5001 or SDSC6001 or SDSC8007",
    "exclusive_course": "Nil",
    "summary": {
     "web": "Y",
@@ -9489,15 +9489,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "完成至少 12 学分（含两门必修课）",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6521 CS6538",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "60",
+    "capacity": "60",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 3,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6520.pdf"
   },
@@ -9520,15 +9520,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "MSEC 至少 24 学分或 MSCS 至少 21 学分（含全部必修课）",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6520 CS6538 EC6001",
    "summary": {
-    "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "web": "Y",
+    "available": "28",
+    "capacity": "40",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemA+SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6521.pdf"
   },
@@ -9549,15 +9549,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "已完成至少 12 学分",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6523 CS6524 CS6525 CS6526 CS6527 CS6528 CS6529 CS6539 CS6540 CS6541 CS6542",
    "summary": {
-    "web": "N",
-    "available": "5",
-    "capacity": "5",
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6522.pdf"
   },
@@ -9578,15 +9578,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "已完成至少 22 学分（含全部必修课）",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6522 CS6524 CS6525 CS6526 CS6527 CS6528 CS6529 CS6539 CS6540 CS6541 CS6542",
    "summary": {
-    "web": "N",
-    "available": "20",
-    "capacity": "20",
+    "web": "Y",
+    "available": "39",
+    "capacity": "40",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemA+SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6523.pdf"
   },
@@ -9607,15 +9607,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "已完成至少 12 学分",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6522 CS6523 CS6525 CS6526 CS6527 CS6528 CS6529 CS6539 CS6540 CS6541 CS6542",
    "summary": {
-    "web": "N",
-    "available": "5",
-    "capacity": "5",
+    "web": "Y",
+    "available": "15",
+    "capacity": "15",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 3,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6524.pdf"
   },
@@ -9636,15 +9636,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "已完成至少 22 学分（含全部必修课）",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6522 CS6523 CS6524 CS6526 CS6527 CS6528 CS6529 CS6539 CS6540 CS6541 CS6542",
    "summary": {
-    "web": "N",
-    "available": "20",
-    "capacity": "20",
+    "web": "Y",
+    "available": "35",
+    "capacity": "40",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemA+SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6525.pdf"
   },
@@ -9665,15 +9665,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "已完成至少 12 学分",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6522 CS6523 CS6524 CS6525 CS6527 CS6528 CS6529 CS6539 CS6540 CS6541 CS6542",
    "summary": {
-    "web": "N",
-    "available": "5",
-    "capacity": "5",
+    "web": "Y",
+    "available": "10",
+    "capacity": "10",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6526.pdf"
   },
@@ -9723,15 +9723,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "已完成至少 22 学分（含全部必修课）",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6522 CS6523 CS6524 CS6525 CS6526 CS6527 CS6529 CS6539 CS6540 CS6541 CS6542",
    "summary": {
-    "web": "N",
-    "available": "20",
-    "capacity": "20",
+    "web": "Y",
+    "available": "29",
+    "capacity": "40",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 2,
    "semester_tag": "SemA+SemB",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6528.pdf"
   },
@@ -9752,15 +9752,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "已完成至少 12 学分",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6522 CS6523 CS6524 CS6525 CS6526 CS6527 CS6528 CS6539 CS6540 CS6541 CS6542",
    "summary": {
-    "web": "N",
-    "available": "25",
-    "capacity": "25",
+    "web": "Y",
+    "available": "75",
+    "capacity": "75",
     "medium": "English"
    },
-   "section_count": 1,
+   "section_count": 3,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6529.pdf"
   },
@@ -9781,15 +9781,15 @@
    "title_changed": false,
    "credits": 6,
    "remarks": "CC",
-   "prerequisites": "已修至少 12 学分（含两门必修课）且 CGPA 3.30 或以上（3.00-3.29 可个案审批）",
-   "exclusive_course": "CS6532",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6530 CS6532",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "25",
+    "capacity": "25",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6531.pdf"
   },
@@ -9809,14 +9809,14 @@
    "credits": 3,
    "remarks": "CC",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "CS6535 CS6536 CS6537",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "5",
+    "capacity": "5",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6534.pdf"
   },
@@ -9841,14 +9841,14 @@
    "credits": 3,
    "remarks": "CC",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "CS6534 CS6536 CS6537",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "30",
+    "capacity": "30",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6535.pdf"
   },
@@ -9870,14 +9870,14 @@
    "credits": 3,
    "remarks": "CC",
    "prerequisites": "Nil",
-   "exclusive_course": "Nil",
+   "exclusive_course": "CS6534 CS6535 CS6537",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "5",
+    "capacity": "5",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6536.pdf"
   },
@@ -9901,15 +9901,15 @@
    "title_changed": false,
    "credits": 3,
    "remarks": "CC",
-   "prerequisites": "CGPA 3.30 或以上（3.00-3.29 可个案审批）",
-   "exclusive_course": "Nil",
+   "prerequisites": "Nil",
+   "exclusive_course": "CS6534 CS6535 CS6536",
    "summary": {
     "web": "N",
-    "available": "0",
-    "capacity": "0",
+    "available": "5",
+    "capacity": "5",
     "medium": "English"
    },
-   "section_count": 0,
+   "section_count": 1,
    "semester_tag": "SemA+SemB+Summer",
    "pdf_url": "https://www.cityu.edu.hk/pg/202627/course/CS6537.pdf"
   },

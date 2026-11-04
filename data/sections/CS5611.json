@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "crn": "14155",
+  "section": "S01",
+  "credits": 1,
+  "web": "N",
+  "available": "23",
+  "capacity": "190",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "17:00 - 18:50",
+  "building": "LI",
+  "room": "6606",
+  "instructor": "ZHANG Zhisong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI"
+  ]
+ }
+]

@@ -16,5 +16,24 @@
   "notes": [
    "only for Programme: MSCS3, MSEC4"
   ]
+ },
+ {
+  "crn": "15614",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "20",
+  "capacity": "20",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "MA Kede",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCS3, MSEC4",
+   "Prerequisite: completed at least 24 CUs (MSEC) or 21 CUs (MSCS) including all required courses"
+  ]
  }
 ]

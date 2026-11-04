@@ -17,5 +17,43 @@
    "only for Programme: MSAI",
    "only for Major: AGAI"
   ]
+ },
+ {
+  "crn": "15607",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "5",
+  "capacity": "5",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui, LIAO Jing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI",
+   "only for Major: AGAI"
+  ]
+ },
+ {
+  "crn": "15608",
+  "section": "D62",
+  "credits": 3,
+  "web": "N",
+  "available": "5",
+  "capacity": "5",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui, LIAO Jing",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI",
+   "only for Major: AGAI"
+  ]
  }
 ]

@@ -1,1 +1,40 @@
-[]
+[
+ {
+  "crn": "14149",
+  "section": "C61",
+  "credits": 3,
+  "web": "Y",
+  "available": "280",
+  "capacity": "280",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "19:00 - 20:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "BAI Guangdong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI, MSCYBE",
+   "Waitlist: 24"
+  ]
+ },
+ {
+  "crn": "14151",
+  "section": "T61",
+  "credits": 0,
+  "web": "Y",
+  "available": "280",
+  "capacity": "280",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "F",
+  "time": "21:00 - 21:50",
+  "building": "MMW",
+  "room": "2450",
+  "instructor": "BAI Guangdong",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI, MSCYBE",
+   "Waitlist: 24"
+  ]
+ }
+]

@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "crn": "11651",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "30",
+  "capacity": "30",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI, MSCS2, MSCS3",
+   "only for Major: AI, CSAI, CSGE",
+   "Waitlist: 2"
+  ]
+ }
+]

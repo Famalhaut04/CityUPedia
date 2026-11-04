@@ -16,5 +16,42 @@
   "notes": [
    "only for Programme: MSCS2, MSCS3"
   ]
+ },
+ {
+  "crn": "15604",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "20",
+  "capacity": "20",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCS2, MSCS3"
+  ]
+ },
+ {
+  "crn": "10334",
+  "section": "D62",
+  "credits": 3,
+  "web": "N",
+  "available": "20",
+  "capacity": "20",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCS2, MSCS3",
+   "Waitlist: 6"
+  ]
  }
 ]

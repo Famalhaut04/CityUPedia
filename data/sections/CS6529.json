@@ -17,5 +17,43 @@
    "only for Programme: MSAI",
    "only for Major: AI"
   ]
+ },
+ {
+  "crn": "15611",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "25",
+  "capacity": "25",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui, LU Zhichao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI",
+   "only for Major: AI"
+  ]
+ },
+ {
+  "crn": "15612",
+  "section": "D62",
+  "credits": 3,
+  "web": "N",
+  "available": "25",
+  "capacity": "25",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui, LU Zhichao",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSAI",
+   "only for Major: AI"
+  ]
  }
 ]

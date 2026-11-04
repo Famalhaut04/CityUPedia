@@ -1,1 +1,22 @@
-[]
+[
+ {
+  "crn": "11536",
+  "section": "D61",
+  "credits": 3,
+  "web": "N",
+  "available": "5",
+  "capacity": "5",
+  "date": "11/01/2027 - 17/04/2027",
+  "day": "",
+  "time": "",
+  "building": "",
+  "room": "",
+  "instructor": "HOU Junhui",
+  "medium": "English",
+  "notes": [
+   "only for Programme: MSCS2, MSCS3",
+   "only for Major: CDS1, CSGE",
+   "Waitlist: 1"
+  ]
+ }
+]
